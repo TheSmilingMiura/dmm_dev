@@ -1,0 +1,27 @@
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		steel=14.000
+	}
+	history={
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		set_demilitarized_zone = yes
+		victory_points = {
+			4925 5 
+		}
+
+	}
+
+	provinces={
+		1367 1395 4925 7240 8026 10132 12705 12767 
+	}
+	manpower=29995267
+	state_category=large_town
+}

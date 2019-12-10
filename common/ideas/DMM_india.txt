@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		member_of_the_confederation = {
+			picture = generic_constitutional_guarantees
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+	}
+}

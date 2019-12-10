@@ -1,0 +1,32 @@
+state={
+	id=767
+	name="STATE_767"
+	manpower = 4200000
+	
+	state_category = city
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			1648 2 
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 2
+
+			1648 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces={
+		1648 4652 7673 12302
+	}
+}

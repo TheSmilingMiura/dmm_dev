@@ -1,0 +1,165 @@
+focus_tree = {
+	id = GER_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3000 }
+	
+	#ELECTION
+
+	focus = {
+		id = GER_preparations
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		    add_political_power= 150
+		    country_event = { days = 1 id = gerinternal.4 }
+		}
+	}
+	focus = {
+		id = GER_the_debate
+		icon = GFX_focus_german_enlightenment
+		prerequisite = { focus = GER_preparations }
+		x = 8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		    country_event = { days = 1 id = gerinternal.5 }
+		}
+	}
+	focus = {
+		id = GER_the_election
+		icon = GFX_focus_german_enlightenment
+		prerequisite = { focus = GER_the_debate }
+		x = 8
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		    country_event = { days = 1 id = gerinternal.9 }
+		}
+	}
+	focus = {
+		id = GER_consolidating
+		icon = GFX_focus_german_enlightenment
+		prerequisite = { focus = GER_the_election }
+		x = 8
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		    country_event = { days = 1 id = gerinternal.10 }
+		}
+	}
+	focus = {
+		id = GER_ALARMSTUFE_2
+		icon = GFX_focus_german_enlightenment
+		x = 14
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		    if = {
+				limit = {
+					threat > 0.5
+				}
+			}
+		}
+		completion_reward = {
+		    add_war_support = 0.2
+		}
+	}
+	focus = {
+		id = GER_ALARMSTUFE_1
+		icon = GFX_focus_german_enlightenment
+		prerequisite = { focus = GER_ALARMSTUFE_2 }
+		x = 14
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		    has_war= yes
+		}
+		completion_reward = {
+		    add_stability = 0.1
+		     add_war_support = 0.2
+
+		}
+	}
+	focus = {
+		id = GER_war_economy
+		icon = GFX_focus_german_enlightenment
+		prerequisite = { focus = GER_ALARMSTUFE_1 }
+		x = 14
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		    if = {
+				limit = {
+					NOT = { has_idea = war_economy }
+					NOT = { has_idea = tot_economic_mobilisation }
+				}
+				add_ideas = war_economy
+			}
+		}
+	}
+	focus = {
+		id = GER_gotterdammerung_protocols
+		icon = GFX_focus_german_enlightenment
+		prerequisite = { focus = GER_war_economy }
+		x = 14
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+}
+	

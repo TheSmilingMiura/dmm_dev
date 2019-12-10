@@ -1,0 +1,22 @@
+
+state={
+	id=939
+	name="STATE_939"
+
+	history={
+		owner = TRK
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = TRK
+
+	}
+
+	provinces={
+		756 1632 4629 7639 7775 10671 12239 12722 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

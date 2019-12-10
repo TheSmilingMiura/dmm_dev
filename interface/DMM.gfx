@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_dmm_menu_bg"
+		texturefile = "gfx/interface/unitcontrol/dmm_menu_bg.dds"
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=912
+	name="STATE_912"
+	history={
+		owner = MFR
+		add_core_of = FRA
+		add_core_of = MFR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9523 3
+		}
+		2003.12.12 = {
+			owner = FRA
+			controller = FRA
+		}
+	}
+	provinces={
+		  9523
+	}
+	manpower=2
+	state_category=ruined_city
+}

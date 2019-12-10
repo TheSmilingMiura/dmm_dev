@@ -1,0 +1,220 @@
+add_namespace = gerinternal
+
+#Introduction Event
+
+country_event = {
+	id = gerinternal.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.1"}
+	title = gerinternal.1.t
+	desc = gerinternal.1.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.1.a
+	}
+}
+
+#Economic Intro
+
+country_event = {
+	id = gerinternal.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.2"}
+	title = gerinternal.2.t
+	desc = gerinternal.2.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.2.a
+	}
+}
+
+#Wehrmacht Intro
+
+country_event = {
+	id = gerinternal.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.3"}
+	title = gerinternal.3.t
+	desc = gerinternal.3.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.3.a
+	}
+}
+
+#Debate 1
+
+country_event = {
+	id = gerinternal.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.4"}
+	title = gerinternal.4.t
+	desc = gerinternal.4.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.4.a
+	}
+}
+
+#Debate event 2
+
+country_event = {
+	id = gerinternal.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.5"}
+	title = gerinternal.5.t
+	desc = gerinternal.5.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.5.a
+
+	}
+}
+country_event = {
+	id = gerinternal.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.6"}
+	title = gerinternal.6.t
+	desc = gerinternal.6.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.6.a
+	}
+}
+
+country_event = {
+	id = gerinternal.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.7"}
+	title = gerinternal.7.t
+	desc = gerinternal.7.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.7.a
+	}
+}
+country_event = {
+	id = gerinternal.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.8"}
+	title = gerinternal.8.t
+	desc = gerinternal.8.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.8.a
+		load_focus_tree =
+		create_country_leader = {
+			name = "Theodor Eberhard"
+			desc = "POLITICS_THEODOR_EBERHARD_DESC"
+			picture = GFX_portrait_ger_august_von_mackensen
+			expire = "2040.1.1"
+			ideology = authoritarian
+			traits = {
+				prince_of_terror popular_figurehead nationalist_symbol war_hero rearmer
+			}
+		}
+		name = gerinternal.8.b
+		create_country_leader = {
+			name = "Maximilian Salzer"
+			desc = "POLITICS_MAXIMILIAN_SALZER_DESC"
+			picture = GFX_portrait_ger_august_von_mackensen
+			expire = "2040.1.1"
+			ideology = corporatist
+			traits = {
+				quartermaster_general economist financial_expert socialite_connections
+			}
+		}
+	}
+}
+country_event = {
+	id = gerinternal.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.9"}
+	title = gerinternal.9.t
+	desc = gerinternal.9.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.9.a
+	}
+}

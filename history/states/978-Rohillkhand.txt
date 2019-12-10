@@ -1,0 +1,17 @@
+
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		8082 8114 9951 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = HIN
+		add_core_of = HIN
+	}
+	buildings_max_level_factor=1.000
+}

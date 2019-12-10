@@ -1,0 +1,16 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		12338 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+	}
+	buildings_max_level_factor=1.000
+}

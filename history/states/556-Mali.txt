@@ -1,0 +1,24 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1975 2001 2056 7950 8071 10836 12707 12851 
+	}
+	manpower=14844500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

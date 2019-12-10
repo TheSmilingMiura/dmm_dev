@@ -1,0 +1,43 @@
+
+state={
+	id=523
+	name="STATE_523"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+			4329 = {
+				coastal_bunker = 2
+				naval_base = 5
+			}
+
+			1242 = {
+				naval_base = 2
+			}
+
+			12237 = {
+				naval_base = 1
+			}
+			
+		}
+
+		victory_points = {
+			4329 2
+		}
+
+	}
+
+	provinces={
+		1222 1242 4289 4317 4329 4346 4418 7305 7333 7349 7362 7378 7409 10231 10248 10260 10954 10974 12135 12237 12931 12995 
+	}
+	manpower=1077000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

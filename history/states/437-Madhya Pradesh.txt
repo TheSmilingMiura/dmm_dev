@@ -1,0 +1,22 @@
+
+state={
+	id=437
+	name="STATE_437" # Indore
+	manpower = 8402500
+
+	state_category = rural
+
+	history={
+		owner = CIF
+		add_core_of = CIF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		8076 12080 11993 7205
+	}
+}

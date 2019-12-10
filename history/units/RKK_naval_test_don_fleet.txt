@@ -1,0 +1,11 @@
+units = {
+	fleet = {
+		name = "Donflotte des Deutschen Reiches"
+		naval_base = 719 #Novorossiysk
+		task_force = {
+		name = "Dispositionsflotte Neurotterdam"
+		location = 719
+		ship = { name = "KMS Arthur Moeller van den Bruck" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = RKK version_name = "Van den Bruck-Klasse"}}}
+		}
+	}
+}

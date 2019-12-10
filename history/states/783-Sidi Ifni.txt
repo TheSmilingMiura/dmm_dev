@@ -1,0 +1,39 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	manpower=14350000
+	state_category=metropolis
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+
+		victory_points = {
+			7381 3 
+		}
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 6
+			dockyard = 2
+			anti_air_building = 1
+
+			7381 = {
+				coastal_bunker = 2
+				bunker = 4
+				naval_base = 6
+			}
+		}
+
+	}
+
+	provinces={
+		7381
+	}
+
+}

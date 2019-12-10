@@ -1,0 +1,121 @@
+
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Die_Blauen_Dragoner"
+	file = "Die_Blauen_Dragoner.ogg"
+	volume = 0.65
+}
+#This is the last thing trains heard before getting Banzai charged by weebs 
+music = {
+	name = "Battotai"
+	file = "Battotai.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Apocalypse"
+	file = "Apocalypse.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Die_Grenzwacht_hielt_im_Osten"
+	file = "Die_Grenzwacht_hielt_im_Osten.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Am_Adolf-Hitler-Platz"
+	file = "Am_Adolf-Hitler-Platz.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Vorwaerts_nach_Osten"
+	file = "Vorwaerts_nach_Osten.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Im_a_soldier_of_Miklos_Horthy"
+	file = "Im_a_soldier_of_Miklos_Horthy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "SS_marschiert_im_Feindesland"
+	file = "SS_marschiert_im_Feindesland.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Zem_Musu_Kajam"
+	file = "Zem_Musu_Kajam.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Narva_Pataljon_Laul"
+	file = "Narva_Pataljon_Laul.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Wir_sind_des_Geyers_schwarzer_Haufen"
+	file = "Wir_sind_des_Geyers_schwarzer_Haufen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Der_Fuehrers_Face"
+	file = "Der_Fuehrers_Face.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Battle_Hymn_of_the_Republic"
+	file = "Battle_Hymn_of_the_Republic.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Over_There_American_Patriotic_Song"
+	file = "Over_There_American_Patriotic_Song.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Final_Blow"
+	file = "aKu_The_Final_Blow.ogg"
+	volume = 0.65
+}
+music = {
+	name = "White_Medley"
+	file = "Erdenstern_Into_The_White_Medley.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Kozato_Snow"
+	file = "Kozato_Snow.ogg"
+	volume = 0.65
+}
+music = {
+	name = "TEE"
+	file = "Kraftwerk_TEE.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Nicole"
+	file = "World_in_Conflict_Nicole.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Ibuki"
+	file = "Yoshida_Brothers_Ibuki.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Echipa_Mortii"
+	file = "Echipa_Mortii.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Intro_Japan"
+	file = "Intro_Japan.ogg"
+	volume = 0.65
+}

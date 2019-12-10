@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Brigada de Infanteria"		# Military dictatorships were supported by frontline army brigades during period
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+
+
+##### No Notable Air Forces #####
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ELS"
+		}
+		requested_factories = 1
+		progress = 0.72
+		efficiency = 100
+	}
+}

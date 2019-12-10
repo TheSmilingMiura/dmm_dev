@@ -1,0 +1,100 @@
+defined_text = {
+	name = GER_Leitpartei
+
+	text = {
+		localization_key = GER_NSDAP
+	}
+}
+
+defined_text = {
+	name = GER_Blockpartei1_t
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei1_AV
+			#NOT = { has_country_flag = { Blockpartei_AV }}
+		}
+		localization_key = GER_AV
+		#set_country_flag = { Blockpartei_AV }
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei1_GV
+			#NOT = { has_country_flag = { Blockpartei_GV }}
+		}
+		localization_key = GER_GV
+		#set_country_flag = { Blockpartei_GV }
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei1_DP
+			#NOT = { has_country_flag = { Blockpartei_DP }}
+		}
+		localization_key = GER_DP
+		#set_country_flag = { Blockpartei_DP }
+	}
+}
+
+defined_text = {
+	name = GER_Blockpartei2_t
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei2_AV
+			#NOT = { has_country_flag = { Blockpartei_AV }}
+		}
+		localization_key = GER_AV
+		#set_country_flag = { Blockpartei_AV }
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei2_GV
+			#NOT = { has_country_flag = { Blockpartei_GV }}
+		}
+		localization_key = GER_GV
+		#set_country_flag = { Blockpartei_GV }
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei2_DP
+			#NOT = { has_country_flag = { Blockpartei_DP }}
+		}
+		localization_key = GER_DP
+		#set_country_flag = { Blockpartei_DP }
+	}
+}
+
+defined_text = {
+	name = GER_Blockpartei3_t
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei3_AV
+			#NOT = { has_country_flag = { Blockpartei_AV }}
+		}
+		localization_key = GER_AV
+		#set_country_flag = { Blockpartei_AV }
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei3_GV
+			#NOT = { has_country_flag = { Blockpartei_GV }}
+		}
+		localization_key = GER_GV
+		#set_country_flag = { Blockpartei_GV }
+	}
+
+	text = {
+		trigger = {
+			has_country_flag = GER_Blockpartei3_DP
+			#NOT = { has_country_flag = { Blockpartei_DP }}
+		}
+		localization_key = GER_DP
+		#set_country_flag = { Blockpartei_DP }
+	}
+}

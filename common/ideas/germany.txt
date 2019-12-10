@@ -1,0 +1,237 @@
+ideas = {
+
+	country = {
+		geierpolitik = {
+
+			picture = geierpolitik
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				lend_lease_tension = -0.40
+				send_volunteers_tension = -0.30
+				send_volunteer_size = 2
+				trade_opinion_factor = -0.25
+				experience_gain_army = 0.03
+				experience_gain_navy = 0.01
+				experience_gain_air = 0.02
+				consumer_goods_factor = -0.03
+				land_equipment_upgrade_xp_cost = -0.10
+				air_equipment_upgrade_xp_cost = -0.10
+				industrial_capacity_factory = 0.1
+				license_purchase_cost = -0.5
+
+			}
+			equipment_bonus = {
+			    infantry_equipment = {
+				    soft_attack = 0.05
+				    breakthrough = 0.05
+				    build_cost_ic = -0.1
+				    instant = yes
+				}
+
+			}
+
+		}
+		
+		recovering_economy = {
+
+			picture = recovering_economy
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_factory_max_efficiency_factor = -0.1
+				line_change_production_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
+				
+			}
+		}
+
+		master_of_europe = {
+			
+			allowed = {
+				original_tag = GER
+			}
+			picture = masterofeurope
+			removal_cost = -1
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				drift_defence_factor = 0.5
+				guarantee_cost = -0.5
+				guarantee_tension = -0.5
+				justify_war_goal_time = -0.25
+
+
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		
+		heydrichs_ghost = {
+			removal_cost = -1
+			allowed = {
+				original_tag = GER 
+			}
+			picture = heydrichs_ghost
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.25
+
+			}
+			
+		}
+
+		widespread_drug_addiction = {
+			removal_cost = -1
+			allowed = {
+				original_tag = GER 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = widespread_drug_addiction
+			modifier = {
+				political_power_gain = -0.15
+				stability_weekly = -0.01
+				no_supply_grace = -12
+				attrition = 0.05
+			    army_morale_factor = -0.1
+			    research_speed_factor = -0.05
+			    MONTHLY_POPULATION = 0.25
+
+			}
+
+		}
+
+	}
+
+	industrial_concern = {
+
+		krupp_rheinmetall = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea krupp_rheinmetall"}
+			allowed = { original_tag = GER }
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = 0.05
+			}
+			research_bonus = {
+				industry = 0.05
+			}
+		}
+
+		arsi = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea arsi"}
+			allowed = { original_tag = GER }
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				local_resources_factor = 0.05
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		kuka = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea kuka"}
+			allowed = { original_tag = GER }
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				local_resources_factor = 0.15
+			}
+			research_bonus = {
+				industry = 0.05
+			}
+		}
+
+		krupp2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea krupp2"}
+			allowed = { original_tag = GER }
+			traits = { industrial_manufacturer }
+			available = {
+				has_completed_focus = GER_krupp_steel_focus
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.20
+				production_speed_industrial_complex_factor = 0.05
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		aeg = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea aeg"}
+			allowed = { original_tag = GER }
+			traits = { electronics_manufacturer }
+			modifier = {
+				production_speed_radar_station_factor = 0.15
+			}
+			research_bonus = {
+				electronics = 0.1
+			}
+		}
+
+		braun_company = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea braun_company"}
+			allowed = { original_tag = GER }
+			traits = { electronics_manufacturer }
+			modifier = {
+				production_speed_radar_station_factor = 0.15
+			}
+			research_bonus = {
+				electronics = 0.1
+				industry = 0.05
+			}
+		}
+
+		ig_farben = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ig_farben"}
+			allowed = { original_tag = GER }
+			traits = { chemical_producer }
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.15
+			}
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.05
+			}
+			equipment_bonus = {
+			infantry_equipment = {
+				soft_attack = 0.15
+				instant = yes
+			}
+		}
+	}
+}	
+

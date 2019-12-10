@@ -1,0 +1,40 @@
+﻿capital = 293
+
+oob = "YEM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Imam Yahya"
+	desc = "POLITICS_IMAM_YAHYA_DESC"
+	picture = "GFX_portrait_yemen_imam_yahya"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

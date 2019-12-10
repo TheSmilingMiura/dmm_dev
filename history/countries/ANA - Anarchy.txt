@@ -1,0 +1,42 @@
+﻿capital = 605 #Chongqing
+
+oob = "CHI_1936"
+set_stability = 0
+set_war_support = 0
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+	#will need to reduce recruitment to literally ZERO
+}
+
+set_convoys = 25
+
+set_politics = {	
+	ruling_party = liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    corporatist = 0
+    reactionary = 0
+    conservative = 0
+    liberal = 100
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "POLITICS_ANARCHY_DESC"
+	picture = "gfx/leaders/RRC/Portrait_ANARCHY_NO_LEADER.dds"
+	expire = "1965.1.1"
+	ideology = libertarianism
+	traits = {
+	}
+}

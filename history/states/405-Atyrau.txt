@@ -1,0 +1,27 @@
+
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = FGH
+		victory_points = {
+			1459 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			air_base = 1
+
+		}
+		add_core_of = FGH
+
+	}
+
+	provinces={
+		1459 10488 10660 11687 
+	}
+	manpower=6275820
+	buildings_max_level_factor=1.000
+	state_category=city
+}

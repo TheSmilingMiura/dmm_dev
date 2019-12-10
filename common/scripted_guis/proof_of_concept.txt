@@ -1,0 +1,45 @@
+#scripted_gui = {
+#	music_open = {
+#		context_type = player_context
+#		window_name = "classic_stations_entry"
+#		visible = {
+#			#NOT = { has_global_flag = hidden_switch }
+#			always = yes
+#		}
+#		effects = {
+#			select_station_button_click = {
+#				country_event = {
+#					id = natchina.4
+#				}
+#			}
+#		}
+#		triggers = {
+#			select_station_button_click_enabled = {
+#				always = yes
+#			}
+#		}
+#	}
+	#DMM_hide = {
+	#	context_type = player_context
+	#	window_name = "dmm_hide_menu"
+	#	visible = {
+	#		always = yes
+	#	}
+	#	effects = {
+	#		hide_menu_button_click = {
+	#			if = {
+	#				limit = { NOT = { has_global_flag = hidden_switch } }
+	#				set_global_flag = hidden_switch
+	#			}
+	#			else = {
+	#				clr_global_flag = hidden_switch
+	#			}
+	#		}
+	#	}
+	#	triggers = {
+	#		hide_menu_click_enabled = {
+	#			always = yes
+	#		}
+	#	}
+	#}
+}

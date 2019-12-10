@@ -1,0 +1,22 @@
+
+state={
+	id=958
+	name="STATE_958"
+
+	history={
+		owner = KVA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KVA
+
+	}
+
+	provinces={
+		1479 7541 10395 12233 12454 12471 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

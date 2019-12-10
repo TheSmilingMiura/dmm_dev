@@ -1,0 +1,18 @@
+
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		1444 1637 10358 12035 12307 12452 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = ORI
+		add_core_of = ORI
+	}
+
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=819
+	name="STATE_819"
+
+	state_category=rural
+	manpower= 560000
+
+	history={
+		owner = EEI
+		add_core_of = EEI
+	}
+		
+	provinces={
+		1289 4262 7311 10169 
+	}
+	buildings_max_level_factor=1.000
+}

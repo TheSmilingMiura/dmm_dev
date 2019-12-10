@@ -1,0 +1,26 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		7014 12076 
+	}
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			7014 = {
+				naval_base = 6
+			}
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 4
+	}
+	victory_points = {
+			7014 10 
+	}
+	}
+	manpower=24183300
+	state_category = megalopolis
+	buildings_max_level_factor=1.000
+}

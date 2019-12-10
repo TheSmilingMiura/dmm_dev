@@ -1,0 +1,26 @@
+
+state={
+	id=784
+	name="STATE_784"
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+		victory_points = {
+			1345 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		4319 4566 7312 7559 10193 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

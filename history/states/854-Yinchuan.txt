@@ -1,0 +1,26 @@
+state=
+{
+	id=854
+	name="STATE_854"
+	manpower = 1854059
+	state_category = town
+	
+	
+	history=
+	{
+		owner = RRC
+		add_core_of = RRC
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			10724 2 #Yinchuan
+		}
+	}
+	provinces={
+		8055 10724
+	}
+}

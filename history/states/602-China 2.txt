@@ -1,0 +1,36 @@
+state={
+	id=602
+	name="STATE_602"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		set_demilitarized_zone = yes
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 6
+				air_base = 1
+				arms_factory = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7665 10517 12017 12310 12483
+	}
+	manpower=20293700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

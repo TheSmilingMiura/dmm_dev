@@ -1,0 +1,23 @@
+state={
+	id=899
+	name="STATE_899"
+
+	history={
+		owner = MFR
+		victory_points = {
+			11506 4
+		}
+		buildings = {
+			infrastructure = 7
+			anti_air_building = 3
+			air_base = 6
+
+		}
+	}
+
+	provinces={
+		11506  
+	}
+	manpower = 3243
+	state_category = ruined_city
+}

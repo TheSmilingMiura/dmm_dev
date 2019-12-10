@@ -1,0 +1,35 @@
+on_actions = {
+on_startup = {
+	effect = { RRC = {
+		country_event = {
+			id = natchina.1
+			days = 1
+		}
+	}
+	WEA = {
+		country_event = {
+			id = wea.1
+			days = 1
+		}
+	}
+	MEN = {
+		country_event = {
+			id = men.1
+			days = 1
+		}
+	}
+	GER = {
+		country_event = {
+			id = gerinternal.1
+			days = 1
+		}
+		country_event = {
+			id = gerinternal.2
+			days = 2
+		}
+		country_event = {
+			id = gerinternal.3
+			days = 4
+		}
+	}
+}

@@ -1,0 +1,1838 @@
+﻿#################
+# RNGROC ideas
+#################
+
+add_namespace = natchina
+
+#Introduction
+country_event = {
+	id = natchina.1
+	title = natchina.1.t
+	desc = natchina.1.d
+	picture = GFX_report_event_jingwei
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+		set_variable = { rrc_wenying_instability = 0 }
+		country_event = {
+			id = rrcrepeat.1
+			days = 7
+		}
+		set_variable = { rrc_instability = 0 }
+		set_variable = { rrc_liu_support = 0 }
+		set_variable = { rrc_wang_support = 0 }
+		set_variable = { rrc_koichi_anger = 0 }
+		set_variable = { rrc_instability_increase = 0 }
+		set_variable = { rrc_wang_support_div = 0 }
+		set_variable = { rrc_liu_support_div = 0 }
+		set_variable = { rrc_nihonmachi = 0 }
+		set_country_flag = rrc_wang_wenying_instability_flag
+		}
+	}
+
+	option = {
+		name = natchina.1.a
+		add_political_power = -100
+	}
+}
+
+#Partisans advance
+country_event = {
+		id = natchina.2
+		title = natchina.2.t
+		desc = natchina.2.d
+		picture = GFX_report_event_partisans_advance
+
+		is_triggered_only = yes
+
+		option = {
+			name = natchina.2.a
+			random_owned_controlled_state = {
+				limit = { is_demilitarized_zone = no is_capital = no }
+				set_demilitarized_zone = yes
+			}
+		}
+}
+
+#Koichi's coup d'etat
+country_event = {  
+		id = natchina.3
+		title = natchina.3.t
+		desc = natchina.3.d
+		picture = GFX_report_event_ger_civil_war
+
+		is_triggered_only = yes
+
+		option = {
+			name = natchina.3.a
+			kill_country_leader = yes
+			add_stability = -0.05
+			add_war_support = 0.1
+			create_country_leader = {
+				name = "Kōichi Isobe"
+				desc = "POLITICS_KOICHI_ISOBE_DESC"
+				picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+				expire = "2025.1.1"
+				ideology = nazism
+			}
+		}
+}
+
+#Wang Wenying is dead!
+country_event = {
+	id = natchina.4
+	title = natchina.4.t
+	desc = natchina.4.d
+	#picture = 
+
+	trigger = {
+		tag = RRC
+		date > 2004.4.20
+		has_country_leader = {
+			name = "Wang Wenying"
+			ruling_only = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 23
+	}
+	fire_only_once = yes
+
+
+	option = {
+		name = natchina.4.a
+		kill_country_leader = yes
+		add_political_power = -50
+		add_ideas = rrc_power_struggle_no_dominant
+		create_country_leader = {
+			name = "Power Vacuum"
+			desc = "POLITICS_POWER_VACUUM_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_Power_Vacuum.dds"
+			expire = "2065.1.1"
+			ideology = military_junta
+			traits = {
+				#need appropriate trait costing pp and shit
+			}
+		}
+		hidden_effect = {
+		#	JAP = {
+		#		country_event = {
+		#			id = japandmm.x #The Japanese are notified of wangs death, but they can't choose b'cuz of their weakness
+		#			days = 2
+		#		}
+		#		}
+			RRC = {
+				country_event = {
+					id = rrcdom.0
+				}
+				country_event = {
+					id = rrcdom.1
+					days = 1
+				}
+			}
+			set_country_flag = rrc_wang_dead
+			if = {
+				limit = {
+					has_idea = rrc_wenying_rural_schools
+				}
+				remove_ideas = rrc_wenying_rural_schools
+			}
+			if = {
+				limit = {
+					has_idea = rrc_wenying_local_elections
+				}
+				remove_ideas = rrc_wenying_local_elections
+			}
+			if = {
+				limit = {
+					has_idea = RRC_entry_garrison_pleased
+				}
+				remove_ideas = RRC_entry_garrison_pleased
+			}
+			if = {
+			limit = { RRC = { NOT = { has_completed_national_focus = { CHI_anewpolicyforchina } } } }
+			complete_national_focus = CHI_anewpolicyforchina
+			else = {}
+			}
+			country_event = rrcrepeat.2
+			if = {
+				limit = {
+					AND = {
+						WEA = {
+							exists = yes
+							is_subject = no
+						}
+						754 = {
+							NOT = {
+								is_owned_and_controlled_by = WEA
+							}
+							is_owned_and_controlled_by = RRC
+						}
+						755 = {
+							is_owned_and_controlled_by = WEA
+						}
+					}
+				}
+				WEA = {
+					country_event = {
+						id = wea.2
+						days = 2
+					} 
+				}
+				else = {
+
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						MEN = {
+							exists = yes
+							NOT = { is_subject_of = RRC }
+						}
+						746 = {
+							NOT = {
+								is_owned_and_controlled_by = MEN
+							}
+							is_owned_and_controlled_by = RRC
+						}
+						854 = {
+							NOT = {
+								is_owned_and_controlled_by = MEN
+							}
+							is_owned_and_controlled_by = RRC
+						}
+						621 = {
+							is_owned_and_controlled_by = MEN
+						}
+					}
+				}
+				MEN = {
+					country_event = {
+						id = men.2
+						days = 6
+					} 
+				}
+				else = {
+
+				}
+			}
+		}
+	}
+}
+#Primary Leader Choice
+country_event = {
+	id = natchina.5
+	title = natchina.5.t
+	desc = natchina.5.d
+	#picture =
+
+	is_triggered_only = yes
+
+	option = {
+		name = natchina.5.a #Liu is victorious
+		ai_chance = { 
+			factor = 30
+		}
+		add_political_power = -50
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
+		hidden_effect = {
+			country_event = {
+				id = natchina.6
+				days = 70
+			}
+		}
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = reactionary
+		}
+		load_focus_tree = RNGROC_liu_focus
+		complete_national_focus = CHI_nofutureforachinesestate
+	}
+	option = {
+		name = natchina.5.b #Jiebing is victorious
+		ai_chance = {
+			factor = 50
+		}
+		add_political_power = 100
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
+		hidden_effect = {
+			country_event = {
+				id = natchina.6
+				days = 40
+			}
+			country_event = {
+				id = natchina.7
+				days = 7
+			}
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Wang Jiebing"
+			desc = "POLITICS_WANG_JIEBING_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Jiebing.dds"
+			expire = "2065.1.1"
+			ideology = military_junta
+			traits = {
+				#need appropriate trait
+			}
+		}
+	}
+	option = {
+		name = natchina.5.c #Koichi takes power
+		ai_chance = {
+			factor = 15
+		}
+		add_political_power = -200
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
+		hidden_effect = {
+			country_event = {
+				id = natchina.6
+				days = 90
+			}
+			complete_national_focus = CHI_amostloyalgovernment
+		}
+		set_politics = {
+			ruling_party = fascist
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Kōichi Isobe"
+			desc = "POLITICS_KOICHI_ISOBE_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+			expire = "2065.1.1"
+			ideology = hakko_ichiu
+			traits = {
+				#need appropriate trait
+			}
+		}
+	}
+	option = {
+		name = natchina.5.e #The Government collapses
+		ai_chance = {
+			factor = 15
+		}
+		add_political_power = -250
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = social_democrat
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.25
+		}
+		create_country_leader = {
+			name = "National Council of Revolution"
+			desc = "POLITICS_NCRROC_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_NCRROC.dds"
+			expire = "2065.1.1"
+			ideology = social_democracy
+			traits = {
+				#need appropriate trait
+			}
+		}
+		hidden_effect = {
+			complete_national_focus = CHI_reformorrevolution
+			country_event = {
+				id = natchina.8
+				days = 1
+			}
+		}
+	}
+}
+#The Crisis is identified
+country_event = {
+	id = natchina.6
+	title = natchina.6.t
+	desc = natchina.6.d
+	#picture =
+
+	is_triggered_only = yes
+
+	option = {
+		name = natchina.6.a
+		hidden_effect = {
+		#remove_ideas = RRC_political_struggle_2
+		#add_ideas = RRC_army_conflict
+		#add_ideas = RRC_ministry_conflict
+		#add_ideas = RRC_national_assembly_split
+		}
+	}
+}
+#Wang's choice
+country_event = {
+	id = natchina.7
+	title = natchina.7.t
+	desc = natchina.7.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = natchina.7.a #Bow to the Garrison
+		hidden_effect = {
+			complete_national_focus = CHI_nothingriskednothinglost
+		}
+		add_political_power = 50
+	}
+
+	option = {
+		name = natchina.7.b #Seek alternatives
+		hidden_effect = {
+			complete_national_focus = CHI_nothingriskednothinggained
+		}
+		add_political_power = -50
+	}
+}
+#Government Collapses - War begins
+country_event = {
+	id = natchina.8
+	title = natchina.8.t
+	desc = natchina.8.d
+	#picture =
+
+	is_triggered_only = yes
+
+	option = {
+		name = natchina.8.a
+		hidden_effect = {
+		CAC = {
+			608 = { add_core_of = PREV }
+			614 = { add_core_of = PREV }
+			597 = { add_core_of = PREV }
+			615 = { add_core_of = PREV }
+			607 = { add_core_of = PREV }
+			841 = { add_core_of = PREV }
+			606 = { add_core_of = PREV }
+			598 = { add_core_of = PREV }
+			836 = { add_core_of = PREV }
+			743 = { add_core_of = PREV }
+			transfer_state = 608
+			transfer_state = 614
+			transfer_state = 597
+			transfer_state = 615
+			transfer_state = 607
+			transfer_state = 841
+			transfer_state = 606
+			transfer_state = 598
+			transfer_state = 836
+			transfer_state = 743
+		}
+		country_event = {
+			id = natchina.9
+		}
+		swap_ideas = {
+				remove_idea = japanese_military_restrictions
+				add_idea = RRC_collapsed_RNA
+		}
+		remove_ideas = RRC_political_struggle
+	}
+	}
+	option = {
+		name = natchina.8.b
+		hidden_effect = {
+		CAC = {
+			608 = { add_core_of = PREV }
+			614 = { add_core_of = PREV }
+			597 = { add_core_of = PREV }
+			615 = { add_core_of = PREV }
+			607 = { add_core_of = PREV }
+			841 = { add_core_of = PREV }
+			606 = { add_core_of = PREV }
+			598 = { add_core_of = PREV }
+			836 = { add_core_of = PREV }
+			743 = { add_core_of = PREV }
+			890 = { add_core_of = PREV }
+			911 = { add_core_of = PREV }
+			transfer_state = 608
+			transfer_state = 614
+			transfer_state = 597
+			transfer_state = 615
+			transfer_state = 607
+			transfer_state = 841
+			transfer_state = 606
+			transfer_state = 598
+			transfer_state = 836
+			transfer_state = 743
+			transfer_state = 890
+			transfer_state = 911
+		}
+		RRC = {
+			country_event = {
+				id = natchina.9
+			}
+			CAC = {
+				change_tag_from = ROOT
+			}
+		}
+		swap_ideas = {
+				remove_idea = japanese_military_restrictions
+				add_idea = RRC_collapsed_RNA
+			}
+			remove_ideas = RRC_political_struggle
+		}
+	}
+}
+#CAC declares war
+country_event = {
+	id = natchina.9
+	title = natchina.9.t
+	desc = natchina.9.d
+	#picture =
+
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = natchina.9.a
+		country_event = {
+			id = natchina.10
+		}
+		ANA = {
+			600 = { add_core_of = PREV }
+			620 = { add_core_of = PREV }
+			839 = { add_core_of = PREV }
+			602 = { add_core_of = PREV }
+			603 = { add_core_of = PREV }
+			748 = { add_core_of = PREV }
+			750 = { add_core_of = PREV }
+			840 = { add_core_of = PREV }
+			605 = { add_core_of = PREV }
+			744 = { add_core_of = PREV }
+			735 = { add_core_of = PREV }
+			283 = { add_core_of = PREV }
+			616 = { add_core_of = PREV }
+			754 = { add_core_of = PREV }
+			753 = { add_core_of = PREV }
+			622 = { add_core_of = PREV }
+			874 = { add_core_of = PREV }
+			873 = { add_core_of = PREV }
+			854 = { add_core_of = PREV }
+			751 = { add_core_of = PREV }
+			752 = { add_core_of = PREV }
+			746 = { add_core_of = PREV }
+			882 = { add_core_of = PREV }
+			887 = { add_core_of = PREV }
+			881 = { add_core_of = PREV }
+			884 = { add_core_of = PREV }
+			883 = { add_core_of = PREV }
+			892 = { add_core_of = PREV }
+			893 = { add_core_of = PREV }
+			894 = { add_core_of = PREV }
+			885 = { add_core_of = PREV }
+			886 = { add_core_of = PREV }
+			878 = { add_core_of = PREV }
+			889 = { add_core_of = PREV }
+			transfer_state = 873
+			transfer_state = 874
+			transfer_state = 600
+			transfer_state = 620
+			transfer_state = 839
+			transfer_state = 602
+			transfer_state = 603
+			transfer_state = 748
+			transfer_state = 750
+			transfer_state = 840
+			transfer_state = 605
+			transfer_state = 744
+			transfer_state = 735
+			transfer_state = 283
+			transfer_state = 616
+			transfer_state = 754
+			transfer_state = 753
+			transfer_state = 622
+			transfer_state = 854
+			transfer_state = 751
+			transfer_state = 752
+			transfer_state = 746
+			transfer_state = 882
+			transfer_state = 887
+			transfer_state = 881
+			transfer_state = 884
+			transfer_state = 883
+			transfer_state = 892
+			transfer_state = 893
+			transfer_state = 894
+			transfer_state = 885
+			transfer_state = 886
+			transfer_state = 878
+			transfer_state = 889
+		}
+		600 = { set_demilitarized_zone = no }
+		620 = { set_demilitarized_zone = no }
+		839 = { set_demilitarized_zone = no }
+		602 = { set_demilitarized_zone = no }
+		603 = { set_demilitarized_zone = no }
+		748 = { set_demilitarized_zone = no }
+		750 = { set_demilitarized_zone = no }
+		840 = { set_demilitarized_zone = no }
+		605 = { set_demilitarized_zone = no }
+		744 = { set_demilitarized_zone = no }
+		735 = { set_demilitarized_zone = no }
+		283 = { set_demilitarized_zone = no }
+		616 = { set_demilitarized_zone = no }
+		754 = { set_demilitarized_zone = no }
+		841 = { set_demilitarized_zone = no }
+		607 = { set_demilitarized_zone = no }
+		615 = { set_demilitarized_zone = no }
+		606 = { set_demilitarized_zone = no }
+		753 = { set_demilitarized_zone = no }
+		622 = { set_demilitarized_zone = no }
+		874 = { set_demilitarized_zone = no }
+		873 = { set_demilitarized_zone = no }
+		854 = { set_demilitarized_zone = no }
+		751 = { set_demilitarized_zone = no }
+		752 = { set_demilitarized_zone = no }
+		746 = { set_demilitarized_zone = no }
+		882 = { set_demilitarized_zone = no }
+		887 = { set_demilitarized_zone = no }
+		881 = { set_demilitarized_zone = no }
+		884 = { set_demilitarized_zone = no }
+		883 = { set_demilitarized_zone = no }
+		892 = { set_demilitarized_zone = no }
+		893 = { set_demilitarized_zone = no }
+		894 = { set_demilitarized_zone = no }
+		885 = { set_demilitarized_zone = no }
+		886 = { set_demilitarized_zone = no }
+		878 = { set_demilitarized_zone = no }
+		889 = { set_demilitarized_zone = no }
+		set_province_name = {
+			id = 1089
+			name = "Nantsū"
+		}
+		set_province_name = {
+			id = 1069
+			name = "Sainan"
+		}
+		set_province_name = {
+			id = 10068
+			name = "Tenshin"
+		}
+		set_province_name = {
+			id = 9843
+			name = "Pekin"
+		}
+		set_province_name = {
+			id = 1519
+			name = "Taigen"
+		}
+		set_province_name = {
+			id = 9958
+			name = "Teishū"
+		}
+		set_province_name = {
+			id = 7222
+			name = "Gouhi"
+		}
+	}
+}
+country_event = {
+	id = natchina.10
+	title = natchina.10.t
+	desc = natchina.10.d
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	option = {
+		name = natchina.10.a
+		declare_war_on = {
+			target = CAC
+			type = annex_everything
+		}
+		hidden_effect = {
+			CAC = {
+				load_oob = "CAC_revolt"
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1500
+					producer = CAC
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 300
+					producer = CAC
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 1500
+					producer = CAC
+				}
+				add_equipment_to_stockpile = {
+					type = artillery
+					amount = 800
+					producer = CAC
+				}
+				add_equipment_to_stockpile = {
+					type = medium_tank_equipment
+					amount = 250
+					producer = CAC
+				}
+				add_equipment_production = {
+					equipment = {
+						type = infantry_equipment_0
+					}
+					requested_factories = 1
+					efficiency = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = medium_tank_equipment
+					}
+					requested_factories = 1
+					efficiency = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = artillery
+					}
+					requested_factories = 1
+					efficiency = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = support_equipment
+					}
+					requested_factories = 1
+					efficiency = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = motorized_equipment
+					}
+					requested_factories = 1
+					efficiency = 1
+					}
+				}
+			}
+		}
+	}
+	country_event = {
+		id = natchina.11
+		title = natchina.11.t
+		desc = natchina.11.d
+		#picture = 
+		hidden = yes
+		is_triggered_only = yes
+
+		option = {
+			name = natchina.11.a
+			every_owned_state = {
+				limit = { is_demilitarized_zone = yes }
+				set_demilitarized_zone = no
+			}
+			release_puppet = CXZ
+			release_puppet = MIA
+			release_puppet = ZHU
+			release_puppet = ELU
+			release_puppet = IMO
+			release_puppet = MEN
+			release_puppet = HUI
+			release_puppet = BAI
+			release_puppet = YIZ
+			release_puppet = FUJ
+			release_puppet = WUZ
+			release_puppet = GAN
+			release_puppet = SHE
+			release_puppet = NTI
+			release_puppet = TUJ
+			release_puppet = XIA
+			release_puppet = LAH
+			release_puppet = DAI
+			release_puppet = BTI
+			release_puppet = DNG
+			release_puppet = HAK
+			release_puppet = XNZ
+			release_puppet = MAN
+			release_puppet = LIZ
+			release_puppet = YUE
+			release_puppet = SIK
+			country_event = {
+      			id = natchina.12
+        		days = 5
+			}
+		}
+	}
+
+		country_event = {
+		id = natchina.12
+		title = natchina.12.t
+		desc = natchina.12.d
+		#picture = 
+		hidden = yes
+		is_triggered_only = yes
+
+		option = {
+			name = natchina.12.a
+			#Sichuan falls to rebels
+			if = {
+				limit = { 874 = { is_owned_by = RRC } }
+				874 = { add_core_of = REB }
+			}
+			if = {
+				limit = { 605 = { is_owned_by = RRC } }
+				605 = { add_core_of = REB }
+			}
+			release = REB
+			REB = {	
+				load_oob = "REB_revolt"
+				set_politics = {
+					ruling_party = liberal
+					elections_allowed = no
+				}
+				declare_war_on = {
+					target = RRC
+ 					type = annex_everything
+				}
+			}
+			#Initiating Massive Fortnite Battle Royale...
+			random_list = {
+				75 = {
+				#Southwest rebels
+					random_list = {
+						65 = {
+							if = {
+							#XNZ
+							limit = {
+								XNZ = { is_subject_of = RRC }
+							}
+							end_puppet = XNZ
+							declare_war_on = {
+							    target = XNZ
+ 								type = annex_everything
+							}
+							XNZ = { load_oob = "XNZ_revolt" }
+							}
+						}
+						10 = {
+							if = {
+							#LAH
+							limit = {
+								LAH = { is_subject_of = RRC }
+							}
+							end_puppet = LAH
+							declare_war_on = {
+							    target = LAH
+ 								type = annex_everything
+							}
+							LAH = { load_oob = "LAH_revolt" }
+							}
+						}
+						10 = {
+							#BAI
+							if = {
+							limit = {
+								BAI = { is_subject_of = RRC }
+							}
+							end_puppet = BAI
+							declare_war_on = {
+							    target = BAI
+ 								type = annex_everything
+							}
+							BAI = { load_oob = "BAI_revolt" }
+							}
+						}
+						10 = {
+							#DAI
+							if = {
+							limit = {
+								DAI = { is_subject_of = RRC }
+							}
+							end_puppet = DAI
+							declare_war_on = {
+							    target = DAI
+ 								type = annex_everything
+							}
+							DAI = { load_oob = "DAI_revolt" }
+							}
+						}
+						5 = {
+							if = {
+							#NTI
+							limit = {
+								NTI = { is_subject_of = RRC }
+							}
+							end_puppet = NTI
+							declare_war_on = {
+							    target = NTI
+ 								type = annex_everything
+							}
+							NTI = { load_oob = "NTI_revolt" }
+							}
+						}
+					}
+				}
+				25 = {}
+			}
+			random_list = {
+				42 = {
+				#South rebels
+					random_list = {
+						30 = {
+							#ZHU
+							if = {
+							limit = {
+								ZHU = { is_subject_of = RRC }
+							}
+							end_puppet = ZHU
+							declare_war_on = {
+							    target = ZHU
+ 								type = annex_everything
+							}
+							ZHU = { load_oob = "ZHU_revolt" }
+							}
+						}
+						30 = {
+							#YUE
+							if = {
+							limit = {
+								YUE = { is_subject_of = RRC }
+							}
+							end_puppet = YUE
+							declare_war_on = {
+							    target = YUE
+ 								type = annex_everything
+							}
+							YUE = { load_oob = "YUE_revolt" }
+							}
+						}
+						20 = {
+							#XIA
+							if = {
+							limit = {
+								XIA = { is_subject_of = RRC }
+							}
+							end_puppet = XIA
+							declare_war_on = {
+							    target = XIA
+ 								type = annex_everything
+							}
+							XIA = { load_oob = "XIA_revolt" }
+							}
+						}
+						10 = {
+							#TUJ
+							if = {
+							limit = {
+								TUJ = { is_subject_of = RRC }
+							}
+							end_puppet = TUJ
+							declare_war_on = {
+							    target = TUJ
+ 								type = annex_everything
+							}
+							TUJ = { load_oob = "TUJ_revolt" }
+							}
+						}
+						10 = {
+							#SHE
+							if = {
+							limit = {
+								SHE = { is_subject_of = RRC }
+							}
+							end_puppet = SHE
+							declare_war_on = {
+							    target = SHE
+ 								type = annex_everything
+							}
+							SHE = { load_oob = "SHE_revolt" }
+							}
+						}
+					}
+					random_list = {
+						30 = {
+							#GAN
+							if = {
+							limit = {
+								GAN = { is_subject_of = RRC }
+							}
+							end_puppet = GAN
+							declare_war_on = {
+							    target = GAN
+ 								type = annex_everything
+							}
+							GAN = { load_oob = "GAN_revolt" }
+							}
+						}
+						30 = {
+							#MIA
+							if = {
+							limit = {
+								MIA = { is_subject_of = RRC }
+							}
+							end_puppet = MIA
+							declare_war_on = {
+							    target = MIA
+ 								type = annex_everything
+							}
+							MIA = { load_oob = "MIA_revolt" }
+							}
+						}
+						20 = {
+							#WUZ
+							if = {
+							limit = {
+								WUZ = { is_subject_of = RRC }
+							}
+							end_puppet = WUZ
+							declare_war_on = {
+							    target = WUZ
+ 								type = annex_everything
+							}
+							WUZ = { load_oob = "WUZ_revolt" }
+							#Japan seizes Shanghai
+							if = {
+								limit = {
+									847 = { is_owned_by = JAP }
+								}
+								JAP = {
+									transfer_state = 842
+								}
+							}
+							}
+						}
+						10 = {
+							#FUJ
+							if = {
+							limit = {
+								FUJ = { is_subject_of = RRC }
+							}
+							end_puppet = FUJ
+							declare_war_on = {
+							    target = FUJ
+ 								type = annex_everything
+							}
+							FUJ = { load_oob = "FUJ_revolt" }
+							}
+						}
+						10 = {
+							#HAK
+							if = {
+							limit = {
+								HAK = { is_subject_of = RRC }
+							}
+							end_puppet = HAK
+							declare_war_on = {
+							    target = HAK
+ 								type = annex_everything
+							}
+							HAK = { load_oob = "HAK_revolt" }
+							}
+						}
+					} 
+				}
+				58 = {}
+			}
+			random_list = {
+				31 = {
+				#West rebels
+					random_list = {
+						30 = {
+							#HUI
+							if = {
+							limit = {
+								HUI = { is_subject_of = RRC }
+							}
+							end_puppet = HUI
+							declare_war_on = {
+							    target = HUI
+ 								type = annex_everything
+							}
+							HUI = { load_oob = "HUI_revolt" }
+							}
+						}
+						50 = {
+							#SIK
+							if = {
+							limit = {
+								SIK = { is_subject_of = RRC }
+							}
+							end_puppet = SIK
+							declare_war_on = {
+							    target = SIK
+ 								type = annex_everything
+							}
+							SIK = { load_oob = "SIK_revolt" }
+							}
+						}
+						10 = {
+							#BTI
+							if = {
+							limit = {
+								BTI = { is_subject_of = RRC }
+							}
+							end_puppet = BTI
+							declare_war_on = {
+							    target = BTI
+ 								type = annex_everything
+							}
+							BTI = { load_oob = "BTI_revolt" }
+							}
+						}
+						10 = {
+							#DNG
+							if = {
+							limit = {
+								DNG = { is_subject_of = RRC }
+							}
+							end_puppet = DNG
+							declare_war_on = {
+							    target = DNG
+ 								type = annex_everything
+							}
+							DNG = { load_oob = "DNG_revolt" }
+							}
+						}
+					}
+				}
+				69 = {}
+			}
+			random_list = {
+				30 = {
+				#The Steppes rebel
+					random_list = {
+						40 = {
+							#MEN
+							if = {
+							limit = {
+								MEN = { is_subject_of = RRC }
+							}
+							end_puppet = MEN
+							declare_war_on = {
+							    target = MEN
+ 								type = annex_everything
+							}
+							MEN = { load_oob = "MEN_revolt" }
+							}
+						}
+						40 = {
+							#ELU
+							if = {
+							limit = {
+								ELU = { is_subject_of = RRC }
+							}
+							end_puppet = ELU
+							declare_war_on = {
+							    target = ELU
+ 								type = annex_everything
+							}
+							ELU = { load_oob = "ELU_revolt" }
+							}
+						}
+						20 = {
+							#IMO
+							if = {
+							limit = {
+								IMO = { is_subject_of = RRC }
+							}
+							end_puppet = IMO
+							declare_war_on = {
+							    target = IMO
+ 								type = annex_everything
+							}
+							IMO = { load_oob = "IMO_revolt" }
+							}
+						}
+					}
+				}
+				70 = {}
+			}
+			random_list = {
+				15 = {
+				random_list = {
+						70 = {
+							#MAN
+							if = {
+							limit = {
+								MAN = { is_subject_of = RRC }
+							}
+							end_puppet = MAN
+							declare_war_on = {
+							    target = MAN
+ 								type = annex_everything
+							}
+							MAN = { load_oob = "MAN_revolt" }
+							}
+						}
+						30 = {
+							#CXZ
+							if = {
+							limit = {
+								CXZ = { is_subject_of = RRC }
+							}
+							end_puppet = CXZ
+							declare_war_on = {
+							    target = CXZ
+ 								type = annex_everything
+							}
+							CXZ = { load_oob = "CXZ_revolt" }
+							}
+						}
+					}
+				}
+				85 = {}
+			}
+			random_list = {
+				15 = {
+				#Uprising in Beijing
+				#load oob outside of owned state!
+				REB = { load_oob = REB_beijing_uprising }
+				}
+				85 = {}
+			}
+			random_list = {
+				70 = {
+				#commie Lüliang rebels rise/Yi rise
+					random_list = {
+						90 = {
+							#PRC
+							if = {
+								limit = { 615 = { is_owned_by = RRC } }
+								615 = { add_core_of = PRC }
+							}
+							if = {
+								limit = { 622 = { is_owned_by = RRC } }
+								622 = { add_core_of = PRC }
+							}
+							release = PRC
+							PRC = { 
+								load_oob = "PRC_revolt"
+								set_politics = {
+									ruling_party = socialist
+									elections_allowed = no
+								}
+								declare_war_on = {
+								    target = REB
+ 									type = annex_everything
+								}
+								declare_war_on = {
+							    	target = RRC
+ 									type = annex_everything
+								} 
+							}
+						}
+						10 = {
+							if = {
+							limit = {
+								YIZ = { is_subject_of = RRC }
+							}
+							end_puppet = YIZ
+							declare_war_on = {
+							    target = YIZ
+ 								type = annex_everything
+							}
+							YIZ = { load_oob = "YIZ_revolt" }
+							}
+						}
+					}
+				}
+				30 = {}
+			}
+			random_list = {
+				30 = {
+					if = {
+							limit = {
+								LIZ = { is_subject_of = RRC }
+							}
+							end_puppet = LIZ
+							declare_war_on = {
+							    target = LIZ
+ 								type = annex_everything
+							}
+							LIZ = { load_oob = "LIZ_revolt" }
+					}
+				}
+				70 = {}
+			}
+			random_list = {
+				2 = {
+						if = {
+							limit = { 911 = { is_owned_by = RRC } }
+							911 = { add_core_of = KAI }
+						}
+						release = KAI
+						declare_war_on = {
+							    target = KAI
+ 								type = annex_everything
+							}
+						KAI = { load_oob = "KAI_uprising" }
+				}
+				98 = {}
+			}
+		}
+	}
+country_event = {
+	id = natchina.13
+	title = natchina.13.t
+	desc = natchina.13.d
+	#picture =
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = natchina.13.a
+		create_faction = RRC_federalised_faction_name
+		every_country = {
+			limit = {
+				is_subject_of = RRC
+			}
+			end_puppet = PREV
+		}
+		add_political_power = 300
+		add_stability = 0.2
+	}
+}
+country_event = {
+	id = natchina.14
+	title = natchina.14.t
+	desc = natchina.14.d
+	#picture =
+	fire_only_once = yes
+
+	trigger = {
+		focus_progress = {
+			focus = CHI_devolution
+			progress > 0.12
+		}
+		tag = RRC
+		has_country_leader = {
+			name = "Liu Zhongjing"
+			ruling_only = yes
+		}
+		RRC = { has_war = no }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = natchina.14.a
+		remove_ideas = {
+			shengzhang_empowered
+			patriotic_militias
+			regionalism_fostered
+		}
+		set_politics = {
+			ruling_party = fascist
+			elections_allowed = no
+		}
+		complete_national_focus = CHI_amostloyalgovernment
+	}
+	option = {
+		name = natchina.14.b
+		add_timed_idea = {
+			idea = garrison_purged
+			days = 90
+		}
+		add_political_power = -50
+		613 = {
+		damage_building = {
+			type = infrastructure
+			damage = 3
+		}
+		}
+		596 = {
+		damage_building = {
+			type = infrastructure
+			damage = 2
+		}
+		}
+		842 = {
+		damage_building = {
+			type = infrastructure
+			damage = 2
+		}
+		}
+		if = {
+			limit = {
+				AND = {
+					847 = { is_owned_by = JAP }
+					846 = { is_owned_by = JAP }
+				}
+			}
+			transfer_state = 847
+			random_list = {
+			20 = { 
+				country_event = {
+					id = natchina.15
+					days = 4
+				}
+			}
+			80 = {
+				country_event = {
+					id = natchina.16
+					days = 4
+				}
+			}
+						}
+		#"the shelling of chongmingdao"
+	}
+}
+}
+country_event = { #chongmingdao holds
+		id = natchina.15
+		title = natchina.15.t
+		desc = natchina.15.d
+		is_triggered_only = yes
+		#picture =
+
+		option = {
+		name = natchina.15.a
+		846 = {
+			damage_building = {
+				type = bunker
+				damage = 2
+				province = 13339
+			}
+			damage_building = {
+				type = infrastructure
+				damage = 2
+			}
+			damage_building = {
+				type = military_factory
+				damage = 1
+			}
+			damage_building = {
+				type = naval_base
+				damage = 2
+				province = 13339
+			}
+		}
+		847 = {
+			damage_building = {
+				type = bunker
+				damage = 1
+				province = 13340
+			}
+			damage_building = {
+				type = infrastructure
+				damage = 2
+			}
+			damage_building = {
+				type = naval_base
+				damage = 1
+				province = 13340
+			}
+		}
+		847 = { add_core_of = RRC }
+		846 = { add_claim_by = RRC }
+	}
+
+}
+country_event = { #chongmingdao falls
+		id = natchina.16
+		title = natchina.16.t
+		desc = natchina.16.d
+		is_triggered_only = yes
+		#picture =
+
+		option = {
+		name = natchina.16.a
+		846 = {
+			damage_building = {
+				type = bunker
+				damage = 2
+				province = 13339
+			}
+			damage_building = {
+				type = infrastructure
+				damage = 3
+			}
+			damage_building = {
+				type = military_factory
+				damage = 1
+			}
+			damage_building = {
+				type = naval_base
+				damage = 3
+				province = 13339
+			}
+		}
+		847 = {
+			damage_building = {
+				type = bunker
+				damage = 1
+				province = 13340
+			}
+			damage_building = {
+				type = infrastructure
+				damage = 2
+			}
+			damage_building = {
+				type = naval_base
+				damage = 1
+				province = 13340
+			}
+		}
+		transfer_state = 846
+		847 = { add_core_of = RRC }
+		846 = { add_core_of = RRC }
+	}
+
+}
+country_event = {
+	id = natchina.17
+	title = natchina.17.t
+	desc = natchina.17.d
+	#picture =
+	fire_only_once = yes
+
+	trigger = {
+		focus_progress = {
+			focus = CHI_liu_economy
+			progress > 0.3
+		}
+		tag = RRC
+		has_country_leader = {
+			name = "Liu Zhongjing"
+			ruling_only = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = natchina.17.a
+		set_country_flag = RRC_liu_wang_hongwen
+	}
+	option = {
+		name = natchina.17.b
+		set_country_flag = RRC_liu_zhu_min
+	}
+	option = {
+		name = natchina.17.c
+		set_country_flag = RRC_liu_xie_zifen
+	}
+}
+country_event = {
+	id = natchina.18
+	title = natchina.18.t
+	desc = {
+		text = natchina.18.d.wang_chosen
+		trigger = {
+			has_country_flag = RRC_liu_wang_hongwen
+		}
+	}
+	desc = {
+		text = natchina.18.d.zhu_chosen
+		trigger = {
+			has_country_flag = RRC_liu_zhu_min
+		}
+	}
+	desc = {
+		text = natchina.18.d.xie_chosen
+		trigger = {
+			has_country_flag = RRC_liu_xie_zifen
+		}
+	}
+	#picture =
+	fire_only_once = yes
+
+	trigger = {
+		focus_progress = {
+			focus = CHI_liu_economy
+			progress > 0.5
+		}
+		tag = RRC
+		has_country_leader = {
+			name = "Liu Zhongjing"
+			ruling_only = yes
+		}
+		OR = {
+			has_country_flag = RRC_liu_wang_hongwen
+			has_country_flag = RRC_liu_zhu_min
+			has_country_flag = RRC_liu_xie_zifen
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = natchina.18.a
+		#name = {
+		#	text = natchina.18.a
+		#	trigger = { has_country_flag = RRC_liu_wang_hongwen }
+		#}
+		#name = {
+		#	text = natchina.18.c
+		#	trigger = { has_country_flag = RRC_liu_zhu_min }
+		#}
+		#name = {
+		#	text = natchina.18.f
+		#	trigger = { has_country_flag = RRC_liu_xie_zifen }
+		#}
+		if = {
+			limit = { RRC = { has_country_flag = RRC_liu_wang_hongwen } }
+			set_country_flag = RRC_liu_wang_hongwen_working_soldiers
+		}
+		if = {
+			limit = { RRC = { has_country_flag = RRC_liu_zhu_min } }
+			set_country_flag = RRC_liu_zhu_min_free_markets
+		}
+		if = {
+			limit = { RRC = { has_country_flag = RRC_liu_xie_zifen } }
+			set_country_flag = RRC_liu_xie_zifen_shengzhang
+		}
+	}
+	option = {
+		name = natchina.18.b
+		#name = {
+		#	text = natchina.18.b
+		#	trigger = { has_country_flag = RRC_liu_wang_hongwen }
+		#}
+		#name = {
+		#	text = natchina.18.e
+		#	trigger = { has_country_flag = RRC_liu_zhu_min }
+		#}
+		#name = {
+		#	text = natchina.18.g
+		#	trigger = { has_country_flag = RRC_liu_xie_zifen }
+		#}
+		if = {
+			limit = { RRC = { has_country_flag = RRC_liu_wang_hongwen } }
+			set_country_flag = RRC_liu_wang_hongwen_laogai
+		}
+		if = {
+			limit = { RRC = { has_country_flag = RRC_liu_zhu_min } }
+			set_country_flag = RRC_liu_zhu_min_social_markets
+		}
+		if = {
+			limit = { RRC = { has_country_flag = RRC_liu_xie_zifen } }
+			set_country_flag = RRC_liu_xie_zifen_local_councilism
+		}
+	}
+	#option = {
+	#		name = natchina.18.b
+	#		set_country_flag = RRC_liu_wang_hongwen_working_soldiers
+	#	}
+	#if = {
+	#	limit = { RRC = { has_country_flag = RRC_liu_zhu_min } }
+	#	option = {
+	#		name = natchina.18.c
+	#		set_country_flag = RRC_liu_zhu_min_free_markets
+	#	}
+	#	option = {
+	#		name = natchina.18.e
+	#		set_country_flag = RRC_liu_zhu_min_social_markets
+	#	}
+	#}
+	#if = {
+	#	limit = { RRC = { has_country_flag = RRC_liu_xie_zifen } }
+	#	option = {
+	#		name = natchina.18.f
+	#		set_country_flag = RRC_liu_xie_zifen_shengzhang
+	#	}
+	#	option = {
+	#		name = natchina.18.g
+	#		set_country_flag = RRC_liu_xie_zifen_local_councilism
+	#	}
+	#}
+	#if = {
+	#	limit = {
+	#		RRC = {
+	#			NOT = {
+	#				has_country_flag = RRC_liu_wang_hongwen
+	#				has_country_flag = RRC_liu_zhu_min
+	#				has_country_flag = RRC_liu_xie_zifen
+	#			}
+	#		}
+	#	}
+	#	option = {
+	#		name = natchina.18.h
+	#	}
+	#}
+}
+country_event = { #who should we kowtow to?
+	id = natchina.19
+	title = natchina.19.t
+	desc = natchina.19.d
+	#picture =
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = natchina.19.a
+		hidden_effect = {
+			set_country_flag = rrc_wenying_japan_priority
+			set_country_flag = rrc_koichi_anger_reduced
+		}
+	}
+	option = {
+		name = natchina.19.b
+		hidden_effect = {
+			set_country_flag = rrc_wenying_liu_priority
+		}
+	}
+}
+country_event = { #General & Geriatric
+	id = natchina.20
+	title = natchina.20.t
+	desc = natchina.20.d
+	#picture =
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = natchina.20.a
+		add_ideas = RRC_entry_garrison_pleased
+	}
+}
+country_event = { #The Northwest awakes
+	id = natchina.21
+	title = natchina.21.t
+	desc = natchina.21.d
+	#picture =
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = natchina.21.a
+		add_political_power = -25
+		add_stability = -0.05
+	}
+}
+country_event = { #Mongolia Seizes Borderlands
+	id = natchina.22
+	title = natchina.22.t
+	desc = natchina.22.d
+	#picture =
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = natchina.22.a
+		add_political_power = -50
+		add_stability = -0.07
+	}
+} 
+country_event = {
+	id = natchina.24
+	title = natchina.24.t
+	desc = natchina.24.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = natchina.24.a
+		custom_effect_tooltip = slow_decentralization_tt
+		hidden_effect = {
+			add_ideas = detente_with_liu
+			set_country_flag = rrc_wang_wenying_decentralization
+			set_variable = {
+				var = wang_wenying_decentralization
+				value = 0
+			}
+		}
+	}
+}
+country_event = {
+	id = natchina.23
+	title = natchina.23.t
+	desc = natchina.23.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = natchina.23.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+country_event = {
+	id = natchina.25
+	title = natchina.25.t
+	desc = natchina.25.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = natchina.25.a
+		add_ideas = rrc_wenying_balance
+	}
+}
+country_event = {
+	id = natchina.26
+	title = natchina.26.t
+	desc = natchina.26.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.26.a
+	}
+}
+country_event = {
+	id = natchina.27
+	title = natchina.27.t
+	desc = natchina.27.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.27.a
+	}
+}
+country_event = {
+	id = natchina.28
+	title = natchina.28.t
+	desc = natchina.28.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.28.a
+	}
+}
+country_event = {
+	id = natchina.29
+	title = natchina.29.t
+	desc = natchina.29.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.29.a
+	}
+}

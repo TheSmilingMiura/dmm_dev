@@ -1,0 +1,14 @@
+state={
+	id=954
+	name="STATE_954"
+	provinces={
+		1075 
+	}
+	history={
+		owner = RAJ
+	}
+	
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

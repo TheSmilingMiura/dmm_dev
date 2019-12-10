@@ -1,0 +1,63 @@
+scripted_gui = {
+	open_yuan_window = {
+		context_type = player_context
+
+		window_name = "dmm_yuan_open"
+		parent_window_token = politics_tab
+
+		visible = {
+			original_tag = RRC 
+		}
+
+		effects = {
+			open_yuan_button_click = {
+				set_temp_variable = { visible = 1 }
+				subtract_from_temp_variable = { visible = boolean_visible }
+				set_variable = { boolean_visible = visible }
+
+			}
+
+		}
+	}
+
+	yuan_window_overview = {
+		context_type = player_context
+
+		window_name = "dmm_yuan_menu_container"
+
+		visible = {
+			check_variable = { boolean_visible > 0 }
+		}
+		effects = {
+			close_button_click = {
+				clear_variable = boolean_visible
+			}
+		}
+		triggers = {
+			ExecutiveYuanLeaderYan_visible = {
+				always = yes
+			}
+			LegislativeYuanLeaderWangJinping_visible = {
+				always = yes
+			}
+			ExamYuanLeaderKong_visible = {
+				always = yes
+			}
+			ControlYuanLeaderQian_visible = {
+				always = yes
+			}
+			JudicYuanLeaderXu_visible = {
+				always = yes
+			}
+			ArmyLeaderLi_visible = {
+				always = yes
+			}
+			PresidentWenying_visible = {
+				has_country_leader = {
+					name = "Wang Wenying"
+					ruling_only = yes
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		4410 7938 8120 10332 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = HIN
+		add_core_of = HIN
+	}
+	buildings_max_level_factor=1.000
+}

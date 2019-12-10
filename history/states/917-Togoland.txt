@@ -1,0 +1,17 @@
+state={
+	id=917
+	name="STATE_917"
+	provinces={
+		1951 12843 
+		
+	}
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	manpower=5288000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

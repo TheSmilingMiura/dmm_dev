@@ -1,0 +1,20 @@
+state = {
+	id = 967
+	name = "STATE_967"
+	history = {
+		owner = URA
+		victory_points = {
+			1821 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = URA
+	}
+
+	provinces = {
+		10648 1704 10716 1808 7228 9553 12567 1821 10133 307
+	}
+	manpower = 6080
+	state_category = town
+}

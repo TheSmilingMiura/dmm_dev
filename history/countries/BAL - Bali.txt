@@ -1,0 +1,91 @@
+﻿capital = 795 # Bali
+
+set_research_slots = 2
+
+# Starting tech
+# clone of Indonesia
+set_technology = {
+}
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 60
+    corporatist = 0
+    reactionary = 23
+    conservative = 10
+    liberal = 2
+    social_democrat = 0
+    socialist = 0
+    communist = 5
+}
+
+create_country_leader = {
+	name = "Arya Wedakana"
+	desc = ""
+	picture = "gfx/leaders/southeast_asia/portrait_dmm_bali_arya_wedakana.dds"
+	expire = "1953.3.1"
+	ideology = balinese_nationalist
+	traits = {
+		
+	}
+}
+
+
+1939.1.1 = {
+	add_political_power = 1198
+
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		tech_recon = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+

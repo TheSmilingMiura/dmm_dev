@@ -1,0 +1,241 @@
+division_template = {
+	name = "Hoheishidan" #Infantry div
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Jidoushaka Hoheishidan" #motorized inf
+	division_names_group = CHI_INF_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Kikoushidan" #armor div
+	division_names_group = CHI_CAV_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Minpei" #militia div
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+###OOB###
+
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 9843
+			division_template = "Hoheishidan"
+			start_experience_factor = 1.4
+			start_equipment_factor = 0.75
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10068
+			division_template = "Hoheishidan"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 1069
+			division_template = "Hoheishidan"
+			start_experience_factor = 1
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 1069
+			division_template = "Jidoushaka Hoheishidan"
+			start_experience_factor = 0.8
+			start_equipment_factor = 0.75
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 1089
+			division_template = "Jidoushaka Hoheishidan"
+			start_experience_factor = 0.8
+			start_equipment_factor = 0.75
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 1139
+			division_template = "Jidoushaka Hoheishidan"
+			start_experience_factor = 0.8
+			start_equipment_factor = 0.75
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7167
+			division_template = "Kikoushidan"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 4079
+			division_template = "Kikoushidan"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 11928
+			division_template = "Minpei"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 7181
+			division_template = "Minpei"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 4089
+			division_template = "Minpei"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 4190
+			division_template = "Minpei"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 12344
+			division_template = "Hoheishidan"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 1034
+			division_template = "Hoheishidan"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 4205
+			division_template = "Hoheishidan"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 4140
+			division_template = "Hoheishidan"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 7092
+			division_template = "Jidoushaka Hoheishidan"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 9969
+			division_template = "Jidoushaka Hoheishidan"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=948
+	name="STATE_948"
+	provinces={
+		1541 1569 2005 7334 10751 
+	}
+	history={
+		owner = HIN
+	}
+	
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,188 @@
+﻿capital = 276
+
+oob = "CAN_1936"
+
+set_research_slots = 3
+set_country_flag = monroe_doctrine
+set_stability = 0.8
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Mackenzie King"
+	desc = "POLITICS_MACKENZIE_KING_DESC"
+	picture = "Portrait_Canada_Mackenzie_King.dds"
+	expire = "1965.1.1"
+	ideology = libertarianism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adrien Arcand"
+	desc = "POLITICS_ADRIEN_ARCAND_DESC"
+	picture = "GFX_CAN_adrien_arcand"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tim Buck"
+	desc = "POLITICS_TIM_BUCK_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "J. S. Woodsworth"
+	desc = "POLITICS_JS_WOODSWORTH_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = libertarianism
+	traits = {
+		#
+	}
+}
+
+set_convoys = 100
+set_stability = 0.75
+
+create_corps_commander = {
+	name = "Thomas Victor Anderson"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  }
+	skill = 4
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Charles Foulkes"
+	gfx = "GFX_CAN_charles_foulkes"
+	traits = { }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "John Montague"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { }
+	skill = 3
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Bert Hoffmeister"
+	gfx = "GFX_CAN_bert_hoffmeister"
+	traits = { hill_fighter }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Leonard W. Murray"
+	gfx = "GFX_CAN_leonard_warren_murray"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "H.T. Baillie-Grohman"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { spotter }
+	skill = 4
+}
+create_navy_leader = {
+	name = "James D. Prentice"
+	gfx = "GFX_CAN_james_prentice"
+	traits = { spotter }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Harry DeWolf"
+	gfx = "GFX_CAN_harry_dewolf"
+	traits = { superior_tactician }
+	skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Sanguenay Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}
+
+1939.1.1 = {
+	create_equipment_variant = {
+		name = "Athabaskan Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+	}
+}

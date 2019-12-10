@@ -1,0 +1,9 @@
+GER_Reichstag = {
+	GER_Reichstag_test = {
+		#icon =
+		available = { always = no }
+		visible = { always = yes }
+		cost = 60
+		complete_effect = {}
+	}
+}

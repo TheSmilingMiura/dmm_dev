@@ -1,0 +1,21 @@
+
+state={
+	id=773
+	name="STATE_773"
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		1253 1488 1990 4496 7492 7531 7675 8045 10371 
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

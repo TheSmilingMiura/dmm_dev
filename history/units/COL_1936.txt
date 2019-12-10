@@ -1,0 +1,28 @@
+﻿division_template = {
+	name = "Brigada del Ejército"			# Represents regional reserve mixed brigades
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "COL"
+		}
+		requested_factories = 1
+		progress = 0.33
+		efficiency = 100
+	}
+}

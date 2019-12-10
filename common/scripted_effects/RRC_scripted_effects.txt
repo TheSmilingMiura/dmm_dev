@@ -1,0 +1,321 @@
+######################
+#DMM SCRIPTED EFFECTS#
+######################
+
+change_instability_china = {
+	hidden_effect  = {
+		if = {
+			limit = {
+				NOT = {
+					#check_variable = { rrc_instability > 14 }
+					check_variable = { rrc_instability < 0 }
+				}
+			}
+
+			add_to_variable = { rrc_instability = rrc_instability_increase }
+			set_variable = { rrc_instability_increase = 0 }
+			
+			clamp_variable = {
+				var = rrc_instability
+    			min = 0
+    			#max = 14
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_instability
+						value = 3
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_instability_low
+				}
+				swap_ideas = { remove_idea = rrc_instability_low add_idea = rrc_instability_medium }
+				country_event = natchina.26
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_instability
+							value = 3
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_instability_medium
+					}
+					swap_ideas = { remove_idea = rrc_instability_medium add_idea = rrc_instability_low }
+					country_event = natchina.27
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_instability
+						value = 6
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_instability_medium
+				}
+				swap_ideas = { remove_idea = rrc_instability_medium add_idea = rrc_instability_high }
+				country_event = natchina.26
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_instability
+							value = 6
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_instability_high
+					}
+					swap_ideas = { remove_idea = rrc_instability_high add_idea = rrc_instability_medium }
+					country_event = natchina.27
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_instability
+						value = 10
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_instability_high
+				}
+				swap_ideas = { remove_idea = rrc_instability_high add_idea = rrc_instability_very_high }
+				country_event = natchina.26
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_instability
+							value = 10
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_instability_very_high
+					}
+					swap_ideas = { remove_idea = rrc_instability_very_high add_idea = rrc_instability_high }
+					country_event = natchina.27
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_instability
+						value = 14
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_instability_very_high
+				}
+				swap_ideas = { remove_idea = rrc_instability_very_high add_idea = rrc_instability_extreme }
+				country_event = natchina.26
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_instability
+							value = 14
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_instability_extreme
+					}
+					swap_ideas = { remove_idea = rrc_instability_extreme add_idea = rrc_instability_very_high }
+					country_event = natchina.27
+				}
+			}
+		}
+	}
+}
+change_power_struggle_dynamic_china = {
+	hidden_effect = {
+		clamp_variable = {
+				var = rrc_instability
+    			min = 0
+		}
+		clamp_variable = {
+				var = rrc_koichi_anger
+    			min = 0
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = rrc_instability
+					value = 10
+					compare = greater_than_or_equals
+				}
+				NOT = { has_idea = rrc_power_struggle_civil_war }
+			}
+			remove_ideas = rrc_power_struggle_no_dominant
+			remove_ideas = rrc_power_struggle_liu_dominant
+			remove_ideas = rrc_power_struggle_wang_dominant
+			remove_ideas = rrc_power_struggle_koichi_angry
+			add_ideas = rrc_power_struggle_civil_war
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = rrc_koichi_anger
+					value = 5
+					compare = greater_than_or_equals
+				}
+				NOT = { has_idea = rrc_power_struggle_koichi_angry }
+			}
+			remove_ideas = rrc_power_struggle_no_dominant
+			remove_ideas = rrc_power_struggle_liu_dominant
+			remove_ideas = rrc_power_struggle_wang_dominant
+			add_ideas = rrc_power_struggle_koichi_angry
+			remove_ideas = rrc_power_struggle_civil_war
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = rrc_wang_support_div
+					value = rrc_liu_support_div
+					compare = greater_than
+				}
+				NOT = { has_idea = rrc_power_struggle_wang_dominant }
+			}
+			remove_ideas = rrc_power_struggle_no_dominant
+			remove_ideas = rrc_power_struggle_liu_dominant
+			add_ideas = rrc_power_struggle_wang_dominant
+			remove_ideas = rrc_power_struggle_koichi_angry
+			remove_ideas = rrc_power_struggle_civil_war
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = rrc_liu_support_div
+					value = rrc_wang_support_div
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = rrc_liu_support_div
+					value = 0
+					compare = greater_than
+				}
+				NOT = { has_idea = rrc_power_struggle_liu_dominant }
+			}
+			remove_ideas = rrc_power_struggle_no_dominant
+			add_ideas = rrc_power_struggle_liu_dominant
+			remove_ideas = rrc_power_struggle_wang_dominant
+			remove_ideas = rrc_power_struggle_koichi_angry
+			remove_ideas = rrc_power_struggle_civil_war
+		}
+
+	}
+}
+
+change_nihonmachi_china = {
+	hidden_effect  = {
+		if = {
+			limit = {
+				NOT = {
+					#check_variable = { rrc_nihonmachi > 14 }
+					check_variable = { rrc_nihonmachi < 0 }
+				}
+			}
+
+			clamp_variable = {
+				var = rrc_nihonmachi
+    			min = 0
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_nihonmachi
+						value = 3
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_nihonmachi_low
+				}
+				swap_ideas = { remove_idea = rrc_nihonmachi_low add_idea = rrc_nihonmachi_medium }
+				country_event = natchina.28
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_nihonmachi
+							value = 3
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_nihonmachi_medium
+					}
+					swap_ideas = { remove_idea = rrc_nihonmachi_medium add_idea = rrc_nihonmachi_low }
+					country_event = natchina.29
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_nihonmachi
+						value = 6
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_nihonmachi_medium
+				}
+				swap_ideas = { remove_idea = rrc_nihonmachi_medium add_idea = rrc_nihonmachi_high }
+				country_event = natchina.28
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_nihonmachi
+							value = 6
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_nihonmachi_high
+					}
+					swap_ideas = { remove_idea = rrc_nihonmachi_high add_idea = rrc_nihonmachi_medium }
+					country_event = natchina.29
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_nihonmachi
+						value = 10
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_nihonmachi_high
+				}
+				swap_ideas = { remove_idea = rrc_nihonmachi_high add_idea = rrc_nihonmachi_very_high }
+				country_event = natchina.28
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_nihonmachi
+							value = 10
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_nihonmachi_very_high
+					}
+					swap_ideas = { remove_idea = rrc_nihonmachi_very_high add_idea = rrc_nihonmachi_high }
+					country_event = natchina.29
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_nihonmachi
+						value = 14
+						compare = greater_than_or_equals
+					}
+					has_idea = rrc_nihonmachi_very_high
+				}
+				swap_ideas = { remove_idea = rrc_nihonmachi_very_high add_idea = rrc_nihonmachi_extreme }
+				country_event = natchina.28
+				else_if = {
+					limit = {
+						check_variable = {
+							var = rrc_nihonmachi
+							value = 14
+							compare = less_than_or_equals
+						}
+						has_idea = rrc_nihonmachi_extreme
+					}
+					swap_ideas = { remove_idea = rrc_nihonmachi_extreme add_idea = rrc_nihonmachi_very_high }
+					country_event = natchina.29
+				}
+			}
+		}
+	}
+}

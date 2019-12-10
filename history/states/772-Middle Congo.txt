@@ -1,0 +1,36 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = INS
+		add_core_of = SAR
+		add_core_of = INS
+		victory_points = {
+			12268 2 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+			12268 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1246 1274 1313 1401 4276 4381 10150 10294 10322 12268 12296 13225 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

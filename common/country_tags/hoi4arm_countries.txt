@@ -1,0 +1,6 @@
+#LOT	= "countries/Lotharingia.txt"
+#GKN = "countries/G.K. Nowgorodien.txt"
+#GKT = "countries/G.K. Tula.txt"
+#GKT = "countries/G.K. Tula.txt"
+#GKM = "countries/G.K. Moskowien.txt"
+#GKM = "countries/G.K. Moskowien.txt"

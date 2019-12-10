@@ -1,0 +1,7 @@
+state_categories={
+	ruined_city = {
+		local_building_slots = 1
+
+		color = { 96 96 96 }
+	}
+}

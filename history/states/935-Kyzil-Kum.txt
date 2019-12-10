@@ -1,0 +1,22 @@
+
+state={
+	id=935
+	name="STATE_935"
+
+	history={
+		owner = KAZ
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		1532 1554 4488 4499 4578 4618 7486 7501 7507 10420 
+	}
+	manpower=33721
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

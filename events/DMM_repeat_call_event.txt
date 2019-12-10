@@ -1,0 +1,291 @@
+add_namespace = rrcrepeat
+
+country_event = {
+	id = rrcrepeat.0
+	title = rrcrepeat.0.t
+	desc = rrcrepeat.0.d
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = rrcrepeat.0.a
+		set_variable = { rrc_divisor = 0 }
+		set_variable = { rrc_wang_support_div = 0 }
+		set_variable = { rrc_liu_support_div = 0 }
+		add_to_variable = { rrc_wang_support = rrc_wang_support_increase }
+		add_to_variable = { rrc_liu_support = rrc_liu_support_increase }
+		if = {
+			limit = {
+				check_variable = { rrc_wang_support < 0 }
+			}
+			set_variable = {
+				rrc_wang_support = 0
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { rrc_liu_support < 0 }
+			}
+			set_variable = {
+				rrc_liu_support = 0
+			}
+		}
+		set_variable = { rrc_liu_support_increase = 0 }
+		set_variable = { rrc_wang_support_increase = 0 }
+		set_variable = { rrc_wang_support_div = rrc_wang_support }
+		set_variable = { rrc_liu_support_div = rrc_liu_support }
+		add_to_variable = { rrc_divisor = rrc_wang_support }
+		add_to_variable = { rrc_divisor = rrc_liu_support }
+		if = {
+			limit = {
+				check_variable = { rrc_divisor = 0 }
+			}
+			set_variable = { rrc_divisor = 1 }
+		}
+		divide_variable = { rrc_wang_support_div = rrc_divisor }
+		divide_variable = { rrc_liu_support_div = rrc_divisor }
+		#multiply_variable = { rrc_wang_support_div = 100 }
+		#multiply_variable = { rrc_liu_support_div = 100 }
+		change_power_struggle_dynamic_china = yes
+	}
+}
+
+country_event = {
+	id = rrcrepeat.1
+	title = rrcrepeat.1.t
+	desc = rrcrepeat.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = rrcrepeat.1.a
+		if = {
+			limit = {
+				NOT = {
+					has_country_leader = {
+						name = "Wang Wenying"
+						ruling_only = yes
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { #liuist graffiti
+				check_variable = { rrc_wenying_instability = 0 }
+			}
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.05
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 1 }
+				change_instability_china = yes
+			}
+		}
+		else_if = { #RNA convoy ambushed
+			limit = {
+				check_variable = { rrc_wenying_instability = 1 }
+			}
+			add_manpower = -120
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -230
+				producer = RRC
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 1 }
+				change_instability_china = yes
+			}
+		}
+		else_if = { #communist propaganda in the rural areas
+			limit = {
+				check_variable = { rrc_wenying_instability = 2 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 1 }
+				change_instability_china = yes
+				set_country_flag = rrc_wenying_lüliang_c
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = 0.03
+			}
+		}
+		else_if = { #banned books published illegally
+			limit = {
+				check_variable = { rrc_wenying_instability = 3 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 1 }
+				change_instability_china = yes
+				set_country_flag = rrc_wenying_illegal_press
+			}
+			add_political_power = -65
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.03
+			}
+		}
+		else_if = { #taoxikeng tungsten mine disaster
+			limit = {
+				check_variable = { rrc_wenying_instability = 4 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 3 }
+				change_instability_china = yes
+				set_country_flag = rrc_wenying_taoxikeng
+			}
+			add_resource = {
+				type = tungsten
+				amount = -5
+				state = 600
+			}
+			manpower = -1000
+			add_stability = -0.1
+		}
+		else_if = { #official assaulted by liuist radicals
+			limit = {
+				check_variable = { rrc_wenying_instability = 5 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 1 }
+				change_instability_china = yes
+			}
+		}
+		else_if = { #police station raided
+			limit = {
+				check_variable = { rrc_wenying_instability = 6 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 2 }
+				change_instability_china = yes
+				set_country_flag = rrc_wenying_xian_red_day
+			}
+			add_manpower = -20
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -50
+				producer = RRC
+			}
+		}
+		else_if = { #passenger ferry sunk by terrorists
+			limit = {
+				check_variable = { rrc_wenying_instability = 7 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 3 }
+				change_instability_china = yes
+				set_country_flag = rrc_wenying_chen_gongbo
+			}
+			manpower = -1560
+			add_political_power = -70
+		}
+		else_if = { #dissident escapes house arrest
+			limit = {
+				check_variable = { rrc_wenying_instability = 8 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 2 }
+				change_instability_china = yes
+			}
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.03
+			}
+		}
+		else_if = { #wang jiebing almost assassinated
+			limit = {
+				check_variable = { rrc_wenying_instability = 9 }
+			}
+			hidden_effect = {
+				set_variable = { rrc_instability_increase = 3 }
+				change_instability_china = yes
+			}
+			add_political_power = -150
+		}
+		add_to_variable = { rrc_wenying_instability = 1 }
+		if = {
+			limit = {
+				OR = {
+					check_variable = { rrc_wenying_instability > 9 }
+					NOT = {
+						has_country_leader = {
+							name = "Wang Wenying"
+							ruling_only = yes
+						}
+					}
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+			random_list = {
+				5 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 4
+					}
+				}
+				10 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 8
+					}
+				}
+				15 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 12
+					}
+				}
+				20 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 16
+					}
+				}
+				20 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 20
+					}
+				}
+				15 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 24
+					}
+				}
+				10 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 28
+					}
+				}
+				5 = {
+					country_event = {
+						id = rrcrepeat.1
+						days = 32
+					}
+				}
+			}
+			}
+		}
+	}
+}
+country_event = {
+	id = rrcrepeat.2
+	title = rrcrepeat.2.t
+	desc = rrcrepeat.2.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = no
+	hidden = yes
+		
+	option = {
+		name = rrcrepeat.2.a
+		change_power_struggle_dynamic_china = yes
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=822
+	name="STATE_822"
+
+	state_category=city
+	manpower= 560000
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+	}
+		
+	provinces={
+		7342 13330 7427
+	}
+	buildings_max_level_factor=1.000
+}

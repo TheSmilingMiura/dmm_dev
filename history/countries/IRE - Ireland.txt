@@ -1,0 +1,85 @@
+﻿capital = 113
+
+oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Éamon de Valera"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
+	expire = "1965.1.1"
+	ideology = new_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eoin O'Duffy"
+	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = futurist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "James Larkin"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Norton"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = libertarianism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Michael Costello"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

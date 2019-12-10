@@ -1,0 +1,37 @@
+﻿capital = 757
+
+oob = "TIB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {	
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 12
+    authoritarian = 63
+    reactionary = 13
+    conservative = 5
+    liberal = 3
+    social_democrat = 4
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Gyancain Norbu"
+	desc = "POLITICS_GYANCAIN_NORBU_DESC"
+	picture = "gfx/leaders/TIB/Portrait_TIB_Gyancain_Norbu.dds"
+	expire = "1965.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}

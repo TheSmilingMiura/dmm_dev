@@ -1,0 +1,190 @@
+division_template = {
+	name = "Revolutionary Corps" #Infantry div
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Turkestani Corps" #beefier inf
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Police Corps" #police inf
+	division_names_group = CHI_CAV_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+###OOB###
+
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 4709
+			division_template = "Turkestani Corps"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 1703
+			division_template = "Turkestani Corps"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 1943
+			division_template = "Turkestani Corps"
+			start_experience_factor = 1
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 10614
+			division_template = "Turkestani Corps"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 5736
+			division_template = "Turkestani Corps"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 4788
+			division_template = "Turkestani Corps"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1 
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 12601
+			division_template = "Police Corps"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 8112
+			division_template = "Police Corps"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 1943
+			division_template = "Police Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 8086
+			division_template = "Revolutionary Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 1783
+			division_template = "Revolutionary Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 12656
+			division_template = "Revolutionary Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 7732
+			division_template = "Revolutionary Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 5016
+			division_template = "Revolutionary Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 10885
+			division_template = "Revolutionary Corps"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+}

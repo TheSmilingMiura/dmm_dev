@@ -1,0 +1,10 @@
+GER_Reichstag = {
+	icon = GFX_decision_ger_reichskommissariats
+	picture = GFX_cat_reichstag
+	allowed = {
+		original_tag = GER
+	}
+	visible = {
+		original_tag = GER
+	}
+}

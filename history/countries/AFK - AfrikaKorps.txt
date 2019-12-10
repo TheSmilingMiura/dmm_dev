@@ -1,0 +1,31 @@
+﻿capital = 202
+
+oob = "UKR_1939"
+
+set_technology = {
+}
+
+
+set_politics = {	
+	ruling_party = fascist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian = 5
+    fascist = 90
+    reactionary = 5
+}
+
+create_country_leader = {
+	name = "Eberhard Zorn"
+	desc = "POLITICS_JOZEF_TISO_DESC"
+	picture = "AFK_Eberhard_Zorn.tga"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

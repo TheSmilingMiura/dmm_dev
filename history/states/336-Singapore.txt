@@ -1,0 +1,41 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		rubber=342.000
+		steel=20.000
+		tungsten=189.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			12299 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+			10297 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		12299
+	}
+	manpower=2893200
+	buildings_max_level_factor=1.000
+	state_category=city

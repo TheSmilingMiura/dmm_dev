@@ -1,0 +1,40 @@
+#####################
+#Snippet by TheThBa#
+#####################
+
+add_namespace = testdmm
+
+#country_events follow, snippet accessible by "tevent"#
+
+country_event = {
+	id = testdmm.1
+	title = testdmm.1.t
+	desc = testdmm.1.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = no
+	hidden = no
+
+	option = {
+		name = testdmm.1.a
+		change_power_struggle_dynamic_china = yes
+	}
+}
+
+country_event = {
+	id = testdmm.2
+	title = testdmm.2.t
+	desc = testdmm.2.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = no
+	hidden = no
+
+	option = {
+		name = testdmm.2.a
+		add_to_variable = { rrc_nihonmachi = 2 }
+		change_nihonmachi_china = yes
+	}
+}

@@ -1,0 +1,125 @@
+division_template = {
+	name = "Qibingdui" #cav div
+	division_names_group = CHI_INF_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		}
+}
+division_template = {
+	name = "Zhixu Zhijun" #inf
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Jingchashi" #police inf
+	division_names_group = CHI_CAV_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+###OOB###
+
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7940
+			division_template = "Zhixu Zhijun"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10490
+			division_template = "Zhixu Zhijun"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 10750
+			division_template = "Zhixu Zhijun"
+			start_experience_factor = 1
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 10724
+			division_template = "Zhixu Zhijun"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 3742
+			division_template = "Jingchashi"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 7971
+			division_template = "Jingchashi"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10834
+			division_template = "Qibingdui"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10865
+			division_template = "Qibingdui"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 11448
+			division_template = "Qibingdui"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+}

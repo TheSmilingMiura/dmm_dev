@@ -1,0 +1,40 @@
+﻿capital = 429
+
+oob = "BOM_1936"
+
+set_technology = {
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 77
+    authoritarian = 11
+    corporatist = 0
+    reactionary = 12
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Srikantadatta Narasimharaja Wadiyar"
+	desc = "POLITICS_Srikantadatta_Narasimharaja_Wadiyar_DESC"
+	picture = "gfx/leaders/BOM/Portrait_BOM_Srikantadatta_Narasimharaja_Wadiyar.dds"
+	expire = "1965.1.1"
+	ideology = esoteric_fascism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=406
+	name="STATE_406"
+
+	history={
+		owner = GKM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = GKM
+
+	}
+
+	provinces={
+		464 477 554 615 618 642 3435 3459 3618 3622 6498 6514 6523 6615 6620 7322 9453 9469 9592 11429 11442 11455 11469 11578 11591 11736 
+	}
+	manpower=146494
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

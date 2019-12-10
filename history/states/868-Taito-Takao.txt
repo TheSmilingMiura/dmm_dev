@@ -1,0 +1,24 @@
+state={
+	id=868
+	name="STATE_868"
+	provinces={
+		1175 11914 12027 12068 
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 2
+			12068 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			12068 1 
+		}
+	}
+	manpower=5721816
+	state_category = large_town
+}

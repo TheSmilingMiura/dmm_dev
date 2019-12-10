@@ -1,0 +1,64 @@
+ideas = {
+
+    country = {
+        AFK_afrika_korps = {
+
+			picture = afrika_korps
+
+			allowed = {
+				original_tag = AFK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = -0.02
+				special_forces_cap = 0.02	
+				conscription_factor = 0.1
+				conscription = 0.03
+				offence = 0.15
+				defence = 0.2
+				encryption_factor = 0.25
+				decryption_factor = 0.05
+				army_org_factor = 0.1
+			    training_time_factor = 0.35
+			    recon_factor = 0.1
+			    enemy_partisan_effect = -0.15
+			    attrition = -0.25
+			    heat_attrition_factor = -0.5
+			    dig_in_speed_factor = 0.25
+			    supply_consumption_factor = -0.20
+			    out_of_supply_factor = -0.5
+			    no_supply_grace = 48
+			    special_forces_defence_factor = 0.3
+			    foreign_subversive_activites = -0.50
+			    trade_opinion_factor = -0.25
+			    opinion_gain_monthly_factor = -0.15
+			}
+		}
+		AFK_the_worlds_mine_and_sawmill = {
+		    picture = the_worlds_mine_and_sawmill
+		    allowed = {
+				original_tag = AFK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+					consumer_goods_factor = -0.15
+					local_resources_factor = 0.90
+					production_speed_industrial_complex_factor = 0.2
+			}
+
+		}
+
+	}
+}

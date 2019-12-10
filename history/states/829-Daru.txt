@@ -1,0 +1,33 @@
+
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+
+		victory_points = {
+			1283 1	
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			1283 = {
+				coastal_bunker = 2
+				naval_base = 3
+
+			}
+			air_base = 1
+		}
+	}
+
+	provinces={
+		1283 1310 4635 10147 12107 12123 12484 13344 13345 13348 13350 13351 13352 13354 13346
+	}
+	manpower=560000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

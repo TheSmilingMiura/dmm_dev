@@ -1,0 +1,31 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		victory_points = {
+			7542 1		# Kota Biak or whatever appropiate Japanese name for it
+		}
+		buildings = {
+			infrastructure = 3
+			7542 = {
+				coastal_bunker = 1
+				naval_base = 3
+
+			}
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		7542 13396 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

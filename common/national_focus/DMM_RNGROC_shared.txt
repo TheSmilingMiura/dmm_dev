@@ -1,0 +1,20 @@
+shared_focus = { 
+        id = CHI_anewpolicyforchina
+        icon = GFX_focus_chi_cooperation_with_the_nationalists
+        x = 4
+        y = 0
+        cost = 1
+        available_if_capitulated = yes 
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        } 
+        available = { 
+            always = yes
+        } 
+        completion_reward = {
+        
+        }
+}

@@ -1,0 +1,24 @@
+state={
+	id=789
+	name="STATE_789"
+
+	manpower=4500000
+	state_category= town
+
+	history=
+	{
+		owner = SIA
+		add_core_of = SIA
+
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+		}
+
+	}
+
+	provinces={
+		7329 12199 10227 1348 4355
+	}

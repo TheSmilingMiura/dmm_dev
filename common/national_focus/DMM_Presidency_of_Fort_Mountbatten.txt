@@ -1,0 +1,46 @@
+focus_tree = {
+	id = BII_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BII
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3000 }
+	focus = {
+		id = BII_sundown_towns
+		icon = GFX_focus_CZE_german_puppet
+		x = 2
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_idea = seperate_but_equal
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = BII_god_bless_the_navy
+		icon = GFX_goal_generic_navy_battleship
+		x = 4
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		#
+		}
+	}
+}

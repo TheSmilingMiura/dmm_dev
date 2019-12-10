@@ -1,0 +1,63 @@
+﻿capital = 229 #Baku
+
+oob = "AZR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Mir Jafar Baghirov"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = military_junta
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mammad Amin Rasulzade"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = new_conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gara Garabeyov"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = libertarianism
+	traits = {
+		
+	}
+}
+
+
+

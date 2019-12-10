@@ -1,0 +1,42 @@
+
+state={
+	id=777
+	name="STATE_777"
+
+	manpower=980000
+	state_category= small_island
+
+	history=
+	{
+		owner = JAP
+		add_core_of = JAP
+
+		victory_points = {
+			12126 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+
+			12126 = {
+				naval_base = 5
+				coastal_bunker = 4
+			}
+
+			13226 = {
+				coastal_bunker = 2
+			}
+
+			13227 = {
+				coastal_bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		12126 13226 13227
+	}
+
+}

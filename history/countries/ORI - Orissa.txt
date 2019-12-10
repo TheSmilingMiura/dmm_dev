@@ -1,0 +1,43 @@
+﻿capital = 426
+
+oob = "ORI_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+	ruling_party = corporatist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 27
+    authoritarian = 0
+    corporatist = 73
+    reactionary = 0
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Sanjay Gandhi"
+	desc = "POLITICS_SANJAY_GANDHI_DESC"
+	picture = "gfx/leaders/ORI/Portrait_ORI_Sanjay_Gandhi.dds"
+	expire = "1965.1.1"
+	ideology = corporate_republic
+	traits = {
+		#
+	}
+}

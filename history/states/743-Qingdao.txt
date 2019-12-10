@@ -1,0 +1,24 @@
+state=
+{
+	id=743
+	name="STATE_743"
+	manpower = 385000
+	state_category = large_town
+	
+	
+	history=
+	{
+		owner = RRC
+		add_core_of = RRC
+		victory_points = {
+			10000 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		10000
+	}
+}

@@ -1,0 +1,41 @@
+﻿capital = 586
+
+oob = "KYR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	
+	
+	name = "Eduardo Tsonga"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

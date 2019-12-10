@@ -1,0 +1,40 @@
+﻿capital = 429
+
+oob = "BEN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 8
+    corporatist = 0
+    reactionary = 0
+    conservative = 0
+    liberal = 2
+    social_democrat = 45
+    socialist = 15
+    communist = 5
+}
+
+create_country_leader = {
+	name = "Placeholder"
+	desc = "She's underage"
+	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
+	expire = "2040.1.1"
+	ideology = social_democrat
+	traits = {
+		#
+	}
+}

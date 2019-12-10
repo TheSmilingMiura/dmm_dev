@@ -1,0 +1,183 @@
+﻿capital = 613 # Nanjing
+
+oob = "RRC_2005"
+set_stability = 0.25
+set_war_support = 0.05
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+add_ideas = {
+	japanese_military_restrictions
+}
+
+add_ideas = {
+	#laws
+	zaibatsu_exploitation
+	crippled_economy
+	rrc_instability_low
+	rrc_nihonmachi_low
+}
+
+set_convoys = 40
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 32
+    authoritarian = 33
+    reactionary = 33
+    corporatist = 0
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Wang Wenying"
+	desc = "POLITICS_WANG_WENYING_DESC"
+	picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Wenying.dds"
+	expire = "2065.1.1"
+	ideology = military_junta		# pls correct or add correct sub ideology
+	traits = {
+		#despised_collaborator
+	}
+}
+
+create_country_leader = {
+	name = "Kōichi Isobe"
+	desc = "POLITICS_KOICHI_ISOBE_DESC"
+	picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = hakko_ichiu
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Leadership in Exile"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Underground Operations"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = democratic_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Underground Operations"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = agrarian_communism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zaibatsu"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = corporate_rule
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "National Salvation Council"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = social_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+			name = "Liu Zhongjing"
+			desc = "POLITICS_LIU_ZHONGJING_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_Liu_Zhongjing.dds"
+			expire = "2065.1.1"
+			ideology = nationalist
+			traits = {
+				#need to implement fitting trait
+			}
+}
+
+create_field_marshal = {
+	name = "Qi Jianguo"
+	picture = "Portrait_RNGROC_Qi_Jianguo.dds"
+	traits = { defensive_doctrine trait_cautious harsh_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wang Guanzhong"
+	picture = "Portrait_RNGROC_Wang_Guanzhong.dds"
+	traits = { brilliant_strategist politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wei Fenghe"
+	picture = "Portrait_RNGROC_Wei_Fenghe.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}

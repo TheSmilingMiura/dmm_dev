@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+			usa_the_first_amendment = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = 
+			modifier = {			
+				stability_factor = -0.02
+				war_support_factor = -0.05
+				#research_time_factor = -0.03
+			}			
+		}
+
+			usa_american_patriotism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = 
+			modifier = {			
+				political_advisor_cost_factor = 0.25
+				war_support_factor = 0.01
+				political_power_gain = -0.25
+				
+			}			
+		}
+
+		usa_research_deficit = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = jap_duplicate_research
+			modifier = {			
+				#research_time_factor = 10
+			}			
+		}
+	}
+}

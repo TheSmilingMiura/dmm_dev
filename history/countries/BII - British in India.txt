@@ -1,0 +1,40 @@
+﻿capital = 914
+
+oob = "BII_1936"
+
+set_technology = {
+}
+
+add_ideas = {
+	seperate_but_equal
+	the_guns_of_fort_mountbatten
+}
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 15
+    reactionary = 12
+    conservative = 43
+    liberal = 10
+    social_democrat = 9
+    socialist = 6
+    communist = 5
+}
+
+create_country_leader = {
+	name = "Robert Shirley, 13th Earl Ferrers"
+	desc = "POLITICS_ROBERT_SHIRLEY_SHAH_DESC"
+	picture = "gfx/leaders/BII/Portrait_BII_Earl_Ferrers.dds"
+	expire = "1965.1.1"
+	ideology = new_conservatism
+	traits = {
+		#
+	}
+}

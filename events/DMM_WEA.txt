@@ -1,0 +1,66 @@
+#################
+# Qinghai-Haixi events
+#################
+
+add_namespace = wea
+
+#Introduction
+country_event = {
+	id = wea.1
+	title = wea.1.t
+	desc = wea.1.d
+	#picture =
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = wea.1.a
+	}
+}
+#The Republic is weak, now is our Chance!
+country_event = {
+	id = wea.2
+	title = wea.2.t
+	desc = wea.2.d
+	#picture =
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = wea.2.a #Strike!
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				754 = {
+					is_owned_and_controlled_by = RRC
+				}
+				RRC = { has_country_flag = rrc_wang_dead }
+			}
+			754 = { set_demilitarized_zone = no }
+			transfer_state = 754
+		}
+		if = {
+			limit = {
+				616 = {
+					is_owned_and_controlled_by = RRC
+				}
+				RRC = { has_country_flag = rrc_wang_dead }
+			}
+			616 = { set_demilitarized_zone = no }
+			transfer_state = 616
+		}
+		add_ideas = wea_territorial_integration1
+		hidden_effect = {
+			RRC = {
+				country_event = {
+					id = natchina.21
+					days = 2
+				}
+			}
+		}
+	}
+	option = {
+		name = wea.2.b #really dumb, like honestly what are you doing, mate?
+		ai_chance = { factor = 0 }
+	}
+}

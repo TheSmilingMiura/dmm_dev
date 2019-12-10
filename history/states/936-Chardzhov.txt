@@ -1,0 +1,23 @@
+
+state={
+	id=936
+	name="STATE_936"
+
+	history={
+		owner = CDZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = CDZ
+
+	}
+
+	provinces={
+		1649 4549 7924 10742 
+	}
+	manpower=664523
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

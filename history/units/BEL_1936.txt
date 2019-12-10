@@ -1,0 +1,94 @@
+﻿division_template = {
+	name = "Division d'Infanterie"		# Same for "Active" and "Reserve" Infantry Divisions
+	division_names_group = BEL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Division de Cavalerie"  	# Cavalry Division
+	division_names_group = BEL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      	# Actually, 2x bicycle cav bns
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Cavalerie Motorisée"  		# Motorized Cavalry Brigade
+	division_names_group = BEL_MOT_01
+										# Note: motorized cavalry. Most sources have them truck-equipped.
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Division Coloniale"			# Colonial militia, lower experience, equipment
+	division_names_group = BEL_GAR_01 	#TODO make separate namelist for colonial divisions
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+### OOB ###
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 2
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

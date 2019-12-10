@@ -1,0 +1,55 @@
+﻿capital = 783 #Jakarta
+
+oob = "INS_1936"
+
+set_research_slots = 2
+
+# Starting tech
+# clone of Holland
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = socialist
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 2
+    corporatist = 10
+    reactionary = 2
+    conservative = 8
+    liberal = 10
+    social_democrat = 14
+    socialist = 34
+    communist = 20
+}
+
+
+create_country_leader = {
+	name = "Mochtar Pakpahan"
+	desc = ""
+	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_mochtar_pakpahan.dds"
+	expire = "1953.3.1"
+	ideology = market_socialism
+	traits = {
+		
+	}
+}
+
+set_cosmetic_tag = INS_with_sar_ADJ

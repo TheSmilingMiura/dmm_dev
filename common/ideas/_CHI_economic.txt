@@ -1,0 +1,55 @@
+ideas = {
+	economy = {
+		law = yes
+		crippled_economy = {
+
+			allowed = {
+				original_tag = RCC
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.65
+				production_factory_efficiency_gain_factor = -0.3
+				#production_speed_industrial_complex_factor = -0.3
+				#production_speed_arms_factory_factor = -0.5
+				generate_wargoal_tension = 1.00
+				lend_lease_tension = 1.20
+				send_volunteers_tension = 1.20
+				guarantee_tension = 1.20
+			}
+
+			allowed_to_remove = {
+				has_country_flag = RRC_zaibatsu_gone
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	trade_laws = {
+		law = yes
+		zaibatsu_exploitation = {
+
+			allowed = {
+				original_tag = RCC
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.8
+				local_resources_factor = -0.25
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.3
+			}
+
+			allowed_to_remove = {
+				has_country_flag = RRC_zaibatsu_gone
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

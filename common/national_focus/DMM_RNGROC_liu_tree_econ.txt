@@ -1,0 +1,2037 @@
+focus_tree = { 
+    id = RNGROC_liu_econ_focus
+    country = { 
+        factor = 0
+    }
+    default = no 
+    continuous_focus_position = { x = 16 y = 3000 }
+
+ #focus for Liu's Economy
+focus = { 
+    id = CHI_liu_economy
+    icon = GFX_goal_generic_production
+    x = 21
+    y = 0
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_hongwen_economy_laogai
+    icon = GFX_focus_generic_tank_production
+    x = 8
+    y = 1
+    cost = 10
+    available_if_capitulated = yes
+    prerequisite = { focus = CHI_liu_economy }  
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+        has_country_flag = RRC_liu_wang_hongwen_laogai
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #
+    }
+ }
+ focus = { 
+    id = CHI_hongwen_economy_working_soldiers
+    icon = GFX_focus_generic_military_mission
+    x = 12
+    y = 1
+    cost = 10
+    available_if_capitulated = yes
+    prerequisite = { focus = CHI_liu_economy }
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+        has_country_flag = RRC_liu_wang_hongwen_working_soldiers
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #
+    }
+ }
+ focus = { 
+    id = CHI_zhu_economy_free_markets
+    icon = GFX_focus_generic_industry_2
+    x = 18
+    y = 1
+    cost = 10
+    available_if_capitulated = yes
+    prerequisite = { focus = CHI_liu_economy } 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+        has_country_flag = RRC_liu_zhu_min_free_markets
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #
+    }
+ }
+ focus = { 
+    id = CHI_zhu_economy_social_markets
+    icon = GFX_focus_generic_the_giant_wakes
+    x = 24
+    y = 1
+    cost = 10
+    available_if_capitulated = yes
+    prerequisite = { focus = CHI_liu_economy } 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+        has_country_flag = RRC_liu_zhu_min_social_markets
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #
+    }
+ }
+ focus = { 
+    id = CHI_xie_economy_shengzhang
+    icon = GFX_goal_generic_construct_civilian
+    x = 30
+    y = 1
+    cost = 10
+    available_if_capitulated = yes
+    prerequisite = { focus = CHI_liu_economy } 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+        has_country_flag = RRC_liu_xie_zifen_shengzhang
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #
+    }
+ }
+ focus = { 
+    id = CHI_xie_economy_work_societies
+    icon = GFX_focus_generic_self_management
+    x = 37
+    y = 1
+    cost = 10
+    available_if_capitulated = yes
+    prerequisite = { focus = CHI_liu_economy } 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+        has_country_flag = RRC_liu_xie_zifen_local_councilism
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #
+    }
+ }
+ focus = { 
+    id = CHI_establish_the_facilities
+    icon = GFX_focus_rrc_liu_facilities
+    x = 7
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_hongwen_economy_laogai }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+       random_owned_controlled_state = {
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = yes
+            }
+       }
+       random_owned_controlled_state = {
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = yes
+            }
+       }
+       random_owned_controlled_state = {
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = yes
+            }
+       }
+       random_owned_controlled_state = {
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = yes
+            }
+       }
+       random_owned_controlled_state = {
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = yes
+            }
+       }
+    }
+ }
+ focus = { 
+    id = CHI_harsher_legal_code
+    icon = GFX_focus_CZE_german_puppet
+    x = 9
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_hongwen_economy_laogai }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        random_owned_controlled_state = {
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+ }
+ focus = { 
+    id = CHI_work_quotas
+    icon = GFX_goal_generic_military_deal
+    x = 8
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_establish_the_facilities }
+    prerequisite = { focus = CHI_harsher_legal_code }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        add_ideas = work_quotas
+    }
+ }
+ focus = { 
+    id = CHI_redeploy_the_black_guards
+    icon = GFX_focus_prc_infiltration
+    x = 7
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_work_quotas }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_crank_up_the_pressure
+    icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+    x = 9
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_work_quotas }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_dial_up_the_voltage
+    icon = GFX_goal_generic_political_pressure
+    x = 9
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_crank_up_the_pressure }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_bone_roads
+    icon = GFX_focus_generic_army_tanks2
+    x = 7
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_redeploy_the_black_guards }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_redistribute_the_food
+    icon = GFX_goal_generic_demand_territory
+    x = 8
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_work_quotas }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_even_if_it_means_people_are_malnourished
+    icon = GFX_focus_generic_concessions
+    x = 8
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_redistribute_the_food }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_modern_moorsoldaten
+    icon = GFX_goal_generic_CAS
+    x = 8
+    y = 8
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_even_if_it_means_people_are_malnourished }
+    prerequisite = { focus = CHI_bone_roads }
+    prerequisite = { focus = CHI_dial_up_the_voltage }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_expand_conscription_plans
+    icon = GFX_focus_generic_little_entente
+    x = 12
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_hongwen_economy_working_soldiers }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_nation_calls_for_us
+    icon = GFX_focus_chi_army_reform
+    x = 11
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_expand_conscription_plans }
+    mutually_exclusive = { focus = CHI_incentives_for_volunteers }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_incentives_for_volunteers
+    icon = GFX_focus_generic_military_academy
+    x = 13
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    mutually_exclusive = { focus = CHI_nation_calls_for_us }
+    prerequisite = { focus = CHI_expand_conscription_plans }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_bausoldaten
+    icon = GFX_goal_generic_construction2
+    x = 11
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_nation_calls_for_us }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_promotions_for_patriots
+    icon = GFX_focus_generic_military_mission
+    x = 13
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_incentives_for_volunteers }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_military_industrial_complex
+    icon = GFX_focus_generic_license_production
+    x = 10
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_bausoldaten }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_civil_engagements
+    icon = GFX_focus_generic_diplomatic_treaty
+    x = 12
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = {
+    	focus = CHI_bausoldaten
+    	focus = CHI_promotions_for_patriots
+    }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+
+ focus = { 
+    id = CHI_organic_army
+    icon = GFX_goal_generic_national_unity
+    x = 14
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_promotions_for_patriots }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+
+ focus = { 
+    id = CHI_civil_work_brigades
+    icon = GFX_goal_generic_production
+    x = 14
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_organic_army }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_command_economy
+    icon = GFX_goal_generic_military_deal
+    x = 10
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_military_industrial_complex }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_parallel_railways
+    icon = GFX_goal_generic_construct_infrastructure
+    x = 12
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_civil_engagements }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_factory_forces
+    icon = GFX_goal_generic_axis_build_infantry
+    x = 11
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_parallel_railways }
+    prerequisite = { focus = CHI_command_economy }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_mobilization_economy
+    icon = GFX_goal_generic_production2
+    x = 13
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_parallel_railways }
+    prerequisite = { focus = CHI_civil_work_brigades }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_always_ready
+    icon = GFX_goal_generic_fortify_city
+    x = 12
+    y = 8
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_factory_forces focus = CHI_mobilization_economy }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_burn_the_red_tape
+    icon = GFX_goal_generic_forceful_treaty
+    x = 18
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_zhu_economy_free_markets }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_privatise_the_railways
+    icon = GFX_goal_generic_construct_infrastructure
+    x = 18
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_burn_the_red_tape }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_tame_the_zaibatsus
+    icon = GFX_focus_chi_collaboration_with_the_japanese
+    x = 21
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_privatise_the_railways focus = CHI_subsidise_the_small_guy }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_rolles_lemma_and_the_laffer_curve
+    icon = GFX_focus_rrc_laffer_curve
+    x = 16
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_privatise_the_railways }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_freer_the_markets
+    icon = GFX_focus_focus_generic_industry_1
+    x = 18
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_privatise_the_railways }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_freer_the_people
+    icon = GFX_focus_generic_industry_2
+    x = 18
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_the_freer_the_markets }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_violate_schumpeters_theorem
+    icon = GFX_focus_generic_treaty
+    x = 16
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_rolles_lemma_and_the_laffer_curve }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_freer_we_are_to_act
+    icon = GFX_focus_generic_industry_3
+    x = 18
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_the_freer_the_people }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_monetarism
+    icon = GFX_focus_generic_concessions
+    x = 16
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_violate_schumpeters_theorem }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_a_national_bank
+    icon = GFX_goal_generic_construct_civilian
+    x = 21
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_tame_the_zaibatsus }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_our_own_stock_exchange
+    icon = GFX_goal_generic_construct_civ_factory
+    x = 21
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_a_national_bank }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_big_profits_big_reserves
+    icon = GFX_focus_generic_self_management
+    x = 18
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_our_own_stock_exchange }
+    prerequisite = { focus = CHI_the_freer_we_are_to_act }
+    prerequisite = { focus = CHI_monetarism }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_controlled_burn
+    icon = GFX_focus_renounce_the_treaty_of_trianon
+    x = 24
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_zhu_economy_social_markets }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_subsidise_the_small_guy
+    icon = GFX_focus_generic_self_management
+    x = 24
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_controlled_burn }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_if_we_work_together
+    icon = GFX_focus_focus_generic_industry_1
+    x = 24
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_subsidise_the_small_guy }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_we_can_bring_prosperity
+    icon = GFX_focus_generic_industry_2
+    x = 24
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_if_we_work_together }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_to_even_the_poorest_homes
+    icon = GFX_focus_generic_industry_3
+    x = 24
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_we_can_bring_prosperity }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_public_work_projects
+    icon = GFX_goal_generic_construction2
+    x = 26
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_subsidise_the_small_guy }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_expand_the_welfare_state
+    icon = GFX_goal_generic_consumer_goods
+    x = 26
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_public_work_projects }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_bust_the_monopolies
+    icon = GFX_focus_rom_parties_end
+    x = 26
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_expand_the_welfare_state }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_big_profits_big_reinvestments
+    icon = GFX_goal_generic_national_unity
+    x = 24
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_bust_the_monopolies }
+    prerequisite = { focus = CHI_to_even_the_poorest_homes }
+    prerequisite = { focus = CHI_our_own_stock_exchange	}
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_a_booming_economy
+    icon = GFX_goal_generic_demand_territory
+    x = 21
+    y = 8
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_big_profits_big_reinvestments focus = CHI_big_profits_big_reserves }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_just_development
+    icon = GFX_goal_generic_construction2
+    x = 28
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_xie_economy_shengzhang }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_construction_cooperatives
+    icon = GFX_goal_generic_construct_civilian
+    x = 32
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_xie_economy_shengzhang }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_anti_authoritarian_planning
+    icon = GFX_goal_generic_cavalry
+    x = 32
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_construction_cooperatives }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_economic_redistribution_plan
+    icon = GFX_goal_generic_consumer_goods
+    x = 28
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_just_development }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_every_governor_a_king
+    icon = GFX_focus_generic_treaty
+    x = 30
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_xie_economy_shengzhang }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_local_planning_commisions
+    icon = GFX_goal_generic_improve_relations
+    x = 30
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_every_governor_a_king }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_allocate_the_funds
+    icon = GFX_goal_generic_intelligence_exchange
+    x = 30
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_local_planning_commisions }
+    prerequisite = { focus = CHI_economic_redistribution_plan }
+    prerequisite = { focus = CHI_anti_authoritarian_planning }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_urban_rural_integration
+    icon = GFX_goal_generic_position_armies
+    x = 29
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_allocate_the_funds }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_cross_province_infrastructure
+    icon = GFX_goal_generic_construct_infrastructure
+    x = 31
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_allocate_the_funds }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_open_the_waterways
+    icon = GFX_goal_generic_occupy_states_coastal
+    x = 31
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_cross_province_infrastructure }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_help_the_farmers
+    icon = GFX_goal_generic_positive_trade_relations
+    x = 29
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_urban_rural_integration }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_split_the_state_companies
+    icon = GFX_focus_rom_parties_end
+    x = 30
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_help_the_farmers }
+    prerequisite = { focus = CHI_open_the_waterways }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_internal_autonomy
+    icon = GFX_goal_support_democracy
+    x = 30
+    y = 8
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_split_the_state_companies }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_establish_local_factories
+    icon = GFX_goal_generic_construction
+    x = 37
+    y = 2
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_xie_economy_work_societies }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_unite_them_all
+    icon = GFX_focus_generic_china1
+    x = 37
+    y = 3
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_establish_local_factories }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_workers
+    icon = GFX_focus_YUG_pan_slavic_congress
+    x = 34
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_unite_them_all }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_capitalists
+    icon = GFX_focus_generic_self_management
+    x = 36
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_unite_them_all }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_militiamen
+    icon = GFX_focus_generic_little_entente
+    x = 38
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_unite_them_all }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_the_politicians
+    icon = GFX_focus_generic_military_academy
+    x = 40
+    y = 4
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_unite_them_all }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_better_conditions
+    icon = GFX_focus_generic_support_the_left_right
+    x = 34
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_the_workers }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_tax_breaks
+    icon = GFX_focus_renounce_the_treaty_of_trianon
+    x = 36
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_the_capitalists }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_work_squads
+    icon = GFX_focus_generic_military_mission
+    x = 38
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_the_militiamen }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_non_partisan_union
+    icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+    x = 40
+    y = 5
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_the_politicians }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_corporatist_localism
+    icon = GFX_focus_generic_the_giant_wakes
+    x = 37
+    y = 6
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_better_conditions }
+    prerequisite = { focus = CHI_non_partisan_union }
+    prerequisite = { focus = CHI_tax_breaks }
+    prerequisite = { focus = CHI_work_squads }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_pulse_of_the_nation
+    icon = GFX_focus_generic_industry_2
+    x = 37
+    y = 7
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_corporatist_localism }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ focus = { 
+    id = CHI_harmony_economy
+    icon = GFX_focus_generic_industry_3
+    x = 37
+    y = 8
+    cost = 10
+    available_if_capitulated = yes 
+    available = { 
+        has_country_leader = {
+            name = "Liu Zhongjing"
+            ruling_only = yes
+        }
+    }
+    prerequisite = { focus = CHI_pulse_of_the_nation }
+    ai_will_do = { 
+        factor = 1
+    }
+    completion_reward = {
+        #choice between Wang Hongwen, Zhu Min, Xie Zifen
+        #country_event = {
+        #    id = natchina.17
+        #    days = 2
+        #}
+    }
+ }
+ }

@@ -1,0 +1,93 @@
+guiTypes = {
+         containerWindowType = {
+          name = "dmm_open_menu"
+          position = { x = 1000 y = 3 }
+          
+          buttonType = {
+           name = "open_menu_button"
+           quadTextureSprite = "GFX_generic_text_bg_203"
+           position = { x = 0 y = 0 }
+           shortcut = "ctrl+shift+d"
+           pdx_tooltip = "[DMM_MENU_TOOLTIP]"
+           clicksound = click_ok
+           oversound = ui_menu_over          
+          }
+          instantTextboxType = {
+           name = "title"
+           position = {x=22 y=5}
+           font = "hoi_18mbs"
+           text = "[dmm_menu_main_tooltip]"
+           maxWidth = 200
+           maxHeight = 23
+           format = left
+           }           
+         }
+         containerWindowType = {
+          name = "dmm_hide_menu"
+          position = { x = 10000 y = 2 }
+
+           buttonType = {
+           name = "hide_menu_button"
+            quadTextureSprite = "GFX_generic_text_bg_203"
+            position = { x = 0 y = 0 }
+            shortcut = "ctrl+shift+s"
+            clicksound = click_ok
+            oversound = ui_menu_over
+            }
+       }
+       containerWindowType = {
+         name = "dmm_menu_main_menu_container"
+         position = {x=1250 y=170}
+         size = { width=500 height=500 }
+
+         fade_time = 300
+         fade_type = linear
+         moveable = yes
+    
+         background = {
+           name = "Background"
+           spriteType = "GFX_dmm_menu_bg"
+         }
+         instantTextboxType = {
+      name = "title"
+      position = {x=14 y=6}
+      font = "hoi_18mbs"
+      text = "[dmm_main_menu_text]"
+      maxWidth = 200
+      maxHeight = 23
+      format = left
+    }
+    
+    buttonType = {
+      name = "dmm_menu_main_button" 
+      position = {x=23 y=35}
+      shortcut = "ctrl+shift+f"
+      spriteType = "GFX_sort_button_140x29"
+      frame = 1
+      pdx_tooltip = "DMM_testing"
+      }       
+       }
+       
+    containerWindowType = {
+         name = "dmm_menu_pollution_container"
+         position = {x=1250 y=170}
+         size = { width=500 height=500 }
+
+         fade_time = 300
+         fade_type = linear
+         moveable = yes
+    
+         background = {
+           name = "Background"
+           spriteType = "GFX_dmm_menu_bg"
+         }
+         
+         icon = {
+           name = "title_pollution"
+           spriteType = "GFX_pollution_meter_background"
+           position = { x=0 y=-20}
+           Orientation = "MIDDLE"         
+         }
+     }    
+         
+}

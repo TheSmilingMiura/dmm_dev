@@ -1,0 +1,16 @@
+state={
+	id=869
+	name="STATE_869"
+	provinces={
+		10863 
+	}
+	history = {
+		owner = XNZ
+		add_core_of = XNZ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=862667
+	state_category = pastoral
+}

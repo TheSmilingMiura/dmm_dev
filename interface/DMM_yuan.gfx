@@ -1,0 +1,38 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_dmm_rrc_yuan_bg"
+		texturefile = "gfx/interface/unitcontrol/yuan_bg3.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_yuan_icon"
+		texturefile = "gfx/interface/unitcontrol/yuan_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_kong_decheng"
+		texturefile = "gfx/interface/unitcontrol/kong_decheng_exam.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_li_zuocheng"
+		texturefile = "gfx/interface/unitcontrol/li_zuocheng_army.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_qian_fu"
+		texturefile = "gfx/interface/unitcontrol/qian_fu_control.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_wang_jinping"
+		texturefile = "gfx/interface/unitcontrol/wang_jinping_legis.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_xu_zongli"
+		texturefile = "gfx/interface/unitcontrol/xu_zongli_judicial.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_yan_jiagan"
+		texturefile = "gfx/interface/unitcontrol/yan_jiagan_exec.dds"
+	}
+	spriteType = {
+		name = "GFX_dmm_rrc_wang_wenying"
+		texturefile = "gfx/interface/unitcontrol/wang_wenying_president.dds"
+	}
+}

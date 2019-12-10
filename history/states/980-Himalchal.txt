@@ -1,0 +1,16 @@
+state={
+	id=980
+	name="STATE_980"
+	provinces={
+		1129 2076 7106 12708 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = PUN
+		add_core_of = PUN
+	}
+	buildings_max_level_factor=1.000
+}

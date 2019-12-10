@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		wea_territorial_integration1 = {
+			picture = chi_army_corruption
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_factor = -0.1
+			}
+		}
+	}
+}

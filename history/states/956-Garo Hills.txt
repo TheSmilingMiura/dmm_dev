@@ -1,0 +1,16 @@
+
+state={
+	id=956
+	name="STATE_956"
+	provinces={
+		12395 13403
+	}
+	history={
+		owner = RAJ
+	}
+
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+}

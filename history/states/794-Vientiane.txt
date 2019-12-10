@@ -1,0 +1,18 @@
+
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1362 1390 1464 1507 1520 4260 4539 10195 10326 12332 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

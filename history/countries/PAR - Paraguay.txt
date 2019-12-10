@@ -1,0 +1,45 @@
+﻿capital = 301
+
+oob = "PAR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+add_ideas = {
+	state_of_siege
+	one_state_one_people_one_leader
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 20
+    authoritarian = 70
+    reactionary = 0
+    conservative = 10
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
+create_country_leader = {
+	name = "Gustavo Strößner"
+	desc = "POLITICS_GUSTAVO_STROESSNER_DESC"
+	picture = "gfx/leaders/PAR/Portrait_PAR_Gustavo_Stroessner.dds"
+	expire = "1965.1.1"
+	ideology = stroessnerism
+	traits = {
+		germanophile
+	}
+}

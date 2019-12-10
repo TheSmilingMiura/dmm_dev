@@ -1,0 +1,20 @@
+state={
+	id=876
+	name="STATE_876"
+	provinces={
+		1672 4677 7786 10683 
+	}
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		victory_points = {
+			4677 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=472917
+	state_category = town
+}

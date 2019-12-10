@@ -1,0 +1,9 @@
+opinion_modifiers = {
+		DMM_declare_allegiance = {
+			value = 20
+		}
+		
+		DMM_received_allegiance = {
+			value = 20
+		}
+}

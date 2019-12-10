@@ -1,0 +1,17 @@
+state={
+	id=820
+	name="STATE_820"
+
+	state_category=town
+	manpower= 560000
+
+	history={
+		owner = EEI
+		add_core_of = EEI
+	}
+		
+	provinces={
+		10153 10197 
+	}
+	buildings_max_level_factor=1.000
+}

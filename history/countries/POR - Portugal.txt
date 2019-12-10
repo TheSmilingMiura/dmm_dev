@@ -1,0 +1,90 @@
+﻿capital = 112
+
+oob = "POR_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	transport = 1
+}
+
+set_convoys = 50
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+set_convoys = 100
+set_stability = 0.75
+
+
+create_country_leader = {
+	name = "António de Oliveira Salazar"
+	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
+	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
+	expire = "1965.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bento Gonçalves"
+	desc = "POLITICS_BENTO_GONCALVES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Francisco de Barcelos Rolão Preto"
+	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = hakko_ichiu
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "José Vicente de Freitas"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  }
+	skill = 3
+
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+

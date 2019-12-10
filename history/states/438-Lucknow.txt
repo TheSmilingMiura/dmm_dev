@@ -1,0 +1,26 @@
+
+state={
+	id=438
+	name="STATE_438"
+
+	history={
+		owner = HIN
+		add_core_of = HIN
+		victory_points = {
+			12137 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		 10794 5086 12137 5055
+	}
+	manpower=33491000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

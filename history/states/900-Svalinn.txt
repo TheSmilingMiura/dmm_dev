@@ -1,0 +1,17 @@
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		237 278 361 3280 7824 10216 12659 11307 4758 7320 4874
+	}
+	manpower=1000
+        state_category = town
+        history={
+		owner = URA
+		buildings = {
+			infrastructure = 7
+			air_base = 10
+		}
+		add_core_of = URA
+	}
+}

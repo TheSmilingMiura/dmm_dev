@@ -1,0 +1,18 @@
+
+state={
+	id=921
+	name="STATE_921"
+
+	history={
+		owner = BRM
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		1170 1566 1607 2061 4210 7562 7603 12363 
+	}
+	manpower=1111110
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

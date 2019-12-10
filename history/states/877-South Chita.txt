@@ -1,0 +1,16 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		1696 4705 10658 
+	}
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=71032
+	state_category = rural
+}

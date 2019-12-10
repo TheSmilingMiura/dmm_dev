@@ -1,0 +1,7 @@
+state_categories={
+	coastal_city_concession = {
+		local_building_slots = 3
+
+		color = { 109 135 120 }
+	}
+}

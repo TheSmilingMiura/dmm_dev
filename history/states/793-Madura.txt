@@ -1,0 +1,30 @@
+
+state={
+	id=793
+	name="STATE_793"
+
+	manpower=4500000
+	state_category= town
+
+	history=
+	{
+		owner = SAR
+		add_core_of = SAR
+
+		buildings = {
+			infrastructure = 4 
+			arms_factory = 3
+			dockyard = 2
+
+			4306 = {
+				bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		4306 13245 13247
+	}
+
+}

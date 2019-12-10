@@ -1,0 +1,16 @@
+state={
+	id=992
+	name="STATE_992"
+	provinces={
+		2092 4971 12829 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = RAS
+		add_core_of = RAS
+	}
+	buildings_max_level_factor=1.000
+}

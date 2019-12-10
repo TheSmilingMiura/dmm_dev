@@ -1,0 +1,20 @@
+state={
+	id=897
+	name="STATE_897"
+	history={
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		 861 11823 927 3929 11862 944 6964 9897 973 6806 3944
+	}
+	manpower=1717744
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

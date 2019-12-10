@@ -1,0 +1,856 @@
+add_namespace = rrcshout
+
+country_event = { #choose your fighter
+	id = rrcshout.1
+	title = rrcshout.1.t
+	desc = rrcshout.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #wang
+		name = rrcshout.1.a
+		hidden_effect = {
+			set_country_flag = rrc_shout_chose_wang
+			country_event = {
+				id = rrcshout.2
+			}
+		}
+	}
+	option = { #liu
+		name = rrcshout.1.b
+		hidden_effect = {
+			set_country_flag = rrc_shout_chose_liu
+			country_event = {
+				id = rrcshout.2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rrcshout.2
+	title = rrcshout.2.t
+	desc = rrcshout.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcshout.2.a
+		hidden_effect = {
+			country_event = {
+				id = rrcshout.4
+			}
+			set_variable = {
+				var = integer_counter
+				value = 0
+			}
+		}
+	}
+}
+
+country_event = { #player, ability for hard attack,stam>6
+	id = rrcshout.3
+	title = rrcshout.3.t
+	desc = rrcshout.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.3.a
+		hidden_effect = { #hard attack
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				subtract_from_variable = { liu_stamina = 6 }
+				set_country_flag = rrc_shout_player_heavy
+				else = {
+					subtract_from_variable = { wang_stamina = 6 }
+					set_country_flag = rrc_shout_player_heavy
+				}
+			}
+			country_event = {
+				id = rrcshout.7
+			}
+		}
+	}
+	option = {
+		name = rrcshout.3.b
+		hidden_effect = { #soft attack
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				subtract_from_variable = { liu_stamina = 3 }
+				set_country_flag = rrc_shout_player_soft
+				else = {					
+					subtract_from_variable = { wang_stamina = 3 }
+					set_country_flag = rrc_shout_player_soft
+				}
+			}
+			country_event = {
+				id = rrcshout.7
+			}
+		}
+	}
+	option = {
+		name = rrcshout.3.c
+		hidden_effect = { #block
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				subtract_from_variable = { liu_stamina = 0 }
+				set_country_flag = rrc_shout_player_block
+				else = {
+					subtract_from_variable = { wang_stamina = 0 }
+					set_country_flag = rrc_shout_player_block
+				}
+			}
+			country_event = {
+				id = rrcshout.7
+			}
+		}
+	}
+}
+
+country_event = { #"ai"
+	id = rrcshout.4
+	title = rrcshout.4.t
+	desc = rrcshout.4.d
+	hidden = yes
+	is_triggered_only = yes
+	option = { #Attack - deals more damage than player
+		name = rrcshout.4.a
+			if = {
+				limit = {
+					check_variable = { integer_counter = 5 }
+				}
+					set_variable = { integer_counter = 0 }
+			}
+			add_to_variable = { integer_counter = 1 }
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				country_event = {
+					id = rrcshout.8		#How can Wang attack?
+				}
+			else = {
+				country_event = {
+					id = rrcshout.9		#How can Liu attack?
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = rrc_shout_chose_liu
+			}
+			country_event = {
+				id = rrcshout.10		#How can Liu respond?
+			}
+			else = {
+				country_event = {
+					id = rrcshout.11	#How can Wang respond?
+				}
+			}
+		}	
+	}
+}
+######Ausgeklammert, um Klarheit zu schaffen######
+country_event = { #Can AI Wang make attack - if so which?
+	id = rrcshout.8
+	title = rrcshout.8.t
+ 	desc = rrcshout.8.d
+ 	hidden = yes
+ 	is_triggered_only = yes
+
+ 	option = {
+ 		name = rrcshout.8.a
+ 		if = {
+			limit = {
+				check_variable = {
+					var = wang_stamina
+					value = 6
+					compare = greater_than_or_equals
+				}
+			}
+			random_list = {
+				65 = {
+					subtract_from_variable = { wang_stamina = 6 }
+					set_country_flag = rrc_shout_ai_heavy
+				}
+				25 = {
+					subtract_from_variable = { wang_stamina = 3 }
+					set_country_flag = rrc_shout_ai_soft
+				}
+				10 = {
+					set_country_flag = rrc_shout_ai_block
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = wang_stamina
+					value = 3
+					compare = greater_than_or_equals
+				}
+			}
+			random_list = {
+				65 = {
+					subtract_from_variable = { wang_stamina = 3 }
+					set_country_flag = rrc_shout_ai_soft
+				}
+				35 = {
+					set_country_flag = rrc_shout_ai_block
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = wang_stamina
+					value = 3
+					compare = less_than
+				}
+			}
+			set_country_flag = rrc_shout_ai_block
+		}
+ 	}
+}
+
+country_event = { #Can AI Liu make attack - if so which?
+	id = rrcshout.9
+	title = rrcshout.9.t
+ 	desc = rrcshout.9.d
+ 	hidden = yes
+ 	is_triggered_only = yes
+
+ 	option = {
+ 		name = rrcshout.9.a
+ 		if = {
+			limit = {
+				check_variable = {
+					var = liu_stamina
+					value = 6
+					compare = greater_than_or_equals
+				}
+			}
+			random_list = {
+				65 = {
+					subtract_from_variable = { liu_stamina = 6 }
+					set_country_flag = rrc_shout_ai_heavy
+				}
+				25 = {
+					subtract_from_variable = { liu_stamina = 3 }
+					set_country_flag = rrc_shout_ai_soft
+				}
+				10 = {
+					set_country_flag = rrc_shout_ai_block
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = liu_stamina
+					value = 3
+					compare = greater_than_or_equals
+				}
+			}
+			random_list = {
+				65 = {
+					subtract_from_variable = { liu_stamina = 3 }
+					set_country_flag = rrc_shout_ai_soft
+				}
+				35 = {
+					set_country_flag = rrc_shout_ai_block
+				}
+			}
+		}
+		else = {
+			set_country_flag = rrc_shout_ai_block
+		}
+ 	}
+}
+
+country_event = { #Kick the issue across the fire - How can Player Liu act?
+	id = rrcshout.10
+	title = rrcshout.10.t
+ 	desc = rrcshout.10.d
+ 	hidden = yes
+ 	is_triggered_only = yes
+
+ 	option = {
+ 		name = rrcshout.10.a
+ 		if = {
+			limit = {
+				check_variable = {
+					var = liu_stamina
+					value = 6
+					compare = greater_than_or_equals
+				}
+			}
+			country_event = {
+				id = rrcshout.3
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = liu_stamina
+						value = 3
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = {
+					id = rrcshout.5
+				}
+			}
+			else = {
+				country_event = {
+					id = rrcshout.6
+				}
+			}
+		}
+ 	}
+}
+country_event = { #Kick the issue across the fire - How can Player Wang act?
+	id = rrcshout.11
+	title = rrcshout.11.t
+ 	desc = rrcshout.11.d
+ 	hidden = yes
+ 	is_triggered_only = yes
+
+ 	option = {
+ 		name = rrcshout.11.a
+ 		if = {
+			limit = {
+				check_variable = {
+					var = wang_stamina
+					value = 6
+					compare = greater_than_or_equals
+				}
+			}
+			country_event = {
+				id = rrcshout.3
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = wang_stamina
+						value = 3
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = {
+					id = rrcshout.5
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = wang_stamina
+						value = 3
+						compare = less_than
+					}
+				}
+				country_event = {
+					id = rrcshout.6
+				}
+			}
+		}
+ 	}
+}
+##################################################
+
+country_event = { #player, ability for soft attack,stam>3
+	id = rrcshout.5
+	title = rrcshout.5.t
+	desc = rrcshout.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.3.b
+		hidden_effect = { #soft attack
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				subtract_from_variable = { liu_stamina = 3 }
+				set_country_flag = rrc_shout_player_soft
+				else = {
+					subtract_from_variable = { wang_stamina = 3 }
+					set_country_flag = rrc_shout_player_soft
+				}
+			}
+			country_event = {
+				id = rrcshout.7
+			}
+		}
+	}
+	option = {
+		name = rrcshout.3.c
+		hidden_effect = { #block
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				subtract_from_variable = { liu_stamina = 0 }
+				set_country_flag = rrc_shout_player_block
+				else = {
+					subtract_from_variable = { wang_stamina = 0 }
+					set_country_flag = rrc_shout_player_block
+				}
+			}
+			country_event = {
+				id = rrcshout.7
+			}
+		}
+	}
+}
+
+country_event = { #player, ability for block,stam<3
+	id = rrcshout.6
+	title = rrcshout.6.t
+	desc = rrcshout.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.3.c
+		hidden_effect = { #block
+			if = {
+				limit = {
+					has_country_flag = rrc_shout_chose_liu
+				}
+				subtract_from_variable = { liu_stamina = 0 }
+				set_country_flag = rrc_shout_player_block
+				else = {
+					subtract_from_variable = { wang_stamina = 0 }
+					set_country_flag = rrc_shout_player_block
+				}
+			}
+			country_event = {
+				id = rrcshout.7
+			}
+		}
+	}
+}
+
+country_event = { #comparison of attack - top level
+	id = rrcshout.7
+	title = rrcshout.7.t
+	desc = rrcshout.7.d
+	#picture = 
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.7.a
+		clr_country_flag = rrc_c_ai_heavy_player_block_liu
+		clr_country_flag = rrc_c_ai_heavy_player_block_wang
+		clr_country_flag = rrc_c_ai_heavy_player_not_block_liu
+		clr_country_flag = rrc_c_ai_heavy_player_not_block_wang
+		#######################################################
+		clr_country_flag = rrc_c_ai_soft_player_block_wang
+		clr_country_flag = rrc_c_ai_soft_player_soft_wang
+		clr_country_flag = rrc_c_ai_soft_player_heavy_wang
+		clr_country_flag = rrc_c_ai_soft_player_block_liu
+		clr_country_flag = rrc_c_ai_soft_player_soft_liu
+		clr_country_flag = rrc_c_ai_soft_player_heavy_liu
+		#######################################################
+		clr_country_flag = rrc_c_ai_block_player_heavy_wang
+		clr_country_flag = rrc_c_ai_block_player_heavy_liu
+		clr_country_flag = rrc_c_ai_block_player_soft_wang
+		clr_country_flag = rrc_c_ai_block_player_soft_liu
+		clr_country_flag = rrc_c_ai_block_player_block_wang
+		clr_country_flag = rrc_c_ai_block_player_block_liu
+		if = {
+			limit = {
+				has_country_flag = rrc_shout_ai_heavy 
+			}
+			country_event = {
+				id = rrcshout.12
+			}
+			else_if = {
+				limit = {
+					has_country_flag = rrc_shout_ai_soft
+				}
+				country_event = {
+					id = rrcshout.13
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = rrc_shout_ai_block
+				}
+				country_event = {
+					id = rrcshout.14
+				}
+			}
+		}
+	}
+}
+
+country_event = { # comparison of attack - ai heavy
+	id = rrcshout.12
+	title = rrcshout.12.t
+	desc = rrcshout.12.d
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.12.a
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = rrc_shout_player_block
+					has_country_flag = rrc_shout_chose_liu
+				}
+			}
+			subtract_from_variable = { liu_health = 1 }
+			set_country_flag = rrc_c_ai_heavy_player_block_liu
+			else_if = {
+				limit = {
+					AND = {
+						NOT = { has_country_flag = rrc_shout_player_block }
+						has_country_flag = rrc_shout_chose_liu
+					}
+				}
+				subtract_from_variable = { liu_health = 4 }
+				set_country_flag = rrc_c_ai_heavy_player_not_block_liu
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_block
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { wang_health = 1 }
+				set_country_flag = rrc_c_ai_heavy_player_block_wang
+			}
+			else_if = {
+				limit = {
+					AND = {
+						NOT = { has_country_flag = rrc_shout_player_block }
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { wang_health = 4 }
+				set_country_flag = rrc_c_ai_heavy_player_not_block_wang
+			}
+		}
+		country_event = {
+			id = rrcshout.15 #check for gameover
+		}
+	}
+}
+
+country_event = { # comparison of attack - ai soft
+	id = rrcshout.13
+	title = rrcshout.13.t
+	desc = rrcshout.13.d
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.13.a
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = rrc_shout_player_block
+					has_country_flag = rrc_shout_chose_liu
+				}
+			}
+			subtract_from_variable = { liu_health = 1 }
+			set_country_flag = rrc_c_ai_soft_player_block_liu
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_soft
+						has_country_flag = rrc_shout_chose_liu
+					}
+				}
+				subtract_from_variable = { liu_health = 3 }
+				set_country_flag = rrc_c_ai_soft_player_block_liu
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_heavy
+						has_country_flag = rrc_shout_chose_liu
+					}
+				}
+				subtract_from_variable = { wang_health = 4 }
+				set_country_flag = rrc_c_ai_soft_player_heavy_liu
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_block
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { wang_health = 1 }
+				set_country_flag = rrc_c_ai_soft_player_block_wang
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_soft
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { wang_health = 3 }
+				set_country_flag = rrc_c_ai_soft_player_block_wang
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_heavy
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { liu_health = 4 }
+				set_country_flag = rrc_c_ai_soft_player_heavy_wang
+			}
+		}
+		country_event = {
+			id = rrcshout.15 #check for gameover
+		}
+	}
+}
+
+country_event = { #comparison of attack - ai block
+	id = rrcshout.14
+	title = rrcshout.14.t
+	desc = rrcshout.14.d
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.14.a
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = rrc_shout_player_block
+					has_country_flag = rrc_shout_chose_liu
+				}
+			}
+			set_country_flag = rrc_c_ai_block_player_block_liu
+			subtract_from_variable = { liu_health = 0 }
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_heavy
+						has_country_flag = rrc_shout_chose_liu
+					}
+				}
+				subtract_from_variable = { wang_health = 1 }
+				set_country_flag = rrc_c_ai_block_player_heavy_liu
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_soft
+						has_country_flag = rrc_shout_chose_liu
+					}
+				}
+				subtract_from_variable = { wang_health = 1 }
+				set_country_flag = rrc_c_ai_block_player_soft_liu
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_block
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				set_country_flag = rrc_c_ai_block_player_block_wang
+				subtract_from_variable = { wang_health = 0 }
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_heavy
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { liu_health = 1 }
+				set_country_flag = rrc_c_ai_block_player_heavy_wang
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_player_soft
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+					}
+				}
+				subtract_from_variable = { liu_health = 1 }
+				set_country_flag = rrc_c_ai_block_player_soft_wang
+			}
+		}
+		country_event = {
+			id = rrcshout.15 #check for gameover
+		}
+	}
+}
+
+country_event = { # check for gameover state
+	id = rrcshout.15
+	title = rrcshout.15.t
+	desc = rrcshout.15.d
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.15.a
+		if = {
+			limit = {
+				check_variable = {
+					var = liu_health
+					value = 1
+					compare = less_than
+				}
+			}
+				set_country_flag = liu_gameover
+			else_if = {
+				limit = {
+					check_variable = {
+						var = wang_health
+						value = 1
+						compare = less_than
+					}
+				}
+				set_country_flag = wang_gameover
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = rrc_shout_chose_liu
+					has_country_flag = liu_gameover
+				}
+			}
+			country_event = {
+				id = rrcshout.16 #gameover
+			}
+			else_if = {
+				limit = {
+					AND = {
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+						has_country_flag = wang_gameover
+					}
+				}
+				country_event = {
+					id = rrcshout.16
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_country_flag = rrc_shout_chose_liu
+						has_country_flag = wang_gameover
+					}
+				}
+				country_event = {
+					id = rrcshout.17 #won
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						NOT = { has_country_flag = rrc_shout_chose_liu }
+						has_country_flag = liu_gameover
+					}
+				}
+				country_event = {
+					id = rrcshout.17
+				}
+			}
+			else = {
+				add_to_variable = { wang_stamina = 2 }
+				add_to_variable = { liu_stamina = 2 }
+				clr_country_flag = rrc_shout_ai_block
+				clr_country_flag = rrc_shout_ai_soft
+				clr_country_flag = rrc_shout_ai_heavy
+				clr_country_flag = rrc_shout_player_block
+				clr_country_flag = rrc_shout_player_soft
+				clr_country_flag = rrc_shout_player_heavy
+				country_event = {
+					id = rrcshout.4
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rrcshout.16
+	title = rrcshout.16.t
+	desc = rrcshout.16.d
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.16.a
+		if = {
+			limit = {
+				has_country_flag = rrc_shout_chose_liu
+			}
+			subtract_from_variable = { rrc_liu_support_increase = 3 }
+			add_to_variable = { rrc_wang_support_increase = 1 }
+		else = {
+			subtract_from_variable = { rrc_wang_support_increase = 3 }
+			add_to_variable = { rrc_liu_support_increase = 1 }
+		}
+		}
+		hidden_effect = {
+		country_event = {
+			id = rrcdom.2
+			days = 1
+		}
+		country_event = {
+				id = rrcrepeat.0
+			}
+		change_power_struggle_dynamic_china = yes
+		}
+	}
+}
+
+country_event = {
+	id = rrcshout.17
+	title = rrcshout.17.t
+	desc = rrcshout.17.d
+	is_triggered_only = yes
+
+	option = {
+		name = rrcshout.17.a
+		if = {
+			limit = {
+				has_country_flag = rrc_shout_chose_liu
+			}
+			add_to_variable = { rrc_liu_support_increase = 3 }
+			subtract_from_variable = { rrc_wang_support_increase = 1 }
+		else = {
+			add_to_variable = { rrc_wang_support_increase = 3 }
+			subtract_from_variable = { rrc_liu_support_increase = 1 }
+		}
+		}
+		hidden_effect = {
+		country_event = {
+			id = rrcdom.2
+			days = 1
+		}
+		country_event = {
+				id = rrcrepeat.0
+			}
+			change_power_struggle_dynamic_china = yes
+		}
+	}
+}

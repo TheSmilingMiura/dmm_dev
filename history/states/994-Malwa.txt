@@ -1,0 +1,16 @@
+state={
+	id=994
+	name="STATE_994"
+	provinces={
+		1199 4106 10816 12743 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = CIF
+		add_core_of = CIF
+	}
+	buildings_max_level_factor=1.000
+}

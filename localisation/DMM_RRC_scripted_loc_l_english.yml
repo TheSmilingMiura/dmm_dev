@@ -1,0 +1,172 @@
+﻿l_english:
+
+  dmm_menu_main_tooltip_off:0 "£trigger_yes Open DMM Menu £trigger_yes"
+  dmm_menu_main_tooltip_on:0 "£trigger_no Close DMM Menu £trigger_no"
+  dmm_main_menu_text:0 "DMM Main Menu"
+
+  ######TELEGRAPH START######
+
+  dmm_shout_heavy_attack1:0 "Accepting Liu's challenge, Wang starts rifling through his papers with a glint in his eye and starts to breathe in..."
+  dmm_shout_heavy_attack2:0 "Wang calls over an associate with a file containing more material to debate with. He starts to speak..."
+  dmm_shout_heavy_attack3:0 "With the debate dragging on, Wang calls the hall to order before throwing a hateful look at Liu and opening his mouth..."
+  dmm_shout_heavy_attack4:0 "Giving Liu a triumphal look, Wang opens a folder thick with paper and starts composing himself before pointing at his opponent..."
+  dmm_shout_heavy_attack5:0 "Wang stands up and raises his voice at Liu..."
+  dmm_shout_heavy_attack6:0 "Liu, with a Young Party aide feeding him information, starts to build a massive case against Wang..."
+  dmm_shout_heavy_attack7:0 "Liu hatefully throws a pen case towards Wang's podium before drawing in his breath..."
+  dmm_shout_heavy_attack8:0 "With Wang seemingly struggling to quickly crush Liu's parliamental insurrection, the snake is poised to bite..."
+  dmm_shout_heavy_attack9:0 "Shooting a glare at Wang, Liu begins to read a great list of populist demands..."
+  dmm_shout_heavy_attack10:0 "Liu, standing up from his assigned seat, marches over to Wang, poking him in the chest before opening his mouth..."
+
+  dmm_shout_soft_attack1:0 "Wang waves at an aide to restore order, before quickly glancing over his notes and opening his mouth to speak..."
+  dmm_shout_soft_attack2:0 "With a tired look, Wang ignores the Assembly's pandemonium before turning towards Liu, his face an enigma..."
+  dmm_shout_soft_attack3:0 "Wang starts to tense up, giving Liu a wrathful gaze..."
+  dmm_shout_soft_attack4:0 "Wang straightens up, increasing his presence in the eye of the storm that is the Assembly floor..."
+  dmm_shout_soft_attack5:0 "Motioning for a glass of water, Wang sighs before attempting to stare Liu down..."
+  dmm_shout_soft_attack6:0 "Liu leans forward over his papers, like a snake looking at its prey..."
+  dmm_shout_soft_attack7:0 "Raising his voice, Liu calls his faction to order before slowly starting to speak..."
+  dmm_shout_soft_attack8:0 "Smashing his fist on his desk, Liu's face goes red with rage for a split second before he draws in air..."
+  dmm_shout_soft_attack9:0 "Liu slowly starts smiling, then opens his mouth to speak..."
+  dmm_shout_soft_attack10:0 "Unfazed by the drawn-out debate, Liu prepares to make his case again, though his throat sounds hoarse..."
+
+  dmm_shout_block_attack1:0 "Wang leans back in his chair..."
+  dmm_shout_block_attack2:0 "Wang slowly reaches for a glass of water..."
+  dmm_shout_block_attack3:0 "In a sudden moment of silence, only Wang's soft cough resonates in the Assembly Chamber..."
+  dmm_shout_block_attack4:0 "In an attempt to make Liu's steam run out, Wang is seemingly ignoring him..."
+  dmm_shout_block_attack5:0 "Wang seems to be immersing himself in his papers while drawing in air quite raggedly..."
+  dmm_shout_block_attack6:0 "Liu seems to be momentarily distracted in one of his more minute accusations..."
+  dmm_shout_block_attack7:0 "Liu breathes in deeply..."
+  dmm_shout_block_attack8:0 "With Wang still not discredited, Liu turns to an aide to ask him for more info..."
+  dmm_shout_block_attack9:0 "Looking up with a hateful glare, Liu opens his mouth..."
+  dmm_shout_block_attack10:0 "As the debate still rages on, Liu drinks a glass of water, before once again glaring at Wang..."
+
+  
+  dmm_shout_error_integer_too_large:0 "Integer Counter Out Of Bounds, Error!"
+
+
+  ###########TELEGRAPH END#######
+  #######Attack Loc START######
+
+  dmm_shout_option1_1:0 "Wang tries to ride into office on his father's coattails - Are we a monarchy again?"
+  dmm_shout_option1_2:0 "The only change Wang can promise is one for the worse - Stagnation!"
+  dmm_shout_option1_3:0 "Wang calls for 'Reform, not Revolution', but his actions are those of a Japanese lapdog!"
+  dmm_shout_option1_4:0 "I will solve China's problems, not some dusty National Democrat in this chamber."
+  dmm_shout_option1_5:0 "Every district which Wang's party governs is a district exploited by corrupt bureaucrats."
+  dmm_shout_option1_6:0 "Mr. Liu speaks of a 'Great Devolution', but is it not merely filthy Anarchism in disguise?"
+  dmm_shout_option1_7:0 "The only thing Mr. Liu has done in this Republic is sabotage it at every turn!"
+  dmm_shout_option1_8:0 "This 'United Front' you lead is naught but malcontents, aiming to destroy the system."
+  dmm_shout_option1_9:0 "The Youth Party was shunned by our Japanese Allies for a reason - they are too radical!"
+  dmm_shout_option1_10:0 "Mr. Liu wants to dismantle the Republic itself. We MUST stop him!"
+
+  dmm_shout_option2_1:0 "Mr. Wang has difficulties calming the Assembly - how can he calm China?"
+  dmm_shout_option2_2:0 "The son of a president - but what other qualities does Mr. Wang have? None!"
+  dmm_shout_option2_3:0 "I came from Sichuan to reform a nation in terminal decline, and you will not stop me!"
+  dmm_shout_option2_4:0 "Everyone can see China is facing a great crisis - that it needs more than Reform, Mr. Wang!"
+  dmm_shout_option2_5:0 "I suppose those that benefit from the Old Order's corruption fear me - Right, Mr. Wang?"
+  dmm_shout_option2_6:0 "My father always despised Mr. Liu. Why would we go against our Dear President's wish?"
+  dmm_shout_option2_7:0 "Mr. Liu is ignorant of the processes of this Republic. Why hand its power to him?"
+  dmm_shout_option2_8:0 "Mr. Liu proclaims himself a 'man of the people'...who also supported the dog Chiang!"
+  dmm_shout_option2_9:0 "Why even listen to illogical accusations? Mr. Liu, you are a mere populist without an argument."
+  dmm_shout_option2_10:0 "The reason you interrupted me today is because you're aware you have no chance!"
+
+  ######Attack Loc END################
+
+  rrc_shout_enemy_health_liu:0 "Your credibility is [?Root.liu_health|G], you have [?Root.liu_stamina|G] stamina left.\n\nYour opponent's credibility is [?Root.wang_health|R]."
+  rrc_shout_enemy_health_wang:0 "Your credibility is [?Root.wang_health|G], you have [?Root.wang_stamina|G] stamina left.\n\nYour opponent's credibility is [?Root.liu_health|R]."
+
+  #####Dyn-Loc H-Attack START#########
+
+  rrc_response_attack_heavy_1:0 "Wang begins to speak: 'Mr. Liu speaks of a 'Great Devolution', but is it not merely filthy Anarchism (...)', but he is quickly interrupted by Liu and his delegates shouting insults at him, including a particularly vicious one aimed at Wang's entire family tree, causing him to lose his composure and abandon coherent argumentation. It is dubious if anyone really looked good in this..."
+  rrc_response_attack_heavy_2:0 "'The only thing Mr. Liu has done in this Republic is sabotage it at every turn!', is what Wang attempts to say before being quite quickly interrupted by a torrent of filibustering coming from Liu. Although it prevents Wang from being able to make his point, some elder members of the Assembly click their tongues at Liu's impertinent behaviour..."
+  rrc_response_attack_heavy_3:0 "'This 'United Front' you lead is naught but malcontent losers(...)', Wang starts, but he is stopped by a flurry of thrown pens and even a suitcase hitting his podium, with Wang being forced to seek shelter behind his desk. Although he has been prevented from making his point, such measures are frowned upon even in the rough climate of the ROC's assembly chamber..."
+  rrc_response_attack_heavy_4:0 "'The Youth Party was shunned by our Japanese Allies(...)', Wang attempts to continue, but is booed heavily from both the back rows of his own party and the entire PNR-YP front. Referring to the hated Japanese as 'Allies', although theoretically correct, was perhaps not the smartest move, although the Japanese-aligned delegates direct a scornful gaze towards Liu..."
+  rrc_response_attack_heavy_5:0 "Wang shouts: 'Mr. Liu wants to dismantle the Republic itself. We MUST stop him!', but is quickly shut down when Liu launches into a furious rant about the systemic issues of the Reorganized Government, and meekly shrinks behind his desk. The Old Guard of the NDPROC watches Liu's rant with disdain..."
+  rrc_response_attack_heavy_6:0 "'Wang tries to ride into office on his father's coattails - Are we a monarchy again?', Liu tries to argue, but is quickly drowned out by furious noises from the NDPROC ranks, as he is seen as disrepecting the dead Old President..."
+  rrc_response_attack_heavy_7:0 "'The only change Wang can promise is one for the worse(...)', Liu attempts, but he is shouted down by Wang, who alleges that at the very least, he is realistic in his promises..."
+  rrc_response_attack_heavy_8:0 "'Wang calls for 'Reform, not Revolution', but his actions are those of a Japanese lapdog!'. Liu's words are quickly interrupted by Wang launching into a tirade on the topic of Liu 'shaking up riots' and being responsible for the low Japanese opinion of the RNGROC..."
+  rrc_response_attack_heavy_9:0 "'I will solve China's problems, not some dusty National Democrat in this chamber.'. This remark is quickly met with immense rage from the NDPROC's ranks, who throw a number of things, including, but not limited to: 13 pens, 2 folders full of documents, and 1 steel cigarette case. This causes Liu to take shelter behind his desk, rather ruining the point he was making..."
+  rrc_response_attack_heavy_10:0 "Liu shouts: 'Every district which Wang's party governs is a district exploited by corrupt bureaucrats', but he is immediately interrupted by Wang, who alleges that their districts 'at least remain governable, contrary to yours'..."
+  rrc_response_attack_heavy_11:0 "Wang begins to speak: 'Mr. Liu speaks of a 'Great Devolution', but is it not merely filthy Anarchism in disguise?'. Liu attempts to interject, but Wang just starts to speak louder: 'Mr. Liu, I ask you this? Are you not attempting to tear down everything every politician since 1911 has tried to built? A strong China, a united China. Mr. Liu, you stand against all of that, and you expect me and us all to just sit by idly while you destroy our life's work?'. Wang is applauded loudly by his delegation and Liu is left unable to answer sufficiently..."
+  rrc_response_attack_heavy_12:0 "'The only thing Mr. Liu has done in this Republic is sabotage it at every turn!', Wang begins. Liu's attempts to make a counterpoint are swiftly swatted down, and he is subjected to almost half an hour of Wang viciously tearing apart his arguments one after the other. By the time Wang is finished, many believe this might be the killing blow to Liu's young political career..."
+  rrc_response_attack_heavy_13:0 "'This 'United Front' you lead is naught but malcontent losers, aiming to destroy the system my father and his father worked their whole lives to build!'. Wang's invocation of the authority of his father and grandfather works, and Liu's attempts to interrupt Wang are mercilessly torn down by the NDPROC delegates. Wang goes on and on about Liu attempting 'to destroy everything we hold dear today'. By the end, Liu is catching suspicious looks from even his own party members."
+  rrc_response_attack_heavy_14:0 "'The Youth Party was shunned by our Japanese Allies for a reason - they are too radical!', Wang begins. 'They saw them as the threat to China that they were, and it is only because we allowed them into our midst again that Japan does not trust us!'. This catches the agreement of most of Wang's supporters, and Liu is shocked to see some of his PNR delegates cross the floor and sit with the NDP faction..."
+  rrc_response_attack_heavy_15:0 "Wang warns: 'Mr. Liu wants to dismantle the Republic itself. We MUST stop him before it is too late!'. Liu tries to say something, but Wang talks over him: 'Liu wishes to see the Chinese state destroyed, our identity broken - He is much like the British in that regard'. Liu's attempted rebuttal is drowned out by calls to remove him from the assembly floor, and although no such thing happens, his position is weakened immensely..."
+  rrc_response_attack_heavy_16:0 "'Wang tries to ride into office on his father's coattails - Are we a monarchy again?', Liu asks, shouting over Wang's remarks, 'Should we just invite the Manchurian Emperor back and be done with it? No, I say. Save the republic, and do not support Mr. Wang.'. This allegation seems to have convinced some of Wang's devotees, who now look at him with critical eyes..."
+  rrc_response_attack_heavy_17:0 "Wang attempts to speak, but is cut off by Liu: 'The only change Mr. Wang can promise is one for the worse - Stagnation!', he postulates, 'He promises reform, but he has never said what kind of reform. He is vague so that he can later just agree to his Japanese Master's demands'. The storm of allegations overwhelms Wang, who fails to properly refute them all. Some of the NDP delegates even cross the floor and sit with the PNR-YP front..."
+  rrc_response_attack_heavy_18:0 "'Wang calls for 'Reform, not Revolution', but his actions are those of a Japanese lapdog!', Liu shouts, over Wang's protests, 'Whatever he does, he always takes care to not offend his Japanese Masters. In the morning he calls Tokyo just to ask if he is allowed to brush his teeth that day'. The assembly roars with laughter at Wang's expense, who is visibly embarrassed..."
+  rrc_response_attack_heavy_19:0 "'I will solve China's problems, not some dusty National Democrat in this chamber', Liu proclaims. 'Be quiet, your family's policies got us into this situation in the first place!', he says to Wang, quieting him down. 'While many will proclaim that the system is not flawed, these people have not been in the Interior for a day in their lives!', he continues. 'We must make changes, or we will not stand the test of time'. The PNR-YP delegation applauds, while the NDP faction is mostly silent, looking at Wang inquisitively..."
+  rrc_response_attack_heavy_20:0 "'Mr. Liu, I believe [...]', Wang is cut off by Liu's interjection: 'Every district which Wang's party governs is a district exploited by corrupt bureaucrats'. You people call us radicals, but at the very least, we do not steal from our constituents like you. I have brought with me this document...' What follows is a brutal recounting of the systemic corruption of the National Democrats that leaves many of their more idealistic members crossing the floor to Liu's side in disgust..."
+  
+  rrc_response_attack_soft_1:0 "Wang starts to speak: 'My father always despised Mr. Liu. Why(...)', before he gets cut off by Liu insulting him for not making 'an argument of his own'..."
+  rrc_response_attack_soft_2:0 "'Mr. Liu is ignorant of the processes of this Republic(...)'. Wang begins, but is quickly cut off by Liu shouting insults over his speech..."
+  rrc_response_attack_soft_3:0 "'Mr. Liu proclaims himself a 'man of the people'(...)', Wang starts. '(...)Exactly', Liu continues, interrupting Wang..."
+  rrc_response_attack_soft_4:0 "'Why even listen to illogical accusations?(...)', Wang interjects. '(...)Then why won't you be quiet?', Liu responds. The assembly responds with laughter, and Wang is embarrassed..."
+  rrc_response_attack_soft_5:0 "Before Wang can even start to speak, Liu shouts over him with accusations of 'treachery to the people of China'..."
+  rrc_response_attack_soft_6:0 "'Mr. Wang has difficulties calming the Assembly - how can he calm China?', Liu begins, before being interrupted by Wang, calling him various names..."
+  rrc_response_attack_soft_7:0 "'The son of a president - but what other qualities does Mr. Wang have? None!', Liu starts, before NDP delegates interrupt him, insulting him for questioning their leader..."
+  rrc_response_attack_soft_8:0 "'I came from Sichuan(...)', Liu begins, but he is immediately interrupted by Wang shouting 'you should have stayed there!'. The assembly laughs, and Liu is embarassed..."
+  rrc_response_attack_soft_9:0 "Liu starts to speak: 'Everyone can see China is facing a great crisis(...)' but he is immediately interrupted by Wang shouting about Liu being unable to resolve these crises..."
+  rrc_response_attack_soft_10:0 "Liu starts to argue: 'I suppose those that benefit from the Old Order's corruption fear me - Right, Mr. Wang?', but is shouted down by the angered NDP faction..."
+  #rrc_response_attack_soft_11:0 "'Mr. Wang has difficulties calming the Assembly - how can he calm China?', Liu begins, before being cut"
+
+  rrc_response_attack_block:0 "In a brief moment of mutual silence, Liu and Wang stare hatefully at each other..."
+
+  dmm_liu:0 "Liu Zhongjing"
+  dmm_wang:0 "Wang Jiebing"
+
+
+  dmm_wang_wenying_title0:0 "Liuist Graffiti"
+  dmm_wang_wenying_desc0:0 "Recently, multiple graffiti with Liuist slogans threatening 'devolution or revolution' or with similar phrases have appeared on public buildings on the streets of Nanjing. We have yet to figure out the one responsible, and although Liu Zhongjing has officially denounced the vandalism, many assume that the culprit did not act without the party's consent..."
+  dmm_wang_wenying_a0:0 "Get me a sand blaster!"
+  dmm_wang_wenying_title1:0 "Reorganized National Army Convoy Ambushed"
+  dmm_wang_wenying_desc1:0 "Yesterday, a military convoy transporting troops and small arms headed from Nanchong Wang Jingwei Military Base toward Chongqing was apparently ambushed on the open road and completely annihilated by a so-far-unidentified partisan force. The burned wreckage of the armored command vehicle, however, showed severe damage consistent with German-made RPzB 88 anti-tank rocket guns, sparking concerns over the increasing availability of modern weapons to partisan bands. As the site of the incident was only reached by a search troop a day later, the trail of the insurgents has mostly gone cold already..."
+  dmm_wang_wenying_a1:0 "I thought we were supposed to go after the partisans?"
+  dmm_wang_wenying_title2:0 "Communist Propaganda in the Lüliang Region"
+  dmm_wang_wenying_desc2:0 "While few regions of China may be called 'wealthy' in any way, the Northern Interior is poor even for these standards. Already wrecked by changing warlord and communist rule before the Great Liberation of 1937, with the accession of Inner Mongolia to Mengjiang the region drifted into the periphery of a China rife with economic ailments. Now, local officials have reported that communist propaganda has once more been spotted in several towns, and the populace seems to eagerly fall for it..."
+  dmm_wang_wenying_a2:0 "Communism is a mere opiate of the masses. Nothing of note."
+  dmm_wang_wenying_title3:0 "Illegal Presses as prevalent as ever"
+  dmm_wang_wenying_desc3:0 "To prevent KMT or, even worse, Communist propaganda from reaching and influencing the people, we have always closely regulated what media may be published in the Republic. Others may call it censorship - for us it is common sense. Now, however, an ever increasing number of illegal books and magazines is going into circulation, many with outrageous names, the 'Black Book of Japanese Imperialism' and the newspaper 'Asia Uncensored' being especially egregious examples. We must crack down on this, before the people get caught up in this foolishness!"
+  dmm_wang_wenying_a3:0 "(Redacted)"
+  dmm_wang_wenying_title4:0 "The Taoxikeng Disaster"
+  dmm_wang_wenying_desc4:0 "Since the 1970s, basic worker's safety laws exist in China, however, due to intervention by the Japanese government, the Zaibatsu-owned mining operations across the country are not subject to these safety regulations, or in fact any Chinese laws. This allows the mines to bring in tremendous amounts of profit, at the expense of the safety of the miners. Today, at 7:44 AM, disaster finally struck, as the Taoxikeng Tungsten Mine in Western Jiangxi, run mainly by the Nissan Zaibatsu, suffered a massive tunnel collapse due to poor maintenance, trapping dozens of miners deep underground. The company has refused any responsibility, and claims that 'Chinese sabotage and idiocy' collapsed the mine, even demanding compensation from our government. With a telegram from Tokyo instructing us to oblige them, we have little choice in the matter, as humiliating as it may be."
+  dmm_wang_wenying_a4:0 "The people are right to be furious!"
+  dmm_wang_wenying_title5:0 "Tomatoes and Tuxedos"
+  dmm_wang_wenying_desc5:0 "Although Liuist rhetoric was never the most amiable to our current order, it was never agressive enough to arrest Liu, even though his adherents commit the most dishonourable things in his name. After a recent speech in which he denounced the distance of government officials from the common folk by jesting that 'while one struggles to buy a tomato, the other can't decide which tuxedo to wear today', the attacks have, however, reached a new level, with civil servants in several cities being bombarded with ripe tomatoes every time they appear in formal wear. This destroys much of their authority..."
+  dmm_wang_wenying_a5:0 "The people will calm down soon enough!"
+  dmm_wang_wenying_title6:0 "The Red Day at Xi'An"
+  dmm_wang_wenying_desc6:0 "We have received reports of a particularly audacious action by a partisan group. A rather small police station on the outskirts of Xi'An was entered yesterday at approximately 5 PM by masked gunmen, who reportedly shouted 'Freedom for the people! Down with the Japanese Devils!' before opening fire, methodically executing every officer in sight, but leaving the civilians present alone, though traumatised. The gunmen tore down and burned the Japanese flag hanging above the entrance door, and replaced the Chinese flag with the KMT-era version. The boldness shown in attacking a police station is startling, and we should immediately respond. But how?"
+  dmm_wang_wenying_a6:0 "If only I knew..."
+  dmm_wang_wenying_title7:0 "The last voyage of the 'Chen Gongbo'"
+  dmm_wang_wenying_desc7:0 "This morning, thousands of Shanghai's citizens were shocked to hear the sound of a massive explosion reverberating across the Yangtze river, as the passenger ferry 'Chen Gongbo', traversing the popular north-south route Xinhezhen-Baoshan, was ripped to pieces in a gigantic fireball that lit up most of the waterfront and broke several windows on the south side of the river. As the ship by itself should have been in no way able to explode in such a manner, officials have declared this incident 'a despicable act of terrorism', though why exactly the crowded ferry was chosen is still up for speculation. Nevertheless, the incident, which has left well over a thousand dead, has managed to grind the vibrant jewel of the East, Shanghai, to a halt, even if only for a moment."
+  dmm_wang_wenying_a7:0 "Though it may not look like it, we're in full control!"
+  dmm_wang_wenying_title8:0 "The Escape of Bao Tong"
+  dmm_wang_wenying_desc8:0 "Arrested in 1987 for 'dangerous political rhetoric' and under house arrest since 1989, Bao Tong is a dangerous reformist dissident that we tried to keep away from the public for many years. However, a few days ago, a sympathetic guard 'forgot' to keep watch over the back door of Bao's house long enough for the man to escape and be picked up by a friend's car in what police officials have called 'a masterfully orchestrated escape'. Bao Tong apparently subsequently took the next flight to Irkutsk from Shanghai-Hongqiao under a fake ID. It is assumed he has already left Russia for the United States or Canada, where he will surely spread his poison to exactly the wrong people..."
+  dmm_wang_wenying_a8:0 "Apprehend the guard. I want heads to roll over this!"
+  dmm_wang_wenying_title9:0 "A Crack in the Armor"
+  dmm_wang_wenying_desc9:0 "As he was holding a public speech congratulating the workers of the newly-opened Nissan Motors plant in Shanghai, a bullet was shot at the head of Wang Wenying's son and political protégé, Wang Jiebing. Due to him accidentally stumbling while walking towards the microphone, Jiebing's head was missed by mere centimeters. Police immediately searched the apartment blocks surrounding the stage and found gunpowder marks on one of the roofs, though every inhabitant of the house swears to have seen and heard nothing. Wang Wenying is reportedly fuming with rage."
+  dmm_wang_wenying_a9:0 "If they saw nothing, they're complicit. Apprehend them!"
+
+
+#############################################################################################################################################################################################################################################################################################################################################################################
+
+dmm_rrc_exec_yan_jiagan:0 "Yan Jiagan is a rare sight - a higher-ranking GMD politician that did not only not flee China after the War was lost, but one that managed to re-enter the Halls of Power under the new regime. Yan is widely recognized as being the inventor of land tax payments in natural produce during the War, potentially avoiding millions of famine deaths. Although subject in his policymaking to the President's whims, he has retained much popularity amongst the common folk, and many see in him one of the greatest sources of legitimacy for the Reorganized Nationalist Government."
+dmm_rrc_legis_wang_jinping:0 "Wang Jinping is seen by many as a mere lapdog to the Japanese, having been born in Taiwan and growing up there. Nevertheless, there is one thing that no one can deride him as - inefficient. Wang is extremely talented at getting people to agree to his political efforts...by verbal or other means."
+dmm_rrc_exam_kong_decheng:0 "An erudite with a most honorable lineage - that is Kong Decheng. The Professor at Nanjing University swore in 1937 to 'fight the Japanese as soon as I reach the age of military service', but was kept from serving in the Army due to his ceremonial importance - he is a direct descendant of Confucius in the 77th generation. He is effectively forced to participate in the government, as his children are closely 'guarded' by Kempeitai officers at all times. In his position as President of the Examination Yuan, Kong Decheng has always taken great care to deliberately weed out the most radical ideologues, but his great spiritual importance forbids direct action against him."
+dmm_rrc_control_qian_fu:0 "The Son of a prominent academic attempting to step out of his father's long shadow - the ambitious Qian Fu is dedicated to his post as President of the Control Yuan to the last. Discovering numerous cases of egoistic corruption and Japanese embezzlement of Army funds, he has made himself plenty of enemies, but is hailed by many others as the epitome of political virtue."
+dmm_rrc_judic_xu_zongli:0 "A pragmatist of the post-GMD era, Xu Zongli is of the opinion that Man has to pick his battles diligently to live another day, which is why the President of the Judicial Yuan steers clear of attempting to start a prosecution against Japanese officials for infringing on Chinese laws - it is an unwinnable uphill battle. On the other hand, he is more than willing to prosecute any Chinese nationals infringing on the law - it's horrifyingly unjust, but it is pragmatic."
+dmm_rrc_army_li_zuocheng:0 "Li Zuocheng is young, radical, and unfortunately too competent at his job to dismiss him for these things. The General is one of Liu Zhongjing's outspoken supporters, and his enthusiasm and charisma have gained him great adoration from the average rank-and-file of the RNA. Should the government take any strong anti-Liuist actions, Li might demand an explanation or even more..."
+dmm_rrc_pres_wenying:0 "The position of Wang Wenying is powerful, but unenviable. As his body grows weaker, the elderly President is starting to see the cracks in his life's work - the stabilisation of China. Once again, political violence in the Urban East is rising, the partisans of the interior are growing more powerful by the day, and there's even been rumours of a supposed plot against his son and political protégé, Wang Jiebing. No, Wang Wenying's position is truly a lonely and unenviable one."
+
+dmm_rrc_pres_wenying_n:0 "§YWang Wenying§!"
+dmm_rrc_exec_yan_jiagan_n:0 "§YYan Jiagan§!"
+dmm_rrc_exam_kong_decheng_n:0 "§YKong Decheng§!"
+dmm_rrc_legis_wang_jinping_n:0 "§YWang Jinping§!"
+dmm_rrc_control_qian_fu_n:0 "§YQian Fu§!"
+dmm_rrc_army_li_zuocheng_n:0 "§YLi Zuocheng§!"
+dmm_rrc_judic_xu_zongli_n:0 "§YXu Zongli§!"
+ArmyLead_TT:0 "[DMM_ExecYuanLeaderDesc]"
+
+
+GER_AV:0 "Allgermanische Reichspartei"
+GER_GV:0 "Großdeutsche Volkspartei"
+GER_DP:0 "Deutschchristliche Partei"
+GER_NSDAP:0 "NSDAP"

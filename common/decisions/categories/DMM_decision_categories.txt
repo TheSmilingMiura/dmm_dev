@@ -1,0 +1,64 @@
+RRC_nanjing_garrison_meter = {
+	icon = infiltration
+	picture = GFX_decision_cat_picture_chi_infiltration
+	allowed = {
+			tag = RRC
+	}
+	visible = {
+			has_country_flag = loyal_soldier_nanjing_chosen
+	}
+}
+RRC_debug_meter = {
+	icon = infiltration
+	picture = GFX_decision_cat_picture_chi_infiltration
+
+	visible = {
+			tag = RRC
+	}
+}
+RRC_politics_info = {
+	icon = infiltration
+	picture = GFX_decision_cat_picture_chi_infiltration
+
+	visible = {
+			tag = RRC
+	}
+}
+RRC_wang_wenying_decentralization = {
+	icon = GFX_decision_generic_independence
+	picture = GFX_decision_cat_picture_chi_political_support
+
+	visible = {
+		has_country_flag = rrc_wang_wenying_decentralization
+		tag = RRC
+		has_country_leader = {
+			name = "Wang Wenying"
+			ruling_only = yes
+		}
+	}
+}
+RRC_wang_wenying_crackdown = {
+	icon = GFX_decision_generic_independence
+	picture = GFX_decision_cat_picture_chi_political_support
+
+	visible = {
+		check_variable = { rrc_instability > 0 }
+		tag = RRC
+		#has_country_leader = {
+		#	name = "Wang Wenying"
+		#	ruling_only = yes
+		#}#
+	}
+}
+RRC_appease_garrison = {
+	icon = GFX_decision_generic_independence
+	picture = GFX_decision_cat_picture_chi_political_support
+
+	visible = {
+		tag = RRC
+		OR = {
+			has_country_flag = rrc_wang_dead
+			has_country_flag = rrc_wenying_japan_priority
+		}
+	}
+}

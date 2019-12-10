@@ -1,0 +1,84 @@
+﻿capital = 6
+
+oob = "BEL_1936"
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.3 #we see what you are doing there Adolf
+
+set_technology = {
+
+}
+
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+set_convoys = 80
+set_stability = 0.75
+
+create_country_leader = {
+	name = "Hubert Pierlot"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+	expire = "1965.1.1"
+	ideology = new_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Jacquemotte"
+	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = vanguard_communism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Léon Degrelle"
+	desc = "POLITICS_LEON_DEGRELLE_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = hakko_ichiu
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "M.C.L. Keyaerts"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Georges Timmermans"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+	traits = { seawolf }
+	skill = 4
+}

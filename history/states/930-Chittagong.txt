@@ -1,0 +1,18 @@
+
+state={
+	id=930
+	name="STATE_930"
+	provinces={
+		9991 11968 12010 7179
+	}
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	manpower=19000
+	state_category=town
+}

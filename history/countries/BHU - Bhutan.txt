@@ -1,0 +1,38 @@
+﻿capital = 324
+
+oob = "BHU_1936"
+
+# Starting tech
+set_technology = {
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Jigme Wangchuck"
+	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
+	picture = "GFX_portrait_buthan_jigme_wangchuk"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

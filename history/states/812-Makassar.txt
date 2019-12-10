@@ -1,0 +1,17 @@
+state={
+	id=812
+	name="STATE_812"
+
+	state_category=city
+	manpower= 560000
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+	}
+		
+	provinces={
+		10263 
+	}
+	buildings_max_level_factor=1.000
+}

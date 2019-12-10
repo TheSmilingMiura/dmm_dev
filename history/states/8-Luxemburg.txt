@@ -1,0 +1,28 @@
+state=
+{
+	id=8
+	name="STATE_8"
+	
+	state_category = large_city
+	
+	manpower = 439539
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = { 6583 5 }
+		add_core_of = GER
+	}
+
+	provinces=
+	{
+6583 	}
+}

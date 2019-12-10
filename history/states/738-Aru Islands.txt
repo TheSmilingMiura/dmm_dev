@@ -1,0 +1,28 @@
+
+state={
+	id=738
+	name="STATE_738"
+
+	manpower=36146
+	state_category=small_island
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+			4579 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4579 13259 13261 13265 13266 13260
+	}
+
+	
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=217
+	name="STATE_217"
+
+	history={
+		owner = GKM
+		victory_points = {
+			3529 30.0 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = GKM
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3529 3555 9504 
+	}
+	manpower=1135070
+	buildings_max_level_factor=1.000
+	state_category=city
+}

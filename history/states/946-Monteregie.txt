@@ -1,0 +1,23 @@
+
+state={
+	id=946
+	name="STATE_946"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = CAN
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		1284 4417 7289 7345 7433 10174 10230 10320 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,31 @@
+focus_tree = {
+    id = JAP_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = JAP
+        }
+    }
+	continuous_focus_position = { x = 16 y = 3000 }
+	focus = {
+		id = JAP_Foreign_Policy
+		#icon = GFX_
+		x = 10
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			has_country_flag = democracy_returns_to_japan
+		}
+		available = {
+		
+			always = no
+			}
+		completion_reward = {
+			 custom_effect_tooltip = does_this_work
+		}
+	}
+}

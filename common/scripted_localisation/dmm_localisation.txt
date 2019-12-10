@@ -1,0 +1,1324 @@
+defined_text = { # global
+  name = dmm_menu_main_tooltip
+
+  text = {
+    trigger = {
+      has_global_flag = menu_open
+    }
+    localization_key = dmm_menu_main_tooltip_on
+  }
+  text = {
+    localization_key = dmm_menu_main_tooltip_off
+  }
+}
+defined_text = { # global
+  name = dmm_main_menu_text
+
+  text = {
+    localization_key = dmm_main_menu_text
+  }
+}
+defined_text = { # global
+  name = dmm_main_menu_text
+
+  text = {
+    localization_key = dmm_main_menu_text
+  }
+}
+
+defined_text = {
+    name = rrc_telegraph_debug
+
+    text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack1
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack2
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack3
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack4
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack5
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack6
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack7
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack8
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack9
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_heavy
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_heavy_attack10
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack1
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack2
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack3
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack4
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack5
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack6
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack7
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack8
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack9
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_soft
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_soft_attack10
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack1
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack2
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack3
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack4
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack5
+  }
+  text = {
+    trigger = {
+    RRC = {     
+       NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack6
+  }
+  text = {
+    trigger = {
+    RRC = {     
+       NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack7
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack8
+  }
+  text = {
+    trigger = {
+    RRC = {     
+       NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack9
+  }
+  text = {
+    trigger = {
+    RRC = {     
+       NOT = { has_country_flag = rrc_shout_chose_liu }
+      has_country_flag = rrc_shout_ai_block
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_block_attack10
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      check_variable = { integer_counter > 5 } 
+    }
+    }
+    localization_key = dmm_shout_error_integer_too_large
+  }
+}
+
+defined_text = {
+    name = rrc_shout_rebuttal_heavy
+
+    text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_option1_1
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_option1_2
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_option1_3
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_option1_4
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_option1_5
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_option1_6
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_option1_7
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_option1_8
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_option1_9
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_option1_10
+  }
+}
+
+defined_text = {
+    name = rrc_shout_rebuttal_soft
+
+    text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_option2_1
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_option2_2
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_option2_3
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_option2_4
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      has_country_flag = rrc_shout_chose_liu
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_option2_5
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 5 } 
+    }
+    }
+    localization_key = dmm_shout_option2_6
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 1 } 
+    }
+    }
+    localization_key = dmm_shout_option2_7
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 2 } 
+    }
+    }
+    localization_key = dmm_shout_option2_8
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 3 } 
+    }
+    }
+    localization_key = dmm_shout_option2_9
+  }
+  text = {
+    trigger = {
+    RRC = {     
+      NOT = { has_country_flag = rrc_shout_chose_liu }
+      check_variable = { integer_counter = 4 } 
+    }
+    }
+    localization_key = dmm_shout_option2_10
+  }
+}
+
+defined_text = { # global
+  name = enemy_health
+
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_shout_chose_liu
+      }
+    }
+    localization_key = rrc_shout_enemy_health_liu
+  }
+  text = {
+    localization_key = rrc_shout_enemy_health_wang
+  }
+}
+
+defined_text = { # global
+  name = rrc_response_attack_dyn
+
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_liu
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_1
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_liu
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_2
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_liu
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_3
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_liu
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_4
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_liu
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_5
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_wang
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_6
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_wang
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_7
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_wang
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_8
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_wang
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_9
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_block_wang
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_10
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_liu
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_11
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_liu
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_12
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_liu
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_13
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_liu
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_14
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_liu
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_15
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_wang
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_16
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_wang
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_17
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_wang
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_18
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_wang
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_19
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_heavy_player_not_block_wang
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_20
+  }
+  #############################################################
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_liu
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_1
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_liu
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_2
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_liu
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_3
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_liu
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_4
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_liu
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_5
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_wang
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_6
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_wang
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_7
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_wang
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_8
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_wang
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_9
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_block_wang
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_10
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_liu
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_16
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_liu
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_17
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_liu
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_18
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_liu
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_19
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_liu
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_20
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_wang
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_11
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_wang
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_12
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_wang
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_13
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_wang
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_14
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_soft_player_heavy_wang
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_15
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_liu
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_6
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_liu
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_7
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_liu
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_8
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_liu
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_9
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_liu
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_10
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_wang
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_1
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_wang
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_2
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_wang
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_3
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_wang
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_4
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_heavy_wang
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_heavy_5
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_liu
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_6
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_liu
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_7
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_liu
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_8
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_liu
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_9
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_liu
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_10
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_wang
+        check_variable = { integer_counter = 1 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_1
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_wang
+        check_variable = { integer_counter = 2 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_2
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_wang
+        check_variable = { integer_counter = 3 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_3
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_wang
+        check_variable = { integer_counter = 4 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_4
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_soft_wang
+        check_variable = { integer_counter = 5 }
+      }
+    }
+    localization_key = rrc_response_attack_soft_5
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_block_wang
+      }
+    }
+    localization_key = rrc_response_attack_block
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_c_ai_block_player_block_liu
+      }
+    }
+    localization_key = rrc_response_attack_block
+  }
+}
+
+defined_text = { # global
+  name = player_char
+
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_shout_chose_liu
+      }
+    }
+    localization_key = dmm_liu
+  }
+  text = {
+    trigger = {
+      RRC = {
+        has_country_flag = rrc_shout_chose_wang
+      }
+    }
+    localization_key = dmm_wang
+  }
+}
+
+defined_text = { # global
+  name = instability_t
+
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 0 }
+    }
+    localization_key = dmm_wang_wenying_title0
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 1 }
+    }
+    localization_key = dmm_wang_wenying_title1
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 2 }
+    }
+    localization_key = dmm_wang_wenying_title2
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 3 }
+    }
+    localization_key = dmm_wang_wenying_title3
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 4 }
+    }
+    localization_key = dmm_wang_wenying_title4
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 5 }
+    }
+    localization_key = dmm_wang_wenying_title5
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 6 }
+    }
+    localization_key = dmm_wang_wenying_title6
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 7 }
+    }
+    localization_key = dmm_wang_wenying_title7
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 8 }
+    }
+    localization_key = dmm_wang_wenying_title8
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 9 }
+    }
+    localization_key = dmm_wang_wenying_title9
+  }
+}
+
+defined_text = { # global
+  name = instability_d
+
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 0 }
+    }
+    localization_key = dmm_wang_wenying_desc0
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 1 }
+    }
+    localization_key = dmm_wang_wenying_desc1
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 2 }
+    }
+    localization_key = dmm_wang_wenying_desc2
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 3 }
+    }
+    localization_key = dmm_wang_wenying_desc3
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 4 }
+    }
+    localization_key = dmm_wang_wenying_desc4
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 5 }
+    }
+    localization_key = dmm_wang_wenying_desc5
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 6 }
+    }
+    localization_key = dmm_wang_wenying_desc6
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 7 }
+    }
+    localization_key = dmm_wang_wenying_desc7
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 8 }
+    }
+    localization_key = dmm_wang_wenying_desc8
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 9 }
+    }
+    localization_key = dmm_wang_wenying_desc9
+  }
+}
+
+defined_text = { # global
+  name = instability_a
+
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 0 }
+    }
+    localization_key = dmm_wang_wenying_a0
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 1 }
+    }
+    localization_key = dmm_wang_wenying_a1
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 2 }
+    }
+    localization_key = dmm_wang_wenying_a2
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 3 }
+    }
+    localization_key = dmm_wang_wenying_a3
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 4 }
+    }
+    localization_key = dmm_wang_wenying_a4
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 5 }
+    }
+    localization_key = dmm_wang_wenying_a5
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 6 }
+    }
+    localization_key = dmm_wang_wenying_a6
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 7 }
+    }
+    localization_key = dmm_wang_wenying_a7
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 8 }
+    }
+    localization_key = dmm_wang_wenying_a8
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 9 }
+    }
+    localization_key = dmm_wang_wenying_a9
+  }
+}

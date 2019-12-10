@@ -1,0 +1,98 @@
+ideas = {
+
+    country = {
+        SOV_famine = {
+
+			picture = russianstarvation
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.1
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		SOV_the_russian_bear = {
+		    picture = the_russian_bear
+		    allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.25
+				attrition = -0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				max_dig_in = 1.5
+				defence = 0.3
+				offence = 0.1
+				attrition = -0.2
+				winter_attrition_factor = -0.5
+				acclimatization_cold_climate_gain_factor = 0.5
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.05
+			}
+
+			targeted_modifier = {
+				tag = GKM
+				attack_bonus_against = -0.3
+				defense_bonus_against = -0.1
+			}
+
+			targeted_modifier = {
+				tag = GKK
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.05
+			}
+
+			targeted_modifier = {
+				tag = FIN
+				attack_bonus_against = -0.05
+				defense_bonus_against = -0.05
+			}
+		}
+		SOV_corrupt_confederation = {
+			picture = widespread_corruption
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1
+				trade_laws_cost_factor = 0.25
+				air_chief_cost_factor = 0.25
+				army_chief_cost_factor = 0.25
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = 0.05
+				
+			}
+		}
+	}
+}
+
+
+    

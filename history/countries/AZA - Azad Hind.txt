@@ -1,0 +1,40 @@
+﻿capital = 952
+
+oob = "AZA_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 65
+    authoritarian = 10
+    corporatist = 0
+    reactionary = 0
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 5
+    communist = 20
+}
+
+create_country_leader = {
+	name = "Placeholder"
+	desc = "She's underage"
+	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
+	expire = "2040.1.1"
+	ideology = fascist
+	traits = {
+		#
+	}
+}

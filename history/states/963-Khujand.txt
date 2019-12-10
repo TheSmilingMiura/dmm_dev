@@ -1,0 +1,19 @@
+
+state={
+	id=963
+	name="STATE_963"
+
+	history={
+		owner = FGH
+		add_core_of = FGH
+		add_core_of = TAJ
+
+	}
+
+	provinces={
+		1919 10187 12430 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

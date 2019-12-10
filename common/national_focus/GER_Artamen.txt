@@ -1,0 +1,1061 @@
+#focus = {
+	#	id = GER_germanscience
+	#	icon = GFX_focus_germanscience
+	#	x = 0
+	#	y = 0
+	#	cost = 1
+	#	available_if_capitulated = yes
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	available = {
+	#	}
+	#	completion_reward = {
+	#	#
+	#	}
+	#}
+	#focus = {
+	#	id = GER_no_loss
+	#	icon = GFX_focus_german_enlightenment
+	#	x = 0
+	#	y = 2
+	#	prerequisite = { focus = GER_germanscience }
+	#	cost = 1
+	#	available_if_capitulated = yes
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	available = {
+	#	}
+	#	completion_reward = {
+	#	#
+	#	}
+	#}
+	focus = {
+		id = GER_die_artamanen_kommen
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_neue_wissenschaft
+		icon = GFX_focus_germanscience
+		x = 4
+		y = 2
+		prerequisite = { focus = GER_it_was_underground_the_whole_time }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_it_was_underground_the_whole_time
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 1
+		prerequisite = { focus = GER_die_artamanen_kommen }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_tighten_the_ties
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 2
+		prerequisite = { focus = GER_it_was_underground_the_whole_time }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_Vestasi
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 3
+		prerequisite = { focus = GER_tighten_the_ties }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_ahnenkunde
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 3
+		prerequisite = { focus = GER_neue_wissenschaft }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_scandinavia_occult
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 4
+		prerequisite = { focus = GER_ahnenkunde }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_runen
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 5
+		prerequisite = { focus = GER_scandinavia_occult }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_lombardy_occult
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 4
+		prerequisite = { focus = GER_ahnenkunde }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_persia_occult
+		icon = GFX_focus_german_enlightenment
+		x = 6
+		y = 4
+		prerequisite = { focus = GER_ahnenkunde }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_magustheorie
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 3
+		prerequisite = { focus = GER_neue_wissenschaft }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_ariosophie
+		icon = GFX_focus_german_enlightenment
+		x = 6
+		y = 3
+		prerequisite = { focus = GER_neue_wissenschaft }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_at_the_foot_of_zagros
+		icon = GFX_focus_german_enlightenment
+		x = 6
+		y = 5
+		prerequisite = { focus = GER_persia_occult }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_the_eternal_fire_burns
+		icon = GFX_focus_german_enlightenment
+		x = 6
+		y = 6
+		prerequisite = { focus = GER_at_the_foot_of_zagros }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_rimini_livorno_line
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 5
+		prerequisite = { focus = GER_lombardy_occult }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_revitalize_rassenkunde
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 6
+		prerequisite = { focus = GER_runen }
+		prerequisite = { focus = GER_at_the_foot_of_zagros }
+		prerequisite = { focus = GER_rimini_livorno_line }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_national_lamarckismus
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 7
+		prerequisite = { focus = GER_revitalize_rassenkunde }
+		mutually_exclusive = { focus = GER_ueber_die_entstehung_der_arten }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_a_strong_man
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 8
+		prerequisite = { focus = GER_national_lamarckismus }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_begets_strong_children
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 9
+		prerequisite = { focus = GER_a_strong_man }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_and_our_ancestors_were_the_strongest
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 10
+		prerequisite = { focus = GER_begets_strong_children }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_ueber_die_entstehung_der_arten
+		icon = GFX_focus_german_enlightenment
+		x = 5
+		y = 7
+		prerequisite = { focus = GER_revitalize_rassenkunde }
+		mutually_exclusive = { focus = GER_national_lamarckismus }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_a_harsh_land
+		icon = GFX_focus_german_enlightenment
+		x = 5
+		y = 8
+		prerequisite = { focus = GER_ueber_die_entstehung_der_arten }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_creates_hard_people
+		icon = GFX_focus_german_enlightenment
+		x = 5
+		y = 9
+		prerequisite = { focus = GER_a_harsh_land }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_and_our_homeland_hardened_us
+		icon = GFX_focus_german_enlightenment
+		x = 5
+		y = 10
+		prerequisite = { focus = GER_creates_hard_people }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_restart_lebensborn
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 8
+		prerequisite = { focus = GER_national_lamarckismus }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_volksaufbaukommandos
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 9
+		prerequisite = { focus = GER_restart_lebensborn }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_deutscher_turn_und_sportverein
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 10
+		prerequisite = { focus = GER_volksaufbaukommandos }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_emphasize_competition
+		icon = GFX_focus_german_enlightenment
+		x = 7
+		y = 8
+		prerequisite = { focus = GER_ueber_die_entstehung_der_arten }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_cult_of_survivalism
+		icon = GFX_focus_german_enlightenment
+		x = 7
+		y = 9
+		prerequisite = { focus = GER_emphasize_competition }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_blut_und_ehre
+		icon = GFX_focus_german_enlightenment
+		x = 7
+		y = 10
+		prerequisite = { focus = GER_cult_of_survivalism }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_einsatzgruppen_ost
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 4
+		prerequisite = { focus = GER_Vestasi }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_abteilung_xii_schwarze_liste
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 5
+		prerequisite = { focus = GER_einsatzgruppen_ost }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_meyer_landruth_putsch
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 6
+		prerequisite = { focus = GER_abteilung_xii_schwarze_liste }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_romantic_agrarianism
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 2
+		prerequisite = { focus = GER_it_was_underground_the_whole_time }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_reactivate_the_ostministerium
+		icon = GFX_focus_german_enlightenment
+		x = 15
+		y = 3
+		prerequisite = { focus = GER_romantic_agrarianism }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_landsknecht_decree
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 3
+		prerequisite = { focus = GER_romantic_agrarianism }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_anti_urbanism
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 3
+		prerequisite = { focus = GER_romantic_agrarianism }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_these_sprawling_hives_of_judaism
+		icon = GFX_focus_german_enlightenment
+		x = 11
+		y = 4
+		prerequisite = { focus = GER_anti_urbanism }
+		prerequisite = { focus = GER_landsknecht_decree }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_must_be_destroyed
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 5
+		prerequisite = { focus = GER_these_sprawling_hives_of_judaism }
+		mutually_exclusive = { focus = GER_must_be_reformed }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_must_be_reformed
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 5
+		prerequisite = { focus = GER_these_sprawling_hives_of_judaism }
+		mutually_exclusive = { focus = GER_must_be_reformed }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_invert_the_theory
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 6
+		prerequisite = { focus = GER_must_be_destroyed }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_vier_millionen_quadratkilometer
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 7
+		prerequisite = { focus = GER_invert_the_theory }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_break_with_brutalism
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 6
+		prerequisite = { focus = GER_must_be_reformed }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_stadtgaerten
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 7
+		prerequisite = { focus = GER_break_with_brutalism }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_develop_the_vorstaedte
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 8
+		prerequisite = { focus = GER_stadtgaerten }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_by_choice_or_by_train
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 8
+		prerequisite = { focus = GER_vier_millionen_quadratkilometer }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_kolonialmiliz
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 9
+		prerequisite = { focus = GER_develop_the_vorstaedte }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_wehrbauernregimenter
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 9
+		prerequisite = { focus = GER_by_choice_or_by_train }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_siedlungsplan_ost
+		icon = GFX_focus_german_enlightenment
+		x = 15
+		y = 4
+		prerequisite = { focus = GER_reactivate_the_ostministerium }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_model_towns
+		icon = GFX_focus_german_enlightenment
+		x = 15
+		y = 5
+		prerequisite = { focus = GER_siedlungsplan_ost }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_breitspurnetzwerk
+		icon = GFX_focus_german_enlightenment
+		x = 14
+		y = 6
+		prerequisite = { focus = GER_model_towns }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_autobahnnetzwerk
+		icon = GFX_focus_german_enlightenment
+		x = 16
+		y = 6
+		prerequisite = { focus = GER_model_towns }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_naechster_halt_neu_berlin
+		icon = GFX_focus_german_enlightenment
+		x = 14
+		y = 7
+		prerequisite = { focus = GER_breitspurnetzwerk }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_naechster_halt_naugard
+		icon = GFX_focus_german_enlightenment
+		x = 14
+		y = 8
+		prerequisite = { focus = GER_naechster_halt_neu_berlin }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_naechster_halt_theoderichshafen
+		icon = GFX_focus_german_enlightenment
+		x = 14
+		y = 9
+		prerequisite = { focus = GER_naechster_halt_naugard }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_rollbahn_neu_berlin_niedernaugard
+		icon = GFX_focus_german_enlightenment
+		x = 16
+		y = 7
+		prerequisite = { focus = GER_autobahnnetzwerk }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_rollbahn_niedernaugard_tatarburg
+		icon = GFX_focus_german_enlightenment
+		x = 16
+		y = 8
+		prerequisite = { focus = GER_rollbahn_neu_berlin_niedernaugard }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_rollbahn_tatarburg_osterwalde
+		icon = GFX_focus_german_enlightenment
+		x = 16
+		y = 9
+		prerequisite = { focus = GER_rollbahn_niedernaugard_tatarburg }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_verkehrsnetz_ost
+		icon = GFX_focus_german_enlightenment
+		x = 15
+		y = 10
+		prerequisite = { focus = GER_rollbahn_tatarburg_osterwalde }
+		prerequisite = { focus = GER_naechster_halt_theoderichshafen }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+	focus = {
+		id = GER_reactivate_the_kolonialbund
+		icon = GFX_focus_german_enlightenment
+		x = 17
+		y = 5
+		prerequisite = { focus = GER_siedlungsplan_ost }
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		completion_reward = {
+		#
+		}
+	}
+}

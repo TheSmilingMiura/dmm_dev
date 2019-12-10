@@ -1,0 +1,25 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = CIF
+		add_core_of = CIF
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		10801 12854
+	}
+	manpower=14123100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

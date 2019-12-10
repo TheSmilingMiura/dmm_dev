@@ -1,0 +1,22 @@
+
+state={
+	id=831
+	name="STATE_831"
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		22 64 76 128 2995 3016 3040 3058 3082 6015 6079 6092 6107 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

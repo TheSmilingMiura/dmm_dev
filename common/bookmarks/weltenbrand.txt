@@ -1,0 +1,66 @@
+bookmarks = {
+	bookmark = {
+		name = "WELTENBRAND_NAME"
+		desc = "WELTENBRAND_DESC"
+		date = 1982.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "RRC"
+		default = yes
+
+		"RRC"={
+			history = "RRC_A_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
+				japanese_military_restrictions
+			}
+			focuses = {
+			#	CHI_nofutureforachinesestate
+			#	CHI_nothingriskednothinglost
+			#	CHI_reformorrevolution
+			}
+		}
+		"GER"={
+			history = "GER_A_NEW_DAWN_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_A_NEW_DAWN_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas={
+			}
+			focuses ={
+			}
+		}
+		"BII"={
+			history = "BII_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas = {
+				the_guns_of_fort_mountbatten
+				seperate_but_equal
+			}
+			focuses = {
+				BII_sundown_towns
+				BII_god_bless_the_navy
+			}
+		}
+		"---"={
+			history = "OTHER_A_NEW_DAWN_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345
+		}
+	}
+}

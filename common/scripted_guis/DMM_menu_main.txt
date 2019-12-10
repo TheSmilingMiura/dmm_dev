@@ -1,0 +1,38 @@
+scripted_gui = {
+	DMM_main_menu = {
+		context_type = player_context
+		window_name = "dmm_menu_main_menu_container"
+		visible = {
+			ROOT = { is_ai = no 
+			has_global_flag = menu_open
+			}
+		}
+		effects = {
+			dmm_menu_main_button_click = {
+				if = {
+					limit = { NOT = { has_global_flag = pollution_menu_open } }
+					set_global_flag = pollution_menu_open
+				}
+				else = { clr_global_flag = pollution_menu_open }
+			}
+		}
+		triggers = {
+			dmm_menu_main_button_click_enabled = {
+				always = yes
+			}
+		}
+	}
+	DMM_pollution_menu = {
+		context_type = player_context
+		window_name = "dmm_menu_pollution_container"
+		visible = {
+			is_ai = no
+			has_global_flag = pollution_menu_open
+		}
+		effects = {
+			dmm_pollution_menu_go_back_click = {
+				clr_global_flag = pollution_menu_open
+			}
+		}
+	}
+}

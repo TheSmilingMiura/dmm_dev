@@ -1,0 +1,54 @@
+﻿add_namespace = dmm_easter_egg
+
+
+#Briefe eines Toten
+country_event = {
+	id = dmm_easter_egg.1
+	title = dmm_easter_egg.1.t
+	desc = dmm_easter_egg.1.desc
+	picture = GFX_report_event_german_volunteers
+
+	is_triggered_only = yes
+	option = {						#oh ok
+		name = dmm_easter_egg.1.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {
+	id = dmm_easter_egg.2
+	title = dmm_easter_egg.2.t
+	desc = dmm_easter_egg.2.desc
+	picture = GFX_report_event_german_volunteers
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+			name = dmm_easter_egg.2.a
+			kill_country_leader = yes
+			add_stability = 1
+			add_war_support = 1
+			create_country_leader = {
+				name = "The Chad China Dev"
+				desc = "POLITICS_KOICHI_ISOBE_DESC"
+				picture = "gfx/leaders/RRC/Portrait_RNGROC_CHAD.dds"
+				expire = "2025.1.1"
+				ideology = military_junta
+			}
+	}
+}
+country_event = {
+	id = dmm_easter_egg.3
+	title = dmm_easter_egg.3.t
+	desc = dmm_easter_egg.3.desc
+	picture = GFX_report_event_german_volunteers
+
+	is_triggered_only = yes
+	option = {						#oh ok
+		name = dmm_easter_egg.3.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}

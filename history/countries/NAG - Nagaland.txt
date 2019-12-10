@@ -1,0 +1,43 @@
+﻿capital = 926
+
+oob = "NAG_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+	ruling_party = fascist 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 54
+    authoritarian = 24
+    corporatist = 0
+    reactionary = 0
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 20
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Placeholder"
+	desc = "She's underage"
+	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
+	expire = "2040.1.1"
+	ideology = fascist 
+	traits = {
+		#
+	}
+}

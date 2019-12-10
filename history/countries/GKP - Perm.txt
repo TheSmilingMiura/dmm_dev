@@ -1,0 +1,31 @@
+﻿capital = 398
+
+oob = "GKP_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 66
+    corporatist = 14
+    reactionary = 18
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 4
+    communist = 6
+}
+

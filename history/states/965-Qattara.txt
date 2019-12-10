@@ -1,0 +1,23 @@
+state = {
+	id = 965
+	name = "STATE_965"
+	history={
+		owner = EGY
+		victory_points = {
+			13410 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		13409 13410 13411 13407
+	}
+	manpower=35070
+	buildings_max_level_factor=1.000
+	state_category=town
+}

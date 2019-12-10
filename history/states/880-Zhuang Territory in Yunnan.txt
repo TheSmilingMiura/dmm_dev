@@ -1,0 +1,19 @@
+state={
+	id=880
+	name="STATE_880"
+	history={
+		owner = XNZ
+		add_core_of = XNZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		1172 1653 1196 1114 
+	}
+	manpower=5220309
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

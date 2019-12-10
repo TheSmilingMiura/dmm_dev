@@ -1,0 +1,18 @@
+state={
+	id=878
+	name="STATE_878"
+	provinces={
+		 8126
+	}
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		add_claim_by = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		set_demilitarized_zone = yes
+	}
+	manpower=86657
+	state_category = pastoral
+}

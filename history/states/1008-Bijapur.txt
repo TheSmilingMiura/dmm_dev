@@ -1,0 +1,18 @@
+
+state={
+	id=1008
+	name="STATE_1008"
+
+	history={
+		owner = HYD
+		add_core_of = HYD
+
+	}
+
+	provinces={
+		1359 7411 10799 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

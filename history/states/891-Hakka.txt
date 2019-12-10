@@ -1,0 +1,19 @@
+state={
+	id=891
+	name="STATE_891"
+	history={
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		1162 1078 7141 4207 4165 7182 7067 9978 9938
+	}
+	manpower=14143235
+	buildings_max_level_factor=1.000
+	state_category=town
+}

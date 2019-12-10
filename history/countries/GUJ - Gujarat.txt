@@ -1,0 +1,43 @@
+﻿capital = 428
+
+oob = "GUJ_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+	ruling_party = liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    fascist = 30
+    authoritarian = 0
+    corporatist = 0
+    reactionary = 0
+    conservative = 3
+    liberal = 35
+    social_democrat = 2
+    socialist = 6
+    communist = 24
+}
+
+create_country_leader = {
+	name = "Balram Jakhar"
+	desc = "POLITICS_BALRAM_JAKHAR_DESC"
+	picture = "gfx/leaders/GUJ/Portrait_GUJ_Balram_Jakhar.dds"
+	expire = "1965.1.1"
+	ideology = progressive
+	traits = {
+		#
+	}
+}

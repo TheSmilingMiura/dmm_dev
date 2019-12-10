@@ -1,0 +1,56 @@
+﻿#########
+#reform china
+#########
+
+add_namespace = china_reform
+
+
+#First Economic Reform
+country_event = {
+	id = china_reform.1
+	title = china_reform.1.t
+	desc = china_reform.1.desc
+	picture = GFX_report_event_german_volunteers
+
+	is_triggered_only = yes
+	option = {						#End this debate now - There is nothing wrong with the system
+		name = china_reform.1.a
+		ai_chance = {
+			base = 33
+		}
+		add_to_variable = { var = garrison_anger value = -5 }
+		#this will be heading you for an economic crisis
+	}
+	option = {						#We will cut subsidies to Japanese companies in favor of Chinese ones
+		name = china_reform.1.b
+		ai_chance = {
+			base = 33
+		}
+		add_to_variable = { var = garrison_anger value = 5 }
+		#improve economic situation
+	}
+	option = {						#We will raise tariffs on Japanese imports to those all others pay and cut subsidies
+		name = china_reform.1.c
+		ai_chance = {
+			base = 10
+		}
+		add_to_variable = { var = garrison_anger value = 10 }
+		#improve economic situation
+	}
+	option = {						#We will nationalize Japanese drains on our Budget or force them to fusion with Chinese ones
+		name = china_reform.1.f
+		ai_chance = {
+			base = 1
+		}
+		add_to_variable = { var = garrison_anger value = 20 }
+		#improve economic situation greatly, but will piss the Garrison off
+	}
+	option = {						#Cut Subsidies to Chinese companies, force insolvent ones to merge with Japanese ones
+		name = china_reform.1.e
+		ai_chance = {
+			base = 10
+		}
+		add_to_variable = { var = garrison_anger value = -15 }
+		#economic situation will slightly improve, but if Japan goes down, you do too
+	}
+}

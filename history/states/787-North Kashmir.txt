@@ -1,0 +1,38 @@
+
+state={
+	id=787
+	name="STATE_787"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			12277 1 
+		}
+		victory_points = {
+			10135 1 
+		}
+		victory_points = {
+			13240 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 4
+			12277 = {
+				naval_base = 2
+				bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1413 4434 7223 7642 10135 12277 13238 13239 13240 13264 
+	}
+	manpower=20400000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

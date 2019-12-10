@@ -1,0 +1,20 @@
+state={
+	id=886
+	name="STATE_886"
+	history={
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		10304 10822
+	}
+	manpower=2433425
+	buildings_max_level_factor=1.000
+	state_category=town
+}

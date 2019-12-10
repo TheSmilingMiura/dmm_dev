@@ -1,0 +1,16 @@
+state={
+	id=904
+	name="STATE_904"
+	provinces={
+		3109 6008 8193 12975 
+	}
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=345
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

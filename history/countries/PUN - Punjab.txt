@@ -1,0 +1,43 @@
+﻿capital = 440
+
+oob = "PUN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 0
+    corporatist = 0
+    reactionary = 0
+    conservative = 0
+    liberal = 0
+    social_democrat = 19
+    socialist = 78
+    communist = 13
+}
+
+create_country_leader = {
+	name = "Ardhendu Bhushan Bardhan"
+	desc = "POLITICS_BARDHAN_DESC"
+	picture = "gfx/leaders/PUN/Portrait_PUN_Ardhendu_Bhushan_Bhardan.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,25 @@
+﻿
+#################
+# RNGROC ideas
+#################
+
+add_namespace = gertest
+
+#Introduction
+country_event = {
+	id = gertest.1
+	title = gertest.1.t
+	desc = gertest.1.d
+	picture = GFX_report_event_jingwei
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+
+	option = {
+		name = gertest.1.a
+		set_country_flag = GER_Blockpartei1_AV
+		set_country_flag = GER_Blockpartei2_GV
+		set_country_flag = GER_Blockpartei3_DP
+	}
+}

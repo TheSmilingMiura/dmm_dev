@@ -1,0 +1,507 @@
+RRC_nanjing_garrison_meter = {
+		RRC_reform_economy1 = {
+				icon = generic_nationalism
+				available = {
+					country_exists = RRC
+				}
+				visible = {
+						has_country_flag = loyal_soldier_nanjing_chosen
+				}
+				cost = 60
+				complete_effect = {
+						country_event = china_reform.1
+						add_political_power = -50
+				}
+		}
+}
+RRC_debug_meter = {
+		RRC_debug = {
+				allowed = { always = yes }
+				icon = generic_nationalism
+				available = {
+					country_exists = RRC
+				}
+				visible = {
+					always = yes
+				}
+				cost = 60
+				complete_effect = {
+						country_event = china_reform.1
+						add_political_power = -50
+				}
+		}
+}
+RRC_politics_info = {
+		RRC_politics = {
+				allowed = { always = yes }
+				icon = generic_nationalism
+				available = {
+					country_exists = RRC
+				}
+				visible = {
+					always = yes
+				}
+				cost = 60
+				complete_effect = {
+						country_event = china_reform.1
+						add_political_power = -50
+				}
+		}
+}
+
+RRC_wang_wenying_decentralization = {
+	RRC_wenying_local_elections = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+		}
+		visible = {
+			country_exists = RRC
+		}
+		cost = 70
+		days_remove = 5
+		fire_only_once = yes
+		complete_effect = {
+			add_ideas = rrc_wenying_local_elections
+			add_to_variable = { rrc_wang_wenying_decentralization = 1 }
+		}
+	}
+	RRC_wenying_restore_protected_languages = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+		}
+		visible = {
+			country_exists = RRC
+		}
+		cost = 50
+		days_remove = 5
+		fire_only_once = yes
+		complete_effect = {
+			add_stability = 0.02
+			add_to_variable = { rrc_wang_wenying_decentralization = 1 }
+		}
+	}
+	RRC_wenying_fund_rural_schools = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+		}
+		visible = {
+			country_exists = RRC
+		}
+		cost = 80
+		days_remove = 5
+		fire_only_once = yes
+		complete_effect = {
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.05
+			}
+			add_ideas = rrc_wenying_rural_schools
+			add_to_variable = { rrc_wang_wenying_decentralization = 1 }
+		}
+	}
+	RRC_wenying_support_farmers = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+		}
+		visible = {
+			country_exists = RRC
+		}
+		cost = 100
+		days_remove = 5
+		fire_only_once = yes
+		complete_effect = {
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = reactionary
+				popularity = -0.02
+			}
+			add_stability = 0.03
+			add_to_variable = { rrc_wang_wenying_decentralization = 1 }
+		}
+	}
+}
+
+RRC_wang_wenying_crackdown = {
+	RRC_raid_unruly_areas = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_equipment = {
+				infantry_equipment_1 > 99
+			}
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+		}
+		cost = 30
+		days_remove = 21
+		days_re_enable = 21
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -1 }
+			change_instability_china = yes
+			add_manpower = -1400
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+ 		   		amount = -100
+ 			   	producer = RRC
+			}
+		}
+	}
+	RRC_reinforce_propaganda = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_completed_focus = CHI_reinforce_panasianist_propaganda
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_completed_focus = CHI_reinforce_panasianist_propaganda
+		}
+		cost = 50
+		days_re_enable = 21
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -2 }
+			change_instability_china = yes
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.05
+			}
+		}
+	}
+	RRC_anti_communist_effort = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_lüliang_c
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_lüliang_c
+		}
+		cost = 60
+		fire_only_once = yes
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -2 }
+			change_instability_china = yes
+			add_popularity = {
+				ideology = communist
+				popularity = -0.01
+			}
+			615 = {
+				add_building_construction = {
+			    	type = industrial_complex
+   					level = 1
+    				instant_build = yes
+				}
+			}
+			622 = {
+				add_building_construction = {
+			    	type = industrial_complex
+   					level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+   					level = 1
+    				instant_build = yes
+				}
+			}
+		}
+	}
+	RRC_trace_the_presses = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_illegal_press
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_illegal_press
+		}
+		cost = 60
+		fire_only_once = yes
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -1 }
+			change_instability_china = yes
+			add_popularity = {
+				ideology = liberal
+				popularity = -0.01
+			}
+			842 = {
+				damage_building = {
+				    type = infrastructure
+			   		damage = 1
+				}
+				damage_building = {
+				    type = industrial_complex
+				    damage = 1
+				}
+			}
+		}
+	}
+	RRC_taoxikeng_reimburse_families = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_taoxikeng
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_taoxikeng
+		}
+		cost = 70
+		fire_only_once = yes
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -1 }
+			change_instability_china = yes
+			random_owned_controlled_state = {
+			if = {
+				limit = {
+  					industrial_complex > 1
+				}
+				remove_building = {
+   					type = industrial_complex
+    				level = 1
+				}
+			}
+			}
+			add_stability = 0.02
+		}
+	}
+	RRC_militarize_police_stations = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_xian_red_day
+			has_manpower > 20000
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_xian_red_day
+			has_manpower > 20000
+		}
+		cost = 150
+		fire_only_once = yes
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -2 }
+			change_instability_china = yes
+			add_manpower = -20000
+			add_stability = 0.02
+			army_experience = 15
+		}
+	}
+	RRC_institute_stricter_controls = {
+		allowed = { always = yes }
+		#icon =
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_chen_gongbo
+			has_manpower > 13000
+		}
+		visible = {
+			country_exists = RRC
+			check_variable = { rrc_instability > 0 }
+			has_country_flag = rrc_wenying_chen_gongbo
+			has_manpower > 13000
+		}
+		cost = 120
+		fire_only_once = yes
+		complete_effect = {
+			set_variable = { rrc_instability_increase = -2 }
+			change_instability_china = yes
+			add_manpower = -13000
+			add_stability = 0.02
+		}
+	}
+}
+RRC_appease_garrison = {
+	RRC_divert_production = {
+		allowed = { always = yes }
+		icon = generic_nationalism
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_koichi_anger > 0 }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 15
+		days_re_enable = 30
+		complete_effect = {
+			add_timed_idea = {
+				idea = rrc_production_diverted_garrison
+				days = 21
+			}
+			subtract_from_variable = { rrc_koichi_anger = 1 }
+			change_power_struggle_dynamic_china = yes
+		}
+	}
+	RRC_expand_kempeitai_powers = {
+		allowed = { always = yes }
+		icon = generic_nationalism
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_koichi_anger > 0 }
+			NOT = {
+				has_idea = rrc_kempeitai_expanded2
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 20
+		days_remove = 30
+		days_re_enable = 30
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = { has_idea = rrc_kempeitai_expanded }
+				}
+				add_ideas = rrc_kempeitai_expanded
+				subtract_from_variable = { rrc_koichi_anger = 1 }
+			}
+			else_if = {
+				limit = {
+					has_idea = rrc_kempeitai_expanded
+				}
+				add_ideas = rrc_kempeitai_expanded2
+				remove_ideas = rrc_kempeitai_expanded
+				subtract_from_variable = { rrc_koichi_anger = 2 }
+			}
+			change_power_struggle_dynamic_china = yes
+		}
+	}
+	RRC_recruit_auxiliary_divisions = {
+		allowed = { always = yes }
+		icon = generic_nationalism
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_koichi_anger > 0 }
+			has_manpower > 1300
+			has_equipment = {
+				infantry_equipment_1 > 1300
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 30
+		days_remove = 21
+		days_re_enable = 21
+		complete_effect = {
+			add_manpower = -1300
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+ 		   		amount = -1300
+ 			   	producer = RRC
+			}
+			subtract_from_variable = { rrc_koichi_anger = 1 }
+			change_power_struggle_dynamic_china = yes
+		}
+	}
+	RRC_expand_ija_control = {
+		allowed = { always = yes }
+		icon = generic_nationalism
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_koichi_anger > 0 }
+			NOT = {
+				has_idea = rrc_expanded_military_authority
+			}
+		}
+		visible = {
+			always = yes
+		}
+		cost = 45
+		fire_only_once = yes
+		complete_effect = {
+			add_ideas = rrc_expanded_military_authority
+			subtract_from_variable = { rrc_koichi_anger = 2 }
+			change_power_struggle_dynamic_china = yes
+		}
+	}
+	RRC_increase_japanese_privileges = {
+		allowed = { always = yes }
+		icon = generic_nationalism
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_koichi_anger > 0 }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 60
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { rrc_nihonmachi = 1 }
+			subtract_from_variable = { rrc_koichi_anger = 1 }
+			change_power_struggle_dynamic_china = yes
+			change_nihonmachi_china = yes
+		}
+	}
+	RRC_surrender_control_over_arms_production = {
+		allowed = { always = yes }
+		icon = generic_nationalism
+		available = {
+			country_exists = RRC
+			check_variable = { rrc_koichi_anger > 0 }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 35
+		fire_only_once = yes
+		complete_effect = {
+			subtract_from_variable = { rrc_koichi_anger = 2 }
+			change_power_struggle_dynamic_china = yes
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 1
+				}
+				remove_building = {
+   					type = arms_factory
+    				level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 1
+				}
+				remove_building = {
+   					type = arms_factory
+    				level = 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,189 @@
+division_template = {
+	name = "Geming Minbing" #Infantry div
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Renmin de Minbing" #beefier inf
+	division_names_group = CHI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Jingchashi" #police inf
+	division_names_group = CHI_CAV_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+###OOB###
+
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 1519
+			division_template = "Renmin de Minbing"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 8049
+			division_template = "Renmin de Minbing"
+			start_experience_factor = 1.4
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 5007
+			division_template = "Renmin de Minbing"
+			start_experience_factor = 1
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 10880
+			division_template = "Renmin de Minbing"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 4469
+			division_template = "Renmin de Minbing"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 1180
+			division_template = "Renmin de Minbing"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1 
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7571
+			division_template = "Jingchashi"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 1034
+			division_template = "Jingchashi"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 1036
+			division_template = "Jingchashi"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 4606
+			division_template = "Geming Minbing"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10480
+			division_template = "Geming Minbing"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 1027
+			division_template = "Geming Minbing"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 10733
+			division_template = "Geming Minbing"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 1575
+			division_template = "Geming Minbing"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 10367
+			division_template = "Geming Minbing"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1
+		}
+}

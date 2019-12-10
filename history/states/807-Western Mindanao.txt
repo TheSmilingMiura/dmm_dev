@@ -1,0 +1,18 @@
+
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = PHI
+		add_core_of = PHI
+
+	}
+
+	provinces={
+		1421 4266 4399 4427 7360 7389 7417 10243 10300 12116 
+	}
+	manpower=560000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

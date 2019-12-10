@@ -1,0 +1,43 @@
+﻿capital = 927
+
+oob = "LUS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+	ruling_party = reactionary 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 34
+    corporatist = 0
+    reactionary = 50
+    conservative = 10
+    liberal = 2
+    social_democrat = 2
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Placeholder"
+	desc = "She's underage"
+	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
+	expire = "2040.1.1"
+	ideology = reactionary 
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=1029
+	name="STATE_1029"
+	provinces={
+		1995 7916 7984 10896 12788 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+	}
+	buildings_max_level_factor=1.000
+}

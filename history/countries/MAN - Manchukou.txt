@@ -1,0 +1,98 @@
+﻿capital = 328
+
+oob = "MAN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	
+}
+
+set_convoys = 5
+
+set_politics = {	
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 33
+    authoritarian = 47
+    reactionary = 15
+    conservative = 5
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Emperor Zhongshi"
+	
+	picture = "gfx/leaders/MAN/Portrait_MAN_Zhao_Junzhe.dds"
+	expire = "1960.1.1"
+	ideology = hakko_ichiu
+	traits = {
+		warrior_code
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Zhongshi"
+	
+	picture = "gfx/leaders/MAN/Portrait_MAN_Zhao_Junzhe.dds"
+	expire = "1960.1.1"
+	ideology = despotism
+	traits = {
+		warrior_code
+	}
+}
+
+create_corps_commander = {
+	name = "Zhang Haipeng"
+	GFX = "GFX_portrait_man_zhang_haipeng"
+	traits = {  }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Zhang Jinghui"
+	GFX = "GFX_portrait_man_zhang_jinghui"
+	traits = { infantry_officer }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aisin Gioro Xiqia"
+	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yoshiko Kawashima"
+	gfx = "GFX_portrait_man_yoshiko_kawashima"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	female = yes
+}

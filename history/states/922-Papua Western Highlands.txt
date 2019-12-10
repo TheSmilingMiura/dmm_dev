@@ -1,0 +1,15 @@
+state={
+	id=922
+	name="STATE_922"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+	}
+	state_category = pastoral
+	provinces={
+		13368 13373 13376 10990 13382 13375 8235 7570 13380 13387 10436
+	}
+	manpower=1110
+	buildings_max_level_factor=1.000
+}

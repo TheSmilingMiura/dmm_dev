@@ -1,4 +1,16 @@
 ﻿l_english:
+GER_speerist_focus:0 "Salzer's Tree "
+
+#Election Tree
+GER_preparations:0 "Preparations"
+GER_preparations_desc:0 ""
+GER_the_debate:0 "The Debate"
+GER_the_debate_desc:0 ""
+GER_the_election:0 "The Election"
+GER_the_election_desc:0 ""
+GER_consolidating:0 "Consolidating Rule"
+GER_consolidating_desc:0 ""
+#Artamen Tree
 GER_germanscience:0 "Deutsche Wissenschaft"
 GER_germanscience_desc:0 "Unfortunately our great Reich has started to fall behind technologically. This is surely because of Jewish Sciences infiltrating our academic community and displacing our own, aryan 'German Physics' and 'German Mathematics'. We must counteract this with full force and rearianize the sciences!"
 GER_no_loss:0 "Declare Losing a Jewish Concept"
@@ -62,3 +74,14 @@ GER_rollbahn_neu_berlin_niedernaugard:0 "Rollbahn Neu-Berlin-Niedernaugard"
 GER_rollbahn_niedernaugard_tatarburg:0 "Rollbahn Niedernaugard-Tatarburg"
 GER_rollbahn_tatarburg_osterwalde:0 "Rollbahn Tatarburg-Osterwalde"
 GER_verkehrsnetz_ost:0 "Verkehrsnetz Ost Kaukasus Expansion"
+#Speerist Tree
+
+#War Tree
+GER_ALARMSTUFE_2:0 "ALARMSTUFE 2"
+GER_ALARMSTUFE_2_desc:0 ""
+GER_ALARMSTUFE_1:0 "ALARMSTUFE 1"
+GER_ALARMSTUFE_1_desc:0 ""
+GER_war_economy:0 "Fuel the Deutsche Militärwirtschaft"
+GER_war_economy_desc:0 ""
+GER_gotterdammerung_protocols:0 "Gotterdammerung Protocols"
+GER_gotterdammerung_protocols_desc:0 ""

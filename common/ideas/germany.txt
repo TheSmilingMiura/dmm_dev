@@ -90,7 +90,7 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
-		
+
 		heydrichs_ghost = {
 			removal_cost = -1
 			allowed = {
@@ -108,7 +108,30 @@ ideas = {
 			
 		}
 
-		widespread_drug_addiction = {
+#		widespread_drug_addiction = {
+#			removal_cost = -1
+#			allowed = {
+#				original_tag = GER 
+#			}
+#
+#			allowed_civil_war = {
+#				always = yes
+#			}
+#			picture = widespread_drug_addiction
+#			modifier = {
+#				political_power_gain = -0.15
+#				stability_weekly = -0.01
+#				no_supply_grace = -12
+#				attrition = 0.05
+#			    army_morale_factor = -0.1
+#			    research_speed_factor = -0.05
+#			    MONTHLY_POPULATION = 0.25
+#
+#			}
+#
+#		}
+
+		megakonzern_influence = {
 			removal_cost = -1
 			allowed = {
 				original_tag = GER 
@@ -117,15 +140,11 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = widespread_drug_addiction
+			picture = megakonzern_influence
 			modifier = {
-				political_power_gain = -0.15
-				stability_weekly = -0.01
-				no_supply_grace = -12
-				attrition = 0.05
-			    army_morale_factor = -0.1
-			    research_speed_factor = -0.05
-			    MONTHLY_POPULATION = 0.25
+				political_power_gain = +0.10
+				stability_weekly = +0.01
+				consumer_goods_factor = 0.15
 
 			}
 

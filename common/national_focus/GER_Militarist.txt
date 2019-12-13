@@ -1,0 +1,13 @@
+focus_tree = {
+	id = GER_militarist_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3000 }
+	}
+}

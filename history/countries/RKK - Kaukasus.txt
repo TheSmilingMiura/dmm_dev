@@ -34,46 +34,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = AZR
-		autonomous_state = autonomy_reichsprotectorate
-                freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = ARM
-		autonomous_state = autonomy_
-                freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = CHE
-		autonomous_state = autonomy_reichsprotectorate
-                freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = GEO
-		autonomous_state = autonomy_reichsprotectorate
-                freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = DAG
-		autonomous_state = autonomy_reichsprotectorate
-                freedom_level = 0.5
-	}
-	else = {
-		puppet = GEO
-		puppet = DAG
-		puppet = AZR
-		puppet = ARM
-		puppet = CHE
-	}
-}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

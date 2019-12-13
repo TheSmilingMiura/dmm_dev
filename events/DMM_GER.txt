@@ -185,9 +185,10 @@ country_event = {
 				prince_of_terror popular_figurehead nationalist_symbol war_hero rearmer
 			}
 		}
+		load_focus_tree = { tree = GER_militarist_focus keep_completed = yes }
 		name = gerinternal.8.b
 		create_country_leader = {
-			name = "Maximilian Salzer"
+			name = "Maximillian Salzer"
 			desc = "POLITICS_MAXIMILIAN_SALZER_DESC"
 			picture = GFX_portrait_ger_august_von_mackensen
 			expire = "2040.1.1"
@@ -196,6 +197,7 @@ country_event = {
 				quartermaster_general economist financial_expert socialite_connections
 			}
 		}
+		load_focus_tree = { tree = GER_speerist_focus keep_completed = yes }
 	}
 }
 country_event = {

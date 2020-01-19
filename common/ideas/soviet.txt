@@ -91,6 +91,84 @@ ideas = {
 				
 			}
 		}
+		SOV_russian_engineering_idea = {
+			picture = widespread_corruption
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			on_add = { log = "[GetDateText]: [Root.GetName]: Add Idea SOV_russian_engineering_idea" }
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					defense = -0.10
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					defense = -0.10
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+			}
+		}
 	}
 }
 

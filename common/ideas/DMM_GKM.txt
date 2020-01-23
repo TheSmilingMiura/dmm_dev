@@ -1,0 +1,252 @@
+ideas = {
+
+	country = {
+	
+		sonderwirtschaftszone = {
+
+			picture = specialeconomiczone
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			
+			modifier = {
+				consumer_goods_factor = -0.20
+				production_factory_max_efficiency_factor = 0.10
+				line_change_production_efficiency_factor = 0.20
+				production_speed_buildings_factor = 0.05
+				production_speed_industrial_complex_factor = 0.20
+				production_speed_arms_factory_factor = 0.20
+			}
+
+		}
+
+		lobbying_and_bribery = {
+
+			picture = heydrichs_ghost
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			
+			modifier = {
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.02
+				production_speed_industrial_complex_factor = 0.10
+			}
+
+		}
+
+		discontented_native_population = {
+
+			picture = discontented_native_population
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			
+			equipment_bonus = {
+			}
+
+		}
+
+		GKM_aerospace_industry_dominant_idea = {
+
+			picture = chi_wargaming_division
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				jet_fighter_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				jet_tac_bomber_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+				transport_plane_equipment = {
+					build_cost_ic = -0.35
+					instant = yes
+				}
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				consumer_goods_factor = 0.05
+			}
+
+		}
+
+		GKM_defense_industry_dominant_idea = {
+
+			picture = chi_wargaming_division
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				motorized = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				jet_fighter_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				jet_tac_bomber_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+				transport_plane_equipment = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = 0.10
+			}
+
+		}
+
+		GKM_heavy_industry_dominant_idea = {
+
+			picture = chi_wargaming_division
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.30
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = 0.10
+			}
+
+		}
+
+		GKM_consumer_industry_dominant_idea = {
+
+			picture = chi_wargaming_division
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.10
+				research_speed_factor = 0.10
+				production_speed_industrial_complex_factor = 0.10
+				min_export = 0.25
+			}
+
+		}
+
+	}
+
+}

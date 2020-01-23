@@ -9,6 +9,11 @@ set_technology = {
 	early_fighter = 1
 }
 
+set_variable = { aerospace_industry_influence = 25 }
+set_variable = { defense_industry_influence = 25 }
+set_variable = { heavy_industry_influence = 25 }
+set_variable = { consumer_industry_influence = 25 }
+
 1939.1.1 = {
 
 	add_political_power = 1198

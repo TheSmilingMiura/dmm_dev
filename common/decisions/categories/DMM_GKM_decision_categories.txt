@@ -1,0 +1,10 @@
+GKM_german_industrial_interests_decision_category = {
+
+	icon = GFX_decision_ger_reichskommissariats
+	
+	visible_when_empty = yes
+	priority = 100
+	
+	allowed = { original_tag = GKM }
+	
+}

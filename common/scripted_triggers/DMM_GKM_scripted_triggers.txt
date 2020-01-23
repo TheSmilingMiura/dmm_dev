@@ -1,0 +1,31 @@
+aerospace_industry_dominant = {
+	AND = {
+		check_variable = { aerospace_industry_influence > defense_industry_influence }
+		check_variable = { aerospace_industry_influence > heavy_industry_influence }
+		check_variable = { aerospace_industry_influence > consumer_industry_influence }
+	}
+}
+
+defense_industry_dominant = {
+	AND = {
+		check_variable = { defense_industry_influence > aerospace_industry_influence }
+		check_variable = { defense_industry_influence > heavy_industry_influence }
+		check_variable = { defense_industry_influence > consumer_industry_influence }
+	}
+}
+
+heavy_industry_dominant = {
+	AND = {
+		check_variable = { heavy_industry_influence > aerospace_industry_influence }
+		check_variable = { heavy_industry_influence > defense_industry_influence }
+		check_variable = { heavy_industry_influence > consumer_industry_influence }
+	}
+}
+
+consumer_industry_dominant = {
+	AND = {
+		check_variable = { consumer_industry_influence > aerospace_industry_influence }
+		check_variable = { consumer_industry_influence > defense_industry_influence }
+		check_variable = { consumer_industry_influence > heavy_industry_influence }
+	}
+}

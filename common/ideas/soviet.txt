@@ -125,13 +125,13 @@ ideas = {
 					air_defence = -0.10
 					instant = yes
 				}
-				CAS_equipment = {
+				jet_fighter_equipment = {
 					build_cost_ic = -0.10
 					reliability = 0.10
 					air_defence = -0.10
 					instant = yes
 				}
-				nav_bomber_equipment = {
+				CAS_equipment = {
 					build_cost_ic = -0.10
 					reliability = 0.10
 					air_defence = -0.10
@@ -143,7 +143,19 @@ ideas = {
 					air_defence = -0.10
 					instant = yes
 				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
 				cv_nav_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
 					build_cost_ic = -0.10
 					reliability = 0.10
 					air_defence = -0.10
@@ -161,7 +173,25 @@ ideas = {
 					air_defence = -0.10
 					instant = yes
 				}
+				jet_tac_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
 				strat_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					build_cost_ic = -0.10
+					reliability = 0.10
+					air_defence = -0.10
+					instant = yes
+				}
+				transport_plane_equipment = {
 					build_cost_ic = -0.10
 					reliability = 0.10
 					air_defence = -0.10

@@ -259,7 +259,7 @@ GKM_check_influence = {
 	else = {
 		if = {
 			limit = {
-				has_idea = GKM_aerospace_industry_dominant_idea }
+				has_idea = GKM_aerospace_industry_dominant_idea
 			}
 			add_ideas = GKM_aerospace_industry_dominant_idea
 		}

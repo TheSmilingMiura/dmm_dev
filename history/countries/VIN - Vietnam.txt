@@ -1,4 +1,4 @@
-﻿capital = 671 #Hanoi
+﻿capital = 286 #Switched from Hanoi to Saigon
 
 oob = "VIN_1936"
 
@@ -59,6 +59,15 @@ set_popularities = {
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
+
+create_country_leader = {
+	name = "Bùi Diễm" 
+	desc = "POLITICS_BUI_DIEM_DESC"
+	picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = despotism
+	traits = {}
+}
 
 create_country_leader = {
 	name = "Phan Bôi Châu" 

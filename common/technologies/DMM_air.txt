@@ -1,0 +1,2022 @@
+technologies = {
+
+	@1960 = 0
+	@1970 = 2
+	@1980 = 4
+	@1990 = 6
+	@2000 = 8
+	@2010 = 10
+	@2020 = 12
+	@2030 = 14
+	@2040 = 16
+
+	CAS_plane_1960_tech = { # 1960 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_0
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_1960_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_1960_tech = { # 1960 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_0
+		}
+	
+		research_cost = 1
+		start_year = 1960
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_1970_tech = { # 1970 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_1
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_1970_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_1970_tech = { # 1970 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_1
+		}
+	
+		research_cost = 1
+		start_year = 1970
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_1980_tech = { # 1980 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_2
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_1980_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_1980_tech = { # 1980 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_2
+		}
+	
+		research_cost = 1
+		start_year = 1980
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_1990_tech = { # 1990 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_3
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_1990_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_1990_tech = { # 1990 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_3
+		}
+	
+		research_cost = 1
+		start_year = 1990
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_2000_tech = { # 2000 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_4
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_2000_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_2000_tech = { # 2000 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_4
+		}
+	
+		research_cost = 1
+		start_year = 2000
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_2010_tech = { # 2010 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_5
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_2010_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_2010_tech = { # 2010 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_5
+		}
+	
+		research_cost = 1
+		start_year = 2010
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_2020_tech = { # 2020 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_6
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_2020_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_2020_tech = { # 2020 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_6
+		}
+	
+		research_cost = 1
+		start_year = 2020
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_2030_tech = { # 2030 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_7
+		}
+
+		path = {
+			leads_to_tech = CAS_plane_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_2030_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_2030_tech = { # 2030 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_7
+		}
+	
+		research_cost = 1
+		start_year = 2030
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	CAS_plane_2040_tech = { # 2040 CAS
+
+		enable_equipments = {
+			CAS_plane_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_CAS_plane_2040_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_CAS_plane_2040_tech = { # 2040 CAS (Carrier)
+
+		enable_equipments = {
+			cv_CAS_plane_equipment_8
+		}
+	
+		research_cost = 1
+		start_year = 2040
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_1960_tech = { # 1960 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_0
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_1960_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_1960_tech = { # 1960 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_equipment_0
+		}
+	
+		research_cost = 1
+		start_year = 1960
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_1970_tech = { # 1970 Fighter
+
+		enable_equipments = {
+			fighter_equipment_1
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_1970_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_1970_tech = { # 1970 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_1
+		}
+	
+		research_cost = 1
+		start_year = 1970
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_1980_tech = { # 1980 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_2
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_1980_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_1980_tech = { # 1980 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_2
+		}
+	
+		research_cost = 1
+		start_year = 1980
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_1990_tech = { # 1990 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_3
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_1990_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_1990_tech = { # 1990 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_3
+		}
+	
+		research_cost = 1
+		start_year = 1990
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_2000_tech = { # 2000 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_4
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_2000_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_2000_tech = { # 2000 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_4
+		}
+	
+		research_cost = 1
+		start_year = 2000
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_2010_tech = { # 2010 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_5
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_2010_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_2010_tech = { # 2010 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_5
+		}
+	
+		research_cost = 1
+		start_year = 2010
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_2020_tech = { # 2020 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_6
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_2020_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_2020_tech = { # 2020 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_6
+		}
+	
+		research_cost = 1
+		start_year = 2020
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_2030_tech = { # 2030 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_7
+		}
+
+		path = {
+			leads_to_tech = fighter_plane_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_2030_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_2030_tech = { # 2030 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_7
+		}
+	
+		research_cost = 1
+		start_year = 2030
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	fighter_plane_2040_tech = { # 2040 Fighter
+
+		enable_equipments = {
+			fighter_plane_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fighter_plane_2040_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_fighter_plane_2040_tech = { # 2040 Fighter (Carrier)
+
+		enable_equipments = {
+			cv_fighter_plane_equipment_8
+		}
+	
+		research_cost = 1
+		start_year = 2040
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_1960_tech = { # 1960 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_0
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_1960_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_1960_tech = { # 1960 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_0
+		}
+	
+		research_cost = 1
+		start_year = 1960
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_1970_tech = { # 1970 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_1
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_1970_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_1970_tech = { # 1970 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_1
+		}
+	
+		research_cost = 1
+		start_year = 1970
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_1980_tech = { # 1980 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_2
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_1980_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_1980_tech = { # 1980 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_2
+		}
+	
+		research_cost = 1
+		start_year = 1980
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_1990_tech = { # 1990 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_3
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_1990_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_1990_tech = { # 1990 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_3
+		}
+	
+		research_cost = 1
+		start_year = 1990
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_2000_tech = { # 2000 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_4
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_2000_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_2000_tech = { # 2000 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_4
+		}
+	
+		research_cost = 1
+		start_year = 2000
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_2010_tech = { # 2010 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_5
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_2010_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_2010_tech = { # 2010 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_5
+		}
+	
+		research_cost = 1
+		start_year = 2010
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_2020_tech = { # 2020 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_6
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_2020_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_2020_tech = { # 2020 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_6
+		}
+	
+		research_cost = 1
+		start_year = 2020
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_2030_tech = { # 2030 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_7
+		}
+
+		path = {
+			leads_to_tech = MPA_plane_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_2030_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_2030_tech = { # 2030 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_7
+		}
+	
+		research_cost = 1
+		start_year = 2030
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MPA_plane_2040_tech = { # 2040 MPA
+
+		enable_equipments = {
+			MPA_plane_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_MPA_plane_2040_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	cv_MPA_plane_2040_tech = { # 2040 MPA (Carrier)
+
+		enable_equipments = {
+			cv_MPA_plane_equipment_8
+		}
+	
+		research_cost = 1
+		start_year = 2040
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_1960_tech = { # 1960 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_0
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_1970_tech = { # 1970 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_1
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_1980_tech = { # 1980 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_2
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_1990_tech = { # 1990 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_3
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_2000_tech = { # 2000 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_4
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_2010_tech = { # 2010 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_5
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_2020_tech = { # 2020 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_6
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_2030_tech = { # 2030 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_7
+		}
+
+		path = {
+			leads_to_tech = heavy_bomber_plane_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	heavy_bomber_plane_2040_tech = { # 2040 Heavy Bomber
+
+		enable_equipments = {
+			heavy_bomber_plane_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_1960_tech = { # 1960 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_0
+		}
+
+		path = {
+			leads_to_tech = transport_plane_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_1970_tech = { # 1970 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_1
+		}
+
+		path = {
+			leads_to_tech = transport_plane_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_1980_tech = { # 1980 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_2
+		}
+
+		path = {
+			leads_to_tech = transport_plane_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_1990_tech = { # 1990 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_3
+		}
+
+		path = {
+			leads_to_tech = transport_plane_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_2000_tech = { # 2000 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_4
+		}
+
+		path = {
+			leads_to_tech = transport_plane_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_2010_tech = { # 2010 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_5
+		}
+
+		path = {
+			leads_to_tech = transport_plane_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_2020_tech = { # 2020 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_6
+		}
+
+		path = {
+			leads_to_tech = transport_plane_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_2030_tech = { # 2030 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_7
+		}
+
+		path = {
+			leads_to_tech = transport_plane_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	transport_plane_2040_tech = { # 2040 Transport
+
+		enable_equipments = {
+			trans_plane_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+}

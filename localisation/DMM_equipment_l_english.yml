@@ -1,20 +1,28 @@
 ﻿l_english:
 
 # Air
+CAS_plane:0 "Close Air Support"
 CAS_plane_equipment:0 "Close Air Support"
 CAS_plane_equipment_desc:0 "gib loc pls"
+cv_CAS_plane:0 "Carrier Close Air Support"
 cv_CAS_plane_equipment:0 "Carrier Close Air Support"
 cv_CAS_plane_equipment_desc:0 "gib loc pls"
+fighter_plane:0 "Fighter"
 fighter_plane_equipment:0 "Fighter"
 fighter_plane_equipment_desc:0 "gib loc pls"
 cv_fighter_plane_equipment:0 "Carrier Fighter"
+cv_fighter_plane:0 "Carrier Fighter"
 cv_fighter_plane_equipment_desc:0 "gib loc pls"
+MPA_plane:0 "Maritime Patrol Aircraft"
 MPA_plane_equipment:0 "Maritime Patrol Aircraft"
 MPA_plane_equipment_desc:0 "gib loc pls"
+cv_MPA_plane:0 "Carrier Maritime Patrol Aircraft"
 cv_MPA_plane_equipment:0 "Carrier Maritime Patrol Aircraft"
 cv_MPA_plane_equipment_desc:0 "gib loc pls"
+heavy_bomber_plane:0 "Heavy Bomber"
 heavy_bomber_plane_equipment:0 "Heavy Bomber"
 heavy_bomber_plane_equipment_desc:0 "gib loc pls"
+trans_plane:0 "Transport"
 trans_plane_equipment:0 "Transport"
 trans_plane_equipment_desc:0 "gib loc pls"
 

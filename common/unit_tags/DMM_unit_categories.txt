@@ -1,0 +1,7 @@
+sub_unit_categories = {
+	category_CAS_plane
+	category_fighter_plane
+	category_MPA_plane
+	category_heavy_bomber
+	category_trans_plane
+}

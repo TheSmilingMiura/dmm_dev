@@ -2110,9 +2110,9 @@
  AFK_internationalism:0 "People's Republic of Afrika"
  AFK_internationalism_DEF:0 "People's Republic of Afrika"
  AFK_internationalism_ADJ:0 "Afrikan"
- AFK_national_bolshevik:0 "People's National Republic of Afrika "
- AFK_national_bolshevik_DEF:0 "People's National Republic of Afrika "
- AFK_national_bolshevik_ADJ:0 "Afrikan
+ AFK_national_bolshevik:0 "People's National Republic of Afrika"
+ AFK_national_bolshevik_DEF:0 "People's National Republic of Afrika"
+ AFK_national_bolshevik_ADJ:0 "Afrikan"
  ALG_fascist:0 "Algeria"
  ALG_fascist_DEF:0 "Algeria"
  ALG_fascist_ADJ:0 "Algerian"
@@ -2145,9 +2145,9 @@
  ALG_communist_ADJ:0 "Algerian"
  ALG_internationalism:0 "People's Republic of Algeria"
  ALG_internationalism_DEF:0 "People's Republic of Algeria"
- ALG_internationalism_ADJ:0 "Algerian
- ALG_national_bolshevik:0 "People's National Republic of Algeria "
- ALG_national_bolshevik_DEF:0 "People's National Republic of Algeria "
+ ALG_internationalism_ADJ:0 "Algerian"
+ ALG_national_bolshevik:0 "People's National Republic of Algeria"
+ ALG_national_bolshevik_DEF:0 "People's National Republic of Algeria"
  ALG_national_bolshevik_ADJ:0 "Algerian"
 
  ############################################################################################################################

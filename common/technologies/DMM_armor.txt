@@ -1,0 +1,633 @@
+technologies = {
+
+	@1960 = 0
+	@1970 = 2
+	@1980 = 4
+	@1990 = 6
+	@2000 = 8
+	@2010 = 10
+	@2020 = 12
+	@2030 = 14
+	@2040 = 16
+
+	AFV_tank_1960_tech = { # 1960 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_0
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_1970_tech = { # 1970 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_1980_tech = { # 1980 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_1990_tech = { # 1990 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_2000_tech = { # 2000 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_2010_tech = { # 2010 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_2020_tech = { # 2020 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_6
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_2030_tech = { # 2030 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_7
+		}
+
+		path = {
+			leads_to_tech = AFV_tank_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	AFV_tank_2040_tech = { # 2040 AFV
+
+		enable_equipments = {
+			AFV_tank_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_1960_tech = { # 1960 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_0
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_1970_tech = { # 1970 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		sub_technologies = {
+			engineer_MBT_tank_1970_tech
+			recovery_MBT_tank_1970_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	engineer_MBT_tank_1970_tech = { # 1970 CEV
+
+		enable_equipments = {
+			engineer_MBT_tank_equipment_0
+		}
+
+		engineer = {
+			need = {
+               	engineer_MBT_tank_equipment = 5
+         	}
+			breakthrough = 0.01
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	recovery_MBT_tank_1970_tech = { # 1970 ARV
+
+		enable_equipments = {
+			recovery_MBT_tank_equipment_0
+		}
+
+		maintenance_company = {
+			need = {
+               	recovery_MBT_tank_equipment = 5
+         	}
+			reliability_factor = 0.05
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_1980_tech = { # 1980 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		sub_technologies = {
+			bridging_MBT_tank_1980_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	bridging_MBT_tank_1980_tech = { # 1980 AVLB
+
+		enable_equipments = {
+			bridging_MBT_tank_equipment_0
+		}
+
+		engineer = {
+			need = {
+               	bridging_MBT_tank_equipment = 5
+         	}
+			breakthrough = 0.01
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_1990_tech = { # 1990 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_2000_tech = { # 2000 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_2010_tech = { # 2010 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_2020_tech = { # 2020 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_6
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_2030_tech = { # 2030 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_7
+		}
+
+		path = {
+			leads_to_tech = MBT_tank_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	MBT_tank_2040_tech = { # 2040 MBT
+
+		enable_equipments = {
+			MBT_tank_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+}

@@ -21,6 +21,10 @@ GKM_support_consumer_industries_decision:0 "Support Consumer Industries"
 # Events
 
 # Ideas
+GKM_aerospace_industry_dominant_idea:0 "Aerospace Industries Dominant"
+GKM_defense_industry_dominant_idea:0 "Defense Industries Dominant"
+GKM_heavy_industry_dominant_idea:0 "Heavy Industries Dominant"
+GKM_consumer_industry_dominant_idea:0 "Consumer Industries Dominant"
 
 # National Focuses
 

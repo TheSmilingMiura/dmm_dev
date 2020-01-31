@@ -1,6 +1,6 @@
 spriteTypes = {
 
-	# German Armor
+	# GER Armor
 	spriteType = {
 		name = "GFX_GER_MBT_tank_1960_tech_medium"
 		texturefile = "gfx/interface/technologies/GER/MBT_1960.dds"
@@ -10,7 +10,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER/MBT_2020.dds"
 	}
 
-	# Italian Armor
+	# ITA Armor
 	spriteType = {
 		name = "GFX_ITA_MBT_tank_1960_tech_medium"
 		texturefile = "gfx/interface/technologies/ITA/MBT_1960.dds"
@@ -20,7 +20,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ITA/MBT_1970.dds"
 	}
 
-	# Japanese Armor
+	# JAP Armor
 	spriteType = {
 		name = "GFX_JAP_MBT_tank_1970_tech_medium"
 		texturefile = "gfx/interface/technologies/JAP/MBT_1970.dds"
@@ -30,7 +30,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/JAP/MBT_1980.dds"
 	}
 
-	# German Air
+	# AFK Air
+	spriteType = {
+		name = "GFX_AFK_CAS_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/AFK/CAS_1960.dds"
+	}
+
+	# GER Air
+	spriteType = {
+		name = "GFX_GER_CAS_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/GER/CAS_1960.dds"
+	}
 	spriteType = {
 		name = "GFX_GER_CAS_plane_1980_tech_medium"
 		texturefile = "gfx/interface/technologies/GER/CAS_1980.dds"
@@ -40,16 +50,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER/MPA_2010.dds"
 	}
 
-	# Hungarian Air
+	# GKM Air
+	spriteType = {
+		name = "GFX_GKM_CAS_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/GKM/CAS_1960.dds"
+	}
+
+	# HUN Air
 	spriteType = {
 		name = "GFX_HUN_fighter_plane_2000_tech_medium"
 		texturefile = "gfx/interface/technologies/HUN/fighter_2000.dds"
 	}
 
-	# Japanese Air
+	# JAP Air
 	spriteType = {
 		name = "GFX_JAP_fighter_plane_2030_tech_medium"
 		texturefile = "gfx/interface/technologies/JAP/fighter_2030.dds"
+	}
+
+	# USA Air
+	spriteType = {
+		name = "GFX_USA_CAS_plane_2030_tech_medium"
+		texturefile = "gfx/interface/technologies/USA/CAS_2030.dds"
 	}
 
 }

@@ -54,13 +54,13 @@ sub_units = {
 		categories = { category_MPA_plane }
 	}
 
-	heavy_bomber = {
+	heavy_bomber_plane = {
 		sprite = heavy_plane
 		priority = 5
 		active = yes
 		type = { strategic_bomber }
 		need = { heavy_bomber_plane_equipment = 1 }
-		categories = { category_heavy_bomber }
+		categories = { category_heavy_bomber_plane }
 	}
 
 	trans_plane = {

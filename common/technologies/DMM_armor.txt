@@ -630,4 +630,489 @@ technologies = {
 
 	}
 
+	gas_turbine_1_tech = { # Gas Turbine I
+
+		category_all_armor = {
+			fuel_consumption_factor = -0.10
+			reliability = -0.07
+			weight = -0.05
+		}
+
+		xor = { turbodiesel_1_tech }
+
+		path = {
+			leads_to_tech = gas_turbine_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	gas_turbine_2_tech = { # Gas Turbine II
+
+		category_all_armor = {
+			fuel_consumption_factor = -0.10
+			weight = -0.05
+		}
+
+		path = {
+			leads_to_tech = gas_turbine_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	gas_turbine_3_tech = { # Gas Turbine III
+
+		category_all_armor = {
+			fuel_consumption_factor = -0.10
+			reliability = 0.01
+			weight = -0.05
+		}
+
+		path = {
+			leads_to_tech = gas_turbine_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	gas_turbine_4_tech = { # Gas Turbine IV
+
+		category_all_armor = {
+			fuel_consumption_factor = -0.10
+			reliability = 0.02
+			weight = -0.05
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	turbodiesel_1_tech = { # Turbodiesel I
+
+		category_all_armor = {
+			reliability = 0.03
+			maximum_speed = 0.05
+			fuel_consumption_factor = 0.10
+		}
+
+		xor = { gas_turbine_1_tech }
+
+		path = {
+			leads_to_tech = turbodiesel_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	turbodiesel_2_tech = { # Turbodiesel II
+
+		category_all_armor = {
+			reliability = 0.03
+			maximum_speed = 0.05
+			fuel_consumption_factor = 0.10
+		}
+
+		path = {
+			leads_to_tech = turbodiesel_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	turbodiesel_3_tech = { # Turbodiesel III
+
+		category_all_armor = {
+			reliability = 0.03
+			maximum_speed = 0.05
+			fuel_consumption_factor = 0.05
+		}
+
+		path = {
+			leads_to_tech = turbodiesel_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	turbodiesel_4_tech = { # Turbodiesel IV
+
+		category_all_armor = {
+			reliability = 0.03
+			maximum_speed = 0.05
+			fuel_consumption_factor = -0.05
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	speed_firepower_1_tech = { # Speed/Firepower I
+
+		category_all_armor = {
+			maximum_speed = 0.03
+			build_cost_ic = -0.05
+			hard_attack = 0.05
+			ap_attack = 0.04
+		}
+
+		xor = { composite_armor_1_tech }
+
+		path = {
+			leads_to_tech = speed_firepower_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	speed_firepower_2_tech = { # Speed/Firepower II
+
+		category_all_armor = {
+			maximum_speed = 0.03
+			build_cost_ic = -0.05
+			hard_attack = 0.05
+			ap_attack = 0.04
+		}
+
+		path = {
+			leads_to_tech = speed_firepower_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	speed_firepower_3_tech = { # Speed/Firepower III
+
+		category_all_armor = {
+			maximum_speed = 0.03
+			build_cost_ic = -0.05
+			hard_attack = 0.05
+			ap_attack = 0.04
+		}
+
+		path = {
+			leads_to_tech = speed_firepower_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	speed_firepower_4_tech = { # Speed/Firepower IV
+
+		category_all_armor = {
+			maximum_speed = 0.03
+			build_cost_ic = -0.05
+			hard_attack = 0.05
+			ap_attack = 0.06
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_armor_1_tech = { # Composite Armor I
+
+		category_all_armor = {
+			maximum_speed = -0.03
+			armor_value = 0.05
+		}
+
+		xor = { speed_firepower_1_tech }
+
+		path = {
+			leads_to_tech = composite_armor_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_armor_2_tech = { # Composite Armor II
+
+		category_all_armor = {
+			maximum_speed = -0.03
+			armor_value = 0.05
+		}
+
+		path = {
+			leads_to_tech = composite_armor_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_armor_3_tech = { # Composite Armor III
+
+		category_all_armor = {
+			maximum_speed = -0.03
+			armor_value = 0.05
+			reliability = -0.03
+		}
+
+		path = {
+			leads_to_tech = composite_armor_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_armor_4_tech = { # Composite Armor IV
+
+		category_all_armor = {
+			maximum_speed = -0.03
+			armor_value = 0.10
+			reliability = -0.03
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_armor_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
 }

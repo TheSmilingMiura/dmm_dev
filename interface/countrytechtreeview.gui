@@ -2407,7 +2407,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x = 0 y = 0 }
 				size = {
-					width = 1500 height = 1400
+					width = 2350 height = 1400
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -2680,10 +2680,10 @@ guiTypes = {
 			containerWindowType = {
 
 				name = "armor_subtitles"
-				position = { x = 10 y = 172 }
+				position = { x = 490 y = 172 }
 				size = { width = 600 height = 80% }				
-				orientation = center_up
-				origo = center_up
+				orientation = upper_left
+				origo = upper_left
 			
 				instantTextBoxType = {
 					name = "armor_subtitle_AFV"
@@ -2700,12 +2700,77 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armor_subtitle_MBT"
-					position = { x = 465 y = -120  }
+					position = { x = 465 y = -120 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "Main Battle Tank"
 					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armor_subtitle_MBT"
+					position = { x = 465 y = -120 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Main Battle Tank"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "armor_subtitle_gas_turbine"
+					position = { x = 860 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Gas Turbine"
+					maxWidth = 100
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "armor_subtitle_turbodiesel"
+					position = { x = 1015 y = 18 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Turbodiesel"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "armor_subtitle_speed_firepower"
+					position = { x = 1215 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Speed/ Firepower"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "armor_subtitle_composite_armor"
+					position = { x = 1385 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Composite Armor"
+					maxWidth = 150
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
@@ -2724,6 +2789,38 @@ guiTypes = {
 			gridboxtype = {
 				name = "MBT_tank_1960_tech_tree"
 				position = { x = 1000 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "gas_turbine_1_tech_tree"
+				position = { x = 1350 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "turbodiesel_1_tech_tree"
+				position = { x = 1525 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "speed_firepower_1_tech_tree"
+				position = { x = 1725 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "composite_armor_1_tech_tree"
+				position = { x = 1900 y = 150 }
 				size = { width = 110 height = 1100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -2749,7 +2846,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x = 0 y = 0 }
 				size = {
-					width = 1450 height = 1400
+					width = 2650 height = 1400
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -3020,10 +3117,10 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "air_subtitles"
-				position = { x = 10 y = 172 }
+				position = { x = 490 y = 172 }
 				size = { width = 600 height = 80% }				
-				orientation = center_up
-				origo = center_up
+				orientation = upper_left
+				origo = upper_left
 			
 				instantTextBoxType = {
 					name = "air_subtitle_CAS"
@@ -3050,6 +3147,7 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+
 				instantTextBoxType = {
 					name = "air_subtitle_MPA"
 					position = { x = 190 y = -120 }
@@ -3062,6 +3160,7 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}	
+
 				instantTextBoxType = {
 					name = "air_subtitle_heavy_bomber"
 					position = { x = 440 y = -100 }
@@ -3074,6 +3173,7 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+
 				instantTextBoxType = {
 					name = "air_subtitle_transport"
 					position = { x = 685 y = -100 }
@@ -3086,6 +3186,85 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+
+				instantTextBoxType = {
+					name = "air_subtitle_air_refueling"
+					position = { x = 970 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Air Refueling"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "air_subtitle_electronics"
+					position = { x = 1145 y = 18 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Electronics"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "air_subtitle_missiles"
+					position = { x = 1320 y = 18 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Missiles"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "air_subtitle_radar"
+					position = { x = 1495 y = 18 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Radar"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "air_subtitle_composite"
+					position = { x = 1670 y = 18 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Composite"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "air_subtitle_flight_control"
+					position = { x = 1845 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Flight Control"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
 			}	
 
 			gridboxtype = {
@@ -3123,6 +3302,54 @@ guiTypes = {
 			gridboxtype = {
 				name = "transport_plane_1960_tech_tree"
 				position = { x = 1230 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "aerial_refueling_1_tech_tree"
+				position = { x = 1480 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "electronics_1_tech_tree"
+				position = { x = 1655 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "missile_1_tech_tree"
+				position = { x = 1830 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "radar_1_tech_tree"
+				position = { x = 2005 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "composite_1_tech_tree"
+				position = { x = 2180 y = 150 }
+				size = { width = 110 height = 1100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "flight_control_1_tech_tree"
+				position = { x = 2355 y = 150 }
 				size = { width = 110 height = 1100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -5505,6 +5732,43 @@ guiTypes = {
 	}
 
 	containerWindowType = {
+		name = "techtree_DMM_armor_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -21 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+	}
+
+	containerWindowType = {
 		name = "techtree_DMM_air_folder_item"
 		position = { x=-60 y=0 }
 		size = { width = 183 height = 84 }
@@ -5573,6 +5837,43 @@ guiTypes = {
 			}
 		}		
 		
+	}
+
+	containerWindowType = {
+		name = "techtree_DMM_air_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -21 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
 	}
 
 	containerWindowType = {

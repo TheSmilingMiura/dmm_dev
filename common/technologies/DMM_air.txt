@@ -2019,4 +2019,1131 @@ technologies = {
 
 	}
 
+	aerial_refueling_1_tech = { # Aerial Refueling I
+
+		category_CAS_plane = {
+			air_range = 0.20
+		}
+		category_fighter_plane = {
+			air_range = 0.20
+		}
+		category_MPA_plane = {
+			air_range = 0.20
+		}
+		category_heavy_bomber_plane = {
+			air_range = 0.20
+		}
+		category_trans_plane = {
+			air_range = 0.20
+		}
+
+		path = {
+			leads_to_tech = aerial_refueling_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	aerial_refueling_2_tech = { # Aerial Refueling II
+
+		category_CAS_plane = {
+			air_range = 0.30
+		}
+		category_fighter_plane = {
+			air_range = 0.30
+		}
+		category_MPA_plane = {
+			air_range = 0.30
+		}
+		category_heavy_bomber_plane = {
+			air_range = 0.30
+		}
+		category_trans_plane = {
+			air_range = 0.30
+		}
+
+		path = {
+			leads_to_tech = aerial_refueling_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	aerial_refueling_3_tech = { # Aerial Refueling III
+
+		category_CAS_plane = {
+			air_range = 0.30
+		}
+		category_fighter_plane = {
+			air_range = 0.30
+		}
+		category_MPA_plane = {
+			air_range = 0.30
+		}
+		category_heavy_bomber_plane = {
+			air_range = 0.30
+		}
+		category_trans_plane = {
+			air_range = 0.30
+		}
+
+		path = {
+			leads_to_tech = aerial_refueling_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	aerial_refueling_4_tech = { # Aerial Refueling IV
+
+		category_CAS_plane = {
+			air_range = 0.50
+		}
+		category_fighter_plane = {
+			air_range = 0.50
+		}
+		category_MPA_plane = {
+			air_range = 0.50
+		}
+		category_heavy_bomber_plane = {
+			air_range = 0.50
+		}
+		category_trans_plane = {
+			air_range = 0.50
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	electronics_1_tech = { # Electronics I
+
+		category_CAS_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_fighter_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_MPA_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_trans_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+
+		path = {
+			leads_to_tech = electronics_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	electronics_2_tech = { # Electronics II
+
+		category_CAS_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_fighter_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_MPA_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_trans_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+
+		path = {
+			leads_to_tech = electronics_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	electronics_3_tech = { # Electronics III
+
+		category_CAS_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_fighter_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_MPA_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_trans_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+
+		path = {
+			leads_to_tech = electronics_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	electronics_4_tech = { # Electronics IV
+
+		category_CAS_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_fighter_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_MPA_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_trans_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+
+		path = {
+			leads_to_tech = electronics_5_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	electronics_5_tech = { # Electronics V
+
+		category_CAS_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_fighter_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_MPA_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+		category_trans_plane = {
+			air_superiority = 0.05
+			air_defence = 0.05
+		}
+
+		research_cost = 2
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	missile_1_tech = { # Missile I
+
+		category_CAS_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_fighter_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_MPA_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_heavy_bomber_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_trans_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+
+		path = {
+			leads_to_tech = missile_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	missile_2_tech = { # Missile II
+
+		path = {
+			leads_to_tech = missile_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	missile_3_tech = { # Missile III
+
+		category_CAS_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_fighter_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_MPA_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_heavy_bomber_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_trans_plane = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+
+		path = {
+			leads_to_tech = missile_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	missile_4_tech = { # Missile IV
+
+		path = {
+			leads_to_tech = missile_5_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	missile_5_tech = { # TLS/EML/MPBM
+
+		category_CAS_plane = {
+			air_attack = 0.15
+			air_ground_attack = 0.10
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_fighter_plane = {
+			air_attack = 0.15
+			air_ground_attack = 0.10
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_MPA_plane = {
+			air_attack = 0.15
+			air_ground_attack = 0.10
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_heavy_bomber_plane = {
+			air_attack = 0.15
+			air_ground_attack = 0.10
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+		category_trans_plane = {
+			air_attack = 0.15
+			air_ground_attack = 0.10
+			naval_strike_attack = 0.05
+			naval_strike_targetting = 0.03
+		}
+
+		research_cost = 2
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	radar_1_tech = { # Radar I
+
+		path = {
+			leads_to_tech = radar_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	radar_2_tech = { # Radar II
+
+		path = {
+			leads_to_tech = radar_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	radar_3_tech = { # Radar III
+
+		path = {
+			leads_to_tech = radar_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	radar_4_tech = { # Radar IV
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_1_tech = { # Composite Experiments
+
+		category_CAS_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = composite_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_2_tech = { # Composite Application
+
+		category_CAS_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = composite_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_3_tech = { # Advanced Composites
+
+		category_CAS_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = composite_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_4_tech = { # Graphene
+
+		category_CAS_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			maximum_speed = 0.05
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = composite_5_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	composite_5_tech = { # Living Fuselage
+
+		category_CAS_plane = {
+			maximum_speed = 0.10
+			air_agility = 0.25
+			reliability = 0.05
+		}
+		category_fighter_plane = {
+			maximum_speed = 0.10
+			air_agility = 0.25
+			reliability = 0.05
+		}
+		category_MPA_plane = {
+			maximum_speed = 0.10
+			air_agility = 0.25
+			reliability = 0.05
+		}
+		category_heavy_bomber_plane = {
+			maximum_speed = 0.10
+			air_agility = 0.25
+			reliability = 0.05
+		}
+		category_trans_plane = {
+			maximum_speed = 0.10
+			air_agility = 0.25
+			reliability = 0.05
+		}
+
+		research_cost = 2
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	flight_control_1_tech = { # High Quality G-Suits
+
+		category_CAS_plane = {
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = flight_control_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	flight_control_2_tech = { # Fly-by-Wire
+
+		category_CAS_plane = {
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = flight_control_3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	flight_control_3_tech = { # Advanced Fly-by-Wire
+
+		category_CAS_plane = {
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = flight_control_4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	flight_control_4_tech = { # Flexible Wings
+
+		category_CAS_plane = {
+			air_agility = 0.05
+		}
+		category_fighter_plane = {
+			air_agility = 0.05
+		}
+		category_MPA_plane = {
+			air_agility = 0.05
+		}
+		category_heavy_bomber_plane = {
+			air_agility = 0.05
+		}
+		category_trans_plane = {
+			air_agility = 0.05
+		}
+
+		path = {
+			leads_to_tech = flight_control_5_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2030
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	flight_control_5_tech = { # C.O.F.F.I.N.
+
+		category_CAS_plane = {
+			air_agility = 0.25
+			reliability = 0.10
+		}
+		category_fighter_plane = {
+			air_agility = 0.25
+			reliability = 0.10
+		}
+		category_MPA_plane = {
+			air_agility = 0.25
+			reliability = 0.10
+		}
+		category_heavy_bomber_plane = {
+			air_agility = 0.25
+			reliability = 0.10
+		}
+		category_trans_plane = {
+			air_agility = 0.25
+			reliability = 0.10
+		}
+
+		research_cost = 2
+		start_year = 2040
+
+		folder = {
+			name = DMM_air_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		categories = {
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
 }

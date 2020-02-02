@@ -9,7 +9,7 @@ focus_tree = {
             tag = SOV
         }
     }
-	shared_focus = SOV_industrial_1
+	shared_focus = SOV_consolidating_the_confederation
 
 	continuous_focus_position = { x = 16 y = 3000 }
 }
@@ -18,277 +18,1050 @@ focus_tree = {
 
 shared_focus = {
 
-	id = SOV_industrial_1
-	icon = GFX_focus_unknown
+	id = SOV_consolidating_the_confederation
+	icon = GFX_goal_generic_national_unity
 	x = 10
 	y = 0
 
-	cost = 10
-	
+	cost = 5
+
 	ai_will_do = { 
 		factor = 1 
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_1"
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_consolidating_the_confederation"
 	}
-	
+
 }
 
 shared_focus = {
 
-	id = SOV_industrial_novosibirsk_1
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_1 }
-	x = -1
+	id = SOV_tyumen_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = -8
 	y = 1
-	relative_position_id = SOV_industrial_1
+	relative_position_id = SOV_consolidating_the_confederation
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = { 
 		factor = 1 
 	}
 
-	complete_tooltip = {
-		570 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-
 	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_novosibirsk_1"
-		570 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 2
-				instant_build = yes
-			}
-		}
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_tyumen_clique"
 	}
 
 }
 
 shared_focus = {
 
-	id = SOV_industrial_novosibirsk_2
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_novosibirsk_1 }
+	id = SOV_omsk_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = -6
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_omsk_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_tomsk_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = -4
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_tomsk_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_novosibirsk_accords_1
+	icon = GFX_goal_generic_intelligence_exchange
+	prerequisite = { focus = SOV_tyumen_clique }
+	prerequisite = { focus = SOV_omsk_clique }
+	prerequisite = { focus = SOV_tomsk_clique }
+	x = -7
+	y = 2
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_novosibirsk_accords_1"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_operation_guarantees
+	icon = GFX_goal_generic_attack_allies
+	prerequisite = { focus = SOV_tyumen_clique }
+	prerequisite = { focus = SOV_omsk_clique }
+	prerequisite = { focus = SOV_tomsk_clique }
+	x = -5
+	y = 2
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_operation_guarantees"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_unified_center_command
+	icon = GFX_goal_generic_defence
+	prerequisite = { focus = SOV_novosibirsk_accords_1 }
+	prerequisite = { focus = SOV_operation_guarantees }
+	x = -6
+	y = 3
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_unified_center_command"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_salekhard_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = -2
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_salekhard_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_norilsk_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = 0
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_norilsk_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_olonyok_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = 2
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_olonyok_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_novosibirsk_accords_2
+	icon = GFX_goal_generic_intelligence_exchange
+	prerequisite = { focus = SOV_salekhard_clique }
+	prerequisite = { focus = SOV_norilsk_clique }
+	prerequisite = { focus = SOV_olonyok_clique }
 	x = -1
 	y = 2
-	relative_position_id = SOV_industrial_1
+	relative_position_id = SOV_consolidating_the_confederation
 
-	cost = 10
-
-	ai_will_do = { 
-		factor = 1 
-	}
-
-	complete_tooltip = {
-		570 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-
-	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_novosibirsk_2"
-		570 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-	
-}
-
-shared_focus = {
-
-	id = SOV_industrial_novosibirsk_3
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_novosibirsk_2 }
-	x = -1
-	y = 3
-	relative_position_id = SOV_industrial_1
-
-	cost = 10
+	cost = 5
 
 	ai_will_do = { 
 		factor = 1 
 	}
 
-	complete_tooltip = {
-		570 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-
 	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_novosibirsk_3"
-		570 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes
-			}
-		}
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_novosibirsk_accords_2"
 	}
 
 }
 
 shared_focus = {
 
-	id = SOV_industrial_omsk_1
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_1 }
-	x = 1
-	y = 1
-	relative_position_id = SOV_industrial_1
-
-	cost = 10
-
-	ai_will_do = { 
-		factor = 1 
-	}
-
-	complete_tooltip = {
-		571 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-
-	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_omsk_1"
-		571 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-
-}
-
-shared_focus = {
-
-	id = SOV_industrial_omsk_2
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_omsk_1 }
+	id = SOV_operation_rough_diamond
+	icon = GFX_goal_generic_attack_allies
+	prerequisite = { focus = SOV_salekhard_clique }
+	prerequisite = { focus = SOV_norilsk_clique }
+	prerequisite = { focus = SOV_olonyok_clique }
 	x = 1
 	y = 2
-	relative_position_id = SOV_industrial_1
+	relative_position_id = SOV_consolidating_the_confederation
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = { 
 		factor = 1 
 	}
 
-	complete_tooltip = {
-		571 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-			}
-		}
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_operation_rough_diamond"
 	}
 
-	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_omsk_2"
-		571 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-	
 }
 
 shared_focus = {
 
-	id = SOV_industrial_omsk_3
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_omsk_2 }
-	x = 1
+	id = SOV_unified_northern_command
+	icon = GFX_goal_generic_defence
+	prerequisite = { focus = SOV_novosibirsk_accords_2 }
+	prerequisite = { focus = SOV_operation_rough_diamond }
+	x = 0
 	y = 3
-	relative_position_id = SOV_industrial_1
+	relative_position_id = SOV_consolidating_the_confederation
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = { 
 		factor = 1 
 	}
 
-	complete_tooltip = {
-		571 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes
-			}
-		}
-	}
-
 	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_omsk_3"
-		571 = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes
-			}
-		}
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_unified_northern_command"
 	}
 
 }
 
 shared_focus = {
 
-	id = SOV_industrial_2
-	icon = GFX_focus_unknown
-	prerequisite = { focus = SOV_industrial_novosibirsk_3 }
-	prerequisite = { focus = SOV_industrial_omsk_3 }
+	id = SOV_krasnoyarsk_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = 4
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_krasnoyarsk_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_yakutsk_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = 6
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_yakutsk_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_magadan_clique
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = SOV_consolidating_the_confederation }
+	x = 8
+	y = 1
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_magadan_clique"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_novosibirsk_accords_3
+	icon = GFX_goal_generic_intelligence_exchange
+	prerequisite = { focus = SOV_krasnoyarsk_clique }
+	prerequisite = { focus = SOV_yakutsk_clique }
+	prerequisite = { focus = SOV_magadan_clique }
+	x = 5
+	y = 2
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_novosibirsk_accords_3"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_operation_red_gold
+	icon = GFX_goal_generic_attack_allies
+	prerequisite = { focus = SOV_krasnoyarsk_clique }
+	prerequisite = { focus = SOV_yakutsk_clique }
+	prerequisite = { focus = SOV_magadan_clique }
+	x = 7
+	y = 2
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_operation_red_gold"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_unified_eastern_command
+	icon = GFX_goal_generic_defence
+	prerequisite = { focus = SOV_novosibirsk_accords_3 }
+	prerequisite = { focus = SOV_operation_red_gold }
+	x = 6
+	y = 3
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_unified_eastern_command"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_the_russian_federation
+	icon = GFX_goal_generic_major_alliance
+	prerequisite = { focus = SOV_unified_center_command }
+	prerequisite = { focus = SOV_unified_northern_command }
+	prerequisite = { focus = SOV_unified_eastern_command }
 	x = 0
 	y = 4
-	relative_position_id = SOV_industrial_1
+	relative_position_id = SOV_consolidating_the_confederation
 
-	cost = 10
+	cost = 5
 
 	ai_will_do = { 
 		factor = 1 
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_industrial_omsk_3"
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_the_russian_federation"
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_tyumen_omsk_highway
+	icon = GFX_goal_generic_construct_infrastructure
+	prerequisite = { focus = SOV_the_russian_federation }
+	x = -4
+	y = 5
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		403 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_tyumen_omsk_highway"
+		403 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_expand_the_tyumen_oil_industry
+	icon = GFX_goal_generic_construct_civ_factory
+	prerequisite = { focus = SOV_tyumen_omsk_highway }
+	x = -4
+	y = 6
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		403 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_expand_the_tyumen_oil_industry"
+		403 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+}
+
+shared_focus = {
+
+	id = SOV_develop_the_tyumen_tractor_factory
+	icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = SOV_expand_the_tyumen_oil_industry }
+	x = -4
+	y = 7
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		403 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_develop_the_tyumen_tractor_factory"
+		403 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_omsk_novosibirsk_highway
+	icon = GFX_goal_generic_construct_infrastructure
+	prerequisite = { focus = SOV_the_russian_federation }
+	x = -2
+	y = 5
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		571 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_omsk_novosibirsk_highway"
+		571 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_expand_the_omsk_industrial_hub
+	icon = GFX_goal_generic_construct_civ_factory
+	prerequisite = { focus = SOV_omsk_novosibirsk_highway }
+	x = -2
+	y = 6
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		571 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_expand_the_omsk_industrial_hub"
+		571 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+}
+
+shared_focus = {
+
+	id = SOV_expand_the_omsktransmash_factory
+	icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = SOV_expand_the_omsk_industrial_hub }
+	x = -2
+	y = 7
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		571 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_expand_the_omsktransmash_factory"
+		571 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_novosibirsk_krasnoyarsk_highway
+	icon = GFX_goal_generic_construct_infrastructure
+	prerequisite = { focus = SOV_the_russian_federation }
+	x = 0
+	y = 5
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		570 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_novosibirsk_krasnoyarsk_highway"
+		570 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_invest_in_novosibirsk
+	icon = GFX_goal_generic_construction
+	prerequisite = { focus = SOV_novosibirsk_krasnoyarsk_highway }
+	x = 0
+	y = 6
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		570 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_invest_in_novosibirsk"
+		570 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+}
+
+shared_focus = {
+
+	id = SOV_expand_the_napo
+	icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = SOV_invest_in_novosibirsk }
+	x = 0
+	y = 7
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		570 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_expand_the_napo"
+		570 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_krasnoyarsk_irkutsk_highway
+	icon = GFX_goal_generic_construct_infrastructure
+	prerequisite = { focus = SOV_the_russian_federation }
+	x = 2
+	y = 5
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		568 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_krasnoyarsk_irkutsk_highway"
+		568 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_develop_krasnoyarsks_resources
+	icon = GFX_goal_generic_construction2
+	prerequisite = { focus = SOV_krasnoyarsk_irkutsk_highway }
+	x = 2
+	y = 6
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		568 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_develop_krasnoyarsks_resources"
+		568 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+}
+
+shared_focus = {
+
+	id = SOV_form_the_kapo
+	icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = SOV_develop_krasnoyarsks_resources }
+	x = 2
+	y = 7
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		568 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_form_the_kapo"
+		568 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_irkutsk_yakutsk_highway
+	icon = GFX_goal_generic_construct_infrastructure
+	prerequisite = { focus = SOV_the_russian_federation }
+	x = 4
+	y = 5
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		574 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_irkutsk_yakutsk_highway"
+		574 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_develop_yakutias_resources
+	icon = GFX_goal_generic_construction2
+	prerequisite = { focus = SOV_irkutsk_yakutsk_highway }
+	x = 4
+	y = 6
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		574 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_develop_yakutias_resources"
+		574 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+}
+
+shared_focus = {
+
+	id = SOV_build_the_irkutsk_machine_building_plant
+	icon = GFX_goal_generic_construct_mil_factory
+	prerequisite = { focus = SOV_develop_yakutias_resources }
+	x = 4
+	y = 7
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	complete_tooltip = {
+		566 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_build_the_irkutsk_machine_building_plant"
+		566 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+}
+
+shared_focus = {
+
+	id = SOV_russian_engineering
+	icon = GFX_focus_prc_agrarian_socialism
+	prerequisite = { focus = SOV_develop_the_tyumen_tractor_factory }
+	prerequisite = { focus = SOV_expand_the_omsktransmash_factory }
+	prerequisite = { focus = SOV_expand_the_napo }
+	prerequisite = { focus = SOV_form_the_kapo }
+	prerequisite = { focus = SOV_build_the_irkutsk_machine_building_plant }
+	x = 0
+	y = 8
+	relative_position_id = SOV_consolidating_the_confederation
+
+	cost = 5
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus SOV_russian_engineering"
 		add_ideas = SOV_russian_engineering_idea
 		add_political_power = 250
 	}

@@ -80,8 +80,22 @@ spriteTypes = {
 
 	# SOV Armor
 	spriteType = {
-		name = "GFX_JAP_MBT_tank_2000_tech_medium"
+		name = "GFX_SOV_MBT_tank_2000_tech_medium"
 		texturefile = "gfx/interface/technologies/SOV/MBT_2000.dds"
+	}
+
+	# USA Armor
+	spriteType = {
+		name = "GFX_USA_MBT_tank_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/USA/MBT_1960.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_MBT_tank_1980_tech_medium"
+		texturefile = "gfx/interface/technologies/USA/MBT_1980.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_MBT_tank_1990_tech_medium"
+		texturefile = "gfx/interface/technologies/USA/MBT_1990.dds"
 	}
 
 	# Generic Air

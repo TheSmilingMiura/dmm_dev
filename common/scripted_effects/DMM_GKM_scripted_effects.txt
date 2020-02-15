@@ -68,25 +68,25 @@ GKM_calculate_influence = {
 
 				if = {
 					limit = {
-						check_variable = { v = 1 }
+						check_variable = { v = [VARIABLE_ADDED_1] }
 					}
 					add_to_variable = { [INDUSTRY_1] = 1 }
 				}
 				else_if = {
 					limit = {
-						check_variable = { v = 2 }
+						check_variable = { v = [VARIABLE_ADDED_2] }
 					}
 					add_to_variable = { [INDUSTRY_2] = 1 }
 				}
 				else_if = {
 					limit = {
-						check_variable = { v = 3 }
+						check_variable = { v = [VARIABLE_ADDED_3] }
 					}
 					add_to_variable = { [INDUSTRY_3] = 1 }
 				}
 				else_if = {
 					limit = {
-						check_variable = { v = 4 }
+						check_variable = { v = [VARIABLE_ADDED_4] }
 					}
 					add_to_variable = { [INDUSTRY_4] = 1 }
 				}

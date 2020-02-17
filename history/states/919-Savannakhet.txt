@@ -3,8 +3,8 @@ state={
 	name="STATE_919"
 
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = VIN
+		add_core_of = VIN
 	}
 	
 	provinces={

@@ -1,0 +1,3801 @@
+technologies = {
+
+	@1960 = 0
+	@1970 = 5
+	@1980 = 10
+	@1990 = 15
+	@2000 = 20
+	@2010 = 25
+	@2020 = 30
+	@2030 = 35
+	@2040 = 40
+
+	light_ship_hull_1960_tech = {
+		enable_equipments = {
+			light_ship_hull_0
+		}
+		enable_equipment_modules = { 
+			#light_ship_engine_0
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_1970_tech = {
+		enable_equipments = {
+			light_ship_hull_1
+		}
+		enable_equipment_modules = { 
+			#light_ship_engine_1
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_1980_tech = {
+		enable_equipments = {
+			light_ship_hull_2
+		}
+		enable_equipment_modules = { 
+			#light_ship_engine_2
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_1990_tech = {
+		enable_equipments = {
+			light_ship_hull_3
+		}
+		enable_equipment_modules = { 
+			#light_ship_engine_3
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_2000_tech = {
+		enable_equipments = {
+			light_ship_hull_4
+		}
+		enable_equipment_modules = {
+			#light_ship_engine_4
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_2010_tech = {
+		enable_equipments = {
+			light_ship_hull_5
+		}
+		enable_equipment_modules = {
+			#light_ship_engine_5
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_2020_tech = {
+		enable_equipments = {
+			light_ship_hull_6
+		}
+		enable_equipment_modules = {
+			#light_ship_engine_6
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_2030_tech = {
+		enable_equipments = {
+			light_ship_hull_7
+		}
+		enable_equipment_modules = {
+			#light_ship_engine_7
+		}
+
+		path = {
+			leads_to_tech = light_ship_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ship_hull_2040_tech = {
+		enable_equipments = {
+			light_ship_hull_8
+		}
+		enable_equipment_modules = {
+			#light_ship_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_1960_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_0
+		}
+		enable_equipment_modules = { 
+			#destroyer_ship_engine_0
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_1970_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_1
+		}
+		enable_equipment_modules = { 
+			#destroyer_ship_engine_1
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_1980_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_2
+		}
+		enable_equipment_modules = { 
+			#destroyer_ship_engine_2
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_1990_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_3
+		}
+		enable_equipment_modules = { 
+			#destroyer_ship_engine_3
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_2000_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_4
+		}
+		enable_equipment_modules = {
+			#destroyer_ship_engine_4
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_2010_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_5
+		}
+		enable_equipment_modules = {
+			#destroyer_ship_engine_5
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_2020_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_6
+		}
+		enable_equipment_modules = {
+			#destroyer_ship_engine_6
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_2030_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_7
+		}
+		enable_equipment_modules = {
+			#destroyer_ship_engine_7
+		}
+
+		path = {
+			leads_to_tech = destroyer_ship_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	destroyer_ship_hull_2040_tech = {
+		enable_equipments = {
+			destroyer_ship_hull_8
+		}
+		enable_equipment_modules = {
+			#destroyer_ship_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_1960_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_0
+		}
+		enable_equipment_modules = { 
+			#cruiser_ship_engine_0
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_1970_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_1
+		}
+		enable_equipment_modules = { 
+			#cruiser_ship_engine_1
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_1980_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_2
+		}
+		enable_equipment_modules = { 
+			#cruiser_ship_engine_2
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_1990_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_3
+		}
+		enable_equipment_modules = { 
+			#cruiser_ship_engine_3
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_2000_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_4
+		}
+		enable_equipment_modules = {
+			#cruiser_ship_engine_4
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_2010_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_5
+		}
+		enable_equipment_modules = {
+			#cruiser_ship_engine_5
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_2020_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_6
+		}
+		enable_equipment_modules = {
+			#cruiser_ship_engine_6
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_2030_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_7
+		}
+		enable_equipment_modules = {
+			#cruiser_ship_engine_7
+		}
+
+		path = {
+			leads_to_tech = cruiser_ship_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	cruiser_ship_hull_2040_tech = {
+		enable_equipments = {
+			cruiser_ship_hull_8
+		}
+		enable_equipment_modules = {
+			#cruiser_ship_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_1960_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_0
+		}
+		enable_equipment_modules = { 
+			#light_cv_ship_engine_0
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_1970_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_1
+		}
+		enable_equipment_modules = { 
+			#light_cv_ship_engine_1
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_1980_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_2
+		}
+		enable_equipment_modules = { 
+			#light_cv_ship_engine_2
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_1990_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_3
+		}
+		enable_equipment_modules = { 
+			#light_cv_ship_engine_3
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_2000_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_4
+		}
+		enable_equipment_modules = {
+			#light_cv_ship_engine_4
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_2010_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_5
+		}
+		enable_equipment_modules = {
+			#light_cv_ship_engine_5
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_2020_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_6
+		}
+		enable_equipment_modules = {
+			#light_cv_ship_engine_6
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_2030_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_7
+		}
+		enable_equipment_modules = {
+			#light_cv_ship_engine_7
+		}
+
+		path = {
+			leads_to_tech = light_cv_ship_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_cv_ship_hull_2040_tech = {
+		enable_equipments = {
+			light_cv_ship_hull_8
+		}
+		enable_equipment_modules = {
+			#light_cv_ship_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_1960_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_0
+		}
+		enable_equipment_modules = { 
+			#heavy_cv_ship_engine_0
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_1970_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_1
+		}
+		enable_equipment_modules = { 
+			#heavy_cv_ship_engine_1
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_1980_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_2
+		}
+		enable_equipment_modules = { 
+			#heavy_cv_ship_engine_2
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_1990_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_3
+		}
+		enable_equipment_modules = { 
+			#heavy_cv_ship_engine_3
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_2000_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_4
+		}
+		enable_equipment_modules = {
+			#heavy_cv_ship_engine_4
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_2010_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_5
+		}
+		enable_equipment_modules = {
+			#heavy_cv_ship_engine_5
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_2020_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_6
+		}
+		enable_equipment_modules = {
+			#heavy_cv_ship_engine_6
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_2030_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_7
+		}
+		enable_equipment_modules = {
+			#heavy_cv_ship_engine_7
+		}
+
+		path = {
+			leads_to_tech = heavy_cv_ship_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_cv_ship_hull_2040_tech = {
+		enable_equipments = {
+			heavy_cv_ship_hull_8
+		}
+		enable_equipment_modules = {
+			#heavy_cv_ship_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_1960_tech = {
+		enable_equipments = {
+			light_submarine_hull_0
+		}
+		enable_equipment_modules = { 
+			#light_submarine_engine_0
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_1970_tech = {
+		enable_equipments = {
+			light_submarine_hull_1
+		}
+		enable_equipment_modules = { 
+			#light_submarine_engine_1
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_1980_tech = {
+		enable_equipments = {
+			light_submarine_hull_2
+		}
+		enable_equipment_modules = { 
+			#light_submarine_engine_2
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_1990_tech = {
+		enable_equipments = {
+			light_submarine_hull_3
+		}
+		enable_equipment_modules = { 
+			#light_submarine_engine_3
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_2000_tech = {
+		enable_equipments = {
+			light_submarine_hull_4
+		}
+		enable_equipment_modules = {
+			#light_submarine_engine_4
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_2010_tech = {
+		enable_equipments = {
+			light_submarine_hull_5
+		}
+		enable_equipment_modules = {
+			#light_submarine_engine_5
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_2020_tech = {
+		enable_equipments = {
+			light_submarine_hull_6
+		}
+		enable_equipment_modules = {
+			#light_submarine_engine_6
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_2030_tech = {
+		enable_equipments = {
+			light_submarine_hull_7
+		}
+		enable_equipment_modules = {
+			#light_submarine_engine_7
+		}
+
+		path = {
+			leads_to_tech = light_submarine_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_submarine_hull_2040_tech = {
+		enable_equipments = {
+			light_submarine_hull_8
+		}
+		enable_equipment_modules = {
+			#light_submarine_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_1960_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_0
+		}
+		enable_equipment_modules = { 
+			#heavy_submarine_engine_0
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_1970_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_1970_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_1
+		}
+		enable_equipment_modules = { 
+			#heavy_submarine_engine_1
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_1980_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_1980_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_2
+		}
+		enable_equipment_modules = { 
+			#heavy_submarine_engine_2
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_1990_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_1990_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_3
+		}
+		enable_equipment_modules = { 
+			#heavy_submarine_engine_3
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_2000_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_2000_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_4
+		}
+		enable_equipment_modules = {
+			#heavy_submarine_engine_4
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_2010_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_2010_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_5
+		}
+		enable_equipment_modules = {
+			#heavy_submarine_engine_5
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_2020_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_2020_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_6
+		}
+		enable_equipment_modules = {
+			#heavy_submarine_engine_6
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_2030_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_2030_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_7
+		}
+		enable_equipment_modules = {
+			#heavy_submarine_engine_7
+		}
+
+		path = {
+			leads_to_tech = heavy_submarine_hull_2040_tech 
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_submarine_hull_2040_tech = {
+		enable_equipments = {
+			heavy_submarine_hull_8
+		}
+		enable_equipment_modules = {
+			#heavy_submarine_engine_8
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = { x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_1960_tech = {
+		enable_equipment_modules = { 
+			#light_armament_0
+		}
+
+		path = {
+			leads_to_tech = light_armament_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_1970_tech = {
+		enable_equipment_modules = { 
+			#light_armament_1
+		}
+
+		path = {
+			leads_to_tech = light_armament_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_1980_tech = {
+		enable_equipment_modules = { 
+			#light_armament_2
+		}
+
+		path = {
+			leads_to_tech = light_armament_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_1990_tech = {
+		enable_equipment_modules = { 
+			#light_armament_3
+		}
+
+		path = {
+			leads_to_tech = light_armament_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_2000_tech = {
+		enable_equipment_modules = {
+			#light_armament_4
+		}
+
+		path = {
+			leads_to_tech = light_armament_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_2010_tech = {
+		enable_equipment_modules = {
+			#light_armament_5
+		}
+
+		path = {
+			leads_to_tech = light_armament_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_2020_tech = {
+		enable_equipment_modules = {
+			#light_armament_6
+		}
+
+		path = {
+			leads_to_tech = light_armament_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_2030_tech = {
+		enable_equipment_modules = {
+			#light_armament_7
+		}
+
+		path = {
+			leads_to_tech = light_armament_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_armament_2040_tech = {
+		enable_equipment_modules = {
+			#light_armament_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_1960_tech = {
+		enable_equipment_modules = { 
+			#medium_armament_0
+		}
+
+		path = {
+			leads_to_tech = medium_armament_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_1970_tech = {
+		enable_equipment_modules = { 
+			#medium_armament_1
+		}
+
+		path = {
+			leads_to_tech = medium_armament_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_1980_tech = {
+		enable_equipment_modules = { 
+			#medium_armament_2
+		}
+
+		path = {
+			leads_to_tech = medium_armament_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_1990_tech = {
+		enable_equipment_modules = { 
+			#medium_armament_3
+		}
+
+		path = {
+			leads_to_tech = medium_armament_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_2000_tech = {
+		enable_equipment_modules = {
+			#medium_armament_4
+		}
+
+		path = {
+			leads_to_tech = medium_armament_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_2010_tech = {
+		enable_equipment_modules = {
+			#medium_armament_5
+		}
+
+		path = {
+			leads_to_tech = medium_armament_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_2020_tech = {
+		enable_equipment_modules = {
+			#medium_armament_6
+		}
+
+		path = {
+			leads_to_tech = medium_armament_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_2030_tech = {
+		enable_equipment_modules = {
+			#medium_armament_7
+		}
+
+		path = {
+			leads_to_tech = medium_armament_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medium_armament_2040_tech = {
+		enable_equipment_modules = {
+			#medium_armament_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_armament_1960_tech = {
+		enable_equipment_modules = { 
+			#heavy_armament_0
+		}
+
+		path = {
+			leads_to_tech = railgun_armament_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	railgun_armament_2020_tech = {
+		enable_equipment_modules = {
+			#railgun_armament_0
+		}
+
+		path = {
+			leads_to_tech = railgun_armament_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	railgun_armament_2030_tech = {
+		enable_equipment_modules = {
+			#railgun_armament_1
+		}
+
+		path = {
+			leads_to_tech = railgun_armament_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	railgun_armament_2040_tech = {
+		enable_equipment_modules = {
+			#railgun_armament_2
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_1960_tech = {
+		enable_equipment_modules = { 
+			#SAM_battery_0
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_1970_tech = {
+		enable_equipment_modules = { 
+			#SAM_battery_1
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_1980_tech = {
+		enable_equipment_modules = { 
+			#SAM_battery_2
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_1990_tech = {
+		enable_equipment_modules = { 
+			#SAM_battery_3
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_2000_tech = {
+		enable_equipment_modules = {
+			#SAM_battery_4
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_2010_tech = {
+		enable_equipment_modules = {
+			#SAM_battery_5
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_2020_tech = {
+		enable_equipment_modules = {
+			#SAM_battery_6
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_2030_tech = {
+		enable_equipment_modules = {
+			#SAM_battery_7
+		}
+
+		path = {
+			leads_to_tech = SAM_battery_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SAM_battery_2040_tech = {
+		enable_equipment_modules = {
+			#SAM_battery_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	CIWS_1970_tech = {
+		enable_equipment_modules = { 
+			#CIWS_0
+		}
+
+		path = {
+			leads_to_tech = CIWS_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	CIWS_1980_tech = {
+		enable_equipment_modules = { 
+			#CIWS_1
+		}
+
+		path = {
+			leads_to_tech = CIWS_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	CIWS_1990_tech = {
+		enable_equipment_modules = { 
+			#CIWS_2
+		}
+
+		path = {
+			leads_to_tech = CIWS_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	CIWS_2000_tech = {
+		enable_equipment_modules = {
+			#CIWS_3
+		}
+
+		path = {
+			leads_to_tech = CIWS_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	CIWS_2010_tech = {
+		enable_equipment_modules = {
+			#CIWS_4
+		}
+
+		path = {
+			leads_to_tech = LaWS_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	LaWS_2020_tech = {
+		enable_equipment_modules = {
+			#LaWS_0
+		}
+
+		path = {
+			leads_to_tech = LaWS_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	LaWS_2030_tech = {
+		enable_equipment_modules = {
+			#LaWS_1
+		}
+
+		path = {
+			leads_to_tech = LaWS_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	LaWS_2040_tech = {
+		enable_equipment_modules = {
+			#LaWS_2
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_1960_tech = {
+		enable_equipment_modules = { 
+			#light_ASM_battery_0
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_1970_tech = {
+		enable_equipment_modules = { 
+			#light_ASM_battery_1
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_1980_tech = {
+		enable_equipment_modules = { 
+			#light_ASM_battery_2
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_1990_tech = {
+		enable_equipment_modules = { 
+			#light_ASM_battery_3
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_2000_tech = {
+		enable_equipment_modules = {
+			#light_ASM_battery_4
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_2010_tech = {
+		enable_equipment_modules = {
+			#light_ASM_battery_5
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_2020_tech = {
+		enable_equipment_modules = {
+			#light_ASM_battery_6
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_2030_tech = {
+		enable_equipment_modules = {
+			#light_ASM_battery_7
+		}
+
+		path = {
+			leads_to_tech = light_ASM_battery_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	light_ASM_battery_2040_tech = {
+		enable_equipment_modules = {
+			#light_ASM_battery_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_1960_tech = {
+		enable_equipment_modules = { 
+			#heavy_ASM_battery_0
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_1970_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_1970_tech = {
+		enable_equipment_modules = { 
+			#heavy_ASM_battery_1
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1970
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_1980_tech = {
+		enable_equipment_modules = { 
+			#heavy_ASM_battery_2
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_1990_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_1990_tech = {
+		enable_equipment_modules = { 
+			#heavy_ASM_battery_3
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_2000_tech = {
+		enable_equipment_modules = {
+			#heavy_ASM_battery_4
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_2010_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_2010_tech = {
+		enable_equipment_modules = {
+			#heavy_ASM_battery_5
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2010
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2010 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_2020_tech = {
+		enable_equipment_modules = {
+			#heavy_ASM_battery_6
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_2030_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_2030_tech = {
+		enable_equipment_modules = {
+			#heavy_ASM_battery_7
+		}
+
+		path = {
+			leads_to_tech = heavy_ASM_battery_2040_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2030
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2030 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_ASM_battery_2040_tech = {
+		enable_equipment_modules = {
+			#heavy_ASM_battery_8
+		}
+
+		research_cost = 1
+		start_year = 2040
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2040 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	torpedo_armament_1960_tech = {
+		enable_equipment_modules = {
+			#torpedo_armament_0
+		}
+
+		path = {
+			leads_to_tech = torpedo_armament_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	torpedo_armament_1980_tech = {
+		enable_equipment_modules = {
+			#torpedo_armament_1
+		}
+
+		path = {
+			leads_to_tech = torpedo_armament_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	torpedo_armament_2000_tech = {
+		enable_equipment_modules = {
+			#torpedo_armament_2
+		}
+
+		path = {
+			leads_to_tech = torpedo_armament_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	torpedo_armament_2020_tech = {
+		enable_equipment_modules = {
+			#torpedo_armament_3
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLCM_armament_1960_tech = {
+		enable_equipment_modules = {
+			#SLCM_armament_0
+		}
+
+		path = {
+			leads_to_tech = SLCM_armament_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLCM_armament_1980_tech = {
+		enable_equipment_modules = {
+			#SLCM_armament_1
+		}
+
+		path = {
+			leads_to_tech = SLCM_armament_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLCM_armament_2000_tech = {
+		enable_equipment_modules = {
+			#SLCM_armament_2
+		}
+
+		path = {
+			leads_to_tech = SLCM_armament_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLCM_armament_2020_tech = {
+		enable_equipment_modules = {
+			#SLCM_armament_3
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLBM_armament_1960_tech = {
+		enable_equipment_modules = {
+			#SLBM_armament_0
+		}
+
+		path = {
+			leads_to_tech = SLBM_armament_1980_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1960
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLBM_armament_1980_tech = {
+		enable_equipment_modules = {
+			#SLBM_armament_1
+		}
+
+		path = {
+			leads_to_tech = SLBM_armament_2000_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1980
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLBM_armament_2000_tech = {
+		enable_equipment_modules = {
+			#SLBM_armament_2
+		}
+
+		path = {
+			leads_to_tech = SLBM_armament_2020_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	SLBM_armament_2020_tech = {
+		enable_equipment_modules = {
+			#SLBM_armament_3
+		}
+
+		research_cost = 1
+		start_year = 2020
+
+		folder = {
+			name = DMM_MTG_naval_folder
+			position = {  x = 0 y = @2020 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+}

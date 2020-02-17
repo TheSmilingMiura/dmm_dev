@@ -1,5 +1,6 @@
 technology_folders = {
 	DMM_armor_folder
+	DMM_MTG_naval_folder
 	DMM_air_folder
 }
 

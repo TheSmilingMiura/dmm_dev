@@ -9,8 +9,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = CAM
-		add_core_of = CAM
+		owner = VIN
+		add_core_of = VIN
 	}
 	buildings_max_level_factor=1.000
 }

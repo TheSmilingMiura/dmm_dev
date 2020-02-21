@@ -2,7 +2,7 @@
 
 oob = "USA_1936"
 
-set_research_slots = 4
+set_research_slots = 5
 set_stability = 0.75
 set_war_support = 0
 # Starting tech
@@ -43,32 +43,7 @@ add_ideas = {
 	usa_research_deficit
 }
 
-#Monroe Doctrine
-give_guarantee = CAN
-give_guarantee = MEX
-give_guarantee = CUB
-give_guarantee = HAI
-give_guarantee = DOM
-give_guarantee = GUA
-give_guarantee = HON
-give_guarantee = ELS
-give_guarantee = NIC
-give_guarantee = COS
-give_guarantee = PAN
-give_guarantee = VEN
-give_guarantee = COL
-give_guarantee = ECU
-give_guarantee = PRU
-give_guarantee = BRA
-give_guarantee = BOL
-give_guarantee = CHL
-give_guarantee = PAR
-give_guarantee = ARG
-give_guarantee = URG
-
-
 set_convoys = 400
-
 
 set_politics = {
 	ruling_party = conservative

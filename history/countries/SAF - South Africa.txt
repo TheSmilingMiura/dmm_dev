@@ -2,7 +2,7 @@
 
 oob = "SAF_1936"
 
-set_stability = 0.6
+set_stability = 0.4
 set_war_support = 0.1
 # Starting tech
 set_technology = {
@@ -35,9 +35,9 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
+    fascist = 75
     authoritarian = 15
-    reactionary = 58
+    reactionary = 8
     conservative = 2
     liberal = 0
     social_democrat = 0

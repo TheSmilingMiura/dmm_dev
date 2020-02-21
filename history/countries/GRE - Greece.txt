@@ -32,16 +32,16 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
+    fascist = 50
+    authoritarian = 20
+    reactionary = 28
     conservative = 2
     liberal = 0
     social_democrat = 0
     socialist = 0
     communist = 0
 }
-set_stability = 0.75
+set_stability = 0.5
 
 create_country_leader = {
 	name = "Ioannis Metaxas"

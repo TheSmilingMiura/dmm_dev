@@ -16,7 +16,6 @@ set_technology = {
 	early_battleship = 1
 	transport = 1
 }
-set_country_flag = monroe_doctrine
 
 set_convoys = 20
 
@@ -28,14 +27,14 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
+    fascist = 0
+    authoritarian = 0
+    reactionary = 0
+    conservative = 0
     liberal = 0
-    social_democrat = 0
-    socialist = 0
-    communist = 0
+    social_democrat = 10
+    socialist = 10
+    communist = 80
 }
 
 create_country_leader = {

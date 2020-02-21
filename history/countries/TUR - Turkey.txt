@@ -32,9 +32,9 @@ set_politics = {
 
 set_popularities = {
     fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
+    authoritarian = 75
+    reactionary = 0
+    conservative = 0
     liberal = 0
     social_democrat = 0
     socialist = 0

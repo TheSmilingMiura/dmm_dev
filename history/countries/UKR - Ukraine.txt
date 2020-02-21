@@ -2,7 +2,7 @@
 
 oob = "UKR_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -45,10 +45,10 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
+    fascist = 75
+    authoritarian = 0
+    reactionary = 25
+    conservative = 0
     liberal = 0
     social_democrat = 0
     socialist = 0

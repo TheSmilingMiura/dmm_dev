@@ -2,17 +2,23 @@
 state={
 	id=544
 	name="STATE_544" #Mozambique
-	manpower = 4125000
+        resources={
+		aluminium=82
+                steel=12
+	}
+	manpower = 19720000
 	
 	state_category = rural
 	
 	history={
-		owner = AFK
+		owner = LCM
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 3
+                        arms_factory = 1
+                        air_base = 3
 			8245 = {
-				naval_base = 1
+				naval_base = 3
 			}
 			2123 = {
 				naval_base = 1
@@ -22,6 +28,7 @@ state={
 			8245 1 
 		}
 		add_core_of = MZB
+                add_core_of = LCM
 	}
 
 	provinces={

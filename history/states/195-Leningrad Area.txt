@@ -2,9 +2,9 @@
 state={
 	id=195
 	name="STATE_195"
-	manpower = 3750158
+	manpower = 375015
 	
-	state_category = metropolis
+	state_category = town
 
 	history={
 		owner = GER
@@ -13,9 +13,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 6
+			arms_factory = 3
 			industrial_complex = 1
-			dockyard = 3
+			dockyard = 1
 			air_base = 10
 			3151 ={
 				naval_base = 10
@@ -25,7 +25,7 @@ state={
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 7
+				arms_factory = 3
 			}
 		}
 	}

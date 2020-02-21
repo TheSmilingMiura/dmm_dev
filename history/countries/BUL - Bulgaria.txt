@@ -12,18 +12,18 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {	
-	ruling_party = liberal
+	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 0
+    fascist = 100
     corporatist = 0
     reactionary = 0
     conservative = 0
-    liberal = 100
+    liberal = 0
     social_democrat = 0
     socialist = 0
     communist = 0

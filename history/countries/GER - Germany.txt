@@ -107,17 +107,17 @@ if = {
 	}
 	set_autonomy = {
 		target = GKM
-		autonomous_state = autonomy_reichskomissariat
+		autonomous_state = autonomy_reichskommissariat
                 freedom_level = 0.4
 	}
 	set_autonomy = {
 		target = AFK
-		autonomous_state = autonomy_reichskomissariat
+		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.5
 	}
 	set_autonomy = {
 		target = RKK
-		autonomous_state = autonomy_reichskomissariat
+		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.4
 	}
 	set_autonomy = {

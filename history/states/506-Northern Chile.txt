@@ -7,16 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = CHL
+		owner = BOL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 1
 			12994 = {
 				naval_base = 1
-			}
-			5228 = {
-				naval_base = 2
 			}
 		}
 		add_core_of = CHL
@@ -27,6 +24,6 @@ state={
 	}
 
 	provinces={
-		5131 5146 5171 5192 5228 8217 8231 11000 12914 12994 
+		5131 5146 8217 8231 12994 
 	}
 }

@@ -10,7 +10,7 @@ state={
 
 
 	history={
-		owner = AFK
+		owner = SAF
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

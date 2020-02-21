@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = MEN
+		owner = SOV
 		victory_points = {
 			4797 3 
 		}
@@ -19,12 +19,12 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = MEN
+		add_core_of = SOV
 
 	}
 
 	provinces={
-		1727 1762 1810 1829 4797 7838 10543 12525 12540
+		1727 1829 4797 7838 12525 12540
 	}
 	manpower=755237
 	buildings_max_level_factor=1.000

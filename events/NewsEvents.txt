@@ -1,1 +1,139 @@
-﻿#Empty
+﻿add_namespace = news
+
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = GER
+				TAG = JAP
+				TAG = ITA
+				TAG = ARG
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.1.d
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.1.e
+		trigger = { TAG = ITA }
+	}
+}
+
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = GER
+				TAG = JAP
+				TAG = ITA
+				TAG = AFK
+				TAG = GKM
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.2.c
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.2.d
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = ITA }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = AFK }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = GKM }
+	}
+}
+
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = GER
+				TAG = JAP
+				TAG = ITA
+				TAG = RRC
+				TAG = MAN
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.2.c
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.2.d
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = ITA }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = RRC }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = MAN }
+	}
+}

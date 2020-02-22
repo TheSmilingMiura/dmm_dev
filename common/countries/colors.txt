@@ -635,8 +635,8 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 GKM = {
-    color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+    color = rgb { 40 40 40 }
+	color_ui = rgb { 40 40 40 }
 }
 GKN = {
     color = HSV { 0.1 0.15 0.4 }
@@ -946,4 +946,14 @@ NFT = {
 KVA = {
 	color = rgb { 154 205 50 }
 	color_ui = rgb { 154 205 50 }
+}
+
+IEA = {
+	color = rgb { 42 104 54 }
+	color_ui = rgb { 42 104 54 }
+}
+
+LCM = {
+	color = rgb { 42 69 60 }
+	color_ui = rgb { 42 69 60 }
 }

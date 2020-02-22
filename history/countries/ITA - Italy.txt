@@ -35,11 +35,23 @@ if = {
 		autonomous_state = autonomy_satellite
                 freedom_level = 0.5
 	}
+	set_autonomy = {
+		target = IEA
+		autonomous_state = autonomy_reichskommissariat
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = ALG
+		autonomous_state = autonomy_reichskommissariat
+                freedom_level = 0.5
+	}
 	else = {
 		puppet = IRQ
 		puppet = SAU
 		puppet = GRE
 		puppet = UAE
+		puppet = IEA
+		puppet = ALG
 		
 	}
 }

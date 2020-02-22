@@ -12,10 +12,10 @@ state={
 	history={
 		owner = GKM
 		victory_points = {
-			6380 10 
+			6380 5 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 7
 			arms_factory = 9
 			industrial_complex = 2
 			air_base = 10

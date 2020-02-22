@@ -3,13 +3,13 @@ state={
 	id=660
 	name="STATE_660"
 	resources={
-		rubber=3.000
+		oil=84
 	}
 
 	history={
 		owner = AFK
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 
 		}
 

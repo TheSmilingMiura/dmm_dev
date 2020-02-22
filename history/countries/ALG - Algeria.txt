@@ -8,15 +8,15 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = reactionary
+	ruling_party = authoritarian
 	elections_allowed = no
 }
 
 set_popularities = {
     fascist = 0
-    authoritarian = 0
-    reactionary = 100
-    conservative = 0
+    authoritarian = 80
+    reactionary = 10
+    conservative = 10
     liberal = 0
     social_democrat = 0
     socialist = 0

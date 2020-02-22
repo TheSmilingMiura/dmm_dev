@@ -59,9 +59,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fanny Jabcovsky"
-	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
-	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
+	name = "Patricio Echegaray"
+	desc = ""
+	picture = "ARG_Patricio_Echegaray.tga"
 	expire = "1965.1.1"
 	ideology = vanguard_communism
 	traits = {

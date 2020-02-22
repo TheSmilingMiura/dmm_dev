@@ -41,7 +41,7 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = fascist
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,9 +57,9 @@ add_ideas = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
+    fascist = 16
+    authoritarian = 82
+    reactionary = 2
     conservative = 2
     liberal = 0
     social_democrat = 0
@@ -68,11 +68,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Angry Moustache Man"
+	name = "Aleksandr Dvornikov"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = hakko_ichiu
+	picture = "SOV_Aleksandr_Dvornikov.dds"
+	expire = "2024.3.1"
+	ideology = authoritarian
 	traits = {
 		
 	}

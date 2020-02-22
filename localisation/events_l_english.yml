@@ -808,6 +808,8 @@ men.2.d:0 "With the Chinese government in the south weakening considerably in th
 men.2.a:0 "Finally, the dispute is at an end!"
 men.2.b:0 "We do not dare to do this to our ally..."
 
+#Miu's Stuff
+
 gerinternal.1.t:0 "Marching Towards A Joyful Apocalypse"
 gerinternal.1.d:0 "Another day, another year. It's been 54 years since the Reich stood victorious over France, Russia and Britain, in Versailles, and 50 since the Fuehrer's death. Hitler led Germany into Victory, Speer into prosperity, and Heydrich into madness and instability. And may a new Fuehrer and the reformed Reichstag lead us into victory and prosperity once more. However Germany's once iron grip on Europe and Africa is slipping under Reichsmarschall Schneiderhan's provisional government, who's been ruling for over a decade. The Reichstags vote must be fast or else we may lose everything our grandfathers fought so hard for. As the world marches ever faster towards a most certain war, in the absence of MAD, we need a leader, and badly so."
 gerinternal.1.a:0 "Heil Schneiderhan!"
@@ -836,3 +838,23 @@ gerinternal.8.b:0 "Maximillian Salzer for the leadership! He'll lead us once mor
 gerinternal.9.t:0 ""
 gerinternal.9.d:0 ""
 gerinternal.9.a:0 ""
+
+news.1.t:0 "JUNO goes operational."
+news.1.d:0 ""
+news.1.a:0 ""
+news.1.b:0 ""
+news.1.c:0 ""
+news.1.d:0 ""
+news.1.e:0 ""
+
+news.2.t:0 "ASEN goes operational."
+news.2.d:0 ""
+news.2.a:0 ""
+news.2.b:0 ""
+news.2.c:0 ""
+
+news.3.t:0 " goes operational."
+news.3.d:0 ""
+news.3.a:0 ""
+news.3.b:0 ""
+news.3.c:0 ""

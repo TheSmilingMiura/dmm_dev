@@ -156,6 +156,11 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
+		target = URA
+		autonomous_state = autonomy_reichsprotectorate
+		freedom_level = 0.1
+	}
+	set_autonomy = {
 		target = TUR
 		autonomous_state = autonomy_satellite
 		freedom_level = 0.4
@@ -169,6 +174,7 @@ if = {
 		puppet = SER
 		puppet = FRA
 		puppet = TUR
+		puppet = URA
 	}
 }
 
@@ -203,17 +209,17 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
-	expire = "1965.1.1"
-	ideology = vanguard_communism
-	traits = {
-		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-		exiled # He left in 1933 so he should still be exiled
-	}
-}
+#create_country_leader = {
+#	name = "Wilhelm Pieck"
+#	desc = "POLITICS_WILHELM_PIECK_DESC"
+#	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+#	expire = "1965.1.1"
+#	ideology = vanguard_communism
+#	traits = {
+#		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+#		exiled # He left in 1933 so he should still be exiled
+#	}
+#}
 
 create_country_leader = {
 	name = "Reichstag"
@@ -232,7 +238,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = communist
 	traits = {
 		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
 		exiled # He left in 1933 so he should still be exiled

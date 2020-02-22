@@ -53,6 +53,15 @@ set_technology = {
 
 set_convoys = 400
 
+create_faction = Co-Prosperity Sphere
+add_to_faction = JAP
+add_to_faction = RRC
+add_to_faction = PHI
+add_to_faction = SIA
+add_to_faction = VIN
+add_to_faction = NBR
+add_to_faction = BRM
+
 set_politics = {
 	ruling_party = conservative
 	last_election = "1936.1.1"
@@ -86,11 +95,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kyuichi Tokuda"
+	name = "Shintaro Ishihara"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
+	picture = "JAP_Shintaro_Ishihara.dds"
 	expire = "1989.1.1"
-	ideology = orthodox_marxism
+	ideology = conservative
 	traits = {
 	}
 }

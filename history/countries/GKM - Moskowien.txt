@@ -85,3 +85,9 @@ set_popularities = {
     communist = 0
 }
 
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+	sonderwirtschaftszone
+}

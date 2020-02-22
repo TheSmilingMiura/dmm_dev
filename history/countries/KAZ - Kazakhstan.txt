@@ -56,26 +56,17 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
+	name = "Serikbolsyn Abdildin"
 	desc = ""
-	picture = ""
+	picture = "KAZ_Serikbolsyn_Abdildin.dds"
 	expire = "1953.3.1"
-	ideology = orthodox_marxism
+	ideology = communist
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Ilyas Zhansugurov"
-	desc = ""
-	picture = ""
-	expire = "1953.3.1"
-	ideology = new_conservatism
-	traits = {
-		
-	}
-}
+
 
 
 

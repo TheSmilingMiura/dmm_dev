@@ -218,3 +218,23 @@
  LCM_communist_ADJ:0 "Moçambique"
 
  LCM_DEF:0 "Mozambican"
+
+ IEA_fascist:0 "Italian East Africa"
+ IEA_corporatist:0 "Italian East Africa"
+ IEA_authoritarian:0 "Italian East Africa"
+ IEA_reactionary:0 "Italian East Africa"
+ IEA_conservative:0 "Italian East Africa"
+ IEA_liberal:0 "East African Federation"
+ IEA_social_democrat:0 "East Africa Federation"
+ IEA_socialist:0 "East Africa Socialist Federation"
+ IEA_communist:0 "Union of Socialist East African Republics"
+
+ IEA_fascist_ADJ:0 "Italian East Africa"
+ IEA_corporatist_ADJ:0 "Italian East Africa"
+ IEA_authoritarian_ADJ:0 "Italian East Africa"
+ IEA_reactionary_ADJ:0 "Italian East Africa"
+ IEA_conservative_ADJ:0 "Italian East Africa"
+ IEA_liberal_ADJ:0 "East African Federation"
+ IEA_social_democrat_ADJ:0 "East Africa Federation"
+ IEA_socialist_ADJ:0 "East Africa Socialist Federation"
+ IEA_communist_ADJ:0 "Union of Socialist East African Republics"

@@ -837,6 +837,6 @@
  MAN_seize_arms:0 "Execute the Plan"
  MAN_seize_arms_desc:0 "Strike swiftly! FOR THE EMPEROR!"
  MAN_can_prepare_more_tt:0 "Further preparations can still be made to seize additional depots.\n"
- RRC_nanjing_garrison_meter:0 "Reforming the Country"
- RRC_nanjing_garrison_meter_desc:1 "China is in dire straits by 2004. The military is little more than an auxiliary force to the IJA, the navy is non-existant\nand the airforce is on a level that could be called "advanced"\n...for the 1930s.\nTo call the economy crippled is euphemistic, and the IJA Nanjing Garrison perpetually holds a knife to the Government's throat.\n\n Current §RAnger§! of the Garrison: [Root.garrison_anger.GetValue] ([?RRC.garrison_anger|-0])"
+ #RRC_nanjing_garrison_meter:0 "Reforming the Country"
+ #RRC_nanjing_garrison_meter_desc:1 "China is in dire straits by 2004. The military is little more than an auxiliary force to the IJA, the navy is non-existant\nand the airforce is on a level that could be called "advanced"\n...for the 1930s.\nTo call the economy crippled is euphemistic, and the IJA Nanjing Garrison perpetually holds a knife to the Government's throat.\n\n Current §RAnger§! of the Garrison: [Root.garrison_anger.GetValue] ([?RRC.garrison_anger|-0])"
  RRC_reform_economy1:0 "The Economic Debacle"

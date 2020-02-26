@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_report_event_jingwei"
+		texturefile = "gfx/event_pictures/report_event_jingwei.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_partisans_advance"
+		texturefile = "gfx/event_pictures/report_event_partisans_advance.dds"
+	}
+
+}

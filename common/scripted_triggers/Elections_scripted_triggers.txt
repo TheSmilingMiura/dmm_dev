@@ -22,7 +22,3 @@ can_lose_unity = {
 		}
 	}
 }
-
-can_lose_democracy_support = {
-	liberal > 0.65
-}

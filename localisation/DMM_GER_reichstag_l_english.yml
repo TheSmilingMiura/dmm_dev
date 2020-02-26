@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 #GER_Reichstag:0 "Der Reichstag"
 #GER_Reichstag_desc:0 "The German Reichstag is composed of a Parteienblock (party bloc) composed of one Leitpartei (lead party) and several minor Blockparteien (Bloc Parties) that serve mainly to provide the government an outward democratic appearance - a remnant of the US-German thaw of the late 80s.\n\nCurrent Leitpartei: §Y[GER_Leitpartei]§!\n\n[GER_Blockpartei1]\n[GER_Blockpartei2]\n[GER_Blockpartei3]"
 

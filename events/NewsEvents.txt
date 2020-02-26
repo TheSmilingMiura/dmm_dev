@@ -90,7 +90,7 @@ news_event = {
 }
 
 news_event = {
-	id = news.2
+	id = news.3
 	title = news.2.t
 	desc = news.2.d
 	picture = GFX_news_event_

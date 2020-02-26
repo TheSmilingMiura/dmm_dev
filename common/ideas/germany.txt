@@ -72,10 +72,6 @@ ideas = {
 			}
 			picture = masterofeurope
 			removal_cost = -1
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
 			
 			modifier = {
 				political_power_gain = 0.5
@@ -198,7 +194,6 @@ ideas = {
 			allowed = { original_tag = GER }
 			traits = { industrial_manufacturer }
 			available = {
-				has_completed_focus = GER_krupp_steel_focus
 			}
 			modifier = {
 				production_speed_arms_factory_factor = 0.20

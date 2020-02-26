@@ -28,7 +28,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				conscription_factor = 0.1
-				enemy_partisan_effect = -0.3
+				#enemy_partisan_effect = -0.3
 				political_power_factor = 0.15
 			}
 		}

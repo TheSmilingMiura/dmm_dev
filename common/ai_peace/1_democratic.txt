@@ -10,12 +10,12 @@
 democratic_peace = {
 	enable = {
 		OR = {
-				 	has_government = social_democrat
-				 	has_government = liberal
-				 	has_government = conservative
-				 	has_government = reactionary
-				 	has_government = authoritarian
-			 }
+			has_government = social_democrat
+			has_government = liberal
+			has_government = conservative
+			has_government = reactionary
+			has_government = authoritarian
+		}
 	}
 
 	annex_randomness = 0 #100
@@ -62,12 +62,12 @@ democratic_peace = {
 
 			FROM = {
 				OR = {
-				 	has_government = social_democrat
-				 	has_government = liberal
-				 	has_government = conservative
-				 	has_government = reactionary
-				 	has_government = authoritarian
-			 	}
+					has_government = social_democrat
+					has_government = liberal
+					has_government = conservative
+					has_government = reactionary
+					has_government = authoritarian
+				}
 			}
 		}
 
@@ -158,11 +158,11 @@ democratic_peace = {
 
 			FROM = {
 				OR = {
-				 	has_government = social_democrat
-				 	has_government = liberal
-				 	has_government = conservative
-				 	has_government = reactionary
-				 	has_government = authoritarian
+					has_government = social_democrat
+					has_government = liberal
+					has_government = conservative
+					has_government = reactionary
+					has_government = authoritarian
 				}
 			}
 		}
@@ -170,15 +170,15 @@ democratic_peace = {
 		modifier = {
 			factor = 10
 			FROM = {
-				NOT = { 
-				OR = {
-				 	has_government = social_democrat
-				 	has_government = liberal
-				 	has_government = conservative
-				 	has_government = reactionary
-				 	has_government = authoritarian
-			 	}
-			 }
+				NOT = {
+					OR = {
+						has_government = social_democrat
+						has_government = liberal
+						has_government = conservative
+						has_government = reactionary
+						has_government = authoritarian
+					}
+				}
 			}
 		}
 
@@ -317,6 +317,25 @@ democratic_peace = {
 		#}
 	}
 
+	# ROOT = Taker, FROM = Giver
+	puppet_all = {
+		base = 0 
+	}
+	
+	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
+	puppet_state = {
+		base = 0 
+		modifier = { #puppet state only if already puppeted
+			add = 200
+			#only if already puppetted the country
+			is_in_array = { subject_countries@FROM = FROM.FROM }
+			#only if already puppetted a neighbor state
+			any_neighbor_state = {
+				is_in_array = { subject_states@FROM = this }
+			}
+		}
+	}
+	
 	# ROOT = Taker, FROM = State
 	take_states = {
 		factor = 400 #50
@@ -627,12 +646,12 @@ democratic_peace = {
 
 			FROM = {
 				OR = {
-				 	has_government = social_democrat
-				 	has_government = liberal
-				 	has_government = conservative
-				 	has_government = reactionary
-				 	has_government = authoritarian
-			 }
+					has_government = social_democrat
+					has_government = liberal
+					has_government = conservative
+					has_government = reactionary
+					has_government = authoritarian
+				}
 			}
 		}
 	}

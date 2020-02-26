@@ -9,7 +9,7 @@ focus_tree = {
         }
     }
 	shared_focus = SOV_consolidating_the_confederation
-
+	default = no
 	continuous_focus_position = { x = 16 y = 3000 }
 }
 

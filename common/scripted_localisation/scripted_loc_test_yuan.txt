@@ -4,7 +4,7 @@ defined_text = {
 		trigger = { #Yan Jiagan
 			RRC = { is_player = yes }
 		}
-		localisation_key = dmm_rrc_exec_yan_jiagan
+		localization_key = dmm_rrc_exec_yan_jiagan
 	}
 }
 defined_text = {
@@ -13,7 +13,7 @@ defined_text = {
 		trigger = { #Wang Jinping
 			RRC = { is_player = yes }
 		}
-		localisation_key = dmm_rrc_legis_wang_jinping
+		localization_key = dmm_rrc_legis_wang_jinping
 	}
 }
 defined_text = {
@@ -22,7 +22,7 @@ defined_text = {
 		trigger = { #Kong Decheng
 			RRC = { is_player = yes }
 		}
-		localisation_key = dmm_rrc_exam_kong_decheng
+		localization_key = dmm_rrc_exam_kong_decheng
 	}
 }
 defined_text = {
@@ -31,7 +31,7 @@ defined_text = {
 		trigger = { #Qian Fu
 			RRC = { is_player = yes }
 		}
-		localisation_key = dmm_rrc_control_qian_fu
+		localization_key = dmm_rrc_control_qian_fu
 	}
 }
 defined_text = {
@@ -40,7 +40,7 @@ defined_text = {
 		trigger = { #Xu Zongli
 			RRC = { is_player = yes }
 		}
-		localisation_key = dmm_rrc_judic_xu_zongli
+		localization_key = dmm_rrc_judic_xu_zongli
 	}
 }
 defined_text = {
@@ -49,7 +49,7 @@ defined_text = {
 		trigger = { #Li Zuocheng
 			always = yes
 		}
-		localisation_key = dmm_rrc_army_li_zuocheng
+		localization_key = dmm_rrc_army_li_zuocheng
 	}
 }
 defined_text = {
@@ -58,6 +58,6 @@ defined_text = {
 		trigger = { #Wang Wenying
 			RRC = { has_country_leader = { name = "Wang Wenying" ruling_only = yes } }
 		}
-		localisation_key = dmm_rrc_pres_wenying
+		localization_key = dmm_rrc_pres_wenying
 	}
 }

@@ -174,13 +174,13 @@ country_event = {
 
 	option = {
 		name = gerinternal.8.a
-		load_focus_tree =
+		#load_focus_tree =
 		create_country_leader = {
 			name = "Theodor Eberhard"
 			desc = "POLITICS_THEODOR_EBERHARD_DESC"
 			picture = GFX_portrait_ger_august_von_mackensen
 			expire = "2040.1.1"
-			ideology = authoritarian
+			ideology = despotism
 			traits = {
 				prince_of_terror popular_figurehead nationalist_symbol war_hero rearmer
 			}
@@ -192,7 +192,7 @@ country_event = {
 			desc = "POLITICS_MAXIMILIAN_SALZER_DESC"
 			picture = GFX_portrait_ger_august_von_mackensen
 			expire = "2040.1.1"
-			ideology = corporatist
+			ideology = national_socialism
 			traits = {
 				quartermaster_general economist financial_expert socialite_connections
 			}

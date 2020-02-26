@@ -1,7 +1,13 @@
 technology_folders = {
-	DMM_armor_folder
-	DMM_MTG_naval_folder
-	DMM_air_folder
+	DMM_armor_folder = {
+		ledger = army
+	}
+	DMM_MTG_naval_folder = {
+		ledger = navy
+	}
+	DMM_air_folder = {
+		ledger = air
+	}
 }
 
  

@@ -1,0 +1,153 @@
+spriteTypes = {	
+
+	###Added###
+	spriteType = {
+		name = "GFX_idea_zaibatsu_exploitation"
+		texturefile = "gfx/interface/ideas/idea_zaibatsu_exploitation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crippled_economy"
+		texturefile = "gfx/interface/ideas/idea_crippled_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_cost_of_victory"
+		texturefile = "gfx/interface/ideas/cost_of_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chinabroken0"
+		texturefile = "gfx/interface/ideas/scale_not_broken_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chinabroken1"
+		texturefile = "gfx/interface/ideas/scale_slightly_broken_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chinabroken2"
+		texturefile = "gfx/interface/ideas/scale_less_broken_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chinabroken3"
+		texturefile = "gfx/interface/ideas/scale_broken_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chinabroken4"
+		texturefile = "gfx/interface/ideas/scale_very_broken_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_civil_war_struggle"
+		texturefile = "gfx/interface/ideas/CivilStruggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_liu_struggle"
+		texturefile = "gfx/interface/ideas/LiuStruggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wang_struggle"
+		texturefile = "gfx/interface/ideas/WangStruggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_koichi_struggle"
+		texturefile = "gfx/interface/ideas/KoichiStruggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nihonmachi_low"
+		texturefile = "gfx/interface/ideas/nihonmachi_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nihonmachi_medium"
+		texturefile = "gfx/interface/ideas/nihonmachi_medium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nihonmachi_high"
+		texturefile = "gfx/interface/ideas/nihonmachi_high.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nihonmachi_very_high"
+		texturefile = "gfx/interface/ideas/nihonmachi_very_high.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nihonmachi_extreme"
+		texturefile = "gfx/interface/ideas/nihonmachi_extreme.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_china_tariffs"
+		texturefile = "gfx/interface/ideas/china_tariffs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_goal_china"
+		texturefile = "gfx/interface/ideas/military_goal_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kempeitai"
+		texturefile = "gfx/interface/ideas/kempeitai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_russianstarvation"
+		texturefile = "gfx/interface/ideas/russianstarvation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_the_russian_bear"
+		texturefile = "gfx/interface/ideas/the_russian_bear.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_the_russian_bear_triumphant"
+		texturefile = "gfx/interface/ideas/the_russian_bear_triumphant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_geierpolitik"
+		texturefile = "gfx/interface/ideas/geierpolitik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_widespread_corruption"
+		texturefile = "gfx/interface/ideas/widespread_corruption.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_nissan"
+		texturefile = "gfx/interface/ideas/bankrupt_nissan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_kawasaki"
+		texturefile = "gfx/interface/ideas/bankrupt_kawasaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_mitsubishi"
+		texturefile = "gfx/interface/ideas/bankrupt_mitsubishi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_nakajima"
+		texturefile = "gfx/interface/ideas/bankrupt_nakajima.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_sumitomo"
+		texturefile = "gfx/interface/ideas/bankrupt_sumitomo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_heydrichs_ghost"
+		texturefile = "gfx/interface/ideas/heydrichs_ghost.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_widespread_drug_addiction"
+		texturefile = "gfx/interface/ideas/widespread_drug_addiction.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_oil_kingdom"
+		texturefile = "gfx/interface/ideas/oil_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_oversized_regia_marina"
+		texturefile = "gfx/interface/ideas/oversized_regia_marina.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_widespread_corruption1"
+		texturefile = "gfx/interface/ideas/widespread_corruption1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_igfarben"
+		texturefile = "gfx/interface/ideas/igfarben.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_afrikakorps2"
+		texturefile = "gfx/interface/ideas/afrikakorps2.dds"
+	}
+
+}

@@ -7,6 +7,7 @@ focus_tree = {
             tag = RRC
         }
     }
+	default = no
     continuous_focus_position = { x = 16 y = 3000 }
 
     shared_focus = CHI_anewpolicyforchina

@@ -104,6 +104,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 
+	
 	anti_air_building = {
 		show_on_map = 3
 		base_cost = 1250
@@ -127,7 +128,7 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
-
+		
 		show_modifier = yes
 		fuel_gain_from_states = 2.0 #per hour
 	}
@@ -141,7 +142,7 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = yes
 		fuel_silo = yes
-
+		
 		show_modifier = yes
 		max_fuel_building = 100.0 #k
 	}

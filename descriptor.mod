@@ -1,5 +1,8 @@
-name="Dead Men Marching "
-tags={
+name = "Dead Men Marching"
+replace_path = "history/states"
+replace_path = "map/strategicregions"
+replace_path = "map/supplyareas"
+tags = {
 	"Alternative History"
 }
-supported_version="1.9.*"
+supported_version = "1.9.*"

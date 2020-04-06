@@ -1,6 +1,6 @@
 ﻿capital = 439
 
-oob = "RAJ_1936"
+oob = "RAJ_2004"
 
 
 set_stability = 0.6

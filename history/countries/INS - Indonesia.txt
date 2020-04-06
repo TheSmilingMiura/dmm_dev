@@ -1,6 +1,6 @@
 ﻿capital = 783 #Jakarta
 
-oob = "INS_1936"
+oob = "INS_2004"
 
 set_research_slots = 2
 

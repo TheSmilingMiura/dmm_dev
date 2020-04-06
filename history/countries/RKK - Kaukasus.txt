@@ -1,7 +1,7 @@
 ﻿capital = 219
 
-set_oob = "RKK_1936"
-set_naval_oob = "RKK_naval_test_don_fleet"
+oob = "RKK_2004"
+#set_naval_oob = "RKK_naval_test_don_fleet"
 
 set_technology = {
 	infantry_weapons = 1

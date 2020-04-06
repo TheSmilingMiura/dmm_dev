@@ -1,0 +1,1520 @@
+focus_tree = {
+	id = Italy
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	#Focus for Seconds to Midnight
+	focus = {
+		id = ITA_seconds_to_midnight
+		icon = GFX_goal_generic_forceful_treaty
+		x = 4
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_purchase_carrierborne_aircraft 
+		}
+		prerequisite = { 
+			focus = ITA_factories_in_the_german_east 
+		}
+		prerequisite = { 
+			focus = ITA_united_in_defense_of_the_empire 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Bases in Our Sea
+	focus = {
+		id = ITA_our_bases_in_our_sea
+		icon = GFX_goal_generic_navy_battleship
+		x = 2
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_coming_war }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Bait in ARSI and KRB Investment
+	focus = {
+		id = ITA_bait_in_arsi_and_krb_investment
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_milan_to_venice_in_2_and_a_half_hours }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deals with the DEA
+	focus = {
+		id = ITA_deals_with_the_dea
+		icon = GFX_goal_generic_oil_refinery
+		x = 6
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_bait_in_arsi_and_krb_investment }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Exploiting the Nubian Sandstone Aquifer
+	focus = {
+		id = ITA_exploiting_the_nubian_sandstone_aquifer
+		icon = GFX_goal_generic_production
+		x = 22
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_greening_the_desert }
+		mutually_exclusive = { focus = ITA_desalination_plants_in_sirte }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Native
+	focus = {
+		id = ITA_the_native
+		icon = GFX_goal_unknown
+		x = 29
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_death_of_the_governor_general }
+		mutually_exclusive = { focus = ITA_the_pragmatic_playboy }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for So more Power Plants!
+	focus = {
+		id = ITA_so_more_power_plants
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 17
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_we_need_more_power }
+		mutually_exclusive = { focus = ITA_the_vittorio_dam_is_the_answer }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Steel for the Steel Tubes!
+	focus = {
+		id = ITA_steel_for_the_steel_tubes
+		icon = GFX_goal_unknown
+		x = 23
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_great_manmade_river }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Man-Made River
+	focus = {
+		id = ITA_the_great_manmade_river
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 23
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_exploiting_the_nubian_sandstone_aquifer }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for We need more Power
+	focus = {
+		id = ITA_we_need_more_power
+		icon = GFX_goal_generic_radar
+		x = 16
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_desalination_plants_in_sirte }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Farms in Kufra
+	focus = {
+		id = ITA_expand_the_farms_in_kufra
+		icon = GFX_goal_unknown
+		x = 21
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_exploiting_the_nubian_sandstone_aquifer }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Fully Integrated Libya
+	focus = {
+		id = ITA_a_fully_integrated_libya
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 30
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_discipline 
+			focus = ITA_cake 
+		}
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Factories in the German East
+	focus = {
+		id = ITA_factories_in_the_german_east
+		icon = GFX_goal_unknown
+		x = 4
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_royal_armories }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop Montenegro's Mining Industry
+	focus = {
+		id = ITA_develop_montenegros_mining_industry
+		icon = GFX_goal_generic_construction2
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_albanian_oil_fields }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for An Oasis for the Aerospace Industry
+	focus = {
+		id = ITA_an_oasis_for_the_aerospace_industry
+		icon = GFX_goal_unknown
+		x = 31
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_industrialise_tripoli }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Trans-Adriatic Pipeline
+	focus = {
+		id = ITA_the_transadriatic_pipeline
+		icon = GFX_goal_generic_oil_refinery
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_promote_tourism_in_the_mezzogiorno }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Tourism in the Mezzogiorno
+	focus = {
+		id = ITA_promote_tourism_in_the_mezzogiorno
+		icon = GFX_goal_generic_consumer_goods
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_continue_the_industrialization_of_the_mezzogiorno }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for They're Back?
+	focus = {
+		id = ITA_theyre_back
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_fight_corruption }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Albanian Oil Fields
+	focus = {
+		id = ITA_albanian_oil_fields
+		icon = GFX_goal_generic_oil_refinery
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_investments_in_tirana }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Autarky?
+	focus = {
+		id = ITA_autarky
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_cutting_the_fat }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Investments in Tirana
+	focus = {
+		id = ITA_investments_in_tirana
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_reform_the_tax_system }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Evolve Benghazi
+	focus = {
+		id = ITA_evolve_benghazi
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 29
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_diversify_the_libyan_economy }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Desalination Plants in Sirte
+	focus = {
+		id = ITA_desalination_plants_in_sirte
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 16
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_greening_the_desert }
+		mutually_exclusive = { focus = ITA_exploiting_the_nubian_sandstone_aquifer }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Fourth Shore
+	focus = {
+		id = ITA_the_fourth_shore
+		icon = GFX_goal_generic_trade
+		x = 30
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_a_brave_new_world }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Death of the Governor General
+	focus = {
+		id = ITA_the_death_of_the_governor_general
+		icon = GFX_goal_unknown
+		x = 30
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_fourth_shore }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Not Anymore.
+	focus = {
+		id = ITA_not_anymore
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_theyre_back }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Legions - the Regio Esercito
+	focus = {
+		id = ITA_our_legions__the_regio_esercito
+		icon = GFX_goal_generic_military_sphere
+		x = 19
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_new_technology }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Royal Armories
+	focus = {
+		id = ITA_royal_armories
+		icon = GFX_goal_unknown
+		x = 4
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_factories }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Civil Defense
+	focus = {
+		id = ITA_civil_defense
+		icon = GFX_goal_generic_defence
+		x = 6
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_homes }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Factories
+	focus = {
+		id = ITA_our_factories
+		icon = GFX_goal_unknown
+		x = 4
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_coming_war }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Homes
+	focus = {
+		id = ITA_our_homes
+		icon = GFX_goal_generic_construct_military
+		x = 6
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_coming_war }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Refit the Old Ships
+	focus = {
+		id = ITA_refit_the_old_ships
+		icon = GFX_goal_generic_navy_battleship
+		x = 2
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_bases_in_our_sea }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purchase Carrier-borne Aircraft
+	focus = {
+		id = ITA_purchase_carrierborne_aircraft
+		icon = GFX_goal_unknown
+		x = 2
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_refit_the_old_ships }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deal with the Regia Marina
+	focus = {
+		id = ITA_deal_with_the_regia_marina
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_cutting_the_fat }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fight Corruption
+	focus = {
+		id = ITA_fight_corruption
+		icon = GFX_goal_generic_dangerous_deal
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_cutting_the_fat }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for German Know-How
+	focus = {
+		id = ITA_german_knowhow
+		icon = GFX_focus_research2
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_as_equals_we_stand 
+		}
+		prerequisite = { 
+			focus = ITA_retaining_our_control 
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continue the Industrialization of the Mezzogiorno
+	focus = {
+		id = ITA_continue_the_industrialization_of_the_mezzogiorno
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_continue_the_diversification }
+		mutually_exclusive = { focus = ITA_focus_on_the_north }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reform the Tax System
+	focus = {
+		id = ITA_reform_the_tax_system
+		icon = GFX_focus_generic_self_management
+		x = 2
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_continue_the_diversification }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continue the Diversification
+	focus = {
+		id = ITA_continue_the_diversification
+		icon = GFX_goal_generic_construct_civilian
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_as_equals_we_stand 
+		}
+		prerequisite = { 
+			focus = ITA_retaining_our_control 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Retaining our Control
+	focus = {
+		id = ITA_retaining_our_control
+		icon = GFX_focus_generic_self_management
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_joining_the_aesir }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Brave New World
+	focus = {
+		id = ITA_a_brave_new_world
+		icon = GFX_focus_befriend_italy
+		x = 15
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Shock and Awe
+	focus = {
+		id = ITA_shock_and_awe
+		icon = GFX_goal_generic_occupy_start_war
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_legions__the_regio_esercito }
+		mutually_exclusive = { focus = ITA_desert_longrange_warfare }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for United in Defense of the Empire
+	focus = {
+		id = ITA_united_in_defense_of_the_empire
+		icon = GFX_goal_support_fascism
+		x = 6
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_civil_defense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Joining the AESIR
+	focus = {
+		id = ITA_joining_the_aesir
+		icon = GFX_focus_chi_mission_to_germany
+		x = 5
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_a_brave_new_world }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Technology
+	focus = {
+		id = ITA_new_technology
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 19
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_retaining_our_control 
+		}
+		prerequisite = { 
+			focus = ITA_as_equals_we_stand 
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for As Equals we Stand
+	focus = {
+		id = ITA_as_equals_we_stand
+		icon = GFX_focus_chi_mission_to_germany
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_joining_the_aesir }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for German Tourists
+	focus = {
+		id = ITA_german_tourists
+		icon = GFX_focus_chi_mission_to_germany
+		x = 29
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_finish_the_burj_bengazi }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cutting the Fat
+	focus = {
+		id = ITA_cutting_the_fat
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_as_equals_we_stand 
+		}
+		prerequisite = { 
+			focus = ITA_retaining_our_control 
+		}
+		search_filters = { FOCUS_FILTER_MEX_CHURCH_AUTHORITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sicilian Oil Refineries
+	focus = {
+		id = ITA_sicilian_oil_refineries
+		icon = GFX_goal_generic_oil_refinery
+		x = 4
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_the_transadriatic_pipeline 
+		}
+		prerequisite = { 
+			focus = ITA_albanian_oil_fields 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Too Many Ships?
+	focus = {
+		id = ITA_too_many_ships
+		icon = GFX_focus_generic_navy_battleship2
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_deal_with_the_regia_marina }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Stop Building Them.
+	focus = {
+		id = ITA_stop_building_them
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 10
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_too_many_ships }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Italian Efficency
+	focus = {
+		id = ITA_italian_efficency
+		icon = GFX_focus_generic_italy_first
+		x = 9
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_not_anymore 
+		}
+		prerequisite = { 
+			focus = ITA_were_past_that 
+		}
+		prerequisite = { 
+			focus = ITA_stop_building_them 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for We're Past That.
+	focus = {
+		id = ITA_were_past_that
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_autarky }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Diversify the Libyan Economy
+	focus = {
+		id = ITA_diversify_the_libyan_economy
+		icon = GFX_goal_unknown
+		x = 30
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_a_fully_integrated_libya }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Industrialise Tripoli
+	focus = {
+		id = ITA_industrialise_tripoli
+		icon = GFX_goal_unknown
+		x = 31
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_diversify_the_libyan_economy }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Finish the Burj Bengazi
+	focus = {
+		id = ITA_finish_the_burj_bengazi
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 29
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_evolve_benghazi }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Tripoli Nuclear Power Plant
+	focus = {
+		id = ITA_the_tripoli_nuclear_power_plant
+		icon = GFX_goal_unknown
+		x = 31
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_an_oasis_for_the_aerospace_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Greening the Desert
+	focus = {
+		id = ITA_greening_the_desert
+		icon = GFX_focus_hol_the_zuiderzee_works
+		x = 19
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_italian_efficency 
+		}
+		prerequisite = { 
+			focus = ITA_libyan_universities 
+		}
+		prerequisite = { 
+			focus = ITA_emperors_once_more 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus= german_know_how
+		}
+	}
+
+	#Focus for Focus on the North
+	focus = {
+		id = ITA_focus_on_the_north
+		icon = GFX_focus_generic_steel
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_continue_the_diversification 
+		}
+		prerequisite = { 
+			focus = ITA_as_equals_we_stand 
+		}
+		mutually_exclusive = { focus = ITA_continue_the_industrialization_of_the_mezzogiorno }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Milan to Venice in 2 and a Half Hours
+	focus = {
+		id = ITA_milan_to_venice_in_2_and_a_half_hours
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_focus_on_the_north }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Man-Made Oases
+	focus = {
+		id = ITA_manmade_oases
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 21
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_expand_the_farms_in_kufra }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Vittorio Dam is the Answer!
+	focus = {
+		id = ITA_the_vittorio_dam_is_the_answer
+		icon = GFX_goal_generic_scientific_exchange
+		x = 15
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_we_need_more_power }
+		mutually_exclusive = { focus = ITA_so_more_power_plants }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Discipline
+	focus = {
+		id = ITA_discipline
+		icon = GFX_goal_unknown
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_native }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cake
+	focus = {
+		id = ITA_cake
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 31
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_pragmatic_playboy }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Triremes - the Regia Marina
+	focus = {
+		id = ITA_our_triremes__the_regia_marina
+		icon = GFX_goal_generic_wolf_pack
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_new_technology }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Libyan Universities
+	focus = {
+		id = ITA_libyan_universities
+		icon = GFX_focus_research2
+		x = 30
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_the_tripoli_nuclear_power_plant 
+		}
+		prerequisite = { 
+			focus = ITA_german_tourists 
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for But it's Done
+	focus = {
+		id = ITA_but_its_done
+		icon = GFX_goal_support_fascism
+		x = 19
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_debts_and_delays }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Slowly but Surely?
+	focus = {
+		id = ITA_slowly_but_surely
+		icon = GFX_goal_unknown
+		x = 22
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_manmade_oases 
+		}
+		prerequisite = { 
+			focus = ITA_steel_for_the_steel_tubes 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Debts and Delays
+	focus = {
+		id = ITA_debts_and_delays
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 19
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_we_need_the_germans_as_well 
+			focus = ITA_slowly_but_surely 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for We need the Germans as well...
+	focus = {
+		id = ITA_we_need_the_germans_as_well
+		icon = GFX_goal_unknown
+		x = 16
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_the_vittorio_dam_is_the_answer 
+			focus = ITA_so_more_power_plants 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Pragmatic Playboy
+	focus = {
+		id = ITA_the_pragmatic_playboy
+		icon = GFX_goal_unknown
+		x = 31
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_death_of_the_governor_general }
+		mutually_exclusive = { focus = ITA_the_native }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Javelins - the Regia Aeronautica
+	focus = {
+		id = ITA_our_javelins__the_regia_aeronautica
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_new_technology }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Coming War
+	focus = {
+		id = ITA_the_coming_war
+		icon = GFX_goal_unknown
+		x = 4
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_sicilian_oil_refineries 
+			focus = ITA_deals_with_the_dea 
+			focus = ITA_develop_montenegros_mining_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Operazione P
+	focus = {
+		id = ITA_operazione_p
+		icon = GFX_focus_por_the_kingdom_reunited
+		x = 2
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_operazione_s }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Supremacy over the Air
+	focus = {
+		id = ITA_supremacy_over_the_air
+		icon = GFX_goal_generic_air_doctrine
+		x = 15
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_contract_piaggio 
+			focus = ITA_contract_fiat 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Supremacy over the Desert
+	focus = {
+		id = ITA_supremacy_over_the_desert
+		icon = GFX_goal_generic_army_doctrines
+		x = 19
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_rockets_and_missiles__ansaldo_contracts 
+			focus = ITA_more_arietes 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Battlecruiser 'Vittorio Veneto'
+	focus = {
+		id = ITA_battlecruiser_vittorio_veneto
+		icon = GFX_focus_generic_navy_battleship2
+		x = 24
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_saturation_tactics }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Far Away Enemies - Range Focus
+	focus = {
+		id = ITA_far_away_enemies__range_focus
+		icon = GFX_focus_usa_escort_fighters
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_javelins__the_regia_aeronautica }
+		mutually_exclusive = { focus = ITA_close_quarters__striking_power_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Desert Long-Range Warfare
+	focus = {
+		id = ITA_desert_longrange_warfare
+		icon = GFX_goal_generic_army_motorized
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_legions__the_regio_esercito }
+		mutually_exclusive = { focus = ITA_shock_and_awe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for "100 Thousand Tons of Diplomacy"
+	focus = {
+		id = ITA_100_thousand_tons_of_diplomacy
+		icon = GFX_goal_generic_navy_carrier
+		x = 22
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_triremes__the_regia_marina }
+		mutually_exclusive = { focus = ITA_saturation_tactics }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Contract Piaggio
+	focus = {
+		id = ITA_contract_piaggio
+		icon = GFX_goal_generic_air_bomber
+		x = 16
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_far_away_enemies__range_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Contract FIAT
+	focus = {
+		id = ITA_contract_fiat
+		icon = GFX_goal_generic_air_fighter2
+		x = 14
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_close_quarters__striking_power_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Fascist Cause in India
+	focus = {
+		id = ITA_the_fascist_cause_in_india
+		icon = GFX_focus_RAJ_seek_help_from_germany
+		x = 4
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_operazione_i }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Operazione I
+	focus = {
+		id = ITA_operazione_i
+		icon = GFX_focus_RAJ_indianisation_of_army
+		x = 4
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_seconds_to_midnight }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Beyond the Pillars of Hercules
+	focus = {
+		id = ITA_beyond_the_pillars_of_hercules
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 22
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_100_thousand_tons_of_diplomacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Operazione S
+	focus = {
+		id = ITA_operazione_s
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 2
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_seconds_to_midnight }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Close Quarters - Striking Power Focus
+	focus = {
+		id = ITA_close_quarters__striking_power_focus
+		icon = GFX_goal_generic_air_fighter2
+		x = 14
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_javelins__the_regia_aeronautica }
+		mutually_exclusive = { focus = ITA_far_away_enemies__range_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Saturation Tactics
+	focus = {
+		id = ITA_saturation_tactics
+		icon = GFX_goal_generic_occupy_start_war
+		x = 24
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_triremes__the_regia_marina }
+		mutually_exclusive = { focus = ITA_100_thousand_tons_of_diplomacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rockets and Missiles - Ansaldo Contracts
+	focus = {
+		id = ITA_rockets_and_missiles__ansaldo_contracts
+		icon = GFX_goal_generic_occupy_start_war
+		x = 18
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_shock_and_awe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for More "Arietes"
+	focus = {
+		id = ITA_more_arietes
+		icon = GFX_goal_generic_army_tanks
+		x = 20
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_desert_longrange_warfare }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Progetto Sigma
+	focus = {
+		id = ITA_progetto_sigma
+		icon = GFX_goal_unknown
+		x = 6
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_repurposing_the_alfas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Weathering the Storm
+	focus = {
+		id = ITA_weathering_the_storm
+		icon = GFX_goal_generic_attack_allies
+		x = 4
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_progetto_sigma 
+			focus = ITA_operazione_p 
+			focus = ITA_the_fascist_cause_in_india 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Supremacy over the Seas
+	focus = {
+		id = ITA_supremacy_over_the_seas
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 23
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_beyond_the_pillars_of_hercules 
+			focus = ITA_battlecruiser_vittorio_veneto 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Emperors Once More
+	focus = {
+		id = ITA_emperors_once_more
+		icon = GFX_goal_support_fascism
+		x = 19
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_supremacy_over_the_air 
+		}
+		prerequisite = { 
+			focus = ITA_supremacy_over_the_desert 
+		}
+		prerequisite = { 
+			focus = ITA_supremacy_over_the_seas 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Repurposing the 'Alfas'
+	focus = {
+		id = ITA_repurposing_the_alfas
+		icon = GFX_goal_unknown
+		x = 6
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_seconds_to_midnight }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

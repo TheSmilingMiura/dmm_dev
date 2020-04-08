@@ -40,8 +40,8 @@ ideologies = {
 	
 		types = {
 		
-			#nazism = {
-			#}
+			nazism = {
+			}
 			
 			italian_fascism = {
 			}

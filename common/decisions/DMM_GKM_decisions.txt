@@ -26,11 +26,9 @@ GKM_german_industrial_interests_decision_category = {
 			}
 			custom_effect_tooltip = GKM_add_to_aerospace_industry_influence_tt
 			hidden_effect = {
-				set_temp_variable = { temp_industry_variable_1 = 1 }
-				set_temp_variable = { temp_industry_variable_2 = 2 }
-				set_temp_variable = { temp_industry_variable_3 = 3 }
-				set_temp_variable = { temp_industry_variable_4 = 4 }
-				GKM_calculate_influence = yes
+				set_temp_variable = { temp_industry = 0 }
+				set_temp_variable = { temp_value_added = 5 }
+				GKM_add_influence = yes
 				GKM_check_influence = yes
 			}
 		}
@@ -63,11 +61,9 @@ GKM_german_industrial_interests_decision_category = {
 			}
 			custom_effect_tooltip = GKM_add_to_defense_industry_influence_tt
 			hidden_effect = {
-				set_temp_variable = { temp_industry_variable_1 = 2 }
-				set_temp_variable = { temp_industry_variable_2 = 1 }
-				set_temp_variable = { temp_industry_variable_3 = 3 }
-				set_temp_variable = { temp_industry_variable_4 = 4 }
-				GKM_calculate_influence = yes
+				set_temp_variable = { temp_industry = 1 }
+				set_temp_variable = { temp_value_added = 5 }
+				GKM_add_influence = yes
 				GKM_check_influence = yes
 			}
 		}
@@ -100,11 +96,9 @@ GKM_german_industrial_interests_decision_category = {
 			}
 			custom_effect_tooltip = GKM_add_to_heavy_industry_influence_tt
 			hidden_effect = {
-				set_temp_variable = { temp_industry_variable_1 = 3 }
-				set_temp_variable = { temp_industry_variable_2 = 1 }
-				set_temp_variable = { temp_industry_variable_3 = 2 }
-				set_temp_variable = { temp_industry_variable_4 = 4 }
-				GKM_calculate_influence = yes
+				set_temp_variable = { temp_industry = 2 }
+				set_temp_variable = { temp_value_added = 5 }
+				GKM_add_influence = yes
 				GKM_check_influence = yes
 			}
 		}
@@ -137,11 +131,9 @@ GKM_german_industrial_interests_decision_category = {
 			}
 			custom_effect_tooltip = GKM_add_to_consumer_industry_influence_tt
 			hidden_effect = {
-				set_temp_variable = { temp_industry_variable_1 = 4 }
-				set_temp_variable = { temp_industry_variable_2 = 1 }
-				set_temp_variable = { temp_industry_variable_3 = 2 }
-				set_temp_variable = { temp_industry_variable_4 = 3 }
-				GKM_calculate_influence = yes
+				set_temp_variable = { temp_industry = 3 }
+				set_temp_variable = { temp_value_added = 5 }
+				GKM_add_influence = yes
 				GKM_check_influence = yes
 			}
 		}

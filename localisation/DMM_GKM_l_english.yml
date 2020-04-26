@@ -11,7 +11,7 @@ GKM_supporting_industry_flag:0 "We are currently supporting an industry."
 
 # Decisions
 GKM_german_industrial_interests_decision_category:0 "German Industrial Interests"
-GKM_german_industrial_interests_decision_category_desc:0 "Insert Epic Description Here\n\n§HAerospace Industries§! Influence: [?aerospace_industry_influence|H0]§H%§!\n§HDefense Industries§! Influence: [?defense_industry_influence|H0]§H%§!\n§HHeavy Industries§! Influence: [?heavy_industry_influence|H0]§H%§!\n§HConsumer Industries§! Influence: [?consumer_industry_influence|H0]§H%§!\n"
+GKM_german_industrial_interests_decision_category_desc:0 "Maho was here\n\n§HAerospace Industries§! Influence: [?GKM_influence_array^0|H0]§H%§!\n§HDefense Industries§! Influence: [?GKM_influence_array^1|H0]§H%§!\n§HHeavy Industries§! Influence: [?GKM_influence_array^2|H0]§H%§!\n§HConsumer Industries§! Influence: [?GKM_influence_array^3|H0]§H%§!\n"
 
 GKM_support_aerospace_industries_decision:0 "Support Aerospace Industries"
 GKM_support_defense_industries_decision:0 "Support Defense Industries"

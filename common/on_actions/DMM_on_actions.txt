@@ -33,6 +33,12 @@ on_actions = {
 					days = 4
 				}
 			}
+			GKM = {
+				add_to_array = { GKM_influence_array = 25 } # aerospace industry
+				add_to_array = { GKM_influence_array = 25 } # defense industry
+				add_to_array = { GKM_influence_array = 25 } # heavy industry
+				add_to_array = { GKM_influence_array = 25 } # consumer industry
+			}
 		}
 	}
 }

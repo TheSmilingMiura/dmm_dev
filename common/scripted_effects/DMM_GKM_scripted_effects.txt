@@ -1,105 +1,31 @@
 #oh yeah its big brain time
-GKM_calculate_influence = {
-	meta_effect = {
-		text = {
-			clear_array = influence_array
-			set_temp_variable = { temp_loop_count = 0 }
-			add_to_temp_variable = { temp_loop_count = [INDUSTRY_1] }
-			while_loop_effect = {
-				limit = { 
-					check_variable = { temp_loop_count < 100 } 
-				}
-				if = {
-					limit = {
-						check_variable = { [INDUSTRY_4] > 0 }
-					}
-					add_to_array = { influence_array = [VARIABLE_ADDED_4] }
-					subtract_from_variable = { [INDUSTRY_4] = 1 }
-					add_to_temp_variable = { temp_loop_count = 1 }
-				}
-				if = {
-					limit = {
-						check_variable = { [INDUSTRY_3] > 0 }
-					}
-					add_to_array = { influence_array = [VARIABLE_ADDED_3] }
-					subtract_from_variable = { [INDUSTRY_3] = 1 }
-					add_to_temp_variable = { temp_loop_count = 1 }
-				}
-				if = {
-					limit = {
-						check_variable = { [INDUSTRY_2] > 0 }
-					}
-					add_to_array = { influence_array = [VARIABLE_ADDED_2] }
-					subtract_from_variable = { [INDUSTRY_2] = 1 }
-					add_to_temp_variable = { temp_loop_count = 1 }
-				}
-			}
-			while_loop_effect = {
-				limit = { 
-					check_variable = { [INDUSTRY_1] > 0 } 
-				}
-				add_to_array = { influence_array = [VARIABLE_ADDED_1] }
-				subtract_from_variable = { [INDUSTRY_1] = 1 }
-			}
-			add_to_array = { influence_array = [VARIABLE_ADDED_1] }
-			add_to_array = { influence_array = [VARIABLE_ADDED_1] }
-			add_to_array = { influence_array = [VARIABLE_ADDED_1] }
-			add_to_array = { influence_array = [VARIABLE_ADDED_1] }
-			add_to_array = { influence_array = [VARIABLE_ADDED_1] }
-			set_variable = { middle = influence_array^num }
-			set_temp_variable = { len = influence_array^num }
-			subtract_from_temp_variable = { len = 1 }
-			divide_variable = { middle = 2 }
-			round_variable = middle
-			for_loop_effect = {
-				start = 0
-				end = middle
+GKM_add_influence = {
+	for_loop_effect = {
+		start = 0
+		end = GKM_influence_array^num
 
-				set_temp_variable = { reverse = len }
-				subtract_from_temp_variable = { reverse = v }
-				set_temp_variable = { swap = influence_array^v }
-				set_variable = { influence_array^v = influence_array^reverse }
-				set_variable = { influence_array^reverse = swap }
-			}
-			clear_variable = middle
-			resize_array = { influence_array = 100 }
-			for_each_loop = {
-				array = influence_array
+		add_to_temp_array = { temp_GKM_influence_array = v }
+	}
 
-				if = {
-					limit = {
-						check_variable = { v = [VARIABLE_ADDED_1] }
-					}
-					add_to_variable = { [INDUSTRY_1] = 1 }
+	remove_from_temp_array = { temp_GKM_influence_array = temp_industry }
+	add_to_variable = { GKM_influence_array^temp_industry = temp_value_added }
+
+	while_loop_effect = {
+		limit = { check_variable = { temp_value_added > 0 } }
+
+		for_loop_effect = {
+			start = 0
+			end = temp_GKM_influence_array^num
+
+			if = {
+				limit = {
+					check_variable = { GKM_influence_array^temp_GKM_influence_array^v > 0 }
+					check_variable = { temp_value_added > 0 }
 				}
-				else_if = {
-					limit = {
-						check_variable = { v = [VARIABLE_ADDED_2] }
-					}
-					add_to_variable = { [INDUSTRY_2] = 1 }
-				}
-				else_if = {
-					limit = {
-						check_variable = { v = [VARIABLE_ADDED_3] }
-					}
-					add_to_variable = { [INDUSTRY_3] = 1 }
-				}
-				else_if = {
-					limit = {
-						check_variable = { v = [VARIABLE_ADDED_4] }
-					}
-					add_to_variable = { [INDUSTRY_4] = 1 }
-				}
+				subtract_from_variable = { GKM_influence_array^temp_GKM_influence_array^v = 1 }
+				subtract_from_temp_variable = { temp_value_added = 1 }
 			}
 		}
-		VARIABLE_ADDED_1 = "[?temp_industry_variable_1]"
-		VARIABLE_ADDED_2 = "[?temp_industry_variable_2]"
-		VARIABLE_ADDED_3 = "[?temp_industry_variable_3]"
-		VARIABLE_ADDED_4 = "[?temp_industry_variable_4]"
-		INDUSTRY_1 = "[get_industry_1]"
-		INDUSTRY_2 = "[get_industry_2]"
-		INDUSTRY_3 = "[get_industry_3]"
-		INDUSTRY_4 = "[get_industry_4]"
 	}
 }
 

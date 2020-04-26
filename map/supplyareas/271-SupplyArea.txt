@@ -2,8 +2,8 @@
 supply_area={
 	id=271
 	name="SUPPLYAREA_271"
-	value=8
+	value=13
 	states={
-		606 607 749 841 911
+		606 607 749 841 911 
 	}
 }

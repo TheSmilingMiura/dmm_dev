@@ -1,15 +1,9 @@
+
 supply_area={
-
 	id=227
-
 	name="SUPPLYAREA_227"
-
-	value=2
-
+	value=6
 	states={
-
-		669 797 737 799 922 800
- 
+		669 797 737 799 922 800 
 	}
-
 }

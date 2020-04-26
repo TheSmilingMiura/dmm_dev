@@ -1,7 +1,8 @@
+
 supply_area={
 	id=360
 	name="SUPPLYAREA_360"
-	value=8
+	value=16
 	states={
 		837 838 941 942 944 943 
 	}

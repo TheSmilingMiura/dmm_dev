@@ -1,8 +1,9 @@
+
 supply_area={
 	id=274
 	name="SUPPLYAREA_274"
-	value=7
+	value=6
 	states={
-		599 892 883
+		599 892 883 
 	}
 }

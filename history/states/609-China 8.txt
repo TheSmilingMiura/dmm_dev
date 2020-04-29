@@ -2,7 +2,7 @@
 state={
 	id=609
 	name="STATE_609" # East Hebei
-	manpower = 6400000
+	manpower = 18478900
 	
 	state_category = town
 
@@ -10,7 +10,7 @@ state={
 		owner = MAN
 		add_core_of = MAN
 		buildings = {
-			infrastructure = 5
+			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
 			3900 = {

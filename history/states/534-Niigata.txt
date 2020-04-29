@@ -2,7 +2,7 @@
 state={
 	id=534
 	name="STATE_534" # Hokuriku
-	manpower = 1933000
+	manpower = 3920486
 	
 	state_category = city
 
@@ -10,7 +10,7 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 2
 		}

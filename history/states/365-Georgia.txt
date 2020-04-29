@@ -2,15 +2,15 @@
 state={
 	id=365
 	name="STATE_365"
-	manpower = 2908504
+	manpower = 8186453
 	
 	state_category = city
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
+			infrastructure = 7
+			industrial_complex = 7
 			air_base = 2
 			11975 = {
 				naval_base = 1

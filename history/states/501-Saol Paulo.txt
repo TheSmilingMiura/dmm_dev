@@ -2,16 +2,16 @@
 state={
 	id=501
 	name="STATE_501"
-	manpower = 6199200
+	manpower = 41262199
 	state_category = city
 
 	history={
 		owner = CBR
 		add_core_of = CBR
 		buildings = {
-			arms_factory = 1
-			industrial_complex = 3
-			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 10
+			infrastructure = 8
 
 		}		
 		victory_points = {

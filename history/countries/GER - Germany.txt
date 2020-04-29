@@ -66,7 +66,7 @@ set_popularities = {
     communist = 0
 }
 
-create_faction = "Malburgpakt"
+create_faction = Malburgpakt
 add_to_faction = GER
 add_to_faction = AFK
 add_to_faction = AZR
@@ -186,7 +186,7 @@ add_ideas = {
 	recovering_economy
 	master_of_europe
 	heydrichs_ghost
-	#widespread_drug_addiction
+	widespread_drug_addiction
 }
 create_country_leader = {
 	name = "Wolfgang Schneiderhan"

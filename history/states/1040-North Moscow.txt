@@ -1,0 +1,14 @@
+state={
+	id=1040
+	name="STATE_1040"
+	state_category = large_city
+	provinces={
+		3259 6283 9378 11236 
+	}
+	history = {
+	owner = GKM
+	add_core_of = GKM
+	}
+	manpower = 100
+	buildings_max_level_factor=1.000
+}

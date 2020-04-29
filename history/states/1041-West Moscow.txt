@@ -1,0 +1,14 @@
+state={
+	id=1041
+	name="STATE_1041"
+	state_category = large_city
+	provinces={
+		366 401 3327 3358 3391 9302 11282 
+	}
+	history = {
+	owner = GKM
+	add_core_of = GKM
+	}
+	manpower = 100
+	buildings_max_level_factor=1.000
+}

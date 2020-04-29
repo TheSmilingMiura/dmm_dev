@@ -53,7 +53,7 @@ set_technology = {
 
 set_convoys = 400
 
-create_faction = Co-Prosperity Sphere
+create_faction = "Co-Prosperity Sphere"
 add_to_faction = JAP
 add_to_faction = RRC
 add_to_faction = PHI

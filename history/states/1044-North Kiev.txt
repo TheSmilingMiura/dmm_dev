@@ -1,0 +1,14 @@
+state={
+	id=1044
+	name="STATE_1044"
+	state_category = large_city
+	provinces={
+		489 3543 9568 
+	}
+	history = {
+	owner = UKR
+	add_core_of = UKR
+	}
+	manpower = 100
+	buildings_max_level_factor=1.000
+}

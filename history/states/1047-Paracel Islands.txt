@@ -1,0 +1,13 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		13412 
+	}
+	history = {
+	owner = RRC
+	add_core_of = RRC
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

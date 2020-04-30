@@ -10280,7 +10280,7 @@
 10279;132;156;184;land;true;plains;6
 10280;132;159;44;land;true;jungle;6
 10281;132;159;99;land;false;hills;2
-10282;132;159;149;land;false;jungle;6
+10282;132;159;149;land;;jungle;6
 10283;132;162;9;land;false;forest;6
 10284;132;162;64;land;false;plains;6
 10285;132;162;214;land;true;jungle;6
@@ -13256,7 +13256,7 @@
 13255;1;200;4;land;true;plains;6
 13256;1;20;4;land;true;plains;6
 13257;111;20;4;land;true;plains;6
-13258;111;20;78;land;false;plains;6
+13258;111;20;78;land;true;jungle;6
 13259;238;239;194;land;true;jungle;6
 13260;111;20;78;land;true;jungle;6
 13261;156;175;224;land;true;jungle;6

@@ -1,0 +1,155 @@
+ideas = {
+	country = {
+		DEN_commercial_industry_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_commercial_industry_focus" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.10
+			}
+		}
+		DEN_focus_on_both_industries = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_focus_on_both_industries" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		DEN_military_industry_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_military_industry_focus" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+			}
+		}
+		DEN_german_investments = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_german_investments" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		DEN_infrastructure_effort = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_infrastructure_effort" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		DEN_german_tied_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_german_tied_economy" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.5
+				mic_to_target_factor = 0.10
+				cic_to_target_factor = 0.10
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		DEN_our_own_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_our_own_economy" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			#picture =
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.10
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+	}
+	industrial_concern = {
+		DEN_messershmitt = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_messershmitt" }
+
+			allowed = { original_tag = DEN }
+			available = { has_completed_focus = DEN_Messerschmitt_Avionics_Factory }
+
+			#picture =
+
+			traits = { industrial_concern }
+
+			equipment_bonus = {
+				light_air = {
+					build_cost_ic = -0.10
+				}
+			}
+
+			research_bonus = {
+				industry = 0.05
+			}
+		}
+		DEN_mercedes_benz = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_mercedes_benz" }
+
+			allowed = { original_tag = DEN }
+			available = { has_completed_focus = DEN_Mercedes_Benz_Automobile_Factory }
+
+			#picture =
+
+			traits = { industrial_concern }
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.15
+				}
+			}
+
+			research_bonus = {
+				industry = 0.05
+			}
+		}
+	}
+}

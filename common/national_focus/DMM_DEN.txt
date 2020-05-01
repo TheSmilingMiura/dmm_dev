@@ -1,0 +1,548 @@
+focus_tree = {
+    id = DMM_DEN_1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = DEN
+        }
+    }
+	default = no
+	shared_focus = DEN_New_Economic_Policies
+}
+
+focus_tree = {
+    id = DMM_DEN_2
+    country = {
+        factor = 0
+    }
+	default = no
+	shared_focus = DEN_New_Economic_Policies
+}
+
+shared_focus = {
+	id = DEN_New_Economic_Policies
+	icon = GFX_unknown
+	allow_branch = {
+		has_country_flag = DEN_New_Economic_Policies_flag
+	}
+	x = 0
+	y = 0
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_New_Economic_Policies"
+		add_tech_bonus = {
+			name = DEN_New_Economic_Policies
+			bonus = 1.0
+			uses = 1
+			category = industry
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Focus_on_Commercial_Industry
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_New_Economic_Policies }
+	mutually_exclusive = { focus = DEN_Compromise_the_Deal focus = DEN_Focus_on_Military_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -2
+	y = 1
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Focus_on_Commercial_Industry"
+		add_timed_idea = {
+			idea = DEN_commercial_industry_focus
+			days = 200
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Compromise_the_Deal
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_New_Economic_Policies }
+	mutually_exclusive = { focus = DEN_Focus_on_Commercial_Industry focus = DEN_Focus_on_Military_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 0
+	y = 1
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Compromise_the_Deal"
+		add_timed_idea = {
+			idea = DEN_focus_on_both_industries
+			days = 200
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Focus_on_Military_Industry
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_New_Economic_Policies }
+	mutually_exclusive = { focus = DEN_Focus_on_Commercial_Industry focus = DEN_Compromise_the_Deal }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 2
+	y = 1
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Focus_on_Military_Industry"
+		add_timed_idea = {
+			idea = DEN_military_industry_focus
+			days = 200
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Chimneys_at_the_Farms
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Focus_on_Commercial_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -3
+	y = 2
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	bypass = {
+		custom_trigger_tooltip = {
+			tooltip = DEN_civ_available_tt
+			all_owned_state = {
+				free_building_slots = {
+					building = industrial_complex
+					size < 1
+					include_locked = yes
+				}
+			}
+		}
+	}
+
+	complete_tooltip = {
+		every_state = {
+			limit = { has_state_flag = DEN_Chimneys_at_the_Farms_civ }
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Chimneys_at_the_Farms"
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			set_state_flag = DEN_Chimneys_at_the_Farms_civ
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			set_state_flag = DEN_Chimneys_at_the_Farms_civ
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Smoke_over_Copenhagen
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Focus_on_Commercial_Industry focus = DEN_Compromise_the_Deal }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -1
+	y = 2
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	bypass = {
+		custom_trigger_tooltip = {
+			tooltip = DEN_civ_available_tt
+			37 = {
+				free_building_slots = {
+					building = industrial_complex
+					size < 2
+					include_locked = yes
+				}
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Smoke_over_Copenhagen"
+		37 = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Militarize_Jutland
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Compromise_the_Deal focus = DEN_Focus_on_Military_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 1
+	y = 2
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	 bypass = {
+		custom_trigger_tooltip = {
+			tooltip = DEN_mil_available_tt
+			99 = {
+				free_building_slots = {
+					building = arms_factory
+					size < 2
+					include_locked = yes
+				}
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Militarize_Jutland"
+		99 = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Industrialize_Copenhagen
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Focus_on_Military_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 3
+	y = 2
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	bypass = {
+		custom_trigger_tooltip = {
+			tooltip = DEN_civ_available_tt
+			37 = {
+				free_building_slots = {
+					building = industrial_complex
+					size < 1
+					include_locked = yes
+				}
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = DEN_mil_available_tt
+			37 = {
+				free_building_slots = {
+					building = arms_factory
+					size < 1
+					include_locked = yes
+				}
+			}
+		}
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Industrialize_Copenhagen"
+		37 = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		37 = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_German_Investments
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Smoke_over_Copenhagen focus = DEN_Militarize_Jutland }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -2
+	y = 3
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_German_Investments"
+		add_timed_idea = {
+			idea = DEN_german_investments
+			days = 150
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Construct_Infrastructure
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Smoke_over_Copenhagen focus = DEN_Militarize_Jutland }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 2
+	y = 3
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Construct_Infrastructure"
+		add_timed_idea = {
+			idea = DEN_infrastructure_effort
+			days = 150
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Messerschmitt_Avionics_Factory
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_German_Investments }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -3
+	y = 4
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Messerschmitt_Avionics_Factory"
+		custom_effect_tooltip = available_designer
+		show_ideas_tooltip = DEN_messershmitt
+		capital_scope = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Mercedes_Benz_Automobile_Factory
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_German_Investments }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -1
+	y = 4
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Mercedes_Benz_Automobile_Factory"
+		custom_effect_tooltip = available_designer
+		show_ideas_tooltip = DEN_mercedes_benz
+		capital_scope = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_Rely_on_the_German_Economy
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Construct_Infrastructure }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 1
+	y = 4
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Rely_on_the_German_Economy"
+		add_ideas = DEN_german_tied_economy
+	}
+}
+
+shared_focus = {
+	id = DEN_Cut_the_Strings
+	icon = GFX_unknown
+	prerequisite = { focus = DEN_Construct_Infrastructure }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 3
+	y = 4
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Cut_the_Strings"
+		add_political_power = -50
+		add_ideas = DEN_our_own_economy
+	}
+}

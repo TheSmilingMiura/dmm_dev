@@ -1,0 +1,76 @@
+﻿l_english:
+
+# Bookmarks
+
+# Opinion Modifiers
+
+# Events
+
+# Parties
+
+# Country Names
+
+# Focuses
+DEN_New_Economic_Policies:0 "New Economic Policies"
+DEN_New_Economic_Policies_desc:0 ""
+
+DEN_Focus_on_Commercial_Industry:0 "Focus on Commercial Industry"
+DEN_Focus_on_Commercial_Industry_desc:0 ""
+DEN_Compromise_the_Deal:0 "Compromise the Deal"
+DEN_Compromise_the_Deal_desc:0 ""
+DEN_Focus_on_Military_Industry:0 "Focus on Military Industry"
+DEN_Focus_on_Military_Industry_desc:0 ""
+
+DEN_Chimneys_at_the_Farms:0 "Chimneys at the Farms"
+DEN_Chimneys_at_the_Farms_desc:0 ""
+DEN_Smoke_over_Copenhagen:0 "Smoke over Copenhagen"
+DEN_Smoke_over_Copenhagen_desc:0 ""
+DEN_Militarize_Jutland:0 "Militarize Jutland"
+DEN_Militarize_Jutland_desc:0 ""
+DEN_Industrialize_Copenhagen:0 "Industrialize Copenhagen"
+DEN_Industrialize_Copenhagen_desc:0 ""
+
+DEN_German_Investments:0 "German Investments"
+DEN_German_Investments_desc:0 ""
+DEN_Construct_Infrastructure:0 "Construct Infrastructure"
+DEN_Construct_Infrastructure_desc:0 ""
+
+DEN_Messerschmitt_Avionics_Factory:0 "Messerschmitt Avionics Factory"
+DEN_Messerschmitt_Avionics_Factory_desc:0 ""
+DEN_Mercedes_Benz_Automobile_Factory:0 "Mercedes-Benz Automobile Factory"
+DEN_Mercedes_Benz_Automobile_Factory_desc:0 ""
+DEN_Rely_on_the_German_Economy:0 "Rely on the German Economy"
+DEN_Rely_on_the_German_Economy_desc:0 ""
+DEN_Cut_the_Strings:0 "Cut the Strings"
+DEN_Cut_the_Strings_desc:0 ""
+
+# Ideas
+DEN_commercial_industry_focus:0 "Commercial Industry Focus"
+DEN_commercial_industry_focus_desc:0 ""
+DEN_focus_on_both_industries:0 "Focus on Both Industries"
+DEN_focus_on_both_industriesl_desc:0 ""
+DEN_military_industry_focus:0 "Military Industry Focus"
+DEN_military_industry_focus_desc:0 ""
+DEN_german_investments:0 "German Investments"
+DEN_german_investments_desc:0 ""
+DEN_infrastructure_effort:0 "Infrastructure Effort"
+DEN_infrastructure_effort_desc:0 ""
+DEN_german_tied_economy:0 "German-Tied Economy"
+DEN_german_tied_economy_desc:0 ""
+DEN_our_own_economy:0 "Our Own Economy"
+DEN_our_own_economy_desc:0 ""
+
+DEN_messershmitt:0 "Messerschmitt"
+DEN_messershmitt_desc:0 ""
+DEN_mercedes_benz:0 "Mercedes-Benz"
+DEN_mercedes_benz_desc:0 ""
+
+# Flags
+
+# Tooltips
+DEN_civ_available_tt:0 "Not enough building slots for §YCivilian Factories§!"
+DEN_mil_available_tt:0 "Not enough building slots for §YMilitary Factories§!"
+
+# Leaders
+
+# Techs

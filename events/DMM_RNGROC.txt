@@ -153,7 +153,7 @@ country_event = {
 				remove_ideas = RRC_entry_garrison_pleased
 			}
 			if = {
-			limit = { RRC = { NOT = { has_completed_national_focus = { CHI_anewpolicyforchina } } } }
+			limit = { RRC = { NOT = { has_completed_focus = { CHI_anewpolicyforchina } } } }
 			complete_national_focus = CHI_anewpolicyforchina
 			else = {}
 			}
@@ -409,80 +409,80 @@ country_event = {
 	option = {
 		name = natchina.8.a
 		hidden_effect = {
-		CAC = {
-			608 = { add_core_of = PREV }
-			614 = { add_core_of = PREV }
-			597 = { add_core_of = PREV }
-			615 = { add_core_of = PREV }
-			607 = { add_core_of = PREV }
-			841 = { add_core_of = PREV }
-			606 = { add_core_of = PREV }
-			598 = { add_core_of = PREV }
-			836 = { add_core_of = PREV }
-			743 = { add_core_of = PREV }
-			transfer_state = 608
-			transfer_state = 614
-			transfer_state = 597
-			transfer_state = 615
-			transfer_state = 607
-			transfer_state = 841
-			transfer_state = 606
-			transfer_state = 598
-			transfer_state = 836
-			transfer_state = 743
-		}
-		country_event = {
-			id = natchina.9
-		}
-		swap_ideas = {
+			CAC = {
+				608 = { add_core_of = PREV }
+				614 = { add_core_of = PREV }
+				597 = { add_core_of = PREV }
+				615 = { add_core_of = PREV }
+				607 = { add_core_of = PREV }
+				841 = { add_core_of = PREV }
+				606 = { add_core_of = PREV }
+				598 = { add_core_of = PREV }
+				836 = { add_core_of = PREV }
+				743 = { add_core_of = PREV }
+				transfer_state = 608
+				transfer_state = 614
+				transfer_state = 597
+				transfer_state = 615
+				transfer_state = 607
+				transfer_state = 841
+				transfer_state = 606
+				transfer_state = 598
+				transfer_state = 836
+				transfer_state = 743
+			}
+			country_event = {
+				id = natchina.9
+			}
+			swap_ideas = {
 				remove_idea = japanese_military_restrictions
 				add_idea = RRC_collapsed_RNA
+			}
+			#remove_ideas = RRC_political_struggle
 		}
-		remove_ideas = RRC_political_struggle
-	}
 	}
 	option = {
 		name = natchina.8.b
 		hidden_effect = {
-		CAC = {
-			608 = { add_core_of = PREV }
-			614 = { add_core_of = PREV }
-			597 = { add_core_of = PREV }
-			615 = { add_core_of = PREV }
-			607 = { add_core_of = PREV }
-			841 = { add_core_of = PREV }
-			606 = { add_core_of = PREV }
-			598 = { add_core_of = PREV }
-			836 = { add_core_of = PREV }
-			743 = { add_core_of = PREV }
-			890 = { add_core_of = PREV }
-			911 = { add_core_of = PREV }
-			transfer_state = 608
-			transfer_state = 614
-			transfer_state = 597
-			transfer_state = 615
-			transfer_state = 607
-			transfer_state = 841
-			transfer_state = 606
-			transfer_state = 598
-			transfer_state = 836
-			transfer_state = 743
-			transfer_state = 890
-			transfer_state = 911
-		}
-		RRC = {
-			country_event = {
-				id = natchina.9
-			}
 			CAC = {
-				change_tag_from = ROOT
+				608 = { add_core_of = PREV }
+				614 = { add_core_of = PREV }
+				597 = { add_core_of = PREV }
+				615 = { add_core_of = PREV }
+				607 = { add_core_of = PREV }
+				841 = { add_core_of = PREV }
+				606 = { add_core_of = PREV }
+				598 = { add_core_of = PREV }
+				836 = { add_core_of = PREV }
+				743 = { add_core_of = PREV }
+				890 = { add_core_of = PREV }
+				911 = { add_core_of = PREV }
+				transfer_state = 608
+				transfer_state = 614
+				transfer_state = 597
+				transfer_state = 615
+				transfer_state = 607
+				transfer_state = 841
+				transfer_state = 606
+				transfer_state = 598
+				transfer_state = 836
+				transfer_state = 743
+				transfer_state = 890
+				transfer_state = 911
 			}
-		}
-		swap_ideas = {
+			RRC = {
+				country_event = {
+					id = natchina.9
+				}
+				CAC = {
+					change_tag_from = ROOT
+				}
+			}
+			swap_ideas = {
 				remove_idea = japanese_military_restrictions
 				add_idea = RRC_collapsed_RNA
 			}
-			remove_ideas = RRC_political_struggle
+			#remove_ideas = RRC_political_struggle
 		}
 	}
 }
@@ -672,7 +672,7 @@ country_event = {
 					producer = CAC
 				}
 				add_equipment_to_stockpile = {
-					type = artillery
+					type = artillery_equipment
 					amount = 800
 					producer = CAC
 				}

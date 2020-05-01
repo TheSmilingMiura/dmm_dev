@@ -193,7 +193,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "GER_Wolfgang_Schneiderhan.tga"
 	expire = "2020.1.1"
-	ideology = authoritarian
+	ideology = despotism
 	traits = {
 		dictator
 	}
@@ -238,7 +238,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 	expire = "1965.1.1"
-	ideology = communist
+	ideology = stalinist_communism
 	traits = {
 		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
 		exiled # He left in 1933 so he should still be exiled

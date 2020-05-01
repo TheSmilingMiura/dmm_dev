@@ -53,7 +53,7 @@ add_ideas = {
 	partial_economic_mobilisation
 	SOV_famine
 	SOV_the_russian_bear
-	SOV_corrupt_oligarchic_republic
+	#SOV_corrupt_oligarchic_republic
 }
 
 set_popularities = {
@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "SOV_Aleksandr_Dvornikov.dds"
 	expire = "2024.3.1"
-	ideology = authoritarian
+	ideology = despotism
 	traits = {
 		
 	}

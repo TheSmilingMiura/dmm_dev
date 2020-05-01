@@ -1,1 +1,3 @@
-﻿#yeeted
+﻿capital = 78
+
+oob = "MOL_2004"

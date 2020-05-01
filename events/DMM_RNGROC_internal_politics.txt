@@ -547,10 +547,10 @@ country_event = { #collapse
 	option = { #ok
 		name = rrcdom.14.a
 		hidden_effect = {
-		swap_ideas = {
-			remove_idea = RRC_political_struggle
-			add_idea = RRC_political_struggle_2
-		}
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
 		add_political_power = -250
 		retire_country_leader = yes
 		set_politics = {
@@ -588,10 +588,10 @@ country_event = { #koichi steps in
 		name = rrcdom.15.a
 		hidden_effect = {
 			add_political_power = -200
-			swap_ideas = {
-				remove_idea = RRC_political_struggle
-				add_idea = RRC_political_struggle_2
-			}
+			#swap_ideas = {
+			#	remove_idea = RRC_political_struggle
+			#	add_idea = RRC_political_struggle_2
+			#}
 			country_event = {
 				id = natchina.6
 				days = 90
@@ -624,10 +624,10 @@ country_event = { #wang inaugurated
 	option = { #ok
 		name = rrcdom.16.a
 		hidden_effect = {
-			swap_ideas = {
-				remove_idea = RRC_political_struggle
-				add_idea = RRC_political_struggle_2
-			}
+			#swap_ideas = {
+			#	remove_idea = RRC_political_struggle
+			#	add_idea = RRC_political_struggle_2
+			#}
 			country_event = {
 				id = natchina.6
 				days = 40
@@ -720,10 +720,10 @@ country_event = { #liu seizes power
 	option = {
 		name = rrcdom.19.a
 		hidden_effect = {
-		swap_ideas = {
-			remove_idea = RRC_political_struggle
-			add_idea = RRC_political_struggle_2
-		}
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
 		country_event = {
 			id = natchina.6
 			days = 70

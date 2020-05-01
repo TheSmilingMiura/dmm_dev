@@ -1230,8 +1230,6 @@ operation_coup_government = { ### 7 1/70
 			}
 		}
 	}
-	phases = { lar_fra_coup_pre_position_units = { base = 100 } }
-	phases = { lar_fra_launch_coup = { base = 100 } }
 }
 
 operation_boost_resistance = { ### 8 2/40

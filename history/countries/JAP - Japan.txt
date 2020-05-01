@@ -99,16 +99,6 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "JAP_Shintaro_Ishihara.dds"
 	expire = "1989.1.1"
-	ideology = conservative
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
 	ideology = new_conservatism
 	traits = {
 	}

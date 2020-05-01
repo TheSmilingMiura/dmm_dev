@@ -1,6 +1,6 @@
 BRI = "countries/Brittany.txt"
 MOL = "countries/Moldova.txt"
-OOC = "countries/Occitania.txt"
+OCC = "countries/Occitania.txt"
 SUR = "countries/Suriname.txt"
 TMS = "countries/Turkmenistan.txt"
 UZB = "countries/Uzbekistan.txt"

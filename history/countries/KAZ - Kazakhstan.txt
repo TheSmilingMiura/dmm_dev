@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = ""
 	picture = "KAZ_Serikbolsyn_Abdildin.dds"
 	expire = "1953.3.1"
-	ideology = communist
+	ideology = international_communism
 	traits = {
 		
 	}

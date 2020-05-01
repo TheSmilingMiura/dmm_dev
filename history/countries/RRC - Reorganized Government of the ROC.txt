@@ -123,7 +123,7 @@ create_country_leader = {
 	desc = "POLITICS_NONE_DESC"
 	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
 	expire = "2065.1.1"
-	ideology = corporate_rule
+	ideology = corporate_republic
 	traits = {
 	}
 }

@@ -31,7 +31,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -86,7 +86,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -161,7 +161,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -174,10 +174,6 @@ country_event = {
 		name = election.4.a
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 2
-				can_lose_democracy_support = yes
-			}
 			modifier = {
 				add = 1
 				can_lose_unity = no
@@ -226,10 +222,6 @@ country_event = {
 		name = election.5.a
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 2
-				can_lose_democracy_support = yes
-			}
 			modifier = {
 				add = 1
 				can_lose_unity = no
@@ -309,10 +301,6 @@ country_event = {
 		name = election.6.a
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 10
-				can_lose_democracy_support = yes
-			}
 		}
 		#add_popularity = {
 		#	ideology = fascism
@@ -325,10 +313,6 @@ country_event = {
 		name = election.6.b
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 10
-				can_lose_democracy_support = yes
-			}
 		}
 		#add_popularity = {
 		#	ideology = communism
@@ -341,10 +325,6 @@ country_event = {
 		name = election.6.c
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 1
-				can_lose_democracy_support = no
-			}
 		}
 		#add_popularity = {
 		#	ideology = democratic
@@ -385,10 +365,6 @@ country_event = {
 		name = election.7.a
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 2
-				can_lose_democracy_support = yes
-			}
 			modifier = {
 				add = 1
 				can_lose_unity = no
@@ -458,10 +434,6 @@ country_event = {
 		name = election.8.a
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 2
-				can_lose_democracy_support = yes
-			}
 			modifier = {
 				add = 1
 				can_lose_unity = no
@@ -602,10 +574,6 @@ country_event = {
 		name = election.13.a
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 1
-				can_lose_democracy_support = yes
-			}
 		}
 		#add_popularity = {
 		#	ideology = fascism
@@ -617,10 +585,6 @@ country_event = {
 		name = election.13.b
 		ai_chance = {
 			base = 0
-			modifier = {
-				add = 1
-				can_lose_democracy_support = no
-			}
 		}
 		#add_popularity = {
 		#	ideology = democratic
@@ -665,11 +629,7 @@ country_event = {
 
 	option = {
 		ai_chance = {
-			base = 0
-			modifier = {
-				add = 3
-				can_lose_democracy_support = yes
-			}			
+			base = 0	
 			modifier = {
 				add = 1
 				can_lose_unity = no
@@ -713,11 +673,7 @@ country_event = {
 	
 	option = {
 		ai_chance = {
-			base = 0
-			modifier = {
-				add = 3
-				can_lose_democracy_support = no
-			}			
+			base = 0			
 		}
 		name = election.15.a
 		add_political_power = -50
@@ -727,11 +683,7 @@ country_event = {
 	option = {
 		name = election.15.b
 		ai_chance = {
-			base = 0
-			modifier = {
-				add = 10
-				can_lose_democracy_support = yes
-			}			
+			base = 0		
 			modifier = {
 				add = 1
 				can_lose_unity = no
@@ -763,7 +715,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -790,7 +742,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			}
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }

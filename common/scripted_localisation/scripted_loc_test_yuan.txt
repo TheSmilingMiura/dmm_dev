@@ -2,7 +2,7 @@ defined_text = {
 	name = DMM_ExecYuanLeaderDesc
 	text = {
 		trigger = { #Yan Jiagan
-			RRC = { is_player = yes }
+			RRC = { is_ai = no }
 		}
 		localization_key = dmm_rrc_exec_yan_jiagan
 	}
@@ -11,7 +11,7 @@ defined_text = {
 	name = DMM_LegisYuanLeaderDesc
 	text = {
 		trigger = { #Wang Jinping
-			RRC = { is_player = yes }
+			RRC = { is_ai = no }
 		}
 		localization_key = dmm_rrc_legis_wang_jinping
 	}
@@ -20,7 +20,7 @@ defined_text = {
 	name = DMM_ExamYuanLeaderDesc
 	text = {
 		trigger = { #Kong Decheng
-			RRC = { is_player = yes }
+			RRC = { is_ai = no }
 		}
 		localization_key = dmm_rrc_exam_kong_decheng
 	}
@@ -29,7 +29,7 @@ defined_text = {
 	name = DMM_ControlYuanLeaderDesc
 	text = {
 		trigger = { #Qian Fu
-			RRC = { is_player = yes }
+			RRC = { is_ai = no }
 		}
 		localization_key = dmm_rrc_control_qian_fu
 	}
@@ -38,7 +38,7 @@ defined_text = {
 	name = DMM_JudicYuanLeaderDesc
 	text = {
 		trigger = { #Xu Zongli
-			RRC = { is_player = yes }
+			RRC = { is_ai = no }
 		}
 		localization_key = dmm_rrc_judic_xu_zongli
 	}

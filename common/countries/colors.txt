@@ -873,10 +873,10 @@ LUS = {
 	color_ui = rgb { 114  135  69 }
 }
 
-CAL = {
-	color = rgb { 139  82  65 }
-	color_ui = rgb { 139  82  65 }
-}
+#CAL = {
+#	color = rgb { 139  82  65 }
+#	color_ui = rgb { 139  82  65 }
+#}
 
 BOD = {
 	color = rgb { 247 91  96 }

@@ -27,14 +27,3 @@ set_popularities = {
     socialist = 9
     communist = 0
 }
-
-create_country_leader = {
-	name = "Placeholder"
-	desc = "She's underage"
-	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
-	expire = "2040.1.1"
-	ideology = liberal
-	traits = {
-		
-	}
-}

@@ -1,0 +1,3 @@
+﻿capital = 1
+
+oob = "COR_1936"

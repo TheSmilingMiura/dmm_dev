@@ -141,7 +141,7 @@ country_event = {
 				amount = -5
 				state = 600
 			}
-			manpower = -1000
+			add_manpower = -1000
 			add_stability = -0.1
 		}
 		else_if = { #official assaulted by liuist radicals
@@ -178,7 +178,7 @@ country_event = {
 				change_instability_china = yes
 				set_country_flag = rrc_wenying_chen_gongbo
 			}
-			manpower = -1560
+			add_manpower = -1560
 			add_political_power = -70
 		}
 		else_if = { #dissident escapes house arrest

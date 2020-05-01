@@ -39,5 +39,61 @@ spriteTypes = {
 		name = "GFX_focus_usa_ger_detente"
 		texturefile = "gfx/interface/goals/usa_ger_detente.dds"
 	}
-
+	# DEN
+	SpriteType = { 
+		name = "GFX_DEN_New_Economic_Policies"
+		texturefile = "gfx/interface/goals/DEN_New_Economic_Policies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Focus_on_Commercial_Industry"
+		texturefile = "gfx/interface/goals/DEN_Focus_on_Commercial_Industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Compromise_the_Deal"
+		texturefile = "gfx/interface/goals/DEN_Compromise_the_Deal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Focus_on_Military_Industry"
+		texturefile = "gfx/interface/goals/DEN_Focus_on_Military_Industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Chimney_at_the_Farms"
+		texturefile = "gfx/interface/goals/DEN_Chimney_at_the_Farms.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Smoke_Over_Copenhagen"
+		texturefile = "gfx/interface/goals/DEN_Smoke_Over_Copenhagen.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Militarize_Jutland"
+		texturefile = "gfx/interface/goals/DEN_Militarize_Jutland.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Industrialize_Copenhagen"
+		texturefile = "gfx/interface/goals/DEN_Industrialize_Copenhagen.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_German_Investment"
+		texturefile = "gfx/interface/goals/DEN_German_Investment.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Construct_Infrastructure"
+		texturefile = "gfx/interface/goals/DEN_Construct_Infrastructure.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Messerschmitt_Avionics_Factory"
+		texturefile = "gfx/interface/goals/DEN_Messerschmitt_Avionics_Factory.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Mercedes_Benz_Automobile_Factory"
+		texturefile = "gfx/interface/goals/DEN_Mercedes_Benz_Automobile_Factory.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Rely_on_the_German_Economy"
+		texturefile = "gfx/interface/goals/DEN_Rely_on_the_German_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Cut_the_Strings"
+		texturefile = "gfx/interface/goals/DEN_Cut_the_Strings.dds"
+	}
 }

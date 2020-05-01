@@ -20,6 +20,8 @@ set_technology = {
 	transport = 1
 }
 
+set_country_flag = DEN_New_Economic_Policies_flag
+
 set_politics = {
 	ruling_party = authoritarian
 	last_election = "1936.1.1"

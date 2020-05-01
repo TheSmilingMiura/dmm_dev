@@ -22,11 +22,11 @@ focus_tree = {
 
 shared_focus = {
 	id = DEN_New_Economic_Policies
-	icon = GFX_unknown
+	icon = GFX_DEN_New_Economic_Policies
 	allow_branch = {
 		has_country_flag = DEN_New_Economic_Policies_flag
 	}
-	x = 0
+	x = 9
 	y = 0
 
 	cost = 10
@@ -50,7 +50,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Focus_on_Commercial_Industry
-	icon = GFX_unknown
+	icon = GFX_DEN_Focus_on_Commercial_Industry
 	prerequisite = { focus = DEN_New_Economic_Policies }
 	mutually_exclusive = { focus = DEN_Compromise_the_Deal focus = DEN_Focus_on_Military_Industry }
 	relative_position_id = DEN_New_Economic_Policies
@@ -76,7 +76,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Compromise_the_Deal
-	icon = GFX_unknown
+	icon = GFX_DEN_Compromise_the_Deal
 	prerequisite = { focus = DEN_New_Economic_Policies }
 	mutually_exclusive = { focus = DEN_Focus_on_Commercial_Industry focus = DEN_Focus_on_Military_Industry }
 	relative_position_id = DEN_New_Economic_Policies
@@ -102,7 +102,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Focus_on_Military_Industry
-	icon = GFX_unknown
+	icon = GFX_DEN_Focus_on_Military_Industry
 	prerequisite = { focus = DEN_New_Economic_Policies }
 	mutually_exclusive = { focus = DEN_Focus_on_Commercial_Industry focus = DEN_Compromise_the_Deal }
 	relative_position_id = DEN_New_Economic_Policies
@@ -128,7 +128,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Chimneys_at_the_Farms
-	icon = GFX_unknown
+	icon = GFX_DEN_Chimney_at_the_Farms
 	prerequisite = { focus = DEN_Focus_on_Commercial_Industry }
 	relative_position_id = DEN_New_Economic_Policies
 	x = -3
@@ -206,7 +206,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Smoke_over_Copenhagen
-	icon = GFX_unknown
+	icon = GFX_DEN_Smoke_Over_Copenhagen
 	prerequisite = { focus = DEN_Focus_on_Commercial_Industry focus = DEN_Compromise_the_Deal }
 	relative_position_id = DEN_New_Economic_Policies
 	x = -1
@@ -236,18 +236,20 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_Smoke_over_Copenhagen"
 		37 = {
-			limit = {
-				free_building_slots = {
-					building = industrial_complex
-					size > 1
-					include_locked = yes
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
 				}
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -255,7 +257,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Militarize_Jutland
-	icon = GFX_unknown
+	icon = GFX_DEN_Militarize_Jutland
 	prerequisite = { focus = DEN_Compromise_the_Deal focus = DEN_Focus_on_Military_Industry }
 	relative_position_id = DEN_New_Economic_Policies
 	x = 1
@@ -285,18 +287,20 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_Militarize_Jutland"
 		99 = {
-			limit = {
-				free_building_slots = {
-					building = arms_factory
-					size > 1
-					include_locked = yes
+			if = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
 				}
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -304,7 +308,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Industrialize_Copenhagen
-	icon = GFX_unknown
+	icon = GFX_DEN_Industrialize_Copenhagen
 	prerequisite = { focus = DEN_Focus_on_Military_Industry }
 	relative_position_id = DEN_New_Economic_Policies
 	x = 3
@@ -344,33 +348,37 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_Industrialize_Copenhagen"
 		37 = {
-			limit = {
-				free_building_slots = {
-					building = industrial_complex
-					size > 0
-					include_locked = yes
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
 				}
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 		37 = {
-			limit = {
-				free_building_slots = {
-					building = arms_factory
-					size > 0
-					include_locked = yes
+			if = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
 				}
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -378,7 +386,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_German_Investments
-	icon = GFX_unknown
+	icon = GFX_DEN_German_Investment
 	prerequisite = { focus = DEN_Smoke_over_Copenhagen focus = DEN_Militarize_Jutland }
 	relative_position_id = DEN_New_Economic_Policies
 	x = -2
@@ -403,7 +411,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Construct_Infrastructure
-	icon = GFX_unknown
+	icon = GFX_DEN_Construct_Infrastructure
 	prerequisite = { focus = DEN_Smoke_over_Copenhagen focus = DEN_Militarize_Jutland }
 	relative_position_id = DEN_New_Economic_Policies
 	x = 2
@@ -428,8 +436,9 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Messerschmitt_Avionics_Factory
-	icon = GFX_unknown
+	icon = GFX_DEN_Messerschmitt_Avionics_Factory
 	prerequisite = { focus = DEN_German_Investments }
+	mutually_exclusive = { focus = DEN_Mercedes_Benz_Automobile_Factory }
 	relative_position_id = DEN_New_Economic_Policies
 	x = -3
 	y = 4
@@ -447,18 +456,20 @@ shared_focus = {
 		custom_effect_tooltip = available_designer
 		show_ideas_tooltip = DEN_messershmitt
 		capital_scope = {
-			limit = {
-				free_building_slots = {
-					building = industrial_complex
-					size > 0
-					include_locked = yes
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
 				}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -466,8 +477,9 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Mercedes_Benz_Automobile_Factory
-	icon = GFX_unknown
+	icon = GFX_DEN_Mercedes_Benz_Automobile_Factory
 	prerequisite = { focus = DEN_German_Investments }
+	mutually_exclusive = { focus = DEN_Messerschmitt_Avionics_Factory }
 	relative_position_id = DEN_New_Economic_Policies
 	x = -1
 	y = 4
@@ -485,18 +497,20 @@ shared_focus = {
 		custom_effect_tooltip = available_designer
 		show_ideas_tooltip = DEN_mercedes_benz
 		capital_scope = {
-			limit = {
-				free_building_slots = {
-					building = industrial_complex
-					size > 0
-					include_locked = yes
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
 				}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -504,8 +518,9 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Rely_on_the_German_Economy
-	icon = GFX_unknown
+	icon = GFX_DEN_Rely_on_the_German_Economy
 	prerequisite = { focus = DEN_Construct_Infrastructure }
+	mutually_exclusive = { focus = DEN_Cut_the_Strings }
 	relative_position_id = DEN_New_Economic_Policies
 	x = 1
 	y = 4
@@ -526,8 +541,9 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_Cut_the_Strings
-	icon = GFX_unknown
+	icon = GFX_DEN_Cut_the_Strings
 	prerequisite = { focus = DEN_Construct_Infrastructure }
+	mutually_exclusive = { focus = DEN_Rely_on_the_German_Economy }
 	relative_position_id = DEN_New_Economic_Policies
 	x = 3
 	y = 4

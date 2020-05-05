@@ -13,8 +13,8 @@ state={
 		owner = SAU
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 10
 			12702 = {
 				naval_base = 6
 			}

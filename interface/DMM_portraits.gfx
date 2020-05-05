@@ -1,0 +1,38 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Ekkehard_Schultz"
+		texturefile = "gfx/leaders/GKM/Ekkehard_Schultz.dds"
+	}
+	spriteType = {
+		name = "GFX_The_Committee"
+		texturefile = "gfx/leaders/GKM/Empty.dds"
+	}
+	spriteType = {
+		name = "GFX_Hilmar_Kopper"
+		texturefile = "gfx/leaders/GKM/Hilmar_Kopper.dds"
+	}
+	spriteType = {
+		name = "GFX_Heinrich_von_Pierer"
+		texturefile = "gfx/leaders/GKM/Heinrich_von_Pierer.dds"
+	}
+	spriteType = {
+		name = "GFX_Rainer_Hertrich"
+		texturefile = "gfx/leaders/GKM/Rainer_Hertrich.dds"
+	}
+	spriteType = {
+		name = "GFX_Andreas_Sperl"
+		texturefile = "gfx/leaders/GKM/Andreas_Sperl.dds"
+	}
+	spriteType = {
+		name = "GFX_G36"
+		texturefile = "gfx/leaders/GKM/G36.dds"
+	}
+	spriteType = {
+		name = "GFX_The_Pantheon"
+		texturefile = "gfx/leaders/GKM/Empty.dds"
+	}
+	spriteType = {
+		name = "GFX_Jurgen_E_Schrempp"
+		texturefile = "gfx/leaders/GKM/Jurgen_E_Schrempp.dds"
+	}
+}

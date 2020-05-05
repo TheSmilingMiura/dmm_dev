@@ -149,5 +149,32 @@ spriteTypes = {
 		name = "GFX_idea_afrikakorps2"
 		texturefile = "gfx/interface/ideas/afrikakorps2.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_weak_valuta"
+		texturefile = "gfx/interface/ideas/weak_valuta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_commercial_industry_focus"
+		texturefile = "gfx/interface/ideas/commercial_industry_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_focus_on_both_industries"
+		texturefile = "gfx/interface/ideas/focus_on_both_industries.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_industry_focus"
+		texturefile = "gfx/interface/ideas/military_industry_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_messerschmittnew"
+		texturefile = "gfx/interface/ideas/messerschmittnew.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mercedes_benz"
+		texturefile = "gfx/interface/ideas/mercedes_benz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_messerschmittnew2"
+		texturefile = "gfx/interface/ideas/messerschmittnew2.dds"
+	}
 }

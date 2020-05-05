@@ -1,0 +1,231 @@
+defined_text = {
+	name = GetIndustryIcon
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "GFX_idea_messerschmittnew"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "GFX_idea_messerschmittnew"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "GFX_idea_messerschmittnew"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = "GFX_idea_messerschmittnew"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = "GFX_idea_messerschmittnew2"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = "GFX_idea_messerschmittnew"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = "GFX_idea_messerschmittnew"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = "GFX_idea_mercedes_benz"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }
+		}
+		localization_key = "GFX_idea_mercedes_benz"
+	}
+}
+
+defined_text = {
+	name = GetIndustryIconName
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "KRB"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "ARSI"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "Deutsche Bank"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = "Siemens"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = "Messerschmitt"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = "Focke-Wulf"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = "Haenel"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = "IG Farben"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }
+		}
+		localization_key = "Mercedes-Benz"
+	}
+}
+
+defined_text = {
+	name = GetIndustryPortrait
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "GFX_Ekkehard_Schultz"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "GFX_The_Committee"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "GFX_Hilmar_Kopper"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = "GFX_Heinrich_von_Pierer"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = "GFX_Rainer_Hertrich"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = "GFX_Andreas_Sperl"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = "GFX_G36"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = "GFX_The_Pantheon"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }
+		}
+		localization_key = "GFX_Jurgen_E_Schrempp"
+	}
+}
+
+defined_text = {
+	name = GetIndustryPortraitName
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = "Ekkehard Schulz"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = "The Committee"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = "Hilmar Kopper"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = "Heinrich von Pierer"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = "Rainer Hertrich"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = "Andreas Sperl"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = "G36"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = "The Pantheon"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }
+		}
+		localization_key = "Jürgen E. Schrempp"
+	}
+}

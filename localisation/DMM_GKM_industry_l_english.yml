@@ -1,0 +1,7 @@
+﻿l_english:
+
+# Scripted GUI
+
+# Tooltips
+DMM_GKM_industry_open_tt:0 "Open Industry Screen"
+DMM_GKM_industry_icon_tt:0 "[GetIndustryIconName]"

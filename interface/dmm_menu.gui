@@ -82,12 +82,12 @@ guiTypes = {
            spriteType = "GFX_dmm_menu_bg"
          }
          
-         iconType = {
-           name = "title_pollution"
-           spriteType = "GFX_pollution_meter_background"
-           position = { x=0 y=-20}
-           Orientation = "MIDDLE"         
-         }
+#         iconType = {
+#          name = "title_pollution"
+#          spriteType = "GFX_pollution_meter_background"
+#          position = { x=0 y=-20}
+#          Orientation = "MIDDLE"         
+#        }
      }    
          
 }

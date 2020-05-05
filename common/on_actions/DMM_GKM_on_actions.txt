@@ -1,0 +1,22 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GKM = {
+				add_to_array = { GKM_influence_array = 25 } # aerospace industry
+				add_to_array = { GKM_influence_array = 25 } # defense industry
+				add_to_array = { GKM_influence_array = 25 } # heavy industry
+				add_to_array = { GKM_influence_array = 25 } # consumer industry
+				
+				add_to_array = { DMM_GKM_industry_array = 1 } # KRB
+				add_to_array = { DMM_GKM_industry_array = 2 } # ASRI
+				add_to_array = { DMM_GKM_industry_array = 3 } # Deutsche Bank
+				add_to_array = { DMM_GKM_industry_array = 4 } # Siemens
+				add_to_array = { DMM_GKM_industry_array = 5 } # Messerschmitt
+				add_to_array = { DMM_GKM_industry_array = 6 } # Focke-Wulf
+				add_to_array = { DMM_GKM_industry_array = 7 } # Haenel
+				add_to_array = { DMM_GKM_industry_array = 8 } # IG Farben
+				add_to_array = { DMM_GKM_industry_array = 9 } # Mercedes-Benz
+			}
+		}
+	}
+}

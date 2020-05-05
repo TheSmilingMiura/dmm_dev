@@ -1,0 +1,58 @@
+scripted_gui = {
+	DMM_GKM_industry_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+        window_name = "DMM_GKM_industry_open_container"
+		dirty = show_GKM_industry
+
+		visible = {
+			original_tag = GKM 
+		}
+
+		effects = {
+			DMM_GKM_industry_open_button_click = {
+				if = {
+					limit = { has_variable = show_GKM_industry }
+					clear_variable = show_GKM_industry
+				}
+				else = {
+					set_variable = { show_GKM_industry = 1 }
+				}
+			}
+		}
+	}
+
+	DMM_GKM_industry_main = {
+		 context_type = player_context
+        parent_window_token = politics_tab
+        window_name = "DMM_GKM_industry_main_container"
+
+        visible = {
+            check_variable = { show_GKM_industry > 0 }
+        }
+
+		dynamic_lists = {
+			DMM_GKM_industry_grid = {
+				array = DMM_GKM_industry_array
+				change_scope = yes
+				entry_container = DMM_GKM_industry_entry
+			}
+		}
+
+		effects = {
+            DMM_GKM_industry_close_button_click = {
+				clear_variable = show_GKM_industry
+            }
+        }
+
+		properties = {
+			DMM_GKM_industry_icon = {
+                image = "[GetIndustryIcon]"
+			}
+			DMM_GKM_industry_portrait = {
+                image = "[GetIndustryPortrait]"
+			}
+		}
+	}
+}
+}

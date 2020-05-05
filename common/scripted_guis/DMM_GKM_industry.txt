@@ -55,4 +55,3 @@ scripted_gui = {
 		}
 	}
 }
-}

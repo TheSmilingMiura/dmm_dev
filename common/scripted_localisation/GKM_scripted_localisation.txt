@@ -4,13 +4,13 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 1 }
 		}
-		localization_key = "GFX_idea_messerschmittnew"
+		localization_key = "GFX_idea_KRB"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 2 }
 		}
-		localization_key = "GFX_idea_messerschmittnew"
+		localization_key = "GFX_idea_ARSI"
 	}
 	text = {
 		trigger = {
@@ -22,13 +22,13 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 4 }
 		}
-		localization_key = "GFX_idea_messerschmittnew"
+		localization_key = "GFX_idea_siemens"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 5 }
 		}
-		localization_key = "GFX_idea_messerschmittnew2"
+		localization_key = "GFX_idea_messerschmitt"
 	}
 	text = {
 		trigger = {
@@ -46,7 +46,7 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 8 }
 		}
-		localization_key = "GFX_idea_mercedes_benz"
+		localization_key = "GFX_idea_igfarben"
 	}
 	text = {
 		trigger = {

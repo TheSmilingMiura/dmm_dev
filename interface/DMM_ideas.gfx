@@ -181,4 +181,12 @@ spriteTypes = {
 		name = "GFX_idea_siemens"
 		texturefile = "gfx/interface/ideas/siemens.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KRB"
+		texturefile = "gfx/interface/ideas/KRB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ARSI"
+		texturefile = "gfx/interface/ideas/ARSI.dds"
+	}
 }

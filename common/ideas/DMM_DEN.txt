@@ -1,12 +1,27 @@
 ideas = {
 	country = {
+		DEN_weak_valuta = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_commercial_industry_focus" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			picture = weak_valuta
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.20
+				industrial_capacity_factory = -0.15
+			}
+		}
 		DEN_commercial_industry_focus = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_commercial_industry_focus" }
 
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 
-			#picture =
+			picture = commercial_industry_focus
 
 			removal_cost = -1
 
@@ -20,7 +35,7 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 
-			#picture =
+			picture = focus_on_both_industries
 
 			removal_cost = -1
 
@@ -35,7 +50,7 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 
-			#picture =
+			picture = military_industry_focus
 
 			removal_cost = -1
 
@@ -117,7 +132,7 @@ ideas = {
 			allowed = { original_tag = DEN }
 			available = { has_completed_focus = DEN_Messerschmitt_Avionics_Factory }
 
-			#picture =
+			picture = messerschmittnew
 
 			traits = { industrial_concern }
 
@@ -137,7 +152,7 @@ ideas = {
 			allowed = { original_tag = DEN }
 			available = { has_completed_focus = DEN_Mercedes_Benz_Automobile_Factory }
 
-			#picture =
+			picture = mercedes_benz
 
 			traits = { industrial_concern }
 

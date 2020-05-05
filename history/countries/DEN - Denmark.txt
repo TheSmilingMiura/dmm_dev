@@ -22,6 +22,8 @@ set_technology = {
 
 set_country_flag = DEN_New_Economic_Policies_flag
 
+add_ideas = DEN_weak_valuta
+
 set_politics = {
 	ruling_party = authoritarian
 	last_election = "1936.1.1"

@@ -229,6 +229,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GKM/CAS_1960.dds"
 	}
 
+	# FIN Air
+	spriteType = {
+		name = "GFX_FIN_fighter_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/FIN/fighter_1960.dds"
+	}
+
 	# HUN Air
 	spriteType = {
 		name = "GFX_HUN_fighter_plane_2000_tech_medium"
@@ -245,8 +251,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/JAP/fighter_2040.dds"
 	}
 	spriteType = {
+		name = "GFX_JAP_cv_fighter_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/JAP/cv_fighter_1960.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_cv_fighter_plane_1970_tech_medium"
+		texturefile = "gfx/interface/technologies/JAP/cv_fighter_1970.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_cv_fighter_plane_1980_tech_medium"
+		texturefile = "gfx/interface/technologies/JAP/cv_fighter_1980.dds"
+	}
+	spriteType = {
 		name = "GFX_JAP_heavy_bomber_plane_1980_tech_medium"
 		texturefile = "gfx/interface/technologies/JAP/heavy_bomber_1980.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_heavy_bomber_plane_2030_tech_medium"
+		texturefile = "gfx/interface/technologies/JAP/heavy_bomber_2030.dds"
+	}
+
+	# SWE
+	spriteType = {
+		name = "GFX_SWE_CAS_plane_1970_tech_medium"
+		texturefile = "gfx/interface/technologies/SWE/CAS_1970.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_CAS_plane_1980_tech_medium"
+		texturefile = "gfx/interface/technologies/SWE/CAS_1980.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_fighter_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/SWE/fighter_1960.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_fighter_plane_1970_tech_medium"
+		texturefile = "gfx/interface/technologies/SWE/fighter_1970.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_fighter_plane_1980_tech_medium"
+		texturefile = "gfx/interface/technologies/SWE/fighter_1980.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_heavy_bomber_plane_1960_tech_medium"
+		texturefile = "gfx/interface/technologies/JAP/heavy_bomber_1960.dds"
 	}
 
 	# USA Air

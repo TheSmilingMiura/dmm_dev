@@ -174,7 +174,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mercedes_benz.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_messerschmittnew2"
-		texturefile = "gfx/interface/ideas/messerschmittnew2.dds"
+		name = "GFX_idea_messerschmitt"
+		texturefile = "gfx/interface/ideas/messerschmitt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_siemens"
+		texturefile = "gfx/interface/ideas/siemens.dds"
 	}
 }

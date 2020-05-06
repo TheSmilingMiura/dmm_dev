@@ -16,7 +16,7 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 3 }
 		}
-		localization_key = "GFX_idea_messerschmittnew"
+		localization_key = "GFX_idea_deutsche_bank"
 	}
 	text = {
 		trigger = {
@@ -34,13 +34,13 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 6 }
 		}
-		localization_key = "GFX_idea_messerschmittnew"
+		localization_key = "GFX_idea_focke_wulf"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 7 }
 		}
-		localization_key = "GFX_idea_messerschmittnew"
+		localization_key = "GFX_idea_haenel"
 	}
 	text = {
 		trigger = {

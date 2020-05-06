@@ -130,9 +130,10 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_messershmitt" }
 
 			allowed = { original_tag = DEN }
+
 			available = { has_completed_focus = DEN_Messerschmitt_Avionics_Factory }
 
-			picture = messerschmittnew
+			picture = messerschmitt
 
 			traits = { industrial_concern }
 
@@ -150,6 +151,7 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DEN_mercedes_benz" }
 
 			allowed = { original_tag = DEN }
+
 			available = { has_completed_focus = DEN_Mercedes_Benz_Automobile_Factory }
 
 			picture = mercedes_benz

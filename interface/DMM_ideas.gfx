@@ -166,6 +166,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/military_industry_focus.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_messerschmittnew"
+		texturefile = "gfx/interface/ideas/messerschmittnew.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_mercedes_benz"
 		texturefile = "gfx/interface/ideas/mercedes_benz.dds"
 	}
@@ -184,17 +188,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ARSI"
 		texturefile = "gfx/interface/ideas/ARSI.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_deutsche_bank"
-		texturefile = "gfx/interface/ideas/deutsche_bank.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_haenel"
-		texturefile = "gfx/interface/ideas/haenel.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_focke_wulf"
-		texturefile = "gfx/interface/ideas/focke_wulf.dds"
 	}
 }

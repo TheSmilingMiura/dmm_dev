@@ -6,8 +6,15 @@ state={
 		366 401 3327 3358 3391 9302 11282 
 	}
 	history = {
-	owner = GKM
-	add_core_of = GKM
+	    owner = GKM
+	    add_core_of = GKM
+	     buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 1
+			}
+		}
 	}
 	manpower = 100
 	buildings_max_level_factor=1.000

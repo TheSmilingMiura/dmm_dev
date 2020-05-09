@@ -5,7 +5,9 @@ state={
 	manpower = 1567322
 	
 	state_category = town
-
+        resources={
+		steel=64
+	}
 	history={
 		owner = SOV
 		buildings = {

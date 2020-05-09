@@ -6,9 +6,16 @@ state={
 		489 3543 9568 
 	}
 	history = {
-	owner = UKR
-	add_core_of = UKR
+	    owner = UKR
+	    add_core_of = UKR
+	     buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+			}
+		}
 	}
-	manpower = 100
+	manpower = 412100
 	buildings_max_level_factor=1.000
 }

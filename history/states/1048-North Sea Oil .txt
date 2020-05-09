@@ -4,11 +4,14 @@ state={
 	provinces={
 		13413 
 	}
-	
+	state_category = enclave
 	history = {
 	owner = RRC
 	add_core_of = RRC
 	}
-	manpower=0
+	resources={
+		oil = 120 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
 }

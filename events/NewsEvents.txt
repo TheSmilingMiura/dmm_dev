@@ -91,8 +91,8 @@ news_event = {
 
 news_event = {
 	id = news.3
-	title = news.2.t
-	desc = news.2.d
+	title = news.3.t
+	desc = news.3.d
 	picture = GFX_news_event_
 	
 	major = yes
@@ -100,7 +100,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = news.2.a
+		name = news.3.a
 		trigger = {
 			NOT = {
 				TAG = USA
@@ -113,27 +113,66 @@ news_event = {
 		}
 	}
 	option = {
-		name = news.2.b
+		name = news.3.b
 		trigger = { TAG = USA }
 	}
 	option = {
-		name = news.2.c
+		name = news.3.c
 		trigger = { TAG = GER }
 	}
 	option = {
-		name = news.2.d
+		name = news.3.d
 		trigger = { TAG = JAP }
 	}
 	option = {
-		name = news.2.e
+		name = news.3.e
 		trigger = { TAG = ITA }
 	}
 	option = {
-		name = news.2.e
+		name = news.3.f
 		trigger = { TAG = RRC }
 	}
 	option = {
-		name = news.2.e
+		name = news.3.g
 		trigger = { TAG = MAN }
+	}
+}
+
+news_event = {
+	id = news.3
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = JAP
+				TAG = ITA
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.4.c
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.4.d
+		trigger = { TAG = ITA }
+	}
+	option = {
+		name = news.4.e
+		trigger = { TAG = ENG }
 	}
 }

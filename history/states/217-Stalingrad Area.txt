@@ -2,7 +2,9 @@
 state={
 	id=217
 	name="STATE_217"
-
+        resources={
+		steel=110
+	}
 	history={
 		owner = GKM
 		victory_points = {

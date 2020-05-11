@@ -8,6 +8,7 @@ focus_tree = {
         }
     }
 	default = no
+	continuous_focus_position = { x = 16 y = 500 }
 	shared_focus = DEN_New_Economic_Policies
 }
 
@@ -17,6 +18,7 @@ focus_tree = {
         factor = 0
     }
 	default = no
+	continuous_focus_position = { x = 16 y = 500 }
 	shared_focus = DEN_New_Economic_Policies
 }
 
@@ -410,31 +412,6 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DEN_Construct_Infrastructure
-	icon = GFX_DEN_Construct_Infrastructure
-	prerequisite = { focus = DEN_Smoke_over_Copenhagen focus = DEN_Militarize_Jutland }
-	relative_position_id = DEN_New_Economic_Policies
-	x = 2
-	y = 3
-
-	cost = 10
-
-	ai_will_do = {
-		factor = 1
-	}
-
-	available_if_capitulated = no
-
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus DEN_Construct_Infrastructure"
-		add_timed_idea = {
-			idea = DEN_infrastructure_effort
-			days = 150
-		}
-	}
-}
-
-shared_focus = {
 	id = DEN_Messerschmitt_Avionics_Factory
 	icon = GFX_DEN_Messerschmitt_Avionics_Factory
 	prerequisite = { focus = DEN_German_Investments }
@@ -517,6 +494,31 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = DEN_Construct_Infrastructure
+	icon = GFX_DEN_Construct_Infrastructure
+	prerequisite = { focus = DEN_Smoke_over_Copenhagen focus = DEN_Militarize_Jutland }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 2
+	y = 3
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Construct_Infrastructure"
+		add_timed_idea = {
+			idea = DEN_infrastructure_effort
+			days = 150
+		}
+	}
+}
+
+shared_focus = {
 	id = DEN_Rely_on_the_German_Economy
 	icon = GFX_DEN_Rely_on_the_German_Economy
 	prerequisite = { focus = DEN_Construct_Infrastructure }
@@ -560,5 +562,922 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_Cut_the_Strings"
 		add_political_power = -50
 		add_ideas = DEN_our_own_economy
+	}
+}
+
+shared_focus = {
+	id = DEN_Phase_2_Oekonomirestrukturering
+	icon = GFX_DEN_Phase_2_Oekonomirestrukturering
+	prerequisite = { focus = DEN_Messerschmitt_Avionics_Factory focus = DEN_Mercedes_Benz_Automobile_Factory focus = DEN_Rely_on_the_German_Economy focus = DEN_Cut_the_Strings }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 0
+	y = 5
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Phase_2_Oekonomirestrukturering"
+	}
+}
+
+shared_focus = {
+	id = DEN_Rebuilding_the_Foundation
+	icon = GFX_DEN_Rebuilding_the_Foundation
+	prerequisite = { focus = DEN_Phase_2_Oekonomirestrukturering }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -2
+	y = 6
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Rebuilding_the_Foundation"
+	}
+}
+
+shared_focus = {
+	id = DEN_of_Our_Nations
+	icon = GFX_DEN_of_Our_Nations
+	prerequisite = { focus = DEN_Phase_2_Oekonomirestrukturering }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 0
+	y = 6
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_of_Our_Nations"
+	}
+}
+
+shared_focus = {
+	id = DEN_Fundamental_Economy
+	icon = GFX_DEN_Fundamental_Economy
+	prerequisite = { focus = DEN_Phase_2_Oekonomirestrukturering }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 2
+	y = 6
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Fundamental_Economy"
+	}
+}
+
+shared_focus = {
+	id = DEN_Brick_by_Brick
+	icon = GFX_DEN_Brick_by_Brick
+	prerequisite = { focus = DEN_Rebuilding_the_Foundation }
+	prerequisite = { focus = DEN_of_Our_Nations }
+	prerequisite = { focus = DEN_Fundamental_Economy }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 0
+	y = 7
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Brick_by_Brick"
+	}
+}
+
+shared_focus = {
+	id = DEN_External_Economy
+	icon = GFX_DEN_External_Economy
+	prerequisite = { focus = DEN_Brick_by_Brick }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -8
+	y = 8
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_External_Economy"
+	}
+}
+
+shared_focus = {
+	id = DEN_Tourist_Industry
+	icon = GFX_DEN_Tourist_Industry
+	prerequisite = { focus = DEN_External_Economy }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -12
+	y = 9
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Tourist_Industry"
+	}
+}
+
+shared_focus = {
+	id = DEN_Expand_Tourism
+	icon = GFX_DEN_Expand_Tourism
+	prerequisite = { focus = DEN_Tourist_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -14
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Expand_Tourism"
+	}
+}
+
+shared_focus = {
+	id = DEN_Expand_Tourist_Attractions
+	icon = GFX_DEN_Expand_Tourist_Attractions
+	prerequisite = { focus = DEN_Expand_Tourism }
+	mutually_exclusive = { focus = DEN_Increase_Transport_for_Tourists }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -15
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Expand_Tourist_Attractions"
+	}
+}
+
+shared_focus = {
+	id = DEN_Increase_Transport_for_Tourists
+	icon = GFX_DEN_Increase_Transport_for_Tourists
+	prerequisite = { focus = DEN_Expand_Tourism }
+	mutually_exclusive = { focus = DEN_Expand_Tourist_Attractions }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -13
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Increase_Transport_for_Tourists"
+	}
+}
+
+shared_focus = {
+	id = DEN_Promote_Tourism
+	icon = GFX_DEN_Promote_Tourism
+	prerequisite = { focus = DEN_Expand_Tourist_Attractions focus = DEN_Increase_Transport_for_Tourists }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -14
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Promote_Tourism"
+	}
+}
+
+shared_focus = {
+	id = DEN_Invest_into_Aviation
+	icon = GFX_DEN_Invest_into_Aviation
+	prerequisite = { focus = DEN_Tourist_Industry }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -10
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Invest_into_Aviation"
+	}
+}
+
+shared_focus = {
+	id = DEN_Aviation_over_the_Capital
+	icon = GFX_DEN_Aviation_over_the_Capital
+	prerequisite = { focus = DEN_Invest_into_Aviation }
+	mutually_exclusive = { focus = DEN_Planes_for_Peasants }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -11
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Aviation_over_the_Capital"
+	}
+}
+
+shared_focus = {
+	id = DEN_Planes_for_Peasants
+	icon = GFX_DEN_Planes_for_Peasants
+	prerequisite = { focus = DEN_Invest_into_Aviation }
+	mutually_exclusive = { focus = DEN_Aviation_over_the_Capital }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -9
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Planes_for_Peasants"
+	}
+}
+
+shared_focus = {
+	id = DEN_Fund_Scandinavian_Airlines
+	icon = GFX_DEN_Fund_Scandinavian_Airlines
+	prerequisite = { focus = DEN_Aviation_over_the_Capital focus = DEN_Planes_for_Peasants }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -10
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Fund_Scandinavian_Airlines"
+	}
+}
+
+shared_focus = {
+	id = DEN_International_Trade
+	icon = GFX_DEN_International_Trade
+	prerequisite = { focus = DEN_External_Economy }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -4
+	y = 9
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_International_Trade"
+	}
+}
+
+shared_focus = {
+	id = DEN_The_Neighbours
+	icon = GFX_DEN_The_Neighbours
+	prerequisite = { focus = DEN_International_Trade }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -6
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_The_Neighbours"
+	}
+}
+
+shared_focus = {
+	id = DEN_Coal
+	icon = GFX_DEN_Coal
+	prerequisite = { focus = DEN_The_Neighbours }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -7
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Coal"
+	}
+}
+
+shared_focus = {
+	id = DEN_Steel
+	icon = GFX_focus_generic_steel
+	prerequisite = { focus = DEN_The_Neighbours }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -5
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Steel"
+	}
+}
+
+shared_focus = {
+	id = DEN_Invest_in_German_Companies
+	icon = GFX_DEN_Invest_in_German_Companies
+	prerequisite = { focus = DEN_Coal }
+	prerequisite = { focus = DEN_Steel }
+	mutually_exclusive = { focus = DEN_Invest_in_American_Companies }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -6
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Invest_in_German_Companies"
+	}
+}
+
+shared_focus = {
+	id = DEN_Across_the_Blue
+	icon = GFX_DEN_Across_the_Blue
+	prerequisite = { focus = DEN_International_Trade }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -2
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Across_the_Blue"
+	}
+}
+
+shared_focus = {
+	id = DEN_Oil
+	icon = GFX_DEN_Oil
+	prerequisite = { focus = DEN_Across_the_Blue }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -3
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Oil"
+	}
+}
+
+shared_focus = {
+	id = DEN_Consumer_Goods
+	icon = GFX_goal_generic_consumer_goods
+	prerequisite = { focus = DEN_Across_the_Blue }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -1
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Consumer_Goods"
+	}
+}
+
+shared_focus = {
+	id = DEN_Invest_in_American_Companies
+	icon = GFX_DEN_Invest_in_American_Companies
+	prerequisite = { focus = DEN_Oil }
+	prerequisite = { focus = DEN_Consumer_Goods }
+	mutually_exclusive = { focus = DEN_Invest_in_German_Companies }
+	relative_position_id = DEN_New_Economic_Policies
+	x = -2
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Invest_in_American_Companies"
+	}
+}
+
+shared_focus = {
+	id = DEN_Internal_Financing
+	icon = GFX_DEN_Internal_Financing
+	prerequisite = { focus = DEN_Brick_by_Brick }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 8
+	y = 8
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Internal_Financing"
+	}
+}
+
+shared_focus = {
+	id = DEN_One_Hand_One_Wrench
+	icon = GFX_DEN_Phase_2_Oekonomirestrukturering
+	prerequisite = { focus = DEN_Internal_Financing }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 4
+	y = 9
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_One_Hand_One_Wrench"
+	}
+}
+
+shared_focus = {
+	id = DEN_Construction_Projects
+	icon = GFX_DEN_Construction_Projects
+	prerequisite = { focus = DEN_One_Hand_One_Wrench }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 2
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Construction_Projects"
+	}
+}
+
+shared_focus = {
+	id = DEN_Fund_Infrastructure_Projects
+	icon = GFX_goal_generic_construct_infrastructure
+	prerequisite = { focus = DEN_Construction_Projects }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 1
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Fund_Infrastructure_Projects"
+	}
+}
+
+shared_focus = {
+	id = DEN_Fund_Construction_for_Factories
+	icon = GFX_DEN_Fund_Construction_for_Factories
+	prerequisite = { focus = DEN_Construction_Projects }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 3
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Fund_Construction_for_Factories"
+	}
+}
+
+shared_focus = {
+	id = DEN_Fund_Large_Projects
+	icon = GFX_DEN_Fund_Large_Projects
+	prerequisite = { focus = DEN_Fund_Infrastructure_Projects focus = DEN_Fund_Construction_for_Factories }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 2
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Fund_Large_Projects"
+	}
+}
+
+shared_focus = {
+	id = DEN_Rights_for_Laborers
+	icon = GFX_DEN_Rights_for_Laborers
+	prerequisite = { focus = DEN_One_Hand_One_Wrench }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 6
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Rights_for_Laborers"
+	}
+}
+
+shared_focus = {
+	id = DEN_Raise_Wages
+	icon = GFX_DEN_Raise_Wages
+	prerequisite = { focus = DEN_Rights_for_Laborers }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 5
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Raise_Wages"
+	}
+}
+
+shared_focus = {
+	id = DEN_Promote_Labor_Unions
+	icon = GFX_DEN_Promote_Labor_Unions
+	prerequisite = { focus = DEN_Rights_for_Laborers }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 7
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Promote_Labor_Unions"
+	}
+}
+
+shared_focus = {
+	id = DEN_Occupation_and_Roof
+	icon = GFX_DEN_Occupation_and_Roof
+	prerequisite = { focus = DEN_Raise_Wages }
+	prerequisite = { focus = DEN_Promote_Labor_Unions }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 6
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Occupation_and_Roof"
+	}
+}
+
+shared_focus = {
+	id = DEN_Fixing_the_Economy
+	icon = GFX_DEN_Fixing_the_Economy
+	prerequisite = { focus = DEN_Internal_Financing }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 12
+	y = 9
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Fixing_the_Economy"
+	}
+}
+
+shared_focus = {
+	id = DEN_End_Corruption
+	icon = GFX_DEN_End_Corruption
+	prerequisite = { focus = DEN_Fixing_the_Economy }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 10
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_End_Corruption"
+	}
+}
+
+shared_focus = {
+	id = DEN_Investigate_the_Finance_Ministry
+	icon = GFX_DEN_Investigate_the_Finance_Ministry
+	prerequisite = { focus = DEN_End_Corruption }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 9
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Investigate_the_Finance_Ministry"
+	}
+}
+
+shared_focus = {
+	id = DEN_Set_a_Trap
+	icon = GFX_DEN_Set_a_Trap
+	prerequisite = { focus = DEN_End_Corruption }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 11
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Set_a_Trap"
+	}
+}
+
+shared_focus = {
+	id = DEN_Corruption_Ended
+	icon = GFX_DEN_Corruption_Ended
+	prerequisite = { focus = DEN_Investigate_the_Finance_Ministry }
+	prerequisite = { focus = DEN_Set_a_Trap }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 10
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Corruption_Ended"
+	}
+}
+
+shared_focus = {
+	id = DEN_The_Currency_Crisis
+	icon = GFX_DEN_The_Currency_Crisis
+	prerequisite = { focus = DEN_One_Hand_One_Wrench }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 14
+	y = 10
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_The_Currency_Crisis"
+	}
+}
+
+shared_focus = {
+	id = DEN_Switch_to_the_Reichsmark
+	icon = GFX_DEN_Switch_to_the_Reichsmark
+	prerequisite = { focus = DEN_The_Currency_Crisis }
+	mutually_exclusive = { focus = DEN_Strengthen_Our_Currency }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 13
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Switch_to_the_Reichsmark"
+	}
+}
+
+shared_focus = {
+	id = DEN_Strengthen_Our_Currency
+	icon = GFX_DEN_Strengthen_Our_Currency
+	prerequisite = { focus = DEN_The_Currency_Crisis }
+	mutually_exclusive = { focus = DEN_Switch_to_the_Reichsmark }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 15
+	y = 11
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_Promote_Labor_Unions"
+	}
+}
+
+shared_focus = {
+	id = DEN_The_Burden_Has_Been_Lifted
+	icon = GFX_DEN_The_Burden_Has_Been_Lifted
+	prerequisite = { focus = DEN_Switch_to_the_Reichsmark focus = DEN_Strengthen_Our_Currency }
+	relative_position_id = DEN_New_Economic_Policies
+	x = 14
+	y = 12
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_The_Burden_Has_Been_Lifted"
 	}
 }

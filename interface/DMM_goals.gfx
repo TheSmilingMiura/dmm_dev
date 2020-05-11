@@ -96,4 +96,164 @@ spriteTypes = {
 		name = "GFX_DEN_Cut_the_Strings"
 		texturefile = "gfx/interface/goals/DEN_Cut_the_Strings.dds"
 	}
+	SpriteType = { 
+		name = "GFX_DEN_Phase_2_Oekonomirestrukturering"
+		texturefile = "gfx/interface/goals/DEN_Phase_2_Oekonomirestrukturering.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Rebuilding_the_Foundation"
+		texturefile = "gfx/interface/goals/DEN_Rebuilding_the_Foundation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_of_Our_Nations"
+		texturefile = "gfx/interface/goals/DEN_of_Our_Nations.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Fundamental_Economy"
+		texturefile = "gfx/interface/goals/DEN_Fundamental_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Brick_by_Brick"
+		texturefile = "gfx/interface/goals/DEN_Brick_by_Brick.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_External_Economy"
+		texturefile = "gfx/interface/goals/DEN_External_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Tourist_Industry"
+		texturefile = "gfx/interface/goals/DEN_Tourist_Industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Expand_Tourism"
+		texturefile = "gfx/interface/goals/DEN_Expand_Tourism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Expand_Tourist_Attractions"
+		texturefile = "gfx/interface/goals/DEN_Expand_Tourist_Attractions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Increase_Transport_for_Tourists"
+		texturefile = "gfx/interface/goals/DEN_Increase_Transport_for_Tourists.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Promote_Tourism"
+		texturefile = "gfx/interface/goals/DEN_Promote_Tourism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Invest_into_Aviation"
+		texturefile = "gfx/interface/goals/DEN_Invest_into_Aviation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Aviation_over_the_Capital"
+		texturefile = "gfx/interface/goals/DEN_Aviation_over_the_Capital.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Planes_for_Peasants"
+		texturefile = "gfx/interface/goals/DEN_Planes_for_Peasants.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Fund_Scandinavian_Airlines"
+		texturefile = "gfx/interface/goals/DEN_Fund_Scandinavian_Airlines.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_International_Trade"
+		texturefile = "gfx/interface/goals/DEN_International_Trade.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_The_Neighbours"
+		texturefile = "gfx/interface/goals/DEN_The_Neighbours.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Coal"
+		texturefile = "gfx/interface/goals/DEN_Coal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Invest_in_German_Companies"
+		texturefile = "gfx/interface/goals/DEN_Invest_in_German_Companies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Across_the_Blue"
+		texturefile = "gfx/interface/goals/DEN_Across_the_Blue.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Oil"
+		texturefile = "gfx/interface/goals/DEN_Oil.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Invest_in_American_Companies"
+		texturefile = "gfx/interface/goals/DEN_Invest_in_American_Companies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Internal_Financing"
+		texturefile = "gfx/interface/goals/DEN_Internal_Financing.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_One_Hand_One_Wrench"
+		texturefile = "gfx/interface/goals/DEN_One_Hand_One_Wrench.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Construction_Projects"
+		texturefile = "gfx/interface/goals/DEN_Construction_Projects.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Fund_Construction_for_Factories"
+		texturefile = "gfx/interface/goals/DEN_Fund_Construction_for_Factories.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Fund_Large_Projects"
+		texturefile = "gfx/interface/goals/DEN_Fund_Large_Projects.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Rights_for_Laborers"
+		texturefile = "gfx/interface/goals/DEN_Rights_for_Laborers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Raise_Wages"
+		texturefile = "gfx/interface/goals/DEN_Raise_Wages.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Promote_Labor_Unions"
+		texturefile = "gfx/interface/goals/DEN_Promote_Labor_Unions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Occupation_and_Roof"
+		texturefile = "gfx/interface/goals/DEN_Occupation_and_Roof.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Fixing_the_Economy"
+		texturefile = "gfx/interface/goals/DEN_Fixing_the_Economy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_End_Corruption"
+		texturefile = "gfx/interface/goals/DEN_End_Corruption.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Investigate_the_Finance_Ministry"
+		texturefile = "gfx/interface/goals/DEN_Investigate_the_Finance_Ministry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Set_a_Trap"
+		texturefile = "gfx/interface/goals/DEN_Set_a_Trap.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Corruption_Ended"
+		texturefile = "gfx/interface/goals/DEN_Corruption_Ended.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_The_Currency_Crisis"
+		texturefile = "gfx/interface/goals/DEN_The_Currency_Crisis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Switch_to_the_Reichsmark"
+		texturefile = "gfx/interface/goals/DEN_Switch_to_the_Reichsmark.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_Strengthen_Our_Currency"
+		texturefile = "gfx/interface/goals/DEN_Strengthen_Our_Currency.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DEN_The_Burden_Has_Been_Lifted"
+		texturefile = "gfx/interface/goals/DEN_The_Burden_Has_Been_Lifted.dds"
+	}
 }

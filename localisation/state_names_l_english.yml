@@ -1045,6 +1045,5 @@
  STATE_1044:0 "North Kiev"
  STATE_1045:0 "East Kiev"
  STATE_1046:0 "South Kiev"
- STATE_1047:1 "North Sea Oil Rigs"
- STATE_1048:1 "Paracel Islands"
- STATE_1049:0 "Canberra"
+ STATE_1047:0 "Paracel Islands"
+ STATE_1048:0 "North Sea Oil "

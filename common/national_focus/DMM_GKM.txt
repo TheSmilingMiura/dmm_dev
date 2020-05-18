@@ -1,0 +1,595 @@
+# Focus Trees
+focus_tree = {
+    id = DMM_GKM_1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = GKM
+        }
+    }
+	shared_focus = GKM_The_Economical_Zone_of_the_Reich
+	default = no
+	continuous_focus_position = { x = 16 y = 3000 }
+}
+
+focus_tree = {
+    id = DMM_GKM_2
+    country = {
+        factor = 0
+    }
+	shared_focus = GKM_The_Economical_Zone_of_the_Reich
+	default = no
+	continuous_focus_position = { x = 16 y = 3000 }
+}
+
+shared_focus = {
+	id = GKM_The_Economical_Zone_of_the_Reich
+	icon = GFX_unknown
+	allow_branch = {
+		has_country_flag = GKM_start_tree_flag
+	}
+	x = 0
+	y = 0
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	available_if_capitulated = no
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_The_Economical_Zone_of_the_Reich"
+	}
+}
+shared_focus = {
+	id = GKM_Begin_Our_Recovery
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_The_Economical_Zone_of_the_Reich }
+	x = 0
+	y = 1
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Begin_Our_Recovery"
+	}
+}
+shared_focus = {
+	id = GKM_Slash_Corporation_Taxes
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Begin_Our_Recovery }
+	x = -1
+	y = 2
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Slash_Corporation_Taxes"
+	}
+}
+shared_focus = {
+	id = GKM_Austerity_Measures
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Begin_Our_Recovery }
+	x = 1
+	y = 2
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Austerity_Measures"
+	}
+}
+shared_focus = {
+	id = GKM_Mobilizing_Our_Workforce
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Slash_Corporation_Taxes }
+	x = -2
+	y = 3
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Mobilizing_Our_Workforce"
+	}
+}
+shared_focus = {
+	id = GKM_Economic_Self_Support_Plan
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Slash_Corporation_Taxes }
+	prerequisite = { focus = GKM_Austerity_Measures }
+	x = 0
+	y = 3
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Economic_Self_Support_Plan"
+	}
+}
+shared_focus = {
+	id = GKM_Social_Welfare_is_Useless
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Austerity_Measures }
+	x = 2
+	y = 3
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Social_Welfare_is_Useless"
+	}
+}
+shared_focus = {
+	id = GKM_A_Land_Rich_in_Resources
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Economic_Self_Support_Plan }
+	x = -8
+	y = 4
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_A_Land_Rich_in_Resources"
+	}
+}
+shared_focus = {
+	id = GKM_Oil_Drilling_Methods
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_A_Land_Rich_in_Resources }
+	x = -10
+	y = 5
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Oil_Drilling_Methods"
+	}
+}
+shared_focus = {
+	id = GKM_Learn_the_Ways_of_Extraction
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_A_Land_Rich_in_Resources }
+	x = -8
+	y = 5
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Learn_the_Ways_of_Extraction"
+	}
+}
+shared_focus = {
+	id = GKM_New_Mining_Tools
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_A_Land_Rich_in_Resources }
+	x = -6
+	y = 5
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_New_Mining_Tools"
+	}
+}
+shared_focus = {
+	id = GKM_Expand_Drilling_Production
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Oil_Drilling_Methods }
+	x = -11
+	y = 6
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Expand_Drilling_Production"
+	}
+}
+shared_focus = {
+	id = GKM_Invest_in_Oil_Refineries
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Expand_Drilling_Production }
+	x = -12
+	y = 7
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Invest_in_Oil_Refineries"
+	}
+}
+shared_focus = {
+	id = GKM_Oil_Expedition
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Oil_Drilling_Methods }
+	prerequisite = { focus = GKM_Learn_the_Ways_of_Extraction }
+	x = -9
+	y = 6
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Oil_Expedition"
+	}
+}
+shared_focus = {
+	id = GKM_Synthetic_Oil_Production_Facilities
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Oil_Expedition }
+	x = -10
+	y = 7
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Synthetic_Oil_Production_Facilities"
+	}
+}
+shared_focus = {
+	id = GKM_Chemical_Research_Breakthroughs
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Invest_in_Oil_Refineries }
+	prerequisite = { focus = GKM_Synthetic_Oil_Production_Facilities }
+	x = -11
+	y = 8
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Chemical_Research_Breakthroughs"
+	}
+}
+shared_focus = {
+	id = GKM_New_Chemical_Industries
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Chemical_Research_Breakthroughs }
+	x = -11
+	y = 9
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_New_Chemical_Industries"
+	}
+}
+shared_focus = {
+	id = GKM_Expand_the_Mines
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Learn_the_Ways_of_Extraction }
+	prerequisite = { focus = GKM_New_Mining_Tools }
+	x = -7
+	y = 6
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Expand_the_Mines"
+	}
+}
+shared_focus = {
+	id = GKM_Increase_Steel_Production
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Expand_the_Mines }
+	x = -6
+	y = 7
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Increase_Steel_Production"
+	}
+}
+shared_focus = {
+	id = GKM_We_Need_More
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Oil_Expedition }
+	prerequisite = { focus = GKM_Expand_the_Mines }
+	x = -8
+	y = 7
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_We_Need_More"
+	}
+}
+shared_focus = {
+	id = GKM_More_Production_Materials
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_We_Need_More }
+	mutually_exclusive = { focus = GKM_More_Rare_Materials }
+	x = -9
+	y = 8
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_More_Production_Materials"
+	}
+}
+shared_focus = {
+	id = GKM_Send_Out_Resource_Expeditions
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_More_Production_Materials }
+	x = -9
+	y = 9
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Send_Out_Resource_Expeditions"
+	}
+}
+shared_focus = {
+	id = GKM_Iron_Deposits
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Send_Out_Resource_Expeditions }
+	x = -10
+	y = 10
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Iron_Deposits"
+	}
+}
+shared_focus = {
+	id = GKM_Aluminium_Deposits
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Send_Out_Resource_Expeditions }
+	x = -8
+	y = 10
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Aluminium_Deposits"
+	}
+}
+shared_focus = {
+	id = GKM_Feed_Our_Industries
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Iron_Deposits }
+	prerequisite = { focus = GKM_Aluminium_Deposits }
+	x = -9
+	y = 11
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Feed_Our_Industries"
+	}
+}
+shared_focus = {
+	id = GKM_More_Rare_Materials
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_We_Need_More }
+	mutually_exclusive = { focus = GKM_More_Production_Materials }
+	x = -7
+	y = 8
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_More_Rare_Materials"
+	}
+}
+shared_focus = {
+	id = GKM_Chromium_Deposits
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_More_Rare_Materials }
+	x = -7
+	y = 9
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Chromium_Deposits"
+	}
+}
+shared_focus = {
+	id = GKM_Uranium_Deposits
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_More_Rare_Materials }
+	x = -5
+	y = 9
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Uranium_Deposits"
+	}
+}
+shared_focus = {
+	id = GKM_The_Precious_Metal_Industry
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Chromium_Deposits }
+	prerequisite = { focus = GKM_Uranium_Deposits }
+	x = -6
+	y = 10
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_The_Precious_Metal_Industry"
+	}
+}
+shared_focus = {
+	id = GKM_Profit_Off_Our_Riches
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_The_Precious_Metal_Industry }
+	x = -7
+	y = 11
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Profit_Off_Our_Riches"
+	}
+}
+shared_focus = {
+	id = GKM_A_Large_Resource_Base
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Feed_Our_Industries focus = GKM_Profit_Off_Our_Riches }
+	x = -8
+	y = 12
+	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+
+	cost = 8
+
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_A_Large_Resource_Base"
+	}
+}

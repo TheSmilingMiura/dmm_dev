@@ -5,7 +5,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_The_Committee"
-		texturefile = "gfx/leaders/GKM/Empty.dds"
+		texturefile = "gfx/leaders/GKM/Committee.dds"
 	}
 	spriteType = {
 		name = "GFX_Hilmar_Kopper"
@@ -28,8 +28,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GKM/G36.dds"
 	}
 	spriteType = {
+		name = "GFX_Harald_Kujat"
+		texturefile = "gfx/leaders/GKM/Harald_Kujat.dds"
+	}
+	spriteType = {
 		name = "GFX_The_Pantheon"
-		texturefile = "gfx/leaders/GKM/Empty.dds"
+		texturefile = "gfx/leaders/GKM/Committee.dds"
 	}
 	spriteType = {
 		name = "GFX_Jurgen_E_Schrempp"

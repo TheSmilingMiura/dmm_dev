@@ -4,55 +4,55 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 1 }
 		}
-		localization_key = "GFX_idea_KRB"
+		localization_key = "GFX_idea_DMM_KRB"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 2 }
 		}
-		localization_key = "GFX_idea_ARSI"
+		localization_key = "GFX_idea_DMM_ARSI"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 3 }
 		}
-		localization_key = "GFX_idea_deutsche_bank"
+		localization_key = "GFX_idea_DMM_deutsche_bank"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 4 }
 		}
-		localization_key = "GFX_idea_siemens"
+		localization_key = "GFX_idea_DMM_siemens"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 5 }
 		}
-		localization_key = "GFX_idea_messerschmitt"
+		localization_key = "GFX_idea_DMM_messerschmitt"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 6 }
 		}
-		localization_key = "GFX_idea_focke_wulf"
+		localization_key = "GFX_idea_DMM_focke_wulf"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 7 }
 		}
-		localization_key = "GFX_idea_haenel"
+		localization_key = "GFX_idea_DMM_haenel"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 8 }
 		}
-		localization_key = "GFX_idea_igfarben"
+		localization_key = "GFX_idea_DMM_igfarben"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 9 }
 		}
-		localization_key = "GFX_idea_mercedes_benz"
+		localization_key = "GFX_idea_DMM_mercedes_benz"
 	}
 }
 
@@ -156,7 +156,7 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 7 }
 		}
-		localization_key = "GFX_G36"
+		localization_key = "GFX_Harald_Kujat"
 	}
 	text = {
 		trigger = {
@@ -214,7 +214,7 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 7 }
 		}
-		localization_key = "G36"
+		localization_key = "Harald Kujat"
 	}
 	text = {
 		trigger = {

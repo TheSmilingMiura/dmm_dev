@@ -142,7 +142,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/widespread_corruption1.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_igfarben"
+		name = "GFX_idea_DMM_igfarben"
 		texturefile = "gfx/interface/ideas/igfarben.dds"
 	}
 	spriteType = {
@@ -166,35 +166,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/military_industry_focus.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_mercedes_benz"
+		name = "GFX_idea_DMM_mercedes_benz"
 		texturefile = "gfx/interface/ideas/mercedes_benz.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_messerschmitt"
+		name = "GFX_idea_DMM_messerschmitt"
 		texturefile = "gfx/interface/ideas/messerschmitt.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_siemens"
+		name = "GFX_idea_DMM_siemens"
 		texturefile = "gfx/interface/ideas/siemens.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_KRB"
+		name = "GFX_idea_DMM_KRB"
 		texturefile = "gfx/interface/ideas/KRB.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ARSI"
+		name = "GFX_idea_DMM_ARSI"
 		texturefile = "gfx/interface/ideas/ARSI.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_deutsche_bank"
+		name = "GFX_idea_DMM_deutsche_bank"
 		texturefile = "gfx/interface/ideas/deutsche_bank.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_haenel"
+		name = "GFX_idea_DMM_haenel"
 		texturefile = "gfx/interface/ideas/haenel.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_focke_wulf"
+		name = "GFX_idea_DMM_focke_wulf"
 		texturefile = "gfx/interface/ideas/focke_wulf.dds"
 	}
 }

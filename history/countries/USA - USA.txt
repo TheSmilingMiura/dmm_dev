@@ -37,6 +37,14 @@ set_technology = {
 
 }
 
+create_faction = "IAFN"
+add_to_faction = USA
+add_to_faction = NZL
+add_to_faction = CAN
+add_to_faction = MEX
+add_to_faction = POR
+add_to_faction = AST
+
 add_ideas = {
 	usa_american_patriotism
 	usa_the_first_amendment

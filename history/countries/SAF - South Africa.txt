@@ -34,6 +34,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+    limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+	racial_tensions
+}
+
 set_popularities = {
     fascist = 75
     authoritarian = 15

@@ -61,6 +61,8 @@ add_to_faction = SIA
 add_to_faction = VIN
 add_to_faction = NBR
 add_to_faction = BRM
+add_to_faction = MAN
+add_to_faction = MEN
 
 set_politics = {
 	ruling_party = conservative

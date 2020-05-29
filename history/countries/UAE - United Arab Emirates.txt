@@ -43,6 +43,15 @@ set_convoys = 150
 		dispersed_industry2 = 1
 	}
 }
+
+add_ideas = {
+	free_trade
+	volunteers_only
+	civilian_economy
+	jewel_of_the_arabian_gulf
+	booming_economy
+}
+
 set_politics = {
 	ruling_party = authoritarian
 	last_election = "1936.1.1"
@@ -61,13 +70,13 @@ set_popularities = {
     communist = 0
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Zayed bin Sultan Al Nahyan"
+	picture = "gfx/leaders/UAE/Portrait_Zayed_bin_Sultan_Al_Nahyan.dds"
+	expire = "2004.11.2"
+	ideology = authoritarian
+	traits = {
+		
+	}
+}

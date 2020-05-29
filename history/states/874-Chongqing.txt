@@ -6,9 +6,9 @@ state={
 	}
 	
 	history = {
-		owner = RRC
+		owner = SIC
 		add_core_of = RRC
-		set_demilitarized_zone = yes
+		add_core_of = SIC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

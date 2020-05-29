@@ -1,4 +1,4 @@
-capital = 883
+capital = 544
 
 oob = "LCM_1936"
 

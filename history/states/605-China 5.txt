@@ -5,22 +5,22 @@ state={
 		steel=14.000
 	}
 	history={
-		owner = RRC
+		owner = SIC
 		add_core_of = RRC
+		add_core_of = SIC
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
+			arms_factory = 4
 			industrial_complex = 2
 		}
-		set_demilitarized_zone = yes
-		victory_points = {
-			4925 5 
-		}
+		#victory_points = {
+		#	4925 5 
+		#}
 
 	}
 
 	provinces={
-		1367 1395 4925 7240 8026 10132 12705 12767 
+		1395 7240 12705 12141 11972
 	}
 	manpower=29995267
 	state_category=large_town

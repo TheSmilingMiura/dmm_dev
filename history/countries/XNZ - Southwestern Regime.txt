@@ -1,4 +1,4 @@
-﻿capital = 18
+﻿capital = 325
 
 oob = "XNZ_2005"
 

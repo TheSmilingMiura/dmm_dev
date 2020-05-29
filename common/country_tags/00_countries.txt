@@ -310,4 +310,9 @@ AZA = "countries/Azad Hind.txt"
 
 # Miu's Africa
 LCM = "countries/Lourenço Marques.txt"
-IEA = "countries/Italian East Africa.txt
+IEA = "countries/Italian East Africa.txt"
+
+# China
+
+SIC = "countries/Sichuan.txt"
+GUI = "countries/Guizhou.txt"

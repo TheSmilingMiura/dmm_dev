@@ -6,9 +6,9 @@ state={
 	history={
 		owner = JAP
 		add_core_of = JAP
-		victory_points = {
-			7329 1 
-		}
+		#victory_points = {
+		#	7329 1 
+		#}
 		victory_points = {
 			10297 1 
 		}

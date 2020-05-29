@@ -1,4 +1,4 @@
-﻿capital = 233
+﻿capital = 771
 
 oob = "CHE_1936"
 

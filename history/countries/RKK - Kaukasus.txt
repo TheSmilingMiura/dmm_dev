@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 235
 
 oob = "RKK_2004"
 #set_naval_oob = "RKK_naval_test_don_fleet"

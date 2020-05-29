@@ -15,7 +15,7 @@ state={
 			arms_factory = 1
 			air_base = 1
 			}
-		}
+		
 	}
 	manpower = 100
 	buildings_max_level_factor=1.000

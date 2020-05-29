@@ -1,0 +1,59 @@
+﻿capital = 603
+
+oob = "GUI_2004"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "2004.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_stability = 0.2
+set_war_support = 0.1
+
+set_popularities = {
+    fascist = 0
+    corporatist = 0
+    reactionary = 0
+    authoritarian = 80
+    conservative = 3
+    liberal = 10
+    social_democrat = 5
+    socialist = 2
+    communist = 0
+}
+
+add_ideas = {
+	#laws
+	low_economic_mobilisation
+	limited_conscription
+}
+
+create_country_leader = {
+	name = "Lin Shusen"
+	desc = "POLITICS_Lin_Shusen_DESC"		#engineer :DDDDDDDD
+	picture = "gfx/leaders/GUI/GUI_Lin_Shusen.dds"
+	expire = "2020.1.1"
+	ideology = national_conservatism
+	traits = {
+	}
+}
+
+#set_country_flag = dmm_is_chinese_warlord
+
+#SIC = { #introductory event
+#	country_event = {
+#		id = sic.1
+#		days = 1
+#	}
+#}

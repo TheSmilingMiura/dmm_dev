@@ -634,3 +634,40 @@
  GER_social_democrat_party:0 "Sozialdemokratischer Untergrund"
  GER_socialist_party:0 "Hellrote Kapelle"
  GER_communist_party:0 "Tiefrote Kapelle"
+
+ ############################################################################
+
+ SIC_fascist_party:0 "Blueshirt Remnants"
+ SIC_corporatist_party:0 "Xinshenghui"
+ SIC_corporatist_party_long:0 "New Life Society"
+ SIC_authoritarian_party:0 "Zhu Clique"
+ SIC_reactionary_party:0 "Shuaiguohui"
+ SIC_reactionary_party_long:0 "Sichuan Patriotic Association"
+ SIC_conservative_party:0 "R-KMT"
+ SIC_conservative_party_long:0 "Rightist Wing of the Kuomintang"
+ SIC_liberal_party:0 "Merchant's Association"
+ SIC_social_democrat_party:0 "L-KMT (Moderate)"
+ SIC_social_democrat_party_long:0 "Moderate Leftist Wing of the Kuomintang"
+ SIC_socialist_party:0 "L-KMT (Radical)"
+ SIC_socialist_party_long:0 "Radical Leftist Wing of the Kuomintang"
+ SIC_communist_party:0 "Chinese Communist Party"
+
+ ##############################################################################
+
+ GUI_fascist_party:0 "Blueshirt Remnants"
+ GUI_corporatist_party:0 "Xinshenghui"
+ GUI_corporatist_party_long:0 "New Life Society"
+ GUI_authoritarian_party:0 "Tongrenfa"
+ GUI_authoritarian_party_long:0 "Tongren Clique"
+ GUI_reactionary_party:0 "Zhaotongfa"
+ GUI_reactionary_party_long:0 "Zhaotong Clique"
+ GUI_conservative_party:0 "R-KMT"
+ GUI_conservative_party_long:0 "Rightist Wing of the Kuomintang"
+ GUI_liberal_party:0 "Merchant's Association"
+ GUI_social_democrat_party:0 "L-KMT (Moderate)"
+ GUI_social_democrat_party_long:0 "Moderate Leftist Wing of the Kuomintang"
+ GUI_socialist_party:0 "L-KMT (Radical)"
+ GUI_socialist_party_long:0 "Radical Leftist Wing of the Kuomintang"
+ GUI_communist_party:0 "Chinese Communist Party"
+
+ ###############################################################################

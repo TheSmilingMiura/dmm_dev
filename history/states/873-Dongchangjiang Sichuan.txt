@@ -2,12 +2,12 @@ state={
 	id=873
 	name="STATE_873"
 	provinces={
-		1893 2030 2091 5048 7256 10144 11865 12274 
+		1893 2030 2091 5048 7256 10144 11865 12274 7948
 	}
 	history = {
-		owner = RRC
+		owner = SIC
+		add_core_of = SIC
 		add_core_of = RRC
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

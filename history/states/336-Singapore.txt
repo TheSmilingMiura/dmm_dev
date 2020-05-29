@@ -23,10 +23,10 @@ state={
 				coastal_bunker = 3
 
 			}
-			10297 = {
-				naval_base = 5
-
-			}
+			#10297 = {
+			#	naval_base = 5
+#
+#			}
 
 		}
 		add_core_of = JAP

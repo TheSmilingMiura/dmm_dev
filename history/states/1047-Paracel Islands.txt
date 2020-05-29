@@ -1,6 +1,7 @@
 state={
 	id=1047
 	name="STATE_1047"
+	state_category = enclave
 	provinces={
 		13412 
 	}

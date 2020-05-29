@@ -67,6 +67,52 @@ set_popularities = {
     communist = 0
 }
 
+#set_country_flag = dmm_is_chinese_warlord
+SIC = { set_country_flag = dmm_is_chinese_warlord }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SIC
+		autonomous_state = autonomy_dmm_chinese_army
+	}
+	else = {
+		puppet = SIC
+	}
+}
+
+XNZ = { set_country_flag = dmm_is_chinese_warlord }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = XNZ
+		autonomous_state = autonomy_dmm_chinese_warlord
+	}
+	else = {
+		puppet = XNZ
+	}
+}
+
+GUI = { set_country_flag = dmm_is_chinese_warlord }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GUI
+		autonomous_state = autonomy_dmm_chinese_autprov
+	}
+	else = {
+		puppet = GUI
+	}
+}
+
 create_country_leader = {
 	name = "Wang Wenying"
 	desc = "POLITICS_WANG_WENYING_DESC"

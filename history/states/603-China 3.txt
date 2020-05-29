@@ -3,7 +3,8 @@ state={
 	name="STATE_603"
 
 	history={
-		owner = RRC
+		owner = GUI
+		add_core_of = GUI
 		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
@@ -11,7 +12,6 @@ state={
 			arms_factory = 2
 
 		}
-		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		1474 4504 7577 8095 10616 10335
+		4504 10616 10763 10819
 	}
 	manpower=7543200
 	buildings_max_level_factor=1.000

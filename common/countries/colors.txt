@@ -100,6 +100,10 @@ RRC = {
 	color = rgb { 255 231 105 }
 	color_ui = rgb { 255 231 105 }
 } 
+GUI = {
+	color = rgb { 236 230 79 }
+	color_ui = rgb { 236 230 79 }
+}
 #moved to top from bottom
 ##start of le ebin default color list##
 GER = {
@@ -786,10 +790,10 @@ TUJ = {
 	color = rgb { 76 205 76 }
 	color_ui = rgb { 76 205 76 }
 }
-#SIC = {
-#	color = rgb { 0 100 0 }
-#	color_ui = rgb { 0 100 0 }
-#}
+SIC = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}
 #SHA = {
 #	color = rgb { 220 20 60 }
 #	color_ui = rgb { 220 20 60 }

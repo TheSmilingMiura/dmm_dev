@@ -1,4 +1,4 @@
-﻿capital = 915
+﻿capital = 924
 
 oob = "SIM_1936"
 

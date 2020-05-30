@@ -113,6 +113,21 @@ if = {
 	}
 }
 
+GXC = { set_country_flag = dmm_is_chinese_warlord }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GXC
+		autonomous_state = autonomy_dmm_chinese_autprov
+	}
+	else = {
+		puppet = GXC
+	}
+}
+
 create_country_leader = {
 	name = "Wang Wenying"
 	desc = "POLITICS_WANG_WENYING_DESC"

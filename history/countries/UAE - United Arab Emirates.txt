@@ -46,7 +46,7 @@ set_convoys = 150
 
 add_ideas = {
 	free_trade
-	volunteers_only
+	volunteer_only
 	civilian_economy
 	jewel_of_the_arabian_gulf
 	booming_economy
@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Zayed bin Sultan Al Nahyan"
 	picture = "gfx/leaders/UAE/Portrait_Zayed_bin_Sultan_Al_Nahyan.dds"
 	expire = "2004.11.2"
-	ideology = authoritarian
+	ideology = despotism
 	traits = {
 		
 	}

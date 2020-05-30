@@ -18,6 +18,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	free_trade
+	volunteer_only
+	civilian_economy
+	troubles
+}
+
 set_popularities = {
     fascist = 25
     authoritarian = 15

@@ -1,0 +1,315 @@
+defined_text = {
+	name = subideology
+
+	text = {
+		trigger = {
+			has_government = corporatist
+			has_country_flag = c_natsoc
+		}
+		localization_key = subideology_natsoc
+	}
+	text = {
+		trigger = {
+			has_government = corporatist
+			has_country_flag = c_artaman
+		}
+		localization_key = subideology_artaman
+	}
+	text = {
+		trigger = {
+			has_government = corporatist
+			has_country_flag = c_corporate
+		}
+		localization_key = subideology_corporate
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+			has_country_flag = c_itafas
+		}
+		localization_key = subideology_itafas
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+			has_country_flag = c_futurist
+		}
+		localization_key = subideology_futurist
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+			has_country_flag = c_hakkoichiu
+		}
+		localization_key = subideology_hakkoichiu
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+			has_country_flag = c_esofas
+		}
+		localization_key = subideology_esofas
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+			has_country_flag = c_blacksup
+		}
+		localization_key = subideology_blacksup
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+			has_country_flag = c_balinesenat
+		}
+		localization_key = subideology_balinesenat
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian
+			has_country_flag = c_technocrat
+		}
+		localization_key = subideology_technocrat
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian
+			has_country_flag = c_miljunta
+		}
+		localization_key = subideology_miljunta
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian
+			has_country_flag = c_despot
+		}
+		localization_key = subideology_despot
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian
+			has_country_flag = c_stroessner
+		}
+		localization_key = subideology_stroessner
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian
+			has_country_flag = c_warlord
+		}
+		localization_key = subideology_warlord
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_absmon
+		}
+		localization_key = subideology_absmon
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_salafist
+		}
+		localization_key = subideology_salafist
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_caththeo
+		}
+		localization_key = subideology_caththeo
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_evtheo
+		}
+		localization_key = subideology_evtheo
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_jewtheo
+		}
+		localization_key = subideology_jewtheo
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_nationalist
+		}
+		localization_key = subideology_nationalist
+	}
+	text = {
+		trigger = {
+			has_government = reactionary
+			has_country_flag = c_falange
+		}
+		localization_key = subideology_falange
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+			has_country_flag = c_soccon
+		}
+		localization_key = subideology_soccon
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+			has_country_flag = c_natcon
+		}
+		localization_key = subideology_natcon
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+			has_country_flag = c_tradcon
+		}
+		localization_key = subideology_tradcon
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+			has_country_flag = c_neocon
+		}
+		localization_key = subideology_neocon
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+			has_country_flag = c_evcon
+		}
+		localization_key = subideology_evcon
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+			has_country_flag = c_iscon
+		}
+		localization_key = subideology_iscon
+	}
+	text = {
+		trigger = {
+			has_government = liberal
+			has_country_flag = c_soclib
+		}
+		localization_key = subideology_soclib
+	}
+	text = {
+		trigger = {
+			has_government = liberal
+			has_country_flag = c_claslib
+		}
+		localization_key = subideology_claslib
+	}
+	text = {
+		trigger = {
+			has_government = liberal
+			has_country_flag = c_libertarian
+		}
+		localization_key = subideology_libertarian
+	}
+	text = {
+		trigger = {
+			has_government = liberal
+			has_country_flag = c_revlib
+		}
+		localization_key = subideology_revlib
+	}
+	text = {
+		trigger = {
+			has_government = liberal
+			has_country_flag = c_proglib
+		}
+		localization_key = subideology_proglib
+	}
+	text = {
+		trigger = {
+			has_government = liberal
+			has_country_flag = c_natlib
+		}
+		localization_key = subideology_natlib
+	}
+	text = {
+		trigger = {
+			has_government = social_democrat
+			has_country_flag = c_socdem
+		}
+		localization_key = subideology_socdem
+	}
+	text = {
+		trigger = {
+			has_government = socialist
+			has_country_flag = c_ansoc
+		}
+		localization_key = subideology_ansoc
+	}
+	text = {
+		trigger = {
+			has_government = socialist
+			has_country_flag = c_demsoc
+		}
+		localization_key = subideology_demsoc
+	}
+	text = {
+		trigger = {
+			has_government = socialist
+			has_country_flag = c_orthmarx
+		}
+		localization_key = subideology_orthmarx
+	}
+	text = {
+		trigger = {
+			has_government = socialist
+			has_country_flag = c_marsoc
+		}
+		localization_key = subideology_marsoc
+	}
+	text = {
+		trigger = {
+			has_government = communist
+			has_country_flag = c_vancom
+		}
+		localization_key = subideology_vancom
+	}
+	text = {
+		trigger = {
+			has_government = communist
+			has_country_flag = c_stalinist
+		}
+		localization_key = subideology_stalinist
+	}
+	text = {
+		trigger = {
+			has_government = communist
+			has_country_flag = c_intcom
+		}
+		localization_key = subideology_intcom
+	}
+	text = {
+		trigger = {
+			has_government = communist
+			has_country_flag = c_nazbol
+		}
+		localization_key = subideology_nazbol
+	}
+	text = {
+		trigger = {
+			has_government = communist
+			has_country_flag = c_shicom
+		}
+		localization_key = subideology_shicom
+	}
+	text = {
+		trigger = {
+			has_government = communist
+			has_country_flag = c_agrcom
+		}
+		localization_key = subideology_agrcom
+	}
+	text = {
+		localization_key = subideology_error
+	}
+}

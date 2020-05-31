@@ -139,6 +139,8 @@ create_country_leader = {
 	}
 }
 
+set_country_flag = c_miljunta
+
 create_country_leader = {
 	name = "Kōichi Isobe"
 	desc = "POLITICS_KOICHI_ISOBE_DESC"
@@ -148,6 +150,8 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+set_country_flag = c_hakkoichiu
 
 create_country_leader = {
 	name = "Leadership in Exile"

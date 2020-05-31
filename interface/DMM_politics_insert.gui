@@ -1,0 +1,16 @@
+guiTypes = {
+         containerWindowType = {
+          name = "DMM_politics_insert_container"
+          position = { x = 370 y = 305 }
+			
+          instantTextboxType = {
+				    name = "subideology"
+  		  		position = { x = 9 y = 26 }
+	    			font = "hoi_16mbs"
+	  	  		text = "[subideology]"
+  		  		maxWidth = 155
+			    	maxHeight = 20
+					#alwaystransparent = yes
+		    	}
+			 
+}

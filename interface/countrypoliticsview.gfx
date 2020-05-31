@@ -592,7 +592,7 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 27
+		size = 55
 	}
 	
 	pieChartType = {
@@ -659,6 +659,21 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_pie_overlay_DMM"
+		textureFile = "gfx//interface//compass_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_piechart_overlay_TV"
+		textureFile = "gfx//interface//tv.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_faction_background"
+		textureFile = "gfx//interface//faction_bg.dds"
 	}
 	
 }

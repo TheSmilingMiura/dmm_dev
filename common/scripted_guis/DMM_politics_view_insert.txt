@@ -1,0 +1,13 @@
+scripted_gui = {
+	DMM_politics_insert = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "DMM_politics_insert_container"
+
+		visible = {
+			always = yes
+		}
+
+		
+	}
+}

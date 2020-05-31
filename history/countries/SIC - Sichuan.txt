@@ -49,6 +49,8 @@ create_country_leader = {
 	}
 }
 
+set_country_flag = c_warlord
+
 #set_country_flag = dmm_is_chinese_warlord
 
 #SIC = { #introductory event

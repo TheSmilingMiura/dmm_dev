@@ -5,13 +5,14 @@ state={
 		 4313 7397 12797
 	}
 	history = {
-		owner = RRC
+		owner = SHA
+		add_core_of = SHA
 		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		set_demilitarized_zone = yes
+		set_demilitarized_zone = no
 	}
 	manpower=1297785
 	state_category = rural

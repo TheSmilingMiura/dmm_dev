@@ -83,6 +83,21 @@ if = {
 	}
 }
 
+SHA = { set_country_flag = dmm_is_chinese_warlord }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SHA
+		autonomous_state = autonomy_dmm_chinese_army
+	}
+	else = {
+		puppet = SHA
+	}
+}
+
 XNZ = { set_country_flag = dmm_is_chinese_warlord }
 
 if = {

@@ -9,14 +9,15 @@ state={
 	
 	history=
 	{
-		owner = RRC
+		owner = SHA
+		add_core_of = SHA
 		add_core_of = RRC
-		add_core_of = MEN
+		add_claim_by = MEN
 		
 		buildings = {
 			infrastructure = 2
 		}
-		set_demilitarized_zone = yes
+		set_demilitarized_zone = no
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

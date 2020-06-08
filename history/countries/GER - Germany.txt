@@ -97,6 +97,9 @@ add_to_faction = NOR
 add_to_faction = DEN
 add_to_faction = UKR
 add_to_faction = SLO
+add_to_faction = GKT
+add_to_faction = GKK
+add_to_faction = GKN
 
 if = {
 	limit = {
@@ -165,6 +168,21 @@ if = {
 		autonomous_state = autonomy_satellite
 		freedom_level = 0.4
 	}
+	set_autonomy = {
+		target = GKT
+		autonomous_state = autonomy_reichskommissariat
+                freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = GKN
+		autonomous_state = autonomy_reichskommissariat
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = GKK
+		autonomous_state = autonomy_reichskommissariat
+		freedom_level = 0.4
+	}
 	else = {
 		puppet = AFK
 		puppet = MFR
@@ -175,6 +193,9 @@ if = {
 		puppet = FRA
 		puppet = TUR
 		puppet = URA
+		puppet = GKK
+		puppet = GKN
+		puppet = GKT
 	}
 }
 

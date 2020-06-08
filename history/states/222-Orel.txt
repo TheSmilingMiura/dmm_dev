@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = GKM
+		owner = GKT
 		victory_points = {
 			9355 10
 		}
@@ -20,7 +20,7 @@ state={
 			infrastructure = 5
 			air_base = 4
 		}
-		add_core_of = GKM
+		add_core_of = GKT
 	}
 
 	provinces={

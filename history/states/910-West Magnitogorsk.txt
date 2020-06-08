@@ -7,11 +7,11 @@ state={
 	manpower=10
     state_category = rural
     history={
-		owner = GKM
+		owner = GKK
 		buildings = {
 			infrastructure = 3
 			air_base = 6
 		}
-		add_core_of = GKM
+		add_core_of = GKK
 	}
 }

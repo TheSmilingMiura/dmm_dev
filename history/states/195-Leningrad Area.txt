@@ -7,8 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = GKM
-                add_core_of = GKM
+		owner = GKN
+                add_core_of = GKN
 		victory_points = {
 			3151 3
 		}
@@ -23,7 +23,7 @@ state={
 				coastal_bunker = 5
 			}
 		}
-		add_core_of = GER
+		add_core_of = GKN
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

@@ -1,0 +1,16 @@
+add_namespace = dmmdenmark
+
+country_event = {
+	id = dmmdenmark.170620
+	title = dmmdenmark.170620.t
+	desc = dmmdenmark.170620.d
+
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dmmdenmark.170620 "}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = dmmdenmark.170620.a
+	}
+}

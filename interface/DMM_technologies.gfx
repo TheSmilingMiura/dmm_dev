@@ -222,6 +222,10 @@ spriteTypes = {
 		name = "GFX_GER_heavy_bomber_plane_1970_tech_medium"
 		texturefile = "gfx/interface/technologies/GER/heavy_bomber_1970.dds"
 	}
+	spriteType = {
+		name = "GFX_GER_transport_plane_1970_tech_medium"
+		texturefile = "gfx/interface/technologies/GER/transport_plane_1970.dds"
+	}
 
 	# GKM Air
 	spriteType = {
@@ -269,6 +273,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_JAP_heavy_bomber_plane_2030_tech_medium"
 		texturefile = "gfx/interface/technologies/JAP/heavy_bomber_2030.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_transport_plane_1970_tech_medium"
+		texturefile = "gfx/interface/technologies/JAP/transport_plane_1970.dds"
 	}
 
 	# SWE
@@ -353,6 +361,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_USA_cv_fighter_plane_2030_tech_medium"
 		texturefile = "gfx/interface/technologies/USA/cv_fighter_2030.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_transport_plane_1970_tech_medium"
+		texturefile = "gfx/interface/technologies/USA/transport_plane_1970.dds"
 	}
 
 }

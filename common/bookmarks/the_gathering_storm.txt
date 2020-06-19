@@ -27,6 +27,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"ITA"={
+			history = "ITA_A_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"JAP"={
 			history = "JAP_A_NEW_DAWN_DESC"
 			ideology = fascist

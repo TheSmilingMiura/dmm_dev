@@ -5,15 +5,11 @@ country_event = {
 	id = soviet.1
 	title = soviet.1.t
 	desc = soviet.1.d
-	picture = 
-	
+	#picture = 
+
+	is_triggered_only = yes
 	fire_only_once = yes
-	
-	trigger = {
-		tag = SOV
-		date > 2004.4.1
-	}
-	
+
 	option = {
 		name = soviet.1.o1
 		hidden_effect = {
@@ -26,7 +22,7 @@ country_event = {
 	id = soviet.2
 	title = soviet.2.t
 	desc = soviet.2.d
-	picture = 
+	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -44,7 +40,7 @@ country_event = {
 	id = soviet.3
 	title = soviet.3.t
 	desc = soviet.3.d
-	picture = 
+	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -61,18 +57,16 @@ country_event = {
 	id = soviet.4
 	title = soviet.4.t
 	desc = soviet.4.d
-	picture = 
+	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
 		name = soviet.4.a
-		}
 	}
 	option = {
 		name = soviet.4.b
-		}
 	}
 }
 #Shamanov appointed as deputy leader, Oligarchs mad
@@ -80,7 +74,7 @@ country_event = {
 	id = soviet.5
 	title = soviet.5.t
 	desc = soviet.5.d
-	picture = 
+	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -97,7 +91,7 @@ country_event = {
 	id = soviet.6
 	title = soviet.6.t
 	desc = soviet.6.d
-	picture = 
+	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -114,7 +108,7 @@ country_event = {
 	id = soviet.10
 	title = soviet.10.t
 	desc = soviet.10.d
-	picture = 
+	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -123,8 +117,6 @@ country_event = {
 		name = soviet.10.o1
 		ai_chance = {
 			factor = 15
-		}
-			}
 		}
 	}
 	option = {

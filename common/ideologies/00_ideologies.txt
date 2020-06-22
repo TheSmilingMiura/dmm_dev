@@ -4,13 +4,13 @@ ideologies = {
 	
 		types = {
 			
-			national_socialism = {
+			national_socialism = { #natsoc
 			}
 			
-			artamanism = {
+			artamanism = { #artaman
 			}
 			
-			corporate_republic = {
+			corporate_republic = { #corporate 
 			}
 		}
 		
@@ -40,26 +40,26 @@ ideologies = {
 	
 		types = {
 		
-			nazism = {
+			#nazism = {
+			#}
+			
+			italian_fascism = { #itafas
 			}
 			
-			italian_fascism = {
+			futurist = { #futurist
 			}
 			
-			futurist = {
+			hakko_ichiu = { #hakkoichiu
 			}
 			
-			hakko_ichiu = {
+			esoteric_fascism = { #esofas
 			}
 			
-			esoteric_fascism = {
-			}
-			
-			black_supremacist = {
+			black_supremacist = { #blacksup
 			}
 
-			balinese_nationalist = {	
-			}
+			balinese_nationalist = { #not sure this really belongs here	
+			} #balinesenat
 		}
 		
 		dynamic_faction_names = {
@@ -90,18 +90,18 @@ ideologies = {
 	
 		types = {
 			
-			technocracy = {
+			technocracy = { #technocrat
 			}
 
-			military_junta = {
+			military_junta = { #miljunta
 			}
 
-			despotism = {}
+			despotism = {} #despot
 
-			stroessnerism = {
+			stroessnerism = { #stroessner
 			}
 
-			warlordism = {}
+			warlordism = {} #warlord
 		}
 		
 		dynamic_faction_names = {
@@ -131,25 +131,25 @@ ideologies = {
 	
 		types = {
 		
-			absolute_monarchist = {
+			absolute_monarchist = { #absmon
 			}
 			
-			salafi_theocrat = {
+			salafi_theocrat = { #salafist
 			}
 			
-			catholic_theocrat = {
+			catholic_theocrat = { #caththeo
 			}
 			
-			evangelical_theocrat = {
+			evangelical_theocrat = { #evtheo
 			}
 			
-			jewish_theocrat = {
+			jewish_theocrat = { #jewtheo
 			}
 			
-			nationalist = {
+			nationalist = { #nationalist
 			}
 			
-			falangist = {
+			falangist = { #falange
 			}
 				
 		}
@@ -182,22 +182,22 @@ ideologies = {
 	
 		types = {
 			
-			social_conservatism = {
+			social_conservatism = { #soccon
 			}
 			
-			national_conservatism = {
+			national_conservatism = { #natcon
 			}
 			
-			traditional_conservatism = {
+			traditional_conservatism = { #tradcon
 			}
 			
-			new_conservatism = {
+			new_conservatism = { #neocon
 			}
 			
-			evangelical_religious_conservatism = {
+			evangelical_religious_conservatism = { #evcon
 			}
 
-			sunni_islamic_religious_conservatism = {
+			sunni_islamic_religious_conservatism = { #iscon
 			}
 			
 		}
@@ -234,22 +234,22 @@ ideologies = {
 	
 		types = {
 			
-			social_liberalism = {
+			social_liberalism = { #soclib
 			}
 			
-			classical_liberalism = {
+			classical_liberalism = { #claslib
 			}
 			
-			libertarianism = {
+			libertarianism = { #libertarian
 			}
 			
-			revolutionary_liberalism = {
+			revolutionary_liberalism = { #revlib
 			}
 			
-			progressive = {
+			progressive = { #proglib
 			}
 			
-			national_liberalism = {
+			national_liberalism = { #natlib
 			}
 		}
 		
@@ -286,7 +286,7 @@ ideologies = {
 	
 		types = {
 			
-			social_democracy = {
+			social_democracy = { #socdem
 			}
 		}
 		
@@ -322,16 +322,16 @@ ideologies = {
 	
 		types = {
 			
-			anarcho_socialism = {
+			anarcho_socialism = { #ansoc
 			}
 			
-			democratic_socialism = {
+			democratic_socialism = { #demsoc
 			}
 			
-			orthodox_marxism = {
+			orthodox_marxism = { #orthmarx
 			}
 			
-			market_socialism = {
+			market_socialism = { #marsoc
 			}
 		}
 		
@@ -367,22 +367,22 @@ ideologies = {
 		
 		types = {
 		
-			vanguard_communism = {
+			vanguard_communism = { #vancom
 			}
 			
-			stalinist_communism = {
+			stalinist_communism = { #stalinist
 			}
 			
-			international_communism = {
+			international_communism = { #intcom
 			}
 			
-			national_bolshevik = {
+			national_bolshevik = { #nazbol
 			}
 			
-			shiite_communism = {
+			shiite_communism = { #shicom
 			}
 			
-			agrarian_communism = {
+			agrarian_communism = { #agrcom
 			}
 		}
 		

@@ -1,0 +1,59 @@
+scripted_gui = {
+	DMM_faction_icon = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "DMM_faction_icon_container"
+
+		visible = {
+		always = yes
+		}
+
+		triggers = {
+			daitoa_icon_visible = {
+				is_in_faction_with = JAP
+				JAP = {is_faction_leader = yes}
+			}
+			reichspakt_icon_visible = {
+				is_in_faction_with = GER
+				GER = { is_faction_leader = yes }
+			}
+			nato_icon_visible = {
+				is_in_faction_with = USA
+				USA = { is_faction_leader = yes }
+			}
+			no_icon_visible = {
+				is_in_faction = no
+			}
+			generic_icon_visible = {
+				is_in_faction = yes
+				NOT = {
+					OR = {
+						JAP = { is_faction_leader = yes }
+						GER = { is_faction_leader = yes }
+						USA = { is_faction_leader = yes }
+					}
+				}
+			}
+		}
+
+		properties = {
+			daitoa_icon = {
+				image = "GFX_daitoakyoeiken"
+			}
+			reichspakt_icon = {
+				image = "GFX_reichspakt"
+			}
+			nato_icon = {
+				image = "GFX_nato"
+			}
+			no_icon = {
+				image = "GFX_no_icon"
+			}
+			generic_icon = {
+				image = "GFX_generic_icon"
+			}
+		}
+
+		
+	}
+}

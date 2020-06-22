@@ -41,3 +41,6 @@ create_country_leader = {
 		#
 	}
 }
+
+#################GUI_SETUP##################
+set_country_flag = c_warlord #authoritarian party has warlord subideology

@@ -1,0 +1,18 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_daitoakyoeiken"
+		texturefile = "gfx/interface/daitoakyoeiken.dds"
+	}
+
+	spriteType = {
+		name = "GFX_reichspakt"
+		texturefile = "gfx/interface/marburgpakt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_no_icon"
+		texturefile = "gfx/interface/nofaction.dds"
+	}
+
+}

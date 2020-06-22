@@ -1,0 +1,53 @@
+guiTypes = {
+         containerWindowType = {
+          name = "DMM_faction_icon_container"
+          position = { x = 182 y = 300 }
+		  size = { width = 90 height = 90}
+
+		  iconType = {
+			name = "no_icon"
+			scale = 0.9
+			position = { x= 16 y = 5 }
+			orientation = "UPPER_LEFT"
+			pdx_tooltip_delayed = "DMM_no_name"
+			#clipping = no
+		  }
+			
+         iconType = {
+			name = "daitoa_icon"
+			scale = 0.9
+			position = { x= 15 y = 5 }
+			orientation = "UPPER_LEFT"
+			pdx_tooltip_delayed = "DMM_daitoakyoeiken_name"
+			#clipping = no
+		  }
+
+		  iconType = {
+			name = "reichspakt_icon"
+			scale = 0.87
+			position = { x= 24 y = 6 }
+			orientation = "UPPER_LEFT"
+			pdx_tooltip_delayed = "DMM_reichspakt_name"
+			#clipping = no
+		  }
+		  
+		  iconType = {
+			name = "nato_icon"
+			scale = 0.9
+			position = { x= 15 y = 5 }
+			orientation = "UPPER_LEFT"
+			pdx_tooltip_delayed = "DMM_nato_name"
+			#clipping = no
+		  }
+
+		  iconType = {
+			name = "generic_icon"
+			scale = 0.9
+			position = { x= 15 y = 5 }
+			orientation = "UPPER_LEFT"
+			pdx_tooltip_delayed = "DMM_generic_name"
+			#clipping = no
+		  }
+		 }
+			 
+}

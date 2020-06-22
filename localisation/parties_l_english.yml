@@ -702,3 +702,12 @@
  SOV_social_democrat_party:0 "Central Clique"
  SOV_socialist_party:0 "Central Clique"
  SOV_communist_party:0 "Central Clique"
+
+##################################################################################
+
+SHA_fascist_party:0 "Shina Hakengun Shoukou"
+SHA_fascist_party_long:0 "Officers of the China Expeditionary Army"
+SHA_authoritarian_party:0 "Xujituan"
+SHA_authoritarian_party_long:0 "Xu's Faction"
+SHA_reactionary_party:0 "Xiaganhui"
+SHA_reactionary_party_long:0 "Lower Gansu Association"

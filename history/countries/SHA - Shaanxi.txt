@@ -1,0 +1,50 @@
+﻿capital = 744
+
+oob = "SHA_2004"
+
+set_stability = 0.7
+set_war_support = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	#laws
+	low_economic_mobilisation
+	limited_conscription
+}
+
+set_popularities = {
+    fascist = 10
+    authoritarian = 68
+    reactionary = 22
+	corporatist = 0
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Xu Yong"
+	desc = "POLITICS_XU_YONG_DESC"
+	picture = "gfx/leaders/SHA/SHA_Xu_Yong.dds"
+	expire = "1965.1.1"
+	ideology = warlordism
+	traits = {
+		#
+	}
+}
+
+set_country_flag = c_hakkoichiu
+set_country_flag = c_warlord
+set_country_flag = c_nationalist

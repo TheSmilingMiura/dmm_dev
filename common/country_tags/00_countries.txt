@@ -316,4 +316,4 @@ IEA = "countries/Italian East Africa.txt"
 
 SIC = "countries/Sichuan.txt"
 GUI = "countries/Guizhou.txt"
-#GUA = "countries/Guangxi.txt"
+SHA = "countries/Shaanxi.txt"

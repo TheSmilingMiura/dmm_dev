@@ -798,10 +798,10 @@ SIC = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
 }
-#SHA = {
-#	color = rgb { 220 20 60 }
-#	color_ui = rgb { 220 20 60 }
-#}
+SHA = {
+	color = rgb { 236 230 79 }
+	color_ui = rgb { 236 230 79 }
+}
 DNG = {
 	color = rgb { 240 230 140 }
 	color_ui = rgb { 240 230 140 }

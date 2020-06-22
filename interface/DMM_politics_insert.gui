@@ -12,5 +12,6 @@ guiTypes = {
 			    	maxHeight = 20
 					#alwaystransparent = yes
 		    	}
+		  }
 			 
 }

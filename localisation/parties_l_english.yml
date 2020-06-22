@@ -687,7 +687,6 @@
  GXC_social_democrat_party_long:0 "Moderate Leftist Wing of the Kuomintang"
  GXC_socialist_party:0 "L-KMT (Radical)"
  GXC_socialist_party_long:0 "Radical Leftist Wing of the Kuomintang"
-<<<<<<< HEAD
  GXC_communist_party:0 "Chinese Communist Party"
 
  SOV_fascist_party:0 "Central Clique"
@@ -703,6 +702,3 @@
  SOV_social_democrat_party:0 "Central Clique"
  SOV_socialist_party:0 "Central Clique"
  SOV_communist_party:0 "Central Clique"
-=======
- GXC_communist_party:0 "Chinese Communist Party"
->>>>>>> parent of eeecc2a... Added SHA tag

@@ -21,16 +21,6 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = SAU
-		autonomous_state = autonomy_satellite
-                freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = IRQ
-		autonomous_state = autonomy_satellite
-                freedom_level = 0.5
-	}
-	set_autonomy = {
 		target = GRE
 		autonomous_state = autonomy_satellite
                 freedom_level = 0.5
@@ -111,7 +101,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Gianfranco Fini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "ITA_Gianfranco_Fini.tga"
+	picture = "Portrait_ITA_Gianfranco_Fini.dds"
 	expire = "2019.1.1"
 	ideology = military_junta
 	traits = {

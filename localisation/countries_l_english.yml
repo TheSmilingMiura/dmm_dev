@@ -162,8 +162,8 @@
  NOR_DEF:0 "Norway"
  NOR_ADJ:0 "Norwegian"
  
- PER:0 "Persia"
- PER_DEF:0 "Persia"
+ PER:0 "Islamic Peoples Republic of Iran"
+ PER_DEF:0 "the Islamic Peoples Republic of Iran"
  PER_ADJ:0 "Persian"
  
  POR:0 "Portugal"
@@ -180,7 +180,7 @@
 
  SER:0 "Serbia"
  SER_DEF:0 "Serbia"
- SER_fascist_ADJ:0 "Serbian"
+ SER_ADJ:0 "Serbian"
  
  SLO:0 "Slovakia"
  SLO_DEF:0 "Slovakia"
@@ -194,19 +194,19 @@
  SPR_DEF:0 "Spain"
  SPR_ADJ:0 "Spanish"
  
- SWE_fascist:0 "Sweden"
- SWE_fascist_DEF:0 "Sweden"
- SWE_fascist_ADJ:0 "Swedish"
+ SWE:0 "Sweden"
+ SWE_DEF:0 "Sweden"
+ SWE_ADJ:0 "Swedish"
  
  SWI:0 "Switzerland"
  SWI_DEF:0 "Switzerland"
  SWI_ADJ:0 "Swiss"
  
  TIB:0 "Tibet"
- TIB_fascist_DEF:0 "Tibet"
- TIB_fascist_ADJ:0 "Tibetan"
+ TIB_DEF:0 "Tibet"
+ TIB_ADJ:0 "Tibetan"
  
- TUR_:0 "Turkey"
+ TUR:0 "Turkey"
  TUR_DEF:0 "Turkey"
  TUR_ADJ:0 "Turkish"
  
@@ -233,6 +233,10 @@
  YUG:0 "Serbia"
  YUG_DEF:0 "Serbia"
  YUG_ADJ:0 "Serbian"
+
+ RKM:0 "RK Moskowien"
+ RKM_DEF:0 "RK Moskowien"
+ RKM_ADJ:0 "German"
  
 ############# UNDER CONSTRUCTION ######################
 

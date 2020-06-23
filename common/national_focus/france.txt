@@ -1,1 +1,276 @@
-#Empty
+﻿focus_tree = {
+	id = france
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	focus = {
+		id = FRA_purges_in_the_cabinet
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_antipartisan_operations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_attract_foreign_investors
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_revitalize_the_mining_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_rebuild_autoroutes
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_repopulate_south_paris 
+		}
+		prerequisite = { 
+			focus = FRA_attract_foreign_investors 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_antipartisan_operations
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_breakdown_on_the_occitan_partisans
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_antipartisan_operations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_rebuild_the_arms_factories
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_annual_meeting_of_the_french_committe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_revitalize_the_mining_industry
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_rebuild_the_arms_factories 
+		}
+		prerequisite = { 
+			focus = FRA_build_hydroelectric_dams 
+		}
+		prerequisite = { 
+			focus = FRA_seek_a_loan_to_the_reichsbank 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_rebuild_the_brittany_refineries
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rebuild_the_arms_factories }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_repopulate_south_paris
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_revitalize_the_mining_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_the_council_concedes
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_new_capital 
+		}
+		prerequisite = { 
+			focus = FRA_expand_german_economic_ties 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_annual_meeting_of_the_french_committe
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_build_hydroelectric_dams
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_annual_meeting_of_the_french_committe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_seek_a_loan_to_the_reichsbank
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_annual_meeting_of_the_french_committe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_expand_german_economic_ties
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rebuild_autoroutes }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_secure_aquitaine
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_breakdown_on_the_occitan_partisans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_francospanishop
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_breakdown_on_the_occitan_partisans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_exploit_aquitaine_oil_fields
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_secure_aquitaine 
+		}
+		prerequisite = { 
+			focus = FRA_rebuild_the_brittany_refineries 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_eliminate_northern_resistance
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_francospanishop }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_rig_municipal_elections
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_exploit_aquitaine_oil_fields 
+		}
+		prerequisite = { 
+			focus = FRA_eliminate_northern_resistance 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_a_new_capital
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rig_municipal_elections }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ }

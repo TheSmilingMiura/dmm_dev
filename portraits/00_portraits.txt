@@ -134,7 +134,7 @@ continent = {
 		}
 	}
 }
-Portrait_RNGROC_Fei_Yu_Ching
+
 continent = {
 	name = south_america
 	army = {

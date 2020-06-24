@@ -1,0 +1,47 @@
+guiTypes = {
+    containerWindowType = {
+        name = "DMM_SHA_shaanxi_GUI"
+        size = { width = 525 height = 525 }
+        position = { x = 0 y = 0 }
+        
+
+        iconType = {
+          name = "SHA_state1"
+          position = { x = 178 y = 7 }
+          pdx_tooltip = "SHA_state1_tt"
+        }
+        iconType = {
+          name = "SHA_state4"
+          position = { x = 85 y = 330 }
+          pdx_tooltip = "SHA_state4_tt"
+        }
+        #iconType = {
+         # name = "test"
+          #spriteType = "GFX_SHA_GUI_STATE1_blue"
+          #position = { x = 119 y = 8 }
+        #}
+        iconType = {
+          name = "SHA_state2"
+          position = { x = 132 y = 247 }
+          pdx_tooltip = "SHA_state2_tt"
+          #alwaystransparent = yes
+        }
+        iconType = {
+          name = "SHA_state3"
+          position = { x = 200 y = 260 }
+          pdx_tooltip = "SHA_state3_tt"
+        }
+        #instantTextBoxtype = {
+         # name = "textsha"
+          #position = { x = 119 y = 8 }
+          #text = "[SHAstate1]"
+        #}
+
+        iconType = {
+          name = "SHA_GUI_BG"
+          spriteType = "GFX_SHA_GUI_BG"
+          position = { x = 80 y = 7 }
+          alwaystransparent = yes
+        }
+    }   
+}

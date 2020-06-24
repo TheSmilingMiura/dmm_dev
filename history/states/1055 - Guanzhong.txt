@@ -1,0 +1,18 @@
+state = {
+	id=1055
+	name="STATE_1055"
+	provinces = {
+		10733 2006 1976 7301 12713 5007 
+	}
+	manpower=1386666
+	state_category = rural
+	history = {
+		owner = SHA
+		add_core_of = SHA
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}

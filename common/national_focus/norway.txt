@@ -1,0 +1,443 @@
+focus_tree = {
+	id = Norway
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NOR
+		}
+	}
+	#Focus for Major political reforms
+	focus = {
+		id = NOR_major_political_reforms
+		icon = GFX_goal_generic_war_with_comintern
+		x = 0
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_reforms }
+		mutually_exclusive = { focus = NOR_minor_political_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Glory
+	focus = {
+		id = NOR_national_glory
+		icon = GFX_goal_generic_secret_weapon
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_strengthen_the_iron_fist }
+		mutually_exclusive = { 
+			focus = NOR_ns_primacy 
+			focus = NOR_norwegian_heritage 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A conservative future
+	focus = {
+		id = NOR_a_conservative_future
+		icon = GFX_goal_generic_propaganda
+		x = 12
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_a_democratic_stronghold }
+		mutually_exclusive = { focus = NOR_liberal_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for NS Primacy
+	focus = {
+		id = NOR_ns_primacy
+		icon = GFX_focus_ger_reichskommisariats
+		x = 19
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_strengthen_the_iron_fist }
+		mutually_exclusive = { 
+			focus = NOR_norwegian_heritage 
+		}
+		mutually_exclusive = { 
+			focus = NOR_national_glory 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strengthen the iron fist!
+	focus = {
+		id = NOR_strengthen_the_iron_fist
+		icon = GFX_goal_generic_political_pressure
+		x = 19
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_norways_future }
+		mutually_exclusive = { 
+			focus = NOR_reforms 
+			focus = NOR_a_democratic_stronghold 
+			focus = NOR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A democratic stronghold!
+	focus = {
+		id = NOR_a_democratic_stronghold
+		icon = GFX_goal_support_democracy
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_norways_future }
+		mutually_exclusive = { 
+			focus = NOR_strengthen_the_iron_fist 
+			focus = NOR_reforms 
+			focus = NOR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Minor political reforms
+	focus = {
+		id = NOR_minor_political_reforms
+		icon = GFX_goal_generic_soviet_construction
+		x = 4
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_reforms }
+		mutually_exclusive = { focus = NOR_major_political_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Norway's future
+	focus = {
+		id = NOR_norways_future
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower the municipalities
+	focus = {
+		id = NOR_empower_the_municipalities
+		icon = GFX_goal_generic_improve_relations
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_liberal_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Liberal reforms
+	focus = {
+		id = NOR_liberal_reforms
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_a_democratic_stronghold }
+		mutually_exclusive = { focus = NOR_a_conservative_future }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage free speech
+	focus = {
+		id = NOR_encourage_free_speech
+		icon = GFX_goal_generic_propaganda
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_a_conservative_future 
+			focus = NOR_liberal_reforms 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Norwegian Heritage
+	focus = {
+		id = NOR_norwegian_heritage
+		icon = GFX_goal_support_fascism
+		x = 23
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_strengthen_the_iron_fist }
+		mutually_exclusive = { 
+			focus = NOR_national_glory 
+			focus = NOR_ns_primacy 
+			focus = NOR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Raise tax for the rich
+	focus = {
+		id = NOR_raise_tax_for_the_rich
+		icon = GFX_focus_generic_concessions
+		x = 0
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_major_political_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invest in institutions
+	focus = {
+		id = NOR_invest_in_institutions
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_minor_political_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strengthen trade unions
+	focus = {
+		id = NOR_strengthen_trade_unions
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 2
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_minor_political_reforms 
+			focus = NOR_major_political_reforms 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reforms!
+	focus = {
+		id = NOR_reforms
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_norways_future }
+		mutually_exclusive = { 
+			focus = NOR_a_democratic_stronghold 
+			focus = NOR_strengthen_the_iron_fist 
+			focus = NOR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Total equality
+	focus = {
+		id = NOR_total_equality
+		icon = GFX_goal_generic_national_unity
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_strengthen_trade_unions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Arbeiderpariet
+	focus = {
+		id = NOR_secure_arbeiderpariet
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 4
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_secure_a_socialist_welfare_system 
+		}
+		prerequisite = { 
+			focus = NOR_invest_in_institutions 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Privatize companies
+	focus = {
+		id = NOR_privatize_companies
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_a_conservative_future }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Sosialistisk Venstreparti
+	focus = {
+		id = NOR_secure_sosialistisk_venstreparti
+		icon = GFX_goal_generic_war_with_comintern
+		x = 0
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_secure_a_socialist_welfare_system 
+		}
+		prerequisite = { 
+			focus = NOR_raise_tax_for_the_rich 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Venstre
+	focus = {
+		id = NOR_secure_venstre
+		icon = GFX_goal_generic_major_alliance
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_personal_freedom 
+		}
+		prerequisite = { 
+			focus = NOR_empower_the_municipalities 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Høyre
+	focus = {
+		id = NOR_secure_hyre
+		icon = GFX_goal_generic_improve_relations
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_personal_freedom 
+		}
+		prerequisite = { 
+			focus = NOR_privatize_companies 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Abolish the NS council
+	focus = {
+		id = NOR_abolish_the_ns_council
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 6
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_secure_a_socialist_welfare_system 
+			focus = NOR_personal_freedom 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Same values
+	focus = {
+		id = NOR_same_values
+		icon = GFX_goal_generic_national_unity
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NOR_encourage_free_speech }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Personal freedom
+	focus = {
+		id = NOR_personal_freedom
+		icon = GFX_goal_support_democracy
+		x = 10
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_privatize_companies 
+			focus = NOR_empower_the_municipalities 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure a socialist welfare system
+	focus = {
+		id = NOR_secure_a_socialist_welfare_system
+		icon = GFX_goal_generic_soviet_construction
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NOR_raise_tax_for_the_rich 
+			focus = NOR_invest_in_institutions 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

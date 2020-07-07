@@ -4,8 +4,8 @@ state={
 	name="STATE_440"
 
 	history={
-		owner = PUN
-		add_core_of = PUN
+		owner = AZA
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 5
 

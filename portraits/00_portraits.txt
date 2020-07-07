@@ -390,3 +390,65 @@ continent = {
 		}
 	}
 }
+RRC = {
+	political = {
+		corporatist = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		fascist = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		authoritarian = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		reactionary = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		conservative = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		liberal = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		social_democrat = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		socialist = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+		communist = {
+			male = { "gfx/leaders/RRC/Portrait_RNGROC_Fei_Yu_Ching.dds" }
+		}
+	}
+}
+USA = {
+	political = {
+		corporatist = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		fascist = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		authoritarian = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		reactionary = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		conservative = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		liberal = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		social_democrat = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		socialist = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+		communist = {
+			male = { "gfx/leaders/USA/Portrait_USA_Adam_Sandler.dds" }
+		}
+	}
+}

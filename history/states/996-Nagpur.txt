@@ -9,8 +9,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = CIF
-		add_core_of = CIF
+		owner = AZA
+		add_core_of = AZA
 	}
 	buildings_max_level_factor=1.000
 }

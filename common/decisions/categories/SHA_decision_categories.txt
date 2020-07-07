@@ -1,0 +1,8 @@
+SHA_insurgency_category = {
+	scripted_gui = DMM_SHA_GUI
+	visible_when_empty = yes
+
+	allowed = {
+		original_tag = SHA
+	}
+}

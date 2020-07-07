@@ -1,0 +1,10 @@
+﻿l_english: 
+SHA_insurgency_category:0 "The Communist Issue"
+SHA_insurgency_category_desc:0 "Shaanxi has long been plagued by a resurgent guerilla operation of the Chinese Workers and Peasants Red Army. Even though it was thoroughly shattered during World War 2, rampant poverty and exploitation by the gigantic Japanese Zaibatsu have created a fertile ground for its recoalescence. While present to some degree throughout most of China, the Communist presence is strongest in their old home province of Shaanxi, where the Party and Red Army operate opium growing operations to finance their ever-escalating 'people's war'. We must weaken them significantly, or they might just prove the anvil that someone else's hammer crushes us against.\n"
+SHA_anti_opiate_campaign:0 "Campaign against Opium"
+SHA_state1_tt:0 "The current Communist Presence in the Yan'an-North Shaanxi Region is §R[?622.SHA_communist_presence]%§!. [SHA_dominant_force_yanan]."
+SHA_state2_tt:0 "The current Communist Presence in the Guanzhong Region is §R[?1055.SHA_communist_presence]%§!. [SHA_dominant_force_guanzhong]."
+SHA_state3_tt:0 "The current Communist Presence in the Xi'an Region is §R[?1054.SHA_communist_presence]%§!. [SHA_dominant_force_xian]."
+SHA_state4_tt:0 "The current Communist Presence in the Qinling-South Shaanxi Region is §R[?744.SHA_communist_presence]%§!. [SHA_dominant_force_qinling]."
+SHA_xian_control:0 "§YXi'an-aligned Forces§! control most of this Region"
+SHA_communist_control:0 "§RCommunist-aligned Forces§! control most of this Region"

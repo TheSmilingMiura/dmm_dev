@@ -1,0 +1,37 @@
+scripted_gui = {
+	DMM_SHA_GUI = {
+		context_type = decision_category
+		parent_window_token = top_bar
+		window_name = "DMM_SHA_shaanxi_GUI"
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+		
+		}
+
+		effects = {
+
+		}
+
+		properties = {
+			SHA_state1 = {
+				image = "[SHAstate1]"
+			}
+			SHA_state2 = {
+				image = "[SHAstate2]"
+			}
+			SHA_state3 = {
+				image = "[SHAstate3]"
+			}
+			SHA_state4 = {
+				image = "[SHAstate4]"
+			}
+			#test = {
+			#	image = "GFX_SHA_GUI_State1_red"
+			#}
+		}
+	}
+}

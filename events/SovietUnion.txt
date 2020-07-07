@@ -1,1 +1,128 @@
-﻿#Empty
+﻿add_namespace = soviet
+
+#Introduction
+country_event = {
+	id = soviet.1
+	title = soviet.1.t
+	desc = soviet.1.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.1.o1
+		hidden_effect = {
+		    country_event = { days = 10 id = soviet.2 } 
+		}
+	}
+}
+#Shamanov and Surkov argue in Duma
+country_event = {
+	id = soviet.2
+	title = soviet.2.t
+	desc = soviet.2.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.2.a
+		add_stability = -0.02
+		hidden_effect = {
+		    country_event = { days = 4 id = soviet.3 }
+		}
+	}
+}
+#Dvornikov leaves to rest in Dacha
+country_event = {
+	id = soviet.3
+	title = soviet.3.t
+	desc = soviet.3.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.3.a
+		hidden_effect = {
+		    country_event = { days = 14 id = soviet.4 }
+		}
+	}
+}
+#Duma tries to appoint a deputy
+country_event = {
+	id = soviet.4
+	title = soviet.4.t
+	desc = soviet.4.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.4.a
+	}
+	option = {
+		name = soviet.4.b
+	}
+}
+#Shamanov appointed as deputy leader, Oligarchs mad
+country_event = {
+	id = soviet.5
+	title = soviet.5.t
+	desc = soviet.5.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.5.a
+		hidden_effect = {
+		    country_event = { days = 70 id = soviet.10 }
+		}
+	}
+}
+#Surkov appointed as leader, Military mad
+country_event = {
+	id = soviet.6
+	title = soviet.6.t
+	desc = soviet.6.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.6.a
+		hidden_effect = {
+		    country_event = { days = 70 id = soviet.10 }
+		}
+	}
+}
+#Dvornikov goes missing, shit hits the fan
+country_event = {
+	id = soviet.10
+	title = soviet.10.t
+	desc = soviet.10.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = soviet.10.o1
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = {
+		name = soviet.10.o2
+		ai_chance = {
+			factor = 15
+		}
+	}
+}

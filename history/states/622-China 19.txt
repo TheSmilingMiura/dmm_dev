@@ -14,6 +14,7 @@ state={
 			8049 3 
 		}
 		set_demilitarized_zone = no
+		set_variable = { SHA_communist_presence = 65 }
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -36,7 +37,7 @@ state={
 	}
 
 	provinces={
-		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
+		1458 7208 7314 7659 8049 10880 12356 
 	}
 	manpower=7006200
 	buildings_max_level_factor=1.000

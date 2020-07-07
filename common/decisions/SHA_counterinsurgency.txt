@@ -1,0 +1,23 @@
+SHA_insurgency_category = {
+	SHA_anti_opiate_campaign = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+		}
+		visible = {
+			original_tag = SHA
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		days_remove = 30
+		days_re_enable = 60
+		cost = 60
+		complete_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_anti_opiate_campaign"
+			hidden_effect = { add_to_variable = { SHA_communist_funding = -5 } }
+			#hinders communist operations
+		}
+	}
+}

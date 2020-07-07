@@ -7,8 +7,8 @@ state={
 	state_category = city
 	
 	history={
-		owner = PUN
-		add_core_of = PUN
+		owner = AZA
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

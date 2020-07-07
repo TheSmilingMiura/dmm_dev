@@ -1,0 +1,40 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_SHA_GUI_BG"
+		texturefile = "gfx/interface/sha_gui/SHA_GUI_BG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE1_blue"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE1_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE2_blue"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE2_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE3_blue"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE3_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE4_blue"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE4_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE1_red"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE1_red.dds"
+	}
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE2_red"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE2_red.dds"
+	}
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE3_red"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE3_red.dds"
+	}
+	spriteType = {
+		name = "GFX_SHA_GUI_STATE4_red"
+		texturefile = "gfx/interface/sha_gui/SHA_STATE4_red.dds"
+	}
+}

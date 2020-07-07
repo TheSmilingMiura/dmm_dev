@@ -53,18 +53,18 @@ add_ideas = {
 	partial_economic_mobilisation
 	SOV_famine
 	SOV_the_russian_bear
-	#SOV_corrupt_oligarchic_republic
 }
 
 set_popularities = {
-    fascist = 16
-    authoritarian = 82
-    reactionary = 2
-    conservative = 2
+    fascist = 0
+    authoritarian = 38
+    reactionary = 22
+    conservative = 6
     liberal = 0
-    social_democrat = 0
-    socialist = 0
-    communist = 0
+    social_democrat = 8
+    socialist = 3
+    communist = 1
+    corporatist = 12
 }
 
 create_country_leader = {
@@ -79,20 +79,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konstantin Rodzaevsky"
+	name = "Vladislav Surkov"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	picture = "SOV_Vladislav_Surkov.dds"
 	expire = "1953.3.1"
-	ideology = market_socialism
+	ideology = reactionary_ideology
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
+	name = "Mikhail Kalashnikov"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
+	picture = "SOV_Mikhail_Kalashnikov.dds"
 	expire = "1953.3.1"
 	ideology = orthodox_marxism
 	traits = {

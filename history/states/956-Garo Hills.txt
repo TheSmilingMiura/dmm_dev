@@ -6,7 +6,7 @@ state={
 		12395 13403
 	}
 	history={
-		owner = RAJ
+		owner = AZA
 	}
 
 	manpower=8977100

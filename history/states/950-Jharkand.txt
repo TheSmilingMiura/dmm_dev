@@ -10,8 +10,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = ORI
-		add_core_of = ORI
+		owner = AZA
+		add_core_of = AZA
 	}
 
 	buildings_max_level_factor=1.000

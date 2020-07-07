@@ -1,0 +1,31 @@
+﻿ideas = {
+
+    country = {
+        AZA_overstretched_military = {
+
+			picture = GFX_idea_generic_purge
+
+			allowed = {
+				original_tag = AZA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = 0.2
+				conscription_factor = 0.1
+				consumer_goods_factor = -0.2
+				training_time_factor = 0.25
+				army_org_factor = -0.1
+			}
+		}
+	}
+}
+
+
+    

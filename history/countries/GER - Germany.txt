@@ -86,11 +86,8 @@ add_to_faction = DAG
 add_to_faction = GEO
 add_to_faction = ARM
 add_to_faction = CHE
-add_to_faction = TUR
 add_to_faction = BUL
 add_to_faction = SER
-add_to_faction = SAU
-add_to_faction = IRQ
 add_to_faction = IRE
 add_to_faction = NFT
 add_to_faction = NOR
@@ -160,11 +157,6 @@ if = {
 		autonomous_state = autonomy_reichsprotectorate
 		freedom_level = 0.1
 	}
-	set_autonomy = {
-		target = TUR
-		autonomous_state = autonomy_satellite
-		freedom_level = 0.4
-	}
 	else = {
 		puppet = AFK
 		puppet = MFR
@@ -173,7 +165,6 @@ if = {
 		puppet = SLO
 		puppet = SER
 		puppet = FRA
-		puppet = TUR
 		puppet = URA
 	}
 }

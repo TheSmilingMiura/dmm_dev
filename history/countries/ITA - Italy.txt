@@ -36,10 +36,7 @@ if = {
                 freedom_level = 0.5
 	}
 	else = {
-		puppet = IRQ
-		puppet = SAU
 		puppet = GRE
-		puppet = UAE
 		puppet = IEA
 		puppet = ALG
 		

@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = CIF
-		add_core_of = CIF
+		owner = AZA
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 4
 

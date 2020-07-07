@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = RAS
-		add_core_of = RAS
+		owner = AZA
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

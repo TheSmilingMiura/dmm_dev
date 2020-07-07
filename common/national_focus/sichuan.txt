@@ -1,0 +1,113 @@
+﻿focus_tree = {
+	id = Sichuan
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SIC
+		}
+	}
+	#Focus for Sharpen The Knives
+	focus = {
+		id = Sichuan_sharpen_the_knives
+		icon = GFX_Sichuan_sharpen_the_knives-11265
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Sichuan_every_last_one_needs_a_bullet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Four Circuits, One General
+	focus = {
+		id = Sichuan_four_circuits_one_general
+		icon = GFX_Sichuan_four_circuits_one_general-11200
+		x = 9
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Incompetent Subordinates
+	focus = {
+		id = Sichuan_incompetent_subordinates
+		icon = GFX_Sichuan_incompetent_subordinates-11201
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Sichuan_four_circuits_one_general }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Corrupt Officials
+	focus = {
+		id = Sichuan_corrupt_officials
+		icon = GFX_Sichuan_corrupt_officials-11202
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Sichuan_four_circuits_one_general }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Every Last One Needs a Bullet
+	focus = {
+		id = Sichuan_every_last_one_needs_a_bullet
+		icon = GFX_Sichuan_every_last_one_needs_a_bullet-11204
+		x = 9
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Sichuan_corrupt_officials 
+		}
+		prerequisite = { 
+			focus = Sichuan_incompetent_subordinates 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Only Lifeboat
+	focus = {
+		id = Sichuan_the_only_lifeboat
+		icon = GFX_Sichuan_the_only_lifeboat-11213
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Sichuan_every_last_one_needs_a_bullet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Only Relief Valve
+	focus = {
+		id = Sichuan_the_only_relief_valve
+		icon = GFX_Sichuan_the_only_relief_valve-11214
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Sichuan_every_last_one_needs_a_bullet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

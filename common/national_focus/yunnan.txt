@@ -1,0 +1,747 @@
+﻿focus_tree = {
+	id = YUN
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = XNZ
+		}
+	}
+	#Focus for The Valley Of Eternal Spring
+	focus = {
+		id = YUN_the_valley_of_eternal_spring
+		icon = GFX_goal_unknown
+		x = 17
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop the Kaige Industrial Area
+	focus = {
+		id = YUN_develop_the_kaige_industrial_area
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_valley_of_eternal_spring }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Modernize the Kunhe Line
+	focus = {
+		id = YUN_modernize_the_kunhe_line
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_valley_of_eternal_spring }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support the Unified Southwest University
+	focus = {
+		id = YUN_support_the_unified_southwest_university
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_valley_of_eternal_spring }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Hall of the Mountain King
+	focus = {
+		id = YUN_the_hall_of_the_mountain_king
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_develop_the_kaige_industrial_area 
+		}
+		prerequisite = { 
+			focus = YUN_modernize_the_kunhe_line 
+		}
+		prerequisite = { 
+			focus = YUN_support_the_unified_southwest_university 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Double Nine Incident
+	focus = {
+		id = YUN_the_double_nine_incident
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_hall_of_the_mountain_king }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deterrence Strategy
+	focus = {
+		id = YUN_deterrence_strategy
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_switzerland_of_asia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Seek International Recognition
+	focus = {
+		id = YUN_seek_international_recognition
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_switzerland_of_asia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Chase the Sun
+	focus = {
+		id = YUN_chase_the_sun
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_seek_international_recognition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for But Keep Some Distance
+	focus = {
+		id = YUN_but_keep_some_distance
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_chase_the_sun }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Exploit the Porous Border
+	focus = {
+		id = YUN_exploit_the_porous_border
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_seek_international_recognition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secret Dealings in the Shade
+	focus = {
+		id = YUN_secret_dealings_in_the_shade
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_exploit_the_porous_border }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Defend the Jinshan Crossings
+	focus = {
+		id = YUN_defend_the_jinshan_crossings
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_deterrence_strategy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Wen-Fu-Guang Defense Strategy
+	focus = {
+		id = YUN_the_wenfuguang_defense_strategy
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_deterrence_strategy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Kunming National Redoubt
+	focus = {
+		id = YUN_kunming_national_redoubt
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_the_wenfuguang_defense_strategy 
+		}
+		prerequisite = { 
+			focus = YUN_defend_the_jinshan_crossings 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Thirteenth Army Returns
+	focus = {
+		id = YUN_the_thirteenth_army_returns
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_double_nine_incident }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Consider the Second Principle
+	focus = {
+		id = YUN_consider_the_second_principle
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_thirteenth_army_returns }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Implement the First Principle
+	focus = {
+		id = YUN_implement_the_first_principle
+		icon = GFX_goal_unknown
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_thirteenth_army_returns }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Delay the Third Principle
+	focus = {
+		id = YUN_delay_the_third_principle
+		icon = GFX_goal_unknown
+		x = 21
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_thirteenth_army_returns }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Fourth Principle: Federalism
+	focus = {
+		id = YUN_the_fourth_principle_federalism
+		icon = GFX_goal_unknown
+		x = 19
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_implement_the_first_principle 
+		}
+		prerequisite = { 
+			focus = YUN_consider_the_second_principle 
+		}
+		prerequisite = { 
+			focus = YUN_delay_the_third_principle 
+		}
+		mutually_exclusive = { focus = YUN_the_fourth_principle_anticommunism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure the Yunnan Anti-Japanese Rear Area
+	focus = {
+		id = YUN_secure_the_yunnan_antijapanese_rear_area
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_the_fourth_principle_anticommunism 
+			focus = YUN_the_fourth_principle_federalism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Win Over the Populace
+	focus = {
+		id = YUN_win_over_the_populace
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_the_fourth_principle_anticommunism 
+			focus = YUN_the_fourth_principle_federalism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Kunming Department in Control
+	focus = {
+		id = YUN_kunming_department_in_control
+		icon = GFX_goal_unknown
+		x = 38
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_double_nine_incident }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Dragon And The Scholar
+	focus = {
+		id = YUN_the_dragon_and_the_scholar
+		icon = GFX_goal_unknown
+		x = 28
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_little_dragons_reign }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Switzerland of Asia
+	focus = {
+		id = YUN_the_switzerland_of_asia
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_double_nine_incident }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Fourth Principle: Anti-Communism
+	focus = {
+		id = YUN_the_fourth_principle_anticommunism
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_implement_the_first_principle 
+		}
+		prerequisite = { 
+			focus = YUN_consider_the_second_principle 
+		}
+		prerequisite = { 
+			focus = YUN_delay_the_third_principle 
+		}
+		mutually_exclusive = { focus = YUN_the_fourth_principle_federalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dali Xueyuan Dominant
+	focus = {
+		id = YUN_dali_xueyuan_dominant
+		icon = GFX_goal_unknown
+		x = 30
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_little_dragons_reign }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cross the Jinsha, Retake Zhaotong
+	focus = {
+		id = YUN_cross_the_jinsha_retake_zhaotong
+		icon = GFX_goal_unknown
+		x = 32
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_interim_president_long_zonghan 
+			focus = YUN_destroy_the_thirteenth 
+			focus = YUN_a_family_tradition 
+			focus = YUN_the_national_coalition 
+		}
+		mutually_exclusive = { 
+			focus = YUN_rapid_northward_push 
+			focus = YUN_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rapid Northward Push
+	focus = {
+		id = YUN_rapid_northward_push
+		icon = GFX_goal_unknown
+		x = 25
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_a_family_tradition 
+			focus = YUN_destroy_the_thirteenth 
+			focus = YUN_interim_president_long_zonghan 
+			focus = YUN_the_national_coalition 
+		}
+		mutually_exclusive = { focus = YUN_cross_the_jinsha_retake_zhaotong }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The National Coalition
+	focus = {
+		id = YUN_the_national_coalition
+		icon = GFX_goal_unknown
+		x = 34
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_tickling_the_dragons_tail 
+		}
+		prerequisite = { 
+			focus = YUN_a_new_dawn_south_of_the_clouds 
+		}
+		mutually_exclusive = { 
+			focus = YUN_destroy_the_thirteenth 
+		}
+		mutually_exclusive = { 
+			focus = YUN_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Family Tradition
+	focus = {
+		id = YUN_a_family_tradition
+		icon = GFX_goal_unknown
+		x = 28
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_tickling_the_dragons_tail 
+		}
+		prerequisite = { 
+			focus = YUN_a_new_dawn_south_of_the_clouds 
+		}
+		mutually_exclusive = { 
+			focus = YUN_interim_president_long_zonghan 
+		}
+		mutually_exclusive = { 
+			focus = YUN_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Destroy the Thirteenth
+	focus = {
+		id = YUN_destroy_the_thirteenth
+		icon = GFX_goal_unknown
+		x = 30
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_tickling_the_dragons_tail 
+		}
+		prerequisite = { 
+			focus = YUN_a_new_dawn_south_of_the_clouds 
+		}
+		mutually_exclusive = { focus = YUN_the_national_coalition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Interim President Long Zonghan
+	focus = {
+		id = YUN_interim_president_long_zonghan
+		icon = GFX_goal_unknown
+		x = 24
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_tickling_the_dragons_tail 
+		}
+		prerequisite = { 
+			focus = YUN_a_new_dawn_south_of_the_clouds 
+		}
+		mutually_exclusive = { focus = YUN_a_family_tradition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tickling The Dragon's Tail
+	focus = {
+		id = YUN_tickling_the_dragons_tail
+		icon = GFX_goal_unknown
+		x = 30
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_dali_xueyuan_dominant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Dawn South Of The Clouds
+	focus = {
+		id = YUN_a_new_dawn_south_of_the_clouds
+		icon = GFX_goal_unknown
+		x = 28
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_dragon_and_the_scholar }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Little Dragon's Reign
+	focus = {
+		id = YUN_the_little_dragons_reign
+		icon = GFX_goal_unknown
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_double_nine_incident }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Lick Our Wounds
+	focus = {
+		id = YUN_lick_our_wounds
+		icon = GFX_goal_unknown
+		x = 27
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_rapid_northward_push }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The General's Good Conscience
+	focus = {
+		id = YUN_the_generals_good_conscience
+		icon = GFX_goal_unknown
+		x = 31
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_cross_the_jinsha_retake_zhaotong }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prepare the Duliang Campaign
+	focus = {
+		id = YUN_prepare_the_duliang_campaign
+		icon = GFX_goal_unknown
+		x = 29
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_lick_our_wounds 
+			focus = YUN_the_generals_good_conscience 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Assist the Zhaotong Area
+	focus = {
+		id = YUN_assist_the_zhaotong_area
+		icon = GFX_goal_unknown
+		x = 33
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_cross_the_jinsha_retake_zhaotong }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prepare Four Rivers Offensive
+	focus = {
+		id = YUN_prepare_four_rivers_offensive
+		icon = GFX_goal_unknown
+		x = 29
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUN_prepare_the_duliang_campaign 
+			focus = YUN_raise_peasant_militia 
+			focus = YUN_dispatch_the_industrial_engineering_bureau 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Zhang Qiaogui Thought
+	focus = {
+		id = YUN_promote_zhang_qiaogui_thought
+		icon = GFX_goal_unknown
+		x = 24
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_scholar_ascendant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Charitable Dragon
+	focus = {
+		id = YUN_the_charitable_dragon
+		icon = GFX_goal_unknown
+		x = 34
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_assist_the_zhaotong_area }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Raise Peasant Militia
+	focus = {
+		id = YUN_raise_peasant_militia
+		icon = GFX_goal_unknown
+		x = 32
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_assist_the_zhaotong_area }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Scholar Ascendant
+	focus = {
+		id = YUN_the_scholar_ascendant
+		icon = GFX_goal_unknown
+		x = 25
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_rapid_northward_push }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dispatch the Industrial Engineering Bureau
+	focus = {
+		id = YUN_dispatch_the_industrial_engineering_bureau
+		icon = GFX_goal_unknown
+		x = 26
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YUN_the_scholar_ascendant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

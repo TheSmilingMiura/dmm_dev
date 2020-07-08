@@ -6,12 +6,10 @@ set_technology = {
 }
 
 add_ideas = {
-	seperate_but_equal
-	the_guns_of_fort_mountbatten
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = communist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -19,21 +17,21 @@ set_politics = {
 
 set_popularities = {
     fascist = 0
-    authoritarian = 15
-    reactionary = 12
-    conservative = 43
-    liberal = 10
-    social_democrat = 9
-    socialist = 6
-    communist = 5
+    authoritarian = 0
+    reactionary = 0
+    conservative = 5
+    liberal = 0
+    social_democrat = 0
+    socialist = 25
+    communist = 70
 }
 
 create_country_leader = {
-	name = "Robert Shirley, 13th Earl Ferrers"
+	name = "Elamaram Kareem"
 	desc = "POLITICS_ROBERT_SHIRLEY_SHAH_DESC"
-	picture = "gfx/leaders/BII/Portrait_BII_Earl_Ferrers.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = new_conservatism
+	ideology = international_communism
 	traits = {
 		#
 	}

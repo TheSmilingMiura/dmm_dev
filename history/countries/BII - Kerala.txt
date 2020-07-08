@@ -1,0 +1,38 @@
+﻿capital = 923
+
+oob = "BII_1936"
+
+set_technology = {
+}
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 0
+    reactionary = 0
+    conservative = 5
+    liberal = 0
+    social_democrat = 0
+    socialist = 25
+    communist = 70
+}
+
+create_country_leader = {
+	name = "Elamaram Kareem"
+	desc = "POLITICS_ROBERT_SHIRLEY_SHAH_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = international_communism
+	traits = {
+		#
+	}
+}

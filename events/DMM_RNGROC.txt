@@ -153,7 +153,7 @@ country_event = {
 				remove_ideas = RRC_entry_garrison_pleased
 			}
 			if = {
-			limit = { RRC = { NOT = { has_completed_focus = { CHI_anewpolicyforchina } } } }
+			limit = { RRC = { NOT = { has_completed_focus = CHI_anewpolicyforchina } } }
 			complete_national_focus = CHI_anewpolicyforchina
 			else = {}
 			}

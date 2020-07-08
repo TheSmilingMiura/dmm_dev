@@ -965,3 +965,13 @@ LCM = {
 	color = rgb { 42 69 60 }
 	color_ui = rgb { 42 69 60 }
 }
+
+TRP = {
+	color = rgb { 103  108  120 }
+	color_ui = rgb { 103  108  120 }
+}
+
+SKK = {
+	color = rgb { 133  158  125 }
+	color_ui = rgb { 133  158  125 }
+}

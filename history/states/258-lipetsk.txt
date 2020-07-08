@@ -9,12 +9,12 @@ state={
 		steel = 54
 	}
 	history={
-		owner = GKM
+		owner = GKT
 		buildings = {
 			infrastructure = 7
                         arms_factory = 2
 		}
-		add_core_of = GKM
+		add_core_of = GKT
 	}
 
 	provinces={

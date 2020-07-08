@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = GKM
+		owner = GKK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = GKM
+		add_core_of = GKK
 	}
 
 	provinces={

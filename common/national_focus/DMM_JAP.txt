@@ -1,0 +1,989 @@
+focus_tree = {
+	id = Japan
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	#Focus for Southern Infrastructure Developments
+	focus = {
+		id = JAP_southern_infrastructure_developments
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_chsen_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Old but Good Ideas
+	focus = {
+		id = JAP_old_but_good_ideas
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_tackling_the_housing_crisis }
+		mutually_exclusive = { focus = JAP_new_ideas }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Second Chōsen Industrial Boom
+	focus = {
+		id = JAP_the_second_chsen_industrial_boom
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 10
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_finishing_the_tsushima_tunnel 
+		}
+		prerequisite = { 
+			focus = JAP_northern_heavy_industry_enterprise 
+		}
+		prerequisite = { 
+			focus = JAP_expand_the_urusan_shipyards 
+		}
+		prerequisite = { 
+			focus = JAP_northsouth_infrastructure_project 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Northern Heavy Industry Enterprise
+	focus = {
+		id = JAP_northern_heavy_industry_enterprise
+		icon = GFX_focus_generic_tungsten
+		x = 11
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_northern_high_speed_rail_project }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Takao Steel Foundries
+	focus = {
+		id = JAP_takao_steel_foundries
+		icon = GFX_focus_generic_steel
+		x = 14
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_takao_harbor_expansion }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Taiwanese Highways
+	focus = {
+		id = JAP_taiwanese_highways
+		icon = GFX_goal_generic_army_motorized
+		x = 16
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_taiwanese_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Empire
+	focus = {
+		id = JAP_our_empire
+		icon = GFX_focus_jap_manchurian_project
+		x = 30
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_the_emperors_appointment }
+		mutually_exclusive = { focus = JAP_focus_on_the_isles }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = JAP_our_empire_tt
+			add_political_power= 50
+		}
+	}
+
+	#Focus for The Sixth Island
+	focus = {
+		id = JAP_the_sixth_island
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 15
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_takao_steel_foundries 
+		}
+		prerequisite = { 
+			focus = JAP_expansion_of_mitsubishi_shipyards 
+		}
+		prerequisite = { 
+			focus = JAP_taihoku_metro_expansion 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Formation of the TRC
+	focus = {
+		id = JAP_formation_of_the_trc
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 6
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_new_ideas }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expansion of Mitsubishi Shipyards
+	focus = {
+		id = JAP_expansion_of_mitsubishi_shipyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 15
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_taiwanese_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on the Isles
+	focus = {
+		id = JAP_focus_on_the_isles
+		icon = GFX_JAP_focus_on_the_isles-2794
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_the_emperors_appointment }
+		mutually_exclusive = { focus = JAP_our_empire }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = JAP_focus_on_the_isles_tt
+			add_political_power = 50
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					NOT = {
+						is_core_of = ROOT
+					}
+					NOT = {
+						is_on_continent = europe
+					}
+				}
+				add_compliance = 10
+			}
+		}
+	}
+
+	#Focus for Kickstarting the Wolf Economy
+	focus = {
+		id = JAP_kickstarting_the_wolf_economy
+		icon = GFX_goal_generic_consumer_goods
+		x = 25
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_tianjinulaanbaatar_railway }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Looking outwards...
+	focus = {
+		id = JAP_looking_outwards
+		icon = GFX_focus_jap_strike_south
+		x = 7
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_a_second_mainland 
+			focus = JAP_the_light_of_the_south 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 250
+		}
+	}
+
+	#Focus for New Ideas
+	focus = {
+		id = JAP_new_ideas
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_tackling_the_housing_crisis }
+		mutually_exclusive = { focus = JAP_old_but_good_ideas }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Change is Needed
+	focus = {
+		id = JAP_change_is_needed
+		icon = GFX_goal_unknown
+		x = 20
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_pressure_from_the_outside 
+		}
+		prerequisite = { 
+			focus = JAP_the_rivalry 
+		}
+		prerequisite = { 
+			focus = JAP_cabinet_on_edge 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Pressure from the Outside
+	focus = {
+		id = JAP_pressure_from_the_outside
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_sunset_over_the_east }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Rivalry
+	focus = {
+		id = JAP_the_rivalry
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_sunset_over_the_east }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cabinet on Edge
+	focus = {
+		id = JAP_cabinet_on_edge
+		icon = GFX_goal_unknown
+		x = 22
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_sunset_over_the_east }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sunset over the East
+	focus = {
+		id = JAP_sunset_over_the_east
+		icon = GFX_JAP_sunset_over_the_east-1853
+		x = 20
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Emperor's Appointment
+	focus = {
+		id = JAP_the_emperors_appointment
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_change_is_needed }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Securing whatever we can
+	focus = {
+		id = JAP_securing_whatever_we_can
+		icon = GFX_goal_unknown
+		x = 8
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_the_land_of_rice_chaos_and_rice }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Outer Manchurian Investments
+	focus = {
+		id = JAP_outer_manchurian_investments
+		icon = GFX_focus_generic_tungsten
+		x = 22
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_investing_in_manchuria }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Urusan Shipyards
+	focus = {
+		id = JAP_expand_the_urusan_shipyards
+		icon = GFX_goal_generic_navy_battleship
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_southern_infrastructure_developments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage Migration to the Colonies
+	focus = {
+		id = JAP_encourage_migration_to_the_colonies
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_old_but_good_ideas }
+		search_filters = { FOCUS_FILTER_MANPOWER } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Taiwanese Investments
+	focus = {
+		id = JAP_taiwanese_investments
+		icon = GFX_goal_generic_consumer_goods
+		x = 15
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_focus_on_the_isles }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Chōsen Investments
+	focus = {
+		id = JAP_chsen_investments
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_focus_on_the_isles }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tackling the Housing Crisis
+	focus = {
+		id = JAP_tackling_the_housing_crisis
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_focus_on_the_isles }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	#Focus for Northern High Speed Rail Project
+	focus = {
+		id = JAP_northern_high_speed_rail_project
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 11
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_chsen_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for North-South Infrastructure Project
+	focus = {
+		id = JAP_northsouth_infrastructure_project
+		icon = GFX_goal_generic_construct_civilian
+		x = 10
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_chsen_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Takao Harbor Expansion
+	focus = {
+		id = JAP_takao_harbor_expansion
+		icon = GFX_goal_generic_navy_cruiser
+		x = 14
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_taiwanese_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Taihoku Metro Expansion
+	focus = {
+		id = JAP_taihoku_metro_expansion
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_taiwanese_highways }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Developing Haishenwai
+	focus = {
+		id = JAP_developing_haishenwai
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 20
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_encourage_colonization }
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Second Mainland
+	focus = {
+		id = JAP_a_second_mainland
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_the_great_migration 
+		}
+		prerequisite = { 
+			focus = JAP_the_second_chsen_industrial_boom 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Finishing the Tsushima Tunnel
+	focus = {
+		id = JAP_finishing_the_tsushima_tunnel
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 7
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_formation_of_the_trc 
+		}
+		prerequisite = { 
+			focus = JAP_the_cities_in_the_sky 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			#remove_ideas= JAP_tsushima_tunnel_construction
+		}
+	}
+
+	#Focus for The Great Migration
+	focus = {
+		id = JAP_the_great_migration
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_expand_the_urusan_shipyards 
+		}
+		prerequisite = { 
+			focus = JAP_finishing_the_tsushima_tunnel 
+		}
+		prerequisite = { 
+			focus = JAP_northsouth_infrastructure_project 
+		}
+		prerequisite = { 
+			focus = JAP_northern_heavy_industry_enterprise 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 8000
+		}
+	}
+
+	#Focus for Tokyo Bay Land Reclamation
+	focus = {
+		id = JAP_tokyo_bay_land_reclamation
+		icon = GFX_focus_hol_the_zuiderzee_works
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_old_but_good_ideas }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	#Focus for Assimilating the Concessions
+	focus = {
+		id = JAP_assimilating_the_concessions
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_tokyo_bay_land_reclamation 
+		}
+		prerequisite = { 
+			focus = JAP_encourage_migration_to_the_colonies 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_state_core= 849
+		}
+	}
+
+	#Focus for The Cities in the Sky
+	focus = {
+		id = JAP_the_cities_in_the_sky
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 8
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_new_ideas }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Land of Oil, Fish and Ships
+	focus = {
+		id = JAP_the_land_of_oil_fish_and_ships
+		icon = GFX_goal_generic_oil_refinery
+		x = 12
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_looking_outwards }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Land of Coal, Grain and Mansyu
+	focus = {
+		id = JAP_the_land_of_coal_grain_and_mansyu
+		icon = GFX_goal_generic_air_fighter2
+		x = 2
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_looking_outwards }
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Light of the South
+	focus = {
+		id = JAP_the_light_of_the_south
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 4
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_a_string_of_pearls }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 50
+		}
+	}
+
+	#Focus for A String of Pearls
+	focus = {
+		id = JAP_a_string_of_pearls
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 4
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_assimilating_the_concessions 
+			focus = JAP_finishing_the_tsushima_tunnel 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Land of Rice, Chaos, and... Rice
+	focus = {
+		id = JAP_the_land_of_rice_chaos_and_rice
+		icon = GFX_focus_generic_china1
+		x = 7
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_looking_outwards }
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Investing in Manchuria
+	focus = {
+		id = JAP_investing_in_manchuria
+		icon = GFX_focus_jap_cast_the_die
+		x = 20
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_the_willing }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Willing
+	focus = {
+		id = JAP_the_willing
+		icon = GFX_goal_unknown
+		x = 25
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_our_empire }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Unwilling
+	focus = {
+		id = JAP_the_unwilling
+		icon = GFX_focus_usa_focus_on_asia
+		x = 35
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_our_empire }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Investing in Mongolia
+	focus = {
+		id = JAP_investing_in_mongolia
+		icon = GFX_focus_generic_tungsten
+		x = 25
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_the_willing }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Investing in Indochina
+	focus = {
+		id = JAP_investing_in_indochina
+		icon = GFX_focus_generic_rubber
+		x = 30
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_the_willing }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tianjin-Ulaanbaatar Railway
+	focus = {
+		id = JAP_tianjinulaanbaatar_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 25
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_local_processing 
+		}
+		prerequisite = { 
+			focus = JAP_transmongolian_highway_system 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Pearl
+	focus = {
+		id = JAP_a_new_pearl
+		icon = GFX_goal_generic_navy_cruiser
+		x = 21
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = JAP_new_arsenals_in_haishenwai 
+		}
+		prerequisite = { 
+			focus = JAP_developing_haishenwai 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage Colonization
+	focus = {
+		id = JAP_encourage_colonization
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 20
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Trans-Mongolian Highway System
+	focus = {
+		id = JAP_transmongolian_highway_system
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 26
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_investing_in_mongolia }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Diversifying the Economy
+	focus = {
+		id = JAP_diversifying_the_economy
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 18
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_investing_in_manchuria }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Stimulating the Tertiary Sector
+	focus = {
+		id = JAP_stimulating_the_tertiary_sector
+		icon = GFX_focus_mex_privatisation
+		x = 18
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_diversifying_the_economy }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Arsenals in Haishenwai
+	focus = {
+		id = JAP_new_arsenals_in_haishenwai
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 22
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_outer_manchurian_investments }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Renewed Growth
+	focus = {
+		id = JAP_renewed_growth
+		icon = GFX_focus_jap_manchurian_project
+		x = 18
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_stimulating_the_tertiary_sector }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Local Processing
+	focus = {
+		id = JAP_local_processing
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 24
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = JAP_investing_in_mongolia }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

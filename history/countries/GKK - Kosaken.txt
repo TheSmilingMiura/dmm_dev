@@ -69,12 +69,12 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 66
-    corporatist = 14
-    reactionary = 18
+    fascist = 65
+    corporatist = 15
+    reactionary = 15
     conservative = 2
     liberal = 0
     social_democrat = 0
-    socialist = 4
-    communist = 6
+    socialist = 2
+    communist = 1
 }

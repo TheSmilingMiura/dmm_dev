@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = GKM
+		owner = GKT
 		victory_points = {
 			3335 10
 		}
@@ -15,7 +15,7 @@ state={
 			infrastructure = 5
 			air_base = 2
 		}
-		add_core_of = GKM
+		add_core_of = GKT
 	}
 
 	provinces={

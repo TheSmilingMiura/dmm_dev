@@ -1,7 +1,7 @@
 ﻿l_english:
 
- AFG:0 "Kingdom of Afghanistan"
- AFG_DEF:0 "the Kingdom of Afghanistan"
+ AFG:0 "Islamic State of Afghanistan"
+ AFG_DEF:0 "the Islamic State of Afghanistan"
  AFG_ADJ:0 "Afghan"
 
  AFK:0 "Reichskommisariat Afrika"
@@ -56,9 +56,9 @@
  BHU_DEF:0 "Bhutan"
  BHU_ADJ:0 "Bhutanese"
 
- BII:0 "Kerala Workers Republic"
- BII_DEF:0 "the Kerala Workers Republic"
- BII_ADJ:0 "Malayali"
+ BII:0 "Presidency of Fort Mountbatten"
+ BII_DEF:0 "Anglo-Indian"
+ BII_ADJ:0 "Presidency of Fort Mountbattenese"
 
  BOL:0 "Bolivia"
  BOL_DEF:0 "Bolivia"
@@ -234,69 +234,10 @@
  YUG_DEF:0 "Serbia"
  YUG_ADJ:0 "Serbian"
 
- GKM:0 "RK Moskowien"
- GKM_DEF:0 "RK Moskowien"
- GKM_ADJ:0 "German"
-
- GRE:0 "Hellenic Republic"
- GRE_DEF:0 "the Hellenic Republic"
- GRE_ADJ:0 "Greek"
-
- SAU:0 "Kingdom of Saudi Arabia"
- SAU_DEF:0 "Saudi Arabia"
- SAU_ADJ:0 "Arabic"
-
- SIK:0 "Uyghur Republic"
- SIK_DEF:0 "the Uyghur Republic"
- SIK_ADJ:0 "Uyghur"
-
- HUN:0 "Hungary"
- HUN_DEF:0 "Hungary"
- HUN_ADJ:0 "Hungarian"
-
- RRC:0 "Republic of China"
- RRC_DEF:0 "Reorganized Nationalist Government of the Republic of China"
- RRC_ADJ:0 "Chinese"
-
- GKT:0 "GK Tula"
- GKT_DEF:0 "GK Tula"
- GKT_ADJ:0 "German"
+ RKM:0 "RK Moskowien"
+ RKM_DEF:0 "RK Moskowien"
+ RKM_ADJ:0 "German"
  
- GKN:0 "GK Nowgorodien"
- GKN_DEF:0 "GK Nowgorodien"
- GKN_ADJ:0 "German"
-
- GKK:0 "GK Kosaken"
- GKK_DEF:0 "GK Kosaken"
- GKK_ADJ:0 "German"
-
- GKP:0 "GK Perm"
- GKP_DEF:0 "GK Perm"
- GKP_ADJ:0 "German"
-
- URA:0 "Ural Governorate"
- URA_DEF:0 "Wehrmacht Ural Garrisons"
- URA_ADJ:0 "German"
-
- SLO:0 "Slovakia"
- SLO_DEF:0 "Slovakia"
- SLO_ADJ:0 "Slovak"
-
- FIN:0 "Finland"
- FIN_DEF:0 "Finland"
- FIN_ADJ:0 "Finnish"
-
- PUN:0 "Islamic Republic of Punjab"
- PUN_DEF:0 "the Islamic Republic of Punjab"
- PUN_ADJ:0 "Punjabi"
-
- JAM:0 "Kashmir Free State"
- JAM_DEF:0 "the Kashmir Free State"
- JAM_ADJ:0 "Kashmiri"
-
- HYD:0 "Hyderabad Peasants Republic"
- HYD_DEF:0 "the Hyderabad Peasants Republic"
- HYD_ADJ:0 "Hyderabadi"
 ############# UNDER CONSTRUCTION ######################
 
 SIC_fascist:0 "Empty String"

@@ -18,14 +18,14 @@ set_politics = {
 
 set_popularities = {
     fascist = 77
-    authoritarian = 5
+    authoritarian = 11
     corporatist = 0
     reactionary = 12
     conservative = 0
     liberal = 0
     social_democrat = 0
     socialist = 0
-    communist = 6
+    communist = 0
 }
 
 create_country_leader = {
@@ -34,17 +34,6 @@ create_country_leader = {
 	picture = "gfx/leaders/BOM/Portrait_BOM_Srikantadatta_Narasimharaja_Wadiyar.dds"
 	expire = "1965.1.1"
 	ideology = esoteric_fascism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bal Thackeray"
-	desc = "POLITICS_Srikantadatta_Narasimharaja_Wadiyar_DESC"
-	picture = "gfx/leaders/BOM/Portrait_BOM_Srikantadatta_Narasimharaja_Wadiyar.dds"
-	expire = "1965.1.1"
-	ideology = nationalist
 	traits = {
 		#
 	}

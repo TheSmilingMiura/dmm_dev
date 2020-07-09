@@ -9,6 +9,7 @@ set_technology = {
 }
 
 add_ideas = {
+	member_of_the_confederation
 }
 
 set_politics = {

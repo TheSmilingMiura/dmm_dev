@@ -9,10 +9,11 @@ set_technology = {
 }
 
 add_ideas = {
+	member_of_the_confederation
 }
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,22 +21,22 @@ set_politics = {
 
 set_popularities = {
     fascist = 0
-    authoritarian = 28
-    corporatist = 0
-    reactionary = 0
+    authoritarian = 72
+    corporatist = 16
+    reactionary = 12
     conservative = 0
     liberal = 0
     social_democrat = 0
     socialist = 0
-    communist = 72
+    communist = 0
 }
 
 create_country_leader = {
-	name = "Kobad Ghandy"
+	name = "Azmet Jah"
 	desc = "POLITICS_AZMET_JAH_DESC"
 	picture = "gfx/leaders/HYD/Portrait_HYD_Azmet_Jah.dds"
 	expire = "1965.1.1"
-	ideology = international_communism
+	ideology = despotism
 	traits = {
 		#
 	}

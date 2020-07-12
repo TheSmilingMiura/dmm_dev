@@ -2,7 +2,7 @@
 state={
 	id=1056
 	name="STATE_1056"
-	
+
 	history={
 		owner = AFK
 		buildings = {
@@ -11,9 +11,9 @@ state={
 		}
 
 	}
-	
+
 	provinces={
-		2200 5128 5185 8180 11015 12956 
+		2200 5128 5185 8180 10282 11015 12956 13401 13402 13416 
 	}
 	manpower=9268697
 	buildings_max_level_factor=1.000

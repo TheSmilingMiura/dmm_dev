@@ -1,7 +1,8 @@
-
 state={
 	id=736
 	name="STATE_736"
+	
+	state_category = city
 
 	history={
 		owner = ITA
@@ -19,9 +20,8 @@ state={
 	}
 
 	provinces={
-		599 6626 11564 11595 11735 
+		599 6626 11595 11735 
 	}
 	manpower=1063159
 	buildings_max_level_factor=1.000
-	state_category=city
 }

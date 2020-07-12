@@ -63,7 +63,6 @@ add_to_faction = NBR
 add_to_faction = BRM
 add_to_faction = MAN
 add_to_faction = MEN
-add_to_faction = AZA
 
 set_politics = {
 	ruling_party = conservative

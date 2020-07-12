@@ -10,7 +10,7 @@ state={
 		owner = CRO
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 8
+			industrial_complex = 3
 		}
 		victory_points = {
 			11581 3 

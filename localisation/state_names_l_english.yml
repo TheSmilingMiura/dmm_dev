@@ -541,7 +541,7 @@
  STATE_540:0 "Angola"
  STATE_541:0 "South West Africa"
  STATE_542:0 "Bechuanaland"
- STATE_543:0 "Madagascar"
+ STATE_543:0 "Madagaskar"
  STATE_544:0 "Mozambique"
  STATE_545:0 "Rhodesia"
  STATE_546:0 "Tanganyika"
@@ -1054,3 +1054,4 @@
  STATE_1053:0 "Qinxian"
  STATE_1054:0 "Xi'an"
  STATE_1055:0 "Guanzhong"
+ STATE_1056:0 "Jewish State"

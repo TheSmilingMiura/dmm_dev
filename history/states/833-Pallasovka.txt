@@ -2,7 +2,7 @@ state={
 	id=833
 	name="STATE_833"
 	provinces={
-		520 3503 3517 6479 6541 6575 9530 11395 11474 11484 
+		520 3503 3517 6479 6516 6541 6575 9530 11395 11474 11484 
 	}
 	manpower=10000
     state_category = large_town

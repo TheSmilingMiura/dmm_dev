@@ -88,8 +88,8 @@
  CAN_DEF:0 "Canada"
  CAN_ADJ:0 "Canadian"
  
- CBR:0 "Brazilian Democratic Union"
- CBR_DEF:0 "the Brazilian Democratic Union"
+ CBR:0 "Union of Federative Brazilian Communes"
+ CBR_DEF:0 "the Brazilian Communes"
  CBR_ADJ:0 "Brazilian"
  
  CHE:0 "Chechnya"
@@ -126,6 +126,10 @@
  ENG_communist_DEF:0 "the Union of British Workers Republics"
  ENG_communist_ADJ:0 "British"
  
+ FIN:0 "Finland"
+ FIN_DEF:0 "Finland"
+ FIN_ADJ:0 "Finnish"
+
  FRA:0 "France"
  FRA_DEF:0 "France"
  FRA_ADJ:0 "French"
@@ -133,10 +137,58 @@
  GER:0 "Großdeutsches Reich"
  GER_DEF:0 "the Großdeutsches Reich"
  GER_ADJ:0 "German"
+ 
+ GEO:0 "Georgia"
+ GEO_DEF:0 "Georgia"
+ GEO_ADJ:0 "Georgian"
+
+ GKM:0 "Generalkommissariat Moskowien"
+ GKM_DEF:0 "the Generalkommissariat Moskowien"
+ GKM_ADJ:0 "Moskovian"
+
+ GKT:0 "Generalkommissariat Tulen"
+ GKT_DEF:0 "the Generalkommissariat Tulen"
+ GKT_ADJ:0 "Tulan"
+
+ GKK:0 "Generalkommissariat Kosakenstadt"
+ GKK_DEF:0 "the Generalkommissariat Kosakenstadt"
+ GKK_ADJ:0 "Kosaken"
+
+ RKK:0 "Generalkommissariat Don-Kuban"
+ RKK_DEF:0 "the Generalkommissariat Don-Kuban"
+ RKK_ADJ:0 "Don-Kuban"
 
  IRE_fascist:0 "Ireland"
  IRE_fascist_DEF:0 "Ireland"
  IRE_ADJ:0 "Irish"
+
+ GUA:0 "Guatemala"
+ GUA_DEF:0 "Guatemala"
+ GUA_ADJ:0 "Guatemalan"
+ 
+ COS:0 "Costa Rica"
+ COS_DEF:0 "Costa Rica"
+ COS_ADJ:0 "Costa Rican"
+ 
+ ELS:0 "El Salvador"
+ ELS_DEF:0 "El Salvador"
+ ELS_ADJ:0 "Salvadoran"
+
+ HON:0 "Honduras"
+ HON_DEF:0 "Honduras"
+ HON_ADJ:0 "Honduran"
+
+ CUB:0 "Cuba"
+ CUB_DEF:0 "Cuba"
+ CUB_ADJ:0 "Cuban"
+ 
+ DAG:0 "Dagestan"
+ DAG_DEF:0 "Dagestan"
+ DAG_ADJ:0 "Dagestani"
+
+ DOM:0 "Dominican Republic"
+ DOM_DEF:0 "Dominican Republic"
+ DOM_ADJ:0 "Dominican"
 
  IRQ:0 "Iraq"
  IRQ_DEF:0 "Iraq"
@@ -154,6 +206,10 @@
  KAZ_DEF:0 "the Kazakh Peoples Republic"
  KAZ_fascist_ADJ:0 "Kazakh"
  
+ MAN:0 "Manchukuo"
+ MAN_DEF:0 "Manchukuo"
+ MAN_ADJ:0 "Manchurian"
+
  MEX_:0 "Mexico"
  MEX_DEF:0 "Mexico"
  MEX_ADJ:0 "Mexican"
@@ -162,13 +218,49 @@
  NOR_DEF:0 "Norway"
  NOR_ADJ:0 "Norwegian"
  
+ NFT:0 "Neftedag"
+ NFT_DEF:0 "Neftedag"
+ NFT_ADJ:0 "Neftedagi"
+ 
+ FGH:0 "Fergana"
+ FGH_DEF:0 "Fergana"
+ FGH_ADJ:0 "Fergani"
+ 
+ RTK:0 "Red Turkestan"
+ RTK_DEF:0 "Red Turkestan"
+ RTK_ADJ:0 "Turkestani"
+
+ TRK:0 "Turkestan"
+ TRK_DEF:0 "Turkestan"
+ TRK_ADJ:0 "Turkestani"
+
+ TAJ:0 "Tajikistan"
+ TAJ_DEF:0 "Tajikistan"
+ TAJ_ADJ:0 "Tajikistani"
+
+ KYR:0 "Kyrgyzstan"
+ KYR_DEF:0 "Kyrgyzstan"
+ KYR_ADJ:0 "Kyrgyzstani"
+
+ CDZ:0 "Chardzhou"
+ CDZ_DEF:0 "Chardzhou"
+ CDZ_ADJ:0 "Chardzhi"
+  
+ PAM:0 "Pamiristan"
+ PAM_DEF:0 "Pamiristan"
+ PAM_ADJ:0 "Pamiristani"
+
+ KVA:0 "Khiva"
+ KVA_DEF:0 "Khiva"
+ KVA_ADJ:0 "Khivan"
+
  PER:0 "Islamic Peoples Republic of Iran"
  PER_DEF:0 "the Islamic Peoples Republic of Iran"
  PER_ADJ:0 "Persian"
  
  POR:0 "Portugal"
  POR_DEF:0 "Portugal"
- POR_ADJ:0 "Portugalese"
+ POR_ADJ:0 "Portuguese"
 
  RAJ:0 "India"
  RAJ_DEF:0 "India"
@@ -178,6 +270,10 @@
  ROM_DEF:0 "Romania"
  ROM_ADJ:0 "Romanian"
 
+ SAU:0 "Saudi Arabia"
+ SAU_DEF:0 "Saudi Arabia"
+ SAU_ADJ:0 "Saudi"
+
  SER:0 "Serbia"
  SER_DEF:0 "Serbia"
  SER_ADJ:0 "Serbian"
@@ -186,6 +282,10 @@
  SLO_DEF:0 "Slovakia"
  SLO_ADJ:0 "Slovak"
  
+ SIK:0 "East Turkestan"
+ SIK_DEF:0 "East Turkestan"
+ SIK_ADJ:0 "East Turkestani"
+
  SOV:0 "All-Russian Confederation"
  SOV_DEF:0 "the All-Russian Confederation"
  SOV_ADJ:0 "Russian"
@@ -216,7 +316,7 @@
 
  UKR:0 "Ukraine"
  UKR_DEF:0 "Ukraine"
- UKR_fascist_ADJ:0 "Ukraine"
+ UKR_ADJ:0 "Ukraine"
 
  USA:0 "United States of America"
  USA_DEF:0 "the United States of America"

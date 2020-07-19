@@ -1,0 +1,5 @@
+1. Install ImageMagick using the provided ImageMagick-7.0.8-19-Q16-x64-dll.exe file, or download from the internet
+2. Convert your flag image to a 32bbp .TGA file (this can be done using Photoshop) and rename it to flag.tga
+3. Paste your flag.tga file in the hoi4 flag maker folder
+4. Run flagmaker.bat and enter the tag you need
+5. Move your newly generated flags to the mod folder

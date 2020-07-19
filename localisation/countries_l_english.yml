@@ -1,5 +1,29 @@
 ﻿l_english:
 
+ ARA:0 "Araguaian Faction"
+ ARA_DEF:0 "the Araguaian Faction"
+ ARA_ADJ:0 "Brazilian"
+ 
+ ACR:0 "Acre"
+ ACR_DEF:0 "Acre"
+ ACR_ADJ:0 "Brazilian"
+ 
+ AMZ:0 "People's Republic of the Amazon"
+ AMZ_DEF:0 "the People's Republic of the Amazon"
+ AMZ_ADJ:0 "Brazilian"
+ 
+ PRA:0 "Republic of Pará"
+ PRA_DEF:0 "the Republic of Pará"
+ PRA_ADJ:0 "Brazilian"
+ 
+ SVR:0 "Seventh Region"
+ SVR_DEF:0 "the Seventh Region"
+ SVR_ADJ:0 "Brazilian"
+ 
+ MTG:0 "Mato Grosso"
+ MTG_DEF:0 "Mato Grosso"
+ MTG_ADJ:0 "Brazilian"
+
  AFG:0 "Islamic State of Afghanistan"
  AFG_DEF:0 "the Islamic State of Afghanistan"
  AFG_ADJ:0 "Afghan"

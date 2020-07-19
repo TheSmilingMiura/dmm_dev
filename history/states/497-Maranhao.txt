@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = BRA
+		owner = ARA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = BRA
+		add_core_of = ARA
 		victory_points = {
 			12853 1 
 		}

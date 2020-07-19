@@ -2,19 +2,18 @@ state={
 	id=1059
 	name="STATE_1059"
 	history={
-		owner = BRA
+		owner = ACR
 		buildings = {
-			infrastructure = 0
+			infrastructure = 4
 
 		}
-		add_core_of = BRA
+		add_core_of = ACR
 
 	}
 	provinces={
 		10960 13326 
 	}
-	manpower=1
+	manpower=733559
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable = yes
+	state_category=rural
 }

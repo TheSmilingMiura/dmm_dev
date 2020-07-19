@@ -2,6 +2,9 @@
 state={
 	id=543
 	name="STATE_543"
+	resources={
+		oil=120.000
+	}
 
 	history={
 		owner = AFK
@@ -10,14 +13,15 @@ state={
 			air_base = 1
 			5222 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	resources={
-		oil = 120 
-	}
+
 	provinces={
-		5222 8188 8246 10993 
+		5222 8188 8246 10993 13415 13416 13418 13420 13421 13422 13423 
 	}
 	manpower=19849492
 	buildings_max_level_factor=1.000

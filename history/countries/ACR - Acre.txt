@@ -20,17 +20,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = conservative
 	last_election = "2000.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
     fascist = 0
-    authoritarian = 100
-    reactionary = 0
-    conservative = 0
-    liberal = 0
+    authoritarian = 0
+    reactionary = 22
+    conservative = 48
+    liberal = 30
     social_democrat = 0
     socialist = 0
     communist = 0

@@ -27,8 +27,8 @@ set_politics = {
 }
 set_popularities = {
     fascist = 0
-    authoritarian = 100
-    reactionary = 0
+    authoritarian = 68
+    reactionary = 32
     conservative = 0
     liberal = 0
     social_democrat = 0

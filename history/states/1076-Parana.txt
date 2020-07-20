@@ -7,7 +7,8 @@ state={
 		buildings = {
 			infrastructure = 5
 			air_base = 1
-
+			industrial_complex = 7
+			arms_factory = 4
 		}
 		add_core_of = CBR
 
@@ -17,5 +18,5 @@ state={
 	}
 	manpower=11433957
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=metropolis
 }

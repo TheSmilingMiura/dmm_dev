@@ -6,8 +6,8 @@ state={
 	history={
 		owner = ARA
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3
+			industrial_complex = 2
 		}
 		add_core_of = ARA
 

@@ -4,8 +4,8 @@ state={
 	history={
 		owner = AMZ
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		add_core_of = AMZ
 

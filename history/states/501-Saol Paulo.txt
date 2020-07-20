@@ -13,7 +13,22 @@ state={
 
 		}
 		victory_points = {
-			10513 14 
+			10513 20 #Säo Paulo
+		}
+		victory_points = {
+			10360 5 #Campinas
+		}
+		victory_points = {
+			5167 5 #São Bernardo do Campo
+		}
+		victory_points = {
+			10432 1 #São José dos Campos
+		}
+		victory_points = {
+			5112 1 #Santo André
+		}
+		victory_points = {
+			5186 1 #Ribeirão Preto
 		}
 
 	}

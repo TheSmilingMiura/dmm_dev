@@ -128,6 +128,7 @@
  CHL_DEF:0 "Chile"
  CHL_ADJ:0 "Chilean"
  
+
  COL:0 "National State of Columbia"
  COL_DEF:0 "the National State of Columbia"
  COL_ADJ:0 "Columbian"
@@ -234,10 +235,14 @@
  MAN_DEF:0 "Manchukuo"
  MAN_ADJ:0 "Manchurian"
 
- MEX_:0 "Mexico"
+ MEX:0 "Mexico"
  MEX_DEF:0 "Mexico"
  MEX_ADJ:0 "Mexican"
  
+ PRU:0 "Peru"
+ PRU_DEF:0 "Peru"
+ PRU_ADJ:0 "Peruvian"
+
  NOR:0 "Norway"
  NOR_DEF:0 "Norway"
  NOR_ADJ:0 "Norwegian"
@@ -282,6 +287,142 @@
  PER_DEF:0 "the Islamic Peoples Republic of Iran"
  PER_ADJ:0 "Persian"
  
+ VEN:0 "Venezuela"
+ VEN_DEF:0 "Venezuela"
+ VEN_ADJ:0 "Venezuelan"
+
+ GYA:0 "Guianese Federation"
+ GYA_DEF:0 "Guiana"
+ GYA_ADJ:0 "Guianese"
+
+ URG:0 "Uruguay"
+ URG_DEF:0 "Uruguay"
+ URG_ADJ:0 "Uruguayan"
+
+ PAR:0 "Paraguay"
+ PAR_DEF:0 "Paraguay"
+ PAR_ADJ:0 "Paraguayan"
+
+ ECU:0 "Ecuador"
+ ECU_DEF:0 "Ecuador"
+ ECU_ADJ:0 "Ecuadorian"
+
+ PAN:0 "Panama"
+ PAN_DEF:0 "Panama"
+ PAN_ADJ:0 "Panamanian"
+
+ NIC:0 "Nicaragua"
+ NIC_DEF:0 "Nicaragua"
+ NIC_ADJ:0 "Nicaraguan"
+
+ GKN:0 "Generalkommissariat Nowgorodien"
+ GKN_DEF:0 "the Generalkommissariat Nowgorodien"
+ GKN_ADJ:0 "Nowgorodian"
+
+ JAM:0 "Kashmir"
+ JAM_DEF:0 "Kashmir"
+ JAM_ADJ:0 "Kashmiri"
+
+ TNU:0 "Tamil Nadu"
+ TNU_DEF:0 "Tamil Nadu"
+ TNU_ADJ:0 "Thamizhar"
+
+ MAB:0 "Malabar"
+ MAB_DEF:0 "Malabar"
+ MAB_ADJ:0 "Malabari"
+
+ SIM:0 "Simhala"
+ SIM_DEF:0 "Simhala"
+ SIM_ADJ:0 "Sinhalese"
+
+ HYD:0 "Hyderabad"
+ HYD_DEF:0 "Hyderabad"
+ HYD_ADJ:0 "Hyderabadi"
+
+ BRM:0 "State of Burma"
+ BRM_DEF:0 "the State of Burma"
+ BRM_ADJ:0 "Burmese"
+
+ SIA:0 "Thailand"
+ SIA_DEF:0 "Thailand"
+ SIA_ADJ:0 "Thai"
+
+ PHI:0 "Second Philippine Republic"
+ PHI_DEF:0 "the Second Philippine Republic"
+ PHI_ADJ:0 "Filipino"
+
+ NBR:0 "North Borneo"
+ NBR_DEF:0 "North Borneo"
+ NBR_ADJ:0 "North Bornean"
+
+ SAR:0 "Special Autonomous Region"
+ SAR_DEF:0 "the Special Autonomous Region"
+ SAR_ADJ:0 "Indonesian"
+
+ INS:0 "Democratic Socialist Republic of Indonesia"
+ INS_DEF:0 "the Democratic Socialist Republic of Indonesia"
+ INS_ADJ:0 "Indonesian"
+
+ BAL:0 "Bali"
+ BAL_DEF:0 "Bali"
+ BAL_ADJ:0 "Balinese"
+
+ EEI:0 "East Indies"
+ EEI_DEF:0 "the East Indies"
+ EEI_ADJ:0 "East Indian"
+
+ LCM:0 "Lourenço Marques"
+ LCM_DEF:0 "Lourenço Marques"
+ LCM_ADJ:0 "Marquesian"
+
+ MEN:0 "State of Mongolia"
+ MEN_DEF:0 "the State of Mongolia"
+ MEN_ADJ:0 "Mongolian"
+
+ IEA:0 "Italian East Africa"
+ IEA_DEF:0 "Italian East Africa"
+ ITA_ADJ:0 "East African"
+
+ WEA:0 "Western Republican Army"
+ WEA_DEF:0 "the Western Republican Army"
+ WEA_ADJ:0 "Old Nationalists"
+
+ XNZ:0 "Southwestern Regime"
+ XNZ_DEF:0 "the Southwestern Regime"
+ XNZ_ADJ:0 "Southwestern Republicans"
+
+ NZL:0 "New Zealand"
+ NZL_DEF:0 "New Zealand"
+ NZL_ADJ:0 "New Zealander"
+
+ EGY:0 "Egypt"
+ EGY_DEF:0 "Egypt"
+ EGY_ADJ:0 "Egyptian"
+
+ HUN:0 "Hungary"
+ HUN_DEF:0 "Hungary"
+ HUN_ADJ:0 "Hungarian"
+
+ HAI:0 "Haiti"
+ HAI_DEF:0 "Haiti"
+ HAI_ADJ:0 "Haitian"
+
+ RRC:0 "Reorganized Republic of China"
+ RRC_DEF:0 "the Reorganized Republic of China"
+ RRC_ADJ:0 "Chinese"
+
+ ICE:0 "Iceland"
+ ICE_DEF:0 "Iceland"
+ ICE_ADJ:0 "Icelandic"
+
+ SAF:0 "South Africa"
+ SAF_DEF:0 "South Africa"
+ SAF_ADJ:0 "South African"
+
+ GRE:0 "Greece"
+ GRE_DEF:0 "Greece"
+ GRE_ADJ:0 "Greek"
+
  POR:0 "Portugal"
  POR_DEF:0 "Portugal"
  POR_ADJ:0 "Portuguese"

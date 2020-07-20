@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = MFR
+		owner = GER
 		victory_points = {
 			575 5
 		}
@@ -32,7 +32,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = MFR
+		add_core_of = FRA
 	}
 
 	provinces={

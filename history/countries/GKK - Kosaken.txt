@@ -1,4 +1,4 @@
-﻿capital = 401
+﻿capital = 239
 
 oob = "GKK_1936"
 

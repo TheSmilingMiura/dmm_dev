@@ -1,0 +1,22 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		2171 10566 13729 13730 13732 13742 13746 13748 13749 13753 
+	}
+	manpower=4039939
+	buildings_max_level_factor=1.000
+	state_category=town
+}

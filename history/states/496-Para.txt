@@ -11,14 +11,18 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			11002 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = CBR
-
+		victory_points = {
+			8148 15 #Belo Horizonte
+		}
+		victory_points = {
+			12977 5 #Uberlândia
+		}
+		victory_points = {
+			4570 1 #Governador Valadares
+		}
 	}
 
 	provinces={

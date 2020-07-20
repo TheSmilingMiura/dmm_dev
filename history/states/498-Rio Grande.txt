@@ -17,7 +17,10 @@ state={
 		}
 		add_core_of = SVR
 		victory_points = {
-			5168 5 
+			5168 15 #Récife
+		}
+		victory_points = {
+			12965 10 #Jaboatão dos Guararapes
 		}
 
 	}

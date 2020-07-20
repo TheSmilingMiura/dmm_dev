@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = ARA
 		victory_points = {
-			12853 1 
+			12933 15 #São Luís
 		}
 
 	}

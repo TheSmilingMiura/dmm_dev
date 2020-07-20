@@ -13,6 +13,9 @@ state={
 
 		}
 		add_core_of = AMZ
+		victory_points = {
+			13583 15 #Manaus 
+		}
 
 	}
 

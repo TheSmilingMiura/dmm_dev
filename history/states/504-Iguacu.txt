@@ -10,6 +10,9 @@ state={
 
 		}
 		add_core_of = MTG
+		victory_points = {
+			13808 10 #Campo Grande
+		}
 
 	}
 

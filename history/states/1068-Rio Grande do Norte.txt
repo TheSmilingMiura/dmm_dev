@@ -12,6 +12,9 @@ state={
 
 		}
 		add_core_of = SVR
+		victory_points = {
+			13526 10 #Natal
+		}
 
 	}
 	

@@ -13,6 +13,9 @@ state={
 
 		}
 		add_core_of = SVR
+		victory_points = {
+			8143 10 #Aracaju
+		}
 
 	}
 	provinces={

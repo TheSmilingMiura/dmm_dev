@@ -17,7 +17,10 @@ state={
 		}
 		add_core_of = SVR
 		victory_points = {
-			5107 3 
+			5107 1 #Caucaia
+		}
+		victory_points = {
+			13327 20 #Fortaleza
 		}
 
 	}

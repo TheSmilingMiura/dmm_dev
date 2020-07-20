@@ -977,8 +977,8 @@ SKK = {
 }
 
 ARA = {
-	color = rgb { 188 135 0 }
-	color_ui = rgb { 188 135 0 }
+	color = rgb { 193 63 54 }
+	color_ui = rgb { 193 63 54 }
 }
 
 ACR = {
@@ -997,8 +997,8 @@ PRA = {
 }
 
 SVR = {
-	color = rgb { 193 63 54 }
-	color_ui = rgb { 193 63 54 }
+	color = rgb { 188 135 0 }
+	color_ui = rgb { 188 135 0 }
 }
 
 MTG = {

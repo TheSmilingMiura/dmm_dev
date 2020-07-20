@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = CBR
 		victory_points = {
-			10946 1 
+			10946 20 #Salvador 
 		}
 
 	}

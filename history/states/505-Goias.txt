@@ -10,6 +10,12 @@ state={
 
 		}
 		add_core_of = ARA
+		victory_points = {
+			13083 20 #Brasília
+		}
+		victory_points = {
+			13430 10 #Goiânia
+		}
 
 	}
 

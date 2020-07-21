@@ -2,32 +2,20 @@
 state={
 	id=540
 	name="STATE_540"
-	manpower = 18200000
-	
-	state_category = rural
-	resources={
-		rubber=10 # was: 1
-                oil=40
-                steel=5
-	}
 	history={
 		owner = AFK
 		buildings = {
 			infrastructure = 4
-			8248 ={
-				naval_base = 3
-			}
-		}
-		victory_points = {
-			8248 1
-		}
-		victory_points = {
-			10966 1
+
 		}
 		add_core_of = ANG
+
 	}
 
 	provinces={
-		1552 2115 2126 4735 5158 7548 8054 8138 8202 8219 8248 10966 12391 12958 12981 12985 
+		12985 13896 13899 13904 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	#state_category=
 }

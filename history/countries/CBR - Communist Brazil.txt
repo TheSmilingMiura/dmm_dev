@@ -74,8 +74,14 @@ set_popularities = {
     reactionary = 0
     conservative = 0
     liberal = 0
-    social_democrat = 0
-    socialist = 0
-    communist = 100
+    social_democrat = 10
+    socialist = 18
+    communist = 72
 }
 	
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+	bloated_bureaucracy
+}

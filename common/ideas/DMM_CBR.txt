@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		bloated_bureaucracy = {
+			picture = GFX_idea_FRA_factory_strikes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.03
+				political_power_factor = -0.01
+			}
+		}
+	}
+}

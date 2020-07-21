@@ -2,6 +2,9 @@
 state={
 	id=540
 	name="STATE_540"
+	resources={
+		chromium = 16
+	}
 	history={
 		owner = AFK
 		buildings = {
@@ -15,7 +18,7 @@ state={
 	provinces={
 		12985 13896 13899 13904 
 	}
-	manpower=1
+	manpower=468722
 	buildings_max_level_factor=1.000
-	#state_category=
+	state_category=rural
 }

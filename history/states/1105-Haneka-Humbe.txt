@@ -10,10 +10,10 @@ state={
 		add_core_of = ANG
 
 	}
-	#state_category=
+	state_category=rural
 	provinces={
 		2126 13901 13906 13909 13912 13917 13918 
 	}
-	manpower=1
+	manpower=1254744
 	buildings_max_level_factor=1.000
 }

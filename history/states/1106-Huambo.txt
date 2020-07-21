@@ -1,19 +1,25 @@
 state={
 	id=1106
 	name="STATE_1106"
+	resources={
+		tungsten=12
+		steel=4
+	}
+
 	history={
 		owner = AFK
 		buildings = {
 			infrastructure = 4
-
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		add_core_of = ANG
 
 	}
-	#state_category=
+	state_category=large_town
 	provinces={
 		10966 13908 13913 13915 
 	}
-	manpower=1
+	manpower=2109829
 	buildings_max_level_factor=1.000
 }

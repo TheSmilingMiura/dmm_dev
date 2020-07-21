@@ -4,16 +4,16 @@ state={
 	history={
 		owner = AFK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 
 		}
 		add_core_of = ANG
 
 	}
-	#state_category=
+	state_category=pastoral
 	provinces={
 		4735 13892 13893 
 	}
-	manpower=1
+	manpower=64000
 	buildings_max_level_factor=1.000
 }

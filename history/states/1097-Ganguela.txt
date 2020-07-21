@@ -1,6 +1,9 @@
 state={
 	id=1097
 	name="STATE_1097"
+	resources={
+		steel=4
+	}
 	history={
 		owner = AFK
 		buildings = {
@@ -13,7 +16,7 @@ state={
 	provinces={
 		8054 13895 13900 13903 13905 13910 13916 
 	}
-	manpower=1
+	manpower=1055712
 	buildings_max_level_factor=1.000
-	#state_category=
+	state_category=pastoral
 }

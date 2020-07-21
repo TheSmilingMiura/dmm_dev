@@ -5,15 +5,15 @@ state={
 		owner = AFK
 		buildings = {
 			infrastructure = 4
-
+			industrial_complex = 1
 		}
 		add_core_of = ANG
 
 	}
-	#state_category=
+	state_category=rural
 	provinces={
 		12981 13921 13922 13925 13928 13931 
 	}
-	manpower=1
+	manpower=1008264
 	buildings_max_level_factor=1.000
 }

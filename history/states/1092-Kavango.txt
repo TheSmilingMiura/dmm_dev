@@ -1,0 +1,19 @@
+state={
+	id=1092
+	name="STATE_1092"
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SAF
+
+	}
+	provinces={
+		13794 13795 13797 13800 13801 
+	}
+	manpower=201093
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -2,7 +2,9 @@
 state={
 	id=500
 	name="STATE_500"
-
+        resources={
+		oil=60
+	}
 	history={
 		owner = CBR
 		add_core_of = CBR

@@ -2,7 +2,7 @@ state={
 	id=812
 	name="STATE_812"
 
-	state_category=exclave
+	state_category=enclave
 	manpower= 560000
 
 	history={

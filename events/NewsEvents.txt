@@ -4,7 +4,7 @@ news_event = {
 	id = news.1
 	title = news.1.t
 	desc = news.1.d
-	picture = GFX_news_event_
+	#picture = GFX_news_event_
 	
 	major = yes
 	
@@ -44,7 +44,7 @@ news_event = {
 	id = news.2
 	title = news.2.t
 	desc = news.2.d
-	picture = GFX_news_event_
+	#picture = GFX_news_event_
 	
 	major = yes
 	
@@ -93,7 +93,7 @@ news_event = {
 	id = news.3
 	title = news.3.t
 	desc = news.3.d
-	picture = GFX_news_event_
+	#picture = GFX_news_event_
 	
 	major = yes
 	
@@ -139,10 +139,10 @@ news_event = {
 }
 
 news_event = {
-	id = news.3
+	id = news.4
 	title = news.2.t
 	desc = news.2.d
-	picture = GFX_news_event_
+	#picture = GFX_news_event_
 	
 	major = yes
 	

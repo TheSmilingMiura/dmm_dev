@@ -2,7 +2,7 @@ state={
 	id=830
 	name="STATE_830"
 
-	state_category=city
+	state_category=small_island
 	manpower= 560000
 
 	history={

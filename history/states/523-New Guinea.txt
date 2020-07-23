@@ -6,30 +6,28 @@ state={
 	history={
 		owner = JAP
 		add_core_of = JAP
-
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5
 			arms_factory = 3
 			air_base = 3
-
 			4329 = {
 				coastal_bunker = 2
 				naval_base = 5
-			}
 
+			}
 			1242 = {
 				naval_base = 2
-			}
 
+			}
 			12237 = {
 				naval_base = 1
-			}
-			
-		}
 
+			}
+
+		}
 		victory_points = {
-			4329 2
+			4329 2 
 		}
 
 	}

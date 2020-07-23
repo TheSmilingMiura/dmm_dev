@@ -1,17 +1,18 @@
+
 state={
 	id=828
 	name="STATE_828"
 
-	state_category=rural
-	manpower= 560000
-
 	history={
-		owner = EEI
-		add_core_of = EEI
+		owner = UAE
+		add_core_of = UAE
+
 	}
-		
+
 	provinces={
-		7557 13385
+		8051 
 	}
+	manpower=560000
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

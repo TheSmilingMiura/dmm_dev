@@ -18,19 +18,15 @@ state={
 				naval_base = 3
 
 			}
-
 			1386 = {
 				naval_base = 2
 
 			}
 
 		}
-
 		victory_points = {
 			13236 2 
 		}
-
-
 		victory_points = {
 			1386 1 
 		}
@@ -38,9 +34,9 @@ state={
 	}
 
 	provinces={
-		1386 1398 1425 4406 4621 7421 10279 10307 12249 13236 13237 13315 
+		1398 1425 4406 4621 7421 10307 13236 13315 
 	}
 	manpower=10750000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 }

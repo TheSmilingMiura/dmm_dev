@@ -1,6 +1,6 @@
 # Focus Trees
 focus_tree = {
-    id = DMM_GKM_1
+    id = DMM_GKM_Tree
     country = {
         factor = 0
         modifier = {
@@ -13,28 +13,18 @@ focus_tree = {
 	continuous_focus_position = { x = 16 y = 3000 }
 }
 
-focus_tree = {
-    id = DMM_GKM_2
-    country = {
-        factor = 0
-    }
-	shared_focus = GKM_The_Economical_Zone_of_the_Reich
-	default = no
-	continuous_focus_position = { x = 16 y = 3000 }
-}
-
 shared_focus = {
 	id = GKM_The_Economical_Zone_of_the_Reich
 	icon = GFX_unknown
 	allow_branch = {
 		has_country_flag = GKM_start_tree_flag
 	}
-	x = 0
+	x = 15
 	y = 0
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -54,7 +44,7 @@ shared_focus = {
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -67,12 +57,12 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Begin_Our_Recovery }
 	x = -1
-	y = 2
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	y = 1
+	relative_position_id = GKM_Begin_Our_Recovery
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -85,12 +75,12 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Begin_Our_Recovery }
 	x = 1
-	y = 2
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	y = 1
+	relative_position_id = GKM_Begin_Our_Recovery
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -102,13 +92,13 @@ shared_focus = {
 	id = GKM_Mobilizing_Our_Workforce
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Slash_Corporation_Taxes }
-	x = -2
-	y = 3
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_Slash_Corporation_Taxes
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -122,12 +112,12 @@ shared_focus = {
 	prerequisite = { focus = GKM_Slash_Corporation_Taxes }
 	prerequisite = { focus = GKM_Austerity_Measures }
 	x = 0
-	y = 3
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	y = 2
+	relative_position_id = GKM_Begin_Our_Recovery
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -139,13 +129,13 @@ shared_focus = {
 	id = GKM_Social_Welfare_is_Useless
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Austerity_Measures }
-	x = 2
-	y = 3
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 1
+	y = 1
+	relative_position_id = GKM_Austerity_Measures
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -158,12 +148,12 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Economic_Self_Support_Plan }
 	x = -8
-	y = 4
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	y = 1
+	relative_position_id = GKM_Economic_Self_Support_Plan
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -175,13 +165,13 @@ shared_focus = {
 	id = GKM_Oil_Drilling_Methods
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_A_Land_Rich_in_Resources }
-	x = -10
-	y = 5
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -2
+	y = 1
+	relative_position_id = GKM_A_Land_Rich_in_Resources
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -193,13 +183,13 @@ shared_focus = {
 	id = GKM_Learn_the_Ways_of_Extraction
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_A_Land_Rich_in_Resources }
-	x = -8
-	y = 5
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 1
+	relative_position_id = GKM_A_Land_Rich_in_Resources
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -211,13 +201,13 @@ shared_focus = {
 	id = GKM_New_Mining_Tools
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_A_Land_Rich_in_Resources }
-	x = -6
-	y = 5
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 2
+	y = 1
+	relative_position_id = GKM_A_Land_Rich_in_Resources
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -229,13 +219,13 @@ shared_focus = {
 	id = GKM_Expand_Drilling_Production
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Oil_Drilling_Methods }
-	x = -11
-	y = 6
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_Oil_Drilling_Methods
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -247,13 +237,13 @@ shared_focus = {
 	id = GKM_Invest_in_Oil_Refineries
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Expand_Drilling_Production }
-	x = -12
-	y = 7
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_Expand_Drilling_Production
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -266,13 +256,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Oil_Drilling_Methods }
 	prerequisite = { focus = GKM_Learn_the_Ways_of_Extraction }
-	x = -9
-	y = 6
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_Learn_the_Ways_of_Extraction
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -284,13 +274,13 @@ shared_focus = {
 	id = GKM_Synthetic_Oil_Production_Facilities
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Oil_Expedition }
-	x = -10
-	y = 7
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_Oil_Expedition
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -303,13 +293,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Invest_in_Oil_Refineries }
 	prerequisite = { focus = GKM_Synthetic_Oil_Production_Facilities }
-	x = -11
-	y = 8
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 2
+	relative_position_id = GKM_Expand_Drilling_Production
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -321,13 +311,13 @@ shared_focus = {
 	id = GKM_New_Chemical_Industries
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Chemical_Research_Breakthroughs }
-	x = -11
-	y = 9
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 1
+	relative_position_id = GKM_Chemical_Research_Breakthroughs
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -340,13 +330,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Learn_the_Ways_of_Extraction }
 	prerequisite = { focus = GKM_New_Mining_Tools }
-	x = -7
-	y = 6
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 1
+	y = 1
+	relative_position_id = GKM_Learn_the_Ways_of_Extraction
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -358,13 +348,13 @@ shared_focus = {
 	id = GKM_Increase_Steel_Production
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Expand_the_Mines }
-	x = -6
-	y = 7
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 1
+	y = 1
+	relative_position_id = GKM_Expand_the_Mines
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -377,13 +367,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Oil_Expedition }
 	prerequisite = { focus = GKM_Expand_the_Mines }
-	x = -8
-	y = 7
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 2
+	relative_position_id = GKM_Learn_the_Ways_of_Extraction
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -396,13 +386,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_We_Need_More }
 	mutually_exclusive = { focus = GKM_More_Rare_Materials }
-	x = -9
-	y = 8
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_We_Need_More
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -414,13 +404,13 @@ shared_focus = {
 	id = GKM_Send_Out_Resource_Expeditions
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_More_Production_Materials }
-	x = -9
-	y = 9
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 1
+	relative_position_id = GKM_More_Production_Materials
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -432,13 +422,13 @@ shared_focus = {
 	id = GKM_Iron_Deposits
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Send_Out_Resource_Expeditions }
-	x = -10
-	y = 10
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -1
+	y = 1
+	relative_position_id = GKM_Send_Out_Resource_Expeditions
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -450,13 +440,13 @@ shared_focus = {
 	id = GKM_Aluminium_Deposits
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Send_Out_Resource_Expeditions }
-	x = -8
-	y = 10
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 1
+	y = 1
+	relative_position_id = GKM_Send_Out_Resource_Expeditions
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -469,13 +459,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Iron_Deposits }
 	prerequisite = { focus = GKM_Aluminium_Deposits }
-	x = -9
-	y = 11
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 2
+	relative_position_id = GKM_Send_Out_Resource_Expeditions
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -488,13 +478,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_We_Need_More }
 	mutually_exclusive = { focus = GKM_More_Production_Materials }
-	x = -7
-	y = 8
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 1
+	y = 1
+	relative_position_id = GKM_We_Need_More
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -506,13 +496,13 @@ shared_focus = {
 	id = GKM_Chromium_Deposits
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_More_Rare_Materials }
-	x = -7
-	y = 9
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 1
+	relative_position_id = GKM_More_Rare_Materials
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -524,13 +514,13 @@ shared_focus = {
 	id = GKM_Uranium_Deposits
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_More_Rare_Materials }
-	x = -5
-	y = 9
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = -2
+	y = 1
+	relative_position_id = GKM_More_Rare_Materials
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -543,13 +533,13 @@ shared_focus = {
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Chromium_Deposits }
 	prerequisite = { focus = GKM_Uranium_Deposits }
-	x = -6
-	y = 10
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 1
+	y = 1
+	relative_position_id = GKM_Chromium_Deposits
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -561,13 +551,13 @@ shared_focus = {
 	id = GKM_Profit_Off_Our_Riches
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_The_Precious_Metal_Industry }
-	x = -7
-	y = 11
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 1
+	relative_position_id = GKM_The_Precious_Metal_Industry
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
@@ -579,17 +569,879 @@ shared_focus = {
 	id = GKM_A_Large_Resource_Base
 	icon = GFX_unknown
 	prerequisite = { focus = GKM_Feed_Our_Industries focus = GKM_Profit_Off_Our_Riches }
-	x = -8
-	y = 12
-	relative_position_id = GKM_The_Economical_Zone_of_the_Reich
+	x = 0
+	y = 5
+	relative_position_id = GKM_We_Need_More
 
 	cost = 8
 
-	ai_will_do = { 
+	ai_will_do = {
 		factor = 1 
 	}
 
 	completion_reward = {
 		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_A_Large_Resource_Base"
+	}
+}
+shared_focus = {
+	id = GKM_Developing_Our_Industry
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Economic_Self_Support_Plan }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Economic_Self_Support_Plan
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Developing_Our_Industry"
+	}
+}
+shared_focus = {
+	id = GKM_Reinvigorate_Unproductive_Sectors
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Developing_Our_Industry }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Developing_Our_Industry
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Reinvigorate_Unproductive_Sectors"
+	}
+}
+shared_focus = {
+	id = GKM_Farm_Subsidies
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Reinvigorate_Unproductive_Sectors }
+	x = -3
+	y = 1
+	relative_position_id = GKM_Reinvigorate_Unproductive_Sectors
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Farm_Subsidies"
+	}
+}
+shared_focus = {
+	id = GKM_New_Farmlands
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Farm_Subsidies }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Farm_Subsidies
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_New_Farmlands"
+	}
+}
+shared_focus = {
+	id = GKM_Improve_Agricultural_Equipment
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Farmlands }
+	x = -1
+	y = 1
+	relative_position_id = GKM_New_Farmlands
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Improve_Agricultural_Equipment"
+	}
+}
+shared_focus = {
+	id = GKM_New_Tourist_Destinations
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Reinvigorate_Unproductive_Sectors }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Reinvigorate_Unproductive_Sectors
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_New_Tourist_Destinations"
+	}
+}
+shared_focus = {
+	id = GKM_Advertising_Campaigns
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Tourist_Destinations }
+	x = 1
+	y = 1
+	relative_position_id = GKM_New_Tourist_Destinations
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Advertising_Campaigns"
+	}
+}
+shared_focus = {
+	id = GKM_Develop_Secondary_Industries
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Farmlands }
+	prerequisite = { focus = GKM_Advertising_Campaigns }
+	mutually_exclusive = { focus = GKM_Expand_the_Service_Sector }
+	x = 1
+	y = 1
+	relative_position_id = GKM_New_Farmlands
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Develop_Secondary_Industries"
+	}
+}
+shared_focus = {
+	id = GKM_Factories_for_the_Consumers
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Develop_Secondary_Industries }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Develop_Secondary_Industries
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Factories_for_the_Consumers"
+	}
+}
+shared_focus = {
+	id = GKM_Expand_the_Service_Sector
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Farmlands }
+	prerequisite = { focus = GKM_Advertising_Campaigns }
+	mutually_exclusive = { focus = GKM_Develop_Secondary_Industries }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Advertising_Campaigns
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Expand_the_Service_Sector"
+	}
+}
+shared_focus = {
+	id = GKM_Subsidize_Local_Businesses
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Expand_the_Service_Sector }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Expand_the_Service_Sector
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Subsidize_Local_Businesses"
+	}
+}
+shared_focus = {
+	id = GKM_Lower_Production_Costs
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Factories_for_the_Consumers focus = GKM_Subsidize_Local_Businesses }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Factories_for_the_Consumers
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Lower_Production_Costs"
+	}
+}
+shared_focus = {
+	id = GKM_Encourage_German_Investors
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Developing_Our_Industry }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Developing_Our_Industry
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Encourage_German_Investors"
+	}
+}
+shared_focus = {
+	id = GKM_Office_Towers
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Encourage_German_Investors }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Encourage_German_Investors
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Office_Towers"
+	}
+}
+shared_focus = {
+	id = GKM_Meeting_Our_Domestic_Needs
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Encourage_German_Investors }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Encourage_German_Investors
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Meeting_Our_Domestic_Needs"
+	}
+}
+shared_focus = {
+	id = GKM_Invest_in_Research_and_Development
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Office_Towers }
+	prerequisite = { focus = GKM_Meeting_Our_Domestic_Needs }
+	x = 0
+	y = 2
+	relative_position_id = GKM_Encourage_German_Investors
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Invest_in_Research_and_Development"
+	}
+}
+shared_focus = {
+	id = GKM_Modern_Computers
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Invest_in_Research_and_Development }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Invest_in_Research_and_Development
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Modern_Computers"
+	}
+}
+shared_focus = {
+	id = GKM_New_Technological_Designs
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Modern_Computers }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Modern_Computers
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_New_Technological_Designs"
+	}
+}
+shared_focus = {
+	id = GKM_A_Global_Center_of_Technology
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Technological_Designs }
+	x = -1
+	y = 1
+	relative_position_id = GKM_New_Technological_Designs
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_A_Global_Center_of_Technology"
+	}
+}
+shared_focus = {
+	id = GKM_Ending_Our_Recovery
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Lower_Production_Costs }
+	prerequisite = { focus = GKM_A_Global_Center_of_Technology }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Lower_Production_Costs
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Ending_Our_Recovery"
+	}
+}
+shared_focus = {
+	id = GKM_An_Economical_Power
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Ending_Our_Recovery }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Ending_Our_Recovery
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_An_Economical_Power"
+	}
+}
+shared_focus = {
+	id = GKM_The_Military_Industry
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Economic_Self_Support_Plan }
+	x = 7
+	y = 1
+	relative_position_id = GKM_Economic_Self_Support_Plan
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_The_Military_Industry"
+	}
+}
+shared_focus = {
+	id = GKM_Study_German_Industries
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_The_Military_Industry }
+	x = -1
+	y = 1
+	relative_position_id = GKM_The_Military_Industry
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Study_German_Industries"
+	}
+}
+shared_focus = {
+	id = GKM_Increase_Military_Funding
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Study_German_Industries }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Study_German_Industries
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Increase_Military_Funding"
+	}
+}
+shared_focus = {
+	id = GKM_Military_Factory_Investments
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Increase_Military_Funding }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Increase_Military_Funding
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Military_Factory_Investments"
+	}
+}
+shared_focus = {
+	id = GKM_Invite_German_Military_Experts
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Study_German_Industries }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Study_German_Industries
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Invite_German_Military_Experts"
+	}
+}
+shared_focus = {
+	id = GKM_Military_Construction_Methods
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Invite_German_Military_Experts }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Invite_German_Military_Experts
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Military_Construction_Methods"
+	}
+}
+shared_focus = {
+	id = GKM_Modernize_Old_Military_Factories
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Military_Factory_Investments }
+	prerequisite = { focus = GKM_Military_Construction_Methods }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Military_Factory_Investments
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Modernize_Old_Military_Factories"
+	}
+}
+shared_focus = {
+	id = GKM_New_Foreign_Military_Factories
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Modernize_Old_Military_Factories }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Modernize_Old_Military_Factories
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_New_Foreign_Military_Factories"
+	}
+}
+shared_focus = {
+	id = GKM_Concentrated_Military_Industrial_Heartlands
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Foreign_Military_Factories }
+	mutually_exclusive = { focus = GKM_Countrywide_Military_Factories }
+	x = -1
+	y = 1
+	relative_position_id = GKM_New_Foreign_Military_Factories
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Concentrated_Military_Industrial_Heartlands"
+	}
+}
+shared_focus = {
+	id = GKM_Countrywide_Military_Factories
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_New_Foreign_Military_Factories }
+	mutually_exclusive = { focus = GKM_Concentrated_Military_Industrial_Heartlands }
+	x = 1
+	y = 1
+	relative_position_id = GKM_New_Foreign_Military_Factories
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Countrywide_Military_Factories"
+	}
+}
+shared_focus = {
+	id = GKM_Laborers_for_the_Military_Industry
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Concentrated_Military_Industrial_Heartlands focus = GKM_Countrywide_Military_Factories }
+	x = 0
+	y = 2
+	relative_position_id = GKM_New_Foreign_Military_Factories
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Laborers_for_the_Military_Industry"
+	}
+}
+shared_focus = {
+	id = GKM_Modernized_Weapons
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_The_Military_Industry }
+	x = 1
+	y = 1
+	relative_position_id = GKM_The_Military_Industry
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Modernized_Weapons"
+	}
+}
+shared_focus = {
+	id = GKM_High_Quality_Production
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Modernized_Weapons }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Modernized_Weapons
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_High_Quality_Production"
+	}
+}
+shared_focus = {
+	id = GKM_The_Arms_Trade
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_High_Quality_Production }
+	x = 0
+	y = 1
+	relative_position_id = GKM_High_Quality_Production
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_The_Arms_Trade"
+	}
+}
+shared_focus = {
+	id = GKM_Deepen_German_Ties
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_The_Arms_Trade }
+	mutually_exclusive = { focus = GKM_Expand_International_Trade }
+	x = -1
+	y = 1
+	relative_position_id = GKM_The_Arms_Trade
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Deepen_German_Ties"
+	}
+}
+shared_focus = {
+	id = GKM_Favor_German_Companies
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Deepen_German_Ties }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Deepen_German_Ties
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Favor_German_Companies"
+	}
+}
+shared_focus = {
+	id = GKM_Expand_International_Trade
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_The_Arms_Trade }
+	mutually_exclusive = { focus = GKM_Deepen_German_Ties }
+	x = 1
+	y = 1
+	relative_position_id = GKM_The_Arms_Trade
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Expand_International_Trade"
+	}
+}
+shared_focus = {
+	id = GKM_Encourage_Foreign_Military_Companies
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Expand_International_Trade }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Expand_International_Trade
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Encourage_Foreign_Military_Companies"
+	}
+}
+shared_focus = {
+	id = GKM_Trade_Convoys
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Deepen_German_Ties }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Deepen_German_Ties
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Trade_Convoys"
+	}
+}
+shared_focus = {
+	id = GKM_Armament_Mass_Production
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Favor_German_Companies focus = GKM_Encourage_Foreign_Military_Companies }
+	prerequisite = { focus = GKM_Trade_Convoys }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Trade_Convoys
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Armament_Mass_Production"
+	}
+}
+shared_focus = {
+	id = GKM_The_Fruits_of_Our_Arms_Trade
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Armament_Mass_Production }
+	x = 0
+	y = 1
+	relative_position_id = GKM_Armament_Mass_Production
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_The_Fruits_of_Our_Arms_Trade"
+	}
+}
+shared_focus = {
+	id = GKM_A_Military_Powerhouse
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Laborers_for_the_Military_Industry }
+	prerequisite = { focus = GKM_The_Fruits_of_Our_Arms_Trade }
+	x = 2
+	y = 1
+	relative_position_id = GKM_Laborers_for_the_Military_Industry
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_A_Military_Powerhouse"
+	}
+}
+shared_focus = {
+	id = GKM_Economical_Independence
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_A_Large_Resource_Base }
+	prerequisite = { focus = GKM_An_Economical_Power }
+	prerequisite = { focus = GKM_A_Military_Powerhouse }
+	x = 0
+	y = 1
+	relative_position_id = GKM_An_Economical_Power
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Economical_Independence"
+	}
+}
+shared_focus = {
+	id = GKM_Negotiate_Export_Agreements
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Economical_Independence }
+	x = -1
+	y = 1
+	relative_position_id = GKM_Economical_Independence
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Negotiate_Export_Agreements"
+	}
+}
+shared_focus = {
+	id = GKM_The_Price_of_Freedom
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Economical_Independence }
+	x = 1
+	y = 1
+	relative_position_id = GKM_Economical_Independence
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_The_Price_of_Freedom"
+	}
+}
+shared_focus = {
+	id = GKM_Unite_the_Administration
+	icon = GFX_unknown
+	prerequisite = { focus = GKM_Negotiate_Export_Agreements }
+	prerequisite = { focus = GKM_The_Price_of_Freedom }
+	x = 0
+	y = 2
+	relative_position_id = GKM_Economical_Independence
+
+	cost = 8
+
+	ai_will_do = {
+		factor = 1 
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [ROOT.GetName]: Focus GKM_Unite_the_Administration"
 	}
 }

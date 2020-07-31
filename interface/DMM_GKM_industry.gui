@@ -19,6 +19,7 @@ guiTypes = {
 		size = { width = 1250 height = 750 }
 		position = { x = 200 y = 75 }
 		orientation = upper_left
+		moveable = yes
 
 		background = {
 			name = "Background"

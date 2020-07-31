@@ -2,6 +2,8 @@
 
 oob = "GKM_1936"
 
+set_country_flag = GKM_start_tree_flag
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

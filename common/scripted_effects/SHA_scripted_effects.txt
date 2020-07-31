@@ -1,0 +1,228 @@
+######################
+#DMM SCRIPTED EFFECTS# dependence level roughly fitted to x=0.333(repeating)*log(var)(base 1.5) with x being the level of the idea
+######################
+
+change_japanese_dependence_SHA = {
+	hidden_effect  = {
+		clamp_variable = {
+			var = SHA_japanese_influence
+			min = 0
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence < 4 }
+				has_idea = SHA_japanese_dependence_1
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_1
+				add_idea = SHA_japanese_dependence_0
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence < 4 }
+				has_idea = SHA_japanese_dependence_2
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_2
+				add_idea = SHA_japanese_dependence_0
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence < 4 }
+				has_idea = SHA_japanese_dependence_3
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_3
+				add_idea = SHA_japanese_dependence_0
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence < 4 }
+				has_idea = SHA_japanese_dependence_4
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_4
+				add_idea = SHA_japanese_dependence_0
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 4 }
+				check_variable = { SHA_japanese_influence < 13 }
+				has_idea = SHA_japanese_dependence_0
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_0
+				add_idea = SHA_japanese_dependence_1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 4 }
+				check_variable = { SHA_japanese_influence < 13 }
+				has_idea = SHA_japanese_dependence_2
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_2
+				add_idea = SHA_japanese_dependence_1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 4 }
+				check_variable = { SHA_japanese_influence < 13 }
+				has_idea = SHA_japanese_dependence_3
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_3
+				add_idea = SHA_japanese_dependence_1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 4 }
+				check_variable = { SHA_japanese_influence < 13 }
+				has_idea = SHA_japanese_dependence_4
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_4
+				add_idea = SHA_japanese_dependence_1
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 12 }
+				check_variable = { SHA_japanese_influence < 40 }
+				has_idea = SHA_japanese_dependence_1
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_1
+				add_idea = SHA_japanese_dependence_2
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 12 }
+				check_variable = { SHA_japanese_influence < 40 }
+				has_idea = SHA_japanese_dependence_0
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_0
+				add_idea = SHA_japanese_dependence_2
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 12 }
+				check_variable = { SHA_japanese_influence < 40 }
+				has_idea = SHA_japanese_dependence_3
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_3
+				add_idea = SHA_japanese_dependence_2
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 12 }
+				check_variable = { SHA_japanese_influence < 40 }
+				has_idea = SHA_japanese_dependence_4
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_4
+				add_idea = SHA_japanese_dependence_2
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 39 }
+				check_variable = { SHA_japanese_influence < 131 }
+				has_idea = SHA_japanese_dependence_0
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_0
+				add_idea = SHA_japanese_dependence_3
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 39 }
+				check_variable = { SHA_japanese_influence < 131 }
+				has_idea = SHA_japanese_dependence_1
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_1
+				add_idea = SHA_japanese_dependence_3
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 39 }
+				check_variable = { SHA_japanese_influence < 131 }
+				has_idea = SHA_japanese_dependence_2
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_2
+				add_idea = SHA_japanese_dependence_3
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 39 }
+				check_variable = { SHA_japanese_influence < 131 }
+				has_idea = SHA_japanese_dependence_4
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_4
+				add_idea = SHA_japanese_dependence_3
+			}
+		}
+
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 130 }
+				has_idea = SHA_japanese_dependence_0
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_0
+				add_idea = SHA_japanese_dependence_4
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 130 }
+				has_idea = SHA_japanese_dependence_1
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_1
+				add_idea = SHA_japanese_dependence_4
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 130 }
+				has_idea = SHA_japanese_dependence_2
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_2
+				add_idea = SHA_japanese_dependence_4
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { SHA_japanese_influence > 130 }
+				has_idea = SHA_japanese_dependence_3
+			}
+			swap_ideas = {
+				remove_idea = SHA_japanese_dependence_3
+				add_idea = SHA_japanese_dependence_4
+			}
+		}		
+	}
+}

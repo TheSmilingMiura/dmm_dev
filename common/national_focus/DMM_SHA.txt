@@ -1,0 +1,651 @@
+focus_tree = {
+    id = SHA_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = SHA
+        }
+    }
+	default = no
+    continuous_focus_position = { x = 16 y = 3000 }
+    focus = {
+        id = SHA_the_nuclear_confusion
+       # icon = 
+        x = 5
+        y = 1
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        completion_reward = {
+            add_political_power = 50
+            country_event = {
+                id = sha.2 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+    focus = {
+        id = SHA_stop_the_mindless_tumbling #fortify shaanxi
+       # icon = 
+        x = 2
+        y = 2
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_the_nuclear_confusion
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.3 #Xu Yong address
+                days = 1
+            }
+            add_timed_idea = {
+                idea = SHA_fortification_idea
+                days = 365
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_hold_upper_gansu
+      #  icon = 
+        x = 3
+        y = 3
+        cost = 2
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {   
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_stop_the_mindless_tumbling
+        }
+        mutually_exclusive = {
+            focus = SHA_hold_lower_gansu
+        }
+        completion_reward = {
+            754 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 1882
+                } 
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 4536
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 10490
+                } 
+            }
+            616 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 12327 
+                } 
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 5100
+                } 
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_hold_lower_gansu
+      #  icon = 
+        x = 1
+        y = 3
+        cost = 2
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {   
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_stop_the_mindless_tumbling
+        }
+        mutually_exclusive = {
+            focus = SHA_hold_upper_gansu
+        }
+        completion_reward = {
+            889 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 3
+                    instant_build = YES
+                    province = 4313
+                } 
+                add_building_construction = {
+                    type = bunker
+                    level = 3
+                    instant_build = YES
+                    province = 12797
+                } 
+            }
+            283 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 2022 
+                } 
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    instant_build = YES
+                    province = 6638
+                } 
+            }
+            616 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = YES
+                    province = 3742
+                } 
+                add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = YES
+                    province = 8081
+                } 
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_step_up_arms_development
+       # icon = 
+        x = 2
+        y = 4
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_hold_upper_gansu
+            focus = SHA_hold_lower_gansu
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.4 #Xu Yong address
+                days = 1
+            }
+            744 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = YES
+                } 
+            }
+            1055 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = YES
+                } 
+            }
+            1054 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = YES
+                } 
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_face_internal_enemies
+       # icon = 
+        x = 8
+        y = 2
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_the_nuclear_confusion
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.5 #Xu Yong address
+                days = 1
+            }
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = SHA_organize_anti_communist_campaigns
+       # icon = 
+        x = 6
+        y = 3
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_face_internal_enemies
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.6 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_rural_sweep_operations
+       # icon = 
+        x = 6
+        y = 4
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_organize_anti_communist_campaigns
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.10 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_aerial_drugwar_operations
+       # icon = 
+        x = 4
+        y = 4
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_organize_anti_communist_campaigns
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.9 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_escalate_the_funding_war
+       # icon = 
+        x = 5
+        y = 5
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_rural_sweep_operations
+        }
+        prerequisite = {
+            focus = SHA_aerial_drugwar_operations
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.14 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_distance_from_japanese
+       # icon = 
+        x = 8
+        y = 3
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_face_internal_enemies
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.7 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_find_consensus_enemy
+       # icon = 
+        x = 8
+        y = 4
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_distance_from_japanese
+        }
+        prerequisite = {
+            focus = SHA_organize_anti_communist_campaigns
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.11 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_enforce_hui_loyalty
+       # icon = 
+        x = 10
+        y = 3
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_face_internal_enemies
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.8 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_channel_funds_to_mosques
+       # icon = 
+        x = 10
+        y = 4
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_enforce_hui_loyalty
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.12 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_exploit_hui_personal_loyalty
+       # icon = 
+        x = 11
+        y = 5
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_channel_funds_to_mosques
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_three_races_one_unit_doctrine
+       # icon = 
+        x = 9
+        y = 5
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_channel_funds_to_mosques
+        }
+        prerequisite = {
+            focus = SHA_find_consensus_enemy
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_rural_reinforcement_theory
+       # icon = 
+        x = 7
+        y = 6
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_escalate_the_funding_war
+        }
+        prerequisite = {
+            focus = SHA_three_races_one_unit_doctrine
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_request_funds_from_nanjing
+       # icon = 
+        x = 1
+        y = 5
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_step_up_arms_development
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_request_japanese_industrial_assistance
+       # icon = 
+        x = 3
+        y = 5
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_step_up_arms_development
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_the_great_northeast_development_campaign
+       # icon = 
+        x = 2
+        y = 6
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_request_funds_from_nanjing
+            focus = SHA_request_japanese_industrial_assistance
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_down_to_the_countryside_campaign
+       # icon = 
+        x = 0
+        y = 6
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_request_funds_from_nanjing
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+
+    focus = {
+        id = SHA_develop_guanzhong_basin
+       # icon = 
+        x = 4
+        y = 6
+        cost = 2
+        available_if_capitulated = yes
+        ai_will_do = { 
+            factor = 1
+        }
+        available = {
+            always = yes
+        }
+        prerequisite = {
+            focus = SHA_request_japanese_industrial_assistance
+        }
+        completion_reward = {
+            country_event = {
+                id = sha.13 #Xu Yong address
+                days = 1
+            }
+        }
+    }
+}

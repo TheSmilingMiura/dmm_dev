@@ -118,3 +118,123 @@ defined_text = {
 		localization_key = SHA_communist_control
 	}
 }
+defined_text = {
+	name = SHAstate1tt
+	text = {
+		trigger = {
+			has_country_flag = SHA_play_Reds
+		}
+		localization_key = SHAstate1tt_red
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SHA_play_Reds }
+		}
+		localization_key = SHAstate1tt_blue
+	}
+}
+defined_text = {
+	name = SHAstate2tt
+	text = {
+		trigger = {
+			has_country_flag = SHA_play_Reds
+		}
+		localization_key = SHAstate2tt_red
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SHA_play_Reds }
+		}
+		localization_key = SHAstate2tt_blue
+	}
+}
+defined_text = {
+	name = SHAstate3tt
+	text = {
+		trigger = {
+			has_country_flag = SHA_play_Reds
+		}
+		localization_key = SHAstate3tt_red
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SHA_play_Reds }
+		}
+		localization_key = SHAstate3tt_blue
+	}
+}
+defined_text = {
+	name = SHAstate4tt
+	text = {
+		trigger = {
+			has_country_flag = SHA_play_Reds
+		}
+		localization_key = SHAstate4tt_red
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SHA_play_Reds }
+		}
+		localization_key = SHAstate4tt_blue
+	}
+}
+defined_text = {
+	name = SHA_dominant_force_yanan_red
+	text = {
+		trigger = {
+			check_variable = { 622.SHA_communist_presence < 50 }
+		}
+		localization_key = SHA_xian_control_red
+	}
+	text = {
+		trigger = {
+			check_variable = { 622.SHA_communist_presence > 49 }
+		}
+		localization_key = SHA_communist_control_red
+	}
+}
+defined_text = {
+	name = SHA_dominant_force_guanzhong_red
+	text = {
+		trigger = {
+			check_variable = { 1055.SHA_communist_presence < 50 }
+		}
+		localization_key = SHA_xian_control_red
+	}
+	text = {
+		trigger = {
+			check_variable = { 1055.SHA_communist_presence > 49 }
+		}
+		localization_key = SHA_communist_control_red
+	}
+}
+defined_text = {
+	name = SHA_dominant_force_xian_red
+	text = {
+		trigger = {
+			check_variable = { 1054.SHA_communist_presence < 50 }
+		}
+		localization_key = SHA_xian_control_red
+	}
+	text = {
+		trigger = {
+			check_variable = { 1054.SHA_communist_presence > 49 }
+		}
+		localization_key = SHA_communist_control_red
+	}
+}
+defined_text = {
+	name = SHA_dominant_force_qinling_red
+	text = {
+		trigger = {
+			check_variable = { 744.SHA_communist_presence < 50 }
+		}
+		localization_key = SHA_xian_control_red
+	}
+	text = {
+		trigger = {
+			check_variable = { 744.SHA_communist_presence > 49 }
+		}
+		localization_key = SHA_communist_control_red
+	}
+}

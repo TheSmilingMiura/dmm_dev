@@ -37,4 +37,8 @@ spriteTypes = {
 		name = "GFX_SHA_GUI_STATE4_red"
 		texturefile = "gfx/interface/sha_gui/SHA_STATE4_red.dds"
 	}
+	spriteType = {
+		name = "GFX_SHA_GUI_OVERLAY"
+		texturefile = "gfx/interface/sha_gui/overlay1.dds"
+	}
 }

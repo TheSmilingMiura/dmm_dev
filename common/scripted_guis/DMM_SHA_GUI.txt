@@ -29,9 +29,6 @@ scripted_gui = {
 			SHA_state4 = {
 				image = "[SHAstate4]"
 			}
-			#test = {
-			#	image = "GFX_SHA_GUI_State1_red"
-			#}
 		}
 	}
 }

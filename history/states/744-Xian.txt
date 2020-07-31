@@ -16,7 +16,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-
+		set_variable = { SHA_communist_presence = 30 }
 	}
 	manpower=9000000
 	buildings_max_level_factor=1.000

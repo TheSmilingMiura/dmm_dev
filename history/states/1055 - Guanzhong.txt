@@ -14,5 +14,6 @@ state = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
+		set_variable = { SHA_communist_presence = 15 }
 	}
 }

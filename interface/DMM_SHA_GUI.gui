@@ -43,5 +43,12 @@ guiTypes = {
           position = { x = 80 y = 7 }
           alwaystransparent = yes
         }
+
+        iconType = {
+          name = "SHA_GUI_OVERLAY"
+          spriteType = "GFX_SHA_GUI_OVERLAY"
+          position = { x = -2 y = -5 }
+          alwaystransparent = yes
+        }
     }   
 }

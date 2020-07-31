@@ -1,0 +1,128 @@
+ideas = {
+	country = {
+		SHA_japanese_dependence_0 = {
+			picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = authoritarian
+			}
+			removal_cost = -1
+			#targeted_modifier = {
+			#		tag = JAP
+			#		cic_to_target_factor = 0.05
+			#		extra_trade_to_target_factor = 0.05
+			#		trade_cost_for_target_factor = 0.95
+			#	}
+			modifier = {
+				max_command_power = 5
+				command_power_gain_mult = 0.05
+				army_morale_factor = 0.05
+				army_org_factor = 0.025
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		SHA_japanese_dependence_1 = {
+			picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = authoritarian
+			}
+			removal_cost = -1
+			#targeted_modifier = {
+			#		tag = JAP
+			#		cic_to_target_factor = 1
+			#		extra_trade_to_target_factor = 0.1
+			#		trade_cost_for_target_factor = -0.1
+			#	}
+			modifier = {
+				max_command_power = 10
+				command_power_gain_mult = 0.1
+				army_morale_factor = 0.1
+				army_org_factor = 0.05
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		SHA_japanese_dependence_2 = {
+			picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = authoritarian
+			}
+			removal_cost = -1
+			#targeted_modifier = {
+			#		tag = JAP
+			#		cic_to_target_factor = 0.2
+			#		extra_trade_to_target_factor = 0.2
+			#		trade_cost_for_target_factor = -0.2
+			#	}
+			modifier = {
+				max_command_power = 20
+				command_power_gain_mult = 0.2
+				army_morale_factor = 0.2
+				army_org_factor = 0.1
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		SHA_japanese_dependence_3 = {
+			picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = authoritarian
+			}
+			removal_cost = -1
+			#targeted_modifier = {
+			#		tag = JAP
+			#		cic_to_target_factor = 0.4
+			#		extra_trade_to_target_factor = 0.4
+			#		trade_cost_for_target_factor = -0.4
+			#	}
+			modifier = {
+				max_command_power = 30
+				command_power_gain_mult = 0.25
+				army_morale_factor = 0.225
+				army_org_factor = 0.125
+				stability_factor = -0.25
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		SHA_japanese_dependence_4 = {
+			picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = authoritarian
+			}
+			removal_cost = -1
+			#targeted_modifier = {
+			#		tag = JAP
+			#		cic_to_target_factor = 0.8
+			#		extra_trade_to_target_factor = 0.8
+			#		trade_cost_for_target_factor = -0.8
+			#	}
+			modifier = {
+				max_command_power = 15
+				command_power_gain_mult = 0.1
+				army_morale_factor = -0.1
+				army_org_factor = 0.1
+				stability_factor = -0.4
+				consumer_goods_factor = 0.6
+				production_speed_buildings_factor = -0.5
+			}
+		}
+	}
+}

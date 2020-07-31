@@ -7,6 +7,9 @@ SHA_insurgency_category = {
 		}
 		visible = {
 			original_tag = SHA
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
 		}
 		ai_will_do = {
 			factor = 25
@@ -14,10 +17,721 @@ SHA_insurgency_category = {
 		days_remove = 30
 		days_re_enable = 60
 		cost = 60
-		complete_effect = {
+		remove_effect = {
 			log = "[GetDateText]:[Root.GetName]: Decision SHA_anti_opiate_campaign"
 			hidden_effect = { add_to_variable = { SHA_communist_funding = -5 } }
 			#hinders communist operations
+		}
+	}
+	SHA_yanan_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			622 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			622 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 180
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_yanan_counter"
+			hidden_effect = {
+				622 = {
+				random_list = {
+					5 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 4
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					20 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+					50 = {
+						add_to_variable = { SHA_communist_presence = -5 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 11 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 39 }
+						}
+					}
+					25 = {
+						add_to_variable = { SHA_communist_presence = 0 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence < 21 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_yanan_jap_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			622 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			622 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 70
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_yanan_jap_counter"
+			hidden_effect = {
+				622 = {
+				random_list = {
+					15 = {
+						add_to_variable = { SHA_communist_presence = -20 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					30 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 69 }
+						}
+					}
+					55 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			add_to_variable = { SHA_japanese_influence = 10 }
+			change_japanese_dependence_SHA = yes
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_xian_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			1054 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			1054 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 180
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_xian_counter"
+			hidden_effect = {
+				1054 = {
+				random_list = {
+					5 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 4
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					20 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+					50 = {
+						add_to_variable = { SHA_communist_presence = -5 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 11 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 39 }
+						}
+					}
+					25 = {
+						add_to_variable = { SHA_communist_presence = 0 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence < 21 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_xian_jap_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			1054 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			1054 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 70
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_xian_jap_counter"
+			hidden_effect = {
+				add_to_variable = { SHA_japanese_influence = 10 }
+				change_japanese_dependence_SHA = yes
+				1054 = {
+				random_list = {
+					15 = {
+						add_to_variable = { SHA_communist_presence = -20 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					30 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 69 }
+						}
+					}
+					55 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_guanzhong_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			1055 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			1055 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 180
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_guanzhong_counter"
+			hidden_effect = {
+				1055 = {
+				random_list = {
+					5 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 4
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					20 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+					50 = {
+						add_to_variable = { SHA_communist_presence = -5 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 11 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 39 }
+						}
+					}
+					25 = {
+						add_to_variable = { SHA_communist_presence = 0 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence < 21 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_guanzhong_jap_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			1055 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			1055 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 70
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_guanzhong_jap_counter"
+			hidden_effect = {
+				add_to_variable = { SHA_japanese_influence = 10 }
+				change_japanese_dependence_SHA = yes
+				1055 = {
+				random_list = {
+					15 = {
+						add_to_variable = { SHA_communist_presence = -20 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					30 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 69 }
+						}
+					}
+					55 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_qinling_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			744 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			744 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 180
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_qinling_counter"
+			hidden_effect = {
+				744 = {
+				random_list = {
+					5 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 4
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					20 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+					50 = {
+						add_to_variable = { SHA_communist_presence = -5 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 11 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 39 }
+						}
+					}
+					25 = {
+						add_to_variable = { SHA_communist_presence = 0 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence < 21 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+	SHA_qinling_jap_counter = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			744 = {
+				is_owned_and_controlled_by = SHA
+			}
+		}
+		visible = {
+			original_tag = SHA
+			744 = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 0 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 25
+		}
+		fixed_random_seed = no
+		days_remove = 30
+		days_re_enable = 90
+		cost = 70
+		remove_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_qinling_jap_counter"
+			hidden_effect = {
+				add_to_variable = { SHA_japanese_influence = 10 }
+				change_japanese_dependence_SHA = yes
+				744 = {
+				random_list = {
+					15 = {
+						add_to_variable = { SHA_communist_presence = -20 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 79 }
+						}
+					}
+					30 = {
+						add_to_variable = { SHA_communist_presence = -15 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 51 }
+						}
+						modifier = {
+							factor = 2
+							check_variable = { SHA_communist_presence > 69 }
+						}
+					}
+					55 = {
+						add_to_variable = { SHA_communist_presence = -10 }
+						modifier = {
+							factor = 0.2
+							check_variable = { SHA_communist_presence < 21 }
+						}
+						modifier = {
+							factor = 1.5
+							check_variable = { SHA_communist_presence > 59 }
+						}
+					}
+				}
+				clamp_variable = {
+					var = SHA_communist_presence
+					min = 0
+					max = 100
+				}
+				}
+			}
+			#hinders communist operations
+		}
+	}
+
+	SHA_switch_sides = {
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+			any_owned_state = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 49 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		visible = {
+			original_tag = SHA
+			any_owned_state = {
+				is_owned_and_controlled_by = SHA
+				check_variable = { SHA_communist_presence > 49 }
+			}
+			NOT = {
+					has_country_flag = SHA_play_Reds
+				}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		fire_only_once = yes
+		cost = 0
+		complete_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_switch_sides"
+			hidden_effect = {
+				SHA = { set_country_flag = SHA_play_Reds}
+			}
+			#hinders communist operations
+		}
+	}
+
+	SHA_reduce_jap_influence_by_10 = { #debug
+		icon = generic_industry
+
+		available = {
+			original_tag = SHA
+		}
+		visible = {
+			original_tag = SHA
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 1
+		days_re_enable = 1
+		cost = 0
+		complete_effect = {
+			log = "[GetDateText]:[Root.GetName]: Decision SHA_switch_sides"
+			add_to_variable = { SHA_japanese_influence = -10 }
+			change_japanese_dependence_SHA = yes
 		}
 	}
 }

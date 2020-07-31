@@ -20,7 +20,10 @@ add_ideas = {
 	#laws
 	low_economic_mobilisation
 	limited_conscription
+	SHA_japanese_dependence_1
 }
+
+set_variable = { SHA_japanese_influence = 5 }
 
 set_popularities = {
     fascist = 10

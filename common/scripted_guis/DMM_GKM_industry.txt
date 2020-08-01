@@ -14,21 +14,492 @@ scripted_gui = {
 				if = {
 					limit = { has_variable = show_GKM_industry }
 					clear_variable = show_GKM_industry
+					clear_variable = show_GKM_industry_corporations
 				}
 				else = {
 					set_variable = { show_GKM_industry = 1 }
+					set_variable = { show_GKM_industry_corporations = 1 }
 				}
 			}
 		}
 	}
 
 	DMM_GKM_industry_main = {
-		 context_type = player_context
+		context_type = player_context
         parent_window_token = top_bar
         window_name = "DMM_GKM_industry_main_container"
+		dirty = show_GKM_industry
 
         visible = {
             check_variable = { show_GKM_industry > 0 }
+        }
+
+		effects = {
+            DMM_GKM_industry_close_button_click = {
+				clear_variable = show_GKM_industry
+				clear_variable = show_GKM_industry_corporations
+            }
+        }
+
+		triggers = {
+			DMM_GKM_state_193_icon_visible = {
+                check_variable = { 193.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_195_icon_visible = {
+                check_variable = { 195.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_196_icon_visible = {
+                check_variable = { 196.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_197_icon_visible = {
+                check_variable = { 197.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_200_icon_visible = {
+                check_variable = { 200.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_202_icon_visible = {
+                check_variable = { 202.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_203_icon_visible = {
+                check_variable = { 203.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_205_icon_visible = {
+                check_variable = { 205.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_208_icon_visible = {
+                check_variable = { 208.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_214_icon_visible = {
+                check_variable = { 214.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_217_icon_visible = {
+                check_variable = { 217.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_218_icon_visible = {
+                check_variable = { 218.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_219_icon_visible = {
+                check_variable = { 219.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_220_icon_visible = {
+                check_variable = { 220.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_221_icon_visible = {
+                check_variable = { 221.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_222_icon_visible = {
+                check_variable = { 222.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_223_icon_visible = {
+                check_variable = { 223.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_224_icon_visible = {
+                check_variable = { 224.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_225_icon_visible = {
+                check_variable = { 225.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_226_icon_visible = {
+                check_variable = { 226.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_227_icon_visible = {
+                check_variable = { 227.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_228_icon_visible = {
+                check_variable = { 228.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_233_icon_visible = {
+                check_variable = { 233.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_234_icon_visible = {
+                check_variable = { 234.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_235_icon_visible = {
+                check_variable = { 235.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_236_icon_visible = {
+                check_variable = { 236.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_237_icon_visible = {
+                check_variable = { 237.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_238_icon_visible = {
+                check_variable = { 238.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_239_icon_visible = {
+                check_variable = { 239.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_240_icon_visible = {
+                check_variable = { 240.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_242_icon_visible = {
+                check_variable = { 242.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_243_icon_visible = {
+                check_variable = { 243.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_244_icon_visible = {
+                check_variable = { 244.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_245_icon_visible = {
+                check_variable = { 245.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_246_icon_visible = {
+                check_variable = { 246.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_247_icon_visible = {
+                check_variable = { 247.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_248_icon_visible = {
+                check_variable = { 248.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_249_icon_visible = {
+                check_variable = { 249.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_250_icon_visible = {
+                check_variable = { 250.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_251_icon_visible = {
+                check_variable = { 251.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_252_icon_visible = {
+                check_variable = { 252.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_253_icon_visible = {
+                check_variable = { 253.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_254_icon_visible = {
+                check_variable = { 254.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_255_icon_visible = {
+                check_variable = { 255.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_256_icon_visible = {
+                check_variable = { 256.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_257_icon_visible = {
+                check_variable = { 257.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_258_icon_visible = {
+                check_variable = { 258.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_259_icon_visible = {
+                check_variable = { 259.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_260_icon_visible = {
+                check_variable = { 260.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_262_icon_visible = {
+                check_variable = { 262.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_263_icon_visible = {
+                check_variable = { 263.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_264_icon_visible = {
+                check_variable = { 264.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_265_icon_visible = {
+                check_variable = { 265.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_351_icon_visible = {
+                check_variable = { 351.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_397_icon_visible = {
+                check_variable = { 397.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_398_icon_visible = {
+                check_variable = { 398.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_399_icon_visible = {
+                check_variable = { 399.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_400_icon_visible = {
+                check_variable = { 400.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_401_icon_visible = {
+                check_variable = { 401.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_406_icon_visible = {
+                check_variable = { 406.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_407_icon_visible = {
+                check_variable = { 407.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_651_icon_visible = {
+                check_variable = { 651.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_652_icon_visible = {
+                check_variable = { 652.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_833_icon_visible = {
+                check_variable = { 833.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_901_icon_visible = {
+                check_variable = { 901.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_910_icon_visible = {
+                check_variable = { 910.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_964_icon_visible = {
+                check_variable = { 964.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1040_icon_visible = {
+                check_variable = { 1040.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1041_icon_visible = {
+                check_variable = { 1041.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1042_icon_visible = {
+                check_variable = { 1042.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1043_icon_visible = {
+                check_variable = { 1043.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1044_icon_visible = {
+                check_variable = { 1044.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1045_icon_visible = {
+                check_variable = { 1045.GKM_industry_faction > 0 }
+			}
+			DMM_GKM_state_1046_icon_visible = {
+                check_variable = { 1046.GKM_industry_faction > 0 }
+			}
+		}
+
+		properties = {
+			DMM_GKM_state_193_icon = {
+                frame = 193.GKM_industry_faction
+			}
+			DMM_GKM_state_195_icon = {
+                frame = 195.GKM_industry_faction
+			}
+			DMM_GKM_state_196_icon = {
+                frame = 196.GKM_industry_faction
+			}
+			DMM_GKM_state_197_icon = {
+                frame = 197.GKM_industry_faction
+			}
+			DMM_GKM_state_200_icon = {
+                frame = 200.GKM_industry_faction
+			}
+			DMM_GKM_state_202_icon = {
+                frame = 202.GKM_industry_faction
+			}
+			DMM_GKM_state_203_icon = {
+                frame = 203.GKM_industry_faction
+			}
+			DMM_GKM_state_205_icon = {
+                frame = 205.GKM_industry_faction
+			}
+			DMM_GKM_state_208_icon = {
+                frame = 208.GKM_industry_faction
+			}
+			DMM_GKM_state_214_icon = {
+                frame = 214.GKM_industry_faction
+			}
+			DMM_GKM_state_217_icon = {
+                frame = 217.GKM_industry_faction
+			}
+			DMM_GKM_state_218_icon = {
+                frame = 218.GKM_industry_faction
+			}
+			DMM_GKM_state_219_icon = {
+                frame = 219.GKM_industry_faction
+			}
+			DMM_GKM_state_220_icon = {
+                frame = 220.GKM_industry_faction
+			}
+			DMM_GKM_state_221_icon = {
+                frame = 221.GKM_industry_faction
+			}
+			DMM_GKM_state_222_icon = {
+                frame = 222.GKM_industry_faction
+			}
+			DMM_GKM_state_223_icon = {
+                frame = 223.GKM_industry_faction
+			}
+			DMM_GKM_state_224_icon = {
+                frame = 224.GKM_industry_faction
+			}
+			DMM_GKM_state_225_icon = {
+                frame = 225.GKM_industry_faction
+			}
+			DMM_GKM_state_226_icon = {
+                frame = 226.GKM_industry_faction
+			}
+			DMM_GKM_state_227_icon = {
+                frame = 227.GKM_industry_faction
+			}
+			DMM_GKM_state_228_icon = {
+                frame = 228.GKM_industry_faction
+			}
+			DMM_GKM_state_233_icon = {
+                frame = 233.GKM_industry_faction
+			}
+			DMM_GKM_state_234_icon = {
+                frame = 234.GKM_industry_faction
+			}
+			DMM_GKM_state_235_icon = {
+                frame = 235.GKM_industry_faction
+			}
+			DMM_GKM_state_236_icon = {
+                frame = 236.GKM_industry_faction
+			}
+			DMM_GKM_state_237_icon = {
+                frame = 237.GKM_industry_faction
+			}
+			DMM_GKM_state_238_icon = {
+                frame = 238.GKM_industry_faction
+			}
+			DMM_GKM_state_239_icon = {
+                frame = 239.GKM_industry_faction
+			}
+			DMM_GKM_state_240_icon = {
+                frame = 240.GKM_industry_faction
+			}
+			DMM_GKM_state_242_icon = {
+                frame = 242.GKM_industry_faction
+			}
+			DMM_GKM_state_243_icon = {
+                frame = 243.GKM_industry_faction
+			}
+			DMM_GKM_state_244_icon = {
+                frame = 244.GKM_industry_faction
+			}
+			DMM_GKM_state_245_icon = {
+                frame = 245.GKM_industry_faction
+			}
+			DMM_GKM_state_246_icon = {
+                frame = 246.GKM_industry_faction
+			}
+			DMM_GKM_state_247_icon = {
+                frame = 247.GKM_industry_faction
+			}
+			DMM_GKM_state_248_icon = {
+                frame = 248.GKM_industry_faction
+			}
+			DMM_GKM_state_249_icon = {
+                frame = 249.GKM_industry_faction
+			}
+			DMM_GKM_state_250_icon = {
+                frame = 250.GKM_industry_faction
+			}
+			DMM_GKM_state_251_icon = {
+                frame = 251.GKM_industry_faction
+			}
+			DMM_GKM_state_252_icon = {
+                frame = 252.GKM_industry_faction
+			}
+			DMM_GKM_state_253_icon = {
+                frame = 253.GKM_industry_faction
+			}
+			DMM_GKM_state_254_icon = {
+                frame = 254.GKM_industry_faction
+			}
+			DMM_GKM_state_255_icon = {
+                frame = 255.GKM_industry_faction
+			}
+			DMM_GKM_state_256_icon = {
+                frame = 256.GKM_industry_faction
+			}
+			DMM_GKM_state_257_icon = {
+                frame = 257.GKM_industry_faction
+			}
+			DMM_GKM_state_258_icon = {
+                frame = 258.GKM_industry_faction
+			}
+			DMM_GKM_state_259_icon = {
+                frame = 259.GKM_industry_faction
+			}
+			DMM_GKM_state_260_icon = {
+                frame = 260.GKM_industry_faction
+			}
+			DMM_GKM_state_262_icon = {
+                frame = 262.GKM_industry_faction
+			}
+			DMM_GKM_state_263_icon = {
+                frame = 263.GKM_industry_faction
+			}
+			DMM_GKM_state_264_icon = {
+                frame = 264.GKM_industry_faction
+			}
+			DMM_GKM_state_265_icon = {
+                frame = 265.GKM_industry_faction
+			}
+			DMM_GKM_state_351_icon = {
+                frame = 351.GKM_industry_faction
+			}
+			DMM_GKM_state_397_icon = {
+                frame = 397.GKM_industry_faction
+			}
+			DMM_GKM_state_398_icon = {
+                frame = 398.GKM_industry_faction
+			}
+			DMM_GKM_state_399_icon = {
+                frame = 399.GKM_industry_faction
+			}
+			DMM_GKM_state_400_icon = {
+                frame = 400.GKM_industry_faction
+			}
+			DMM_GKM_state_401_icon = {
+                frame = 401.GKM_industry_faction
+			}
+			DMM_GKM_state_406_icon = {
+                frame = 406.GKM_industry_faction
+			}
+			DMM_GKM_state_407_icon = {
+                frame = 407.GKM_industry_faction
+			}
+			DMM_GKM_state_651_icon = {
+                frame = 651.GKM_industry_faction
+			}
+			DMM_GKM_state_652_icon = {
+                frame = 652.GKM_industry_faction
+			}
+			DMM_GKM_state_833_icon = {
+                frame = 833.GKM_industry_faction
+			}
+			DMM_GKM_state_901_icon = {
+                frame = 901.GKM_industry_faction
+			}
+			DMM_GKM_state_910_icon = {
+                frame = 910.GKM_industry_faction
+			}
+			DMM_GKM_state_964_icon = {
+                frame = 964.GKM_industry_faction
+			}
+			DMM_GKM_state_1040_icon = {
+                frame = 1040.GKM_industry_faction
+			}
+			DMM_GKM_state_1041_icon = {
+                frame = 1041.GKM_industry_faction
+			}
+			DMM_GKM_state_1042_icon = {
+                frame = 1042.GKM_industry_faction
+			}
+			DMM_GKM_state_1043_icon = {
+                frame = 1043.GKM_industry_faction
+			}
+			DMM_GKM_state_1044_icon = {
+                frame = 1044.GKM_industry_faction
+			}
+			DMM_GKM_state_1045_icon = {
+                frame = 1045.GKM_industry_faction
+			}
+			DMM_GKM_state_1046_icon = {
+                frame = 1046.GKM_industry_faction
+			}
+		}
+	}
+
+	DMM_GKM_industry_corporations = {
+		 context_type = player_context
+        parent_window_token = top_bar
+        window_name = "DMM_GKM_industry_corporations_container"
+		dirty = show_GKM_industry_corporations
+
+        visible = {
+            check_variable = { show_GKM_industry_corporations > 0 }
         }
 
 		dynamic_lists = {
@@ -40,8 +511,8 @@ scripted_gui = {
 		}
 
 		effects = {
-            DMM_GKM_industry_close_button_click = {
-				clear_variable = show_GKM_industry
+            DMM_GKM_industry_close_corporations_button_click = {
+				clear_variable = show_GKM_industry_corporations
             }
         }
 

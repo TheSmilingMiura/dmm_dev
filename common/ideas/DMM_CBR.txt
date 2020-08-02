@@ -12,6 +12,41 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.03
 				political_power_factor = -0.01
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_factory_max_efficiency_factor = -0.1
+				conscription = -1.00
+
+			}
+		}
+		disconnected_archipelago = {
+			picture = GFX_idea_FRA_factory_strikes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.01
+				political_power_factor = -0.01
+
+			}
+		}
+		CBR_housing_problems = {
+			picture = GFX_idea_FRA_factory_strikes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.02
+				monthly_population = 0.1
+				political_power_factor = -0.01
 			}
 		}
 	}

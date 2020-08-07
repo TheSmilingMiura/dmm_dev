@@ -26,37 +26,381 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_bg"
 		}
 
-		containerWindowType = {
-			name = "DMM_GKM_industry_main_container2"
-			size = { width = 1250 height = 350 }
-			position = { x = 0 y = 400 }
-			orientation = upper_left
-
-			background = {
-				name = "Background"
-				quadTextureSprite = "GFX_tiled_bg"
-			}
+		iconType = {
+			name = "DMM_GKM_state_193_icon"
+			spriteType = "GFX_GKM_industry_STATE_193"
+			position = { x = 352 y = 495 }
 		}
-
-		instantTextBoxType = {
-			name = "DMM_GKM_industry_title"
-			position = { x = 300 y = 680 }
-			font = "hoi_36header"
-			text = "The Corporations of Moskowien"
-			format = centre
-			maxWidth = 650
-			maxHeight = 25
+		iconType = {
+			name = "DMM_GKM_state_195_icon"
+			spriteType = "GFX_GKM_industry_STATE_195"
+			position = { x = 342 y = 315 }
 		}
-
-		gridboxtype = {
-			name = "DMM_GKM_industry_grid"
-			position = { x = 0 y = 0 }
-			size = { width = 100%% height = 100%% }
-			slotsize = { width = 1 height = 1 }
-			max_slots_horizontal = 9
-			max_slots_vertical = 1
+		iconType = {
+			name = "DMM_GKM_state_196_icon"
+			spriteType = "GFX_GKM_industry_STATE_196"
+			position = { x = 369 y = 596 }
 		}
-
+		iconType = {
+			name = "DMM_GKM_state_197_icon"
+			spriteType = "GFX_GKM_industry_STATE_197"
+			position = { x = 353 y = 572 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_200_icon"
+			spriteType = "GFX_GKM_industry_STATE_200"
+			position = { x = 409 y = 583 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_202_icon"
+			spriteType = "GFX_GKM_industry_STATE_202"
+			position = { x = 345 y = 532 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_203_icon"
+			spriteType = "GFX_GKM_industry_STATE_203"
+			position = { x = 330 y = 541 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_205_icon"
+			spriteType = "GFX_GKM_industry_STATE_205"
+			position = { x = 400 y = 434 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_208_icon"
+			spriteType = "GFX_GKM_industry_STATE_208"
+			position = { x = 310 y = 326 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_214_icon"
+			spriteType = "GFX_GKM_industry_STATE_214"
+			position = { x = 430 y = 158 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_217_icon"
+			spriteType = "GFX_GKM_industry_STATE_217"
+			position = { x = 555 y = 555 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_218_icon"
+			spriteType = "GFX_GKM_industry_STATE_218"
+			position = { x = 489 y = 579 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_219_icon"
+			spriteType = "GFX_GKM_industry_STATE_219"
+			position = { x = 454 y = 415 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_220_icon"
+			spriteType = "GFX_GKM_industry_STATE_220"
+			position = { x = 409 y = 499 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_221_icon"
+			spriteType = "GFX_GKM_industry_STATE_221"
+			position = { x = 421 y = 535 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_222_icon"
+			spriteType = "GFX_GKM_industry_STATE_222"
+			position = { x = 419 y = 472 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_223_icon"
+			spriteType = "GFX_GKM_industry_STATE_223"
+			position = { x = 436 y = 446 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_224_icon"
+			spriteType = "GFX_GKM_industry_STATE_224"
+			position = { x = 364 y = 462 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_225_icon"
+			spriteType = "GFX_GKM_industry_STATE_225"
+			position = { x = 391 y = 499 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_226_icon"
+			spriteType = "GFX_GKM_industry_STATE_226"
+			position = { x = 391 y = 563 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_227_icon"
+			spriteType = "GFX_GKM_industry_STATE_227"
+			position = { x = 447 y = 561 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_228_icon"
+			spriteType = "GFX_GKM_industry_STATE_228"
+			position = { x = 467 y = 543 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_233_icon"
+			spriteType = "GFX_GKM_industry_STATE_233"
+			position = { x = 556 y = 674 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_234_icon"
+			spriteType = "GFX_GKM_industry_STATE_234"
+			position = { x = 448 y = 607 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_235_icon"
+			spriteType = "GFX_GKM_industry_STATE_235"
+			position = { x = 513 y = 622 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_236_icon"
+			spriteType = "GFX_GKM_industry_STATE_236"
+			position = { x = 577 y = 576 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_237_icon"
+			spriteType = "GFX_GKM_industry_STATE_237"
+			position = { x = 560 y = 582 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_238_icon"
+			spriteType = "GFX_GKM_industry_STATE_238"
+			position = { x = 478 y = 589 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_239_icon"
+			spriteType = "GFX_GKM_industry_STATE_239"
+			position = { x = 540 y = 490 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_240_icon"
+			spriteType = "GFX_GKM_industry_STATE_240"
+			position = { x = 431 y = 519 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_242_icon"
+			spriteType = "GFX_GKM_industry_STATE_242"
+			position = { x = 357 y = 419 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_243_icon"
+			spriteType = "GFX_GKM_industry_STATE_243"
+			position = { x = 363 y = 442 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_244_icon"
+			spriteType = "GFX_GKM_industry_STATE_244"
+			position = { x = 361 y = 321 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_245_icon"
+			spriteType = "GFX_GKM_industry_STATE_245"
+			position = { x = 500 y = 551 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_246_icon"
+			spriteType = "GFX_GKM_industry_STATE_246"
+			position = { x = 362 y = 369 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_247_icon"
+			spriteType = "GFX_GKM_industry_STATE_247"
+			position = { x = 417 y = 361 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_248_icon"
+			spriteType = "GFX_GKM_industry_STATE_248"
+			position = { x = 458 y = 350 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_249_icon"
+			spriteType = "GFX_GKM_industry_STATE_249"
+			position = { x = 622 y = 407 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_250_icon"
+			spriteType = "GFX_GKM_industry_STATE_250"
+			position = { x = 578 y = 439 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_251_icon"
+			spriteType = "GFX_GKM_industry_STATE_251"
+			position = { x = 629 y = 452 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_252_icon"
+			spriteType = "GFX_GKM_industry_STATE_252"
+			position = { x = 527 y = 378 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_253_icon"
+			spriteType = "GFX_GKM_industry_STATE_253"
+			position = { x = 470 y = 379 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_254_icon"
+			spriteType = "GFX_GKM_industry_STATE_254"
+			position = { x = 475 y = 435 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_255_icon"
+			spriteType = "GFX_GKM_industry_STATE_255"
+			position = { x = 539 y = 454 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_256_icon"
+			spriteType = "GFX_GKM_industry_STATE_256"
+			position = { x = 587 y = 383 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_257_icon"
+			spriteType = "GFX_GKM_industry_STATE_257"
+			position = { x = 498 y = 468 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_258_icon"
+			spriteType = "GFX_GKM_industry_STATE_258"
+			position = { x = 464 y = 473 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_259_icon"
+			spriteType = "GFX_GKM_industry_STATE_259"
+			position = { x = 382 y = 535 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_260_icon"
+			spriteType = "GFX_GKM_industry_STATE_260"
+			position = { x = 471 y = 505 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_262_icon"
+			spriteType = "GFX_GKM_industry_STATE_262"
+			position = { x = 552 y = 14 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_263_icon"
+			spriteType = "GFX_GKM_industry_STATE_263"
+			position = { x = 338 y = 348 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_264_icon"
+			spriteType = "GFX_GKM_industry_STATE_264"
+			position = { x = 384 y = 302 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_265_icon"
+			spriteType = "GFX_GKM_industry_STATE_265"
+			position = { x = 516 y = 522 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_351_icon"
+			spriteType = "GFX_GKM_industry_STATE_351"
+			position = { x = 427 y = 287 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_397_icon"
+			spriteType = "GFX_GKM_industry_STATE_397"
+			position = { x = 615 y = 190 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_398_icon"
+			spriteType = "GFX_GKM_industry_STATE_398"
+			position = { x = 673 y = 276 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_399_icon"
+			spriteType = "GFX_GKM_industry_STATE_399"
+			position = { x = 649 y = 361 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_400_icon"
+			spriteType = "GFX_GKM_industry_STATE_400"
+			position = { x = 575 y = 275 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_401_icon"
+			spriteType = "GFX_GKM_industry_STATE_401"
+			position = { x = 590 y = 493 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_406_icon"
+			spriteType = "GFX_GKM_industry_STATE_406"
+			position = { x = 612 y = 560 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_407_icon"
+			spriteType = "GFX_GKM_industry_STATE_407"
+			position = { x = 594 y = 511 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_651_icon"
+			spriteType = "GFX_GKM_industry_STATE_651"
+			position = { x = 707 y = 427 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_652_icon"
+			spriteType = "GFX_GKM_industry_STATE_652"
+			position = { x = 665 y = 456 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_833_icon"
+			spriteType = "GFX_GKM_industry_STATE_833"
+			position = { x = 570 y = 532 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_901_icon"
+			spriteType = "GFX_GKM_industry_STATE_901"
+			position = { x = 745 y = 417 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_910_icon"
+			spriteType = "GFX_GKM_industry_STATE_910"
+			position = { x = 743 y = 448 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_964_icon"
+			spriteType = "GFX_GKM_industry_STATE_964"
+			position = { x = 542 y = 572 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1040_icon"
+			spriteType = "GFX_GKM_industry_STATE_1040"
+			position = { x = 450 y = 397 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1041_icon"
+			spriteType = "GFX_GKM_industry_STATE_1041"
+			position = { x = 425 y = 409 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1042_icon"
+			spriteType = "GFX_GKM_industry_STATE_1042"
+			position = { x = 446 y = 425 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1043_icon"
+			spriteType = "GFX_GKM_industry_STATE_1043"
+			position = { x = 465 y = 417 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1044_icon"
+			spriteType = "GFX_GKM_industry_STATE_1044"
+			position = { x = 332 y = 513 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1045_icon"
+			spriteType = "GFX_GKM_industry_STATE_1045"
+			position = { x = 353 y = 529 }
+		}
+		iconType = {
+			name = "DMM_GKM_state_1046_icon"
+			spriteType = "GFX_GKM_industry_STATE_1046"
+			position = { x = 336 y = 540 }
+		}
+		iconType = {
+			name = "DMM_GKM_industry_outline"
+			spriteType = "GFX_GKM_industry_outline"
+			position = { x = 300 y = 14 }
+		}
 		buttonType = {
 			name = "DMM_GKM_industry_close_button"
 			position = { x = 1215 y = 5 }
@@ -68,8 +412,48 @@ guiTypes = {
 	}
 
 	containerWindowType = {
+		name = "DMM_GKM_industry_corporations_container"
+		size = { width = 1250 height = 350 }
+		position = { x = 200 y = 475 }
+		orientation = upper_left
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		gridboxtype = {
+			name = "DMM_GKM_industry_grid"
+			position = { x = -1200 y = 100 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 1 height = 1 }
+			max_slots_horizontal = 9
+			max_slots_vertical = 1
+		}
+
+		instantTextBoxType = {
+			name = "DMM_GKM_industry_title"
+			position = { x = 300 y = 30 }
+			font = "hoi_36header"
+			text = "The Corporations of Moskowien"
+			format = centre
+			maxWidth = 650
+			maxHeight = 25
+		}
+		buttonType = {
+			name = "DMM_GKM_industry_close_corporations_button"
+			position = { x = 1215 y = 5 }
+			quadTextureSprite ="GFX_closebutton"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
 		name = "DMM_GKM_industry_entry"
-		position = { x = -600 y = 450 }	
+		position = { x = 0 y = 0 }	
 		size = { width = 135 height = 400 }
 		orientation = upper_left
 		scale = 0.7
@@ -78,13 +462,11 @@ guiTypes = {
 			name = "DMM_GKM_industry_portrait"
 			position = { x = 10 y = 55 }
 		}
-
 		iconType = {
 			name = "DMM_GKM_industry_portrait_frame"
 			spriteType = "GFX_pol_leader_frame"
 			position = { x = 1 y = 45 }
 		}
-
 		instantTextboxType = {
 			name = "DMM_GKM_industry_portrait_name"
 			position = { x = 12 y = 271 }
@@ -95,7 +477,6 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}
-
 		iconType = {
 			name = "DMM_GKM_industry_icon"
 			position = { x = 55 y = -35 }

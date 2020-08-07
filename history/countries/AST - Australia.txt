@@ -80,6 +80,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Monika"
+	desc = ""
+	picture = GFX_monika_portrait
+	expire = "1965.1.1"
+	ideology = technocracy
+	traits = { }
+}
+
+set_variable = { show_monika = 1 }
+
 set_convoys = 100
 
 create_corps_commander = {

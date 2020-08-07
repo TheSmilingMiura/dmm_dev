@@ -1,0 +1,26 @@
+guiTypes = {
+	containerWindowType = {
+		name = "monika_politic_container"
+		position = { x = 0 y = 0 }
+		size = { width = 10 height = 10 }
+
+		iconType = {
+			name = "monika_politic_hand"
+			position = { x = 133 y = 171 }
+			spriteType = "GFX_monika_hand"
+		}
+	}
+	
+	containerWindowType = {
+		name = "monika_diplomatic_container"
+		position = { x = 0 y = 0 }
+		size = { width = 10 height = 10 }
+
+		iconType = {
+			name = "monika_diplomatic_hand"
+			position = { x = 106 y = 204 }
+			spriteType = "GFX_monika_hand"
+			scale = 0.74
+		}
+	}
+}

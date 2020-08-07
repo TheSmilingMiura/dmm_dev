@@ -209,3 +209,239 @@ GKM_check_influence = {
 		}
 	}
 }
+
+initialise_industry_states = {
+	193 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	195 = {
+		set_variable = { GKM_industry_faction = 5 }
+	}
+	196 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	197 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	200 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	202 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	203 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	205 = {
+		set_variable = { GKM_industry_faction = 4 }
+	}
+	208 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	214 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	217 = {
+		set_variable = { GKM_industry_faction = 4 }
+	}
+	218 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	219 = {
+		set_variable = { GKM_industry_faction = 6 }
+	}
+	220 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	221 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	222 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	223 = {
+		set_variable = { GKM_industry_faction = 10 }
+	}
+	224 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	225 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	226 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	227 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	228 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	233 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	234 = {
+		set_variable = { GKM_industry_faction = 1 }
+	}
+	235 = {
+		set_variable = { GKM_industry_faction = 1 }
+	}
+	236 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	237 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	238 = {
+		set_variable = { GKM_industry_faction = 1 }
+	}
+	239 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	240 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	242 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	243 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	244 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	245 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	246 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	247 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	248 = {
+		set_variable = { GKM_industry_faction = 8 }
+	}
+	249 = {
+		set_variable = { GKM_industry_faction = 3 }
+	}
+	250 = {
+		set_variable = { GKM_industry_faction = 4 }
+	}
+	251 = {
+		set_variable = { GKM_industry_faction = 3 }
+	}
+	252 = {
+		set_variable = { GKM_industry_faction = 5 }
+	}
+	253 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	254 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	255 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	256 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	257 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	258 = {
+		set_variable = { GKM_industry_faction = 4 }
+	}
+	259 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	260 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	262 = {
+		set_variable = { GKM_industry_faction = 3 }
+	}
+	263 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	264 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	265 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	351 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	397 = {
+		set_variable = { GKM_industry_faction = 2 }
+	}
+	398 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	399 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	400 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	401 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	406 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	407 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	651 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	652 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	833 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	901 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	910 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	964 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	1040 = {
+		set_variable = { GKM_industry_faction = 9 }
+	}
+	1041 = {
+		set_variable = { GKM_industry_faction = 7 }
+	}
+	1042 = {
+		set_variable = { GKM_industry_faction = 8 }
+	}
+	1043 = {
+		set_variable = { GKM_industry_faction = 11 }
+	}
+	1044 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	1045 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	1046 = {
+		set_variable = { GKM_industry_faction = 0 }
+	}
+	if = {
+		limit = {
+			check_variable = { show_GKM_industry > 0 }
+		}
+		add_to_variable = { show_GKM_industry = 1 }
+	}
+}
+
+yeet_industry_container = {
+	set_variable = { main_container2_x = -1000 }
+}
+

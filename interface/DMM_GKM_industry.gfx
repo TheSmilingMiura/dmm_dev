@@ -1,0 +1,377 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_193"
+		texturefile = "gfx/interface/GKM_industry/STATE_193.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_195"
+		texturefile = "gfx/interface/GKM_industry/STATE_195.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_196"
+		texturefile = "gfx/interface/GKM_industry/STATE_196.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_197"
+		texturefile = "gfx/interface/GKM_industry/STATE_197.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_200"
+		texturefile = "gfx/interface/GKM_industry/STATE_200.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_202"
+		texturefile = "gfx/interface/GKM_industry/STATE_202.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_203"
+		texturefile = "gfx/interface/GKM_industry/STATE_203.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_205"
+		texturefile = "gfx/interface/GKM_industry/STATE_205.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_208"
+		texturefile = "gfx/interface/GKM_industry/STATE_208.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_214"
+		texturefile = "gfx/interface/GKM_industry/STATE_214.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_217"
+		texturefile = "gfx/interface/GKM_industry/STATE_217.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_218"
+		texturefile = "gfx/interface/GKM_industry/STATE_218.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_219"
+		texturefile = "gfx/interface/GKM_industry/STATE_219.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_220"
+		texturefile = "gfx/interface/GKM_industry/STATE_220.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_221"
+		texturefile = "gfx/interface/GKM_industry/STATE_221.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_222"
+		texturefile = "gfx/interface/GKM_industry/STATE_222.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_223"
+		texturefile = "gfx/interface/GKM_industry/STATE_223.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_224"
+		texturefile = "gfx/interface/GKM_industry/STATE_224.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_225"
+		texturefile = "gfx/interface/GKM_industry/STATE_225.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_226"
+		texturefile = "gfx/interface/GKM_industry/STATE_226.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_227"
+		texturefile = "gfx/interface/GKM_industry/STATE_227.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_228"
+		texturefile = "gfx/interface/GKM_industry/STATE_228.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_233"
+		texturefile = "gfx/interface/GKM_industry/STATE_233.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_234"
+		texturefile = "gfx/interface/GKM_industry/STATE_234.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_235"
+		texturefile = "gfx/interface/GKM_industry/STATE_235.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_236"
+		texturefile = "gfx/interface/GKM_industry/STATE_236.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_237"
+		texturefile = "gfx/interface/GKM_industry/STATE_237.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_238"
+		texturefile = "gfx/interface/GKM_industry/STATE_238.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_239"
+		texturefile = "gfx/interface/GKM_industry/STATE_239.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_240"
+		texturefile = "gfx/interface/GKM_industry/STATE_240.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_242"
+		texturefile = "gfx/interface/GKM_industry/STATE_242.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_243"
+		texturefile = "gfx/interface/GKM_industry/STATE_243.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_244"
+		texturefile = "gfx/interface/GKM_industry/STATE_244.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_245"
+		texturefile = "gfx/interface/GKM_industry/STATE_245.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_246"
+		texturefile = "gfx/interface/GKM_industry/STATE_246.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_247"
+		texturefile = "gfx/interface/GKM_industry/STATE_247.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_248"
+		texturefile = "gfx/interface/GKM_industry/STATE_248.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_249"
+		texturefile = "gfx/interface/GKM_industry/STATE_249.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_250"
+		texturefile = "gfx/interface/GKM_industry/STATE_250.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_251"
+		texturefile = "gfx/interface/GKM_industry/STATE_251.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_252"
+		texturefile = "gfx/interface/GKM_industry/STATE_252.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_253"
+		texturefile = "gfx/interface/GKM_industry/STATE_253.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_254"
+		texturefile = "gfx/interface/GKM_industry/STATE_254.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_255"
+		texturefile = "gfx/interface/GKM_industry/STATE_255.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_256"
+		texturefile = "gfx/interface/GKM_industry/STATE_256.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_257"
+		texturefile = "gfx/interface/GKM_industry/STATE_257.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_258"
+		texturefile = "gfx/interface/GKM_industry/STATE_258.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_259"
+		texturefile = "gfx/interface/GKM_industry/STATE_259.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_260"
+		texturefile = "gfx/interface/GKM_industry/STATE_260.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_262"
+		texturefile = "gfx/interface/GKM_industry/STATE_262.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_263"
+		texturefile = "gfx/interface/GKM_industry/STATE_263.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_264"
+		texturefile = "gfx/interface/GKM_industry/STATE_264.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_265"
+		texturefile = "gfx/interface/GKM_industry/STATE_265.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_351"
+		texturefile = "gfx/interface/GKM_industry/STATE_351.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_397"
+		texturefile = "gfx/interface/GKM_industry/STATE_397.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_398"
+		texturefile = "gfx/interface/GKM_industry/STATE_398.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_399"
+		texturefile = "gfx/interface/GKM_industry/STATE_399.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_400"
+		texturefile = "gfx/interface/GKM_industry/STATE_400.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_401"
+		texturefile = "gfx/interface/GKM_industry/STATE_401.tga"
+		noOfFrames = 12
+	}
+	
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_406"
+		texturefile = "gfx/interface/GKM_industry/STATE_406.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_407"
+		texturefile = "gfx/interface/GKM_industry/STATE_407.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_651"
+		texturefile = "gfx/interface/GKM_industry/STATE_651.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_652"
+		texturefile = "gfx/interface/GKM_industry/STATE_652.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_833"
+		texturefile = "gfx/interface/GKM_industry/STATE_833.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_901"
+		texturefile = "gfx/interface/GKM_industry/STATE_901.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_910"
+		texturefile = "gfx/interface/GKM_industry/STATE_910.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_964"
+		texturefile = "gfx/interface/GKM_industry/STATE_964.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1040"
+		texturefile = "gfx/interface/GKM_industry/STATE_1040.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1041"
+		texturefile = "gfx/interface/GKM_industry/STATE_1041.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1042"
+		texturefile = "gfx/interface/GKM_industry/STATE_1042.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1043"
+		texturefile = "gfx/interface/GKM_industry/STATE_1043.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1044"
+		texturefile = "gfx/interface/GKM_industry/STATE_1044.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1045"
+		texturefile = "gfx/interface/GKM_industry/STATE_1045.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_STATE_1046"
+		texturefile = "gfx/interface/GKM_industry/STATE_1046.tga"
+		noOfFrames = 12
+	}
+	spriteType = {
+		name = "GFX_GKM_industry_outline"
+		texturefile = "gfx/interface/GKM_industry/outline.dds"
+	}
+}

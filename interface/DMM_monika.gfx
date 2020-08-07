@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_monika_portrait"
+		texturefile = "gfx/leaders/RRC/Portrait_Anarchy_New.dds"
+	}
+	spriteType = {
+		name = "GFX_monika_hand"
+		texturefile = "gfx/leaders/RRC/Portrait_Anarchy_New_Magic.dds"
+	}
+}

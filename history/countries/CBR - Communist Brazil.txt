@@ -84,4 +84,6 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	bloated_bureaucracy
+	disconnected_archipelago
+	CBR_housing_problems
 }

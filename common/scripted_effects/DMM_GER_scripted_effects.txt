@@ -1,0 +1,49 @@
+GER_debug_map = {
+	#GER = {	
+		add_to_array = { gerpolstate = 143.id }
+		add_to_array = { gerpolstate = 110.id }
+		add_to_array = { gerpolstate = 99.id }
+		add_to_array = { gerpolstate = 58.id }
+		add_to_array = { gerpolstate = 36.id }
+		add_to_array = { gerpolstate = 6.id }
+		add_to_array = { gerpolstate = 63.id }
+		add_to_array = { gerpolstate = 51.id }
+		add_to_array = { gerpolstate = 42.id }
+		add_to_array = { gerpolstate = 28.id }
+		add_to_array = { gerpolstate = 50.id }
+		add_to_array = { gerpolstate = 60.id }
+		add_to_array = { gerpolstate = 52.id }
+		add_to_array = { gerpolstate = 188.id }
+		add_to_array = { gerpolstate = 762.id }
+		add_to_array = { gerpolstate = 65.id }
+		add_to_array = { gerpolstate = 69.id }
+		add_to_array = { gerpolstate = 74.id }
+		add_to_array = { gerpolstate = 9.id }
+		add_to_array = { gerpolstate = 153.id }
+		add_to_array = { gerpolstate = 4.id }
+		add_to_array = { gerpolstate = 102.id }
+		add_to_array = { gerpolstate = 72.id }
+		add_to_array = { gerpolstate = 66.id }
+		add_to_array = { gerpolstate = 86.id }
+		add_to_array = { gerpolstate = 85.id }
+		add_to_array = { gerpolstate = 5.id }
+		add_to_array = { gerpolstate = 88.id }
+		add_to_array = { gerpolstate = 10.id }
+		add_to_array = { gerpolstate = 93.id }
+		add_to_array = { gerpolstate = 96.id }
+		add_to_array = { gerpolstate = 189.id }
+		add_to_array = { gerpolstate = 190.id }
+		add_to_array = { gerpolstate = 13.id }
+		add_to_array = { gerpolstate = 64.id }
+		add_to_array = { gerpolstate = 59.id }
+		for_each_loop = {
+			array = gerpolstate
+
+			var:gerpolstate^i = {
+			set_variable = {
+					topparty = 3		#this is merely debug
+			}
+			}
+		}
+	#}
+}

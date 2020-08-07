@@ -1,0 +1,779 @@
+defined_text = {
+	name = char1
+	text = {
+		trigger = { check_variable = { char^1 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^1 = 26 } }
+		localization_key = "z"
+	}
+}
+defined_text = {
+	name = char2
+	text = {
+		trigger = { check_variable = { char^2 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^2 = 26 } }
+		localization_key = "z"
+	}
+}
+defined_text = {
+	name = char3
+	text = {
+		trigger = { check_variable = { char^3 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^3 = 26 } }
+		localization_key = "z"
+	}
+}
+defined_text = {
+	name = char0
+	text = {
+		trigger = { check_variable = { char^0 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^0 = 26 } }
+		localization_key = "z"
+	}
+}
+defined_text = {
+	name = char4
+	text = {
+		trigger = { check_variable = { char^4 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^4 = 26 } }
+		localization_key = "z"
+	}
+}
+
+defined_text = {
+	name = char5
+	text = {
+		trigger = { check_variable = { char^5 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^5 = 26 } }
+		localization_key = "z"
+	}
+}
+
+defined_text = {
+	name = char6
+	text = {
+		trigger = { check_variable = { char^6 = 0 } }
+		localization_key = ""
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 1 } }
+		localization_key = "a"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 2 } }
+		localization_key = "b"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 3 } }
+		localization_key = "c"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 4 } }
+		localization_key = "d"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 5 } }
+		localization_key = "e"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 6 } }
+		localization_key = "f"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 7 } }
+		localization_key = "g"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 8 } }
+		localization_key = "h"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 9 } }
+		localization_key = "i"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 10 } }
+		localization_key = "j"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 11 } }
+		localization_key = "k"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 12 } }
+		localization_key = "l"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 13 } }
+		localization_key = "m"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 14 } }
+		localization_key = "n"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 15 } }
+		localization_key = "o"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 16 } }
+		localization_key = "p"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 17 } }
+		localization_key = "q"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 18 } }
+		localization_key = "r"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 19 } }
+		localization_key = "s"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 20 } }
+		localization_key = "t"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 21 } }
+		localization_key = "u"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 22 } }
+		localization_key = "v"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 23 } }
+		localization_key = "w"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 24 } }
+		localization_key = "x"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 25 } }
+		localization_key = "y"
+	}
+	text = {
+		trigger = { check_variable = { char^6 = 26 } }
+		localization_key = "z"
+	}
+}

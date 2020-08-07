@@ -1,0 +1,966 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_belarus_1"
+		texturefile = "gfx/interface/GER_gui/belarus1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_belarus_2"
+		texturefile = "gfx/interface/GER_gui/belarus2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_belarus_3"
+		texturefile = "gfx/interface/GER_gui/belarus3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_belarus_4"
+		texturefile = "gfx/interface/GER_gui/belarus4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_belarus_5"
+		texturefile = "gfx/interface/GER_gui/belarus5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_belarus_6"
+		texturefile = "gfx/interface/GER_gui/belarus6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_boehmen_1"
+		texturefile = "gfx/interface/GER_gui/boehmen1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_boehmen_2"
+		texturefile = "gfx/interface/GER_gui/boehmen2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_boehmen_3"
+		texturefile = "gfx/interface/GER_gui/boehmen3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_boehmen_4"
+		texturefile = "gfx/interface/GER_gui/boehmen4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_boehmen_5"
+		texturefile = "gfx/interface/GER_gui/boehmen5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_boehmen_6"
+		texturefile = "gfx/interface/GER_gui/boehmen6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_brandenburg_1"
+		texturefile = "gfx/interface/GER_gui/brandenburg1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_brandenburg_2"
+		texturefile = "gfx/interface/GER_gui/brandenburg2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_brandenburg_3"
+		texturefile = "gfx/interface/GER_gui/brandenburg3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_brandenburg_4"
+		texturefile = "gfx/interface/GER_gui/brandenburg4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_brandenburg_5"
+		texturefile = "gfx/interface/GER_gui/brandenburg5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_brandenburg_6"
+		texturefile = "gfx/interface/GER_gui/brandenburg6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bv_1"
+		texturefile = "gfx/interface/GER_gui/bv1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bv_2"
+		texturefile = "gfx/interface/GER_gui/bv2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bv_3"
+		texturefile = "gfx/interface/GER_gui/bv3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bv_4"
+		texturefile = "gfx/interface/GER_gui/bv4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bv_5"
+		texturefile = "gfx/interface/GER_gui/bv5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bv_6"
+		texturefile = "gfx/interface/GER_gui/bv6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bw_1"
+		texturefile = "gfx/interface/GER_gui/bw1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bw_2"
+		texturefile = "gfx/interface/GER_gui/bw2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bw_3"
+		texturefile = "gfx/interface/GER_gui/bw3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bw_4"
+		texturefile = "gfx/interface/GER_gui/bw4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bw_5"
+		texturefile = "gfx/interface/GER_gui/bw5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bw_6"
+		texturefile = "gfx/interface/GER_gui/bw6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_danzig_1"
+		texturefile = "gfx/interface/GER_gui/danzig1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_danzig_2"
+		texturefile = "gfx/interface/GER_gui/danzig2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_danzig_3"
+		texturefile = "gfx/interface/GER_gui/danzig3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_danzig_4"
+		texturefile = "gfx/interface/GER_gui/danzig4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_danzig_5"
+		texturefile = "gfx/interface/GER_gui/danzig5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_danzig_6"
+		texturefile = "gfx/interface/GER_gui/danzig6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_dk_1"
+		texturefile = "gfx/interface/GER_gui/dk1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_dk_2"
+		texturefile = "gfx/interface/GER_gui/dk2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_dk_3"
+		texturefile = "gfx/interface/GER_gui/dk3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_dk_4"
+		texturefile = "gfx/interface/GER_gui/dk4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_dk_5"
+		texturefile = "gfx/interface/GER_gui/dk5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_dk_6"
+		texturefile = "gfx/interface/GER_gui/dk6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_donau_1"
+		texturefile = "gfx/interface/GER_gui/donau1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_donau_2"
+		texturefile = "gfx/interface/GER_gui/donau2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_donau_3"
+		texturefile = "gfx/interface/GER_gui/donau3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_donau_4"
+		texturefile = "gfx/interface/GER_gui/donau4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_donau_5"
+		texturefile = "gfx/interface/GER_gui/donau5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_donau_6"
+		texturefile = "gfx/interface/GER_gui/donau6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_easternsudets_1"
+		texturefile = "gfx/interface/GER_gui/easternsudets1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_easternsudets_2"
+		texturefile = "gfx/interface/GER_gui/easternsudets2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_easternsudets_3"
+		texturefile = "gfx/interface/GER_gui/easternsudets3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_easternsudets_4"
+		texturefile = "gfx/interface/GER_gui/easternsudets4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_easternsudets_5"
+		texturefile = "gfx/interface/GER_gui/easternsudets5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_easternsudets_6"
+		texturefile = "gfx/interface/GER_gui/easternsudets6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_elsass_1"
+		texturefile = "gfx/interface/GER_gui/elsass1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_elsass_2"
+		texturefile = "gfx/interface/GER_gui/elsass2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_elsass_3"
+		texturefile = "gfx/interface/GER_gui/elsass3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_elsass_4"
+		texturefile = "gfx/interface/GER_gui/elsass4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_elsass_5"
+		texturefile = "gfx/interface/GER_gui/elsass5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_elsass_6"
+		texturefile = "gfx/interface/GER_gui/elsass6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_estonia_1"
+		texturefile = "gfx/interface/GER_gui/estonia1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_estonia_2"
+		texturefile = "gfx/interface/GER_gui/estonia2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_estonia_3"
+		texturefile = "gfx/interface/GER_gui/estonia3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_estonia_4"
+		texturefile = "gfx/interface/GER_gui/estonia4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_estonia_5"
+		texturefile = "gfx/interface/GER_gui/estonia5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_estonia_6"
+		texturefile = "gfx/interface/GER_gui/estonia6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_flandern_1"
+		texturefile = "gfx/interface/GER_gui/flandern1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_flandern_2"
+		texturefile = "gfx/interface/GER_gui/flandern2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_flandern_3"
+		texturefile = "gfx/interface/GER_gui/flandern3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_flandern_4"
+		texturefile = "gfx/interface/GER_gui/flandern4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_flandern_5"
+		texturefile = "gfx/interface/GER_gui/flandern5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_flandern_6"
+		texturefile = "gfx/interface/GER_gui/flandern6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_galicia_1"
+		texturefile = "gfx/interface/GER_gui/galicia1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_galicia_2"
+		texturefile = "gfx/interface/GER_gui/galicia2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_galicia_3"
+		texturefile = "gfx/interface/GER_gui/galicia3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_galicia_4"
+		texturefile = "gfx/interface/GER_gui/galicia4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_galicia_5"
+		texturefile = "gfx/interface/GER_gui/galicia5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_galicia_6"
+		texturefile = "gfx/interface/GER_gui/galicia6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_germania_1"
+		texturefile = "gfx/interface/GER_gui/germania1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_germania_2"
+		texturefile = "gfx/interface/GER_gui/germania2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_germania_3"
+		texturefile = "gfx/interface/GER_gui/germania3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_germania_4"
+		texturefile = "gfx/interface/GER_gui/germania4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_germania_5"
+		texturefile = "gfx/interface/GER_gui/germania5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_germania_6"
+		texturefile = "gfx/interface/GER_gui/germania6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hamburg_1"
+		texturefile = "gfx/interface/GER_gui/hamburg1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hamburg_2"
+		texturefile = "gfx/interface/GER_gui/hamburg2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hamburg_3"
+		texturefile = "gfx/interface/GER_gui/hamburg3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hamburg_4"
+		texturefile = "gfx/interface/GER_gui/hamburg4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hamburg_5"
+		texturefile = "gfx/interface/GER_gui/hamburg5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_hamburg_6"
+		texturefile = "gfx/interface/GER_gui/hamburg6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_holland_1"
+		texturefile = "gfx/interface/GER_gui/holland1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_holland_2"
+		texturefile = "gfx/interface/GER_gui/holland2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_holland_3"
+		texturefile = "gfx/interface/GER_gui/holland3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_holland_4"
+		texturefile = "gfx/interface/GER_gui/holland4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_holland_5"
+		texturefile = "gfx/interface/GER_gui/holland5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_holland_6"
+		texturefile = "gfx/interface/GER_gui/holland6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kaernten_1"
+		texturefile = "gfx/interface/GER_gui/kaernten1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kaernten_2"
+		texturefile = "gfx/interface/GER_gui/kaernten2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kaernten_3"
+		texturefile = "gfx/interface/GER_gui/kaernten3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kaernten_4"
+		texturefile = "gfx/interface/GER_gui/kaernten4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kaernten_5"
+		texturefile = "gfx/interface/GER_gui/kaernten5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_kaernten_6"
+		texturefile = "gfx/interface/GER_gui/kaernten6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_latvia_1"
+		texturefile = "gfx/interface/GER_gui/latvia1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_latvia_2"
+		texturefile = "gfx/interface/GER_gui/latvia2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_latvia_3"
+		texturefile = "gfx/interface/GER_gui/latvia3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_latvia_4"
+		texturefile = "gfx/interface/GER_gui/latvia4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_latvia_5"
+		texturefile = "gfx/interface/GER_gui/latvia5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_latvia_6"
+		texturefile = "gfx/interface/GER_gui/latvia6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_lithuania_1"
+		texturefile = "gfx/interface/GER_gui/lithuania1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_lithuania_2"
+		texturefile = "gfx/interface/GER_gui/lithuania2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_lithuania_3"
+		texturefile = "gfx/interface/GER_gui/lithuania3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_lithuania_4"
+		texturefile = "gfx/interface/GER_gui/lithuania4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_lithuania_5"
+		texturefile = "gfx/interface/GER_gui/lithuania5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_lithuania_6"
+		texturefile = "gfx/interface/GER_gui/lithuania6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mosel_1"
+		texturefile = "gfx/interface/GER_gui/mosel1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mosel_2"
+		texturefile = "gfx/interface/GER_gui/mosel2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mosel_3"
+		texturefile = "gfx/interface/GER_gui/mosel3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mosel_4"
+		texturefile = "gfx/interface/GER_gui/mosel4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mosel_5"
+		texturefile = "gfx/interface/GER_gui/mosel5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_mosel_6"
+		texturefile = "gfx/interface/GER_gui/mosel6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_niedersachsen_1"
+		texturefile = "gfx/interface/GER_gui/niedersachsen1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_niedersachsen_2"
+		texturefile = "gfx/interface/GER_gui/niedersachsen2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_niedersachsen_3"
+		texturefile = "gfx/interface/GER_gui/niedersachsen3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_niedersachsen_4"
+		texturefile = "gfx/interface/GER_gui/niedersachsen4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_niedersachsen_5"
+		texturefile = "gfx/interface/GER_gui/niedersachsen5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_niedersachsen_6"
+		texturefile = "gfx/interface/GER_gui/niedersachsen6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nor_1"
+		texturefile = "gfx/interface/GER_gui/nor1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nor_2"
+		texturefile = "gfx/interface/GER_gui/nor2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nor_3"
+		texturefile = "gfx/interface/GER_gui/nor3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nor_4"
+		texturefile = "gfx/interface/GER_gui/nor4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nor_5"
+		texturefile = "gfx/interface/GER_gui/nor5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nor_6"
+		texturefile = "gfx/interface/GER_gui/nor6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nordnor_1"
+		texturefile = "gfx/interface/GER_gui/nordnor1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nordnor_2"
+		texturefile = "gfx/interface/GER_gui/nordnor2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nordnor_3"
+		texturefile = "gfx/interface/GER_gui/nordnor3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nordnor_4"
+		texturefile = "gfx/interface/GER_gui/nordnor4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nordnor_5"
+		texturefile = "gfx/interface/GER_gui/nordnor5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nordnor_6"
+		texturefile = "gfx/interface/GER_gui/nordnor6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nrw_1"
+		texturefile = "gfx/interface/GER_gui/nrw1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nrw_2"
+		texturefile = "gfx/interface/GER_gui/nrw2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nrw_3"
+		texturefile = "gfx/interface/GER_gui/nrw3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nrw_4"
+		texturefile = "gfx/interface/GER_gui/nrw4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nrw_5"
+		texturefile = "gfx/interface/GER_gui/nrw5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_nrw_6"
+		texturefile = "gfx/interface/GER_gui/nrw6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ostpreussen_1"
+		texturefile = "gfx/interface/GER_gui/ostpreussen1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ostpreussen_2"
+		texturefile = "gfx/interface/GER_gui/ostpreussen2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ostpreussen_3"
+		texturefile = "gfx/interface/GER_gui/ostpreussen3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ostpreussen_4"
+		texturefile = "gfx/interface/GER_gui/ostpreussen4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ostpreussen_5"
+		texturefile = "gfx/interface/GER_gui/ostpreussen5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_ostpreussen_6"
+		texturefile = "gfx/interface/GER_gui/ostpreussen6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_pommern_1"
+		texturefile = "gfx/interface/GER_gui/pommern1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_pommern_2"
+		texturefile = "gfx/interface/GER_gui/pommern2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_pommern_3"
+		texturefile = "gfx/interface/GER_gui/pommern3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_pommern_4"
+		texturefile = "gfx/interface/GER_gui/pommern4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_pommern_5"
+		texturefile = "gfx/interface/GER_gui/pommern5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_pommern_6"
+		texturefile = "gfx/interface/GER_gui/pommern6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sachsen_1"
+		texturefile = "gfx/interface/GER_gui/sachsen1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sachsen_2"
+		texturefile = "gfx/interface/GER_gui/sachsen2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sachsen_3"
+		texturefile = "gfx/interface/GER_gui/sachsen3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sachsen_4"
+		texturefile = "gfx/interface/GER_gui/sachsen4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sachsen_5"
+		texturefile = "gfx/interface/GER_gui/sachsen5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sachsen_6"
+		texturefile = "gfx/interface/GER_gui/sachsen6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_schlesia_1"
+		texturefile = "gfx/interface/GER_gui/schlesia1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_schlesia_2"
+		texturefile = "gfx/interface/GER_gui/schlesia2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_schlesia_3"
+		texturefile = "gfx/interface/GER_gui/schlesia3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_schlesia_4"
+		texturefile = "gfx/interface/GER_gui/schlesia4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_schlesia_5"
+		texturefile = "gfx/interface/GER_gui/schlesia5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_schlesia_6"
+		texturefile = "gfx/interface/GER_gui/schlesia6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sh_1"
+		texturefile = "gfx/interface/GER_gui/sh1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sh_2"
+		texturefile = "gfx/interface/GER_gui/sh2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sh_3"
+		texturefile = "gfx/interface/GER_gui/sh3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sh_4"
+		texturefile = "gfx/interface/GER_gui/sh4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sh_5"
+		texturefile = "gfx/interface/GER_gui/sh5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sh_6"
+		texturefile = "gfx/interface/GER_gui/sh6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sudeten_1"
+		texturefile = "gfx/interface/GER_gui/sudeten1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sudeten_2"
+		texturefile = "gfx/interface/GER_gui/sudeten2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sudeten_3"
+		texturefile = "gfx/interface/GER_gui/sudeten3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sudeten_4"
+		texturefile = "gfx/interface/GER_gui/sudeten4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sudeten_5"
+		texturefile = "gfx/interface/GER_gui/sudeten5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sudeten_6"
+		texturefile = "gfx/interface/GER_gui/sudeten6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thueringen_1"
+		texturefile = "gfx/interface/GER_gui/thueringen1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thueringen_2"
+		texturefile = "gfx/interface/GER_gui/thueringen2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thueringen_3"
+		texturefile = "gfx/interface/GER_gui/thueringen3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thueringen_4"
+		texturefile = "gfx/interface/GER_gui/thueringen4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thueringen_5"
+		texturefile = "gfx/interface/GER_gui/thueringen5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thueringen_6"
+		texturefile = "gfx/interface/GER_gui/thueringen6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_tirol_1"
+		texturefile = "gfx/interface/GER_gui/tirol1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_tirol_2"
+		texturefile = "gfx/interface/GER_gui/tirol2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_tirol_3"
+		texturefile = "gfx/interface/GER_gui/tirol3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_tirol_4"
+		texturefile = "gfx/interface/GER_gui/tirol4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_tirol_5"
+		texturefile = "gfx/interface/GER_gui/tirol5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_tirol_6"
+		texturefile = "gfx/interface/GER_gui/tirol6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_volhynia_1"
+		texturefile = "gfx/interface/GER_gui/volhynia1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_volhynia_2"
+		texturefile = "gfx/interface/GER_gui/volhynia2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_volhynia_3"
+		texturefile = "gfx/interface/GER_gui/volhynia3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_volhynia_4"
+		texturefile = "gfx/interface/GER_gui/volhynia4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_volhynia_5"
+		texturefile = "gfx/interface/GER_gui/volhynia5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_volhynia_6"
+		texturefile = "gfx/interface/GER_gui/volhynia6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_warsaw_1"
+		texturefile = "gfx/interface/GER_gui/warsaw1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_warsaw_2"
+		texturefile = "gfx/interface/GER_gui/warsaw2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_warsaw_3"
+		texturefile = "gfx/interface/GER_gui/warsaw3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_warsaw_4"
+		texturefile = "gfx/interface/GER_gui/warsaw4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_warsaw_5"
+		texturefile = "gfx/interface/GER_gui/warsaw5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_warsaw_6"
+		texturefile = "gfx/interface/GER_gui/warsaw6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wartheland_1"
+		texturefile = "gfx/interface/GER_gui/wartheland1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wartheland_2"
+		texturefile = "gfx/interface/GER_gui/wartheland2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wartheland_3"
+		texturefile = "gfx/interface/GER_gui/wartheland3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wartheland_4"
+		texturefile = "gfx/interface/GER_gui/wartheland4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wartheland_5"
+		texturefile = "gfx/interface/GER_gui/wartheland5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wartheland_6"
+		texturefile = "gfx/interface/GER_gui/wartheland6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wien_1"
+		texturefile = "gfx/interface/GER_gui/wien1.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wien_2"
+		texturefile = "gfx/interface/GER_gui/wien2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wien_3"
+		texturefile = "gfx/interface/GER_gui/wien3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wien_4"
+		texturefile = "gfx/interface/GER_gui/wien4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wien_5"
+		texturefile = "gfx/interface/GER_gui/wien5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_wien_6"
+		texturefile = "gfx/interface/GER_gui/wien6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_borderoverlay"
+		texturefile = "gfx/interface/GER_gui/borderoverlay.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_gui_bg_self"
+		texturefile = "gfx/interface/GER_gui/gui_bg_self.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_monitor"
+		texturefile = "gfx/interface/GER_gui/monitor.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_monitor_bg"
+		texturefile = "gfx/interface/GER_gui/monitor_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_overlay_lines"
+		texturefile = "gfx/interface/GER_gui/overlay_lines.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_HOI4_desktop_icon"
+		texturefile = "gfx/interface/GER_gui/HOI4_desktop_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_desktop_icon"
+		texturefile = "gfx/interface/GER_gui/desktop.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_open_button"
+		texturefile = "gfx/interface/GER_gui/button_open.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_sidebar"
+		texturefile = "gfx/interface/GER_gui/sidebar_gui.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bar"
+		texturefile = "gfx/interface/GER_gui/bar.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bar_debug"
+		texturefile = "gfx/interface/GER_gui/bar_debug.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_bar_white"
+		texturefile = "gfx/interface/GER_gui/bar_white.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_debug_pixel"
+		texturefile = "gfx/interface/GER_gui/debug_pixel.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_searchbutton"
+		texturefile = "gfx/interface/GER_gui/searchbutton_overlay_blank.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_thanks"
+		texturefile = "gfx/interface/GER_gui/thankyou.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_PX"
+		texturefile = "gfx/interface/GER_gui/debug_1x1_px.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_1_1"
+		texturefile = "gfx/interface/GER_gui/square/1x1_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_2_2"
+		texturefile = "gfx/interface/GER_gui/square/2x2_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_3_3"
+		texturefile = "gfx/interface/GER_gui/square/3x3_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_4_4"
+		texturefile = "gfx/interface/GER_gui/square/4x4_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_5_5"
+		texturefile = "gfx/interface/GER_gui/square/5x5_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_2_1"
+		texturefile = "gfx/interface/GER_gui/rectangle/2x1_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_3_1"
+		texturefile = "gfx/interface/GER_gui/rectangle/3x1_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_4_1"
+		texturefile = "gfx/interface/GER_gui/rectangle/4x1_empty.dds"
+	}
+	spriteType = {
+		name = "GFX_GUI_EMPTY_5_1"
+		texturefile = "gfx/interface/GER_gui/rectangle/5x1_empty.dds"
+	}
+}

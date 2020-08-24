@@ -1,4 +1,4 @@
-﻿spriteTypes = {
+spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_authoritarian_group"
 		texturefile = "gfx/interface/ideologies/authoritarian_group.dds"

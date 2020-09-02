@@ -1,11 +1,11 @@
+
 state={
 	id=548
 	name="STATE_548"
-
-	state_category = rural
 	resources={
-		rubber=3 # was: 4
+		rubber=3.000
 	}
+
 	history={
 		owner = AFK
 		buildings = {
@@ -13,11 +13,13 @@ state={
 
 		}
 		add_core_of = KEN
+
 	}
 
 	provinces={
-		3854 7088 7133 8223 12929 12989 13177 
+		8223 12929 12989 
 	}
 	manpower=3515625
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,12 +1,10 @@
+
 state={
 	id=545
-	
-	state_category = rural
-	
 	name="STATE_545"
 	resources={
-		chromium=35 # was: 64.000
-		tungsten=8 # was: 16.000
+		chromium=35.000
+		tungsten=8.000
 	}
 
 	history={
@@ -19,11 +17,13 @@ state={
 			10929 1 
 		}
 		add_core_of = ZIM
+
 	}
 
 	provinces={
-		697 1846 5199 5221 7872 10538 10594 10930 12504 12677 13173 
+		1846 10594 10930 13173 
 	}
 	manpower=4155400
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

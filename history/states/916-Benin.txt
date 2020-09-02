@@ -1,17 +1,21 @@
+
 state={
 	id=916
 	name="STATE_916"
-	provinces={
-		10919 12762 12874
-		
-	}
+
 	history={
 		owner = AFK
 		buildings = {
-			infrastructure = 4 
+			infrastructure = 4
+
 		}
+
+	}
+
+	provinces={
+		1932 12731 12817 12874 12900 
 	}
 	manpower=7398000
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

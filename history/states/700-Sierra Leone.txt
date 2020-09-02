@@ -1,10 +1,8 @@
+
 state={
 	id=700
 	name="STATE_700"
-	manpower = 1768500
-	
-	state_category = pastoral
-	
+
 	history={
 		owner = ITA
 		victory_points = {
@@ -14,12 +12,17 @@ state={
 			infrastructure = 3
 			2038 = {
 				naval_base = 3
+
 			}
+
 		}
 
 	}
-	
+
 	provinces={
-		2038 2094 
+		1909 2038 2094 12858 
 	}
+	manpower=1768500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

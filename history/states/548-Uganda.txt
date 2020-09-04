@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = AFK
+		owner = UGA
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = KEN
+		add_core_of = UGA
 
 	}
 

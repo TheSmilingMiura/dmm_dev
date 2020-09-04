@@ -4,6 +4,10 @@ state={
 	provinces={
 		1992 4889 7978 8034 10831 
 	}
+        history={
+		owner = BIA
+		add_core_of = BIA
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

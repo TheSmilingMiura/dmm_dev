@@ -5,6 +5,11 @@ state={
 	provinces={
 		1181 4201 9962 12783 13176 
 	}
-	manpower=0
+        history={
+		owner = RWA
+		add_core_of = RWA
+
+	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
 }

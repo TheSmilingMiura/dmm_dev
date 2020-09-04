@@ -1005,3 +1005,118 @@ MTG = {
 	color = rgb { 174 181 173 }
 	color_ui = rgb { 174 181 173 }
 }
+
+AIR = {
+	color = rgb { 19 15 68 }
+	color_ui = rgb { 21 16 80 }
+}
+
+WAD = {
+	color = rgb { 7 48 3 }
+	color_ui = rgb { 8 49 4 }
+}
+
+KAN = {
+	color = rgb { 255 174 201 }
+	color_ui = rgb { 257 176 203 }
+}
+
+ARE = {
+	color = rgb { 33 224 48 }
+	color_ui = rgb { 35 226 51 }
+}
+
+WAJ = {
+	color = rgb { 39 52 52 }
+	color_ui = rgb { 40 53 53 }
+}
+
+UNK = {
+	color = rgb { 23 244 56 }
+	color_ui = rgb { 25 250 56 }
+}
+
+KIS = {
+	color = rgb { 119 0 3 }
+	color_ui = rgb { 120 0 5 }
+}
+
+KVU = {
+	color = rgb { 143 89 53 }
+	color_ui = rgb { 146 92 56 }
+}
+
+KUP = {
+	color = rgb { 190 21 190 }
+	color_ui = rgb { 195 25 195 }
+}
+
+BIA = {
+	color = rgb { 96 211 46 }
+	color_ui = rgb { 100 214 50 }
+}
+
+KAS = {
+	color = rgb { 166 95 175 }
+	color_ui = rgb { 168 100 180 }
+}
+
+LUN = {
+	color = rgb { 66 85 27 }
+	color_ui = rgb { 69 90 30 }
+}
+
+SAS = {
+	color = rgb { 118 184 101 }
+	color_ui = rgb { 120 185 100 }
+}
+
+UBA = {
+	color = rgb { 30 15 36 }
+	color_ui = rgb { 30 15 40 }
+}
+
+MAS = {
+	color = rgb { 245 177 228 }
+	color_ui = rgb { 250 180 230 }
+}
+
+UNY = {
+	color = rgb { 184 73 90 }
+	color_ui = rgb { 185 75 90 }
+}
+
+ODU = {
+	color = rgb { 103 22 22 }
+	color_ui = rgb { 105 25 25 }
+}
+
+ZAR = {
+	color = rgb { 98 16 43 }
+	color_ui = rgb { 100 20 45 }
+}
+
+MOU = {
+	color = rgb { 56 36 236 }
+	color_ui = rgb { 60 40 240 }
+}
+
+BNG = {
+	color = rgb { 81 57 213 }
+	color_ui = rgb { 85 60 215 }
+}
+
+ASA = {
+	color = rgb { 163 20 99 }
+	color_ui = rgb { 165 20 100 }
+}
+
+EQU = {
+	color = rgb { 17 111 48 }
+	color_ui = rgb { 20 110 50 }
+}
+
+TIM = {
+	color = rgb { 217 221 64 }
+	color_ui = rgb { 220 220 65 }
+}

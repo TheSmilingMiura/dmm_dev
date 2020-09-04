@@ -4,7 +4,8 @@ state={
 	name="STATE_906"
 
 	history={
-		owner = AFK
+		owner = WAD
+                add_core_of = WAD
 		buildings = {
 			infrastructure = 3
 

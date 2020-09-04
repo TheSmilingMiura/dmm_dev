@@ -2,20 +2,22 @@ state=
 {
 	id=298
 	name="STATE_298"
-	manpower = 745000
+	manpower = 4819000
 	
 	state_category = rural
 	resources={
 		rubber=6 # was: 7
+                steel=2
+                oil=10
 	}	
 	
 
 	history= {
-		owner = AFK
+		owner = LIB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 4
 			7959 = {
 				naval_base = 2
 			}

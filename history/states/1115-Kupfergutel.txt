@@ -4,6 +4,10 @@ state={
 	provinces={
 		191 12504 12677 
 	}
-	manpower=0
+        history={
+		owner = KUP
+		add_core_of = KUP
+	}
+	manpower=100090
 	buildings_max_level_factor=1.000
 }

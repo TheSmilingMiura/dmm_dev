@@ -4,7 +4,8 @@ state={
 	name="STATE_917"
 
 	history={
-		owner = AFK
+		owner = DAH
+                add_core_of = DAH
 		buildings = {
 			infrastructure = 5
 

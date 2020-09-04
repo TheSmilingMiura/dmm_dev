@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = MOU
+                add_core_of = MOU
 		victory_points = {
 			4948 5 
 		}

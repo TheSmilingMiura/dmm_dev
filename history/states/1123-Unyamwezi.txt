@@ -4,6 +4,10 @@ state={
 	provinces={
 		2308 4171 5180 10932 11017 
 	}
-	manpower=0
+        history={
+		owner = UNY
+		add_core_of = UNY
+	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
 }

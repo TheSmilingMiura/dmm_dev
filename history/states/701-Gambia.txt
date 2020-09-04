@@ -4,7 +4,8 @@ state={
 	name="STATE_701"
 
 	history={
-		owner = ITA
+		owner = GAM
+                add_core_of = GAM
 		buildings = {
 			infrastructure = 3
 			4989 = {
@@ -21,5 +22,5 @@ state={
 	}
 	manpower=199520
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=rural
 }

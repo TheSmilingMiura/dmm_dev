@@ -4,6 +4,10 @@ state={
 	provinces={
 		2044 7930 7954 8116 10788 12838 
 	}
+        history={
+		owner = TIM
+		add_core_of = TIM
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

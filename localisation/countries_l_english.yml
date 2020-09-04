@@ -1,11 +1,11 @@
 ﻿l_english:
 
  ARA:0 "Araguaian Faction"
- ARA_DEF:0 "the Araguaian Faction"
+ ARA_DEF:0 "The Araguaian Faction"
  ARA_ADJ:0 "Brazilian"
  
  ACR:0 "Acre"
- ACR_DEF:0 "Acre"
+ ACR_DEF:0 "The Republic of Acre"
  ACR_ADJ:0 "Brazilian"
  
  AMZ:0 "People's Republic of the Amazon"
@@ -57,15 +57,15 @@
  ASS_ADJ:0 "Assamese"
  
  AST:0 "Australia"
- AST_DEF:0 "Australia"
+ AST_DEF:0 "The Australian Federation"
  AST_ADJ:0 "Australian"
 
  AUS:0 "Austria"
- AUS_DEF:0 "Austria"
+ AUS_DEF:0 "The Republic of Austria"
  AUS_ADJ:0 "Austrian"
 
  AZA:0 "Azad Hind"
- AZA_DEF:0 "Azad Hind"
+ AZA_DEF:0 "The Indian State"
  AZA_ADJ:0 "Azad Hindi"
 
  AZR:0 "Azerbaijan"
@@ -188,55 +188,55 @@
  IRE_ADJ:0 "Irish"
 
  GUA:0 "Guatemala"
- GUA_DEF:0 "Guatemala"
+ GUA_DEF:0 "The Republic of Guatemala"
  GUA_ADJ:0 "Guatemalan"
  
  COS:0 "Costa Rica"
- COS_DEF:0 "Costa Rica"
+ COS_DEF:0 "The Republic of Costa Rica"
  COS_ADJ:0 "Costa Rican"
  
  ELS:0 "El Salvador"
- ELS_DEF:0 "El Salvador"
+ ELS_DEF:0 "The Republic of El Salvador"
  ELS_ADJ:0 "Salvadoran"
 
  HON:0 "Honduras"
- HON_DEF:0 "Honduras"
+ HON_DEF:0 "The Republic of Honduras"
  HON_ADJ:0 "Honduran"
 
  CUB:0 "Cuba"
- CUB_DEF:0 "Cuba"
+ CUB_DEF:0 "The Republic of Cuba"
  CUB_ADJ:0 "Cuban"
  
  DAG:0 "Dagestan"
- DAG_DEF:0 "Dagestan"
+ DAG_DEF:0 "The Independent Republic of Dagestan"
  DAG_ADJ:0 "Dagestani"
 
  DOM:0 "Dominican Republic"
- DOM_DEF:0 "Dominican Republic"
+ DOM_DEF:0 "The Dominican Republic"
  DOM_ADJ:0 "Dominican"
 
  IRQ:0 "Iraq"
- IRQ_DEF:0 "Iraq"
+ IRQ_DEF:0 "The Republic of Iraq"
  IRQ_ADJ:0 "Iraqi"
  
- ITA:0 "Italian Empire"
- ITA_DEF:0 "the Italian Empire"
+ ITA:0 "Italy"
+ ITA_DEF:0 "The Italian Empire"
  ITA_ADJ:0 "Italian"
  
- JAP:0 "Empire of Japan"
- JAP_DEF:0 "Empire of Japan"
+ JAP:0 "Japan"
+ JAP_DEF:0 "The Empire of Japan"
  JAP_ADJ:0 "Japanese"
  
- KAZ:0 "Kazakh Peoples Republic"
- KAZ_DEF:0 "the Kazakh Peoples Republic"
+ KAZ:0 "Kazakhstan"
+ KAZ_DEF:0 "The Kazakh Soviet Socialist Republic"
  KAZ_fascist_ADJ:0 "Kazakh"
  
  MAN:0 "Manchukuo"
- MAN_DEF:0 "Manchukuo"
+ MAN_DEF:0 "The Empire of Greater Manchuria"
  MAN_ADJ:0 "Manchurian"
 
  MEX:0 "Mexico"
- MEX_DEF:0 "Mexico"
+ MEX_DEF:0 "The United Mexican States"
  MEX_ADJ:0 "Mexican"
  
  PRU:0 "Peru"
@@ -288,31 +288,31 @@
  PER_ADJ:0 "Persian"
  
  VEN:0 "Venezuela"
- VEN_DEF:0 "Venezuela"
+ VEN_DEF:0 "The Republic of Venezuela"
  VEN_ADJ:0 "Venezuelan"
 
  GYA:0 "Guianese Federation"
- GYA_DEF:0 "Guiana"
+ GYA_DEF:0 "The Guianese Federation"
  GYA_ADJ:0 "Guianese"
 
  URG:0 "Uruguay"
- URG_DEF:0 "Uruguay"
+ URG_DEF:0 "The People's Republic of Uruguay"
  URG_ADJ:0 "Uruguayan"
 
  PAR:0 "Paraguay"
- PAR_DEF:0 "Paraguay"
+ PAR_DEF:0 "The Republic of Paraguay"
  PAR_ADJ:0 "Paraguayan"
 
  ECU:0 "Ecuador"
- ECU_DEF:0 "Ecuador"
+ ECU_DEF:0 "The Republic of Ecuador"
  ECU_ADJ:0 "Ecuadorian"
 
  PAN:0 "Panama"
- PAN_DEF:0 "Panama"
+ PAN_DEF:0 "The Republic of Panama"
  PAN_ADJ:0 "Panamanian"
 
  NIC:0 "Nicaragua"
- NIC_DEF:0 "Nicaragua"
+ NIC_DEF:0 "The Republic of Nicaragua"
  NIC_ADJ:0 "Nicaraguan"
 
  GKN:0 "Generalkommissariat Nowgorodien"
@@ -432,75 +432,75 @@
  RAJ_ADJ:0 "India"
  
  ROM:0 "Romania"
- ROM_DEF:0 "Romania"
+ ROM_DEF:0 "The Romanian Legionary State"
  ROM_ADJ:0 "Romanian"
 
  SAU:0 "Saudi Arabia"
- SAU_DEF:0 "Saudi Arabia"
+ SAU_DEF:0 "The Kingdom of Saudi Arabia"
  SAU_ADJ:0 "Saudi"
 
  SER:0 "Serbia"
- SER_DEF:0 "Serbia"
+ SER_DEF:0 "The Serbian Government of National Salvation"
  SER_ADJ:0 "Serbian"
  
  SLO:0 "Slovakia"
- SLO_DEF:0 "Slovakia"
+ SLO_DEF:0 "The Slovak Republic"
  SLO_ADJ:0 "Slovak"
  
  SIK:0 "East Turkestan"
- SIK_DEF:0 "East Turkestan"
+ SIK_DEF:0 "The Second East Turkestani Republic"
  SIK_ADJ:0 "East Turkestani"
 
- SOV:0 "All-Russian Confederation"
- SOV_DEF:0 "the All-Russian Confederation"
+ SOV:0 "Russia"
+ SOV_DEF:0 "The All-Russian Confederation"
  SOV_ADJ:0 "Russian"
  
  SPR:0 "Spain"
- SPR_DEF:0 "Spain"
+ SPR_DEF:0 "The Spanish State"
  SPR_ADJ:0 "Spanish"
  
  SWE:0 "Sweden"
- SWE_DEF:0 "Sweden"
+ SWE_DEF:0 "The Kingdom of Sweden"
  SWE_ADJ:0 "Swedish"
  
  SWI:0 "Switzerland"
- SWI_DEF:0 "Switzerland"
+ SWI_DEF:0 "The Swiss Confederation"
  SWI_ADJ:0 "Swiss"
  
  TIB:0 "Tibet"
- TIB_DEF:0 "Tibet"
+ TIB_DEF:0 "The Theocracy of Tibet"
  TIB_ADJ:0 "Tibetan"
  
  TUR:0 "Turkey"
- TUR_DEF:0 "Turkey"
+ TUR_DEF:0 "The Republic of Turkey"
  TUR_ADJ:0 "Turkish"
  
  UAE:0 "United Arab Republic"
- UAE_DEF:0 "the United Arab Republic"
+ UAE_DEF:0 "The United Arab Republic"
  UAE_ADJ:0 "Arabian"
 
- UKR:0 "Ukraine"
- UKR_DEF:0 "Ukraine"
+ UKR:0 "RK Ukraine"
+ UKR_DEF:0 "The Reichskommisariat Ukraine"
  UKR_ADJ:0 "Ukraine"
 
  USA:0 "United States of America"
- USA_DEF:0 "the United States of America"
+ USA_DEF:0 "The United States of America"
  USA_ADJ:0 "American"
  
- VIN:0 "Federation of Indochina"
- VIN_DEF:0 "the Federation of Indochina"
+ VIN:0 "Indochina"
+ VIN_DEF:0 "The Federation of Indochina"
  VIN_ADJ:0 "Indochinese"
  
  YEM:0 "Yemen"
- YEM_DEF:0 "Yemen"
+ YEM_DEF:0 "The Mutawakkilite Kingdom of Yemen"
  YEM_ADJ:0 "Yemeni"
 
  YUG:0 "Serbia"
- YUG_DEF:0 "Serbia"
+ YUG_DEF:0 "The Serbian Government of National Salvation"
  YUG_ADJ:0 "Serbian"
 
  RKM:0 "RK Moskowien"
- RKM_DEF:0 "RK Moskowien"
+ RKM_DEF:0 "The Reichskommisariat Moskowien"
  RKM_ADJ:0 "German"
  
 ############# UNDER CONSTRUCTION ######################
@@ -622,3 +622,25 @@ SHA_socialist_ADJ:0 "Xibei"
 SHA_communist:0 "Xibei"
 SHA_communist_DEF:0 "the Xibei People's Government"
 SHA_communist_ADJ:0 "Xibei"
+
+###############African Countries##################################
+
+AIR:0 "Air"
+AIR_DEF:0 "The Sultanate of Air"
+AIR_ADJ:0 ""
+
+WAD:0 "Wadai"
+WAD_DEF:0 "The Sultanate of Wadai"
+WAD_ADJ:0 ""
+
+KAN:0 "Kanem"
+KAN_DEF:0 ""
+KAN_ADJ:0 ""
+
+ARE:0 "Arewa"
+ARE_DEF:0 ""
+ARE_ADJ:0 ""
+
+
+
+

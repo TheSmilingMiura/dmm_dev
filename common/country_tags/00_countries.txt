@@ -309,6 +309,30 @@ AZA = "countries/Azad Hind.txt"
 # Miu's Africa
 LCM = "countries/Lourenço Marques.txt"
 IEA = "countries/Italian East Africa.txt"
+MOU = "countries/Mouridiyya.txt"
+ARE = "countries/Arewa.txt"
+KAN = "countries/Kanem.txt"
+ODU = "countries/Odua.txt"
+ZAR = "countries/Zarma.txt"
+AIR = "countries/Air.txt"
+WAD = "countries/Wadai.txt"
+WAJ = "countries/Wajir Garrison.txt"
+UNK = "countries/Unitedkingdom.txt"
+KIS = "countries/Kisangani.txt"
+KVU = "countries/Kivu.txt"
+KAS = "countries/Kasai.txt"
+LUN = "countries/Lunda.txt"
+SAS = "countries/Sassandra.txt"
+UBA = "countries/Ubangi Schari.txt"
+MAS = "countries/Massaland.txt"
+UNY = "countries/Unyamwezi.txt"
+BNG = "countries/Bangassou.txt"
+ASA = "countries/Asante.txt"
+EQU = "countries/Equateur.txt"
+TIM = "countries/Timbuktu.txt"
+KUP = "countries/Kupfergutel.txt"
+
+
 
 # China
 

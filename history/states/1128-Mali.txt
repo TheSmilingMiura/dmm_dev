@@ -4,6 +4,11 @@ state={
 	provinces={
 		2012 2100 4927 5045 10812 10829 10915 12751 
 	}
-	manpower=0
+        history={
+		owner = MLI
+		add_core_of = MLI
+
+	}
+	manpower=10000
 	buildings_max_level_factor=1.000
 }

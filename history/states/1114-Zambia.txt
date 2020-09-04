@@ -4,6 +4,11 @@ state={
 	provinces={
 		697 5199 7872 10538 
 	}
+        history={
+		owner = ZAM
+		add_core_of = ZAM
+
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

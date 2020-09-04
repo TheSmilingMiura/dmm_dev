@@ -1,0 +1,24 @@
+capital = 1126
+
+oob = "BIA_2004"
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 100
+    reactionary = 0
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}

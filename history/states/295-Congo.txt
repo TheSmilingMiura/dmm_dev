@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = AFK
+		owner = COG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -4,6 +4,10 @@ state={
 	provinces={
 		2066 5079 8133 10761 11145 12927 13135 
 	}
+        history={
+		owner = WAJ
+		add_core_of = WAJ
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

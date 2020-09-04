@@ -4,7 +4,8 @@ state={
 	name="STATE_918"
 
 	history={
-		owner = AFK
+		owner = SAS
+                add_core_of = SAS
 		buildings = {
 			infrastructure = 4
 

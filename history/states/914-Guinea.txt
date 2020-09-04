@@ -4,7 +4,8 @@ state={
 	name="STATE_914"
 
 	history={
-		owner = ITA
+		owner = GNA
+                add_core_of = GNA
 		buildings = {
 			infrastructure = 3
 

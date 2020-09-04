@@ -4,7 +4,8 @@ state={
 	name="STATE_904"
 
 	history={
-		owner = AFK
+		owner = UBA
+                add_core_of = UBA
 		buildings = {
 			infrastructure = 3
 

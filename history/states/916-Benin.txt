@@ -7,7 +7,7 @@ state={
 		owner = ODU
                 add_core_of = ODU
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 
 		}
 
@@ -16,7 +16,7 @@ state={
 	provinces={
 		1932 12731 12817 12874 12900 
 	}
-	manpower=7398000
+	manpower=23531287
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

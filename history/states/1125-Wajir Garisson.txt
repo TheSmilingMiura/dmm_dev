@@ -8,6 +8,7 @@ state={
 		owner = WAJ
 		add_core_of = WAJ
 	}
-	manpower=0
+	manpower=1977368
+        state_category = rural
 	buildings_max_level_factor=1.000
 }

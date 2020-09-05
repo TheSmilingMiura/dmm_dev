@@ -3,13 +3,14 @@ state={
 	id=1119
 	name="STATE_1119"
 	provinces={
-		1181 4201 9962 12783 13176 
+		1181 9962 12783 13176 
 	}
         history={
 		owner = RWA
 		add_core_of = RWA
 
 	}
-	manpower=1000000
+	manpower=20809853
+        state_category = large_town
 	buildings_max_level_factor=1.000
 }

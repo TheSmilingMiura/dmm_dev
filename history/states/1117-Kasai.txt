@@ -8,6 +8,7 @@ state={
 		owner = KAS
 		add_core_of = KAS
 	}
-	manpower=0
+	manpower=6300000
+        state_category = town
 	buildings_max_level_factor=1.000
 }

@@ -8,6 +8,7 @@ state={
 		owner = KVU
 		add_core_of = KVU
 	}
-	manpower=0
+	manpower=8012000
+        state_category = large_town
 	buildings_max_level_factor=1.000
 }

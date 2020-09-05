@@ -8,6 +8,7 @@ state={
 		owner = BIA
 		add_core_of = BIA
 	}
-	manpower=0
+	manpower=47167027
+        state_category = large_city
 	buildings_max_level_factor=1.000
 }

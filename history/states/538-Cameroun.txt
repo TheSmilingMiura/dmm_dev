@@ -9,7 +9,7 @@ state={
 	history={
 		owner = EQU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
 
 		}
 		add_core_of = EQU
@@ -19,7 +19,7 @@ state={
 	provinces={
 		988 3109 6008 7219 7931 8016 10071 10883 10951 12775 
 	}
-	manpower=1693974
+	manpower=10915896
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=large_town
 }

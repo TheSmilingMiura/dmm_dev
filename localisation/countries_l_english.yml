@@ -24,8 +24,8 @@
  MTG_DEF:0 "Mato Grosso"
  MTG_ADJ:0 "Brazilian"
 
- AFG:0 "Islamic State of Afghanistan"
- AFG_DEF:0 "the Islamic State of Afghanistan"
+ AFG:0 "Afghanistan"
+ AFG_DEF:0 "The Islamic State of Afghanistan"
  AFG_ADJ:0 "Afghan"
 
  AFK:0 "Reichskommisariat Afrika"
@@ -159,32 +159,32 @@
  FRA_DEF:0 "France"
  FRA_ADJ:0 "French"
 
- GER:0 "Großdeutsches Reich"
- GER_DEF:0 "the Großdeutsches Reich"
+ GER:0 "Germany"
+ GER_DEF:0 "The Großdeutsches Reich"
  GER_ADJ:0 "German"
  
  GEO:0 "Georgia"
  GEO_DEF:0 "Georgia"
  GEO_ADJ:0 "Georgian"
 
- GKM:0 "Generalkommissariat Moskowien"
- GKM_DEF:0 "the Generalkommissariat Moskowien"
+ GKM:0 "GK Moskowien"
+ GKM_DEF:0 "The Generalkommissariat Moskowien"
  GKM_ADJ:0 "Moskovian"
 
- GKT:0 "Generalkommissariat Tulen"
- GKT_DEF:0 "the Generalkommissariat Tulen"
+ GKT:0 "GK Tulen"
+ GKT_DEF:0 "The Generalkommissariat Tulen"
  GKT_ADJ:0 "Tulan"
 
- GKK:0 "Generalkommissariat Kosakenstadt"
- GKK_DEF:0 "the Generalkommissariat Kosakenstadt"
+ GKK:0 "GK Kosakenstadt"
+ GKK_DEF:0 "The Generalkommissariat Kosakenstadt"
  GKK_ADJ:0 "Kosaken"
 
- RKK:0 "Generalkommissariat Don-Kuban"
- RKK_DEF:0 "the Generalkommissariat Don-Kuban"
+ RKK:0 "GK Don-Kuban"
+ RKK_DEF:0 "The Generalkommissariat Don-Kuban"
  RKK_ADJ:0 "Don-Kuban"
 
- IRE_fascist:0 "Ireland"
- IRE_fascist_DEF:0 "Ireland"
+ IRE:0 "Ireland"
+ IRE_DEF:0 "Ireland"
  IRE_ADJ:0 "Irish"
 
  GUA:0 "Guatemala"
@@ -283,9 +283,9 @@
  KVA_DEF:0 "Khiva"
  KVA_ADJ:0 "Khivan"
 
- PER:0 "Islamic Peoples Republic of Iran"
- PER_DEF:0 "the Islamic Peoples Republic of Iran"
- PER_ADJ:0 "Persian"
+ PER:0 "Iran"
+ PER_DEF:0 "The Islamic Peoples Republic of Iran"
+ PER_ADJ:0 "Iranian"
  
  VEN:0 "Venezuela"
  VEN_DEF:0 "The Republic of Venezuela"
@@ -315,8 +315,8 @@
  NIC_DEF:0 "The Republic of Nicaragua"
  NIC_ADJ:0 "Nicaraguan"
 
- GKN:0 "Generalkommissariat Nowgorodien"
- GKN_DEF:0 "the Generalkommissariat Nowgorodien"
+ GKN:0 "GK Nowgorod"
+ GKN_DEF:0 "The Generalkommissariat Nowgorodien"
  GKN_ADJ:0 "Nowgorodian"
 
  JAM:0 "Kashmir"
@@ -677,7 +677,7 @@ WAJ:0 "Wajir Garrison"
 WAJ_DEF:0 ""
 WAJ_ADJ:0 ""
 
-UNK:0 "United Kingodm"
+UNK:0 "United Kingdom"
 UNK_DEF:0 ""
 UNK_ADJ:0 ""
 
@@ -689,7 +689,7 @@ KVU:0 "Kivu"
 KVU_DEF:0 ""
 KVU_ADJ:0 ""
 
-KUP:0 "Kupfergutel"
+KUP:0 "Kupfergürtel"
 KUP_DEF:0 ""
 KUP_ADJ:0 ""
 
@@ -777,8 +777,17 @@ KEN:0 "Kenya"
 KEN_DEF:0 ""
 KEN_ADJ:0 ""
 
+MLW:0 "Maravi"
+MLW_DEF:0 ""
+MLW_ADJ:0 ""
 
+EQU:0 "Equateur"
+EQU_DEF:0 ""
+EQU_ADJ:0 ""
 
+LIB:0 "Liberia"
+LIB_DEF:0 ""
+LIB_ADJ:0 ""
 
 
 

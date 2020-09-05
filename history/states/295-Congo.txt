@@ -9,8 +9,8 @@ state={
 	history={
 		owner = COG
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 2
 			10968 = {
 				naval_base = 1
 
@@ -21,7 +21,7 @@ state={
 			191 1 
 		}
 		victory_points = {
-			5117 3 
+			5117 10 
 		}
 		add_core_of = COG
 
@@ -30,7 +30,7 @@ state={
 	provinces={
 		2192 5117 8193 10025 12925 12945 12975 
 	}
-	manpower=3540948
+	manpower=26996187
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 }

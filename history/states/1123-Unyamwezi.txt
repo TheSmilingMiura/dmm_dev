@@ -2,12 +2,13 @@ state={
 	id=1123
 	name="STATE_1123"
 	provinces={
-		2308 4171 5180 10932 11017 
+		4171 5180 10932 11017 
 	}
         history={
 		owner = UNY
 		add_core_of = UNY
 	}
-	manpower=1000000
+	manpower=4500000
+        state_category = rural
 	buildings_max_level_factor=1.000
 }

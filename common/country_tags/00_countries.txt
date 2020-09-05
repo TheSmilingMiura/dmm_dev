@@ -332,7 +332,7 @@ EQU = "countries/Equateur.txt"
 TIM = "countries/Timbuktu.txt"
 KUP = "countries/Kupfergutel.txt"
 BLB = "countries/Baluba.txt"
-
+BIA = "countries/Biafra.txt"
 
 # China
 

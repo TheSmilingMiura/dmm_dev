@@ -8,6 +8,6 @@ state={
 		owner = TIM
 		add_core_of = TIM
 	}
-	manpower=0
+	manpower=3253306
 	buildings_max_level_factor=1.000
 }

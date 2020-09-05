@@ -9,6 +9,7 @@ state={
 		add_core_of = MLI
 
 	}
-	manpower=10000
+	manpower=9397251
+        state_category=town
 	buildings_max_level_factor=1.000
 }

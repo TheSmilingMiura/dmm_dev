@@ -8,6 +8,7 @@ state={
 		owner = KUP
 		add_core_of = KUP
 	}
-	manpower=100090
+	manpower=6781571
+        state_category = large_town
 	buildings_max_level_factor=1.000
 }

@@ -542,10 +542,6 @@ ANG = {
 	color_ui = rgb { 37 140 61 }
 }
 
-COG = {
-	color = rgb { 152 159 209 }
-	color_ui = rgb { 152 159 209 }
-}
 MZB = {
 	color = rgb { 112 62 90 }
 	color_ui = rgb { 112 62 90 }
@@ -1120,3 +1116,84 @@ TIM = {
 	color = rgb { 217 221 64 }
 	color_ui = rgb { 220 220 65 }
 }
+
+BLB = {
+	color = rgb { 112 174 131 }
+	color_ui = rgb { 115 180 135 }
+}
+
+MRT = {
+	color = rgb { 237 96 48 }
+	color_ui = rgb { 240 100 50 }
+}
+
+MLI = {
+	color = rgb { 106 100 21 }
+	color_ui = rgb { 110 100 25 }
+}
+
+ZAM = {
+	color = rgb { 85 109 12 }
+	color_ui = rgb { 85 110 15 }
+}
+
+COG = {
+	color = rgb { 80 73 48 }
+	color_ui = rgb { 80 75 50 }
+}
+
+TZN = {
+	color = rgb { 29 228 94 }
+	color_ui = rgb { 30 230 100 }
+}
+
+UGA = {
+	color = rgb { 63 72 204 }
+	color_ui = rgb { 65 75 210 }
+}
+
+ZIM = {
+	color = rgb { 193 156 201 }
+	color_ui = rgb { 195 160 200 }
+}
+
+CMR = {
+	color = rgb { 182 182 182 }
+	color_ui = rgb { 190 190 190 }
+}
+
+RWA = {
+	color = rgb { 85 33 86 }
+	color_ui = rgb { 85 35 90 }
+}
+
+BRD = {
+	color = rgb { 56 107 48 }
+	color_ui = rgb { 60 110 50 }
+}
+
+VOL = {
+	color = rgb { 56 126 86 }
+	color_ui = rgb { 60 130 90 }
+}
+
+DAH = {
+	color = rgb { 56 163 20 }
+	color_ui = rgb { 60 165 20 }
+}
+
+GAM = {
+	color = rgb { 116 168 160 }
+	color_ui = rgb { 120 170 160 }
+}
+
+GNA = {
+	color = rgb { 56 92 35 }
+	color_ui = rgb { 60 95 35 }
+}
+
+KEN = {
+	color = rgb { 3 116 104 }
+	color_ui = rgb { 5 120 105 }
+}
+

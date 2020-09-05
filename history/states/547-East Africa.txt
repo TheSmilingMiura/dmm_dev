@@ -4,7 +4,7 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = IEA
+		owner = KEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

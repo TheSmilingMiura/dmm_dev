@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = AFK
 		buildings = {
 			infrastructure = 2
 			12891 = {

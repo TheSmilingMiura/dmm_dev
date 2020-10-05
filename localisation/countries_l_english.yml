@@ -1,11 +1,11 @@
 ﻿l_english:
 
  ARA:0 "Araguaian Faction"
- ARA_DEF:0 "The Araguaian Faction"
+ ARA_DEF:0 "the Araguaian Faction"
  ARA_ADJ:0 "Brazilian"
  
  ACR:0 "Acre"
- ACR_DEF:0 "The Republic of Acre"
+ ACR_DEF:0 "the Republic of Acre"
  ACR_ADJ:0 "Brazilian"
  
  AMZ:0 "People's Republic of the Amazon"
@@ -25,7 +25,7 @@
  MTG_ADJ:0 "Brazilian"
 
  AFG:0 "Afghanistan"
- AFG_DEF:0 "The Islamic State of Afghanistan"
+ AFG_DEF:0 "the Islamic State of Afghanistan"
  AFG_ADJ:0 "Afghan"
 
  AFK:0 "Reichskommisariat Afrika"
@@ -156,11 +156,11 @@
  FIN_ADJ:0 "Finnish"
 
  FRA:0 "France"
- FRA_DEF:0 "France"
+ FRA_DEF:0 "French Provisional Government"
  FRA_ADJ:0 "French"
 
  GER:0 "Germany"
- GER_DEF:0 "The Großdeutsches Reich"
+ GER_DEF:0 "the Großdeutsches Reich"
  GER_ADJ:0 "German"
  
  GEO:0 "Georgia"
@@ -168,19 +168,19 @@
  GEO_ADJ:0 "Georgian"
 
  GKM:0 "GK Moskowien"
- GKM_DEF:0 "The Generalkommissariat Moskowien"
+ GKM_DEF:0 "the Generalkommissariat Moskowien"
  GKM_ADJ:0 "Moskovian"
 
  GKT:0 "GK Tulen"
- GKT_DEF:0 "The Generalkommissariat Tulen"
+ GKT_DEF:0 "the Generalkommissariat Tulen"
  GKT_ADJ:0 "Tulan"
 
  GKK:0 "GK Kosakenstadt"
- GKK_DEF:0 "The Generalkommissariat Kosakenstadt"
+ GKK_DEF:0 "the Generalkommissariat Kosakenstadt"
  GKK_ADJ:0 "Kosaken"
 
  RKK:0 "GK Don-Kuban"
- RKK_DEF:0 "The Generalkommissariat Don-Kuban"
+ RKK_DEF:0 "the Generalkommissariat Don-Kuban"
  RKK_ADJ:0 "Don-Kuban"
 
  IRE:0 "Ireland"
@@ -759,37 +759,68 @@ BRD_ADJ:0 ""
 
 VOL:0 "Gur-Volta"
 VOL_DEF:0 ""
-VOL_ADJ:0 ""
+VOL_ADJ:0 "Gur-Voltan"
 
 DAH:0 "Dahomey"
 DAH_DEF:0 ""
-DAH_ADJ:0 ""
+DAH_ADJ:0 "Dahomeyan"
 
 GAM:0 "Gambia"
 GAM_DEF:0 ""
-GAM_ADJ:0 ""
+GAM_ADJ:0 "Gambian"
 
 GNA:0 "Fouta Djallon"
 GNA_DEF:0 ""
-GNA_ADJ:0 ""
+GNA_ADJ:0 "Djallonian"
 
 KEN:0 "Kenya"
 KEN_DEF:0 ""
-KEN_ADJ:0 ""
+KEN_ADJ:0 "Kenyan"
 
 MLW:0 "Maravi"
 MLW_DEF:0 ""
-MLW_ADJ:0 ""
+MLW_ADJ:0 "Maravian"
 
 EQU:0 "Equateur"
 EQU_DEF:0 ""
-EQU_ADJ:0 ""
+EQU_ADJ:0 "Equateurian"
 
 LIB:0 "Liberia"
-LIB_DEF:0 ""
-LIB_ADJ:0 ""
+LIB_DEF:0 "the Republic of Liberia"
+LIB_ADJ:0 "Liberian"
 
+URA:0 "Ural Garrison"
+URA_DEF:0 "the Uralgarnison der Wehrmacht"
+URA_ADJ:0 "Uralian"
 
+MFR:0 "Military Administration for Northern France"
+MFR_DEF:0 "the Militäradministration Nordfrankreich"
+MFR_ADJ:0 "North French"
 
+ISR:0 "Israel"
+ISR_DEF:0 "the Free Federation of Israel"
+ISR_ADJ:0 "Israeli"
 
+SYR:0 "Syria"
+SYR_DEF:0 "Syrian Arab Republic"
+SYR_ADJ:0 "Syrian"
 
+LEB:0 "Lebanon"
+LEB_DEF:0 "Lebanese Arab Republic"
+LEB_ADJ:0 "Lebanese"
+
+PAL:0 "Palestine"
+PAL_DEF:0 "Palestinian Arab Republic"
+PAL_ADJ:0 "Palestinian"
+
+JOR:0 "Jordan"
+JOR_DEF:0 "Jordanian Arab Republic"
+JOR_ADJ:0 "Jordanian"
+
+MAD:0 "Madagascar"
+MAD_DEF:0 "Free State of Madagascar"
+MAD_ADJ:0 "Malagasy"
+
+RKO:0 "RG Ostland"
+RKO_DEF:0 "Reichsgau Ostland"
+RKO_ADJ:0 "Ostlandean"

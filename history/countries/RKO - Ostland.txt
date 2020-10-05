@@ -1,6 +1,6 @@
-﻿capital = 546
+﻿capital = 12
 
-oob = "RKO_1936"
+oob = "RKO_2004"
 
 # Starting tech
 set_technology = {

@@ -4,16 +4,16 @@ state={
 	name="STATE_250"
 	manpower = 1630524
 	
-	state_category = town
+	state_category = city
 	resources={
-		steel=14 # was: 20
+		steel=48 # was: 20
 	}
 
 	history={
 		owner = GKK
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 7
+			industrial_complex = 4
 		}
 		add_core_of = GKK
 	}

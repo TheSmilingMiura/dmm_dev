@@ -8,13 +8,13 @@ state={
 		aluminium=14 # was: 24
 	}
 	
-	state_category = metropolis
+	state_category = megalopolis
 
 	history={
 		owner = GER
 		victory_points = { 11435 10 }
 		buildings = {
-			infrastructure = 7
+			infrastructure = 10
 			industrial_complex = 3
 
 		}

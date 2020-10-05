@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "GER_1936"
+oob = "GER_2004"
 
 # Starting tech
 set_technology = {
@@ -95,6 +95,7 @@ add_to_faction = DEN
 add_to_faction = UKR
 add_to_faction = SLO
 add_to_faction = GKT
+add_to_faction = RKO
 
 if = {
 	limit = {
@@ -173,6 +174,11 @@ if = {
 		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.1
 	}
+	set_autonomy = {
+		target = RKO
+		autonomous_state = autonomy_reichskommissariat
+		freedom_level = 0.1
+	}
 	else = {
 		puppet = AFK
 		puppet = MFR
@@ -185,6 +191,7 @@ if = {
 		puppet = GKT
 		puppet = GKN
 		puppet = GKK
+		puppet = RKO
 	}
 }
 

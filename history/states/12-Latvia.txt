@@ -10,7 +10,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = GER
+		owner = RKO
 		victory_points = {
 			9340 20 
 		}
@@ -29,7 +29,7 @@ state={
 				bunker = 2
 			}
 		}
-		add_core_of = GER
+		add_core_of = RKO
 	}
 
 	provinces={

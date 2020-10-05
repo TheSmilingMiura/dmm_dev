@@ -4,17 +4,17 @@ state={
 	name="STATE_249"
 	manpower = 2761291
 	
-	state_category = town
+	state_category = large_city
 	resources={
-		steel=25 # was: 40
+		steel=120 # was: 40
 	}
 
 	history={
 		owner = GKK
 		buildings = {
-			infrastructure = 6
+			infrastructure = 8
 			arms_factory = 1
-                        industrial_complex = 2
+                        industrial_complex = 7
 		}
 		victory_points = {
 			6338 1 

@@ -181,7 +181,7 @@ BII = "countries/Anglo-India.txt"
 MAB = "countries/Malabar.txt"
 TNU = "countries/Tamil Nadu.txt"
 SIM = "countries/Simhala.txt"
-MAD = "countries/Madras.txt"
+MDA = "countries/Madras.txt"
 HYD = "countries/Hyderabad.txt"
 BOM = "countries/Bombay.txt"
 ORI = "countries/Orissa.txt"
@@ -262,6 +262,7 @@ UAE = "countries/United Arab Emirates.txt"
 MOR = "countries/Morocco.txt"
 SUD = "countries/Sudan.txt"
 TUN = "countries/Tunisia.txt"
+MAD = "countries/Madagascar.txt"
 
 #1.9 Stuff
 FSM = "countries/Micronesia.txt"
@@ -349,3 +350,7 @@ AMZ = "countries/Brazil.txt" # People's Republic of the Amazon
 PRA = "countries/Brazil.txt" # Republic of Pará
 SVR = "countries/Brazil.txt" # Seventh Region
 MTG = "countries/Brazil.txt" # Mato Grosso
+
+# Europe
+
+RKO = "countries/Ostland.txt"

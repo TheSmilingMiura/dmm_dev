@@ -3,7 +3,7 @@ state={
 	id=529
 	name="STATE_529" # Chugoku
 	manpower = 9563428
-	state_category = large_city
+	state_category = megalopolis
 
 	history={
 		owner = JAP

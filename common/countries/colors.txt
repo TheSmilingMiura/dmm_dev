@@ -647,6 +647,10 @@ RKK = {
   color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+RKO = {
+  color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
 GKK = {
   color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }

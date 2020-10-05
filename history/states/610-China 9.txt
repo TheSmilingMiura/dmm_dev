@@ -4,7 +4,7 @@ state={
 	name="STATE_610" # Jehol
 	manpower =  4970000
 	
-	state_category = pastoral
+	state_category = metropolis
 
 	history={
 		owner = MAN

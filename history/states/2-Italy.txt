@@ -3,7 +3,7 @@ state= {
 	name="STATE_2" # Latium
 	manpower = 5981971
 	
-	state_category = metropolis
+	state_category = megalopolis
 
 	history=
 	{

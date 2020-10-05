@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "ITA_1936"
+oob = "ITA_2004"
 
 set_research_slots = 4
 set_stability = 0.6
@@ -35,11 +35,22 @@ if = {
 		autonomous_state = autonomy_reichskommissariat
                 freedom_level = 0.5
 	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+        set_autonomy = {
+		target = MRT
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
 	else = {
 		puppet = GRE
 		puppet = IEA
 		puppet = ALG
-		
+		puppet = EGY
+                puppet = MRT
 	}
 }
 

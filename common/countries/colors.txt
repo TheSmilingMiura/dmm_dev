@@ -229,8 +229,8 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
-	color = rgb { 145 157 236 }
-	color_ui = rgb { 189 204 255 }
+	color = rgb { 159 24 71 }
+	color_ui = rgb { 159 24 71 }
 }
 AST = {
 	color = rgb { 57 143 97 }
@@ -257,8 +257,8 @@ CHI = {
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 CHL = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 191 80 71 }
+	color_ui = rgb { 191 80 71 }
 }
 COL = {
 	color = rgb { 222 187 91 }
@@ -353,8 +353,8 @@ TIB = {
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 165 35 71 }
+	color_ui = rgb { 165 35 71 }
 }
 VEN = {
 	color = rgb { 171 190 152 }
@@ -480,23 +480,23 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 100 100 100 }
-	color_ui = rgb { 101 101 101 }	
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }	
 }
 
 AZR = {
-	color = rgb { 69 151 49 }
-	color_ui = rgb { 69 151 49 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }	
 }
 
 GEO = {
-	color = rgb { 255 150 150 }
-	color_ui = rgb { 255 204 204 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }	
 }
 
 ARM = {
-	color = rgb { 176 102 180 }
-	color_ui = rgb { 176 102 180 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }	
 }
 
 LAO = {
@@ -632,8 +632,8 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 GKM = {
-  color = rgb { 100 100 100 }
-	color_ui = rgb { 100 100 100 }
+  color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
 }
 GKN = {
   color = HSV { 0.1 0.15 0.4 }
@@ -660,12 +660,12 @@ OSP = {
 	color_ui = rgb { 138 155 116 }
 }
 DAG = {
-  color = rgb { 0 0 128 }
-  color_ui = rgb { 0 0 128 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }	
 }
 CHE = {
-  color = rgb { 0 64 0 }
-  color_ui = rgb { 0 64 0 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }	
 }
 CBR = {
   color = rgb { 100 10 10 }
@@ -788,8 +788,8 @@ TUJ = {
 	color_ui = rgb { 76 205 76 }
 }
 SIC = {
-	color = rgb { 0 100 0 }
-	color_ui = rgb { 0 100 0 }
+	color = rgb { 236 230 79 }
+	color_ui = rgb { 236 230 79 }
 }
 SHA = {
 	color = rgb { 236 230 79 }
@@ -1077,6 +1077,11 @@ MAS = {
 UNY = {
 	color = rgb { 184 73 90 }
 	color_ui = rgb { 185 75 90 }
+}
+
+KAZ = {
+	color = rgb { 47 175 202 }
+	color_ui = rgb { 47 175 202 }
 }
 
 ODU = {

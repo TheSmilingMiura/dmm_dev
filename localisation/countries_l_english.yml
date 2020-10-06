@@ -17,7 +17,7 @@
  PRA_ADJ:0 "Brazilian"
  
  SVR:0 "Seventh Region"
- SVR_DEF:0 "the Seventh Region"
+ SVR_DEF:0 "the United States of Brazil"
  SVR_ADJ:0 "Brazilian"
  
  MTG:0 "Mato Grosso"
@@ -113,7 +113,7 @@
  CAN_ADJ:0 "Canadian"
  
  CBR:0 "Union of Federative Brazilian Communes"
- CBR_DEF:0 "the Brazilian Communes"
+ CBR_DEF:0 "the Union of Federative Brazilian Communes"
  CBR_ADJ:0 "Brazilian"
  
  CHE:0 "Chechnya"
@@ -127,11 +127,10 @@
  CHL:0 "Chile"
  CHL_DEF:0 "Chile"
  CHL_ADJ:0 "Chilean"
- 
 
- COL:0 "National State of Columbia"
- COL_DEF:0 "the National State of Columbia"
- COL_ADJ:0 "Columbian"
+ COL:0 "Colombia"
+ COL_DEF:0 "the National State of Colombia"
+ COL_ADJ:0 "Colombian"
  
  CRO:0 "Croatia"
  CRO_DEF:0 "Croatia"
@@ -387,9 +386,9 @@
  WEA_DEF:0 "the Western Republican Army"
  WEA_ADJ:0 "Old Nationalists"
 
- XNZ:0 "Southwestern Regime"
- XNZ_DEF:0 "the Southwestern Regime"
- XNZ_ADJ:0 "Southwestern Republicans"
+ XNZ:0 "Yunnan"
+ XNZ_DEF:0 "Yunnan"
+ XNZ_ADJ:0 "Yunnanese"
 
  NZL:0 "New Zealand"
  NZL_DEF:0 "New Zealand"

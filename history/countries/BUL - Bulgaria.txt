@@ -34,7 +34,7 @@ create_country_leader = {
 	desc = "POLITICS_VOLEN_SIDEROV_DESC"
 	picture = "Volen_Siderov.tga"
 	expire = "2050.1.1"
-	ideology = fascist
+	ideology = italian_fascism
 	traits = {
 		#
 	}

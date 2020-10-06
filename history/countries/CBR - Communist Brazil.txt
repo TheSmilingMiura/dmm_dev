@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_VOLEN_SIDEROV_DESC"
 	picture = "@Swald.tga"
 	expire = "2050.1.1"
-	ideology = communist
+	ideology = international_communism
 	traits = {
 		#
 	}

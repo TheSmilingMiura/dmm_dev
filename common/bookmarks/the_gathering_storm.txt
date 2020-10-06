@@ -7,21 +7,17 @@ bookmarks = {
 		default_country = "RRC"
 		default = yes
 
-		"RRC"={
-			history = "RRC_A_NEW_DAWN_DESC"
-			ideology = authoritarian
-			ideas = {
-				japanese_military_restrictions
-			}
-			focuses = {
-			#	CHI_nofutureforachinesestate
-			#	CHI_nothingriskednothinglost
-			#	CHI_reformorrevolution
-			}
-		}
 		"GER"={
 			history = "GER_A_NEW_DAWN_DESC"
 			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_A_NEW_DAWN_DESC"
+			ideology = authoritarian
 			ideas = {
 			}
 			focuses = {
@@ -51,16 +47,24 @@ bookmarks = {
 			focuses ={
 			}
 		}
-		"BII"={
-			history = "BII_A_NEW_DAWN_DESC"
+		"CBR"={
+			history = "CBR_A_NEW_DAWN_DESC"
 			ideology = conservative
 			ideas = {
-				the_guns_of_fort_mountbatten
-				seperate_but_equal
 			}
 			focuses = {
-				BII_sundown_towns
-				BII_god_bless_the_navy
+			}
+		}
+		"RRC"={
+			history = "RRC_A_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
+				japanese_military_restrictions
+			}
+			focuses = {
+			#	CHI_nofutureforachinesestate
+			#	CHI_nothingriskednothinglost
+			#	CHI_reformorrevolution
 			}
 		}
 		"---"={
@@ -83,6 +87,14 @@ bookmarks = {
 			ideology = fascist
 			ideas = {}
 			focuses = {}
+		}
+		"BII"={
+			history = "BII_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas={
+			}
+			focuses ={
+			}
 		}
 	}
 }

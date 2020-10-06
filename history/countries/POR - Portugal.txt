@@ -43,48 +43,12 @@ set_stability = 0.75
 
 
 create_country_leader = {
-	name = "António de Oliveira Salazar"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
-	expire = "1965.1.1"
-	ideology = military_junta
+	name = "Vasco Gonçalves"
+	desc = "VASCO_GONÇALVES_DESC"
+	picture = "Vasco_Gonçalves.tga"
+	expire = "2050.1.1"
+	ideology = authoritarian
 	traits = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Bento Gonçalves"
-	desc = "POLITICS_BENTO_GONCALVES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = orthodox_marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco de Barcelos Rolão Preto"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = hakko_ichiu
-	traits = {
-		#
-	}
-}
-
-
-create_corps_commander = {
-	name = "José Vicente de Freitas"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	skill = 3
-
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-

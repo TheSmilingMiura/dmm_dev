@@ -40,11 +40,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Jozef Tiso"
-	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
-	expire = "1965.1.1"
-	ideology = futurist
+	name = "Jan Slota"
+	desc = "JAN_SLOTA_DESC"
+	picture = "Jan_Slota.tga"
+	expire = "2050.1.1"
+	ideology = authoritarian
 	traits = {
 		#
 	}

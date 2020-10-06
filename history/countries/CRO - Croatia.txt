@@ -39,11 +39,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ante Pavelic"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Dobroslav Paraga"
+	desc = "DOBROSLAV_PARAGA_DESC"
+	picture = "Dobroslav_Paraga.tga"
+	expire = "2050.1.1"
+	ideology = authoritarian
 	traits = {
 		#
 	}

@@ -45,9 +45,9 @@ set_stability = 0.75
 create_country_leader = {
 	name = "Vasco Gonçalves"
 	desc = "VASCO_GONÇALVES_DESC"
-	picture = "Vasco_Gonçalves.tga"
+	picture = "Vasco_Goncalves.tga"
 	expire = "2050.1.1"
-	ideology = authoritarian
+	ideology = market_socialism
 	traits = {
 		#
 	}

@@ -1,6 +1,6 @@
 ﻿capital = 658
 
-#oob = ""
+oob = "UAE_2004"
 
 # Starting tech
 set_technology = {
@@ -79,7 +79,7 @@ create_country_leader = {
 	name = "Zayed bin Sultan Al Nahyan"
 	picture = "gfx/leaders/UAE/Portrait_Zayed_bin_Sultan_Al_Nahyan.dds"
 	expire = "2004.11.2"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		
 	}

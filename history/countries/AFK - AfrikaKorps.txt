@@ -1,21 +1,21 @@
 ﻿capital = 295
 
-oob = "UKR_1939"
+oob = "AFK_2004"
 
 set_technology = {
 }
 
 
 set_politics = {	
-	ruling_party = fascist
+	ruling_party = authoritarian
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    authoritarian = 5
-    fascist = 90
+    authoritarian = 90
+    fascist = 5
     reactionary = 5
 }
 
@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = "POLITICS_JOZEF_TISO_DESC"
 	picture = "AFK_Eberhard_Zorn.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = authoritarian
 	traits = {
 		#
 	}

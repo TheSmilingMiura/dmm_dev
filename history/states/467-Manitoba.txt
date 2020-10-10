@@ -2,14 +2,14 @@
 state={
 	id=467
 	name="STATE_467"
-	manpower = 651071
+	manpower = 1164000
 	
-	state_category = rural
+	state_category = large_city
 
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			industrial_complex = 1
 		}
 		victory_points = {

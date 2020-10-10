@@ -2,14 +2,14 @@
 state={
 	id=386
 	name="STATE_386"
-	manpower = 5894121
+	manpower = 6019121
 	
-	state_category = large_town
+	state_category = metropolis 
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 1
@@ -23,7 +23,7 @@ state={
 			1690 1 
 		}
 		victory_points = {
-			7315 10 
+			7315 25 
 		}
 	}
 

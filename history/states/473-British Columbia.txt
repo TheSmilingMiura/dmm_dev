@@ -2,12 +2,12 @@
 state={
 	id=473
 	name="STATE_473"
-	manpower = 638165
+	manpower = 4124000
 	resources={
 		oil=1 # was: 2
 	}
 	
-	state_category = town
+	state_category = metropolis
 
 	history={
 		owner = CAN

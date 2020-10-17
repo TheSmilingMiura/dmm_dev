@@ -9,15 +9,17 @@ state={
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 5
+			infrastructure = 7
+                        industrial_complex = 5
+                        dockyard = 2
 			5005 = {
-				naval_base = 1
+				naval_base = 6
 
 			}
 
 		}
 		victory_points = {
-			7953 1 
+			7953 10 
 		}
 		add_core_of = PER
 
@@ -26,7 +28,7 @@ state={
 	provinces={
 		1922 5005 7953 
 	}
-	manpower=797356
+	manpower=4274979
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 }

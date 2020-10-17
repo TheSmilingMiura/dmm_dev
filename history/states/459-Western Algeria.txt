@@ -2,11 +2,11 @@
 state={
 	id=459
 	name="STATE_459" # Algiers
-	manpower = 3089944
-	state_category = town
+	manpower = 11024443
+	state_category = metropolis
 	
 	resources={
-		steel=26 # was: 36
+		steel=48 # was: 36
 	}
 
 	history={
@@ -20,7 +20,8 @@ state={
 			7132 5 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
+                        industrial_complex = 5
 			air_base = 5
 			1145 = {
 				naval_base = 2

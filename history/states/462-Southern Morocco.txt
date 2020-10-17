@@ -2,14 +2,14 @@
 state={
 	id=462
 	name="STATE_462"
-	manpower = 1865552
+	manpower = 4225884
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = SPR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 

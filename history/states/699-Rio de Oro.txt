@@ -1,14 +1,14 @@
 state={
 	id=699
 	name="STATE_699"
-	manpower = 32000
+	manpower = 391167
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = SPR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			8038 = {
 				naval_base = 1
 			}

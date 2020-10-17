@@ -9,13 +9,19 @@ state={
 		owner = PER
 		buildings = {
 			infrastructure = 3
+                        7982 = {
+				naval_base = 4
 
+			}
+		}
+                victory_points = {
+			7982 10 
 		}
 		add_core_of = PER
 
 	}
 
-	manpower=796396
+	manpower=1403674
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 }

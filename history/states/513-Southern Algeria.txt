@@ -2,14 +2,16 @@
 state={
 	id=513
 	name="STATE_513" # Tlmecen
-	manpower = 811486
+	manpower = 9215316
 	
-	state_category = wasteland
+	state_category = city
 
 	history={
 		owner = ALG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
+                        industrial_complex = 2
+                        arms_factory = 1
 		}
 		add_core_of = ALG
 	}

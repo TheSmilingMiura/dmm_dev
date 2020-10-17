@@ -4,13 +4,13 @@ state={
 	name="STATE_175"
 	manpower = 848903
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = SPR
 		buildings = {
 			industrial_complex = 1
-			infrastructure = 6
+			infrastructure = 7
 		}
 		add_core_of = SPR
 	}

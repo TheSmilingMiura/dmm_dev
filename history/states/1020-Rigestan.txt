@@ -4,7 +4,7 @@ state={
 	provinces={
 		4949 5020 
 	}
-	manpower = 1000000
+	manpower = 799000
 	
 	state_category = wasteland
 	

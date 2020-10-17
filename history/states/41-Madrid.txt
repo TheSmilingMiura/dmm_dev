@@ -4,7 +4,7 @@ state={
 	name="STATE_41" # Madrid
 	manpower = 2269659
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		aluminium=1 # was: 2
@@ -16,9 +16,9 @@ state={
 			3938 30.0 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 3
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 7
 			air_base = 6
 		}
 		add_core_of = SPR

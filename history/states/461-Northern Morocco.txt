@@ -2,9 +2,9 @@
 state={
 	id=461
 	name="STATE_461"
-	manpower = 3197719
+	manpower = 25249879
 	
-	state_category = rural
+	state_category = large_city
 	
 	history={
 		owner = SPR
@@ -13,11 +13,11 @@ state={
 			7069 10 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 4
 			air_base = 4
 			7069 = {
-				naval_base = 4
+				naval_base = 6
 			}
 		}
 	}

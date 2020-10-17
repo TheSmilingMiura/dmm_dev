@@ -5,8 +5,8 @@ URA = {
 	color_ui = rgb { 64 64 64 }
 }
 MFR = {
-	color = rgb { 64 64 64 }
-	color_ui = rgb { 64 64 64 }
+	color = HSV { 0.1 0.15 0.4 }
+    color_ui = rgb { 138 155 116 }
 }
 EEI = {
 	color = rgb { 84 40 85 }
@@ -632,31 +632,31 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 GKM = {
-  color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+    color = HSV { 0.1 0.15 0.4 }
+    color_ui = rgb { 138 155 116 }
 }
 GKN = {
-  color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+    color = HSV { 0.1 0.15 0.4 }
+    color_ui = rgb { 138 155 116 }
 }
 GKT = {
-  color = HSV { 0.1 0.15 0.4 }
+    color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
 RKK = {
-  color = HSV { 0.1 0.15 0.4 }
+    color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
 RKO = {
-  color = HSV { 0.1 0.15 0.4 }
+    color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
 GKK = {
-  color = HSV { 0.1 0.15 0.4 }
+    color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
 OSP = {
-  color = HSV { 0.1 0.15 0.4 }
+    color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
 DAG = {

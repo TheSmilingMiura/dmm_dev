@@ -4,7 +4,7 @@ state={
 	provinces={
 		1995 7916 7984 10896 12788 
 	}
-	manpower = 1000000
+	manpower = 985900
 	
 	state_category = pastoral
 	

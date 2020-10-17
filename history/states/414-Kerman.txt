@@ -6,11 +6,11 @@ state={
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 
 		}
 		victory_points = {
-			10913 1 
+			10913 5 
 		}
 		add_core_of = PER
 
@@ -19,7 +19,7 @@ state={
 	provinces={
 		1986 2039 10913 11249 12809 12863
 	}
-	manpower=486013
+	manpower=2652413
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

@@ -2,7 +2,7 @@
 state={
 	id=267
 	name="STATE_267" # Kabul
-	manpower = 4637140
+	manpower = 7745800
 	
 	state_category = town
 	
@@ -12,7 +12,7 @@ state={
 	history={
 		owner = AFG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2  
 		}

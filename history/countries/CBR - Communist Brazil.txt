@@ -1,6 +1,6 @@
 ﻿capital = 501
 
-oob = "CBR_1936"
+oob = "CBR_2004"
 
 # Starting tech
 set_technology = {

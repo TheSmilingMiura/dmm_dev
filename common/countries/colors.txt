@@ -1,8 +1,8 @@
 #reload countrycolors
 
 URA = {
-	color = rgb { 64 64 64 }
-	color_ui = rgb { 64 64 64 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
 }
 MFR = {
 	color = HSV { 0.1 0.15 0.4 }
@@ -53,8 +53,8 @@ HYD = {
 	color_ui = rgb { 51 51 255 }
 }
 MAD = {
-	color = rgb { 255 255 153 }
-	color_ui = rgb { 255 255 153 }
+	color = rgb { 173 204 124 }
+	color_ui = rgb { 173 204 124 }
 }
 SIM = {
 	color = rgb { 204 204 0 }
@@ -265,8 +265,8 @@ COL = {
 	color_ui = rgb { 54 119 175 }
 }
 COS = {
-	color = rgb { 152 128 43 }
-	color_ui = rgb { 152 128 43 }
+	color = rgb { 83 165 205 }
+	color_ui = rgb { 83 165 205 }
 }
 ECU = {
 	color = rgb { 41 192 170 }
@@ -281,12 +281,12 @@ ETH = {
 	color_ui = rgb { 198 169 248 }
 }
 GUA = {
-	color = rgb { 72 49 112 }
-	color_ui = rgb { 72 49 112 }
+	color = rgb { 60 116 170 }
+	color_ui = rgb { 60 116 170 }
 }
 HON = {
-	color = rgb { 128 145 65 }
-	color_ui = rgb { 128 145 65 }
+	color = rgb { 123 116 147 }
+	color_ui = rgb { 123 116 147 }
 }
 IRQ = {
 	color = rgb { 127 165 192 }
@@ -325,8 +325,8 @@ PER = {
 	color_ui = rgb { 231 115 11 }
 }
 PHI = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 208 203 207 }
+	color_ui = rgb { 208 203 207 }
 }
 PRU = {
 	color = rgb { 116 179 2 }
@@ -398,8 +398,8 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 123 165 147 }
+	color_ui = rgb { 123 165 147 }
 }
 OMA = {
 	color = rgb { 155 101 107 }
@@ -568,8 +568,8 @@ KOR = {
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 152 130 191 }
+	color = rgb { 160 155 140 }
+	color_ui = rgb { 160 155 140 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

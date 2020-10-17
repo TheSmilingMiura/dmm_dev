@@ -538,8 +538,8 @@ MAN = {
 	color_ui = rgb { 191 147 92 }
 }
 ANG = {
-	color = rgb { 37 140 61 }
-	color_ui = rgb { 37 140 61 }
+	color = rgb { 37 75 49 }
+	color_ui = rgb { 37 75 49 }
 }
 
 MZB = {

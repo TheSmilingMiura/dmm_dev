@@ -2,9 +2,9 @@
 state={
 	id=489
 	name="STATE_489" # Zulia
-	manpower = 1576373
+	manpower = 10640711
 	
-	state_category = town
+	state_category = metropolis
 	
 	resources={
 		oil=70 # was: 126
@@ -13,15 +13,15 @@ state={
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 7
+			industrial_complex = 10
 			1944 = {
 				naval_base = 5
 			}
 		}
 		add_core_of = VEN
 		victory_points = {
-			1944 1 
+			1944 5 
 		}
 
 	}

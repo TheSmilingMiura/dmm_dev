@@ -2,9 +2,9 @@
 state={
 	id=305
 	name="STATE_305"
-	manpower = 2000000
+	manpower = 13370000
 	resources={
-		oil=2 # was: 2
+		oil=12 # was: 2
 	}
 	
 	state_category = city
@@ -12,8 +12,8 @@ state={
 	history={
 		owner = ECU
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 6
+			arms_factory = 2
 			industrial_complex = 4
 			air_base = 1
 			8252 = {

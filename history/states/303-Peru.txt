@@ -2,19 +2,19 @@
 state={
 	id=303
 	name="STATE_303" # Lima
-	manpower = 3563249
+	manpower = 15227027
 	resources={
 		oil=14 # was: 18
 	}
 	
-	state_category = large_city
+	state_category = metropolis
 
 	history={
 		owner = PRU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 6
+			industrial_complex = 10
 			air_base = 3
 			12997 = {
 				naval_base = 5
@@ -22,7 +22,7 @@ state={
 		}
 		add_core_of = PRU
 		victory_points = {
-			12997 5 
+			12997 10 
 		}
 
 	}

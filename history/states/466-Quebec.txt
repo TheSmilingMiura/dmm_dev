@@ -9,7 +9,8 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 6
+                        industrial_complex = 10
 			3691 = {
 				naval_base = 1
 

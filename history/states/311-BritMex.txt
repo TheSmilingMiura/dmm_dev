@@ -2,9 +2,9 @@ state=
 {
 	id=311
 	name="STATE_311"
-	manpower = 51000
+	manpower = 258916
 	
-	state_category = enclave
+	state_category = large_town
 	history=
 	{
 		owner = GUA

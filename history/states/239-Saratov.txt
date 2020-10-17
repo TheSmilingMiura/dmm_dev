@@ -10,7 +10,8 @@ state={
 		owner = GKK
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 6
+			industrial_complex = 10
+                        arms_factory = 5
 		}
 		victory_points = {
 			3578 5 

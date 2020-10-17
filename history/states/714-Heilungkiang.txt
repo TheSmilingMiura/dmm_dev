@@ -12,8 +12,8 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 7
-                        industrial_complex = 8
-                        arms_factory = 6
+                        industrial_complex = 15
+                        arms_factory = 5
 
 		}
 

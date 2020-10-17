@@ -2,7 +2,7 @@ state={
 	id=1109
 	name="STATE_1109"
 	history={
-		owner = AFK
+		owner = ANG
 		buildings = {
 			infrastructure = 3
 		}

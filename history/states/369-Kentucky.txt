@@ -4,13 +4,13 @@ state={
 	name="STATE_369"
 	manpower = 4146101
 	
-	state_category = city
+	state_category = large_city
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
+			infrastructure = 7
+			industrial_complex = 7
 			air_base = 4
 		}
 		add_core_of = USA

@@ -6,7 +6,7 @@ state={
 		chromium = 16
 	}
 	history={
-		owner = AFK
+		owner = ANG
 		buildings = {
 			infrastructure = 4
 

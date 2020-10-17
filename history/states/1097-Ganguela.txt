@@ -5,7 +5,7 @@ state={
 		steel=4
 	}
 	history={
-		owner = AFK
+		owner = ANG
 		buildings = {
 			infrastructure = 4
 

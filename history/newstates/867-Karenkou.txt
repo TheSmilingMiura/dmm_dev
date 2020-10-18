@@ -1,0 +1,17 @@
+state={
+	id=867
+	name="STATE_867"
+	provinces={
+		4096 9955 
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=2893390 #Based on recorded population growth of 2.4% annually in 1940, assuming it is consistent (of course it won't be) and applying a factor of 3/4 to attempt to model Japanese repression resulting in less population (less than China factor because of 'model colony' status and Japanese settlement) by 2004 Taiwan has a population of ~20092988. Hualien County equates to Karenko Prefecture, and it has a population of 333392 OTL, around 14.4% of Taiwan's population. Applying the same percentage (which is very inaccurate, but it's the best I can do) gives a pop of ~2893390. Same thing done for the rest of Taiwan.
+	state_category = town
+}

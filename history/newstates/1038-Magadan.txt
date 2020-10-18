@@ -1,0 +1,25 @@
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		1865 10540 11607 12551 12683 
+	}
+	manpower = 100000
+	
+	state_category = wasteland
+	
+	history={
+		owner = SOV
+		add_core_of = SOV
+        buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+        victory_points = { 
+			12551 5 
+		}
+    }
+	buildings_max_level_factor=1.000
+}

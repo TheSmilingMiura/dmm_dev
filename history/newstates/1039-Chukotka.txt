@@ -1,0 +1,25 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		4744 5264 13062 13063 13204 
+	}
+	manpower = 1000
+	
+	state_category = wasteland
+	
+	history={
+		owner = SOV
+		add_core_of = SOV
+        buildings = {
+			infrastructure = 1
+                        13204 ={
+				naval_base = 1
+			}
+		}
+        victory_points = { 
+			13063 1 
+		}
+    }
+	buildings_max_level_factor=1.000
+}

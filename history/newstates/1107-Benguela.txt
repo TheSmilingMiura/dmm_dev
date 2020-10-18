@@ -1,0 +1,22 @@
+state={
+	id=1107
+	name="STATE_1107"
+	resources={
+		tungsten=12
+	}
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = ANG
+
+	}
+	state_category=town
+	provinces={
+		12958 13911 13914 13919 
+	}
+	manpower=1477595
+	buildings_max_level_factor=1.000
+}

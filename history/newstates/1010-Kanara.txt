@@ -1,0 +1,16 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		7244 7395 10190 12208 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = MAB
+		add_core_of = MAB
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			4361 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4361 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1342 4320 4361 12165 
+	}
+	manpower=4500000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

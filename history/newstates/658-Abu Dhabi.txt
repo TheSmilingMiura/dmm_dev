@@ -1,0 +1,38 @@
+
+state={
+	id=658
+	name="STATE_658"
+	resources={
+		oil=563.000
+	}
+
+	history={
+		owner = UAE
+		add_core_of = UAE
+		victory_points = {
+			7960 15 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 4
+			7960 = {
+				naval_base = 7
+
+			}
+			8051 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2048 7960 8108 10904 
+	}
+	manpower=5742000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

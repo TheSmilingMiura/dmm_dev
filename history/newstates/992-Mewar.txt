@@ -1,0 +1,16 @@
+state={
+	id=992
+	name="STATE_992"
+	provinces={
+		2092 4971 12829 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = AZA
+		add_core_of = AZA
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state = {
+	id=1052
+	name="STATE_1052"
+	provinces = {
+		10335 1474 7577 8095
+	}
+	manpower=1386666
+	state_category = rural
+	history = {
+		owner = GUI
+		add_core_of = GUI
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=896
+	name="STATE_896"
+	history={
+		owner = WEA
+		add_core_of = WEA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		8018 7940 12846
+	}
+	manpower=616188
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=768
+	name="STATE_768"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			13218 1 
+		}
+		victory_points = {
+			13211 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			13214 = {
+				bunker = 3
+
+			}
+			13218 = {
+				bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4446 8360 10522 13210 13211 13214 13215 13216 13217 13218 
+	}
+	manpower=3150000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

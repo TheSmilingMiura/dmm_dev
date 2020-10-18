@@ -1,0 +1,20 @@
+state={
+	id=888
+	name="STATE_888"
+	history={
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		4099 10069 1094 7086 9972 4070
+	}
+	manpower=5959822
+	buildings_max_level_factor=1.000
+	state_category=town
+}

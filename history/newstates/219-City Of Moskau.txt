@@ -1,0 +1,39 @@
+
+state={
+	id=219
+	name="STATE_219"
+	resources={
+		steel=16.000
+	}
+
+	history={
+		owner = GKM
+		victory_points = {
+			6380 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 9
+			industrial_complex = 2
+			air_base = 10
+
+		}
+		add_core_of = GKM
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				arms_factory = 11
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6380 
+	}
+	manpower=1335992
+	buildings_max_level_factor=1.000
+	state_category=city
+}

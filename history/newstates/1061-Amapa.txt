@@ -1,0 +1,22 @@
+state={
+	id=1061
+	name="STATE_1061"
+	history={
+		owner = AMZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AMZ
+		victory_points = {
+			4980 1 #Macapá 
+		}
+
+	}
+	provinces={
+		4980 13615 13623 13632 
+	}
+	manpower=668689
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

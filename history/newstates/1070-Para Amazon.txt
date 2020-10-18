@@ -1,0 +1,21 @@
+state={
+	id=1070
+	name="STATE_1070"
+	
+	history={
+		owner = PRA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PRA
+
+	}
+	
+	provinces={
+		13504 13506 13514 13520 13522 13528 13538 13548 13554 13564 13579 13588 13589 13592 13597 13607 
+	}
+	manpower=301300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

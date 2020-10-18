@@ -1,0 +1,24 @@
+state={
+	id=1108
+	name="STATE_1108"
+	resources={
+		steel=6
+	}
+
+
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ANG
+
+	}
+	state_category=rural
+	provinces={
+		8202 13897 13902 13907 
+	}
+	manpower=2419253
+	buildings_max_level_factor=1.000
+}

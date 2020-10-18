@@ -1,0 +1,21 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 286410
+
+	state_category = town
+
+	history={
+		owner = MAB
+		add_core_of = MAB
+		buildings = {
+			infrastructure = 5
+			#10149 = {
+			#	naval_base = 1
+			#}
+		}
+	}
+
+	provinces={7288 1409 4327 7402 }
+}

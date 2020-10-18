@@ -1,0 +1,23 @@
+
+state={
+	id=583
+	name="STATE_583"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+                        industrial_complex = 3
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		1276 1303 1363 4309 4337 4340 4369 7357 10140 10168 10284 10312 12115 12143 12185 12257 12285 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

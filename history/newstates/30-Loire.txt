@@ -1,0 +1,32 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 1388400
+
+	state_category = city
+
+	history={
+		owner = MFR
+		add_core_of = MFR
+		add_core_of = FRA
+		victory_points = {
+			11465 5
+		}
+		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+		}
+		2003.12.12 = {
+			owner = FRA
+			controller = FRA
+		}
+	}
+
+	provinces={
+		503 527 3495 3509 3523 9478 9867 11463 11465 11613 11616 
+	}
+}

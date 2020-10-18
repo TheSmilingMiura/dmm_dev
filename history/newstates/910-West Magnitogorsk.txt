@@ -1,0 +1,17 @@
+state={
+	id=910
+	name="STATE_910"
+	provinces={
+		1258 1378 7300 10226 
+	}
+	manpower=10
+    state_category = rural
+    history={
+		owner = GKK
+		buildings = {
+			infrastructure = 3
+			air_base = 6
+		}
+		add_core_of = GKK
+	}
+}

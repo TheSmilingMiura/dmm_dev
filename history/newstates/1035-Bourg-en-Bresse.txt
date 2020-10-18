@@ -1,0 +1,19 @@
+state={
+	id=1035
+	name="STATE_1035"
+	provinces={
+		641 3650 6639 6668 9590 
+	}
+	state_category = city
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			air_base = 2
+		}
+		add_core_of = FRA
+	}
+	manpower=40666
+	buildings_max_level_factor=1.000
+}

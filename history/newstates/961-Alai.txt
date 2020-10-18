@@ -1,0 +1,19 @@
+
+state={
+	id=961
+	name="STATE_961"
+
+	history={
+		owner = FGH
+		add_core_of = FGH
+		add_core_of = KYZ
+
+	}
+
+	provinces={
+		2058 4467 4542 4923 7682 
+	}
+	manpower=220000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,17 @@
+state={
+	id=1014
+	name="STATE_1014"
+	provinces={
+		1107 7903 
+	}
+	manpower = 1000000
+	
+	state_category = town
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+	}
+
+	buildings_max_level_factor=1.000
+}

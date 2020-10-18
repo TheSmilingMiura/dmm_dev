@@ -1,0 +1,16 @@
+state={
+	id=1005
+	name="STATE_1005"
+	provinces={
+		5019 5063 10311 12226 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = HYD
+		add_core_of = HYD
+	}
+	buildings_max_level_factor=1.000
+}

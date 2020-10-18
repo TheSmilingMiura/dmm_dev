@@ -1,0 +1,18 @@
+state={
+	id=1109
+	name="STATE_1109"
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ANG
+
+	}
+	state_category=rural
+	provinces={
+		12391 13894 13898 
+	}
+	manpower=921748
+	buildings_max_level_factor=1.000
+}

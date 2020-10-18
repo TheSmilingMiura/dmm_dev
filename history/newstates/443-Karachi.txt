@@ -1,0 +1,29 @@
+
+state={
+	id=443
+	name="STATE_443" # Sind
+	manpower = 3887000
+	
+	state_category = rural
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+		victory_points = {
+			3456 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			#3456 = {
+			#	naval_base = 4
+			#}
+		}
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		4003 10108 3456
+	}
+}

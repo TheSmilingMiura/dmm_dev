@@ -1,0 +1,17 @@
+state={
+	id=821
+	name="STATE_821"
+
+	state_category=small_island
+	manpower= 560000
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+	}
+		
+	provinces={
+		1351
+	}
+	buildings_max_level_factor=1.000
+}

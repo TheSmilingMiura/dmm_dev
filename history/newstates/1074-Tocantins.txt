@@ -1,0 +1,22 @@
+
+state={
+	id=1074
+	name="STATE_1074"
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ARA
+
+	}
+
+	provinces={
+		2168 5151 13283 13851 13852 13854 13857 13858 13860 13861 13864 13866 13870 13872 13874 13877 13878 13884 
+	}
+	manpower=1496880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

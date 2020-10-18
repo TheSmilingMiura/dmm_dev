@@ -1,0 +1,16 @@
+state={
+	id=983
+	name="STATE_983"
+	provinces={
+		2084 10821 
+	}
+	manpower = 1000000
+	
+	state_category = pastoral
+	
+	history={
+		owner = JAM
+		add_core_of = AFG
+	}
+	buildings_max_level_factor=1.000
+}

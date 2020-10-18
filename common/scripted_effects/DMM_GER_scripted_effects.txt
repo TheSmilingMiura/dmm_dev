@@ -1,5 +1,6 @@
 GER_debug_map = {
 	#GER = {	
+		add_to_array = { gerpolstate = 61.id } #HAMBURG
 		add_to_array = { gerpolstate = 143.id }
 		add_to_array = { gerpolstate = 110.id }
 		add_to_array = { gerpolstate = 99.id }
@@ -43,7 +44,87 @@ GER_debug_map = {
 			set_variable = {
 					topparty = 3		#this is merely debug
 			}
-			}
+			set_variable = { popularity^0 = 10 }
+			set_variable = { popularity^1 = 10 }
+			set_variable = { popularity^2 = 10 }
+			set_variable = { popularity^3 = 10 }
+			set_variable = { popularity^4 = 10 }
+			set_variable = { popularity^5 = 50 } 
 		}
-	#}
+	}
+}
+GER_debug_pie_chart = {
+	for_loop_effect = {
+		start = 0
+		end = 100
+		set_variable = { GERpopularity^i = 1 } #konservative debug
+
+	}
+}
+GER_calculate_pie = { #credits to Yard1 for inspiration
+	#1 is base image
+		clear_array = GERpopularity #global
+		resize_array = {
+			array = GERpopularity
+			value = 1 
+			size = 100 
+		}
+		add_to_variable = { bruh = 1 }
+		var:GER_selected_state = {
+			add_to_variable = { bruh = 65 }
+		set_temp_variable = { lastone = popularity^0 }
+		set_temp_variable = { imax = popularity^1 }
+		add_to_temp_variable = { imax = lastone }
+		for_loop_effect = {
+			start = lastone
+			end = imax
+			set_variable = { ROOT.GERpopularity^v = 2 } #reformer
+			add_to_temp_variable = { lastone = 1 }
+		}
+		#set_temp_variable = { lastone = popularity^1 }
+		set_temp_variable = { imax = popularity^2 }
+		add_to_temp_variable = { imax = lastone }
+		for_loop_effect = {
+			start = lastone
+			end = imax
+			set_variable = { ROOT.GERpopularity^v = 3 } #
+			add_to_temp_variable = { lastone = 1 }
+			add_to_variable = { ROOT.bruh = 1 }
+		}
+		#set_temp_variable = { lastone = popularity^2 }
+		set_temp_variable = { imax = popularity^3 }
+		add_to_temp_variable = { imax = lastone }
+		for_loop_effect = {
+			start = lastone
+			end = imax
+			set_variable = { ROOT.GERpopularity^v = 4 } #
+			add_to_temp_variable = { lastone = 1 }
+		}
+		#set_temp_variable = { lastone = popularity^3 }
+		set_temp_variable = { imax = popularity^4 }
+		add_to_temp_variable = { imax = lastone }
+		for_loop_effect = {
+			start = lastone
+			end = imax
+			set_variable = { ROOT.GERpopularity^v = 5 } #
+			add_to_temp_variable = { lastone = 1 }
+		}
+		#set_temp_variable = { lastone = popularity^4 }
+		set_temp_variable = { imax = popularity^5 }
+		add_to_temp_variable = { imax = lastone }
+		for_loop_effect = {
+			start = lastone
+			end = imax
+			set_variable = { ROOT.GERpopularity^v = 6 } #
+			add_to_temp_variable = { lastone = 1 }
+		}
+	}
+	ROOT = {
+		add_to_variable = { update_subgui = 1 }
+	}
+}
+clear_selection = {
+	clear_variable = GER_selected_state
+	clear_variable = GER_display_state
+	#add_to_variable = { bruh = 2 }
 }

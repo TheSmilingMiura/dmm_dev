@@ -1,0 +1,18 @@
+
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		2184 7227 8221 10138 10310 12110 12280 12955 13270 13271 
+	}
+	manpower=560000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

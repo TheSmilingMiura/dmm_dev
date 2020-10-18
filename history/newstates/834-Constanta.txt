@@ -1,0 +1,13 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		657 687 3076 9635 
+	}
+	manpower=10000
+    state_category = rural
+    history={
+		owner = ROM
+        add_core_of = ROM
+	}
+}

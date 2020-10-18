@@ -1,0 +1,35 @@
+
+state={
+	id=763
+	name="STATE_763"
+	resources={
+		rubber=110.000
+	}
+
+	history={
+		owner = SAR
+		add_core_of = SAR
+		victory_points = {
+			7658 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			7658 = {
+				naval_base = 1
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7658 10509 12488 13206 13207 13208 13209 13212 13213 
+	}
+	manpower=3462000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

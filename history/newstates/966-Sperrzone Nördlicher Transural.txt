@@ -1,0 +1,17 @@
+state = {
+	id = 966
+	name = "STATE_966"
+	history = {
+		owner = URA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = URA
+	}
+
+	provinces = {
+		3169 4774 4746 1744 7895 1771 1841
+	}
+	manpower = 6080
+	state_category = town
+}

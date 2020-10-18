@@ -1,0 +1,18 @@
+
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = NFT
+		add_core_of = NFT
+
+	}
+
+	provinces={
+		4523 4620 7641 10262 10348 12383 12474 13008 
+	}
+	manpower=2245133
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

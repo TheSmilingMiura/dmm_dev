@@ -1,0 +1,28 @@
+
+state={
+	id=505
+	name="STATE_505"
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ARA
+		victory_points = {
+			13083 20 #Brasília
+		}
+		victory_points = {
+			13430 10 #Goiânia
+		}
+
+	}
+
+	provinces={
+		5115 5208 8140 12959 12987 13083 13424 13425 13426 13427 13428 13429 13430 13431 13433 13434 13436 13437 13438 13440 13441 13446 13449 13818 13820 13823 13826 13828 13829 13831 13832 13835 13836 13842 13847 
+	}
+	manpower=6004045
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

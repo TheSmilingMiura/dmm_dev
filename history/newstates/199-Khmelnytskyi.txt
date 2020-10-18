@@ -1,0 +1,24 @@
+
+state={
+	id=199
+	name="STATE_199"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		462 3457 3511 6509 
+	}
+	manpower=1424022
+	buildings_max_level_factor=1.000
+	state_category=town
+}

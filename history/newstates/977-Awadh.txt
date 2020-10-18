@@ -1,0 +1,17 @@
+
+state={
+	id=977
+	name="STATE_977"
+	provinces={
+		1377 1983 4299 7064 9973 12777 12786 
+	}
+	manpower = 1000000
+	
+	state_category = rural
+	
+	history={
+		owner = AZA
+		add_core_of = AZA
+	}
+	buildings_max_level_factor=1.000
+}

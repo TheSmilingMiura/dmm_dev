@@ -1,0 +1,33 @@
+
+state={
+	id=294
+	name="STATE_294"
+	manpower = 2369000
+	
+	state_category = city
+	
+	resources={
+		oil=22 # was: 2
+	}
+
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4 
+			10760 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			10760 3 
+		}
+		add_core_of = OMA
+                add_core_of = UAE
+	}
+
+	provinces={
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+	}
+}

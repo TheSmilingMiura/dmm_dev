@@ -1,0 +1,16 @@
+state={
+	id=906
+	name="STATE_906"
+	provinces={
+		1473 1883 2081 3123 3181 4897 4902 4978 5136 7919 9152 10893 
+	}
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=523
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

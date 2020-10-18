@@ -1,0 +1,28 @@
+
+state={
+	id=795
+	name="STATE_795"
+
+	manpower=3600000
+	state_category=town
+
+	history=
+	{
+		owner = BAL
+		add_core_of = BAL
+
+		victory_points = {
+			13248 1 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces={
+		4273 13248 
+	}
+}

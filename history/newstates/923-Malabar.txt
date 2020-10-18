@@ -1,0 +1,19 @@
+ state={
+	id=923
+	name="STATE_923"
+	history={
+		owner = BII
+		add_core_of = BII
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			1238 3
+		}
+	}
+	provinces={
+		 1238 7447 1321 7391
+	}
+	manpower=27856
+	state_category=large_city
+}

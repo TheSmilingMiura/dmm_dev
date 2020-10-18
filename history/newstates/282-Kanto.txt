@@ -1,0 +1,44 @@
+
+state={
+	id=282
+	name="STATE_282" # Kanto
+	manpower = 44607376
+	
+	state_category = megalopolis
+	
+	resources={
+		aluminium=1 # was: 2
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 10
+			air_base = 6
+			industrial_complex = 15
+			arms_factory = 8
+			dockyard = 15
+			9998 = {
+				naval_base = 8
+
+			}
+
+		}
+		victory_points = {
+			1182 50 
+		}
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 4
+				dockyard = 4
+				industrial_complex = 6
+			}
+		}
+
+	}
+
+	provinces={
+		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
+	}
+}

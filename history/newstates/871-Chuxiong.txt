@@ -1,0 +1,17 @@
+state={
+	id=871
+	name="STATE_871" #Yi people live here
+	provinces={
+		4559 8023 7965
+	}
+	history = {
+		owner = XNZ
+		add_core_of = XNZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=2619179
+	state_category = town
+}

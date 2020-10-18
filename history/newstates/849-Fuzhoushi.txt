@@ -1,0 +1,29 @@
+state=
+{
+	id=849
+	name="STATE_849"
+	manpower = 1947842
+	state_category = coastal_city_concession
+	
+	
+	history=
+	{
+		owner = JAP
+		add_core_of = JAP
+		victory_points = { 
+			4196 3 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 3
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+	provinces={
+		4196
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=863
+	name="STATE_863"
+	provinces={
+		1054 4056 4086 10085 12060 
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 3
+			4056 = {
+				naval_base = 4
+				bunker = 2
+			}
+		}
+		victory_points = {
+			4056 5
+		}
+	}
+	manpower=2671399 #applied factor 1/3 for being south korean
+	state_category = city
+}

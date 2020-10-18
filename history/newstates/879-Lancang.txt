@@ -1,0 +1,17 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		10413
+	}
+	manpower=433653
+	state_category = pastoral
+	history={
+		owner = XNZ
+		add_core_of = XNZ
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+}

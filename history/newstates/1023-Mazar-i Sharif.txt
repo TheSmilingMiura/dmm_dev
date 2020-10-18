@@ -1,0 +1,17 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		7448 7584 10852 12248 12314 12877 
+	}
+	manpower = 1000000
+	
+	state_category = town
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+	}
+
+	buildings_max_level_factor=1.000
+}

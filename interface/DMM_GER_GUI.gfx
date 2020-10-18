@@ -928,39 +928,151 @@ spriteTypes = {
 		texturefile = "gfx/interface/GER_gui/debug_1x1_px.dds"
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_1_1"
-		texturefile = "gfx/interface/GER_gui/square/1x1_empty.dds"
+		name = "GFX_GER_pie_part"
+		textureFile = "gfx/interface/GER_gui/pie/piepart.dds"
+		noOfFrames = 6
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_2_2"
-		texturefile = "gfx/interface/GER_gui/square/2x2_empty.dds"
+		name = "GFX_GER_detailsbutton"
+		texturefile = "gfx/interface/GER_gui/subgui/detailsbutton.dds"
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_3_3"
-		texturefile = "gfx/interface/GER_gui/square/3x3_empty.dds"
+		name = "GFX_GER_win98subgui_bg"
+		texturefile = "gfx/interface/GER_gui/subgui/win98subgui_bg.dds"
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_4_4"
-		texturefile = "gfx/interface/GER_gui/square/4x4_empty.dds"
+		name = "GFX_GER_win98squares"
+		texturefile = "gfx/interface/GER_gui/subgui/win98partysquares.dds"
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_5_5"
-		texturefile = "gfx/interface/GER_gui/square/5x5_empty.dds"
+		name = "GFX_GER_reformists"
+		texturefile = "gfx/interface/GER_gui/subgui/reformist.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_2_1"
-		texturefile = "gfx/interface/GER_gui/rectangle/2x1_empty.dds"
+		name = "GFX_GER_conservatives"
+		texturefile = "gfx/interface/GER_gui/subgui/conservative.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_3_1"
-		texturefile = "gfx/interface/GER_gui/rectangle/3x1_empty.dds"
+		name = "GFX_GER_industrialists"
+		texturefile = "gfx/interface/GER_gui/subgui/industrialist.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_4_1"
-		texturefile = "gfx/interface/GER_gui/rectangle/4x1_empty.dds"
+		name = "GFX_GER_artamanen"
+		texturefile = "gfx/interface/GER_gui/subgui/artamanen.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_GUI_EMPTY_5_1"
-		texturefile = "gfx/interface/GER_gui/rectangle/5x1_empty.dds"
+		name = "GFX_GER_dc"
+		texturefile = "gfx/interface/GER_gui/subgui/dc.dds"
+		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_GER_siedler"
+		texturefile = "gfx/interface/GER_gui/subgui/siedler.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_detailsbutton"
+		texturefile = "gfx/interface/GER_gui/subgui/detailsbutton.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_optionsbutton"
+		texturefile = "gfx/interface/GER_gui/subgui/optionbutton.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_monitor_sub_bg"
+		texturefile = "gfx/interface/GER_gui/monitorbackgroundtype.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_GER_closebutton"
+		texturefile = "gfx/interface/GER_gui/subgui/closebutton.dds"
+		legacy_lazy_load = no
+	}
+
+
+	spriteType = {
+        name = "GFX_GUI_EMPTY_4_1"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_4_1.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_5_1"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_5_1.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_5_5"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_5_5.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_3_3"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_3_3.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_2_2"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_2_2.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_4_4"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_4_4.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_2_1"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_2_1.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_3_1"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_3_1.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_1_1"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_1_1.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_1_2"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_1_2.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_1_3"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_1_3.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_1_4"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_1_4.dds"
+        legacy_lazy_load = no
+        }
+
+spriteType = {
+        name = "GFX_GUI_EMPTY_1_5"
+        texturefile = "gfx/interface/GER_gui/overlay/GFX_GUI_EMPTY_1_5.dds"
+        legacy_lazy_load = no
+        }
+
 }

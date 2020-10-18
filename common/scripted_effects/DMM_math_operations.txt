@@ -1,0 +1,177 @@
+math_exponentiate_core = { #requires original_base AND exponent
+	#exponentiation is recursive multiplication with the base n times
+	if = {
+		limit = { check_variable = { exponent = 0 } NOT = { has_global_flag = MATH_exponent_first_check } } #only do this the first time you are called
+		set_variable = { result = 1 } #b^0 is 1!!
+		set_global_flag = MATH_recursion_terminated
+	}
+	if = {
+		limit = { OR = { check_variable = { exponent > 0 } check_variable = { exponent < 0 } } NOT = { has_global_flag = MATH_exponent_first_check } }
+		if = {
+			limit = { check_variable = { exponent > 0 } }
+			set_variable = { result = original_base } #essentially the operation result = b^1
+			subtract_from_variable = { exponent = 1 }
+		}
+		if = {
+			limit = { check_variable = { exponent < 0 } }
+			set_variable = { result = 1 }
+			divide_variable = { result = original_base }
+			add_to_variable = { exponent = 1 }
+		}
+	}
+	if = {
+		limit = { OR = { check_variable = { exponent > 0 } check_variable = { exponent < 0 } } has_global_flag = MATH_exponent_first_check }
+		if = {
+			limit = { check_variable = { exponent > 0 } }
+			multiply_variable = { result = original_base } #original base provided top-level
+			subtract_from_variable = { exponent = 1 }
+		}
+		if = {
+			limit = { check_variable = { exponent < 0 } }
+			divide_variable = { result = original_base }
+			add_to_variable = { exponent = 1 }
+		}
+	}
+	if = {
+		limit = { NOT = { has_global_flag = MATH_exponent_first_check} }
+		set_global_flag = MATH_exponent_first_check
+	} #ok this is not someone trying to pull a fast one on the recursion
+	if = {
+		limit = { OR = { check_variable = { exponent > 0 } check_variable = { exponent < 0 } } }
+		math_exponentiate_core = yes
+	}
+	else = {
+		set_global_flag = MATH_recursion_terminated
+	}
+}
+math_faculty_core = {
+	if = {
+		limit = { check_variable = { original_base_faculty = 0 } NOT = { has_global_flag = MATH_exponent_first_check } } #only do this the first time you are called
+		set_variable = { result = 1 } #0! is 1!!
+		set_global_flag = MATH_faculty_terminated
+	}
+	if = {
+		limit = { check_variable = { original_base_faculty > 0 } } NOT = { has_global_flag = MATH_exponent_first_check } }
+		set_variable = { result = original_base_faculty } #essentially the operation result = b
+		set_variable = { counter = original_base_faculty }
+		subtract_from_variable = { counter = 1 }
+	}
+	if = {
+		limit = { check_variable = { original_base_faculty > 0 }  has_global_flag = MATH_exponent_first_check }
+		multiply_variable = { result = counter } #original base provided top-level
+		subtract_from_variable = { counter = 1 }
+	}
+	if = {
+		limit = { NOT = { has_global_flag = MATH_exponent_first_check} }
+		set_global_flag = MATH_exponent_first_check
+	} #ok this is not someone trying to pull a fast one on the recursion
+	if = {
+		limit = { check_variable = { counter > 0 } }
+		math_faculty_core = yes
+	}
+	else = {
+		set_global_flag = MATH_recursion_terminated
+	}
+}
+math_sine_core = { #this is a representation of Σ(-1)^(n)*(x^(2n+1)/(2n+1)!)
+	multiply_variable = { oscillator = -1 } #turn sign
+
+	multiply_variable = { exponent = 2 }
+	add_to_variable = { exponent = 1 }
+	add_to_variable = { order_ct = 1 }
+
+	set_variable = { original_base_faculty = exponent }
+	math_exponentiate_core = yes
+	set_variable = { upper = result }
+	clear_variable = result
+	math_faculty_core = yes
+	divide_variable = { upper = result }
+	clear_variable = result
+	multiply_variable = { upper = oscillator }
+	add_to_variable = { sine = upper }
+	clear_variable = upper
+	if = {
+		limit = { check_variable = { order_ct < order } }
+		math_sine_core = yes
+	}
+}
+math_sine = { #takes radial input! expanded into 10th to 12th order ##CALL THIS GUY!!
+	set_variable = { sine = theta }
+	set_variable = { oscillator = 1 }
+	set_variable = { order = 10 }
+	set_variable = { order_ct = 1 }
+	set_variable = { exponent = 1 }
+	set_variable = { original_base = theta }
+	math_sine_core = yes
+}
+
+math_cosine_core = { #this is a representation of Σ(-1)^(n)*(x^(2n)/(2n)!)
+	multiply_variable = { oscillator = -1 } #turn sign
+
+	multiply_variable = { exponent = 2 }
+	add_to_variable = { order_ct = 1 }
+
+	set_variable = { original_base_faculty = exponent }
+	math_exponentiate_core = yes
+	set_variable = { upper = result }
+	clear_variable = result
+	math_faculty_core = yes
+	divide_variable = { upper = result }
+	clear_variable = result
+	multiply_variable = { upper = oscillator }
+	add_to_variable = { cosine = upper }
+	clear_variable = upper
+	if = {
+		limit = { check_variable = { order_ct < order } }
+		math_cosine_core = yes
+	}
+}
+math_cosine = { #takes radial input! expanded into 10th to 12th order ##CALL THIS GUY!!
+	set_variable = { cosine = theta }
+	set_variable = { oscillator = 1 }
+	set_variable = { order = 10 }
+	set_variable = { order_ct = 1 }
+	set_variable = { exponent = 1 }
+	set_variable = { original_base = theta }
+	math_cosine_core = yes
+}
+gain_coordinate_offset = { #you need to provide r in pixels!! this will offset dot on halfcircle to appropriate point
+	math_cosine = yes
+	multiply_variable = { cosine = r }
+	set_variable = { dx = r }
+	subtract_from_variable ( dx = cosine )
+	math_sine = yes
+	set_variable = { dy = sine }
+	multiply_variable = { dy = r }
+}
+gain_necessary_arcsec_distance = { #run this BEFORE gain_theta_outer_rings
+	set_variable = { reichstag_inner_seats = reichstag_seats }
+	multiply_variable = { reichstag_inner_seats = 0.007717 } #ca. 4.8% of the Bundestag sit in the frontmost row, yes I did the math on an example
+	round_variable = reichstag_inner_seats
+	set_variable = { inner_reichstag_total = reichstag_inner_seats } #find rounding seats
+	subtract_from_variable = { reichstag_inner_seats = 2 } #effectively one seat is beyond circle due to edge overlap, one seat needs to be removed to gain distance value instead of pure mathematical fraction
+	set_variable = { theta = 3.141593 } #set theta to half circle
+	divide_variable = { theta = reichstag_inner_seats } #angle theta per seat distance
+	set_variable = { pi = 3.141593 } #set theta to half circle
+	set_variable = { dist = pi }
+	multiply_variable = { dist = r }
+	divide_variable = { dist = reichstag_inner_seats } #this guy is the arc length distance, hes important	
+}
+gain_theta_outer_rings = { #feed this one r and pi! RUN THIS BEFORE gain_theta_compensation_ring
+	set_variable = { circumference = pi }
+	multiply_variable = { circumference = r }
+	divide_variable = { circumference = dist } #how many seats fit on the arc
+	round_variable = circumference
+	set_variable = { reichstag_ring_seats = circumference }
+	add_to_variable = { inner_reichstag_total = reichstag_ring_seats }
+	add_to_variable = { inner_reichstag_total = 2 } #seats referred to above
+	set_variable = { theta = 3.141593 } #set theta to half circle
+	divide_variable = { theta = reichstag_ring_seats } #angle theta per seat distance
+}
+gain_theta_compensation_ring = {
+	set_variable = { outer_reichstag_total = reichstag_seats }
+	subtract_from_variable = { outer_reichstag_total = inner_reichstag_total }
+	subtract_from_variable = { outer_reichstag_total = 2 }
+	set_variable = { theta = 3.141593 } #set theta to half circle
+	divide_variable = { theta = outer_reichstag_total } #angle theta per seat distance
+}

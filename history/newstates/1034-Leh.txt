@@ -1,0 +1,16 @@
+state={
+	id=1034
+	name="STATE_1034"
+	provinces={
+		5042 7273 12884 
+	}
+	manpower = 1000000
+	
+	state_category = pastoral
+	
+	history={
+		owner = JAM
+		add_core_of = JAM
+	}
+	buildings_max_level_factor=1.000
+}

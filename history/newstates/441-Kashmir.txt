@@ -1,0 +1,20 @@
+
+state={
+	id=441
+	name="STATE_441"
+	manpower = 3539500
+	
+	state_category = town
+
+	history={
+		owner = JAM
+		add_core_of = JAM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10905 2041 1910
+	}
+}

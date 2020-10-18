@@ -1,0 +1,16 @@
+state={
+	id=875
+	name="STATE_875"
+	provinces={
+		4719 7725 10559 12622 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=237753
+	state_category=rural
+}

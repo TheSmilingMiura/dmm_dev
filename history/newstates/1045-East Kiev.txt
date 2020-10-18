@@ -1,0 +1,21 @@
+state={
+	id=1045
+	name="STATE_1045"
+	state_category = large_city
+	provinces={
+		582 9543 11557 
+	}
+	history = {
+	    owner = UKR
+	    add_core_of = UKR
+	     buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 1
+			air_base = 1
+			}
+		
+	}
+	manpower = 311100
+	buildings_max_level_factor=1.000
+}

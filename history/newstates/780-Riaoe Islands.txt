@@ -1,0 +1,43 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		victory_points = {
+			12113 1 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			12113 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+			13235 = {
+				coastal_bunker = 1
+
+			}
+			13232 = {
+				coastal_bunker = 1
+
+			}
+			13233 = {
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12113 13232 13233 13235 
+	}
+	manpower=1130000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

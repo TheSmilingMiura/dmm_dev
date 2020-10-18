@@ -1,0 +1,17 @@
+state = {
+	id=1053
+	name="STATE_1053"
+	provinces = {
+		10004 1018 4023 11926 7192
+	}
+	manpower=1386666
+	state_category = rural
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}

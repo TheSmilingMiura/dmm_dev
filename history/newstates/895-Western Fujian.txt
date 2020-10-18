@@ -1,0 +1,18 @@
+state={
+	id=895
+	name="STATE_895"
+	history={
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10084 1138 4113 10012 
+	}
+	manpower=742872
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

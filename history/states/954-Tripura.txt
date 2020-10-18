@@ -8,7 +8,7 @@ state={
 		owner = AZA
 	}
 	
-	manpower=8977100
+	manpower=3199203
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

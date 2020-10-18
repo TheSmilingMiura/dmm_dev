@@ -4,9 +4,9 @@ state={
 	provinces={
 		1129 2076 7106 12708 
 	}
-	manpower = 1000000
+	manpower = 6077900
 	
-	state_category = rural
+	state_category = town
 	
 	history={
 		owner = AZA

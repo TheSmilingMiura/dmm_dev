@@ -10,9 +10,9 @@ state={
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 8
-			arms_factory = 2
-			dockyard = 2
-			industrial_complex = 6
+			arms_factory = 5
+			dockyard = 5
+			industrial_complex = 20
 		}
 		
 		victory_points = {
@@ -21,12 +21,6 @@ state={
 		
 		victory_points = {
 			10125 25
-		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 3
-			}
 		}
 
 	}

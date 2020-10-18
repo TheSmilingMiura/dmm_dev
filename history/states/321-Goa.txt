@@ -2,12 +2,12 @@
 state={
 	id=321
 	name="STATE_321"
-	manpower = 533952
+	manpower = 1347668	
 
-	state_category = town
+	state_category = city
 
 	history={
-		owner = BOM
+		owner = GER
 		add_core_of = BOM
 		victory_points = {
 			1273 1 

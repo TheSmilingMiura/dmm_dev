@@ -6,6 +6,7 @@ state={
 	state_category = megalopolis
 	resources={
 		aluminium=3 # was: 6
+                steel = 68
 	}
 
 	history={
@@ -13,26 +14,21 @@ state={
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 10
-			industrial_complex = 14
-			dockyard = 2
+			industrial_complex = 15
+			dockyard = 5
+                        arms_factory = 5
 			1136 = {
-				naval_base = 6
+				naval_base = 8
 
 			}
 			7072 = {
-				naval_base = 3
+				naval_base = 6
 
 			}
 
 		}
 		victory_points = {
 			7072 40
-		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 5
-			}
 		}
 
 	}

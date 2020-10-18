@@ -3,7 +3,7 @@ state={
 	id=533
 	name="STATE_533" # Tohoku
 	manpower = 9682011
-	state_category = large_city
+	state_category = metropolis
 	resources={
 		steel=27 # was: 35
 	}
@@ -13,10 +13,10 @@ state={
 		add_core_of = JAP
 		buildings = {
 		
-			arms_factory = 1
-			industrial_complex = 2
+			arms_factory = 5
+			industrial_complex = 15
 		
-			infrastructure = 7
+			infrastructure = 8
 			air_base = 6
 			9859 = {
 				naval_base = 6

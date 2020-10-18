@@ -2,9 +2,9 @@
 state={
 	id=439
 	name="STATE_439"
-	manpower = 31136800
+	manpower = 34995071
 	
-	state_category = city
+	state_category = megalopolis
 	
 	history={
 		owner = AZA

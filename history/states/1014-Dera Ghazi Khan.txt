@@ -4,9 +4,9 @@ state={
 	provinces={
 		1107 7903 
 	}
-	manpower = 1000000
+	manpower = 2946736
 	
-	state_category = town
+	state_category = large_town
 	
 	history={
 		owner = AFG

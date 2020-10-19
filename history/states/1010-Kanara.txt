@@ -4,9 +4,9 @@ state={
 	provinces={
 		7244 7395 10190 12208 
 	}
-	manpower = 1000000
+	manpower = 6006162
 	
-	state_category = rural
+	state_category = large_town
 	
 	history={
 		owner = MAB

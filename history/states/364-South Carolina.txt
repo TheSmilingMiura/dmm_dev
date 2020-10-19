@@ -9,8 +9,8 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
+			infrastructure = 7
+			industrial_complex = 5
 			7202 = {
 				naval_base = 2
 

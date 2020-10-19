@@ -2,14 +2,14 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 4684400
+	manpower = 11143940
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = AFG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			air_base = 3
 		}
 		add_core_of = AFG

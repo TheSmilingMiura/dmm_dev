@@ -2,15 +2,15 @@
 state={
 	id=441
 	name="STATE_441"
-	manpower = 3539500
+	manpower = 9125521
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = JAM
 		add_core_of = JAM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 		}
 	}
 

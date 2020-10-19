@@ -10,6 +10,7 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 15
+                        arms_factory = 5
 		}
 		add_core_of = USA
 		victory_points = {

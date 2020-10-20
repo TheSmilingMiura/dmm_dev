@@ -2,7 +2,7 @@
 state={
 	id=173
 	name="STATE_173" # Granada
-	manpower = 1662292
+	manpower = 2645408
 	
 	state_category = city
 	

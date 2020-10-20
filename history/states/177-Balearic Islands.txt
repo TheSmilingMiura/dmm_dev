@@ -2,15 +2,16 @@ state=
 {
 	id=177
 	name="STATE_177"
-	manpower = 365500
+	manpower = 841669
 	
-	state_category = rural
+	state_category = large_town
 	
 	history=
 	{
 		owner = SPR
 		buildings = {
 			infrastructure = 6
+                        industrial_complex = 3
 			air_base = 1
 			9793 = {
 				naval_base = 2

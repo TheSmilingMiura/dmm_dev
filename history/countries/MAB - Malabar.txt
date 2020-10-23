@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_Uthradom_Thirunal_Marthanda_Varma_DESC"
 	picture = "gfx/leaders/MAB/Portrait_MAB_Uthradom_Thirunal_Marthanda_Varma.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

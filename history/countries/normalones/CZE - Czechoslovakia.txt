@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

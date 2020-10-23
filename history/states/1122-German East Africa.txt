@@ -4,11 +4,11 @@ state={
 	provinces={
 		2196 5210 8182 8183 10976 12944 
 	}
-        history={
+	history={
 		owner = AFK
+		add_core_of = AFK
 		buildings = {
 			infrastructure = 7
-                add_core_of = AFK
 
 		}
 

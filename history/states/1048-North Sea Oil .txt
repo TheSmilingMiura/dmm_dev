@@ -1,17 +1,16 @@
 state={
 	id=1048
 	name="STATE_1048"
+	resources={
+		oil = 120 
+	}
 	provinces={
 		13413 
 	}
 	state_category = enclave
 	history = {
-	owner = NOR
-	add_core_of = NOR
-	}
-	resources={
-		oil = 120 
-	}
+		owner = NOR
+		add_core_of = NOR
         buildings = {
 			infrastructure = 2
 			13413 = {
@@ -19,6 +18,7 @@ state={
 
 			}
 		}
+	}
 	manpower=1000
 	buildings_max_level_factor=1.000
 }

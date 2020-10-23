@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Prince Henry"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Britain_George_VI.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

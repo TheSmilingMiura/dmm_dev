@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_BUI_DIEM_DESC"
 	picture = "gfx/leaders/VIN/Portrait_Vietnam_Bui_Diem.dds"
 	expire = "2065.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {}
 }
 
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		
 	}

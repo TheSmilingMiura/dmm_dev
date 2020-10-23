@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_AZMET_JAH_DESC"
 	picture = "gfx/leaders/HYD/Portrait_HYD_Azmet_Jah.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

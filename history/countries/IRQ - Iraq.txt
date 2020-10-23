@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_GHAZI_I_DESC"
 	picture = "GFX_portrait_iraq_ghazi"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

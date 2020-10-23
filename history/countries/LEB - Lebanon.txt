@@ -91,7 +91,7 @@ create_country_leader = {
 	name = "Pierre Gemayel"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_fascism1.dds"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -101,7 +101,7 @@ create_country_leader = {
 	name = "Melick Yarad"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

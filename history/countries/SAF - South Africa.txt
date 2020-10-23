@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_DF_MALAN_DESC"
 	picture = "GFX_SAF_daniel_malan"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

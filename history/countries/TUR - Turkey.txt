@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1938.11.10"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

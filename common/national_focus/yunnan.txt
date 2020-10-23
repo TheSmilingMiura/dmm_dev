@@ -437,7 +437,7 @@
 		}
 		mutually_exclusive = { 
 			focus = YUN_rapid_northward_push 
-			focus = YUN_ 
+			
 		}
 		ai_will_do = {
 			factor = 1
@@ -482,7 +482,7 @@
 			focus = YUN_destroy_the_thirteenth 
 		}
 		mutually_exclusive = { 
-			focus = YUN_ 
+			
 		}
 		ai_will_do = {
 			factor = 1
@@ -507,7 +507,7 @@
 			focus = YUN_interim_president_long_zonghan 
 		}
 		mutually_exclusive = { 
-			focus = YUN_ 
+			
 		}
 		ai_will_do = {
 			factor = 1

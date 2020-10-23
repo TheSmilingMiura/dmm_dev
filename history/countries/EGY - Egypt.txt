@@ -44,7 +44,7 @@ create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -54,7 +54,7 @@ create_country_leader = {
 	name = "Farouk Muhammad Ali"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		SHA_japanese_dependence_0 = {
-			picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}
@@ -25,7 +25,7 @@ ideas = {
 			}
 		}
 		SHA_japanese_dependence_1 = {
-			picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}
@@ -50,7 +50,7 @@ ideas = {
 			}
 		}
 		SHA_japanese_dependence_2 = {
-			picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}
@@ -75,7 +75,7 @@ ideas = {
 			}
 		}
 		SHA_japanese_dependence_3 = {
-			picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}
@@ -100,7 +100,7 @@ ideas = {
 			}
 		}
 		SHA_japanese_dependence_4 = {
-			picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}

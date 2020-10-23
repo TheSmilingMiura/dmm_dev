@@ -180,12 +180,14 @@ country_event = {
 			desc = "POLITICS_THEODOR_EBERHARD_DESC"
 			picture = GFX_portrait_ger_august_von_mackensen
 			expire = "2040.1.1"
-			ideology = despotism
+			ideology = authoritarian
 			traits = {
 				prince_of_terror popular_figurehead nationalist_symbol great_war_hero rearmer
 			}
 		}
 		load_focus_tree = { tree = GER_militarist_focus keep_completed = yes }
+	}
+		option = {
 		name = gerinternal.8.b
 		create_country_leader = {
 			name = "Maximillian Salzer"

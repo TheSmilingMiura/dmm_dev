@@ -83,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "SOV_Vladislav_Surkov.dds"
 	expire = "2040.3.1"
-	ideology = reactionary_ideology
+	ideology = nationalist
 	traits = {
 		
 	}

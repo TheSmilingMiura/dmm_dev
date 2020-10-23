@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "GFX_Portrait_estonia_konstantin_pats"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

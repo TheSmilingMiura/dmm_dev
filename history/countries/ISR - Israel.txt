@@ -40,7 +40,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Rudolf Szabó"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

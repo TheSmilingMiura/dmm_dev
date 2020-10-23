@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_ONDARZA_DESC"
 	picture = "gfx/leaders/MFR/Portrait_MFR_Henning_von_Ondarza.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

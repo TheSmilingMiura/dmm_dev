@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
 	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

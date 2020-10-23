@@ -40,7 +40,7 @@ create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Abdullah bin al-Hussein"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

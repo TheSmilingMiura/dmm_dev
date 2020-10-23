@@ -40,7 +40,7 @@ create_country_leader = {
 	name = "Antun Saadeh"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Ghazi bin Faisal"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_HARISCHANDRA_WIJIYATUNGA_DESC"
 	picture = "gfx/leaders/SIM/Portrait_SIM_Harischandra_Wijayatunga.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_HARALD_GANTE_DESC"
 	picture = "gfx/leaders/URA/Portrait_URA_Harald_Gante.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

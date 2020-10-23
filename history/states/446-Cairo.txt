@@ -1,29 +1,27 @@
-state=
-{
+
+state={
 	id=446
 	name="STATE_446"
-	manpower = 20439541
-	
-	state_category = megalopolis
 
-	history=
-	{
+	history={
 		owner = EGY
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 15
 			air_base = 5
-		}
-		
-		victory_points = {
-			7011 5
-		}
 
+		}
+		victory_points = {
+			7011 5 
+		}
 		add_core_of = EGY
 
 	}
 
 	provinces={
-		1068 3996 4055 4143 7011 7188 10005 10031 12004 992 7117 10127
+		992 1068 3996 4055 4143 7011 7117 7188 10005 10031 10127 12004 
 	}
+	manpower=20439541
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

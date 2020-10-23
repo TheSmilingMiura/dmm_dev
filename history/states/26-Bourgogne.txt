@@ -1,25 +1,22 @@
 
 state={
 	id=26
-	name="STATE_26" # Auveregne
-	manpower = 877800
-	
-	state_category = rural
+	name="STATE_26"
 
 	history={
-		owner = FRA
-		victory_points = {
-			3594 3 
-		}
+		owner = JOR
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
 
 		}
-		add_core_of = FRA
+		add_core_of = JOR
+
 	}
 
 	provinces={
-		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576 
+		4017 4115 4562 4591 4603 11976 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

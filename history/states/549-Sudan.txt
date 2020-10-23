@@ -2,23 +2,23 @@
 state={
 	id=549
 	name="STATE_549"
-	manpower = 10260490
-	
-	state_category = rural
-        resources={
-		oil = 10
+	resources={
+		oil=10.000
 	}
-	
-	
+
 	history={
 		owner = EGY
 		buildings = {
 			infrastructure = 5
+
 		}
 
 	}
 
 	provinces={
-		1914 1953 1960 2016 2096 4033 4918 5060 7996 8052 8084 10739 10764 10795 10827 10851 10857 10877 10908 12744 12800 12887 
+		1914 2016 4918 4961 7925 8084 10743 10784 10795 10827 10851 10900 12744 12800 12806 12826 12862 12881 12887 
 	}
+	manpower=10260490
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

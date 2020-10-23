@@ -1,13 +1,11 @@
+
 state={
 	id=656
 	name="STATE_656"
-	manpower = 2213403
-        resources={
-		oil=125
+	resources={
+		oil=125.000
 	}
-	
-	state_category = metropolis
-	
+
 	history={
 		owner = IRQ
 		victory_points = {
@@ -17,11 +15,17 @@ state={
 			infrastructure = 8
 			8085 = {
 				naval_base = 4
+
 			}
+
 		}
 
 	}
+
 	provinces={
-		8085
+		78 2004 2089 7977 8001 8085 12726 12879 
 	}
+	manpower=2213403
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

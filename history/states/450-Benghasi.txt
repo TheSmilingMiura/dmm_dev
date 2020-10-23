@@ -2,30 +2,32 @@
 state={
 	id=450
 	name="STATE_450"
-	manpower = 1082535
-	
-	state_category = city
 
 	history={
 		owner = ITA
-		
 		victory_points = {
 			11954 3 
 		}
 		buildings = {
 			infrastructure = 7
-                        industrial_complex = 5
-                        dockyard = 2
+			industrial_complex = 5
+			dockyard = 2
 			air_base = 1
 			11954 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = LBA
-                add_core_of = ITA
+		add_core_of = ITA
+
 	}
 
 	provinces={
-		1127 4120 10123 11954 
+		1062 4063 4120 4151 7139 10049 10123 11954 12079 12094 
 	}
+	manpower=1082535
+	buildings_max_level_factor=1.000
+	state_category=city
 }

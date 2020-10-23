@@ -1,8 +1,7 @@
+
 state={
 	id=735
 	name="STATE_735"
-
-	state_category = town
 
 	history={
 		owner = ITA
@@ -17,13 +16,17 @@ state={
 			infrastructure = 4
 			9909 = {
 				naval_base = 2
-			}		
+
+			}
+
 		}
+
 	}
 
 	provinces={
-		764 778 3764 3959 3961 6609 6975 9603 9736 9745 9909 11573 
+		762 764 778 780 911 956 958 3589 3762 3764 3768 3928 3959 3961 6609 6784 6975 9603 9736 9745 9909 11573 11713 11834 11849 11875 
 	}
 	manpower=907500
 	buildings_max_level_factor=1.000
+	state_category=town
 }

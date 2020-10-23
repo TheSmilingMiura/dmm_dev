@@ -1,36 +1,40 @@
 
 state={
 	id=20
-	name="STATE_20" # Rhone
-	manpower = 1273200
+	name="STATE_20"
 	resources={
-		steel=60 # was: 128
-		aluminium=35 # was: 72
+		steel=60.000
+		aluminium=35.000
 	}
-
-	state_category = rural
 
 	history={
 		owner = FRA
 		victory_points = {
-			6613 10
+			6613 10 
 		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
+
 		}
 		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
 				industrial_complex = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		3770 6613 6786 9728 9732 11593 11716 11794 
+		590 769 3594 3754 3770 6613 6644 6648 6773 6786 6789 9593 9607 9728 9732 9748 11576 11593 11716 11794 
 	}
+	manpower=1273200
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

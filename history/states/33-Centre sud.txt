@@ -2,20 +2,21 @@
 state={
 	id=33
 	name="STATE_33"
-	manpower = 636400
-	
-	state_category = town
 
 	history={
-		owner = FRA
-		
+		owner = SYR
 		buildings = {
 			infrastructure = 6
+
 		}
-		add_core_of = FRA
+		add_core_of = SYR
+
 	}
 
 	provinces={
-		651 669 3621 3626 3655 6648 6651 9629 11869 
+		1074 4486 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
 }

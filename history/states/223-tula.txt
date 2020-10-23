@@ -14,14 +14,10 @@ state={
 		buildings = {
 			infrastructure = 9
 			arms_factory = 10
+                        industrial_complex = 5
 			air_base = 1
 		}
 		add_core_of = GKT
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
 	}
 
 	provinces={

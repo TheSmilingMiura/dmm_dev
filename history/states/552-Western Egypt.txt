@@ -6,7 +6,7 @@ state={
 	history={
 		owner = EGY
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 
 		}
 		add_core_of = EGY
@@ -16,7 +16,7 @@ state={
 	provinces={
 		2064 7216 10097 10869 10907 12099 12733 12816 
 	}
-	manpower=26539
+	manpower=187263	
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

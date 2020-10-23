@@ -6,7 +6,7 @@ state={
 	history={
 		owner = IRQ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 		}
 		add_core_of = IRQ
@@ -16,7 +16,7 @@ state={
 	provinces={
 		1631 4951 10744 10876 12413 12839 
 	}
-	manpower=122093
+	manpower=2296613
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=large_town
 }

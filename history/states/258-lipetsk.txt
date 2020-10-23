@@ -12,7 +12,8 @@ state={
 		owner = GKT
 		buildings = {
 			infrastructure = 7
-                        arms_factory = 2
+                        arms_factory = 5
+                        industrial_complex = 10
 		}
 		add_core_of = GKT
 	}

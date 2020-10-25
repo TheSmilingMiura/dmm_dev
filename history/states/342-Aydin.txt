@@ -1,12 +1,10 @@
 
 state={
 	id=342
-	name="STATE_342" # Antalya
-	manpower = 362689
+	name="STATE_342"
 	resources={
-		chromium=35 # was: 46
+		chromium=35.000
 	}
-	state_category = rural
 
 	history={
 		owner = TUR
@@ -18,12 +16,18 @@ state={
 			industrial_complex = 1
 			1005 = {
 				naval_base = 4
+
 			}
+
 		}
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		1005 1119 9941 10122 11917 12013 12016 12096 
+		784 1005 1119 1122 3876 4008 4124 4127 7026 10056 12013 12016 12096 
 	}
+	manpower=362689
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

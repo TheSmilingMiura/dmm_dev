@@ -1,22 +1,21 @@
 
 state={
 	id=513
-	name="STATE_513" # Tlmecen
-	manpower = 9215316
-	
-	state_category = city
+	name="STATE_513"
 
 	history={
-		owner = ALG
+		owner = ITA
 		buildings = {
 			infrastructure = 6
-                        industrial_complex = 2
-                        arms_factory = 1
+
 		}
-		add_core_of = ALG
+
 	}
 
 	provinces={
-		1126 1128 1141 1967 3991 4018 4150 4970 5053 7008 7033 7040 7149 9943 9960 10045 10059 12018 12020 12034 12888 13074 
+		1037 4061 4129 7077 7162 10026 11921 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
 }

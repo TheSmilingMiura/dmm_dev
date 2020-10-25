@@ -1,20 +1,22 @@
 
 state={
 	id=345
-	name="STATE_345" # Mersin
-	manpower = 411798
-
-	state_category = rural
+	name="STATE_345"
 
 	history={
-		owner = TUR
+		owner = ALG
 		buildings = {
 			infrastructure = 3
+
 		}
-		add_core_of = TUR
+		add_core_of = ALG
+
 	}
 
 	provinces={
-		1122 4008 4124 4127 7026 7143 10056 
+		1126 1967 4018 4970 5053 7149 9943 9960 12888 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

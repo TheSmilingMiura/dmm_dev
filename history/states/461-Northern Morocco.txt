@@ -2,13 +2,9 @@
 state={
 	id=461
 	name="STATE_461"
-	manpower = 25249879
-	
-	state_category = large_city
-	
+
 	history={
 		owner = SPR
-
 		victory_points = {
 			7069 10 
 		}
@@ -18,11 +14,17 @@ state={
 			air_base = 4
 			7069 = {
 				naval_base = 6
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		989 1079 1111 1194 4084 4097 4139 7069 7100 7116 7173 10013 10023 10070 11943 11987 12042 
+		1079 1194 4084 4097 4139 7069 7100 7173 10013 10023 10070 11943 11987 12042 
 	}
+	manpower=25249879
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

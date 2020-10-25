@@ -1,22 +1,22 @@
 
 state={
 	id=356
-	name="STATE_356" # Kastamonu
-	manpower = 860589
-	state_category = rural
+	name="STATE_356"
 
 	history={
-		owner = TUR
+		owner = ALG
 		buildings = {
 			infrastructure = 3
-			6995 = {
-				naval_base = 1
-			}
+
 		}
-		add_core_of = TUR
+		add_core_of = ALG
+
 	}
 
 	provinces={
-		979 3967 3982 6920 6938 6978 6995 9844 9871 11839 11897 
+		3991 4116 4150 7008 7132 10045 11923 12018 13074 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

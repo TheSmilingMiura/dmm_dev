@@ -1,20 +1,22 @@
 
 state={
 	id=348
-	name="STATE_348" # Kayseri
-	manpower = 858452
-	
-	state_category = rural
+	name="STATE_348"
 
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		869 919 921 961 3807 3862 3870 3964 6888 6977 9830 9861 11826 11844 
+		849 922 3879 3893 6895 11842 
 	}
+	manpower=858452
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

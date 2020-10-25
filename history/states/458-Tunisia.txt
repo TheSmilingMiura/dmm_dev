@@ -2,11 +2,9 @@
 state={
 	id=458
 	name="STATE_458"
-	manpower = 6181513
-	state_category = large_city
 	resources={
-		steel=6 # was: 8
-                oil = 8
+		steel=6.000
+		oil=8.000
 	}
 
 	history={
@@ -23,11 +21,17 @@ state={
 			air_base = 8
 			9994 = {
 				naval_base = 8
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969 
+		1046 4163 7180 9994 10091 11969 
 	}
+	manpower=6181513
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

@@ -2,12 +2,9 @@
 state={
 	id=347
 	name="STATE_347"
-	manpower = 807660
 	resources={
-		chromium=19 # was: 26
+		chromium=19.000
 	}
-	
-	state_category = rural
 
 	history={
 		owner = TUR
@@ -18,12 +15,18 @@ state={
 			infrastructure = 4
 			904 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		890 904 3905 3919 6871 11811 11866 11883 
+		890 904 933 960 975 979 3905 3919 3935 3965 3967 3982 6938 6978 6995 9871 9900 9915 11839 11866 11881 11883 11894 11897 
 	}
+	manpower=807660
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

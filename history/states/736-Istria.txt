@@ -9,7 +9,9 @@ state={
 		add_core_of = ITA
 		add_core_of = YUG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 9
+                        industrial_complex = 5
+                        dockyard = 10
 			11735 = {
 				naval_base = 5
 

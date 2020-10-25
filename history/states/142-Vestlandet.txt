@@ -2,7 +2,7 @@
 state={
 	id=142
 	name="STATE_142"
-	manpower = 880945
+	manpower = 1413099
 	
 	state_category = city
 	
@@ -14,7 +14,7 @@ state={
 	history={
 		owner = NOR
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 			industrial_complex = 2
 			air_base = 1
 			9296 = {

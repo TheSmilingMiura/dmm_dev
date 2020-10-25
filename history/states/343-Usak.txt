@@ -9,8 +9,8 @@ state={
 	history={
 		owner = TUR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 3
 
 		}
 		add_core_of = TUR
@@ -20,7 +20,7 @@ state={
 	provinces={
 		856 928 981 3856 3927 3983 6877 6945 9878 9921 10041 11796 11831 11898 11907 11917 
 	}
-	manpower=955763
+	manpower=3367309
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

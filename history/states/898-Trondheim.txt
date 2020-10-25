@@ -2,7 +2,7 @@
 state={
 	id=898
 	name="STATE_898"
-	manpower = 127435
+	manpower = 172746
 	
 	state_category = coastal_city_concession
 

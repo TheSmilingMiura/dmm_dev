@@ -2,9 +2,9 @@
 state={
 	id=149
 	name="STATE_149" # Pohjanmaa
-	manpower = 811029
+	manpower = 1042317
 	
-	state_category = town
+	state_category = city
 	
 	history={
 		owner = FIN
@@ -12,8 +12,9 @@ state={
 			3122 3 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 7
+			industrial_complex = 10
+                        arms_factory = 3
 			3122 = {
 				naval_base = 1
 			}

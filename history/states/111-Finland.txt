@@ -2,9 +2,9 @@
 state={
 	id=111
 	name="STATE_111" # Uusimaa
-	manpower = 1670190
+	manpower = 3420675
 	
-	state_category = city
+	state_category = metropolis
 	
 	history={
 		owner = FIN
@@ -18,10 +18,10 @@ state={
 			3137 1 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 2
-			dockyard = 1
+			infrastructure = 8
+			arms_factory = 10
+			industrial_complex = 10
+			dockyard = 3
 			air_base = 5
 			11105 = {
 				naval_base = 5

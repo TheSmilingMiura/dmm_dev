@@ -10,14 +10,14 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			9833 20 
+			9833 30 
 		}
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 1
-			dockyard = 1
-			arms_factory = 2
-			air_base = 4
+			industrial_complex = 10
+			dockyard = 5
+			arms_factory = 5
+			air_base = 8
 			9833 = {
 				naval_base = 8
 
@@ -31,7 +31,7 @@ state={
 	provinces={
 		9833 11829 
 	}
-	manpower=17404509
+	manpower=10915158
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

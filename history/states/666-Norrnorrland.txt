@@ -2,14 +2,14 @@
 state={
 	id=666
 	name="STATE_666" # Lappland
-	manpower = 415327
+	manpower = 509392
 	resources={
 		tungsten=40 # was: 70
 		steel= 50 # was: 80
 		chromium = 25 # was: 40
 	}
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = SWE
@@ -18,7 +18,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			industrial_complex = 2
 			9108 = {
 				naval_base = 2
 			}

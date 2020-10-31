@@ -6,16 +6,30 @@ state={
 	history={
 		owner = AFK
 		buildings = {
-			infrastructure = 2
-			1903 = {
-				naval_base = 1
+			infrastructure = 7
+                        industrial_complex = 10
+                        arms_factory = 2
+                        dockyard = 2
+			2050 = {
+				naval_base = 2
 
 			}
-			8244 = {
-				naval_base = 1
+			4952 = {
+				naval_base = 5
 
 			}
+                        10803 = {
+				naval_base = 2
 
+			}
+                        10862 = {
+				naval_base = 3
+
+			}
+                        6039 = {
+				naval_base = 3
+
+			}
 		}
 
 	}
@@ -23,7 +37,7 @@ state={
 	provinces={
 		2050 4952 6039 10803 10862 
 	}
-	manpower=185000
+	manpower=43527616
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=metropolis
 }

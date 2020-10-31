@@ -96,7 +96,16 @@ add_to_faction = UKR
 add_to_faction = SLO
 add_to_faction = GKT
 add_to_faction = RKO
-
+add_to_faction = LCM
+add_to_faction = ANG
+add_to_faction = SAU
+add_to_faction = IRQ
+add_to_faction = TUR
+add_to_faction = UAE
+add_to_faction = SYR
+add_to_faction = PAL
+add_to_faction = JOR
+add_to_faction = YEM
 if = {
 	limit = {
 		OR = {
@@ -108,11 +117,6 @@ if = {
 		target = GKM
 		autonomous_state = autonomy_reichskommissariat
                 freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AFK
-		autonomous_state = autonomy_reichskommissariat
-		freedom_level = 0.5
 	}
 	set_autonomy = {
 		target = RKK
@@ -180,7 +184,6 @@ if = {
 		freedom_level = 0.1
 	}
 	else = {
-		puppet = AFK
 		puppet = MFR
         puppet = GKM
 		puppet = RKK

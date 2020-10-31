@@ -5,6 +5,232 @@ oob = "AFK_2004"
 set_technology = {
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = KAN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = ARE
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = MOU
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = ODU
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.7
+	}
+	set_autonomy = {
+		target = ZAR
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.9
+	}
+	set_autonomy = {
+		target = MAS
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = ASA
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = BNG
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = TIM
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = UNY
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = UNK
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = KIS
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = KVU
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = KUP
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = BIA
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = KAS
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = LUN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = SAS
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = UBA
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = BLB
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = MLI
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = ZAM
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = TZN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = UGA
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = ZIM
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = CMR
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = RWA
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = BRD
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = VOL
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = DAH
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = GAM
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = GNA
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = KEN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = MLW
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = EQU
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	else = {
+        puppet = KAN
+		puppet = ARE
+		puppet = MOU
+		puppet = ODU
+		puppet = ZAR
+		puppet = MAS
+		puppet = ASA
+		puppet = BNG
+		puppet = TIM
+		puppet = UNY
+		puppet = WAJ
+		puppet = UNK
+        puppet = KIS
+		puppet = KVU
+		puppet = KUP
+		puppet = BIA
+		puppet = KAS
+		puppet = LUN
+		puppet = SAS
+		puppet = UBA
+		puppet = BLB
+		puppet = MLI
+		puppet = ZAM
+		puppet = COG
+        puppet = TZN
+		puppet = UGA
+		puppet = CMR
+		puppet = RWA
+		puppet = BRD
+		puppet = VOL
+		puppet = DAH
+		puppet = GAM
+		puppet = GNA
+		puppet = KEN
+		puppet = MLW
+		puppet = EQU
+	}
+}
 
 set_politics = {	
 	ruling_party = authoritarian
@@ -22,7 +248,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Eberhard Zorn"
 	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "AFK_Eberhard_Zorn.tga"
+	picture = "AFK_Eberhard_Zorn.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian
 	traits = {

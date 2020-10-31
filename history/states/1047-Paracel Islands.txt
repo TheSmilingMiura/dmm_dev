@@ -2,14 +2,16 @@ state = {
 	id = 1047
 	name = "STATE_1047"
 	state_category = enclave
-
+        resources={
+		oil=50.000
+	}
 	provinces = {
 		13412 
 	}
 
 	history = {
-		owner = RRC
-		add_core_of = RRC
+		owner = JAP
+		add_core_of = JAP
 	}
 
 	manpower = 1235

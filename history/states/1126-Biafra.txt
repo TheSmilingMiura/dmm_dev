@@ -4,6 +4,9 @@ state={
 	provinces={
 		1992 4889 7978 8034 10831 
 	}
+        resources={
+		oil=50.000
+	}
         history={
 		owner = BIA
 		add_core_of = BIA

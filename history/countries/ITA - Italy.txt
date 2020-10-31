@@ -40,8 +40,23 @@ if = {
 		autonomous_state = autonomy_satellite
                 freedom_level = 0.5
 	}
-        set_autonomy = {
+    set_autonomy = {
 		target = MRT
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+    set_autonomy = {
+		target = AIR
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = WAJ
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = WAD
 		autonomous_state = autonomy_satellite
                 freedom_level = 0.5
 	}
@@ -50,7 +65,10 @@ if = {
 		puppet = IEA
 		puppet = ALG
 		puppet = EGY
-                puppet = MRT
+        puppet = MRT
+        puppet = AIR
+        puppet = WAJ
+        puppet = WAD
 	}
 }
 

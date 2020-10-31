@@ -1,7 +1,9 @@
 state={
 	id=472
 	name="STATE_472"
-	
+	resources={
+		oil = 15
+	}
 	state_category = wasteland
 
 	history={

@@ -6,10 +6,10 @@ state={
 	history={
 		owner = AFK
 		victory_points = {
-			2038 1 
+			2038 5 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			2038 = {
 				naval_base = 3
 
@@ -22,7 +22,7 @@ state={
 	provinces={
 		1909 2038 2094 12858 
 	}
-	manpower=5201000
+	manpower=7728384
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_town
 }

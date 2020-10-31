@@ -5,6 +5,9 @@ state={
 	provinces={
 		1889 4959 7982
 	}
+        resources={
+		oil=42.000
+	}
 	history={
 		owner = PER
 		buildings = {

@@ -10,9 +10,9 @@ state={
 	history={
 		owner = SIA
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 5
+			infrastructure = 6
+			arms_factory = 5
+			industrial_complex = 15
 			air_base = 3
 			7408 = {
 				naval_base = 3
@@ -36,7 +36,7 @@ state={
 	provinces={
 		1427 7338 7353 7367 7408 7544 7572 10221 10250 10398 10411 12173 12345 
 	}
-	manpower=12422400
+	manpower=18324989
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 }

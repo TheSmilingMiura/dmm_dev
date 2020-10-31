@@ -4,15 +4,15 @@ state={
 	name="STATE_794"
 
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = VIN
+		add_core_of = VIN
 
 	}
 
 	provinces={
 		1362 1390 1464 1507 1520 4260 4539 10195 10326 12332 
 	}
-	manpower=6000000
+	manpower=2515229
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 }

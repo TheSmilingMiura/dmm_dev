@@ -15,29 +15,29 @@ set_country_flag = monroe_doctrine
 set_convoys = 5
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
+    fascist = 0
+    authoritarian = 0
+    reactionary = 0
+    conservative = 0
     liberal = 0
-    social_democrat = 0
-    socialist = 0
-    communist = 0
+    social_democrat = 10
+    socialist = 75
+    communist = 5
 }
 
 create_country_leader = {
-	name = "Gabriel Terra"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
+	name = "Tabaré Vasquez"
+	desc = ""
+	picture = "URG_Tabaré_Vázquez.dds"
 	expire = "1965.1.1"
-	ideology = military_junta
+	ideology = orthodox_marxism
 	traits = {
 		#
 	}

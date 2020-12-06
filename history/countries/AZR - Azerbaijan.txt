@@ -9,7 +9,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascist
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,37 +27,17 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mir Jafar Baghirov"
+	name = "Abulfaz Elchibey"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = military_junta
+	picture = "AZR_Abulfaz_Elchibey.dds"
+	expire = "2040.3.1"
+	ideology = authoritarian
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Mammad Amin Rasulzade"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = new_conservatism
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Gara Garabeyov"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = libertarianism
-	traits = {
-		
-	}
-}
 
 
 

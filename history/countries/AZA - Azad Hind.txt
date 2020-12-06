@@ -33,9 +33,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Chaudhary Ajit Singh"
 	desc = "She's underage"
-	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
+	picture = "AZA_Chaudhary_Ajit_Singh.dds"
 	expire = "2040.1.1"
 	ideology = esoteric_fascism
 	traits = {

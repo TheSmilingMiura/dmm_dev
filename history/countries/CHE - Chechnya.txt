@@ -78,3 +78,14 @@ set_popularities = {
     socialist = 0
     communist = 2
 }
+
+create_country_leader = {
+	name = "Dzhokhar Dudayev"
+	desc = ""
+	picture = "CHE_Dzhokhar_Dudayev.dds"
+	expire = "2020.1.1"
+	ideology = nationalist
+	traits = {
+		#
+	}
+}

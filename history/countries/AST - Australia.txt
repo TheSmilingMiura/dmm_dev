@@ -8,88 +8,45 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
-    liberal = 0
-    social_democrat = 0
+    fascist = 2
+    authoritarian = 2
+    reactionary = 10
+    conservative = 30
+    liberal = 34
+    social_democrat = 20
     socialist = 0
     communist = 0
 }
 
 create_country_leader = {
-	name = "John Curtin"
+	name = "John Howard"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Australia_John_Curtin.dds"
+	picture = "AST_John_Howard.dds"
 	expire = "1965.1.1"
-	ideology = orthodox_marxism
+	ideology = new_conservatism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
-	expire = "1965.1.1"
-	ideology = futurist
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = vanguard_communism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = libertarianism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rod Hull"
-	desc = ""
-	picture = "Portrait_Australia_Rod_Hull.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Monika"
-	desc = ""
-	picture = GFX_monika_portrait
-	expire = "1965.1.1"
-	ideology = technocracy
-	traits = { }
-}
-
-set_variable = { show_monika = 1 }
+#create_country_leader = {
+#	name = "Monika"
+#	desc = ""
+#	picture = GFX_monika_portrait
+#	expire = "1965.1.1"
+#	ideology = technocracy
+#	traits = { }
+#}
+#
+#set_variable = { show_monika = 1 }
 
 set_convoys = 100
 

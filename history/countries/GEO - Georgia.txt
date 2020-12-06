@@ -45,10 +45,10 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
+    fascist = 10
+    authoritarian = 0
+    reactionary = 40
+    conservative = 50
     liberal = 0
     social_democrat = 0
     socialist = 0
@@ -56,28 +56,18 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Noe Zhordania"
+	name = "Zviad Dzidziguri"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "GEO_Zviad_Dzidziguri.dds"
 	expire = "1953.3.1"
-	ideology = libertarianism
+	ideology = national_conservatism
 	traits = {
-		
+		#
 	}
 }
 
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = vanguard_communism
-	traits = {
-		
-	}
-}
 
-#couldnt find anything else, the commies simply forced everyone else into exile
+#them commies took mine geoligy
 
 
 

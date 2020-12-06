@@ -10,7 +10,7 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,11 +28,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Edwin Barclay"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	name = "Samuel Doe"
+	desc = ""
+	picture = "LIB_Samuel_Doe.dds"
 	expire = "1965.1.1"
-	ideology = military_junta
+	ideology = nationalist
 	traits = {
 		#
 	}

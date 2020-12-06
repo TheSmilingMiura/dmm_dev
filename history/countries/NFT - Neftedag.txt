@@ -19,8 +19,8 @@ set_politics = {
 
 set_popularities = {
     fascist = 25
-    authoritarian = 15
-    reactionary = 58
+    authoritarian = 58
+    reactionary = 15
     conservative = 2
     liberal = 0
     social_democrat = 0
@@ -31,8 +31,8 @@ set_popularities = {
 create_country_leader = {
 	
 	
-	name = "Eduardo Tsonga"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_2.dds"
+	name = "Raşit Meredow"
+	picture = "NFT_Raşit_Meredow.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian
 	traits = {

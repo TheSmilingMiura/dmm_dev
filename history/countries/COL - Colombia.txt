@@ -24,45 +24,26 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
-    liberal = 0
+    fascist = 0
+    authoritarian = 0
+    reactionary = 15
+    conservative = 35
+    liberal = 15
     social_democrat = 0
-    socialist = 0
-    communist = 0
+    socialist = 25
+    communist = 10
 }
 
 create_country_leader = {
-	name = "Alfonso López Pumarejo"
-	desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
-	picture = "GFX_Portrait_columbia_alfonso_lopez"
-	expire = "1965.1.1"
-	ideology = military_junta
+	name = "Hernán Andrade"
+	desc = ""
+	picture = "COL_Hernán_Andrade.dds"
+	expire = "2040.1.1"
+	ideology = social_conservatism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Mariano Ospina Pérez"
-	desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = futurist
-	traits = {
-		#
-	}
-}
 
-create_corps_commander = {
-	name = "Gustavo Rojas Pinilla"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	traits = {  trickster urban_assault_specialist }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
-}
+

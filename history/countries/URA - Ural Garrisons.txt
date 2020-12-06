@@ -22,7 +22,7 @@ set_politics = {
 
 set_popularities = {
     fascist = 66
-    corporatist = 14
+    authoritarian = 14
     reactionary = 20
     conservative = 0
     liberal = 0
@@ -35,7 +35,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Harald Gante"
 	desc = "POLITICS_HARALD_GANTE_DESC"
-	picture = "gfx/leaders/URA/Portrait_URA_Harald_Gante.dds"
+	picture = "URA_Harald_Gante.dds"
 	expire = "1965.1.1"
 	ideology = national_socialism
 	traits = {

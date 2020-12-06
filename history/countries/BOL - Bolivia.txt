@@ -9,7 +9,7 @@ set_country_flag = monroe_doctrine
 
 set_politics = {
 	ruling_party = authoritarian
-	last_election = "1936.1.1"
+	last_election = "2040.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -26,23 +26,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "José Luis Tejada Sorzano"
+	name = "Jorge Quiroga"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
+	picture = "BOL_Jorge_Quiroga.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian # liberalism, personally, but puppet for military
+	ideology = authoritarian 
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Óscar Únzaga de la Vega"
-	desc = "POLITICS_OSCAR_UNZAGA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = futurist
-	traits = {
-		#
-	}
-}

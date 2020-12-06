@@ -62,19 +62,30 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = reactionary
-	last_election = "1936.1.1"
+	ruling_party = authoritarian
+	last_election = "2040.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 25
-    corporatist = 0
-    reactionary = 48
-    conservative = 30
+    fascist = 12
+    authoritarian = 50
+    reactionary = 13
+    conservative = 15
     liberal = 10
-    social_democrat = 5
+    social_democrat = 0
     socialist = 0
-    communist = 2
+    communist = 0
+}
+
+create_country_leader = {
+	name = "Gadzhi Makhachev"
+	desc = ""
+	picture = "DAG_Gadzhi_Makhachev.dds"
+	expire = "2040.1.1"
+	ideology = authoritarian
+	traits = {
+		#
+	}
 }

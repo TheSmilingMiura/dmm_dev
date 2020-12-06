@@ -46,7 +46,7 @@ create_country_leader = {
 	name = "Winston Peters"
 	desc = ""
 	picture = "NZL_Winston_Peters.dds"
-	expire = "1965.1.1"
+	expire = "2040.1.1"
 	ideology = traditional_conservatism
 	traits = {
 		#

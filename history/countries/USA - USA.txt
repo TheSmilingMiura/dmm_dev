@@ -63,11 +63,6 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = MEX
-		autonomous_state = autonomy_supervised_state
-		freedom_level = 0.8
-	}
-	set_autonomy = {
 		target = AST
 		autonomous_state = autonomy_supervised_states
 		freedom_level = 0.6
@@ -75,7 +70,7 @@ if = {
 	else = {
 		puppet = NZL
         puppet = CAN
-		puppet = MEX
+		#puppet = MEX
 		puppet = AST
 	}
 }

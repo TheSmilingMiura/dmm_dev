@@ -14,6 +14,8 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 45
 
+USA = { puppet = MEX }
+
 set_politics = {
 	ruling_party = conservative
 	last_election = "1936.1.1"

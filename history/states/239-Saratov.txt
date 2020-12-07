@@ -14,7 +14,7 @@ state={
                         arms_factory = 5
 		}
 		victory_points = {
-			3578 5 
+			3578 25 
 		}
 		add_core_of = GKK
 	}

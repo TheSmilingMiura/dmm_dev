@@ -14,16 +14,16 @@ GER = { add_to_faction = URA }
 set_convoys = 10
 
 set_politics = {
-	ruling_party = fascist
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 66
-    authoritarian = 14
-    reactionary = 20
+    fascist = 0
+    authoritarian = 100
+    reactionary = 0
     conservative = 0
     liberal = 0
     social_democrat = 0
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_HARALD_GANTE_DESC"
 	picture = "URA_Harald_Gante.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
+	ideology = military_junta
 	traits = {
 		#
 	}

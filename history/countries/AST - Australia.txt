@@ -15,13 +15,13 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 2
-    authoritarian = 2
+    fascist = 0
+    authoritarian = 0
     reactionary = 10
     conservative = 30
-    liberal = 34
+    liberal = 30
     social_democrat = 20
-    socialist = 0
+    socialist = 10
     communist = 0
 }
 

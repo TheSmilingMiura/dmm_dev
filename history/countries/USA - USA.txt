@@ -45,36 +45,6 @@ add_to_faction = MEX
 add_to_faction = POR
 add_to_faction = AST
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_supervised_state
-                freedom_level = 0.1
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_supervised_state
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_supervised_states
-		freedom_level = 0.6
-	}
-	else = {
-		puppet = NZL
-        puppet = CAN
-		#puppet = MEX
-		puppet = AST
-	}
-}
-
 add_ideas = {
 	usa_american_patriotism
 	usa_the_first_amendment

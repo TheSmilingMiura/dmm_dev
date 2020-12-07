@@ -47,16 +47,18 @@ set_convoys = 200
 set_stability = 0.55 
 set_war_support = 0.1
 
+GER = { puppet = MFR }
+
 set_politics = {
-	ruling_party = fascist
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 100
-    authoritarian = 0
+    fascist = 0
+    authoritarian = 100
     reactionary = 0
     conservative = 0
     liberal = 0
@@ -70,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_ONDARZA_DESC"
 	picture = "MFR_Henning_von_Ondarza.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
+	ideology = military_junta
 	traits = {
 		#
 	}

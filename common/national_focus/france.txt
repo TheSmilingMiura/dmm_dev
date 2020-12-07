@@ -7,6 +7,7 @@
 			tag = FRA
 		}
 	}
+	continuous_focus_position = { x = 16 y = 3000 }
 	focus = {
 		id = FRA_purges_in_the_cabinet
 		icon = GFX_goal_unknown
@@ -123,23 +124,6 @@
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_revitalize_the_mining_industry }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	focus = {
-		id = FRA_the_council_concedes
-		icon = GFX_goal_unknown
-		x = 9
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = FRA_a_new_capital 
-		}
-		prerequisite = { 
-			focus = FRA_expand_german_economic_ties 
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -273,4 +257,724 @@
 			factor = 1
 		}
 	}
- }
+	focus = {
+		id = FRA_the_council_concedes
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_new_capital 
+		}
+		prerequisite = { 
+			focus = FRA_expand_german_economic_ties 
+		}
+		completion_reward = {
+			country_event = france.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_a_true_aryan_hos
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_council_concedes }
+		allow_branch = { has_country_flag = true_aryan_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_call_french_nuclear_expert
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_true_aryan_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_root_out_southern_partisans
+		icon = GFX_goal_unknown
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_true_aryan_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_remove_healthcare
+		icon = GFX_goal_unknown
+		x = 11
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_true_aryan_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_purge_anti_germans
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_remove_healthcare }
+		prerequisite = { focus = FRA_root_out_southern_partisans }
+		prerequisite = { focus = FRA_call_french_nuclear_expert }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_call_german_advisors
+		icon = GFX_goal_unknown
+		x = 8
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_purge_anti_germans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_further_germanization
+		icon = GFX_goal_unknown
+		x = 7
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_call_german_advisors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_take_german_manufacturer
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_purge_anti_germans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_apologize_for_the_revolts
+		icon = GFX_goal_unknown
+		x = 11
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_take_german_manufacturer }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_appeal_to_german_settlers
+		icon = GFX_goal_unknown
+		x = 9
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_purge_anti_germans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_new_french_man
+		icon = GFX_goal_unknown
+		x = 8
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_appeal_to_german_settlers }
+		prerequisite = { focus = FRA_call_german_advisors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_favourize_german_tourism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_appeal_to_german_settlers }
+		prerequisite = { focus = FRA_take_german_manufacturer }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_abandon_claims_on_lost_lands
+		icon = GFX_goal_unknown
+		x = 9
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_new_french_man }
+		prerequisite = { focus = FRA_favourize_german_tourism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_adopt_the_french_reichmark
+		icon = GFX_goal_unknown
+		x = 9
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_abandon_claims_on_lost_lands }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_euro_aligned_hos
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_council_concedes }
+		allow_branch = { has_country_flag = euro_aligned_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_reform_regional_divisions
+		icon = GFX_goal_unknown
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_euro_aligned_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_control_opposition
+		icon = GFX_goal_unknown
+		x = 7
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reform_regional_divisions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_change_historical_narrative
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reform_regional_divisions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_turn_toward_market_economy
+		icon = GFX_goal_unknown
+		x = 11
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reform_regional_divisions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_organize_joint_training
+		icon = GFX_goal_unknown
+		x = 8
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_turn_toward_market_economy }
+		prerequisite = { focus = FRA_change_historical_narrative }
+		prerequisite = { focus = FRA_control_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_rethink_our_military_doctrine
+		icon = GFX_goal_unknown
+		x = 8
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_organize_joint_training }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_promote_coastal_tourism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_turn_toward_market_economy }
+		prerequisite = { focus = FRA_change_historical_narrative }
+		prerequisite = { focus = FRA_control_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_improve_our_mining_technique
+		icon = GFX_goal_unknown
+		x = 10
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_promote_coastal_tourism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_treaty_on_maritime_resources
+		icon = GFX_goal_unknown
+		x = 6
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rethink_our_military_doctrine }
+		prerequisite = { focus = FRA_improve_our_mining_technique }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_treaty_on_electronics
+		icon = GFX_goal_unknown
+		x = 8
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rethink_our_military_doctrine }
+		prerequisite = { focus = FRA_improve_our_mining_technique }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_treaty_on_tourism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rethink_our_military_doctrine }
+		prerequisite = { focus = FRA_improve_our_mining_technique }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_treaty_of_friendship
+		icon = GFX_goal_unknown
+		x = 12
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rethink_our_military_doctrine }
+		prerequisite = { focus = FRA_improve_our_mining_technique }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_formalize_european_treaties
+		icon = GFX_goal_unknown
+		x = 9
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_treaty_of_friendship }
+		prerequisite = { focus = FRA_treaty_on_electronics }
+		prerequisite = { focus = FRA_treaty_on_maritime_resources }
+		prerequisite = { focus = FRA_treaty_on_tourism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_spain_aligned_hos
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_council_concedes }
+		allow_branch = { has_country_flag = spain_aligned_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_transfer_terrorists
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_spain_aligned_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_offer_andorra_coprincipality
+		icon = GFX_goal_unknown
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_transfer_terrorists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_solve_housing_problem
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_spain_aligned_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_reduce_tariffs
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_solve_housing_problem }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_prospect_for_resources
+		icon = GFX_goal_unknown
+		x = 7
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_offer_andorra_coprincipality }
+		prerequisite = { focus = FRA_reduce_tariffs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_distance_from_germany
+		icon = GFX_goal_unknown
+		x = 7
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_prospect_for_resources }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_latin_economic_cooperation
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_offer_andorra_coprincipality }
+		prerequisite = { focus = FRA_reduce_tariffs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_revive_armament_industry
+		icon = GFX_goal_unknown
+		x = 11
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_offer_andorra_coprincipality }
+		prerequisite = { focus = FRA_reduce_tariffs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_get_new_contracts
+		icon = GFX_goal_unknown
+		x = 11
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_revive_armament_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_reintroduce_occitan
+		icon = GFX_goal_unknown
+		x = 9
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_distance_from_germany }
+		prerequisite = { focus = FRA_get_new_contracts }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_nationalize_renault
+		icon = GFX_goal_unknown
+		x = 8
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reintroduce_occitan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_privatize_highways
+		icon = GFX_goal_unknown
+		x = 10
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reintroduce_occitan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_imitate_franco
+		icon = GFX_goal_unknown
+		x = 9
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_nationalize_renault }
+		prerequisite = { focus = FRA_privatize_highways }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_autarky_hos
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_council_concedes }
+		allow_branch = { has_country_flag = autarky_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_stop_any_immigration
+		icon = GFX_goal_unknown
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_autarky_hos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_impose_impossible_tariffs
+		icon = GFX_goal_unknown
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stop_any_immigration }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_remove_too_competent_political_leaders
+		icon = GFX_goal_unknown
+		x = 8
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_impose_impossible_tariffs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_purge_the_opposition
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stop_any_immigration }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_amnesty_to_maquisards
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_purge_the_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_cut_diplomatic_ties
+		icon = GFX_goal_unknown
+		x = 9
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_amnesty_to_maquisards }
+		prerequisite = { focus = FRA_remove_too_competent_political_leaders }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_centralize_the_country
+		icon = GFX_goal_unknown
+		x = 7
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_cut_diplomatic_ties }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_form_military_commissariats
+		icon = GFX_goal_unknown
+		x = 7
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_centralize_the_country }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_remove_the_ORTF_director
+		icon = GFX_goal_unknown
+		x = 11
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_cut_diplomatic_ties }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_mandatory_boarding_school
+		icon = GFX_goal_unknown
+		x = 11
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_remove_the_ORTF_director }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_four_children_policy
+		icon = GFX_goal_unknown
+		x = 9
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_cut_diplomatic_ties }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_establish_experiment_cities
+		icon = GFX_goal_unknown
+		x = 8
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_four_children_policy }
+		prerequisite = { focus = FRA_form_military_commissariats }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = FRA_state_parenting
+		icon = GFX_goal_unknown
+		x = 10
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_four_children_policy }
+		prerequisite = { focus = FRA_mandatory_boarding_school }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

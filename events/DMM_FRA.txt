@@ -1,0 +1,63 @@
+﻿
+#################
+# France events
+#################
+
+add_namespace = reload_focus
+add_namespace = france
+
+#reload focus
+country_event = {
+	id = reload_focus.1
+	title = reload_focus.1.t
+	desc = reload_focus.1.d
+	picture = GFX_report_event_jingwei
+
+	is_triggered_only = yes
+	fire_only_once = no
+	hidden = yes
+
+	option = {
+		name = reload_focus.1.a
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+#choose a leader
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = GFX_report_event_jingwei
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { ##True Aryan leader
+		name = france.1.a
+		set_country_flag = true_aryan_hos
+		hidden_effect = {
+			country_event = reload_focus.1
+		}
+	}
+	option = { ##europe aligned leader
+		name = france.1.b
+		set_country_flag = euro_aligned_hos
+		hidden_effect = {
+			country_event = reload_focus.1
+		}
+	}
+	option = { ##spain aligned leader
+		name = france.1.c
+		set_country_flag = spain_aligned_hos
+		hidden_effect = {
+			country_event = reload_focus.1
+		}
+	}
+	option = { ##pro autarky leader
+		name = france.1.d
+		set_country_flag = autarky_hos
+		hidden_effect = {
+			country_event = reload_focus.1
+		}
+	}
+}

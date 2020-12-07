@@ -1,26 +1,29 @@
-state=
-{
+
+state={
 	id=550
 	name="STATE_550"
-	manpower = 3214000
-	
-	state_category = rural
-	
-	history=
-	{
+
+	history={
 		owner = IEA
 		victory_points = {
-			12766 1
+			12766 1 
 		}
 		buildings = {
 			infrastructure = 4
 			air_base = 3
 			12766 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
+
 	provinces={
-		5017 5047 5091 8043 12723 12766
+		2072 4985 5017 5041 5047 5091 7944 8043 8124 12723 12766 
 	}
+	manpower=3214000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

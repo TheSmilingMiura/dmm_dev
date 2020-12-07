@@ -1,9 +1,7 @@
+
 state={
 	id=699
 	name="STATE_699"
-	manpower = 391167
-	
-	state_category = pastoral
 
 	history={
 		owner = SPR
@@ -11,14 +9,21 @@ state={
 			infrastructure = 3
 			8038 = {
 				naval_base = 1
+
 			}
 			12857 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	
+
 	provinces={
-		4920 5012 7979 8038 8111 10875 12857 
+		5012 7979 8038 10875 
 	}
+	manpower=391167
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

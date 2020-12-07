@@ -1,0 +1,20 @@
+state={
+	id=1135
+	name="STATE_1135"
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SAF
+
+	}
+	
+	provinces={
+		7842 13953 13958 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

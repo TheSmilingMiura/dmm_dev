@@ -1,0 +1,21 @@
+state={
+	id=1139
+	name="STATE_1139"
+	
+	history={
+		owner = LCM
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = MZB
+		add_core_of = LCM
+
+	}
+	
+	provinces={
+		12971 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

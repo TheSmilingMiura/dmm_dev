@@ -4,17 +4,16 @@ state={
 	name="STATE_355"
 
 	history={
-		owner = ALG
+		owner = SPR
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ALG
 
 	}
 
 	provinces={
-		1095 1958 7041 8088 10731 12711 12842 
+		1207 4084 7100 7173 10013 10023 10107 11987 12042 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

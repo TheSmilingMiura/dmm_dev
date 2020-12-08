@@ -1,9 +1,7 @@
+
 state={
 	id=679
 	name="STATE_679"
-	manpower = 13174864
-	
-	state_category = metropolis
 
 	history={
 		owner = SAU
@@ -15,15 +13,21 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-                        industrial_complex = 4
+			industrial_complex = 4
 			12883 = {
 				naval_base = 5
+
 			}
+
 		}
 		add_core_of = SAU
+
 	}
 
 	provinces={
-		1033 1923 2027 2033 2090 2095 4981 5006 5037 7934 8073 8092 10748 10786 10835 12101 12758 12883 
+		1033 1923 2027 2033 2095 4981 5006 5037 7934 8030 8073 8092 10786 10835 12101 12883 
 	}
+	manpower=13174864
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

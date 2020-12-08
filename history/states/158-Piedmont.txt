@@ -2,14 +2,11 @@
 state={
 	id=158
 	name="STATE_158"
-	manpower = 5665476
-	
-	state_category = megalopolis
 	resources={
-		steel=24 # was: 40
-		aluminium=16 # was: 28
-		chromium = 2 # was: 4
-		tungsten = 1 # was: 2
+		steel=24.000
+		aluminium=16.000
+		chromium=2.000
+		tungsten=1.000
 	}
 
 	history={
@@ -28,12 +25,18 @@ state={
 			air_base = 8
 			6788 = {
 				naval_base = 8
+
 			}
+
 		}
 		add_core_of = ITA
+
 	}
 
 	provinces={
-		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11730 11891 
 	}
+	manpower=5665476
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

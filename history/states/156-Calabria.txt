@@ -2,9 +2,7 @@
 state={
 	id=156
 	name="STATE_156"
-	manpower = 4663888
-	
-	state_category = metropolis
+
 	history={
 		owner = ITA
 		victory_points = {
@@ -16,20 +14,29 @@ state={
 			air_base = 5
 			11837 = {
 				naval_base = 10
+
 			}
 			11998 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		3901 6979 9784 9856 9990 10027 11837 11998 12066 12098 
+		819 851 883 955 3901 3958 3968 6843 6939 6972 6979 6980 9784 9826 9856 9990 10027 11803 11837 11998 12066 12098 
 	}
+	manpower=4663888
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

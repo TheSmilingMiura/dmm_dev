@@ -2,18 +2,21 @@
 state={
 	id=678
 	name="STATE_678"
-	manpower=42
-	state_category = wasteland
 
 	history={
-		owner = SAU
+		owner = ALG
 		buildings = {
 			infrastructure = 0
+
 		}
-		add_core_of = SAU
+		add_core_of = ALG
+
 	}
 
 	provinces={
-		4932 5081 8030 8118 10870 12740 12768 
+		1126 1967 2049 4970 5035 5053 8061 8077 9960 12888 
 	}
+	manpower=42
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

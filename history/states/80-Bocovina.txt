@@ -1,20 +1,22 @@
+
 state={
 	id=80
 	name="STATE_80"
-	manpower = 474600
-	
-	state_category = rural
-	
-	history=
-	{
-		owner = ROM
+
+	history={
+		owner = ALG
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
+
 		}
-		add_core_of = ROM
+		add_core_of = ALG
+
 	}
+
 	provinces={
-		577 9548
+		1095 1958 7041 8088 10731 12018 12711 12842 13074 
 	}
+	manpower=474600
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

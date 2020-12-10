@@ -1,0 +1,3 @@
+FRA_management_initial = {
+	add_to_variable = { bruh = 1 }
+}

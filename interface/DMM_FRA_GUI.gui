@@ -1,0 +1,9 @@
+guiTypes = {
+	containerWindowType = {
+		name = "FRA_management_open_container"
+		size = { width = 1705 height = 1380 }
+		position = { x = 520 y = 40 }
+		orientation = upper_left
+	}
+}
+    

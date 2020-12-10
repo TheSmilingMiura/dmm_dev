@@ -1,0 +1,54 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FRA_outline"
+		texturefile = "gfx/interface/scripted_guis/FRA/outline.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_1"
+		texturefile = "gfx/interface/scripted_guis/FRA/1.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_2"
+		texturefile = "gfx/interface/scripted_guis/FRA/2.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_3"
+		texturefile = "gfx/interface/scripted_guis/FRA/3.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_4"
+		texturefile = "gfx/interface/scripted_guis/FRA/4.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_5"
+		texturefile = "gfx/interface/scripted_guis/FRA/5.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_6"
+		texturefile = "gfx/interface/scripted_guis/FRA/6.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_7"
+		texturefile = "gfx/interface/scripted_guis/FRA/7.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_8"
+		texturefile = "gfx/interface/scripted_guis/FRA/8.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_9"
+		texturefile = "gfx/interface/scripted_guis/FRA/9.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_10"
+		texturefile = "gfx/interface/scripted_guis/FRA/10.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_11"
+		texturefile = "gfx/interface/scripted_guis/FRA/11.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_state_12"
+		texturefile = "gfx/interface/scripted_guis/FRA/12.dds"
+	}
+}

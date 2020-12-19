@@ -1,3 +1,16 @@
-FRA_management_initial = {
-	add_to_variable = { bruh = 1 }
+FRA_management_state_display = {
+	clear_array = management_state_target_array
+
+	if = {
+		limit = {
+			check_variable = { temp = show_FRA_management_state }
+		}
+		clear_variable = show_FRA_management_state
+	}
+	else = {
+		set_variable = { show_FRA_management_state = temp }
+		add_to_array = { management_state_target_array = show_FRA_management_state }
+	}
+	
+	add_to_variable = { show_FRA_management = 1 }
 }

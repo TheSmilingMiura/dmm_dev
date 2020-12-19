@@ -1,9 +1,173 @@
 guiTypes = {
 	containerWindowType = {
 		name = "FRA_management_open_container"
-		size = { width = 1705 height = 1380 }
-		position = { x = 520 y = 40 }
-		orientation = upper_left
+		position = { x = 400 y = 5 }
+
+		buttonType = {
+			name = "FRA_management_open_button"
+			spriteType = "GFX_DEN_Rely_on_the_German_Economy"
+			position = { x = 0 y = 0 }
+			scale = 0.45
+			pdx_tooltip = "FRA_management_open_button_tt"
+		}
+	}
+
+	containerWindowType = {
+		name = "FRA_management_container"
+		size = { width = 1000 height = 750 }
+		position = { x = 544 y = 0 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		instantTextboxType = {
+			name = "FRA_management_title"
+			position = { x = 0 y = 25 }
+			font = "hoi_36header"
+			text = "FRA_management_title"
+			format = center
+			maxWidth = 1000
+			maxHeight = 36
+		}
+
+		containerWindowType = {
+			name = "FRA_management_state_container"
+			size = { width = 675 height = 650 }
+			position = { x = 25 y = 75 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_bg"
+			}
+
+			buttonType = {
+				name = "FRA_management_state_1_button"
+				spriteType = "GFX_FRA_state_1"
+				position = { x = 207 y = 36 }
+				pdx_tooltip = "FRA_management_state_1_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_2_button"
+				spriteType = "GFX_FRA_state_2"
+				position = { x = 31 y = 104 }
+				pdx_tooltip = "FRA_management_state_2_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_3_button"
+				spriteType = "GFX_FRA_state_3"
+				position = { x = 170 y = 128 }
+				pdx_tooltip = "FRA_management_state_3_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_4_button"
+				spriteType = "GFX_FRA_state_4"
+				position = { x = 331 y = 104 }
+				pdx_tooltip = "FRA_management_state_4_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_5_button"
+				spriteType = "GFX_FRA_state_5"
+				position = { x = 423 y = 100 }
+				pdx_tooltip = "FRA_management_state_5_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_6_button"
+				spriteType = "GFX_FRA_state_6"
+				position = { x = 231 y = 244 }
+				pdx_tooltip = "FRA_management_state_6_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_7_button"
+				spriteType = "GFX_FRA_state_7"
+				position = { x = 503 y = 132 }
+				pdx_tooltip = "FRA_management_state_7_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_8_button"
+				spriteType = "GFX_FRA_state_8"
+				position = { x = 346 y = 312 }
+				pdx_tooltip = "FRA_management_state_8_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_9_button"
+				spriteType = "GFX_FRA_state_9"
+				position = { x = 451 y = 280 }
+				pdx_tooltip = "FRA_management_state_9_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_10_button"
+				spriteType = "GFX_FRA_state_10"
+				position = { x = 223 y = 372 }
+				pdx_tooltip = "FRA_management_state_10_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_11_button"
+				spriteType = "GFX_FRA_state_11"
+				position = { x = 299 y = 412 }
+				pdx_tooltip = "FRA_management_state_11_button_tt"
+			}
+			buttonType = {
+				name = "FRA_management_state_12_button"
+				spriteType = "GFX_FRA_state_12"
+				position = { x = 427 y = 416 }
+				pdx_tooltip = "FRA_management_state_12_button_tt"
+			}
+			iconType = {
+				name = "FRA_management_outline"
+				spriteType = "GFX_FRA_outline"
+				position = { x = 30 y = 35 }
+				alwaystransparent = yes
+			}
+		}
+
+		gridboxtype = {
+			name = "FRA_management_state_target_grid"
+			position = { x = 890 y = 75 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 500 height = 500 }
+		}
+
+		buttonType = {
+			name = "FRA_management_close_button"
+			position = { x = 967 y = 2 }
+			quadTextureSprite = "GFX_closebutton"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "FRA_management_state_target_entry"
+		size = { width = 280 height = 650 }
+		position = { x = 0 y = 0 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		instantTextboxType = {
+			name = "FRA_state_target_name"
+			position = { x = 0 y = 25 }
+			font = "hoi_36header"
+			text = "FRA_state_target_name"
+			format = center
+			maxWidth = 280
+			maxHeight = 36
+		}
+
+		instantTextboxType = {
+			name = "FRA_state_target_slot_text"
+			position = { x = 25 y = 100 }
+			font = "hoi_18mbs"
+			text = "FRA_state_target_slot_text"
+			format = left
+			maxWidth = 200
+			maxHeight = 18
+		}
 	}
 }
-    

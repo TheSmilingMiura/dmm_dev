@@ -9,7 +9,89 @@ scripted_gui = {
 		}
 
 		effects = {
+			FRA_management_open_button_click = {
+				if = {
+					limit = { has_variable = show_FRA_management }
+					clear_variable = show_FRA_management
+				}
+				else = {
+					set_variable = { show_FRA_management = 1 }
+				}
+			}
+		}
+	}
 
+	FRA_management = {
+		context_type = player_context
+		parent_window_token = politics_tab
+        window_name = "FRA_management_container"
+		dirty = show_FRA_management
+
+		visible = {
+			check_variable = { show_FRA_management > 0 }
+		}
+
+		dynamic_lists = {
+			FRA_management_state_target_grid = {
+				array = management_state_target_array
+				index = management_state_target_index
+				change_scope = yes
+				entry_container = FRA_management_state_target_entry
+			}
+		}
+
+		effects = {
+			FRA_management_state_1_button_click = {
+				set_temp_variable = { temp = 15 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_2_button_click = {
+				set_temp_variable = { temp = 14 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_3_button_click = {
+				set_temp_variable = { temp = 30 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_4_button_click = {
+				set_temp_variable = { temp = 24 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_5_button_click = {
+				set_temp_variable = { temp = 912 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_6_button_click = {
+				set_temp_variable = { temp = 23 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_7_button_click = {
+				set_temp_variable = { temp = 27 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_8_button_click = {
+				set_temp_variable = { temp = 25 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_9_button_click = {
+				set_temp_variable = { temp = 20 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_10_button_click = {
+				set_temp_variable = { temp = 19 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_11_button_click = {
+				set_temp_variable = { temp = 31 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_state_12_button_click = {
+				set_temp_variable = { temp = 22 }
+				FRA_management_state_display = yes
+			}
+			FRA_management_close_button_click = {
+				clear_variable = show_FRA_management
+			}
 		}
 	}
 }

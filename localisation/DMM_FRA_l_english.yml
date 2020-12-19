@@ -112,6 +112,27 @@ FRA_state_parenting:0 "State Parenting"
 FRA_reconstruction_committee:0 "Reconstruction Committee"
 FRA_terrorism:0 "Terrorism"
 
+# Scripted GUIs
+FRA_management_open_button_tt:0 "Open Management GUI"
+
+FRA_management_title:0 "The Manager"
+
+FRA_management_state_1_button_tt:0 "1"
+FRA_management_state_2_button_tt:0 "2"
+FRA_management_state_3_button_tt:0 "3"
+FRA_management_state_4_button_tt:0 "4"
+FRA_management_state_5_button_tt:0 "5"
+FRA_management_state_6_button_tt:0 "6"
+FRA_management_state_7_button_tt:0 "7"
+FRA_management_state_8_button_tt:0 "8"
+FRA_management_state_9_button_tt:0 "9"
+FRA_management_state_10_button_tt:0 "10"
+FRA_management_state_11_button_tt:0 "11"
+FRA_management_state_12_button_tt:0 "12"
+
+FRA_state_target_name:0 "[THIS.GetName]"
+FRA_state_target_slot_text:0 "Slot 1: Empty\nSlot 2: Empty"
+
 # Flags
 
 # Tooltips

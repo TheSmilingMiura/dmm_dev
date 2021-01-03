@@ -67,15 +67,56 @@ bookmarks = {
 			#	CHI_reformorrevolution
 			}
 		}
-		"---"={
+		"---" = {
 			history = "OTHER_A_NEW_DAWN_DESC"
 		}
-
-		effect = {
-			randomize_weather = 22345
+		
+		"POR" = {
+			minor = yes
+			history = "POR_A_NEW_DAWM_DESC"
+			ideology = socialist
+			ideas = {
+			}
+			focuses = {
+			}
 		}
-	}
-	
+		"FRA" = {
+			minor = yes
+			history = "FRA_A_NEW_DAWM_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AZA" = {
+			minor = yes
+			history = "AZA_A_NEW_DAWM_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GKM" = {
+			minor = yes
+			history = "GKM_A_NEW_DAWM_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG" = {
+			minor = yes
+			history = "ENG_A_NEW_DAWM_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 	bookmark = {
 		name = ""
 		desc = ""

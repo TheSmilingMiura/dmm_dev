@@ -2,8 +2,8 @@
 	id=923
 	name="STATE_923"
 	history={
-		owner = BII
-		add_core_of = BII
+		owner = AZA
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 7
 		}

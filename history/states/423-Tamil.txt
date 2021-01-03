@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = TNU
+		owner = AZA
 		add_core_of = TNU
 		buildings = {
 			infrastructure = 5

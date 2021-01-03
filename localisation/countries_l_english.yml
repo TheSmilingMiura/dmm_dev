@@ -64,9 +64,9 @@
  AUS_DEF:0 "The Republic of Austria"
  AUS_ADJ:0 "Austrian"
 
- AZA:0 "Azad Hind"
- AZA_DEF:0 "The Indian State"
- AZA_ADJ:0 "Azad Hindi"
+ AZA:0 "India"
+ AZA_DEF:0 "The Union of Free India"
+ AZA_ADJ:0 "Indian"
 
  AZR:0 "Azerbaijan"
  AZR_DEF:0 "Azerbaijan"
@@ -283,7 +283,7 @@
  KVA_ADJ:0 "Khivan"
 
  PER:0 "Iran"
- PER_DEF:0 "The Islamic Peoples Republic of Iran"
+ PER_DEF:0 "The Peoples Republic of Iran"
  PER_ADJ:0 "Iranian"
  
  VEN:0 "Venezuela"
@@ -426,9 +426,9 @@
  POR_DEF:0 "Portugal"
  POR_ADJ:0 "Portuguese"
 
- RAJ:0 "India"
- RAJ_DEF:0 "India"
- RAJ_ADJ:0 "India"
+ RAJ:0 "INC revolt"
+ RAJ_DEF:0 "Indian National Congress Supporters"
+ RAJ_ADJ:0 "INC"
  
  ROM:0 "Romania"
  ROM_DEF:0 "The Romanian Legionary State"
@@ -823,3 +823,7 @@ MAD_ADJ:0 "Malagasy"
 RKO:0 "RG Ostland"
 RKO_DEF:0 "Reichsgau Ostland"
 RKO_ADJ:0 "Ostlandean"
+
+NEP:0 "Nepal"
+NEP_DEF:0 "Kingdom of Nepal"
+NEP_ADJ:0 "Nepali"

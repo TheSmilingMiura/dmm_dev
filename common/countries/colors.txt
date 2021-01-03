@@ -1,4 +1,4 @@
-#reload countrycolors
+﻿load countrycolors
 
 URA = {
 	color = HSV { 0.1 0.15 0.4 }
@@ -293,8 +293,8 @@ IRQ = {
 	color_ui = rgb { 127 165 192 }
 }
 JAP = {
-	color = rgb { 208 200 168 }
-	color_ui = rgb { 208 200 168 }
+	color = rgb { 204 18 77 }
+	color_ui = rgb { 204 18 77 }
 }
 LIB = {
 	color = rgb { 152 130 191 }

@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = MAB
-		add_core_of = MAB
+		owner = AZA
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 10

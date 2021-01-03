@@ -20,11 +20,11 @@ set_politics = {
 set_popularities = {
     fascist = 0
     authoritarian = 0
-    reactionary = 20
+    reactionary = 0
     conservative = 0
     liberal = 0
     social_democrat = 0
-    socialist = 0
+    socialist = 20
     communist = 80
 }
 

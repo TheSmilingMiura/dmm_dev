@@ -443,7 +443,7 @@
 		id = FRA_adopt_the_french_reichmark
 		icon = GFX_goal_unknown
 		x = 9
-		y = 13
+		y = 14
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_abandon_claims_on_lost_lands }

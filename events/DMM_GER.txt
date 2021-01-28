@@ -222,3 +222,131 @@ country_event = {
 		name = gerinternal.9.a
 	}
 }
+
+add_namespace = gerartamen
+
+country_event = {
+	id = gerartamen.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerartamen.1"}
+	title = gerartamen.1.t
+	desc = gerartamen.1.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerartamen.1.a
+	}
+}
+
+country_event = {
+	id = gerartamen.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerartamen.2"}
+	title = gerartamen.2.t
+	desc = gerartamen.2.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerartamen.2.a
+	}
+}
+
+country_event = {
+	id = gerartamen.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerartamen.3"}
+	title = gerartamen.3.t
+	desc = gerartamen.3.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerartamen.3.a
+	}
+}
+
+country_event = {
+	id = gerartamen.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerartamen.4"}
+	title = gerartamen.4.t
+	desc = gerartamen.4.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerartamen.4.a
+	}
+}
+
+country_event = {
+	id = gerartamen.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerartamen.5"}
+	title = gerartamen.5.t
+	desc = gerartamen.5.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerartamen.5.a
+	}
+}
+
+country_event = {
+	id = gerartamen.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerartamen.6"}
+	title = gerartamen.6.t
+	desc = gerartamen.6.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerartamen.6.a
+	}
+}

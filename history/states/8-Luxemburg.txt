@@ -1,28 +1,30 @@
-state=
-{
+
+state={
 	id=8
 	name="STATE_8"
-	
-	state_category = large_city
-	
-	manpower = 439539
 	resources={
-		steel=5 # was: 8
+		steel=5.000
 	}
 
-	history=
-	{
+	history={
 		owner = GER
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 3
+
 		}
-		victory_points = { 6583 5 }
+		victory_points = {
+			6583 5 
+		}
 		add_core_of = GER
+
 	}
 
-	provinces=
-	{
-6583 	}
+	provinces={
+		564 3397 3524 6549 9524 11445 11533 
+	}
+	manpower=439539
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

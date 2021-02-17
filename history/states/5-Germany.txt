@@ -2,14 +2,10 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 5200000
-	state_category = large_city
 
 	history={
 		owner = GER
 		controller = GER
-		
-		
 		victory_points = {
 			6332 10 
 		}
@@ -26,16 +22,23 @@ state={
 
 			}
 			air_base = 6
+
 		}
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		266 281 348 395 3351 3380 3384 6332 6375 6402 9327 9346 9372 9398 11245 11265 11386 
+		266 281 348 395 548 3288 3351 3384 6259 6332 6375 6402 6567 9290 9316 9327 9346 9372 9398 11245 11265 11386 
 	}
+	manpower=5200000
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

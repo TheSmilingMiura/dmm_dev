@@ -1,21 +1,27 @@
+
 state={
 	id=762
 	name="STATE_762"
-	provinces={
-		506 6464
-	}
-	manpower=1000000
 	resources={
-		steel=19 # was: 60
-		aluminium=7 # was: 20
+		steel=19.000
+		aluminium=7.000
 	}
-	state_category = city
+
 	history={
 		owner = GER
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+
 		}
 		add_core_of = GER
+
 	}
+
+	provinces={
+		596 653 665 3654 6687 6691 9596 9646 9648 9650 9679 11630 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

@@ -6,31 +6,15 @@ state={
 	history={
 		owner = GER
 		victory_points = {
-			6558 5 
+			9347 50 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 6
-			11232 = {
-				bunker = 1
-
-			}
-			9532 = {
-				bunker = 1
-
-			}
-			3381 = {
-				bunker = 1
-
-			}
-			air_base = 3
+			infrastructure = 10
+			industrial_complex = 25
+			air_base = 10
 
 		}
 		add_core_of = GER
-		1938.3.12 = {
-			add_claim_by = GER
-
-		}
 
 	}
 
@@ -39,5 +23,5 @@ state={
 	}
 	manpower=2106500
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=megalopolis
 }

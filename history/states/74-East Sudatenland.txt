@@ -8,21 +8,17 @@ state={
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
+                        industrial_complex = 5
 
 		}
 		add_core_of = GER
-		1938.9.30 = {
-			owner = GER
-			controller = GER
-
-		}
 
 	}
 
 	provinces={
 		11666 
 	}
-	manpower=820000
+	manpower=1593500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 }

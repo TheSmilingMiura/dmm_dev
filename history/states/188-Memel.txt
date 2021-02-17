@@ -6,20 +6,11 @@ state={
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			3288 = {
-				naval_base = 1
-
-			}
+			infrastructure = 8
+			industrial_complex = 5
 
 		}
 		add_core_of = GER
-		1939.3.22 = {
-			owner = GER
-			controller = GER
-
-		}
 
 	}
 
@@ -28,5 +19,5 @@ state={
 	}
 	manpower=150000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 }

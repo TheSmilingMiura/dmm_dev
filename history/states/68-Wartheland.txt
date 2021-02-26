@@ -9,8 +9,8 @@ state={
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
+			infrastructure = 9
+			industrial_complex = 6
 
 		}
 		add_core_of = GER
@@ -22,5 +22,5 @@ state={
 	}
 	manpower=1250840
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 }

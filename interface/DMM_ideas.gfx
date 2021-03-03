@@ -197,4 +197,12 @@ spriteTypes = {
 		name = "GFX_idea_DMM_focke_wulf"
 		texturefile = "gfx/interface/ideas/focke_wulf.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_master_of_europe"
+		texturefile = "gfx/interface/ideas/master_of_europe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_recovering_economy"
+		texturefile = "gfx/interface/ideas/recovering_economy.dds"
+	}
 }

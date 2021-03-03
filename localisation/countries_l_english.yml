@@ -29,7 +29,7 @@
  AFG_ADJ:0 "Afghan"
 
  AFK:0 "RK Afrika"
- AFK_DEF:0 "the Reichskommisariat Afrika"
+ AFK_DEF:0 "Reichskommisariat Afrika"
  AFK_ADJ:0 "Reichskommisariat Afrikan"
 
  ALB:0 "Albania"
@@ -89,7 +89,7 @@
  BOL_ADJ:0 "Bolivian"
 
  BOM:0 "Mysore State"
- BOM_DEF:0 "the Mysore State"
+ BOM_DEF:0 "The Mysore State"
  BOM_ADJ:0 "Mysore"
 
  BOT:0 "Botswana"
@@ -113,7 +113,7 @@
  CAN_ADJ:0 "Canadian"
  
  CBR:0 "Union of Federative Brazilian Communes"
- CBR_DEF:0 "the Union of Federative Brazilian Communes"
+ CBR_DEF:0 "The Union of Federative Brazilian Communes"
  CBR_ADJ:0 "Brazilian"
  
  CHE:0 "Chechnya"
@@ -129,7 +129,7 @@
  CHL_ADJ:0 "Chilean"
 
  COL:0 "Colombia"
- COL_DEF:0 "the National State of Colombia"
+ COL_DEF:0 "The National State of Colombia"
  COL_ADJ:0 "Colombian"
  
  CRO:0 "Croatia"
@@ -167,19 +167,19 @@
  GEO_ADJ:0 "Georgian"
 
  GKM:0 "GK Moskowien"
- GKM_DEF:0 "the Generalkommissariat Moskowien"
+ GKM_DEF:0 "Generalkommissariat Moskowien"
  GKM_ADJ:0 "Moskovian"
 
  GKT:0 "GK Tulen"
- GKT_DEF:0 "the Generalkommissariat Tulen"
+ GKT_DEF:0 "Generalkommissariat Tulen"
  GKT_ADJ:0 "Tulan"
 
  GKK:0 "GK Kosakenstadt"
- GKK_DEF:0 "the Generalkommissariat Kosakenstadt"
+ GKK_DEF:0 "Generalkommissariat Kosakenstadt"
  GKK_ADJ:0 "Kosaken"
 
  RKK:0 "GK Don-Kuban"
- RKK_DEF:0 "the Generalkommissariat Don-Kuban"
+ RKK_DEF:0 "Generalkommissariat Don-Kuban"
  RKK_ADJ:0 "Don-Kuban"
 
  IRE:0 "Ireland"
@@ -315,7 +315,7 @@
  NIC_ADJ:0 "Nicaraguan"
 
  GKN:0 "GK Nowgorod"
- GKN_DEF:0 "The Generalkommissariat Nowgorodien"
+ GKN_DEF:0 "Generalkommissariat Nowgorodien"
  GKN_ADJ:0 "Nowgorodian"
 
  JAM:0 "Kashmir"
@@ -339,7 +339,7 @@
  HYD_ADJ:0 "Hyderabadi"
 
  BRM:0 "State of Burma"
- BRM_DEF:0 "the State of Burma"
+ BRM_DEF:0 "The State of Burma"
  BRM_ADJ:0 "Burmese"
 
  SIA:0 "Thailand"
@@ -347,7 +347,7 @@
  SIA_ADJ:0 "Thai"
 
  PHI:0 "Second Philippine Republic"
- PHI_DEF:0 "the Second Philippine Republic"
+ PHI_DEF:0 "The Second Philippine Republic"
  PHI_ADJ:0 "Filipino"
 
  NBR:0 "North Borneo"
@@ -367,7 +367,7 @@
  BAL_ADJ:0 "Balinese"
 
  EEI:0 "East Indies"
- EEI_DEF:0 "the East Indies"
+ EEI_DEF:0 "The East Indies"
  EEI_ADJ:0 "East Indian"
 
  LCM:0 "Lourenço Marques"
@@ -407,7 +407,7 @@
  HAI_ADJ:0 "Haitian"
 
  RRC:0 "Reorganized Republic of China"
- RRC_DEF:0 "the Reorganized Republic of China"
+ RRC_DEF:0 "The Reorganized Republic of China"
  RRC_ADJ:0 "Chinese"
 
  ICE:0 "Iceland"
@@ -499,7 +499,7 @@
  YUG_ADJ:0 "Serbian"
 
  RKM:0 "RK Moskowien"
- RKM_DEF:0 "The Reichskommisariat Moskowien"
+ RKM_DEF:0 "Reichskommisariat Moskowien"
  RKM_ADJ:0 "German"
  
 ############# UNDER CONSTRUCTION ######################

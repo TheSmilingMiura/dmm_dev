@@ -7,4 +7,21 @@ spriteTypes = {
 		name = "GFX_monika_hand"
 		texturefile = "gfx/leaders/RRC/Portrait_Anarchy_New_Magic.dds"
 	}
+	spriteType = {
+		name = "GFX_monika_hand"
+		texturefile = "gfx/leaders/RRC/Portrait_Anarchy_New_Magic.dds"
+	}
+	spriteType = {
+		name = "GFX_hk416_screen"
+		texturefile = "gfx/interface/hk416_screen.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_hk416"
+		texturefile = "gfx/interface/hk416.png"
+		noOfFrames = 21
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
 }

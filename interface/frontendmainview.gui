@@ -189,10 +189,10 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=-10 y =-100}
-		size = { width = 1920 height = 1200}
-		Orientation = CENTER
-		Origo = center		
+		position = { x = 64 y = -25 }
+		size = { width = 400 height = 395 }
+		orientation = lower_left
+		origo = lower_left
 				
 		background = {
 			name = "Background"		
@@ -201,7 +201,7 @@ guiTypes = {
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 1 y = 780 }
+			position = { x = 1 y = 0 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_SINGLE_PLAYER"				
@@ -211,7 +211,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 1 y = 840}
+			position = { x = 1 y = 50}
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_MULTI_PLAYER"			
@@ -229,7 +229,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 30 y = 1150 }
+			position = { x = 30 y = 270 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -242,7 +242,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 1 y = 900 }
+			position = { x = 1 y = 100 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -253,7 +253,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 10006 y = 138 }
+			position = {  x = 10006 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
 			buttonFont = "hoi_24header"
@@ -263,7 +263,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 1 y = 1100 }
+			position = { x = 1 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -272,7 +272,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 1 y = 980 }
+			position = { x = 1 y = 200 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_EXIT"			
@@ -281,13 +281,16 @@ guiTypes = {
 			
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
-		position = { x=-50 y=25 }	
-		size = { width = 240 height = 90 }
-		Orientation = center	
-		origo = center
+		position = { x = -75 y = 750 }
+		show_position = { x = -425 y = 300 }
+		animation_type = decelerated
+		animation_time = 1000
+		size = { width = 256 height = 768 }
+		orientation = lower_right
+		origo = lower_right
 		
 		positionType = {
 			name = "position_without_social_gui"
@@ -376,6 +379,18 @@ guiTypes = {
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
+		}
+
+		iconType = {
+			name = "hk416_animation"
+			position = { x = 100 y = 50 }
+			spriteType = "GFX_hk416"
+		}
+
+		iconType = {
+			name = "hk416_screen"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_hk416_screen"
 		}
 	}
 

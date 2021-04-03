@@ -207,6 +207,9 @@ add_ideas = {
 	master_of_europe
 	heydrichs_ghost
 	#widespread_drug_addiction
+	GFL_1_idea
+	GFL_2_idea
+	GFL_3_idea
 }
 create_country_leader = {
 	name = "Wolfgang Schneiderhan"
@@ -216,6 +219,16 @@ create_country_leader = {
 	ideology = authoritarian
 	traits = {
 		dictator
+	}
+}
+
+create_country_leader = {
+	name = "HK416"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "hk416.dds"
+	expire = "2020.1.1"
+	ideology = authoritarian
+	traits = {
 	}
 }
 

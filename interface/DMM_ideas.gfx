@@ -205,4 +205,17 @@ spriteTypes = {
 		name = "GFX_idea_recovering_economy"
 		texturefile = "gfx/interface/ideas/recovering_economy.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_GFL_1"
+		texturefile = "gfx/interface/ideas/GFL_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFL_2"
+		texturefile = "gfx/interface/ideas/GFL_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFL_3"
+		texturefile = "gfx/interface/ideas/GFL_3.dds"
+	}
 }

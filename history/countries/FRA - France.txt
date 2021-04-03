@@ -81,6 +81,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "PA-15"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "pa15.dds"
+	expire = "2040.1.1"
+	ideology = military_junta
+	traits = {
+	}
+}
+
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"

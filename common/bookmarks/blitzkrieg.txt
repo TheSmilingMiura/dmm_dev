@@ -1,1 +1,140 @@
-#Empty
+bookmarks = {
+	bookmark = {
+		name = "A_NEW_DAWN_NAME"
+		desc = "A_NEW_DAWN_DESC"
+		date = 2005.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+
+		"GER"={
+			history = "GER_A_NEW_DAWN_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_A_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "ITA_A_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_A_NEW_DAWN_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas={
+			}
+			focuses ={
+			}
+		}
+		"CBR"={
+			history = "CBR_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RRC"={
+			history = "RRC_A_NEW_DAWN_DESC"
+			ideology = authoritarian
+			ideas = {
+				japanese_military_restrictions
+			}
+			focuses = {
+			#	CHI_nofutureforachinesestate
+			#	CHI_nothingriskednothinglost
+			#	CHI_reformorrevolution
+			}
+		}
+		"---" = {
+			history = "OTHER_A_NEW_DAWN_DESC"
+		}
+		
+		"POR" = {
+			minor = yes
+			history = "POR_A_NEW_DAWM_DESC"
+			ideology = socialist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA" = {
+			minor = yes
+			history = "FRA_A_NEW_DAWM_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AZA" = {
+			minor = yes
+			history = "AZA_A_NEW_DAWM_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GKM" = {
+			minor = yes
+			history = "GKM_A_NEW_DAWM_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG" = {
+			minor = yes
+			history = "ENG_A_NEW_DAWM_DESC"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+	bookmark = {
+		name = ""
+		desc = ""
+		date = 2004.1.2.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		"GER"={
+			history = ""
+			ideology = fascist
+			ideas = {}
+			focuses = {}
+		}
+		"BII"={
+			history = "BII_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas={
+			}
+			focuses ={
+			}
+		}
+	}
+}

@@ -80,3 +80,12 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "M4A1"
+	picture = "m4a1.dds"
+	expire = "2020.1.1"
+	ideology = new_conservatism 
+	traits = {
+	}
+}

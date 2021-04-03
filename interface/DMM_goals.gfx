@@ -256,4 +256,17 @@ spriteTypes = {
 		name = "GFX_DEN_The_Burden_Has_Been_Lifted"
 		texturefile = "gfx/interface/goals/DEN_The_Burden_Has_Been_Lifted.dds"
 	}
+
+	spriteType = { 
+		name = "GFX_GFL_1"
+		texturefile = "gfx/interface/goals/GFL_1.dds"
+	}
+	spriteType = { 
+		name = "GFX_GFL_2"
+		texturefile = "gfx/interface/goals/GFL_2.dds"
+	}
+	spriteType = { 
+		name = "GFX_GFL_3"
+		texturefile = "gfx/interface/goals/GFL_3.dds"
+	}
 }

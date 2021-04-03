@@ -90,6 +90,33 @@ focus_tree = {
 		    
 		}
 	}
+	focus = {
+		id = GFL_1_focus
+		icon = GFX_GFL_1
+		x = 17
+		y = 2
+		cost = 1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GFL_2_focus
+		icon = GFX_GFL_2
+		x = 17
+		y = 2
+		cost = 1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GFL_3_focus
+		icon = GFX_GFL_3
+		x = 17
+		y = 2
+		cost = 1
+		completion_reward = {
+		}
+	}
 #	focus = {
 #		id = GER_reformation
 #		icon = GFX_focus_german_enlightenment

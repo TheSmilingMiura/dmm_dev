@@ -79,6 +79,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "SVCh"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "svch.dds"
+	expire = "2040.3.1"
+	ideology = authoritarian
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Vladislav Surkov"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "SOV_Vladislav_Surkov.dds"

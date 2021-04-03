@@ -120,7 +120,7 @@
  CHE_DEF:0 "Chechnya"
  CHE_ADJ:0 "Chechen"
  
- CHI:0 "Reorganized Nationalist China"
+ CHI:0 "China"
  CHI_DEF:0 "the Reorganized Nationalist China"
  CHI_ADJ:0 "Chinese"
  
@@ -406,7 +406,7 @@
  HAI_DEF:0 "Haiti"
  HAI_ADJ:0 "Haitian"
 
- RRC:0 "Reorganized Republic of China"
+ RRC:0 "Republic of China"
  RRC_DEF:0 "The Reorganized Republic of China"
  RRC_ADJ:0 "Chinese"
 

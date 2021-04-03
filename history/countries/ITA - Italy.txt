@@ -136,6 +136,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "M1014"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "m1014.dds"
+	expire = "2019.1.1"
+	ideology = military_junta
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Ferruccio Parri"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"

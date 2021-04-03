@@ -247,6 +247,39 @@ ideas = {
 
 		}
 
+		GFL_1_idea = {
+			picture = GFL_1
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+		GFL_2_idea = {
+			picture = GFL_2
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+		GFL_3_idea = {
+			picture = GFL_3
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
 	}
 
 }

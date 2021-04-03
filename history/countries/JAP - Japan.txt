@@ -107,6 +107,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Howa Type 64"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "howa_type_64.dds"
+	expire = "1989.1.1"
+	ideology = new_conservatism
+	traits = {
+	}
+}
+
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"
 		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"

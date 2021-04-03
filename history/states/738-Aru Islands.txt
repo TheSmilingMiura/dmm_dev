@@ -3,7 +3,7 @@ state={
 	id=738
 	name="STATE_738"
 
-	manpower=36146
+	manpower=174663
 	state_category=small_island
 
 	history={

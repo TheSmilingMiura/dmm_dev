@@ -675,5 +675,70 @@ spriteTypes = {
 		name = "GFX_pol_faction_background"
 		textureFile = "gfx//interface//faction_bg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_slot_decisions"
+		textureFile = "gfx/interface/idea_slot_high_command.dds"
+	}
+
+	spriteType = {
+		textureFile = "gfx/interface/idea_slot_high_command.dds"
+		name = "GFX_idea_slot_chief_of_staff"
+	}
+
+	spriteType = {
+		textureFile = "gfx/interface/idea_slot_air_chief.dds"
+		name = "GFX_idea_slot_chief_of_air_force"
+	}
+
+	spriteType = {
+		textureFile = "gfx/interface/idea_slot_navy_chief.dds"
+		name = "GFX_idea_slot_chief_of_navy"
+	}
+
+	spriteType = {
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+		name = "GFX_idea_slot_chief_of_army"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_industrial_concern"
+		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_materiel_manufacturer"
+		textureFile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_naval_manufacturer"
+		textureFile = "gfx/interface/idea_slot_naval_manufacturer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_aircraft_manufacturer"
+		textureFile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_tank_manufacturer"
+		textureFile = "gfx/interface/idea_slot_tank_manufacturer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_political_advisor"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_head_of_government"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_person_of_influence"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
 	
 }

@@ -7,8 +7,8 @@ state={
 		owner = MEN
 		add_core_of = MEN
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 3
 
 		}
 
@@ -17,7 +17,7 @@ state={
 	provinces={
 		2087 4525 7048 7158 7631 10424 10629 12331 12609 12880 13332 12403
 	}
-	manpower=1583700
+	manpower=8614410
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=city
 }

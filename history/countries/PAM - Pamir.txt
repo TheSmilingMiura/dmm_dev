@@ -33,7 +33,6 @@ create_country_leader = {
 	
 	name = "Qozidavlat Qoimdodov"
 	picture = "PAM_Qozidavlat_Qoimdodov.dds"
-	expire = ""
 	ideology = authoritarian
 	traits = {
 		#

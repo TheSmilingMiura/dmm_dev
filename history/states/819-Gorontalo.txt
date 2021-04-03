@@ -3,7 +3,7 @@ state={
 	name="STATE_819"
 
 	state_category=rural
-	manpower= 560000
+	manpower= 922176
 
 	history={
 		owner = EEI

@@ -2,8 +2,8 @@ state={
 	id=812
 	name="STATE_812"
 
-	state_category=enclave
-	manpower= 560000
+	state_category=city
+	manpower= 1194583
 
 	history={
 		owner = JAP

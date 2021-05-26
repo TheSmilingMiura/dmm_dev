@@ -2,7 +2,10 @@
 state={
 	id=813
 	name="STATE_813"
-
+        resources={
+		rubber=60.000
+                aluminium = 160
+	}
 	history={
 		owner = VIN
 		add_core_of = VIN

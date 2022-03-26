@@ -4,15 +4,18 @@ state={
 	name="STATE_295"
 	resources={
 		tungsten=2.000
+                steel = 10
+                oil = 32
 	}
 
 	history={
 		owner = COG
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
+			infrastructure = 7
+			industrial_complex = 10
+                        dockyard = 3
 			10968 = {
-				naval_base = 1
+				naval_base = 5
 
 			}
 
@@ -32,5 +35,5 @@ state={
 	}
 	manpower=26996187
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 }

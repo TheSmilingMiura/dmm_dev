@@ -1,5 +1,5 @@
 focus_tree = {
-	id = GER_militarist_focus
+	id = DMM_GER_1
 	country = {
 		factor = 0
 		modifier = {

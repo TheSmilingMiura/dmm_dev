@@ -54,29 +54,29 @@ add_ideas = {
 set_convoys = 400
 
 set_politics = {
-	ruling_party = conservative
-	last_election = "1936.1.1"
+	ruling_party = liberal
+	last_election = "2000.11.7"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    fascist = 0
+    fascist = 2
     corporatist = 0
     reactionary = 17
-    conservative = 31
-    liberal = 30
-    social_democrat = 7
-    socialist = 5
-    communist = 10
+    conservative = 29
+    liberal = 34
+    social_democrat = 12
+    socialist = 4
+    communist = 2
 }
 
 
 create_country_leader = {
-	name = "Newt Gingrich"
+	name = "Colin Powell"
 	picture = "Newt_Gingrich.dds"
 	expire = "2020.1.1"
-	ideology = new_conservatism 
+	ideology = new_conservatism
 	traits = {
 	}
 }

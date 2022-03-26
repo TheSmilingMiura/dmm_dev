@@ -1,0 +1,15 @@
+GFL_invite_private_military_contractors_category = {
+	GFL_hire_griffin_and_kryuger = {
+		visible = {
+			NOT = { 
+				has_country_flag = GFL_griffin_and_kryuger_hired 
+			}
+		}
+
+		cost = 25
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GFL_hire_griffin_and_kryuger"
+		}
+	}
+}

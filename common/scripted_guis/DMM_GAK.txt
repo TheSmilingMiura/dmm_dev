@@ -1,0 +1,33 @@
+scripted_gui = {
+	GAK_doll_production_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "GAK_doll_production_open_container"
+
+		visible = {
+			tag = BLR
+	    }
+
+		effects = {
+			GAK_doll_production_open_button_click = {
+				if = {
+					limit = { has_variable = show_GAK_doll_production }
+					clear_variable = show_GAK_doll_production
+				}
+				else = {
+					set_variable = { show_GAK_doll_production = 1 }
+				}
+			}
+		}
+	}
+
+	GAK_doll_production = {
+		context_type = player_context
+		window_name = "GAK_doll_production_container"
+		dirty = show_GAK_doll_production
+
+		visible = {
+			check_variable = { show_GAK_doll_production > 0 }
+	    }
+	}
+}

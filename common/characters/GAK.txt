@@ -1,0 +1,14 @@
+characters = {
+	GAK_berezovich_kryuger = {
+		name = GAK_berezovich_kryuger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAK/Berezovich_Kryuger.dds"
+			}
+		}
+		country_leader = {
+			desc = GAK_berezovich_kryuger_desc
+			ideology = military_junta
+		}
+	}
+}

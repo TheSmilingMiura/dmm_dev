@@ -1,0 +1,27 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GAK_doll_production_open_container"
+		position = { x = 400 y = 5 }
+		size = { width = 100 height = 100 }
+
+		buttonType = {
+			name = "GAK_doll_production_open_button"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_DEN_Rely_on_the_German_Economy
+			scale = 0.45
+			pdx_tooltip = GAK_doll_production_open_button_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "GAK_doll_production_container"
+		position = { x = 200 y = 75 }
+		size = { width = 1250 height = 750 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = GFX_tiled_bg
+		}
+	}
+}

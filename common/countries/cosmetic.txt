@@ -191,3 +191,8 @@ USC = {
 	color = rgb { 255 231 105 }
 	color_ui = rgb { 255 231 105 }
 }
+
+GAK = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}

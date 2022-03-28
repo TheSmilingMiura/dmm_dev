@@ -10,6 +10,12 @@ GFL_invite_private_military_contractors_category = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision GFL_hire_griffin_and_kryuger"
+			custom_effect_tooltip = GFL_hire_griffin_and_kryuger_tt
+			hidden_effect = {
+				246 = {
+					transfer_state_to = BLR
+				}
+			}
 		}
 	}
 }

@@ -1,7 +1,16 @@
-l_english:
+﻿l_english:
 
  # 
   GFL_invite_private_military_contractors_category: "Invite Private Military Contractors"
   GFL_invite_private_military_contractors_category_desc: ""
   GFL_hire_griffin_and_kryuger: "Hire Griffin & Kryuger"
   GFL_hire_griffin_and_kryuger_desc: ""
+
+  GFL_hire_griffin_and_kryuger_tt:0 "§YGriffin & Kryuger§! will take up operations in §Y[246.GetName]§!."
+
+  GAK_berezovich_kryuger:0 "Berezovich Kryuger"
+  GAK_berezovich_kryuger_desc:0 ""
+
+  GAK:0 "Griffin & Kryuger"
+  GAK_DEF:0 "Griffin & Kryuger"
+  GAK_ADJ:0 "PMCs"

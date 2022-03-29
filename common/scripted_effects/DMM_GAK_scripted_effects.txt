@@ -1,0 +1,8 @@
+hktest = {
+	random_character = {
+		limit = { is_character = GAK_hk416 }
+		log = "[THIS.GetName]"
+		set_variable = { BLR.BLR_recruited_name = THIS }
+		unit_leader_event = griffin_and_kryuger.1
+	}
+}

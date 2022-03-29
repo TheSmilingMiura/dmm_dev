@@ -11,4 +11,23 @@ characters = {
 			ideology = military_junta
 		}
 	}
+	GAK_hk416 = {
+		name = GAK_hk416
+		gender = female
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/GFL_2.dds"
+				large = "gfx/leaders/GER/hk416.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			visible = { has_country_flag = GAK_hk416_recruited } 
+		}
+	}
 }

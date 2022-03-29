@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GAK_main"
+		texturefile = "gfx/interface/scripted_guis/GAK/main.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_arrow_button"
+		texturefile = "gfx/interface/scripted_guis/GAK/arrow_button.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_build_button"
+		texturefile = "gfx/interface/scripted_guis/GAK/build_button.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_manpower"
+		texturefile = "gfx/interface/scripted_guis/GAK/manpower.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_ammo"
+		texturefile = "gfx/interface/scripted_guis/GAK/ammo.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_rations"
+		texturefile = "gfx/interface/scripted_guis/GAK/rations.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_parts"
+		texturefile = "gfx/interface/scripted_guis/GAK/parts.dds"
+	}
+}

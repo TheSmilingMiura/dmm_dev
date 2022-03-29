@@ -6,6 +6,8 @@ set_research_slots = 3
 
 recruit_character = GAK_berezovich_kryuger
 
+recruit_character = GAK_hk416
+
 set_cosmetic_tag = GAK
 
 # Starting tech

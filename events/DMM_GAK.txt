@@ -1,0 +1,18 @@
+﻿add_namespace = griffin_and_kryuger
+
+unit_leader_event = {
+	id = griffin_and_kryuger.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event griffin_and_kryuger.1 FROM = [From.GetName]" }
+	title = griffin_and_kryuger.1.t
+	desc = griffin_and_kryuger.1.d
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = GAK_hk416_recruited
+	}
+
+	option = {
+		name = griffin_and_kryuger.1.a
+	}
+}

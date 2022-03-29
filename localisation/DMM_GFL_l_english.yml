@@ -8,9 +8,24 @@
 
   GFL_hire_griffin_and_kryuger_tt:0 "§YGriffin & Kryuger§! will take up operations in §Y[246.GetName]§!."
 
-  GAK_berezovich_kryuger:0 "Berezovich Kryuger"
-  GAK_berezovich_kryuger_desc:0 ""
+  GAK_berezovich_kryuger: "Berezovich Kryuger"
+  GAK_berezovich_kryuger_desc: ""
+  GAK_hk416:0 "HK416"
+  GAK_hk416_desc:0 ""
 
-  GAK:0 "Griffin & Kryuger"
-  GAK_DEF:0 "Griffin & Kryuger"
-  GAK_ADJ:0 "PMCs"
+  GAK: "Griffin & Kryuger"
+  GAK_DEF: "Griffin & Kryuger"
+  GAK_ADJ: "PMCs"
+
+  griffin_and_kryuger.1.t: "[?BLR.BLR_recruited_name.GetName] Joins Us"
+  griffin_and_kryuger.1.d: "[?BLR.BLR_recruited_name.GetName]: \"Are you the commander? HK416......Please remember this name, this...extraordinary name.\""
+  griffin_and_kryuger.1.a: "Nice."
+
+  GAK_doll_production_manpower_title:0 "Manpower"
+  GAK_doll_production_ammo_title:0 "Ammunition"
+  GAK_doll_production_rations_title:0 "Rations"
+  GAK_doll_production_parts_title:0 "Parts"
+  GAK_doll_production_manpower_text:0 "Manpower Available:\n[?GAK_doll_production_manpower]"
+  GAK_doll_production_ammo_text:0 "Ammunition Available:\n[?GAK_doll_production_ammo]"
+  GAK_doll_production_rations_text:0 "Rations Available:\n[?GAK_doll_production_rations]"
+  GAK_doll_production_parts_text:0 "Parts Available:\n[?GAK_doll_production_parts]"

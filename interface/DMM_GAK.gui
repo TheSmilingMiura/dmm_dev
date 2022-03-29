@@ -16,12 +16,359 @@ guiTypes = {
 	containerWindowType = {
 		name = "GAK_doll_production_container"
 		position = { x = 200 y = 75 }
-		size = { width = 1250 height = 750 }
+		size = { width = 1250 height = 900 }
 		moveable = yes
 
 		background = {
 			name = "Background"
 			quadTextureSprite = GFX_tiled_bg
+		}
+
+		iconType = {
+			name = "GAK_doll_production_manpower_icon"
+			position = { x = 25 y = 25 }
+			spriteType = GFX_GAK_manpower
+		}
+		instantTextBoxType = {
+			name = "GAK_doll_production_manpower_text"
+			position = { x = 50 y = 25 }
+			font = hoi_24header
+			text = GAK_doll_production_manpower_text
+			maxWidth = 300
+			format = center
+		}
+		iconType = {
+			name = "GAK_doll_production_ammo_icon"
+			position = { x = 25 y = 125 }
+			spriteType = GFX_GAK_ammo
+		}
+		instantTextBoxType = {
+			name = "GAK_doll_production_ammo_text"
+			position = { x = 50 y = 125 }
+			font = hoi_24header
+			text = GAK_doll_production_ammo_text
+			maxWidth = 300
+			format = center
+		}
+		iconType = {
+			name = "GAK_doll_production_rations_icon"
+			position = { x = 25 y = 225 }
+			spriteType = GFX_GAK_rations
+		}
+		instantTextBoxType = {
+			name = "GAK_doll_production_rations_text"
+			position = { x = 50 y = 225 }
+			font = hoi_24header
+			text = GAK_doll_production_rations_text
+			maxWidth = 300
+			format = center
+		}
+		iconType = {
+			name = "GAK_doll_production_parts_icon"
+			position = { x = 25 y = 325 }
+			spriteType = GFX_GAK_parts
+		}
+		instantTextBoxType = {
+			name = "GAK_doll_production_parts_text"
+			position = { x = 50 y = 325 }
+			font = hoi_24header
+			text = GAK_doll_production_parts_text
+			maxWidth = 300
+			format = center
+		}
+
+		containerWindowType = {
+			name = "GAK_doll_production_manpower_container"
+			position = { x = 320 y = 20 }
+
+			instantTextBoxType = {
+				name = "GAK_doll_production_manpower_title"
+				position = { x = 20 y = 10 }
+				font = hoi_36header
+				text = GAK_doll_production_manpower_title
+				format = center
+			}
+			iconType = {
+				name = "GAK_doll_production_manpower_main"
+				position = { x = 50 y = 50 }
+				spriteType = GFX_GAK_main
+			}
+			buttonType = {
+				name = "GAK_doll_production_manpower_add_100"
+				position = { x = 57 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_manpower_add_10"
+				position = { x = 178 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_manpower_add_1"
+				position = { x = 299 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_manpower_subtract_100"
+				position = { x = 57 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_manpower_subtract_10"
+				position = { x = 178 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_manpower_subtract_1"
+				position = { x = 299 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_manpower_value_100"
+				position = { x = 15 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_manpower_set_100]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_manpower_value_10"
+				position = { x = 135 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_manpower_set_10]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_manpower_value_1"
+				position = { x = 255 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_manpower_set_1]"
+				format = center
+			}
+		}
+
+		containerWindowType = {
+			name = "GAK_doll_production_ammo_container"
+			position = { x = 770 y = 20 }
+
+			instantTextBoxType = {
+				name = "GAK_doll_production_ammo_title"
+				position = { x = 20 y = 10 }
+				font = hoi_36header
+				text = GAK_doll_production_ammo_title
+				format = center
+			}
+			iconType = {
+				name = "GAK_doll_production_ammo_main"
+				position = { x = 50 y = 50 }
+				spriteType = GFX_GAK_main
+			}
+			buttonType = {
+				name = "GAK_doll_production_ammo_add_100"
+				position = { x = 57 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_ammo_add_10"
+				position = { x = 178 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_ammo_add_1"
+				position = { x = 299 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_ammo_subtract_100"
+				position = { x = 57 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_ammo_subtract_10"
+				position = { x = 178 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_ammo_subtract_1"
+				position = { x = 299 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_ammo_value_100"
+				position = { x = 15 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_ammo_set_100]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_ammo_value_10"
+				position = { x = 135 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_ammo_set_10]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_ammo_value_1"
+				position = { x = 255 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_ammo_set_1]"
+				format = center
+			}
+		}
+
+		containerWindowType = {
+			name = "GAK_doll_production_rations_container"
+			position = { x = 320 y = 420 }
+
+			instantTextBoxType = {
+				name = "GAK_doll_production_rations_title"
+				position = { x = 20 y = 10 }
+				font = hoi_36header
+				text = GAK_doll_production_rations_title
+				format = center
+			}
+			iconType = {
+				name = "GAK_doll_production_rations_main"
+				position = { x = 50 y = 50 }
+				spriteType = GFX_GAK_main
+			}
+			buttonType = {
+				name = "GAK_doll_production_rations_add_100"
+				position = { x = 57 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_rations_add_10"
+				position = { x = 178 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_rations_add_1"
+				position = { x = 299 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_rations_subtract_100"
+				position = { x = 57 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_rations_subtract_10"
+				position = { x = 178 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_rations_subtract_1"
+				position = { x = 299 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_rations_value_100"
+				position = { x = 15 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_rations_set_100]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_rations_value_10"
+				position = { x = 135 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_rations_set_10]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_rations_value_1"
+				position = { x = 255 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_rations_set_1]"
+				format = center
+			}
+		}
+
+		containerWindowType = {
+			name = "GAK_doll_production_parts_container"
+			position = { x = 770 y = 420 }
+
+			instantTextBoxType = {
+				name = "GAK_doll_production_parts_title"
+				position = { x = 20 y = 10 }
+				font = hoi_36header
+				text = GAK_doll_production_parts_title
+				format = center
+			}
+			iconType = {
+				name = "GAK_doll_production_parts_main"
+				position = { x = 50 y = 50 }
+				spriteType = GFX_GAK_main
+			}
+			buttonType = {
+				name = "GAK_doll_production_parts_add_100"
+				position = { x = 57 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_parts_add_10"
+				position = { x = 178 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_parts_add_1"
+				position = { x = 299 y = 56 }
+				spriteType = GFX_GAK_arrow_button
+				rotation = 3.1415
+			}
+			buttonType = {
+				name = "GAK_doll_production_parts_subtract_100"
+				position = { x = 57 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_parts_subtract_10"
+				position = { x = 178 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			buttonType = {
+				name = "GAK_doll_production_parts_subtract_1"
+				position = { x = 299 y = 308 }
+				spriteType = GFX_GAK_arrow_button
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_parts_value_100"
+				position = { x = 15 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_parts_set_100]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_parts_value_10"
+				position = { x = 135 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_parts_set_10]"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "GAK_doll_production_parts_value_1"
+				position = { x = 255 y = 180 }
+				font = tahoma_60
+				text = "[?GAK_doll_production_parts_set_1]"
+				format = center
+			}
+		}
+
+		buttonType = {
+			name = "GAK_doll_production_start_button"
+			position = { x = 50 y = 500 }
+			spriteType = GFX_GAK_build_button
 		}
 	}
 }

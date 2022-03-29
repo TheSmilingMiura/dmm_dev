@@ -15,6 +15,24 @@ GFL_invite_private_military_contractors_category = {
 				246 = {
 					transfer_state_to = BLR
 				}
+				BLR = {
+					division_template = {
+						name = "Griffin & Kryuger Force"
+						regiments = {
+							cavalry = { x = 0 y = 0 }
+							cavalry = { x = 0 y = 1 }
+							cavalry = { x = 0 y = 2 }
+							cavalry = { x = 0 y = 3 }
+						}
+					}
+					set_capital = { state = 246 }
+				}
+				246 = {
+					create_unit = {
+						division = "name = \"1. Griffin & Kryuger Force\" division_template = \"Griffin & Kryuger Force\" start_experience_factor = 0.2 start_equipment factor = 0.05" 
+						owner = BLR
+					}
+				}
 			}
 		}
 	}

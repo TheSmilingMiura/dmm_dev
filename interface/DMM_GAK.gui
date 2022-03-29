@@ -24,14 +24,23 @@ guiTypes = {
 			quadTextureSprite = GFX_tiled_bg
 		}
 
+		instantTextBoxType = {
+			name = "GAK_doll_production_title"
+			position = { x = 0 y = 25 }
+			font = hoi_36header
+			text = GAK_doll_production_title
+			maxWidth = 1250
+			format = center
+		}
+
 		iconType = {
 			name = "GAK_doll_production_manpower_icon"
-			position = { x = 25 y = 25 }
+			position = { x = 25 y = 100 }
 			spriteType = GFX_GAK_manpower
 		}
 		instantTextBoxType = {
 			name = "GAK_doll_production_manpower_text"
-			position = { x = 50 y = 25 }
+			position = { x = 50 y = 100 }
 			font = hoi_24header
 			text = GAK_doll_production_manpower_text
 			maxWidth = 300
@@ -39,12 +48,12 @@ guiTypes = {
 		}
 		iconType = {
 			name = "GAK_doll_production_ammo_icon"
-			position = { x = 25 y = 125 }
+			position = { x = 25 y = 200 }
 			spriteType = GFX_GAK_ammo
 		}
 		instantTextBoxType = {
 			name = "GAK_doll_production_ammo_text"
-			position = { x = 50 y = 125 }
+			position = { x = 50 y = 200 }
 			font = hoi_24header
 			text = GAK_doll_production_ammo_text
 			maxWidth = 300
@@ -52,12 +61,12 @@ guiTypes = {
 		}
 		iconType = {
 			name = "GAK_doll_production_rations_icon"
-			position = { x = 25 y = 225 }
+			position = { x = 25 y = 300 }
 			spriteType = GFX_GAK_rations
 		}
 		instantTextBoxType = {
 			name = "GAK_doll_production_rations_text"
-			position = { x = 50 y = 225 }
+			position = { x = 50 y = 300 }
 			font = hoi_24header
 			text = GAK_doll_production_rations_text
 			maxWidth = 300
@@ -65,12 +74,12 @@ guiTypes = {
 		}
 		iconType = {
 			name = "GAK_doll_production_parts_icon"
-			position = { x = 25 y = 325 }
+			position = { x = 25 y = 400 }
 			spriteType = GFX_GAK_parts
 		}
 		instantTextBoxType = {
 			name = "GAK_doll_production_parts_text"
-			position = { x = 50 y = 325 }
+			position = { x = 50 y = 400 }
 			font = hoi_24header
 			text = GAK_doll_production_parts_text
 			maxWidth = 300
@@ -79,7 +88,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "GAK_doll_production_manpower_container"
-			position = { x = 320 y = 20 }
+			position = { x = 320 y = 70 }
 
 			instantTextBoxType = {
 				name = "GAK_doll_production_manpower_title"
@@ -151,7 +160,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "GAK_doll_production_ammo_container"
-			position = { x = 770 y = 20 }
+			position = { x = 770 y = 70 }
 
 			instantTextBoxType = {
 				name = "GAK_doll_production_ammo_title"
@@ -223,7 +232,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "GAK_doll_production_rations_container"
-			position = { x = 320 y = 420 }
+			position = { x = 320 y = 470 }
 
 			instantTextBoxType = {
 				name = "GAK_doll_production_rations_title"
@@ -295,7 +304,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "GAK_doll_production_parts_container"
-			position = { x = 770 y = 420 }
+			position = { x = 770 y = 470 }
 
 			instantTextBoxType = {
 				name = "GAK_doll_production_parts_title"
@@ -367,7 +376,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "GAK_doll_production_start_button"
-			position = { x = 50 y = 500 }
+			position = { x = 50 y = 650 }
 			spriteType = GFX_GAK_build_button
 		}
 	}

@@ -6,3 +6,203 @@ hktest = {
 		unit_leader_event = griffin_and_kryuger.1
 	}
 }
+
+hh22 = {
+	set_variable = { GAK_doll_production_manpower = 5440 }
+	set_variable = { GAK_doll_production_ammo = 13230 }
+	set_variable = { GAK_doll_production_rations = 18420 }
+	set_variable = { GAK_doll_production_parts = 2750 }
+}
+
+GAK_doll_production_gacha_roll = {
+	if = {
+		limit = {
+			check_variable = { GAK_doll_production_manpower_set > 90 }
+			check_variable = { GAK_doll_production_ammo_set > 399 }
+			check_variable = { GAK_doll_production_rations_set > 399 }
+			check_variable = { GAK_doll_production_parts_set > 29 }
+		}
+		GAK_doll_production_gacha_roll_ar = yes
+	}
+}
+
+GAK_doll_production_gacha_roll_ar = {
+	hktest = yes
+}
+
+GAK_doll_production_add_100_effect = {
+	set_temp_variable = { temp_before = temp_doll_production_set }
+	add_to_temp_variable = { temp_before = 100 }
+
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { temp_before > temp_production_check }
+			}
+			check_variable = { temp_doll_production_set_100 < 9 }
+		}
+		add_to_temp_variable = { temp_doll_production_set_100 = 1 } 
+		add_to_temp_variable = { temp_doll_production_set = 100 }
+	}
+}
+
+GAK_doll_production_add_10_effect = {
+	set_temp_variable = { temp_before = temp_doll_production_set }
+	add_to_temp_variable = { temp_before = 10 }
+
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { temp_before > temp_production_check }
+			}
+			NOT = {
+				AND = {
+					check_variable = { temp_doll_production_set_100 = 9 }
+					check_variable = { temp_doll_production_set_10 = 9 }
+				}
+			}
+		}
+		add_to_temp_variable = { temp_doll_production_set_10 = 1 } 
+		add_to_temp_variable = { temp_doll_production_set = 10 }
+
+		if = {
+			limit = {
+				check_variable = { temp_doll_production_set_10 = 10 }
+			}
+			set_temp_variable = { temp_doll_production_set_10 = 0 }
+			subtract_from_temp_variable = { temp_doll_production_set = 100 }
+			GAK_doll_production_add_100_effect = yes
+		}
+	}
+}
+
+GAK_doll_production_add_1_effect = {
+	set_temp_variable = { temp_before = temp_doll_production_set }
+	add_to_temp_variable = { temp_before = 1 }
+
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { temp_before > temp_production_check }
+			}
+			NOT = {
+				AND = {
+					check_variable = { temp_doll_production_set_100 = 9 }
+					check_variable = { temp_doll_production_set_10 = 9 }
+					check_variable = { temp_doll_production_set_1 = 9 }
+				}
+			}
+		}
+		add_to_temp_variable = { temp_doll_production_set_1 = 1 } 
+		add_to_temp_variable = { temp_doll_production_set = 1 }
+
+		if = {
+			limit = {
+				check_variable = { temp_doll_production_set_1 = 10 }
+			}
+			set_temp_variable = { temp_doll_production_set_1 = 0 }
+			subtract_from_temp_variable = { temp_doll_production_set = 10 }
+			GAK_doll_production_add_10_effect = yes
+		}
+	}
+}
+
+GAK_doll_production_subtract_100_effect = {
+	set_temp_variable = { temp_before = temp_doll_production_set }
+	subtract_from_temp_variable = { temp_before = 1 }
+
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { temp_before < 0 }
+			}
+			NOT = {
+				AND = {
+					check_variable = { temp_doll_production_set_100 = 0 }
+					check_variable = { temp_doll_production_set_10 = 0 }
+					check_variable = { temp_doll_production_set_1 = 0 }
+				}
+			}
+		}
+		subtract_from_temp_variable = { temp_doll_production_set_100 = 1 } 
+		subtract_from_temp_variable = { temp_doll_production_set = 100 }
+
+		if = {
+			limit = {
+				check_variable = { temp_doll_production_set_100 = -1 }
+			}
+			set_temp_variable = { temp_doll_production_set_100 = 0 }
+			add_to_temp_variable = { temp_doll_production_set = 100 }
+		}
+	}
+}
+
+GAK_doll_production_subtract_10_effect = {
+	set_temp_variable = { temp_before = temp_doll_production_set }
+	subtract_from_temp_variable = { temp_before = 1 }
+
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { temp_before < 0 }
+			}
+			NOT = {
+				AND = {
+					check_variable = { temp_doll_production_set_100 = 0 }
+					check_variable = { temp_doll_production_set_10 = 0 }
+				}
+			}
+		}
+		subtract_from_temp_variable = { temp_doll_production_set_10 = 1 } 
+		subtract_from_temp_variable = { temp_doll_production_set = 10 }
+
+		if = {
+			limit = {
+				check_variable = { temp_doll_production_set_10 = -1 }
+				check_variable = { temp_doll_production_set_100 > 0 }
+			}
+			set_temp_variable = { temp_doll_production_set_10 = 9 }
+			add_to_temp_variable = { temp_doll_production_set = 100 }
+			GAK_doll_production_subtract_100_effect = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = { temp_doll_production_set_10 = -1 }
+			}
+			set_temp_variable = { temp_doll_production_set_10 = 0 }
+			add_to_temp_variable = { temp_doll_production_set = 10 }
+		}
+	}
+}
+
+GAK_doll_production_subtract_1_effect = {
+	set_temp_variable = { temp_before = temp_doll_production_set }
+	subtract_from_temp_variable = { temp_before = 1 }
+
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { temp_before < 0 }
+			}
+		}
+		subtract_from_temp_variable = { temp_doll_production_set_1 = 1 } 
+		subtract_from_temp_variable = { temp_doll_production_set = 1 }
+
+		if = {
+			limit = {
+				check_variable = { temp_doll_production_set_1 = -1 }
+				check_variable = { temp_doll_production_set_10 > 0 }
+			}
+			set_temp_variable = { temp_doll_production_set_1 = 9 }
+			add_to_temp_variable = { temp_doll_production_set = 10 }
+			GAK_doll_production_subtract_10_effect = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = { temp_doll_production_set_1 = -1 }
+			}
+			set_temp_variable = { temp_doll_production_set_1 = 0 }
+			add_to_temp_variable = { temp_doll_production_set = 1 }
+		}
+	}
+}

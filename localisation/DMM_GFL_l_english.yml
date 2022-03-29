@@ -29,3 +29,4 @@
   GAK_doll_production_ammo_text:0 "Ammunition Available:\n[?GAK_doll_production_ammo]"
   GAK_doll_production_rations_text:0 "Rations Available:\n[?GAK_doll_production_rations]"
   GAK_doll_production_parts_text:0 "Parts Available:\n[?GAK_doll_production_parts]"
+  GAK_doll_production_title:0 "Doll Production"

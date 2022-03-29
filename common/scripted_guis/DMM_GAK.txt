@@ -29,5 +29,341 @@ scripted_gui = {
 		visible = {
 			check_variable = { show_GAK_doll_production > 0 }
 	    }
+
+		effects = {
+			GAK_doll_production_manpower_add_100_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_manpower }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_manpower_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_manpower_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_manpower_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_manpower_set }
+				GAK_doll_production_add_100_effect = yes
+				set_variable = { GAK_doll_production_manpower_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_manpower_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_manpower_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_manpower_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_manpower_add_10_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_manpower }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_manpower_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_manpower_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_manpower_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_manpower_set }
+				GAK_doll_production_add_10_effect = yes
+				set_variable = { GAK_doll_production_manpower_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_manpower_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_manpower_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_manpower_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_manpower_add_1_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_manpower }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_manpower_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_manpower_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_manpower_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_manpower_set }
+				GAK_doll_production_add_1_effect = yes
+				set_variable = { GAK_doll_production_manpower_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_manpower_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_manpower_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_manpower_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_manpower_subtract_100_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_manpower_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_manpower_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_manpower_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_manpower_set }
+				GAK_doll_production_subtract_100_effect = yes
+				set_variable = { GAK_doll_production_manpower_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_manpower_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_manpower_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_manpower_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_manpower_subtract_10_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_manpower_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_manpower_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_manpower_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_manpower_set }
+				GAK_doll_production_subtract_10_effect = yes
+				set_variable = { GAK_doll_production_manpower_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_manpower_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_manpower_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_manpower_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_manpower_subtract_1_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_manpower_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_manpower_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_manpower_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_manpower_set }
+				GAK_doll_production_subtract_1_effect = yes
+				set_variable = { GAK_doll_production_manpower_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_manpower_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_manpower_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_manpower_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+
+			GAK_doll_production_ammo_add_100_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_ammo }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_ammo_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_ammo_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_ammo_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_ammo_set }
+				GAK_doll_production_add_100_effect = yes
+				set_variable = { GAK_doll_production_ammo_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_ammo_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_ammo_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_ammo_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_ammo_add_10_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_ammo }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_ammo_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_ammo_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_ammo_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_ammo_set }
+				GAK_doll_production_add_10_effect = yes
+				set_variable = { GAK_doll_production_ammo_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_ammo_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_ammo_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_ammo_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_ammo_add_1_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_ammo }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_ammo_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_ammo_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_ammo_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_ammo_set }
+				GAK_doll_production_add_1_effect = yes
+				set_variable = { GAK_doll_production_ammo_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_ammo_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_ammo_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_ammo_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_ammo_subtract_100_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_ammo_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_ammo_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_ammo_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_ammo_set }
+				GAK_doll_production_subtract_100_effect = yes
+				set_variable = { GAK_doll_production_ammo_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_ammo_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_ammo_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_ammo_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_ammo_subtract_10_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_ammo_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_ammo_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_ammo_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_ammo_set }
+				GAK_doll_production_subtract_10_effect = yes
+				set_variable = { GAK_doll_production_ammo_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_ammo_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_ammo_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_ammo_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_ammo_subtract_1_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_ammo_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_ammo_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_ammo_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_ammo_set }
+				GAK_doll_production_subtract_1_effect = yes
+				set_variable = { GAK_doll_production_ammo_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_ammo_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_ammo_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_ammo_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+
+			GAK_doll_production_rations_add_100_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_rations }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_rations_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_rations_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_rations_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_rations_set }
+				GAK_doll_production_add_100_effect = yes
+				set_variable = { GAK_doll_production_rations_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_rations_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_rations_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_rations_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_rations_add_10_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_rations }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_rations_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_rations_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_rations_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_rations_set }
+				GAK_doll_production_add_10_effect = yes
+				set_variable = { GAK_doll_production_rations_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_rations_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_rations_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_rations_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_rations_add_1_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_rations }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_rations_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_rations_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_rations_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_rations_set }
+				GAK_doll_production_add_1_effect = yes
+				set_variable = { GAK_doll_production_rations_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_rations_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_rations_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_rations_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_rations_subtract_100_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_rations_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_rations_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_rations_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_rations_set }
+				GAK_doll_production_subtract_100_effect = yes
+				set_variable = { GAK_doll_production_rations_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_rations_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_rations_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_rations_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_rations_subtract_10_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_rations_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_rations_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_rations_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_rations_set }
+				GAK_doll_production_subtract_10_effect = yes
+				set_variable = { GAK_doll_production_rations_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_rations_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_rations_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_rations_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_rations_subtract_1_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_rations_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_rations_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_rations_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_rations_set }
+				GAK_doll_production_subtract_1_effect = yes
+				set_variable = { GAK_doll_production_rations_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_rations_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_rations_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_rations_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+
+			GAK_doll_production_parts_add_100_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_parts }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_parts_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_parts_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_parts_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_parts_set }
+				GAK_doll_production_add_100_effect = yes
+				set_variable = { GAK_doll_production_parts_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_parts_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_parts_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_parts_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_parts_add_10_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_parts }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_parts_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_parts_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_parts_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_parts_set }
+				GAK_doll_production_add_10_effect = yes
+				set_variable = { GAK_doll_production_parts_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_parts_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_parts_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_parts_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_parts_add_1_click = {
+				set_temp_variable = { temp_production_check = GAK_doll_production_parts }
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_parts_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_parts_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_parts_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_parts_set }
+				GAK_doll_production_add_1_effect = yes
+				set_variable = { GAK_doll_production_parts_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_parts_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_parts_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_parts_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_parts_subtract_100_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_parts_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_parts_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_parts_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_parts_set }
+				GAK_doll_production_subtract_100_effect = yes
+				set_variable = { GAK_doll_production_parts_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_parts_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_parts_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_parts_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_parts_subtract_10_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_parts_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_parts_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_parts_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_parts_set }
+				GAK_doll_production_subtract_10_effect = yes
+				set_variable = { GAK_doll_production_parts_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_parts_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_parts_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_parts_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+			GAK_doll_production_parts_subtract_1_click = {
+				set_temp_variable = { temp_doll_production_set_100 = GAK_doll_production_parts_set_100 }
+				set_temp_variable = { temp_doll_production_set_10 = GAK_doll_production_parts_set_10 }
+				set_temp_variable = { temp_doll_production_set_1 = GAK_doll_production_parts_set_1 }
+				set_temp_variable = { temp_doll_production_set = GAK_doll_production_parts_set }
+				GAK_doll_production_subtract_1_effect = yes
+				set_variable = { GAK_doll_production_parts_set_100 = temp_doll_production_set_100 }
+				set_variable = { GAK_doll_production_parts_set_10 = temp_doll_production_set_10 }
+				set_variable = { GAK_doll_production_parts_set_1 = temp_doll_production_set_1 }
+				set_variable = { GAK_doll_production_parts_set = temp_doll_production_set }
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+
+			GAK_doll_production_start_button_click = {
+				GAK_doll_production_gacha_roll = yes
+
+				subtract_from_variable = { GAK_doll_production_manpower = GAK_doll_production_manpower_set }
+				clear_variable = GAK_doll_production_manpower_set_100
+				clear_variable = GAK_doll_production_manpower_set_10
+				clear_variable = GAK_doll_production_manpower_set_1
+				clear_variable = GAK_doll_production_manpower_set
+
+				subtract_from_variable = { GAK_doll_production_ammo = GAK_doll_production_ammo_set }
+				clear_variable = GAK_doll_production_ammo_set_100
+				clear_variable = GAK_doll_production_ammo_set_10
+				clear_variable = GAK_doll_production_ammo_set_1
+				clear_variable = GAK_doll_production_ammo_set
+
+				subtract_from_variable = { GAK_doll_production_rations = GAK_doll_production_rations_set }
+				clear_variable = GAK_doll_production_rations_set_100
+				clear_variable = GAK_doll_production_rations_set_10
+				clear_variable = GAK_doll_production_rations_set_1
+				clear_variable = GAK_doll_production_rations_set
+
+				subtract_from_variable = { GAK_doll_production_parts = GAK_doll_production_parts_set }
+				clear_variable = GAK_doll_production_parts_set_100
+				clear_variable = GAK_doll_production_parts_set_10
+				clear_variable = GAK_doll_production_parts_set_1
+				clear_variable = GAK_doll_production_parts_set
+
+				add_to_variable = { show_GAK_doll_production = 1 }
+			}
+		}
 	}
 }

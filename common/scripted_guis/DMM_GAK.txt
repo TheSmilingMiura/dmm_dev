@@ -364,6 +364,9 @@ scripted_gui = {
 
 				add_to_variable = { show_GAK_doll_production = 1 }
 			}
+			GAK_doll_production_close_button_click = {
+				clear_variable = show_GAK_doll_production
+			}
 		}
 	}
 }

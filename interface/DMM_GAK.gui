@@ -379,5 +379,13 @@ guiTypes = {
 			position = { x = 50 y = 650 }
 			spriteType = GFX_GAK_build_button
 		}
+		buttonType = {
+			name = "GAK_doll_production_close_button"
+			position = { x = 1217 y = 2 }
+			quadTextureSprite = GFX_closebutton
+			shortcut = ESCAPE
+			clicksound = click_close
+			pdx_tooltip = CLOSE
+		}
 	}
 }

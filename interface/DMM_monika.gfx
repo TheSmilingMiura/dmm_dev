@@ -24,4 +24,40 @@ spriteTypes = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_GFL_load_1"
+		texturefile = "gfx/loadingscreens/load_gfl_1.png"
+		noOfFrames = 20
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_GFL_load_2"
+		texturefile = "gfx/loadingscreens/load_gfl_2.png"
+		noOfFrames = 20
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_GFL_load_3"
+		texturefile = "gfx/loadingscreens/load_gfl_3.png"
+		noOfFrames = 20
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_GFL_load_4"
+		texturefile = "gfx/loadingscreens/load_gfl_4.png"
+		noOfFrames = 20
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
 }

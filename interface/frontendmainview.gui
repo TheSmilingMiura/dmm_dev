@@ -19,7 +19,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_frontend_bg"
 			alwaystransparent = yes
 		}
-		
 	}
 
 	### MAIN MENU PANEL (upperleft)
@@ -30,6 +29,27 @@ guiTypes = {
 		animation_type = decelerated
 		animation_time = 1000
 		size = { width = 256 height = 768}
+		
+		iconType = {
+			name = "GFL_load_1"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_GFL_load_1
+		}
+		iconType = {
+			name = "GFL_load_2"
+			position = { x = 481 y = 0 }
+			spriteType = GFX_GFL_load_2
+		}
+		iconType = {
+			name = "GFL_load_3"
+			position = { x = 962 y = 0 }
+			spriteType = GFX_GFL_load_3
+		}
+		iconType = {
+			name = "GFL_load_4"
+			position = { x = 1443 y = 0 }
+			spriteType = GFX_GFL_load_4
+		}
 		
 		iconType =
 		{

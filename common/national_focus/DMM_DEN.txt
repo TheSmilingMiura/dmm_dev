@@ -19,7 +19,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = DMM_DEN_april
+    id = DMM_DEN_april_1
     country = {
         factor = 0
 		modifier = {
@@ -29,6 +29,32 @@ focus_tree = {
     }
 	default = no
 	shared_focus = DEN_pursuing_closer_ties
+}
+
+focus_tree = {
+    id = DMM_DEN_april_2
+    country = {
+        factor = 0
+		modifier = {
+			add = 10
+			tag = SWE
+		}
+    }
+	default = no
+	shared_focus = DEN_the_free_world_held_their_breath
+}
+
+focus_tree = {
+    id = DMM_DEN_april_3
+    country = {
+        factor = 0
+		modifier = {
+			add = 10
+			tag = NOR
+		}
+    }
+	default = no
+	shared_focus = DEN_for_the_realm
 }
 
 shared_focus = {
@@ -191,6 +217,304 @@ shared_focus = {
 		focus = DEN_cut_the_fat
 	}
 }
+
+shared_focus = {
+	id = DEN_the_free_world_held_their_breath
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 3
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_the_free_world_held_their_breath"
+	}
+}
+
+shared_focus = {
+	id = DEN_no_reason_for_worrying
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_no_reason_for_worrying"
+	}
+	relative_position_id = DEN_the_free_world_held_their_breath
+	prerequisite = { focus = DEN_the_free_world_held_their_breath }
+}
+
+shared_focus = {
+	id = DEN_outlaws_on_the_loose
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_outlaws_on_the_loose"
+	}
+	relative_position_id = DEN_no_reason_for_worrying
+	prerequisite = { focus = DEN_no_reason_for_worrying }
+	mutually_exclusive = { focus = DEN_scrutinize_the_socialdemocrats }
+}
+
+shared_focus = {
+	id = DEN_scrutinize_the_socialdemocrats
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_scrutinize_the_socialdemocrats"
+	}
+	relative_position_id = DEN_no_reason_for_worrying
+	prerequisite = { focus = DEN_no_reason_for_worrying }
+	mutually_exclusive = { focus = DEN_outlaws_on_the_loose }
+}
+
+shared_focus = {
+	id = DEN_in_our_shoes
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_our_shoes"
+	}
+	relative_position_id = DEN_outlaws_on_the_loose
+	prerequisite = {
+		focus = DEN_outlaws_on_the_loose
+		focus = DEN_scrutinize_the_socialdemocrats
+	}
+}
+
+shared_focus = {
+	id = DEN_the_devil_at_work
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_the_devil_at_work"
+	}
+	relative_position_id = DEN_the_free_world_held_their_breath
+	prerequisite = { focus = DEN_the_free_world_held_their_breath }
+}
+
+shared_focus = {
+	id = DEN_marking_judas
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_marking_judas"
+	}
+	relative_position_id = DEN_the_devil_at_work
+	prerequisite = { focus = DEN_the_devil_at_work }
+}
+
+shared_focus = {
+	id = DEN_turncoats_within
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_turncoats_within"
+	}
+	relative_position_id = DEN_the_devil_at_work
+	prerequisite = { focus = DEN_the_devil_at_work }
+}
+
+shared_focus = {
+	id = DEN_the_krarup_tapes
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_the_krarup_tapes"
+	}
+	relative_position_id = DEN_marking_judas
+	prerequisite = { focus = DEN_marking_judas }
+	prerequisite = { focus = DEN_turncoats_within }
+}
+
+shared_focus = {
+	id = DEN_freies_danemark
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_freies_danemark"
+	}
+	relative_position_id = DEN_in_our_shoes
+	prerequisite = { focus = DEN_in_our_shoes }
+	prerequisite = { focus = DEN_the_krarup_tapes }
+}
+
+
+shared_focus = {
+	id = DEN_for_the_realm
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 3
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_for_the_realm"
+	}
+}
+
+shared_focus = {
+	id = DEN_total_cooperation
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_total_cooperation"
+	}
+	relative_position_id = DEN_for_the_realm
+	prerequisite = { focus = DEN_for_the_realm }
+	mutually_exclusive = { focus = DEN_divine_roots }
+}
+
+shared_focus = {
+	id = DEN_ban_antinazi_rhetoric
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_ban_antinazi_rhetoric"
+	}
+	relative_position_id = DEN_total_cooperation
+	prerequisite = { focus = DEN_total_cooperation }
+}
+
+shared_focus = {
+	id = DEN_internet_censorship
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_internet_censorship"
+	}
+	relative_position_id = DEN_ban_antinazi_rhetoric
+	prerequisite = { focus = DEN_ban_antinazi_rhetoric }
+}
+
+shared_focus = {
+	id = DEN_towards_prosperity
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_towards_prosperity"
+	}
+	relative_position_id = DEN_ban_antinazi_rhetoric
+	prerequisite = { focus = DEN_ban_antinazi_rhetoric }
+}
+
+shared_focus = {
+	id = DEN_doctorate_in_patriotism
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_doctorate_in_patriotism"
+	}
+	relative_position_id = DEN_internet_censorship
+	prerequisite = { focus = DEN_internet_censorship }
+	prerequisite = { focus = DEN_towards_prosperity }
+}
+
+shared_focus = {
+	id = DEN_divine_roots
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_divine_roots"
+	}
+	relative_position_id = DEN_for_the_realm
+	prerequisite = { focus = DEN_for_the_realm }
+	mutually_exclusive = { focus = DEN_total_cooperation }
+}
+
+shared_focus = {
+	id = DEN_no_fucking_clue
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_no_fucking_clue"
+	}
+	relative_position_id = DEN_divine_roots
+	prerequisite = { focus = DEN_divine_roots }
+}
+
+shared_focus = {
+	id = DEN_protect_christianity
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_protect_christianity"
+	}
+	relative_position_id = DEN_no_fucking_clue
+	prerequisite = { focus = DEN_no_fucking_clue }
+}
+
+shared_focus = {
+	id = DEN_our_personal_decadence
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_our_personal_decadence"
+	}
+	relative_position_id = DEN_no_fucking_clue
+	prerequisite = { focus = DEN_no_fucking_clue }
+}
+
+shared_focus = {
+	id = DEN_singular_reich_multiple_banners
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_singular_reich_multiple_banners"
+	}
+	relative_position_id = DEN_protect_christianity
+	prerequisite = { focus = DEN_protect_christianity }
+	prerequisite = { focus = DEN_our_personal_decadence }
+}
+
+shared_focus = {
+	id = DEN_one_realm
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_one_realm"
+	}
+	relative_position_id = DEN_doctorate_in_patriotism
+	prerequisite = {
+		focus = DEN_doctorate_in_patriotism
+		focus = DEN_singular_reich_multiple_banners
+	}
+}
+
 
 shared_focus = {
 	id = DEN_New_Economic_Policies

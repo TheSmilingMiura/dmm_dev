@@ -1,6 +1,20 @@
 ﻿l_english:
 
-DEN_pursuing_closer_ties: "Pursuing Closer Ties"
+# Bookmarks
+
+# Opinion Modifiers
+
+# Events
+dmmdenmark.170620.t:0 "The Fall of Danes"
+dmmdenmark.170620.d:0 "As the clock moved 30 minutes prior to midnight, brave danish resistance fighters began to plot their next move against the tyranny of Germania, Miura, Maho and TheThBa, however it seemed no one counted on a leak, as it seemed the secret recordings of certain notable party members got out.\n\nAs the clock ticked forwards, unsuspecting members suddendly heard alot of noise nearby, however brushes it off as nothing more than just a regular patch of vehicles. However as they got further in with the planning, a loud sound from downstairs and the sound of gunfire made them finally realize what had happened.\n\nBut as the guards on the lower floor rushed for guns and the members above barricaded the entrance, all on the lower floor were ruthlessly gunned down on orders of the party. As the guards moved upwards, the already incredibly tense situation got even more tense as they realized that the germans knew their location.\n\nThe german soldiers demanded their immediate surrender but the members didn’t comply, and  armed with nothing more than pistols tried their hardest, in vain as they all died. The party demanded that no funeral would be held."
+dmmdenmark.170620.a:0 "Martyrs only grows our belief stronger."
+
+# Parties
+
+# Country Names
+
+ # Focuses
+  DEN_pursuing_closer_ties: "Pursuing Closer Ties"
   DEN_pursuing_closer_ties_desc: "placeholder"
   DEN_in_search_of_identity: "In Search of Identity"
   DEN_in_search_of_identity_desc: "placeholder"
@@ -25,20 +39,52 @@ DEN_pursuing_closer_ties: "Pursuing Closer Ties"
   DEN_happy_benefactors: "Happy Benefactors"
   DEN_happy_benefactors_desc: "placeholder"
 
-# Bookmarks
+  DEN_the_free_world_held_their_breath: "The Free World Held Their Breath"
+  DEN_the_free_world_held_their_breath_desc: "placeholder"
+  DEN_no_reason_for_worrying: "No Reason for Worrying"
+  DEN_no_reason_for_worrying_desc: "placeholder"
+  DEN_outlaws_on_the_loose: "Outlaws on the Loose"
+  DEN_outlaws_on_the_loose_desc: "placeholder"
+  DEN_scrutinize_the_socialdemocrats: "Scrutinize the Socialdemocrats"
+  DEN_scrutinize_the_socialdemocrats_desc: "placeholder"
+  DEN_in_our_shoes: "In Our Shoes"
+  DEN_in_our_shoes_desc: "placeholder"
+  DEN_the_devil_at_work: "The Devil at Work"
+  DEN_the_devil_at_work_desc: "placeholder"
+  DEN_marking_judas: "Marking Judas"
+  DEN_marking_judas_desc: "placeholder"
+  DEN_turncoats_within: "Turncoats Within"
+  DEN_turncoats_within_desc: "placeholder"
+  DEN_the_krarup_tapes: "The Krarup Tapes"
+  DEN_the_krarup_tapes_desc: "placeholder"
+  DEN_freies_danemark: "Freies Danemark"
+  DEN_freies_danemark_desc: "placeholder"
 
-# Opinion Modifiers
+  DEN_for_the_realm: "For the Realm"
+  DEN_for_the_realm_desc: "placeholder"
+  DEN_total_cooperation: "Total Cooperation"
+  DEN_total_cooperation_desc: "placeholder"
+  DEN_ban_antinazi_rhetoric: "Ban Anti-Nazi Rhetoric"
+  DEN_ban_antinazi_rhetoric_desc: "placeholder"
+  DEN_internet_censorship: "Internet Censorship"
+  DEN_internet_censorship_desc: "placeholder"
+  DEN_towards_prosperity: "Towards Prosperity"
+  DEN_towards_prosperity_desc: "placeholder"
+  DEN_doctorate_in_patriotism: "Doctorate in Patriotism"
+  DEN_doctorate_in_patriotism_desc: "placeholder"
+  DEN_divine_roots: "Divine Roots"
+  DEN_divine_roots_desc: "placeholder"
+  DEN_no_fucking_clue: "No Fucking Clue"
+  DEN_no_fucking_clue_desc: "placeholder"
+  DEN_protect_christianity: "Protect Christianity"
+  DEN_protect_christianity_desc: "placeholder"
+  DEN_our_personal_decadence: "Our Personal Decadence"
+  DEN_our_personal_decadence_desc: "placeholder"
+  DEN_singular_reich_multiple_banners: "Singular Reich, Multiple Banners"
+  DEN_singular_reich_multiple_banners_desc: "placeholder"
+  DEN_one_realm: "One Realm"
+  DEN_one_realm_desc: "placeholder"
 
-# Events
-dmmdenmark.170620.t:0 "The Fall of Danes"
-dmmdenmark.170620.d:0 "As the clock moved 30 minutes prior to midnight, brave danish resistance fighters began to plot their next move against the tyranny of Germania, Miura, Maho and TheThBa, however it seemed no one counted on a leak, as it seemed the secret recordings of certain notable party members got out.\n\nAs the clock ticked forwards, unsuspecting members suddendly heard alot of noise nearby, however brushes it off as nothing more than just a regular patch of vehicles. However as they got further in with the planning, a loud sound from downstairs and the sound of gunfire made them finally realize what had happened.\n\nBut as the guards on the lower floor rushed for guns and the members above barricaded the entrance, all on the lower floor were ruthlessly gunned down on orders of the party. As the guards moved upwards, the already incredibly tense situation got even more tense as they realized that the germans knew their location.\n\nThe german soldiers demanded their immediate surrender but the members didn’t comply, and  armed with nothing more than pistols tried their hardest, in vain as they all died. The party demanded that no funeral would be held."
-dmmdenmark.170620.a:0 "Martyrs only grows our belief stronger."
-
-# Parties
-
-# Country Names
-
-# Focuses
 DEN_New_Economic_Policies:0 "New Economic Policies"
 DEN_New_Economic_Policies_desc:0 ""
 

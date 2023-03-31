@@ -1,5 +1,30 @@
 ﻿l_english:
 
+DEN_pursuing_closer_ties: "Pursuing Closer Ties"
+  DEN_pursuing_closer_ties_desc: "placeholder"
+  DEN_in_search_of_identity: "In Search of Identity"
+  DEN_in_search_of_identity_desc: "placeholder"
+  DEN_heartbeats_of_democracy: "Heartbeats of Democracy"
+  DEN_heartbeats_of_democracy_desc: "placeholder"
+  DEN_peace_in_unity: "Peace in Unity"
+  DEN_peace_in_unity_desc: "placeholder"
+  DEN_backroom_deals: "Backroom Deals"
+  DEN_backroom_deals_desc: "placeholder"
+  DEN_a_shaky_handshake: "A Shaky Handshake"
+  DEN_a_shaky_handshake_desc: "placeholder"
+  DEN_dissecting_the_tumor: "Dissecting the Tumor"
+  DEN_dissecting_the_tumor_desc: "placeholder"
+  DEN_their_homesteads: "Their Homesteads"
+  DEN_their_homesteads_desc: "placeholder"
+  DEN_their_workplaces: "Their Workplaces"
+  DEN_their_workplaces_desc: "placeholder"
+  DEN_outlaw_the_left_horseshoe: "Outlaw the Left Horseshoe"
+  DEN_outlaw_the_left_horseshoe_desc: "placeholder"
+  DEN_cut_the_fat: "Cut the Fat"
+  DEN_cut_the_fat_desc: "placeholder"
+  DEN_happy_benefactors: "Happy Benefactors"
+  DEN_happy_benefactors_desc: "placeholder"
+
 # Bookmarks
 
 # Opinion Modifiers

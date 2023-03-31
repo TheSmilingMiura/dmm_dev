@@ -2,10 +2,6 @@ focus_tree = {
     id = DMM_DEN_1
     country = {
         factor = 0
-        modifier = {
-            add = 10
-            tag = DEN
-        }
     }
 	default = no
 	continuous_focus_position = { x = 16 y = 500 }
@@ -20,6 +16,180 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 16 y = 500 }
 	shared_focus = DEN_New_Economic_Policies
+}
+
+focus_tree = {
+    id = DMM_DEN_april
+    country = {
+        factor = 0
+		modifier = {
+			add = 10
+			tag = DEN
+		}
+    }
+	default = no
+	shared_focus = DEN_pursuing_closer_ties
+}
+
+shared_focus = {
+	id = DEN_pursuing_closer_ties
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 3
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_pursuing_closer_ties"
+	}
+}
+
+shared_focus = {
+	id = DEN_in_search_of_identity
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = DEN_pursuing_closer_ties
+	prerequisite = { focus = DEN_pursuing_closer_ties }
+	mutually_exclusive = { focus = DEN_dissecting_the_tumor }
+}
+
+shared_focus = {
+	id = DEN_heartbeats_of_democracy
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_heartbeats_of_democracy"
+	}
+	relative_position_id = DEN_in_search_of_identity
+	prerequisite = { focus = DEN_in_search_of_identity }
+}
+
+shared_focus = {
+	id = DEN_peace_in_unity
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_peace_in_unity"
+	}
+	relative_position_id = DEN_in_search_of_identity
+	prerequisite = { focus = DEN_in_search_of_identity }
+}
+
+shared_focus = {
+	id = DEN_backroom_deals
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_backroom_deals"
+	}
+	relative_position_id = DEN_heartbeats_of_democracy
+	prerequisite = { focus = DEN_heartbeats_of_democracy }
+	prerequisite = { focus = DEN_peace_in_unity }
+}
+
+shared_focus = {
+	id = DEN_a_shaky_handshake
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_a_shaky_handshake"
+	}
+	relative_position_id = DEN_backroom_deals
+	prerequisite = { focus = DEN_backroom_deals }
+}
+
+shared_focus = {
+	id = DEN_dissecting_the_tumor
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_dissecting_the_tumor"
+	}
+	relative_position_id = DEN_pursuing_closer_ties
+	prerequisite = { focus = DEN_pursuing_closer_ties }
+	mutually_exclusive = { focus = DEN_in_search_of_identity }
+}
+
+shared_focus = {
+	id = DEN_their_homesteads
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_their_homesteads"
+	}
+	relative_position_id = DEN_dissecting_the_tumor
+	prerequisite = { focus = DEN_dissecting_the_tumor }
+}
+
+shared_focus = {
+	id = DEN_their_workplaces
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_their_workplaces"
+	}
+	relative_position_id = DEN_dissecting_the_tumor
+	prerequisite = { focus = DEN_dissecting_the_tumor }
+}
+
+shared_focus = {
+	id = DEN_outlaw_the_left_horseshoe
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_outlaw_the_left_horseshoe"
+	}
+	relative_position_id = DEN_their_homesteads
+	prerequisite = { focus = DEN_their_homesteads }
+	prerequisite = { focus = DEN_their_workplaces }
+}
+
+shared_focus = {
+	id = DEN_cut_the_fat
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_cut_the_fat"
+	}
+	relative_position_id = DEN_outlaw_the_left_horseshoe
+	prerequisite = { focus = DEN_outlaw_the_left_horseshoe }
+}
+
+shared_focus = {
+	id = DEN_happy_benefactors
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_happy_benefactors"
+	}
+	relative_position_id = DEN_a_shaky_handshake
+	prerequisite = {
+		focus = DEN_a_shaky_handshake
+		focus = DEN_cut_the_fat
+	}
 }
 
 shared_focus = {

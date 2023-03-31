@@ -63,8 +63,8 @@ shared_focus = {
 	id = DEN_pursuing_closer_ties
 	icon = GFX_DEN_pursuing_closer_ties
 	cost = 2
-	x = 3
-	y = 0
+	x = 10
+	y = 2
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_pursuing_closer_ties"
 	}
@@ -233,7 +233,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_no_reason_for_worrying
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_no_reason_for_worrying
 	cost = 2
 	x = -2
 	y = 1
@@ -246,7 +246,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_outlaws_on_the_loose
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_outlaws_on_the_loose
 	cost = 2
 	x = -1
 	y = 1
@@ -260,7 +260,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_scrutinize_the_socialdemocrats
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_scrutinize_the_socialdemocrats
 	cost = 2
 	x = 1
 	y = 1
@@ -274,7 +274,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_in_our_shoes
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_in_our_shoes
 	cost = 2
 	x = 1
 	y = 1
@@ -316,7 +316,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_turncoats_within
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_turncoats_within
 	cost = 2
 	x = 1
 	y = 1
@@ -329,7 +329,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_the_krarup_tapes
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_the_krarup_tapes
 	cost = 2
 	x = 1
 	y = 1
@@ -343,7 +343,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_freies_danemark
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_freies_danemark
 	cost = 2
 	x = 2
 	y = 1
@@ -358,7 +358,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_for_the_realm
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_for_the_realm
 	cost = 2
 	x = 3
 	y = 0
@@ -369,7 +369,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_total_cooperation
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_total_cooperation
 	cost = 2
 	x = -2
 	y = 1
@@ -382,13 +382,13 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DEN_ban_antinazi_rhetoric
-	icon = GFX_generic_suspend_constitution
+	id = DEN_the_right_word
+	icon = GFX_DEN_the_right_word
 	cost = 2
 	x = 0
 	y = 1
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus DEN_ban_antinazi_rhetoric"
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_the_right_word"
 	}
 	relative_position_id = DEN_total_cooperation
 	prerequisite = { focus = DEN_total_cooperation }
@@ -396,33 +396,33 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_internet_censorship
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_internet_censorship
 	cost = 2
 	x = -1
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_internet_censorship"
 	}
-	relative_position_id = DEN_ban_antinazi_rhetoric
-	prerequisite = { focus = DEN_ban_antinazi_rhetoric }
+	relative_position_id = DEN_the_right_word
+	prerequisite = { focus = DEN_the_right_word }
 }
 
 shared_focus = {
 	id = DEN_towards_prosperity
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_towards_prosperity
 	cost = 2
 	x = 1
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DEN_towards_prosperity"
 	}
-	relative_position_id = DEN_ban_antinazi_rhetoric
-	prerequisite = { focus = DEN_ban_antinazi_rhetoric }
+	relative_position_id = DEN_the_right_word
+	prerequisite = { focus = DEN_the_right_word }
 }
 
 shared_focus = {
 	id = DEN_doctorate_in_patriotism
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_doctorate_in_patriotism
 	cost = 2
 	x = 1
 	y = 1
@@ -436,7 +436,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_divine_roots
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_divine_roots
 	cost = 2
 	x = 2
 	y = 1
@@ -450,7 +450,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_no_fucking_clue
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_no_fucking_clue
 	cost = 2
 	x = 0
 	y = 1
@@ -463,7 +463,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_protect_christianity
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_protect_christianity
 	cost = 2
 	x = -1
 	y = 1
@@ -476,7 +476,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_our_personal_decadence
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_our_personal_decadence
 	cost = 2
 	x = 1
 	y = 1
@@ -489,7 +489,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_singular_reich_multiple_banners
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_singular_reich_multiple_banners
 	cost = 2
 	x = 1
 	y = 1
@@ -503,7 +503,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_one_realm
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_one_realm
 	cost = 2
 	x = 2
 	y = 1

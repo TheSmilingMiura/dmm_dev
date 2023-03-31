@@ -57,9 +57,11 @@ focus_tree = {
 	shared_focus = DEN_for_the_realm
 }
 
+# who's rem?
+
 shared_focus = {
 	id = DEN_pursuing_closer_ties
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_pursuing_closer_ties
 	cost = 2
 	x = 3
 	y = 0
@@ -70,7 +72,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_in_search_of_identity
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_in_search_of_identity
 	cost = 2
 	x = -2
 	y = 1
@@ -84,7 +86,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_heartbeats_of_democracy
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_heartbeats_of_democracy
 	cost = 2
 	x = -1
 	y = 1
@@ -97,7 +99,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_peace_in_unity
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_peace_in_unity
 	cost = 2
 	x = 1
 	y = 1
@@ -110,7 +112,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_backroom_deals
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_backroom_deals
 	cost = 2
 	x = 1
 	y = 1
@@ -124,7 +126,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_a_shaky_handshake
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_a_shaky_handshake
 	cost = 2
 	x = 1
 	y = 1
@@ -137,7 +139,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_dissecting_the_tumor
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_dissecting_the_tumor
 	cost = 2
 	x = 2
 	y = 1
@@ -151,7 +153,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_their_homesteads
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_their_homesteads
 	cost = 2
 	x = -1
 	y = 1
@@ -164,7 +166,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_their_workplaces
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_their_workplaces
 	cost = 2
 	x = 1
 	y = 1
@@ -177,7 +179,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_outlaw_the_left_horseshoe
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_outlaw_the_left_horseshoe
 	cost = 2
 	x = 1
 	y = 1
@@ -191,7 +193,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_cut_the_fat
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_cut_the_fat
 	cost = 2
 	x = -1
 	y = 1
@@ -204,7 +206,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_happy_benefactors
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_happy_benefactors
 	cost = 2
 	x = 1
 	y = 1
@@ -220,7 +222,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_the_free_world_held_their_breath
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_the_free_world_held_their_breath
 	cost = 2
 	x = 3
 	y = 0
@@ -288,7 +290,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_the_devil_at_work
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_the_devil_at_work
 	cost = 2
 	x = 2
 	y = 1
@@ -301,7 +303,7 @@ shared_focus = {
 
 shared_focus = {
 	id = DEN_marking_judas
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_DEN_marking_judas
 	cost = 2
 	x = -1
 	y = 1

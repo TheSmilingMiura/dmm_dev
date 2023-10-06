@@ -1,0 +1,15 @@
+#blank to avoid ID errorse="STATE_1008"
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+
+	}
+
+	provinces={
+		1359 7411 10799 
+	}
+	manpower=4410712
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

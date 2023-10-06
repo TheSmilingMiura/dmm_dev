@@ -1,0 +1,34 @@
+#blank to avoid ID errors"STATE_57"
+
+	history={
+		owner = GER
+		victory_points = {
+			495 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				radar_station = 1
+				arms_factory = 6
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		495 3398 6535 6622 9443 9482 9509 9547 11431 
+	}
+	manpower=5109333
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

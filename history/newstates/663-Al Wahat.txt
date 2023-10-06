@@ -1,0 +1,25 @@
+
+state={
+	id=663
+	name="STATE_663"
+	resources={
+		oil=40.000
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1127 1140 1198 4057 4133 4200 7063 7076 9977 10785 
+	}
+	manpower=208808
+	buildings_max_level_factor=1.000
+	state_category=town
+}

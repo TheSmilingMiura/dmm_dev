@@ -1,0 +1,18 @@
+#blank to avoid ID errors="STATE_442"
+	manpower = 11143940
+	
+	state_category = city
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+		}
+		add_core_of = AFG
+	}
+
+	provinces={
+		12717 12763 
+	}
+}

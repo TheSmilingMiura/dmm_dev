@@ -1,0 +1,22 @@
+#blank to avoid ID errors="STATE_397"
+        
+	history={
+		owner = GKN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GKN
+
+	}
+
+	provinces={
+		99 1295 1307 3000 3155 4298 6121 7318 7712 7898 9225 10579 11200 11203 12558 
+	}
+	manpower=137203
+        resources={
+		oil=70 
+	}
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

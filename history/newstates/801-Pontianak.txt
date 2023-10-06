@@ -1,0 +1,15 @@
+#blank to avoid ID errors="STATE_801"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1230 1304 1316 4279 4335 4409 10282 12129 13267 13277 13322 
+	}
+	manpower=4052345
+	buildings_max_level_factor=1.000
+	state_category=town
+}

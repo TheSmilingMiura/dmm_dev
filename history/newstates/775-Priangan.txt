@@ -1,0 +1,42 @@
+
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = SAR
+		add_core_of = SAR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 4
+			13236 = {
+				bunker = 2
+
+			}
+			1398 = {
+				naval_base = 3
+
+			}
+			1386 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			13236 2 
+		}
+		victory_points = {
+			1386 1 
+		}
+
+	}
+
+	provinces={
+		1398 1425 4406 4621 7421 10307 13236 13315 
+	}
+	manpower=28682976
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

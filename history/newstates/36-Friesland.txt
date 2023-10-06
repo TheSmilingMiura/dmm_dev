@@ -1,0 +1,24 @@
+#blank to avoid ID errors"STATE_36"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			6336 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		3444 3512 9281 9309 9363 9403 11233 11264 11346 11388 
+	}
+	manpower=2364000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

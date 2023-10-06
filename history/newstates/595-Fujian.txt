@@ -1,0 +1,16 @@
+#blank to avoid ID errors"STATE_595"
+	manpower = 11755600
+	state_category = city
+	history=
+	{
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1006 1166 1193 4053 4169 7027 7099 7131 10010 10042 10054 10093 11986 12057 12084 13343
+	}
+}

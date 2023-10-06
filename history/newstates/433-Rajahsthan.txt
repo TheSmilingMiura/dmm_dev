@@ -1,0 +1,27 @@
+
+state={
+	id=433
+	name="STATE_433" # Rajasthan
+	manpower = 9330667
+	
+	state_category = large_town
+	
+	
+	resources={
+		tungsten=32 # was: 42
+	}
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		12886 4984 4149 1908
+	}
+}

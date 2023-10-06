@@ -1,0 +1,33 @@
+#blank to avoid ID errors="STATE_539"
+	resources={
+		oil=52.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			8193 2 
+		}
+		victory_points = {
+			5139 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			5139 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1903 5139 8207 8244 10948 
+	}
+	manpower=2007664
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

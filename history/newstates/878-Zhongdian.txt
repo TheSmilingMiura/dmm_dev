@@ -1,0 +1,16 @@
+#blank to avoid ID errorsSTATE_878"
+	provinces={
+		 8126
+	}
+	history = {
+		owner = SIC
+		add_core_of = RRC
+		add_core_of = SIC
+		add_claim_by = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=86657
+	state_category = pastoral
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=445
+	name="STATE_445"
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+
+		}
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		5105 8044
+	}
+	manpower=1862341
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

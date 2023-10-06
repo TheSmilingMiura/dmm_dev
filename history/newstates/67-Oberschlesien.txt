@@ -1,0 +1,24 @@
+#blank to avoid ID errors"STATE_67"
+	resources={
+		steel=19.000
+		aluminium=6.000
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		479 506 6464 6485 6512 9412 9457 9511 9551 9567 11467 13205 
+	}
+	manpower=1402591
+	buildings_max_level_factor=1.000
+	state_category=city
+}

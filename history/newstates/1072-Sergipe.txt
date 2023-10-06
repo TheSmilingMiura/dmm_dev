@@ -1,0 +1,25 @@
+#blank to avoid ID errorsTATE_1072"
+	resources={
+		oil=4
+		rubber=6
+	}
+	history={
+		owner = SVR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = SVR
+		victory_points = {
+			8143 10 #Aracaju
+		}
+
+	}
+	provinces={
+		8143 13474 13476 
+	}
+	manpower=2030000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,15 @@
+#blank to avoid ID errorsSTATE_819"
+
+	state_category=rural
+	manpower= 922176
+
+	history={
+		owner = EEI
+		add_core_of = EEI
+	}
+		
+	provinces={
+		1289 4262 7311 10169 
+	}
+	buildings_max_level_factor=1.000
+}

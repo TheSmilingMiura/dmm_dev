@@ -1,0 +1,23 @@
+#blank to avoid ID errorsSTATE_694"
+	manpower = 444290
+
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			177 = {
+				naval_base = 3
+			}
+			9377 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		177 9377 13084 
+	}
+}

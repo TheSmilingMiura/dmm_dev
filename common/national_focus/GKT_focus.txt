@@ -1,0 +1,477 @@
+
+shared_focus = {
+	id = GKT_lex_krupp
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 7
+	y = 0
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_lex_krupp"
+	}
+}
+
+shared_focus = {
+	id = GKT_growth
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_growth"
+	}
+	relative_position_id = GKT_lex_krupp
+	prerequisite = { focus = GKT_lex_krupp }
+}
+
+shared_focus = {
+	id = GKT_a_state_of_war
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_a_state_of_war"
+	}
+	relative_position_id = GKT_lex_krupp
+	prerequisite = { focus = GKT_lex_krupp }
+}
+
+shared_focus = {
+	id = GKT_a_marriage_of_convenience
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_a_marriage_of_convenience"
+	}
+	relative_position_id = GKT_lex_krupp
+	prerequisite = { focus = GKT_lex_krupp }
+}
+
+shared_focus = {
+	id = GKT_the_prussian_connection
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_the_prussian_connection"
+	}
+	relative_position_id = GKT_a_state_of_war
+	prerequisite = { focus = GKT_a_state_of_war }
+}
+
+shared_focus = {
+	id = GKT_bring_in_rhineland_kruppianers
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_bring_in_rhineland_kruppianers"
+	}
+	relative_position_id = GKT_growth
+	prerequisite = { focus = GKT_growth }
+}
+
+shared_focus = {
+	id = GKT_continuing_the_redevelopment
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_continuing_the_redevelopment"
+	}
+	relative_position_id = GKT_growth
+	prerequisite = { focus = GKT_growth }
+}
+
+shared_focus = {
+	id = GKT_the_wielandwerke_project
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_the_wielandwerke_project"
+	}
+	relative_position_id = GKT_bring_in_rhineland_kruppianers
+	prerequisite = { focus = GKT_bring_in_rhineland_kruppianers }
+	prerequisite = { focus = GKT_continuing_the_redevelopment }
+}
+
+shared_focus = {
+	id = GKT_lasurit_leopard_contracts
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_lasurit_leopard_contracts"
+	}
+	relative_position_id = GKT_the_wielandwerke_project
+	prerequisite = { focus = GKT_the_wielandwerke_project }
+}
+
+shared_focus = {
+	id = GKT_using_smaragd_shipbuilding_profits
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_using_smaragd_shipbuilding_profits"
+	}
+	relative_position_id = GKT_the_wielandwerke_project
+	prerequisite = { focus = GKT_the_wielandwerke_project }
+}
+
+shared_focus = {
+	id = GKT_turmalin_arsenal
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_turmalin_arsenal"
+	}
+	relative_position_id = GKT_the_wielandwerke_project
+	prerequisite = { focus = GKT_the_wielandwerke_project }
+}
+
+shared_focus = {
+	id = GKT_a_marshals_passion
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_a_marshals_passion"
+	}
+	relative_position_id = GKT_a_marriage_of_convenience
+	prerequisite = { focus = GKT_a_marriage_of_convenience }
+	prerequisite = { focus = GKT_more_than_a_company }
+	mutually_exclusive = { focus = GKT_using_smaragd_shipbuilding_profits }
+}
+
+shared_focus = {
+	id = GKT_a_krupps_iron_heart
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_a_krupps_iron_heart"
+	}
+	relative_position_id = GKT_using_smaragd_shipbuilding_profits
+	prerequisite = { focus = GKT_using_smaragd_shipbuilding_profits }
+	prerequisite = { focus = GKT_a_marshals_passion }
+}
+
+shared_focus = {
+	id = GKT_the_svalinn_directive
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_the_svalinn_directive"
+	}
+	relative_position_id = GKT_lasurit_leopard_contracts
+	prerequisite = { focus = GKT_lasurit_leopard_contracts }
+	prerequisite = { focus = GKT_turmalin_arsenal }
+}
+
+shared_focus = {
+	id = GKT_revive_the_balmung_and_minung_projects
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_revive_the_balmung_and_minung_projects"
+	}
+	relative_position_id = GKT_lasurit_leopard_contracts
+	prerequisite = { focus = GKT_lasurit_leopard_contracts }
+	prerequisite = { focus = GKT_using_smaragd_shipbuilding_profits }
+}
+
+shared_focus = {
+	id = GKT_in_bed_with_the_party
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 3
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_in_bed_with_the_party"
+	}
+	relative_position_id = GKT_a_state_of_war
+	prerequisite = { focus = GKT_a_state_of_war }
+}
+
+shared_focus = {
+	id = GKT_more_than_a_company
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_more_than_a_company"
+	}
+	relative_position_id = GKT_the_prussian_connection
+	prerequisite = { focus = GKT_the_prussian_connection }
+	prerequisite = { focus = GKT_in_bed_with_the_party }
+}
+
+shared_focus = {
+	id = GKT_forgers_of_greater_germany
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_forgers_of_greater_germany"
+	}
+	relative_position_id = GKT_more_than_a_company
+	prerequisite = { focus = GKT_more_than_a_company }
+}
+
+shared_focus = {
+	id = GKT_pride_among_the_locals
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_pride_among_the_locals"
+	}
+	relative_position_id = GKT_more_than_a_company
+	prerequisite = { focus = GKT_more_than_a_company }
+}
+
+shared_focus = {
+	id = GKT_tulen_reconstructions
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_tulen_reconstructions"
+	}
+	relative_position_id = GKT_forgers_of_greater_germany
+	prerequisite = { focus = GKT_forgers_of_greater_germany }
+}
+
+shared_focus = {
+	id = GKT_reviving_the_amerika_line
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_reviving_the_amerika_line"
+	}
+	relative_position_id = GKT_tulen_reconstructions
+	prerequisite = { focus = GKT_tulen_reconstructions }
+}
+
+shared_focus = {
+	id = GKT_influence_in_moskow
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_influence_in_moskow"
+	}
+	relative_position_id = GKT_new_kruppianers
+	prerequisite = { focus = GKT_new_kruppianers }
+	prerequisite = { focus = GKT_new_kruppianers }
+}
+
+shared_focus = {
+	id = GKT_truly_too_big_to_fail
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_truly_too_big_to_fail"
+	}
+	relative_position_id = GKT_reviving_the_amerika_line
+	prerequisite = { focus = GKT_reviving_the_amerika_line }
+	prerequisite = { focus = GKT_influence_in_moskow }
+}
+
+shared_focus = {
+	id = GKT_an_organic_corporation
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_an_organic_corporation"
+	}
+	relative_position_id = GKT_a_krupps_iron_heart
+	prerequisite = { focus = GKT_a_krupps_iron_heart }
+}
+
+shared_focus = {
+	id = GKT_diamant_prototype_plant
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_diamant_prototype_plant"
+	}
+	relative_position_id = GKT_the_svalinn_directive
+	prerequisite = { focus = GKT_the_svalinn_directive }
+	prerequisite = { focus = GKT_revive_the_balmung_and_minung_projects }
+}
+
+shared_focus = {
+	id = GKT_finishing_the_redevelopments
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_finishing_the_redevelopments"
+	}
+	relative_position_id = GKT_revive_the_balmung_and_minung_projects
+	prerequisite = { focus = GKT_revive_the_balmung_and_minung_projects }
+}
+
+shared_focus = {
+	id = GKT_steeled_future
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_steeled_future"
+	}
+	relative_position_id = GKT_diamant_prototype_plant
+	prerequisite = { focus = GKT_diamant_prototype_plant }
+	prerequisite = { focus = GKT_finishing_the_redevelopments }
+}
+
+shared_focus = {
+	id = GKT_new_kruppianers
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_new_kruppianers"
+	}
+	relative_position_id = GKT_forgers_of_greater_germany
+	prerequisite = { focus = GKT_forgers_of_greater_germany }
+	prerequisite = { focus = GKT_pride_among_the_locals }
+	mutually_exclusive = { focus = GKT_tulen_reconstructions }
+}
+
+shared_focus = {
+	id = GKT_finally_worthy
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GKT_finally_worthy"
+	}
+	relative_position_id = GKT_truly_too_big_to_fail
+	prerequisite = { focus = GKT_truly_too_big_to_fail }
+	prerequisite = { focus = GKT_an_organic_corporation }
+	prerequisite = { focus = GKT_steeled_future }
+}

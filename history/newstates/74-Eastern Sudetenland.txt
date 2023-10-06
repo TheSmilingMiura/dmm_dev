@@ -1,0 +1,24 @@
+
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+                        industrial_complex = 5
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		11666 
+	}
+	manpower=1593500
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

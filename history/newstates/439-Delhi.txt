@@ -1,0 +1,23 @@
+#blank to avoid ID errors="STATE_439"
+	manpower = 34995071
+	
+	state_category = megalopolis
+	
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 4
+		}
+		victory_points = {
+			2086 15 
+		}
+
+	}
+
+	provinces={
+		2032 12868 2086 11955 4915
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = VOL
+                add_core_of = VOL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2001 7950 7983 8039 8071 8096 10836 12794 12851 
+	}
+	manpower=14844500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

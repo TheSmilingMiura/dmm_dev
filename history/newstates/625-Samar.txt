@@ -1,0 +1,16 @@
+#blank to avoid ID errors="STATE_625"
+	manpower = 3610355
+	
+	state_category = town
+	history=
+	{
+		owner = PHI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		1224 1311 1340 4269 4373 
+	}
+}

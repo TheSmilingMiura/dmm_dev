@@ -1,0 +1,26 @@
+#blank to avoid ID errorsSTATE_687"
+	manpower = 851223
+	
+	state_category = pastoral
+	
+	resources={
+		aluminium=60 # was: 112
+	}
+
+	history={
+		owner = GYA
+		add_core_of = GYA
+		buildings = {
+			infrastructure = 2
+			4982 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+
+
+	provinces={
+		4982 8107 12716 
+	}
+}

@@ -1,0 +1,17 @@
+#blank to avoid ID errorsTATE_1110"
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ANG
+
+	}
+	state_category=pastoral
+	provinces={
+		4735 13892 13893 
+	}
+	manpower=64000
+	buildings_max_level_factor=1.000
+}

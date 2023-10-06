@@ -1,0 +1,23 @@
+
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		3889 3890 7620 9823 9860 9893 9912 11871 12387 12416 
+	}
+	manpower=6977206
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

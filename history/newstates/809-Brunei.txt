@@ -1,0 +1,18 @@
+#blank to avoid ID errorsSTATE_809"
+
+	state_category=city
+	manpower= 353293
+        resources={
+		oil=44
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+	}
+		
+	provinces={
+		7371 7387 
+	}
+	buildings_max_level_factor=1.000
+}

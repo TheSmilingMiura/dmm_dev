@@ -1,0 +1,29 @@
+state=
+{
+	id=847
+	name="STATE_847"
+	manpower = 736108
+	state_category = coastal_city_concession
+	
+	
+	history=
+	{
+		owner = JAP
+		add_core_of = JAP
+		victory_points = {
+			13340 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			13340 = {
+				naval_base = 1
+				bunker = 1
+			}
+		}
+	}
+	provinces={
+		13340
+	}
+}

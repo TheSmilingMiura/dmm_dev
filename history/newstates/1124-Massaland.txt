@@ -1,0 +1,12 @@
+#blank to avoid ID errorsTATE_1124"
+	provinces={
+		2206 5196 5224 
+	}
+        history={
+		owner = MAS
+		add_core_of = MAS
+	}
+	manpower=1900000
+        state_category = rural
+	buildings_max_level_factor=1.000
+}

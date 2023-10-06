@@ -1,0 +1,19 @@
+ state={
+	id=923
+	name="STATE_923"
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 7
+		}
+		victory_points = {
+			1238 3
+		}
+	}
+	provinces={
+		 1238 7447 1321 7391
+	}
+	manpower=31841374
+	state_category=large_city
+}

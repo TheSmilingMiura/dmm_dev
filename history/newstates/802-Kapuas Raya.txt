@@ -1,0 +1,15 @@
+#blank to avoid ID errors="STATE_802"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		2170 2222 5176 7424 13269 13272 13273 13274 13275 13276 
+	}
+	manpower=563024
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

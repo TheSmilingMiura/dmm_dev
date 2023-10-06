@@ -1,0 +1,18 @@
+
+state={
+	id=1030
+	name="STATE_1030"
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+
+	}
+
+	provinces={
+		4339 7075 7218 7356 9961 
+	}
+	manpower=510534
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

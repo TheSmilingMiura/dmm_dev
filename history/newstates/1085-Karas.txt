@@ -1,0 +1,17 @@
+#blank to avoid ID errorsTATE_1085"
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SAF
+
+	}
+	provinces={
+		2229 5154 5189 13702 13703 13711 13715 13720 13723 13725 13727 13733 13738 13740 13743 13890 
+	}
+	manpower=69329
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

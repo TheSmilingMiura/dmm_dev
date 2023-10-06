@@ -1,0 +1,14 @@
+#blank to avoid ID errors"STATE_1024"
+	provinces={
+		4359 7404 7432 10289 10317 12191 
+	}
+	manpower = 1769633
+	
+	state_category = pastoral
+	
+	history={
+		owner = VIN
+		add_core_of = VIN
+	}
+	buildings_max_level_factor=1.000
+}

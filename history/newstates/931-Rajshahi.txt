@@ -1,0 +1,13 @@
+#blank to avoid ID errors="STATE_931"
+	provinces={
+		4616 7565 7662 10389 10443 
+	}
+	history={
+		owner = AZA
+                add_core_of = AZA
+	}
+	
+	manpower=47710279
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

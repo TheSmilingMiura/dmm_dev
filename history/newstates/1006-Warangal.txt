@@ -1,0 +1,14 @@
+#blank to avoid ID errors"STATE_1006"
+	provinces={
+		1275 4280 4472 10511 11950 12114 
+	}
+	manpower = 7117744
+	
+	state_category = rural
+	
+	history={
+		owner = AZA
+		add_core_of = AZA
+	}
+	buildings_max_level_factor=1.000
+}

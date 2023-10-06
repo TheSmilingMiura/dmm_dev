@@ -1,0 +1,12 @@
+#blank to avoid ID errorsTATE_1115"
+	provinces={
+		191 12504 12677 
+	}
+        history={
+		owner = KUP
+		add_core_of = KUP
+	}
+	manpower=6781571
+        state_category = large_town
+	buildings_max_level_factor=1.000
+}

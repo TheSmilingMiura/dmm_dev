@@ -1,0 +1,30 @@
+#blank to avoid ID errors="STATE_428"
+	manpower = 20045589
+	
+	
+	state_category = large_city
+	resources={
+		oil=3 # was: 4
+	}
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+		victory_points = {
+			9975 1 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+                        industrial_complex = 5
+			9975 = {
+				naval_base = 2
+			}
+		}
+
+	}
+
+	provinces={
+		9975 11952 7150 4187
+	}
+}

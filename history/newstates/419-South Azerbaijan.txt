@@ -1,0 +1,25 @@
+
+state={
+	id=419
+	name="STATE_419"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			1896 3 
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1636 1822 1896 2071 4755 4825 7604 10454 12793 12861 13120 
+	}
+	manpower=6476915
+	buildings_max_level_factor=1.000
+	state_category=city
+}

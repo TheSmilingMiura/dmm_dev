@@ -1,0 +1,19 @@
+#blank to avoid ID errorsTATE_1087"
+	
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SAF
+
+	}
+	
+	provinces={
+		10963 13741 
+	}
+	manpower=34806
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

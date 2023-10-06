@@ -1,0 +1,26 @@
+
+state={
+	id=584
+	name="STATE_584"
+
+	history={
+		owner = NFT
+		buildings = {
+			infrastructure = 2
+                        10406 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NFT
+
+	}
+
+	provinces={
+		1593 7477 7563 10359 10406 12359 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

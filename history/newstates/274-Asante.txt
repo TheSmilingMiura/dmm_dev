@@ -1,0 +1,29 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = ASA
+                add_core_of = ASA
+		victory_points = {
+			10862 1 
+		}
+		buildings = {
+			infrastructure = 3
+			10862 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		5013 8122 12742 12787 13136 
+	}
+	manpower=3163600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

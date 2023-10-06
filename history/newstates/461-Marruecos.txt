@@ -1,0 +1,30 @@
+
+state={
+	id=461
+	name="STATE_461"
+
+	history={
+		owner = SPR
+		victory_points = {
+			7069 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			air_base = 4
+			7069 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1079 1102 1194 4139 7069 10070 11943 
+	}
+	manpower=25249879
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

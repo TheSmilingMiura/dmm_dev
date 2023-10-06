@@ -1,0 +1,24 @@
+#blank to avoid ID errors="STATE_446"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 15
+			air_base = 5
+
+		}
+		victory_points = {
+			7011 5 
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		992 1068 3996 4055 4143 7011 7117 7188 10005 10031 10127 12004 
+	}
+	manpower=20439541
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

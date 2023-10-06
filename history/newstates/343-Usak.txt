@@ -1,0 +1,23 @@
+#blank to avoid ID errors="STATE_343"
+	resources={
+		chromium=25.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		856 928 981 3856 3927 3983 6877 6945 9878 9921 10041 11796 11831 11898 11907 11917 
+	}
+	manpower=3367309
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,19 @@
+#blank to avoid ID errorsTATE_1133"
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SAF
+
+	}
+	
+	provinces={
+		1874 4851 13948 13951 13955 
+	}
+	manpower=2034652
+        state_category=rural
+	buildings_max_level_factor=1.000
+}

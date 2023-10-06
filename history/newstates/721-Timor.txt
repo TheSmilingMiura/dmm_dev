@@ -1,0 +1,43 @@
+
+state={
+	id=721
+	name="STATE_721"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = EEI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+
+			12190 = {
+				coastal_bunker = 2
+				naval_base = 5
+			}
+
+			1355 = {
+				coastal_bunker = 2
+				naval_base = 5
+
+			}
+		}
+
+		victory_points = {
+			1355 1 
+		}
+
+		victory_points = {
+			12190 1 
+		}
+
+	}
+
+	provinces={
+		1326 1339 1355 4358 12178 12190 12206 13001 13254 
+	}
+	manpower=2731058
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

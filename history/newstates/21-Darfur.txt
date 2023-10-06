@@ -1,0 +1,21 @@
+
+state={
+	id=21
+	name="STATE_21"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1960 5060 8052 8103 10739 
+	}
+	manpower=6795445
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

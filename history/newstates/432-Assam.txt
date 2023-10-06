@@ -1,0 +1,21 @@
+#blank to avoid ID errors="STATE_432"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = AZA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1116 1497 7455 12366 13404
+	}
+	manpower=22655528
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

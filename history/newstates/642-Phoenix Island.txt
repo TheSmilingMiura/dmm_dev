@@ -1,0 +1,19 @@
+#blank to avoid ID errors="STATE_642"
+	manpower=24
+	
+	state_category = tiny_island
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+			13050 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		13050 
+	}
+}

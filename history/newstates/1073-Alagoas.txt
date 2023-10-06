@@ -1,0 +1,25 @@
+#blank to avoid ID errorsTATE_1073"
+	resources={
+		oil=6
+	}
+	
+	history={
+		owner = SVR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = SVR
+		victory_points = {
+			10939 15 #Maceió
+		}
+
+	}
+	
+	provinces={
+		1524 10939 10998 13480 
+	}
+	manpower=3173000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

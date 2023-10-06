@@ -1,0 +1,17 @@
+#blank to avoid ID errorsTATE_1069"
+	history={
+		owner = AMZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = AMZ
+
+	}
+	provinces={
+		13616 13621 13628 13631 
+	}
+	manpower=405000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,15 @@
+#blank to avoid ID errors"STATE_1016"
+	provinces={
+		4990 7975 
+	}
+	manpower = 1155915
+	
+	state_category = wasteland
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+	}
+
+	buildings_max_level_factor=1.000
+}

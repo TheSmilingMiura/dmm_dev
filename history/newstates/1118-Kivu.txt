@@ -1,0 +1,12 @@
+#blank to avoid ID errorsTATE_1118"
+	provinces={
+		4941 7161 10766 10858 
+	}
+        history={
+		owner = KVU
+		add_core_of = KVU
+	}
+	manpower=8012000
+        state_category = large_town
+	buildings_max_level_factor=1.000
+}

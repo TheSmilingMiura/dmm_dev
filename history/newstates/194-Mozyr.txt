@@ -1,0 +1,23 @@
+
+state={
+	id=194
+	name="STATE_194"
+
+	history={
+		owner = RKO
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+
+		}
+		add_core_of = RKO
+
+	}
+
+	provinces={
+		215 3203 3293 3507 6232 6319 9249 9554 11453 
+	}
+	manpower=934632
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

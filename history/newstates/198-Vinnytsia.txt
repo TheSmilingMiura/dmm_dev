@@ -1,0 +1,20 @@
+#blank to avoid ID errors="STATE_198"
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		476 3430 6429 6455 9423 9435 9576 
+	}
+	manpower=1893391
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

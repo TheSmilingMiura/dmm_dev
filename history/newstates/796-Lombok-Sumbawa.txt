@@ -1,0 +1,26 @@
+
+state={
+	id=796
+	name="STATE_796"
+
+	history={
+		owner = EEI
+		add_core_of = EEI
+		victory_points = {
+			7293 1 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		7293 10191 12162 13249 13250 13251 
+	}
+	manpower=4184411
+	buildings_max_level_factor=1.000
+	state_category=town
+}

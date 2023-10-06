@@ -1,0 +1,29 @@
+
+state={
+	id=506
+	name="STATE_506" # Antofagasta
+	manpower = 944432
+	
+	state_category = rural
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 1
+			12994 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = CHL
+		victory_points = {
+			12994 5
+		}
+
+	}
+
+	provinces={
+		5131 5146 8217 8231 12994 
+	}
+}

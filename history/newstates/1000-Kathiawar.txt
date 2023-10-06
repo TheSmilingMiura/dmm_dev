@@ -1,0 +1,14 @@
+#blank to avoid ID errors"STATE_1000"
+	provinces={
+		1144 4090 4132 7207 10118 12037 
+	}
+	manpower = 13581292
+	
+	state_category = large_town
+	
+	history={
+		owner = AZA
+		add_core_of = AZA
+	}
+	buildings_max_level_factor=1.000
+}

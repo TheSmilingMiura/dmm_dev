@@ -1,0 +1,31 @@
+
+state={
+	id=788
+	name="STATE_788"
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+		#victory_points = {
+		#	7329 1 
+		#}
+		victory_points = {
+			10297 1 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		1364 1376 1392 4310 4367 4384 4412 4424 7399 10297 10313 12215 12255 12271 13329 
+	}
+	manpower=12504319
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

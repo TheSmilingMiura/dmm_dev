@@ -1,0 +1,17 @@
+state={
+	id=823
+	name="STATE_823"
+
+	state_category=town
+	manpower= 560000
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+	}
+		
+	provinces={
+		12144 1291 13331 
+	}
+	buildings_max_level_factor=1.000
+}

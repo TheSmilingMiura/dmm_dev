@@ -1,0 +1,17 @@
+#blank to avoid ID errorsTATE_1101"
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = ANG
+
+	}
+	state_category=city
+	provinces={
+		5158 13926 
+	}
+	manpower=5289463
+	buildings_max_level_factor=1.000
+}

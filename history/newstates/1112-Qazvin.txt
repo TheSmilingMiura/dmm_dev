@@ -1,0 +1,19 @@
+#blank to avoid ID errorsTATE_1112"
+	provinces={
+		4553 7969 10523 
+	}
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = PER
+
+	}
+
+	manpower=2107801
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

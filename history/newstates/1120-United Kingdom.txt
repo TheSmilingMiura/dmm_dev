@@ -1,0 +1,12 @@
+#blank to avoid ID errorsSTATE_1120"
+	provinces={
+		3854 7088 
+	}
+        history={
+		owner = UNK
+		add_core_of = UNK
+	}
+	manpower=6298075
+        state_category = town
+	buildings_max_level_factor=1.000
+}

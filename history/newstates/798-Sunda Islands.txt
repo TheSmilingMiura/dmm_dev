@@ -1,0 +1,25 @@
+
+state={
+	id=798
+	name="STATE_798"
+
+	history={
+		owner = EEI
+		add_core_of = EEI
+		victory_points = {
+			7321 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1298 4301 7321 10175 10219 12151 12219 12234 13252 13253 13256 13257 
+	}
+	manpower=2476344
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+
+	}
+
+	provinces={
+		11909 11936 1300 1302 4255 4334 4379 4397 4405 7229 7280 9988 10016 10137 10162 10309 12297 
+	}
+	manpower=16012246
+	buildings_max_level_factor=1.000
+	state_category=city
+}

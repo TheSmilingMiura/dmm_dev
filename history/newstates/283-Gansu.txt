@@ -1,0 +1,26 @@
+state={
+	id=283
+	name="STATE_283"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = SHA
+		add_core_of = SHA
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		set_demilitarized_zone = no
+	}
+
+	provinces={
+		531 556 1647 1933 1985 2022 3745 5025 6638 7911 12882 517 4939
+	}
+	manpower=3705400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=58
+	name="STATE_58"
+
+	history={
+		victory_points = {
+			6389 10 
+		}
+		victory_points = {
+			9347 50 
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 10
+			arms_factory = 10
+			dockyard = 10
+			industrial_complex = 15
+			air_base = 5
+			6389 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				anti_air_building = 5
+				dockyard = 7
+				arms_factory = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		317 3231 3368 6257 6389 9320 11331 11366 
+	}
+	manpower=10348500
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

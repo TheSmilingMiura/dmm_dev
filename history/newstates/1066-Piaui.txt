@@ -1,0 +1,20 @@
+#blank to avoid ID errorsTATE_1066"
+	
+	history={
+		owner = SVR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+		}
+		add_core_of = SVR
+		victory_points = {
+			13546 10 #Teresina
+		}
+	}
+	provinces={
+		2228 5153 5204 10984 13475 13484 13488 13494 13495 13496 13500 13509 13512 13515 13525 13532 13546 13547 13553 13555 13635 
+	}
+	manpower=3164000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

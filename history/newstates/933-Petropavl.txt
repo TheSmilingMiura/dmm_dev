@@ -1,0 +1,20 @@
+#blank to avoid ID errorsSTATE_933"
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 7
+                        industrial_complex = 5
+
+		}
+		add_core_of = SOV
+
+	}
+	
+	provinces={
+		1229 1309 1391 1694 4850 7741 7874 12619 
+	}
+	manpower=1545000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

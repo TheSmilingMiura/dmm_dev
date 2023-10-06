@@ -1,0 +1,22 @@
+
+state={
+	id=356
+	name="STATE_356"
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ALG
+
+	}
+
+	provinces={
+		1013 3991 4018 4116 4150 7008 7132 10045 11923 12020 12760 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+#blank to avoid ID errors="STATE_116"
+
+	history={
+		owner = ITA
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12003 
+	}
+	manpower=241621
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

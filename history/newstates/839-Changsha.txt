@@ -1,0 +1,27 @@
+#blank to avoid ID errorsSTATE_839"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+		owner = RRC
+		add_core_of = RRC
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		victory_points = {
+			7097 5 
+		}
+
+	}
+
+	provinces={
+		13143 7097 1640 9999 13140
+	}
+	manpower=11019284
+	buildings_max_level_factor=1.000
+	state_category=town
+}

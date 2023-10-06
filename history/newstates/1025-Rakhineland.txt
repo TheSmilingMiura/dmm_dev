@@ -1,0 +1,14 @@
+#blank to avoid ID errors"STATE_1025"
+	provinces={
+		1014 1333 3651 
+	}
+	manpower = 697763
+	
+	state_category = rural
+	
+	history={
+		owner = BRM
+		add_core_of = BRM
+	}
+	buildings_max_level_factor=1.000
+}

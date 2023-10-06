@@ -1,0 +1,17 @@
+#blank to avoid ID errorse = "STATE_1047"
+	state_category = enclave
+        resources={
+		oil=50.000
+	}
+	provinces = {
+		13412 
+	}
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+	}
+
+	manpower = 1235
+	buildings_max_level_factor = 1.000
+}

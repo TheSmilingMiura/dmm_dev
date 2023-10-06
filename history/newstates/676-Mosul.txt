@@ -1,0 +1,25 @@
+#blank to avoid ID errors="STATE_676"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			10106 1 
+		}
+		add_core_of = IRQ
+
+	}
+
+	provinces={
+		1578 1606 3916 5014 6826 10106 10804 10811 12473 
+	}
+	manpower=399300
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

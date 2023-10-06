@@ -1,0 +1,15 @@
+#blank to avoid ID errors"STATE_1019"
+	provinces={
+		1179 
+	}
+	manpower = 512695
+	
+	state_category = rural
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+	}
+
+	buildings_max_level_factor=1.000
+}

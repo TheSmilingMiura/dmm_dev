@@ -1,0 +1,21 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 10301527
+
+	state_category = town
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 5
+			#10149 = {
+			#	naval_base = 1
+			#}
+		}
+	}
+
+	provinces={7288 1409 4327 7402 }
+}

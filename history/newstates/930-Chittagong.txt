@@ -1,0 +1,15 @@
+#blank to avoid ID errors="STATE_930"
+	provinces={
+		9991 11968 12010 7179
+	}
+	history={
+		owner = AZA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	manpower=26290384
+	state_category=rural
+}

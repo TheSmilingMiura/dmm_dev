@@ -1,0 +1,32 @@
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		tungsten=60 # was: 102.000
+		steel=2 # was: 2.000
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 2
+
+		}
+		add_core_of = BOL
+		victory_points = {
+			5230 10 
+		}
+
+	}
+
+	provinces={
+		2174 5179 5229 5230 8157 8225 10938 10952 10987 12930 12979 13134 13174 13195 
+	}
+	manpower=5922623
+	buildings_max_level_factor=1.000
+}

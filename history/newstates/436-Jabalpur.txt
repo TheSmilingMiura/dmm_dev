@@ -1,0 +1,25 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		10801 12854
+	}
+	manpower=3626169
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,15 @@
+#blank to avoid ID errors="STATE_806"
+
+	history={
+		owner = PHI
+		add_core_of = PHI
+
+	}
+
+	provinces={
+		1288 1388 4101 4214 4233 7439 10252 
+	}
+	manpower=2619994
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

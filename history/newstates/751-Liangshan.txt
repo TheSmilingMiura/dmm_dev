@@ -1,0 +1,26 @@
+#blank to avoid ID errorsSTATE_751"
+	provinces={
+		1999 2067 4999 7294 12819
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = SIC
+		add_core_of = RRC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2
+
+			}
+
+		}
+
+	}
+}

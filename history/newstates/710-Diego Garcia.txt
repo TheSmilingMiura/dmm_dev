@@ -1,0 +1,19 @@
+#blank to avoid ID errorsSTATE_710"
+	manpower=2147	
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			13019 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		13019 
+	}
+}

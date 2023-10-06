@@ -1,0 +1,15 @@
+#blank to avoid ID errors="STATE_791"
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		10330 10356 10456 
+	}
+	manpower=338669
+	buildings_max_level_factor=1.000
+	state_category=town
+}

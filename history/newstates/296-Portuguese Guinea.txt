@@ -1,0 +1,28 @@
+
+state={
+	id=296
+	name="STATE_296"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 2
+			12891 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12747 12891 13590 13599 13610 13611 13612 13614 
+	}
+	manpower=1283000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

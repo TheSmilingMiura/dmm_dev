@@ -1,0 +1,29 @@
+
+state={
+	id=10
+	name="STATE_10"
+
+	history={
+		owner = GER
+		victory_points = {
+			3544 1 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 5
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		402 467 524 562 3458 3482 3497 3544 3586 6416 6511 9400 9427 11385 11430 11430 11430 11492 11532 12562 
+	}
+	manpower=2190000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

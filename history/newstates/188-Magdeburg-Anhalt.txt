@@ -1,0 +1,23 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		3522 6487 9238 9456 11359 11468 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

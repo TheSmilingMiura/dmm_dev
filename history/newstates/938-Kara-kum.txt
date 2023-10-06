@@ -1,0 +1,22 @@
+
+state={
+	id=938
+	name="STATE_938"
+
+	history={
+		owner = RTK
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RTK
+
+	}
+
+	provinces={
+		1493 4599 7618 7635 8099 10357 10414 10485 12491 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -7,7 +7,7 @@ focus_tree = {
 			tag = GER
 		}
 	}
-	default = no
+	default = yes
 	continuous_focus_position = { x = 50 y = 3000 }
 }
 shared_focus = {

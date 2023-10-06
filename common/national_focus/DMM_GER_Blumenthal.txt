@@ -1,0 +1,1756 @@
+focus_tree = {
+	id = GER_blumenthal_tree_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3000 }
+#####################Initial###############
+	focus = {
+		id = GER_hero_of_aktobe
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_time_is_nearly_up
+	    prerequisite = { focus = GER_clock_is_ticking }
+	    mutually_exclusive = { focus = DEN_dissecting_the_tumor }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_party
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_hero_of_aktobe
+	    prerequisite = { focus = GER_hero_of_aktobe }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}	
+	focus = {
+		id = GER_the_corporate_interests
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_hero_of_aktobe
+	    prerequisite = { focus = GER_hero_of_aktobe }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_artamen
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_hero_of_aktobe
+	    prerequisite = { focus = GER_hero_of_aktobe }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_old_ways
+		icon = GFX_focus_german_enlightenment
+		x = -1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_corporate_interests
+	    prerequisite = { focus = GER_the_party }
+		prerequisite = { focus = GER_the_corporate_interests }
+		prerequisite = { focus = GER_the_artamen }
+		mutually_exclusive = {focus= GER_the_new_ways }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_new_ways
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_corporate_interests
+	    prerequisite = { focus = GER_the_party }
+		prerequisite = { focus = GER_the_corporate_interests }
+		prerequisite = { focus = GER_the_artamen }
+		mutually_exclusive = {focus= GER_the_old_ways }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_military_industrial_complex
+		icon = GFX_focus_german_enlightenment
+		x = -1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_old_ways
+	    prerequisite = {
+			focus = GER_the_old_ways
+			focus = GER_the_new_ways
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_charisma
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_old_ways
+	    prerequisite = {
+			focus = GER_the_old_ways
+			focus = GER_the_new_ways
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_a_queens_touch
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_old_ways
+	    prerequisite = {
+			focus = GER_the_old_ways
+			focus = GER_the_new_ways
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rallying_the_wehrmacht
+		icon = GFX_focus_german_enlightenment
+		x = -1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_charisma
+	    prerequisite = { focus = GER_a_queens_touch }
+		prerequisite = { focus = GER_charisma }
+		prerequisite = { focus = GER_military_industrial_complex }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rallying_the_people
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_charisma
+	    prerequisite = { focus = GER_a_queens_touch }
+		prerequisite = { focus = GER_charisma }
+		prerequisite = { focus = GER_military_industrial_complex }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rumours_of_peace_and_quiet
+		icon = GFX_focus_german_enlightenment
+		x = -1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rallying_the_people
+	    prerequisite = { focus = GER_rallying_the_wehrmacht }
+		prerequisite = { focus = GER_rallying_the_people }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_blunomics
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rumours_of_peace_and_quiet
+	    prerequisite = { focus = GER_rumours_of_peace_and_quiet }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_back_to_basics
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rumours_of_peace_and_quiet
+	    prerequisite = { focus = GER_rumours_of_peace_and_quiet }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_looking_outwards
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rumours_of_peace_and_quiet
+	    prerequisite = { focus = GER_rumours_of_peace_and_quiet }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+#############Economics###########
+	focus = {
+		id = GER_money
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_gather_the_experts
+		icon = GFX_focus_german_enlightenment
+		x = -4
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_money }
+		relative_position_id = GER_money
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_gather_the_diplomats
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_money }
+		relative_position_id = GER_money
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_gather_the_bankers
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_money }
+		relative_position_id = GER_money
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_gather_the_bureaucrats
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_money }
+		relative_position_id = GER_money
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_gather_the_military
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_money }
+		relative_position_id = GER_money
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+##############Nationalization and Financial Regulation Plans###########
+	focus = {
+		id = GER_bank_nationalization_plan
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_gather_the_experts }
+		prerequisite = { focus = GER_gather_the_diplomats}
+		prerequisite = { focus = GER_gather_the_bankers }
+		prerequisite = { focus = GER_gather_the_bureaucrats }
+		prerequisite = { focus = GER_gather_the_military }
+		relative_position_id = GER_gather_the_experts
+		mutually_exclusive = {focus = GER_we_need_loans }
+		completion_reward = {
+		    add_political_power= -300
+		}
+	}
+	focus = {
+		id = GER_revamped_taxes
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_bank_nationalization_plan }
+		relative_position_id = GER_bank_nationalization_plan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_streamlining_bureaucracy
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_bank_nationalization_plan }
+		relative_position_id = GER_bank_nationalization_plan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_memories_of_focke_wulf
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_bank_nationalization_plan }
+		relative_position_id = GER_bank_nationalization_plan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_limited_reintroduction_of_window_guidance
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_revamped_taxes }
+		prerequisite = { focus = GER_streamlining_bureaucracy }
+		prerequisite = { focus = GER_memories_of_focke_wulf }
+		relative_position_id = GER_revamped_taxes
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_slight_unionization_liberalizations
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_revamped_taxes }
+		prerequisite = { focus = GER_streamlining_bureaucracy }
+		prerequisite = { focus = GER_memories_of_focke_wulf }
+		relative_position_id = GER_revamped_taxes
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_dreams_of_a_bureaucratic_meritocracy
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_limited_reintroduction_of_window_guidance }
+		prerequisite = { focus = GER_slight_unionization_liberalizations }
+		relative_position_id = GER_limited_reintroduction_of_window_guidance
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+############################Status Quo Financial Situation####################
+	focus = {
+		id = GER_we_need_loans
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_gather_the_experts }
+		prerequisite = { focus = GER_gather_the_diplomats}
+		prerequisite = { focus = GER_gather_the_bankers }
+		prerequisite = { focus = GER_gather_the_bureaucrats }
+		prerequisite = { focus = GER_gather_the_military }
+		relative_position_id = GER_gather_the_experts
+		mutually_exclusive = {focus = GER_bank_nationalization_plan }
+		mutually_exclusive = {focus = GER_financial_deregulation_plan }
+		completion_reward = {
+		    add_political_power= -300
+		}
+	}
+	focus = {
+		id = GER_efforts_in_milan
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_we_need_loans }
+		relative_position_id = GER_we_need_loans
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_bait_in_london
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_we_need_loans }
+		relative_position_id = GER_we_need_loans
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_the_backstreets_of_wallstreet
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_we_need_loans }
+		relative_position_id = GER_we_need_loans
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_guarantees
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_efforts_in_milan }
+		prerequisite = { focus = GER_bait_in_london }
+		prerequisite = { focus = GER_the_backstreets_of_wallstreet }
+		relative_position_id = GER_efforts_in_milan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_more_power_to_the_reichsbank
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_efforts_in_milan }
+		prerequisite = { focus = GER_bait_in_london }
+		prerequisite = { focus = GER_the_backstreets_of_wallstreet }
+		relative_position_id = GER_efforts_in_milan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_paying_internal_debt_with_foreign_debt
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_guarantees }
+		prerequisite = { focus = GER_more_power_to_the_reichsbank }
+		relative_position_id = GER_guarantees
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+##############################Margaret Thatcher Back from the dead, god bless Wall Street or some shit, God Bless Frankfurt???? fuck it let's call it Altonastrasse in DMMTL##############
+	focus = {
+		id = GER_financial_deregulation_plan
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_gather_the_experts }
+		prerequisite = { focus = GER_gather_the_diplomats}
+		prerequisite = { focus = GER_gather_the_bankers }
+		prerequisite = { focus = GER_gather_the_bureaucrats }
+		prerequisite = { focus = GER_gather_the_military }
+		relative_position_id = GER_gather_the_experts
+		mutually_exclusive = {focus = GER_bank_nationalization_plan }
+		mutually_exclusive = {focus = GER_we_need_loans }
+		completion_reward = {
+		    add_political_power= -300
+		}
+	}
+	focus = {
+		id = GER_tax_cuts_for_everybody
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_financial_deregulation_plan }
+		relative_position_id = GER_financial_deregulation_plan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_undermining_the_bureaucracy
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_financial_deregulation_plan }
+		relative_position_id = GER_financial_deregulation_plan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_fate_of_the_reichswerke
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_financial_deregulation_plan }
+		relative_position_id = GER_financial_deregulation_plan
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	#####handed over to Krupp######
+	focus = {
+		id = GER_positive_feedback
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_tax_cuts_for_everybody }
+		prerequisite = { focus = GER_undermining_the_bureaucracy }
+		prerequisite = { focus = GER_fate_of_the_reichswerke }
+		relative_position_id = GER_tax_cuts_for_everybody
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_stock_market_reforms
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_tax_cuts_for_everybody }
+		prerequisite = { focus = GER_undermining_the_bureaucracy }
+		prerequisite = { focus = GER_fate_of_the_reichswerke }
+		relative_position_id = GER_tax_cuts_for_everybody
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+	focus = {
+		id = GER_death_of_the_bureaucrat_question_mark
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_positive_feedback }
+		prerequisite = { focus = GER_stock_market_reforms }
+		relative_position_id = GER_positive_feedback
+		completion_reward = {
+		    add_political_power= -50
+		}
+	}
+##############################FULL ECO TREE unlocked by one of the final focuses whichever was chosen#################
+focus = {
+		id = GER_finishing_the_planning_process
+		icon = GFX_focus_german_enlightenment
+		x = 9
+		y = 6
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rooting_out_resistance
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_finishing_the_planning_process
+		prerequisite = { focus = GER_finishing_the_planning_process }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_blitzing_through_stagnation
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_finishing_the_planning_process
+		prerequisite = { focus = GER_finishing_the_planning_process }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_force_the_megaconcerns
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_finishing_the_planning_process
+		prerequisite = { focus = GER_finishing_the_planning_process }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_first_eight_year_plan
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rooting_out_resistance
+		prerequisite = { focus = GER_rooting_out_resistance }
+		prerequisite = { focus = GER_blitzing_through_stagnation }
+		prerequisite = { focus = GER_force_the_megaconcerns }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+##################Railways and Highways############
+	focus = {
+		id = GER_railway_reconstruction_germania_hamburg
+		icon = GFX_focus_german_enlightenment
+		x = -8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_railway_reconstruction_germania_essen
+		icon = GFX_focus_german_enlightenment
+		x = -6
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_railway_reconstruction_germania_dresden
+		icon = GFX_focus_german_enlightenment
+		x = -4
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_railway_reconstruction_germania_frankfurt
+		icon = GFX_focus_german_enlightenment
+		x = -2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_railway_reconstruction_germania_breslau
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+##############it should be noted these give maximum 5 level railways########
+	focus = {
+		id = GER_northwestern_autobahns
+		icon = GFX_focus_german_enlightenment
+		x = -1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_northeastern_autobahns
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_central_autobahns
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_southwestern_autobahns
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_northwestern_autobahns
+		prerequisite = { focus = GER_northwestern_autobahns }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_southeastern_autobahns
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_northeastern_autobahns
+		prerequisite = { focus = GER_northeastern_autobahns }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_cheap_transport
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_central_autobahns
+		prerequisite = { focus = GER_southeastern_autobahns }
+		prerequisite = { focus = GER_southwestern_autobahns }
+		prerequisite = { focus = GER_central_autobahns }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_new_rail_stock
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_complete_the_continental_gauge_standardization_project
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_new_rail_stock
+		prerequisite = { focus = GER_new_rail_stock }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_dreams_of_hsr
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_complete_the_continental_gauge_standardization_project
+		prerequisite = { focus = GER_complete_the_continental_gauge_standardization_project }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_revived_heart_of_europe
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_dreams_of_hsr
+		prerequisite = { focus = GER_dreams_of_hsr }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+################breitspurbahn wide gauge section, mainly reconstructions and finsihing abandoned projects. gives infra bonus and construction bonus######
+	focus = {
+		id = GER_breitspurbahn_germania_frankfurt
+		icon = GFX_focus_german_enlightenment
+		x = 5
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_breitspurbahn_germania_breslau
+		icon = GFX_focus_german_enlightenment
+		x = 7
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_breitspurbahn_germania_hamburg
+		icon = GFX_focus_german_enlightenment
+		x = 6
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_railway_reconstruction_germania_hamburg
+		prerequisite = { focus = GER_railway_reconstruction_germania_hamburg }
+		prerequisite = { focus = GER_railway_reconstruction_germania_essen }
+		prerequisite = { focus = GER_railway_reconstruction_germania_dresden }
+		prerequisite = { focus = GER_railway_reconstruction_germania_frankfurt }
+		prerequisite = { focus = GER_railway_reconstruction_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_breitspurbahn_frankfurt_strassburg
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_breitspurbahn_germania_frankfurt
+		prerequisite = { focus = GER_breitspurbahn_germania_frankfurt }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_breitspurbahn_breslau_warschau
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_breitspurbahn_germania_breslau
+		prerequisite = { focus = GER_breitspurbahn_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_high_speed_big_loads
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_breitspurbahn_frankfurt_strassburg
+		prerequisite = { focus = GER_breitspurbahn_frankfurt_strassburg }
+		prerequisite = { focus = GER_breitspurbahn_breslau_warschau }
+		prerequisite = { focus = GER_breitspurbahn_germania_hamburg }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+##############################industrial development, basically FREE CIVS, FREE MILS, FREE DOCKS, FREE CO-###############
+	focus = {
+		id = GER_krupp_resources
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_development_stimulus_package
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_krupp_resources
+		prerequisite = { focus = GER_krupp_resources }
+		prerequisite = { focus = GER_messerschmitt_technology }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_speers_window_guidance
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_messerschmitt_technology
+		prerequisite = { focus = GER_the_waning_reichswerke_influence }
+		prerequisite = { focus = GER_messerschmitt_technology }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_investments_in_arabia
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_mobilizing_the_todt_organization
+		prerequisite = { focus = GER_the_waning_reichswerke_influence }
+		prerequisite = { focus = GER_mobilizing_the_todt_organization }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_trillion_marks_for_the_dakag
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_waning_reichswerke_influence
+		prerequisite = { focus = GER_the_waning_reichswerke_influence }
+		prerequisite = { focus = GER_siemens_expertize_and_automation }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_upgrade_the_netzwerk
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_siemens_expertize_and_automation
+		prerequisite = { focus = GER_contracting_olivetti }
+		prerequisite = { focus = GER_siemens_expertize_and_automation }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_messerschmitt_technology
+		icon = GFX_focus_german_enlightenment
+		x = 4
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_mobilizing_the_todt_organization
+		icon = GFX_focus_german_enlightenment
+		x = 6
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_waning_reichswerke_influence
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_siemens_expertize_and_automation
+		icon = GFX_focus_german_enlightenment
+		x = 10
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_contracting_olivetti
+		icon = GFX_focus_german_enlightenment
+		x = 12
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_first_eight_year_plan
+		prerequisite = { focus = GER_the_first_eight_year_plan }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_krupps_fliers###theyre trains, theyre just express services###
+		icon = GFX_focus_german_enlightenment
+		x = -1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_development_stimulus_package
+		prerequisite = { focus = GER_development_stimulus_package }
+		prerequisite = { focus = GER_breitspurbahn_germania_breslau }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_bribing_the_danube
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_development_stimulus_package
+		prerequisite = { focus = GER_development_stimulus_package }
+		prerequisite = { focus = GER_speers_window_guidance }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rebuilding_essen
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_speers_window_guidance
+		prerequisite = { focus = GER_investments_in_arabia }
+		prerequisite = { focus = GER_speers_window_guidance }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_cheapest_energy_in_decades
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_investments_in_arabia
+		prerequisite = { focus = GER_investments_in_arabia }
+		prerequisite = { focus = GER_trillion_marks_for_the_dakag }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_mannesmann_telekom
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_trillion_marks_for_the_dakag
+		prerequisite = { focus = GER_upgrade_the_netzwerk }
+		prerequisite = { focus = GER_trillion_marks_for_the_dakag }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_balkan_hsr
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_krupps_fliers
+		prerequisite = { focus = GER_krupps_fliers }
+		prerequisite = { focus = GER_bribing_the_danube }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_the_new_danubian_axis
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_bribing_the_danube
+		prerequisite = { focus = GER_rebuilding_essen }
+		prerequisite = { focus = GER_bribing_the_danube }
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rheinland_reborn
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rebuilding_essen
+		prerequisite = { focus = GER_rebuilding_essen }
+		prerequisite = { focus = GER_cheapest_energy_in_decades}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_european_3g_network
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_cheapest_energy_in_decades
+		prerequisite = { focus = GER_mannesmann_telekom }
+		prerequisite = { focus = GER_cheapest_energy_in_decades}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_cheap_balkan_labour
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_balkan_hsr
+		prerequisite = { focus = GER_balkan_hsr }
+		prerequisite = { focus = GER_the_new_danubian_axis}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_a_solid_foundation
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_the_new_danubian_axis
+		prerequisite = { focus = GER_rheinland_reborn }
+		prerequisite = { focus = GER_the_new_danubian_axis}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_computerization_subsidies
+		icon = GFX_focus_german_enlightenment
+		x = 1
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rheinland_reborn
+		prerequisite = { focus = GER_european_3g_network }
+		prerequisite = { focus = GER_rheinland_reborn}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_a_modernized_danube
+		icon = GFX_focus_german_enlightenment
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_a_solid_foundation
+		prerequisite = { focus = GER_cheap_balkan_labour }
+		prerequisite = { focus = GER_a_solid_foundation}
+		prerequisite = { focus = GER_computerization_subsidies}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+#############################OP Focuses#########
+	focus = {
+		id = GER_ruhr_megalopolis
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_cheap_transport
+		prerequisite = { focus = GER_cheap_transport }
+		prerequisite = { focus = GER_revived_heart_of_europe}
+		prerequisite = { focus = GER_high_speed_big_loads}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_reichsbahn_cargo
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_breitspurbahn_breslau_warschau
+		prerequisite = { focus = GER_breitspurbahn_breslau_warschau }
+		prerequisite = { focus = GER_balkan_hsr}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_efficient_justintime_logistics
+		icon = GFX_focus_german_enlightenment
+		x = 8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_cheap_transport
+		prerequisite = { focus = GER_cheap_transport }
+		prerequisite = { focus = GER_reichsbahn_cargo}
+		prerequisite = { focus = GER_high_speed_big_loads}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_hamburg_germania_megalopolis
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_ruhr_megalopolis
+		prerequisite = { focus = GER_ruhr_megalopolis }
+		prerequisite = { focus = GER_efficient_justintime_logistics}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_a_prosperous_south
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_efficient_justintime_logistics
+		prerequisite = { focus = GER_efficient_justintime_logistics }
+		prerequisite = { focus = GER_a_modernized_danube}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_cheap_everything
+		icon = GFX_focus_german_enlightenment
+		x = 7
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_efficient_justintime_logistics
+		prerequisite = { focus = GER_efficient_justintime_logistics }
+		prerequisite = { focus = GER_a_modernized_danube}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_booming_consumer_market
+		icon = GFX_focus_german_enlightenment
+		x = 7
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_hamburg_germania_megalopolis
+		prerequisite = { focus = GER_a_prosperous_south }
+		prerequisite = { focus = GER_cheap_everything}
+		prerequisite = { focus = GER_hamburg_germania_megalopolis}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_rapid_defense_production_capability
+		icon = GFX_focus_german_enlightenment
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_hamburg_germania_megalopolis
+		prerequisite = { focus = GER_a_prosperous_south }
+		prerequisite = { focus = GER_cheap_everything}
+		prerequisite = { focus = GER_hamburg_germania_megalopolis}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_neoindustrial_golden_age
+		icon = GFX_focus_german_enlightenment
+		x = 2
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = GER_rapid_defense_production_capability
+		prerequisite = { focus = GER_rapid_defense_production_capability }
+		prerequisite = { focus = GER_booming_consumer_market}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+}
+

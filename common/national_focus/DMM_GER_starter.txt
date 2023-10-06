@@ -10,3 +10,227 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 50 y = 3000 }
 }
+shared_focus = {
+	id = GER_clock_is_ticking
+	icon = GFX_GER_clock_is_ticking
+	cost = 2
+	x = 0
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GER_time_is_nearly_up"
+	}
+}
+shared_focus = {
+	id = GER_a_matter_of_succession
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_time_is_nearly_up
+	prerequisite = { focus = GER_clock_is_ticking }
+	mutually_exclusive = { focus = DEN_dissecting_the_tumor }
+}
+shared_focus = {
+	id = GER_the_party_opinion
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = -0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_a_matter_of_succession
+	prerequisite = { focus = GER_a_matter_of_succession }
+}
+shared_focus = {
+	id = GER_the_opinion_of_the_army
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_the_party_opinion
+	prerequisite = { focus = GER_the_party_opinion }
+}
+shared_focus = {
+	id = GER_the_opinion_of_the_populace
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_the_party_opinion
+	prerequisite = { focus = GER_the_party_opinion }
+}
+shared_focus = {
+	id = GER_the_opinion_of_industry
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_the_party_opinion
+	prerequisite = { focus = GER_the_party_opinion }
+}
+shared_focus = {
+	id = GER_the_coming_storm
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_the_opinion_of_industry
+	prerequisite = { focus = GER_the_opinion_of_industry }
+	prerequisite = { focus = GER_the_opinion_of_the_army }
+	prerequisite = { focus = GER_the_opinion_of_the_populace }
+}
+shared_focus = {
+	id = GER_tipping_the_balance
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_the_coming_storm
+	prerequisite = { focus = GER_the_coming_storm }	
+	mutually_exclusive = {focus = GER_staying_at_the_top }
+}
+shared_focus = {
+	id = GER_envolving_the_people
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_tipping_the_balance
+	prerequisite = { focus = GER_tipping_the_balance }	
+}
+shared_focus = {
+	id = GER_the_ruhrgebiet_leverage
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_tipping_the_balance
+	prerequisite = { focus = GER_tipping_the_balance }	
+}
+shared_focus = {
+	id = GER_real_power
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_envolving_the_people
+	prerequisite = { focus = GER_envolving_the_people }
+	prerequisite = { focus = GER_the_ruhrgebiet_leverage }		
+}
+shared_focus = {
+	id = GER_comes_out_of_a_gun_barrel
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_real_power
+	prerequisite = { focus = GER_real_power }	
+}
+shared_focus = {
+	id = GER_staying_at_the_top
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_the_coming_storm
+	prerequisite = { focus = GER_the_coming_storm }	
+	mutually_exclusive = {focus = GER_tipping_the_balance }
+}
+shared_focus = {
+	id = GER_marshalling_the_army
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_staying_at_the_top
+	prerequisite = { focus = GER_staying_at_the_top }	
+}
+shared_focus = {
+	id = GER_marshalling_the_party
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_staying_at_the_top
+	prerequisite = { focus = GER_staying_at_the_top }	
+}
+shared_focus = {
+	id = GER_connections_connections
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_marshalling_the_party
+	prerequisite = { focus = GER_marshalling_the_army }
+	prerequisite = { focus = GER_marshalling_the_party }		
+}
+shared_focus = {
+	id = GER_money_talks
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_connections_connections
+	prerequisite = { focus = GER_connections_connections }	
+}
+shared_focus = {
+	id = GER_all_is_quiet_throughout_the_reich
+	icon = GFX_DEN_in_search_of_identity
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus DEN_in_search_of_identity"
+	}
+	relative_position_id = GER_comes_out_of_a_gun_barrel
+	prerequisite = {
+		focus = GER_comes_out_of_a_gun_barrel
+		focus = GER_money_talks
+	}
+}

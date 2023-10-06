@@ -1,0 +1,113 @@
+focus_tree = {
+	id = GER_speerist_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3000 }
+	focus = {
+		id = GER_reformation
+		icon = GFX_focus_german_enlightenment
+		x = 18
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		    has_country_leader = {
+                name = "Maximillian Salzer"
+                ruling_only = yes
+            }
+		}
+		completion_reward = {
+		    add_political_power= 150
+		}
+	}
+	focus = {
+		id = GER_revert_the_changes
+		icon = GFX_focus_german_enlightenment
+		x = 18
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		    has_country_leader = {
+                name = "Maximillian Salzer"
+                ruling_only = yes
+            }
+		}
+		completion_reward = {
+		    add_stability = 0.1
+		}
+	}
+	focus = {
+		id = GER_pleasing_the_bosses
+		icon = GFX_focus_german_enlightenment
+		x = 19
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		    has_country_leader = {
+                name = "Maximillian Salzer"
+                ruling_only = yes
+            }
+		}
+		completion_reward = {
+		    add_political_power = 100
+		    add_ideas = megakonzern_influence
+		}
+	}
+	focus = {
+		id = GER_industrial_subsidies
+		icon = GFX_focus_german_enlightenment
+		x = 17
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		    has_country_leader = {
+                name = "Maximillian Salzer"
+                ruling_only = yes
+            }
+		}
+		completion_reward = {
+		    
+		}
+	}
+#	focus = {
+#		id = GER_reformation
+#		icon = GFX_focus_german_enlightenment
+#		x = 18
+#		y = 1
+#		cost = 1
+#		available_if_capitulated = yes
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		available = {
+#		    has_country_leader = {
+#                name = "Maximillian Salzer"
+#                ruling_only = yes
+#            }
+#		}
+#		completion_reward = {
+#		    add_political_power= 150
+#		}
+#	}
+}
